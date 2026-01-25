@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ title or "MCHS Sports Almanac" }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if description %}<meta name="description" content="{{ description }}">{% endif %}
+  <link rel="stylesheet" href="{{ '/assets/site.css' | url }}">
+</head>
+<body>
+  <div class="wrapper">
+    {{ content | safe }}
+  </div>
+</body>
+</html>
