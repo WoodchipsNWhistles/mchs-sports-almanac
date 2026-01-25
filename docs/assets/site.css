@@ -9,6 +9,39 @@
   --body:"Libre Baskerville","Times New Roman",serif;
 }
 
+.topnav{
+  border-bottom: 2px solid var(--rule);
+  background: rgba(255,255,255,.35);
+}
+
+.topnav-inner{
+  max-width:980px;
+  margin:0 auto;
+  padding:.6rem 1.25rem;
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:1rem;
+  flex-wrap:wrap;
+}
+
+.topnav .brand{
+  font-family: var(--masthead);
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: .02em;
+}
+
+.topnav .links a{
+  margin-left: .9rem;
+  font-family: var(--masthead);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.topnav .links a:first-child{ margin-left: 0; }
+
+
 *{box-sizing:border-box}
 
 html,body{
