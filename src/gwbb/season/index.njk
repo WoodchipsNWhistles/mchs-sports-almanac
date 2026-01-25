@@ -1,0 +1,48 @@
+---
+layout: base.njk
+title: GWBB Seasons
+description: Greenwave Boys Basketball season index.
+---
+
+<header>
+  <p class="kicker"><a href="{{ '/gwbb/' | url }}">← Back to GWBB</a></p>
+  <h1 class="masthead-title" style="font-size:clamp(1.9rem,3.5vw,3rem);">GWBB Seasons</h1>
+  <p class="deck">Published seasons and JSON sources.</p>
+  <hr class="rule">
+</header>
+
+<section class="grid">
+  <main>
+
+<p class="article-note">
+  <strong>Coverage note:</strong> Seasons shown in <strong>bold</strong> include full game-level box scores.
+  Earlier seasons without box scores retain overall team records and season-level player statistics
+  where available.
+</p>
+
+    <p class="kicker">Seasons</p>
+<div class="article">
+  {% if gwbbSeasons and gwbbSeasons.length %}
+    <ul>
+      {% for s in gwbbSeasons %}
+        <li>
+          <a href="{{ s.url | url }}"><strong>{{ s.label }}</strong></a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No published seasons yet.</p>
+  {% endif %}
+</div>
+
+  </main>
+
+  <aside>
+    <div class="box">
+      <h3 style="margin:0 0 .5rem; font-family: var(--masthead);">Publishing policy</h3>
+      <p style="margin:0;">
+        Current season is held until complete. This list updates automatically based on JSON files in <code>/gwbb/data/</code>.
+      </p>
+    </div>
+  </aside>
+</section>
