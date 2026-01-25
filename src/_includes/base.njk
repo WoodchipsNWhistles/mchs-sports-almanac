@@ -8,6 +8,17 @@
   <link rel="stylesheet" href="{{ '/assets/site.css' | url }}">
 </head>
 <body>
+<nav class="topnav" aria-label="Site">
+  <div class="topnav-inner">
+    <a class="brand" href="{{ '/' | url }}">MCHS Sports Almanac</a>
+    <div class="links">
+      <a href="{{ '/' | url }}">Home</a>
+      <a href="{{ '/project/' | url }}">Project</a>
+      <a href="{{ '/gwbb/' | url }}">GWBB</a>
+    </div>
+  </div>
+</nav>
+
   <div class="wrapper">
     {{ content | safe }}
   </div>
