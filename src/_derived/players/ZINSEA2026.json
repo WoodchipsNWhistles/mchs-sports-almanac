@@ -1,0 +1,106 @@
+{
+  "playerID": "ZINSEA2026",
+  "playerIDBase": "ZINSEA2026",
+  "playerIDSuffix": 1,
+  "jersey": 11,
+  "first": "Sean",
+  "last": "Zinger",
+  "name": "Sean Zinger",
+  "pos": "SF",
+  "grade": "Jr.",
+  "gradeFull": "Junior",
+  "gradYear": 2026,
+  "participation": [
+    {
+      "sportCode": "GWBB",
+      "seasonYearEnd": 2025,
+      "level": "V",
+      "role": "athlete"
+    }
+  ],
+  "seasons": [
+    {
+      "sportCode": "GWBB",
+      "seasonYearEnd": 2025,
+      "level": "V",
+      "gamesPlayed": 4,
+      "totals": {
+        "games": 4,
+        "pts": 10,
+        "reb": 10,
+        "twoPM": 5,
+        "twoPA": 14,
+        "threePM": 0,
+        "threePA": 1,
+        "ftM": 0,
+        "ftA": 0
+      },
+      "gameStats": [
+        {
+          "gameID": "GWBB2025-20241210-H-CLOVER",
+          "playerID": "ZINSEA2026",
+          "jersey": 11,
+          "playerName": "Sean Zinger",
+          "twoPM": 1,
+          "twoPA": 3,
+          "threePM": 0,
+          "threePA": 0,
+          "ftM": 0,
+          "ftA": 0,
+          "pts": 2,
+          "reb": 3,
+          "tenPlus": false,
+          "doubleDouble": false
+        },
+        {
+          "gameID": "GWBB2025-20250114-H-TRINIT",
+          "playerID": "ZINSEA2026",
+          "jersey": 11,
+          "playerName": "Sean Zinger",
+          "twoPM": 1,
+          "twoPA": 4,
+          "threePM": 0,
+          "threePA": 0,
+          "ftM": 0,
+          "ftA": 0,
+          "pts": 2,
+          "reb": 1,
+          "tenPlus": false,
+          "doubleDouble": false
+        },
+        {
+          "gameID": "GWBB2025-20250206-A-CLOVER",
+          "playerID": "ZINSEA2026",
+          "jersey": 11,
+          "playerName": "Sean Zinger",
+          "twoPM": 3,
+          "twoPA": 5,
+          "threePM": 0,
+          "threePA": 1,
+          "ftM": 0,
+          "ftA": 0,
+          "pts": 6,
+          "reb": 4,
+          "tenPlus": false,
+          "doubleDouble": false
+        },
+        {
+          "gameID": "GWBB2025-20250221-H-CAMPBE",
+          "playerID": "ZINSEA2026",
+          "jersey": 11,
+          "playerName": "Sean Zinger",
+          "twoPM": 0,
+          "twoPA": 2,
+          "threePM": 0,
+          "threePA": 0,
+          "ftM": 0,
+          "ftA": 0,
+          "pts": 0,
+          "reb": 2,
+          "tenPlus": false,
+          "doubleDouble": false
+        }
+      ]
+    }
+  ]
+}

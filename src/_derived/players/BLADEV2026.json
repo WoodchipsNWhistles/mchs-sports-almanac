@@ -1,0 +1,122 @@
+{
+  "playerID": "BLADEV2026",
+  "playerIDBase": "BLADEV2026",
+  "playerIDSuffix": 1,
+  "jersey": 3,
+  "first": "Devon",
+  "last": "Blackmon",
+  "name": "Devon Blackmon",
+  "pos": "SG",
+  "grade": "Jr.",
+  "gradeFull": "Junior",
+  "gradYear": 2026,
+  "participation": [
+    {
+      "sportCode": "GWBB",
+      "seasonYearEnd": 2025,
+      "level": "V",
+      "role": "athlete"
+    }
+  ],
+  "seasons": [
+    {
+      "sportCode": "GWBB",
+      "seasonYearEnd": 2025,
+      "level": "V",
+      "gamesPlayed": 5,
+      "totals": {
+        "games": 5,
+        "pts": 9,
+        "reb": 2,
+        "twoPM": 4,
+        "twoPA": 5,
+        "threePM": 0,
+        "threePA": 1,
+        "ftM": 1,
+        "ftA": 2
+      },
+      "gameStats": [
+        {
+          "gameID": "GWBB2025-20241206-H-BULLIT",
+          "playerID": "BLADEV2026",
+          "jersey": 3,
+          "playerName": "Devon Blackmon",
+          "twoPM": 0,
+          "twoPA": 0,
+          "threePM": 0,
+          "threePA": 0,
+          "ftM": 0,
+          "ftA": 0,
+          "pts": 0,
+          "reb": 0,
+          "tenPlus": false,
+          "doubleDouble": false
+        },
+        {
+          "gameID": "GWBB2025-20241210-H-CLOVER",
+          "playerID": "BLADEV2026",
+          "jersey": 3,
+          "playerName": "Devon Blackmon",
+          "twoPM": 4,
+          "twoPA": 5,
+          "threePM": 0,
+          "threePA": 1,
+          "ftM": 0,
+          "ftA": 0,
+          "pts": 8,
+          "reb": 0,
+          "tenPlus": false,
+          "doubleDouble": false
+        },
+        {
+          "gameID": "GWBB2025-20241227-N-HENRYC",
+          "playerID": "BLADEV2026",
+          "jersey": 3,
+          "playerName": "Devon Blackmon",
+          "twoPM": 0,
+          "twoPA": 0,
+          "threePM": 0,
+          "threePA": 0,
+          "ftM": 0,
+          "ftA": 0,
+          "pts": 0,
+          "reb": 1,
+          "tenPlus": false,
+          "doubleDouble": false
+        },
+        {
+          "gameID": "GWBB2025-20250114-H-TRINIT",
+          "playerID": "BLADEV2026",
+          "jersey": 3,
+          "playerName": "Devon Blackmon",
+          "twoPM": 0,
+          "twoPA": 0,
+          "threePM": 0,
+          "threePA": 0,
+          "ftM": 0,
+          "ftA": 0,
+          "pts": 0,
+          "reb": 0,
+          "tenPlus": false,
+          "doubleDouble": false
+        },
+        {
+          "gameID": "GWBB2025-20250210-A-JOHNHA",
+          "playerID": "BLADEV2026",
+          "jersey": 3,
+          "playerName": "Devon Blackmon",
+          "twoPM": 0,
+          "twoPA": 0,
+          "threePM": 0,
+          "threePA": 0,
+          "ftM": 1,
+          "ftA": 2,
+          "pts": 1,
+          "reb": 1,
+          "tenPlus": false,
+          "doubleDouble": false
+        }
+      ]
+    }
+  ]
+}
