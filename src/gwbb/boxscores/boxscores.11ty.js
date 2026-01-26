@@ -277,7 +277,12 @@ const playerRows = Array.from(agg.values()).map((r) => {
                   .map(
                     (r) => `<tr>
                       <td>${escapeHtml(String(r.jersey))}</td>
-                      <td>${escapeHtml(String(r.name))}</td>
+                      <td>
+<a href="../../../players/${escapeHtml(String(r.playerID))}/">
+    ${escapeHtml(String(r.name))}
+  </a>
+</td>
+
                       <td>${r.twoPM}-${r.twoPA}</td>
                       <td>${has3pt ? `${r.threePM}-${r.threePA}` : "—"}</td>
                       <td>${r.ftM}-${r.ftA}</td>
