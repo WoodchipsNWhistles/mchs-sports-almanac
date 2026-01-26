@@ -130,6 +130,15 @@ a:hover{opacity:.85}
   grid-template-columns: 1fr;
 }
 
+/* Narrow count columns */
+table th:nth-child(9),
+table td:nth-child(9),
+table th:nth-child(10),
+table td:nth-child(10) {
+  width: 5ch;
+  text-align: center;
+  white-space: nowrap;
+}
 
 .box{
   border:2px solid var(--rule);

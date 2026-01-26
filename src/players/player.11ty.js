@@ -26,6 +26,32 @@ module.exports = class PlayerPage {
     const varsitySeasons = (player.seasons ?? []).filter(
       (s) => s.level === "V"
     );
+    
+    const varsityGames = varsitySeasons.flatMap((s) => s.gameStats ?? []);
+    
+    const careerTenPlus = varsityGames.filter((g) => Number(g.tenPlus) > 0).length;
+const careerDoubleDoubles = varsityGames.filter((g) => Number(g.doubleDouble) > 0).length;
+
+
+const nonZero = (n) => Number(n) > 0;
+
+const maxPts = Math.max(
+  0,
+  ...varsityGames.map((g) => Number(g.pts)).filter(nonZero)
+);
+const maxReb = Math.max(
+  0,
+  ...varsityGames.map((g) => Number(g.reb)).filter(nonZero)
+);
+
+const ptsCount = varsityGames.filter(
+  (g) => Number(g.pts) === maxPts && nonZero(g.pts)
+).length;
+
+const rebCount = varsityGames.filter(
+  (g) => Number(g.reb) === maxReb && nonZero(g.reb)
+).length;
+
     const careerTotals = varsitySeasons.reduce(
   (acc, s) => {
     const t = s.totals ?? {};
@@ -67,6 +93,10 @@ const pct = (m, a) => {
     const varsityRows = varsitySeasons
       .map((s) => {
         const t = s.totals ?? {};
+        const lines = s.gameStats ?? [];
+const tenPlus = lines.filter((g) => Number(g.tenPlus) > 0).length;
+const dd = lines.filter((g) => Number(g.doubleDouble) > 0).length;
+
         const two = `${t.twoPM ?? 0}-${t.twoPA ?? 0}`;
         const three = `${t.threePM ?? 0}-${t.threePA ?? 0}`;
         const ft = `${t.ftM ?? 0}-${t.ftA ?? 0}`;
@@ -79,7 +109,8 @@ const pct = (m, a) => {
 <td>${pct(t.threePM, t.threePA)}</td>
 <td>${ft}</td>
 <td>${pct(t.ftM, t.ftA)}</td>
-
+<td>${tenPlus}</td>
+<td>${dd}</td>
           <td>${t.reb ?? 0}</td>
           <td><strong>${t.pts ?? 0}</strong></td>
         </tr>`;
@@ -107,6 +138,8 @@ const pct = (m, a) => {
         <th>3PT%</th>
         <th>FT</th>
         <th>FT%</th>
+        <th>10+</th>
+<th>Double-<br>Doubles</th>
         <th>REB</th>
         <th>PTS</th>
       </tr>
@@ -127,6 +160,8 @@ const pct = (m, a) => {
         <th>3PT%</th>
         <th>FT</th>
         <th>FT%</th>
+        <th>10+</th>
+<th>Double-<br>Doubles</th>
         <th>REB</th>
         <th>PTS</th>
       </tr>
@@ -140,11 +175,24 @@ const pct = (m, a) => {
         <td>${pct(careerTotals.threePM, careerTotals.threePA)}</td>
         <td>${careerTotals.ftM}-${careerTotals.ftA}</td>
         <td>${pct(careerTotals.ftM, careerTotals.ftA)}</td>
+        <td>${careerTenPlus}</td>
+<td>${careerDoubleDoubles}</td>
+
         <td>${careerTotals.reb}</td>
         <td><strong>${careerTotals.pts}</strong></td>
       </tr>
     </tbody>
-  </table>`
+  </table>
+  <h2>Best Games on Record — Varsity</h2>
+<ul>
+  <li>
+    Points: <strong>${maxPts ? `${maxPts}${ptsCount > 1 ? ` (${ptsCount} times)` : ""}` : "—"}</strong>
+  </li>
+  <li>
+    Rebounds: <strong>${maxReb ? `${maxReb}${rebCount > 1 ? ` (${rebCount} times)` : ""}` : "—"}</strong>
+  </li>
+</ul>
+`
 
 
         : `<p>No varsity season totals on record.</p>`
