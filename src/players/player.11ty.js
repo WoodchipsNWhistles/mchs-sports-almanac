@@ -88,6 +88,26 @@ const pct = (m, a) => {
   return `${((mm / aa) * 100).toFixed(1)}%`;
 };
 
+const gameUrl = (gameID) => `/gwbb/boxscores/${gameID}/`;
+const varsityGameRows = [...varsityGames]
+  .sort((a, b) => String(a.gameID).localeCompare(String(b.gameID)))
+  .map((g) => {
+    const two = `${g.twoPM ?? 0}-${g.twoPA ?? 0}`;
+    const three = `${g.threePM ?? 0}-${g.threePA ?? 0}`;
+    const ft = `${g.ftM ?? 0}-${g.ftA ?? 0}`;
+    return `<tr>
+      <td><a href="${gameUrl(g.gameID)}">${g.gameID}</a></td>
+      <td>${two}</td>
+      <td>${pct(g.twoPM, g.twoPA)}</td>
+      <td>${three}</td>
+      <td>${pct(g.threePM, g.threePA)}</td>
+      <td>${ft}</td>
+      <td>${pct(g.ftM, g.ftA)}</td>
+      <td>${g.reb ?? 0}</td>
+      <td><strong>${g.pts ?? 0}</strong></td>
+    </tr>`;
+  })
+  .join("");
 
 
     const varsityRows = varsitySeasons
@@ -100,6 +120,9 @@ const dd = lines.filter((g) => Number(g.doubleDouble) > 0).length;
         const two = `${t.twoPM ?? 0}-${t.twoPA ?? 0}`;
         const three = `${t.threePM ?? 0}-${t.threePA ?? 0}`;
         const ft = `${t.ftM ?? 0}-${t.ftA ?? 0}`;
+        
+        
+
         return `<tr>
           <td>${fmtSeason(s.seasonYearEnd)}</td>
           <td>${s.gamesPlayed ?? 0}</td>
@@ -192,6 +215,31 @@ const dd = lines.filter((g) => Number(g.doubleDouble) > 0).length;
     Rebounds: <strong>${maxReb ? `${maxReb}${rebCount > 1 ? ` (${rebCount} times)` : ""}` : "—"}</strong>
   </li>
 </ul>
+
+<h2>Per-Game Log — Varsity</h2>
+${
+  varsityGames.length
+    ? `<table>
+        <thead>
+          <tr>
+            <th>Game</th>
+            <th>2PT</th>
+            <th>2PT%</th>
+            <th>3PT</th>
+            <th>3PT%</th>
+            <th>FT</th>
+            <th>FT%</th>
+            <th>REB</th>
+            <th>PTS</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${varsityGameRows}
+        </tbody>
+      </table>`
+    : `<p>No varsity game log on record.</p>`
+}
+
 `
 
 
