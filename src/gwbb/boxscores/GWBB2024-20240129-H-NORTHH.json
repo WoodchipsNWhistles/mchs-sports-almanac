@@ -11,5 +11,6 @@
   "pa": 89,
   "outcome": "Loss",
   "notes": null,
-  "hasPlayerStats": false
+  "hasPlayerStats": false,
+  "status": "stub"
 }

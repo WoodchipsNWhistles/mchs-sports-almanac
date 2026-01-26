@@ -11,5 +11,6 @@
   "pa": 48,
   "outcome": "Win",
   "notes": "11th District Championship",
-  "hasPlayerStats": false
+  "hasPlayerStats": false,
+  "status": "stub"
 }

@@ -11,5 +11,6 @@
   "pa": 44,
   "outcome": "Win",
   "notes": "Magnolia Bank Holiday Classic",
-  "hasPlayerStats": false
+  "hasPlayerStats": false,
+  "status": "stub"
 }

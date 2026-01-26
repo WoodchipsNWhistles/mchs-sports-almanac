@@ -98,7 +98,8 @@ module.exports = class BoxscorePages {
 
   render(data) {
     const b = data.boxscore;
-    
+    const dateDisplay = b.dateLabel || b.dateISO || b.date || "";
+
     const siteLabel =
   b.siteCode === "H" ? "Home" :
   b.siteCode === "A" ? "Away" :
@@ -232,7 +233,8 @@ const playerRows = Array.from(agg.values()).map((r) => {
       <h2 style="margin-top:0;">${escapeHtml(b.opponent || "Opponent")}</h2>
 
       <p class="small" style="margin:.25rem 0 0;">
-        <strong>${escapeHtml(b.dateISO || "")}</strong>
+      <strong>${escapeHtml(dateDisplay)}</strong>
+
         • ${escapeHtml(siteLabel || "")}
       </p>
 
@@ -242,20 +244,22 @@ const playerRows = Array.from(agg.values()).map((r) => {
         ${b.outcome ? ` • <strong>${escapeHtml(b.outcome)}</strong>` : ""}
       </p>
 
-      ${
-        hasStats
-          ? `<p class="small" style="margin:.75rem 0 0;">
-              <strong>Shooting:</strong>
-              FG ${fgM}-${fgA} (${pct(fgM, fgA)}) •
-              ${has3pt ? `3PT ${threeM}-${threeA} (${pct(threeM, threeA)}) •` : `3PT — •`}
-              FT ${ftMade}-${ftAtt} (${pct(ftMade, ftAtt)})
-            </p>`
-          : `<p class="small">
-              <strong>Status:</strong>
-              ${escapeHtml(b.status || "stub")}${isStub ? " (stats not entered yet)" : ""}
-            </p>`
-      }
-    </div>
+${
+  hasStats
+    ? `<p class="small" style="margin:.75rem 0 0;">
+        <strong>Shooting:</strong>
+        FG ${fgM}-${fgA} (${pct(fgM, fgA)}) •
+        ${has3pt ? `3PT ${threeM}-${threeA} (${pct(threeM, threeA)}) •` : `3PT — •`}
+        FT ${ftMade}-${ftAtt} (${pct(ftMade, ftAtt)})
+      </p>`
+    : `<div class="box" style="margin-top:.75rem;">
+         <p style="margin:0;">
+           <strong>This box score is incomplete.</strong>
+           If you have missing statistics, scorebooks, or official records for this game, please contact the site administrator to help improve the historical record.
+         </p>
+       </div>`
+}
+
 
     ${
       hasStats

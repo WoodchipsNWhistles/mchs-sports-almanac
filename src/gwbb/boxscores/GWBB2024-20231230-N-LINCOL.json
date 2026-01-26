@@ -11,5 +11,6 @@
   "pa": 58,
   "outcome": "Win",
   "notes": "Daytona Beach Sunshine Classic",
-  "hasPlayerStats": false
+  "hasPlayerStats": false,
+  "status": "stub"
 }

@@ -17,6 +17,7 @@ Notes:
 
 import argparse
 import json
+import math
 import datetime
 from pathlib import Path
 from typing import Any, Dict, List
@@ -24,9 +25,16 @@ from typing import Any, Dict, List
 import pandas as pd
 
 def _json_safe(val):
+    # pandas/Excel missing numeric values often become float NaN
+    if isinstance(val, float) and math.isnan(val):
+        return None
+
+    # timestamps/dates -> ISO strings
     if isinstance(val, (pd.Timestamp, datetime.datetime, datetime.date)):
         return val.isoformat()
+
     return val
+
 
 
 REQUIRED_SHEETS = ["SeasonMeta", "ScheduleResults", "Roster", "GameStats"]

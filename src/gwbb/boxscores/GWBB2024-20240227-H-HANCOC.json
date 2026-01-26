@@ -11,5 +11,6 @@
   "pa": 23,
   "outcome": "Win",
   "notes": "11th District",
-  "hasPlayerStats": false
+  "hasPlayerStats": false,
+  "status": "stub"
 }

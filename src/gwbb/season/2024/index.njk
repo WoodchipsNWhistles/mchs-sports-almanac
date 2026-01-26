@@ -1,0 +1,164 @@
+---
+layout: base.njk
+title: GWBB 2023-24
+description: Greenwave Boys Basketball season summary (season end year 2024).
+---
+
+<header>
+
+
+  <p class="kicker"><a href="{{ '/gwbb/' | url }}">← Back to GWBB</a></p>
+  <h1 class="masthead-title" style="font-size:clamp(1.9rem,3.5vw,3rem);">
+    GWBB 2023-24
+  </h1>
+  <hr class="rule">
+</header>
+
+<section class="grid single">
+
+  <main>
+<p class="kicker">Season Overview</p>
+<div class="article">
+
+  {% set games = season.schedule %}
+
+  {# Totals #}
+  {% set wins = 0 %}
+  {% set losses = 0 %}
+  {% set pf = 0 %}
+  {% set pa = 0 %}
+
+  {# Splits: Home / Away / Neutral #}
+  {% set hw = 0 %}{% set hl = 0 %}
+  {% set aw = 0 %}{% set al = 0 %}
+  {% set nw = 0 %}{% set nl = 0 %}
+
+    {% for g in games %}
+    {# normalize outcome #}
+   {% set oc = (g["Outcome"] or "") | trim | upper %}
+
+
+    {# normalize site code: prefer siteCode, else derive from site #}
+   {% set sc = (g["SiteCode"] or "") | trim | upper %}
+    {% if sc == "" %}
+      {% set s = (g.site or "") | trim | lower %}
+      {% if s == "home" %}{% set sc = "H" %}
+      {% elif s == "away" %}{% set sc = "A" %}
+      {% elif s == "neutral" %}{% set sc = "N" %}
+      {% endif %}
+    {% endif %}
+
+    {# outcome totals #}
+    {% if oc == "WIN" %}
+      {% set wins = wins + 1 %}
+    {% elif oc == "LOSS" %}
+      {% set losses = losses + 1 %}
+    {% endif %}
+
+    {# scoring #}
+{% set pf = pf + (g["Points for"] or 0) %}
+{% set pa = pa + (g["Points Against"] or 0) %}
+
+
+    {# splits #}
+    {% if sc == "H" %}
+      {% if oc == "WIN" %}{% set hw = hw + 1 %}{% elif oc == "LOSS" %}{% set hl = hl + 1 %}{% endif %}
+    {% elif sc == "A" %}
+      {% if oc == "WIN" %}{% set aw = aw + 1 %}{% elif oc == "LOSS" %}{% set al = al + 1 %}{% endif %}
+    {% elif sc == "N" %}
+      {% if oc == "WIN" %}{% set nw = nw + 1 %}{% elif oc == "LOSS" %}{% set nl = nl + 1 %}{% endif %}
+    {% endif %}
+  {% endfor %}
+
+
+
+  {% set totalGames = wins + losses %}
+  {% set winPct = ((wins) / totalGames) if totalGames > 0 else 0 %}
+  {% set diff = pf - pa %}
+
+<p class="lede">
+  Meade County finished the <strong>2023-24</strong> season at {{ wins }}–{{ losses }},
+  outscoring opponents by {{ diff }} points and was runner-up in the District Tournament.
+</p>
+  <p>
+    <strong>Overall Record:</strong>
+    {{ wins }}–{{ losses }}
+    ({{ winPct | round(3) }})
+  </p>
+
+  <p>
+    <strong>Scoring:</strong>
+    {{ pf }} for • {{ pa }} against
+    {% if diff >= 0 %}(+{{ diff }}){% else %}({{ diff }}){% endif %}
+  </p>
+
+  <p>
+    <strong>Home / Away / Neutral:</strong>
+    H {{ hw }}–{{ hl }} •
+    A {{ aw }}–{{ al }} •
+    N {{ nw }}–{{ nl }}
+  </p>
+
+  <p>
+    <strong>Postseason:</strong>
+    District 11 Runner-up
+  </p>
+
+  {% set startYear = season.seasonYearEnd - 1 %}
+  {% set endYY = season.seasonYearEnd % 100 %}
+  {% set endYY2 = ("0" + endYY) if endYY < 10 else endYY %}
+
+
+
+</div>
+
+
+    <p class="kicker">Schedule & Results</p>
+    <div class="article">
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Opponent</th>
+            <th>Site</th>
+            <th>PF</th>
+            <th>PA</th>
+            <th>W/L</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for g in season.schedule %}
+<tr>
+  <td>{{ g["Date"] }}</td>
+  <td>
+    {% if g["GameID"] %}
+      <a href="{{ ("/gwbb/boxscores/" + g["GameID"] + "/") | url }}">
+        {{ g["Opponent"] }}
+      </a>
+    {% else %}
+      {{ g["Opponent"] }}
+    {% endif %}
+  </td>
+  <td>{{ g["SiteCode"] }}</td>
+  <td>{{ g["Points for"] }}</td>
+  <td>{{ g["Points Against"] }}</td>
+  <td>{{ g["Outcome"] }}</td>
+</tr>
+{% endfor %}
+
+
+        </tbody>
+      </table>
+    </div>
+<div class="box">
+      <h3 style="margin:0 0 .5rem; font-family: var(--masthead);">Data Provenance</h3>
+      <p class="small" style="margin:0;">
+        Generated from the canonical season JSON export stored in this repository.
+      </p>
+      <p class="small" style="margin:.5rem 0 0;">
+        Source: <a href="{{ '/gwbb/data/2024.json' | url }}">/gwbb/data/2024.json</a>
+      </p>
+  </main>
+
+  
+</section>

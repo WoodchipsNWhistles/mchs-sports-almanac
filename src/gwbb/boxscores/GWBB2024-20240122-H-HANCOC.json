@@ -11,5 +11,6 @@
   "pa": 35,
   "outcome": "Win",
   "notes": null,
-  "hasPlayerStats": false
+  "hasPlayerStats": false,
+  "status": "stub"
 }
