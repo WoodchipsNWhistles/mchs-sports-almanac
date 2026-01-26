@@ -88,7 +88,7 @@ const pct = (m, a) => {
   return `${((mm / aa) * 100).toFixed(1)}%`;
 };
 
-const gameUrl = (gameID) => `/gwbb/boxscores/${gameID}/`;
+const gameUrl = (gameID) => `/mchs-sports-almanac/gwbb/boxscores/${gameID}/`;
 const varsityGameRows = [...varsityGames]
   .sort((a, b) => String(a.gameID).localeCompare(String(b.gameID)))
   .map((g) => {
