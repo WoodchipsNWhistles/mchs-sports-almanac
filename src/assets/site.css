@@ -119,6 +119,18 @@ a:hover{opacity:.85}
   margin:0 0 .85rem;
 }
 
+.lede {
+  font-family: var(--body);
+  font-size: 1.05rem;
+  line-height: 1.55;
+  margin: 0 0 0.75rem;
+}
+
+.grid.single {
+  grid-template-columns: 1fr;
+}
+
+
 .box{
   border:2px solid var(--rule);
   padding:1rem;
@@ -132,3 +144,20 @@ footer{
   color:var(--muted);
   font-size:.9rem;
 }
+
+table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:.95rem;
+}
+th, td{
+  border-bottom:1px solid var(--rule);
+  padding:.35rem .45rem;
+  text-align:left;
+  vertical-align:top;
+}
+thead th{
+  border-bottom:2px solid var(--rule);
+  font-family:var(--masthead);
+}
+

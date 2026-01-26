@@ -98,6 +98,14 @@ module.exports = class BoxscorePages {
 
   render(data) {
     const b = data.boxscore;
+    
+    const siteLabel =
+  b.siteCode === "H" ? "Home" :
+  b.siteCode === "A" ? "Away" :
+  b.siteCode === "N" ? "Neutral" :
+  b.siteCode === "U" ? "Unknown" :
+  "";
+
 
     const seasonYearEnd = b.seasonYearEnd || 2025;
     const season = loadSeason(seasonYearEnd);
@@ -215,7 +223,8 @@ const playerRows = Array.from(agg.values()).map((r) => {
   <hr class="rule">
 </header>
 
-<section class="grid">
+<section class="grid single">
+
   <main>
     <p class="kicker"><a href="${backToSeasonHref}">← Back to season</a></p>
 
@@ -224,8 +233,7 @@ const playerRows = Array.from(agg.values()).map((r) => {
 
       <p class="small" style="margin:.25rem 0 0;">
         <strong>${escapeHtml(b.dateISO || "")}</strong>
-        • ${escapeHtml(b.siteCode || "")}
-        • GameID: <code>${escapeHtml(b.gameID)}</code>
+        • ${escapeHtml(siteLabel || "")}
       </p>
 
       <p class="lede" style="margin-top:.75rem;">
@@ -284,23 +292,30 @@ const playerRows = Array.from(agg.values()).map((r) => {
         : ""
     }
 
+<div class="article">
+  <div class="box">
+    <h3 style="margin:0 0 .5rem; font-family: var(--masthead);">
+      Data Provenance
+    </h3>
+    <p class="small" style="margin:0;">
+      Generated from canonical season JSON and per-game boxscore JSON.
+    </p>
+    <p class="small" style="margin:.5rem 0 0;">
+      Season:
+      <a href="${seasonDataHref}">
+        /gwbb/data/${seasonYearEnd}.json
+      </a>
+    </p>
+    <p class="small" style="margin:.5rem 0 0;">
+      Source file:
+      <code>${escapeHtml(b.__sourceFile || "")}</code>
+    </p>
+  </div>
+</div>
 
   </main>
 
-  <aside>
-    <div class="box">
-      <h3 style="margin:0 0 .5rem; font-family: var(--masthead);">Data Provenance</h3>
-      <p class="small" style="margin:0;">
-        Generated from canonical season JSON and per-game boxscore JSON.
-      </p>
-      <p class="small" style="margin:.5rem 0 0;">
-        Season: <a href="${seasonDataHref}">/gwbb/data/${seasonYearEnd}.json</a>
-      </p>
-      <p class="small" style="margin:.5rem 0 0;">
-        Source file: <code>${escapeHtml(b.__sourceFile || "")}</code>
-      </p>
-    </div>
-  </aside>
+ 
 </section>
 `;
   }
