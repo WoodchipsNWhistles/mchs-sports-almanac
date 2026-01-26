@@ -26,7 +26,43 @@ module.exports = class PlayerPage {
     const varsitySeasons = (player.seasons ?? []).filter(
       (s) => s.level === "V"
     );
+    const careerTotals = varsitySeasons.reduce(
+  (acc, s) => {
+    const t = s.totals ?? {};
+    acc.games += s.gamesPlayed ?? 0;
+    acc.twoPM += t.twoPM ?? 0;
+    acc.twoPA += t.twoPA ?? 0;
+    acc.threePM += t.threePM ?? 0;
+    acc.threePA += t.threePA ?? 0;
+    acc.ftM += t.ftM ?? 0;
+    acc.ftA += t.ftA ?? 0;
+    acc.reb += t.reb ?? 0;
+    acc.pts += t.pts ?? 0;
+    return acc;
+  },
+  {
+    games: 0,
+    twoPM: 0,
+    twoPA: 0,
+    threePM: 0,
+    threePA: 0,
+    ftM: 0,
+    ftA: 0,
+    reb: 0,
+    pts: 0,
+  }
+);
+
     const fmtSeason = (y) => `${y - 1}-${String(y).slice(-2)}`;
+    
+const pct = (m, a) => {
+  const mm = Number(m) || 0;
+  const aa = Number(a) || 0;
+  if (!aa) return "—";
+  return `${((mm / aa) * 100).toFixed(1)}%`;
+};
+
+
 
     const varsityRows = varsitySeasons
       .map((s) => {
@@ -37,9 +73,13 @@ module.exports = class PlayerPage {
         return `<tr>
           <td>${fmtSeason(s.seasonYearEnd)}</td>
           <td>${s.gamesPlayed ?? 0}</td>
-          <td>${two}</td>
-          <td>${three}</td>
-          <td>${ft}</td>
+<td>${two}</td>
+<td>${pct(t.twoPM, t.twoPA)}</td>
+<td>${three}</td>
+<td>${pct(t.threePM, t.threePA)}</td>
+<td>${ft}</td>
+<td>${pct(t.ftM, t.ftA)}</td>
+
           <td>${t.reb ?? 0}</td>
           <td><strong>${t.pts ?? 0}</strong></td>
         </tr>`;
@@ -57,21 +97,56 @@ module.exports = class PlayerPage {
     ${
       varsitySeasons.length
         ? `<table>
-            <thead>
-              <tr>
-                <th>Season</th>
-                <th>G</th>
-                <th>2PT</th>
-                <th>3PT</th>
-                <th>FT</th>
-                <th>REB</th>
-                <th>PTS</th>
-              </tr>
-            </thead>
-            <tbody>
-              ${varsityRows}
-            </tbody>
-          </table>`
+    <thead>
+      <tr>
+        <th>Season</th>
+        <th>G</th>
+        <th>2PT</th>
+        <th>2PT%</th>
+        <th>3PT</th>
+        <th>3PT%</th>
+        <th>FT</th>
+        <th>FT%</th>
+        <th>REB</th>
+        <th>PTS</th>
+      </tr>
+    </thead>
+    <tbody>
+      ${varsityRows}
+    </tbody>
+  </table>
+
+  <h2>Career Totals — Varsity</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>G</th>
+        <th>2PT</th>
+        <th>2PT%</th>
+        <th>3PT</th>
+        <th>3PT%</th>
+        <th>FT</th>
+        <th>FT%</th>
+        <th>REB</th>
+        <th>PTS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>${careerTotals.games}</td>
+        <td>${careerTotals.twoPM}-${careerTotals.twoPA}</td>
+        <td>${pct(careerTotals.twoPM, careerTotals.twoPA)}</td>
+        <td>${careerTotals.threePM}-${careerTotals.threePA}</td>
+        <td>${pct(careerTotals.threePM, careerTotals.threePA)}</td>
+        <td>${careerTotals.ftM}-${careerTotals.ftA}</td>
+        <td>${pct(careerTotals.ftM, careerTotals.ftA)}</td>
+        <td>${careerTotals.reb}</td>
+        <td><strong>${careerTotals.pts}</strong></td>
+      </tr>
+    </tbody>
+  </table>`
+
+
         : `<p>No varsity season totals on record.</p>`
     }
   </div>
