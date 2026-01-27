@@ -2,15 +2,21 @@
   "playerID": "LEDTAL2025",
   "playerIDBase": "LEDTAL2025",
   "playerIDSuffix": 1,
-  "jersey": 13,
+  "jersey": 22,
   "first": "Talan",
   "last": "Ledford",
   "name": "Talan Ledford",
-  "pos": "PF",
-  "grade": "Sr.",
-  "gradeFull": "Senior",
+  "pos": null,
+  "grade": "Fr.",
+  "gradeFull": "Freshman",
   "gradYear": 2025,
   "participation": [
+    {
+      "sportCode": "GWBB",
+      "seasonYearEnd": 2022,
+      "level": "V",
+      "role": "athlete"
+    },
     {
       "sportCode": "GWBB",
       "seasonYearEnd": 2025,
@@ -19,6 +25,41 @@
     }
   ],
   "seasons": [
+    {
+      "sportCode": "GWBB",
+      "seasonYearEnd": 2022,
+      "level": "V",
+      "gamesPlayed": 1,
+      "totals": {
+        "games": 1,
+        "pts": 0,
+        "reb": 0,
+        "twoPM": 0,
+        "twoPA": 0,
+        "threePM": 0,
+        "threePA": 0,
+        "ftM": 0,
+        "ftA": 0
+      },
+      "gameStats": [
+        {
+          "gameID": "GWBB2022-20220302-N-MCLEAN",
+          "playerID": "LEDTAL2025",
+          "jersey": 22,
+          "playerName": "Talan Ledford",
+          "twoPM": 0,
+          "twoPA": 0,
+          "threePM": 0,
+          "threePA": 0,
+          "ftM": 0,
+          "ftA": 0,
+          "pts": 0,
+          "reb": 0,
+          "tenPlus": false,
+          "doubleDouble": false
+        }
+      ]
+    },
     {
       "sportCode": "GWBB",
       "seasonYearEnd": 2025,

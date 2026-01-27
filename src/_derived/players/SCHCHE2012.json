@@ -1,0 +1,58 @@
+{
+  "playerID": "SCHCHE2012",
+  "playerIDBase": "SCHCHE2012",
+  "playerIDSuffix": 1,
+  "jersey": 22,
+  "first": "Cheaney",
+  "last": "Schwartz",
+  "name": "Cheaney Schwartz",
+  "pos": "Guard",
+  "grade": "Sr.",
+  "gradeFull": "Senior",
+  "gradYear": 2012,
+  "participation": [
+    {
+      "sportCode": "GWBB",
+      "seasonYearEnd": 2012,
+      "level": "V",
+      "role": "athlete"
+    }
+  ],
+  "seasons": [
+    {
+      "sportCode": "GWBB",
+      "seasonYearEnd": 2012,
+      "level": "V",
+      "gamesPlayed": 1,
+      "totals": {
+        "games": 1,
+        "pts": 0,
+        "reb": 0,
+        "twoPM": 0,
+        "twoPA": 0,
+        "threePM": 0,
+        "threePA": 0,
+        "ftM": 0,
+        "ftA": 0
+      },
+      "gameStats": [
+        {
+          "gameID": "GWBB2012-20111222-N-HEATHX",
+          "playerID": "SCHCHE2012",
+          "jersey": 22,
+          "playerName": "Cheaney Schwartz",
+          "twoPM": 0,
+          "twoPA": 0,
+          "threePM": 0,
+          "threePA": 0,
+          "ftM": 0,
+          "ftA": 0,
+          "pts": 0,
+          "reb": 0,
+          "tenPlus": false,
+          "doubleDouble": false
+        }
+      ]
+    }
+  ]
+}

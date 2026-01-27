@@ -1,3 +1,10 @@
-_site/
+# Python
+.venv/
+scripts/.venv/
+
+# Local ingest
+_inbox/
+
+# macOS
 .DS_Store
-**/.DS_Store
+EOF

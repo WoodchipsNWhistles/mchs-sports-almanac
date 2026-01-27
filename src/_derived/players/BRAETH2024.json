@@ -1,0 +1,74 @@
+{
+  "playerID": "BRAETH2024",
+  "playerIDBase": "BRAETH2024",
+  "playerIDSuffix": 1,
+  "jersey": null,
+  "first": "Ethan",
+  "last": "Brandon",
+  "name": "Ethan Brandon",
+  "pos": "G",
+  "grade": "So.",
+  "gradeFull": "Sophomore",
+  "gradYear": 2024,
+  "participation": [
+    {
+      "sportCode": "GWBB",
+      "seasonYearEnd": 2022,
+      "level": "V",
+      "role": "athlete"
+    }
+  ],
+  "seasons": [
+    {
+      "sportCode": "GWBB",
+      "seasonYearEnd": 2022,
+      "level": "V",
+      "gamesPlayed": 2,
+      "totals": {
+        "games": 2,
+        "pts": 4,
+        "reb": 3,
+        "twoPM": 2,
+        "twoPA": 3,
+        "threePM": 0,
+        "threePA": 2,
+        "ftM": 0,
+        "ftA": 0
+      },
+      "gameStats": [
+        {
+          "gameID": "GWBB2022-20220208-A-CENTRA",
+          "playerID": "BRAETH2024",
+          "jersey": 3,
+          "playerName": "Ethan Brandon",
+          "twoPM": 0,
+          "twoPA": 1,
+          "threePM": 0,
+          "threePA": 1,
+          "ftM": 0,
+          "ftA": 0,
+          "pts": 0,
+          "reb": 2,
+          "tenPlus": false,
+          "doubleDouble": false
+        },
+        {
+          "gameID": "GWBB2022-20220209-H-CLOVER",
+          "playerID": "BRAETH2024",
+          "jersey": 3,
+          "playerName": "Ethan Brandon",
+          "twoPM": 2,
+          "twoPA": 2,
+          "threePM": 0,
+          "threePA": 1,
+          "ftM": 0,
+          "ftA": 0,
+          "pts": 4,
+          "reb": 1,
+          "tenPlus": false,
+          "doubleDouble": false
+        }
+      ]
+    }
+  ]
+}

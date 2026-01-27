@@ -1,0 +1,115 @@
+---
+layout: base.njk
+pagination:
+  data: gwbbSeasons
+  size: 1
+  alias: s
+permalink: "/gwbb/season/{{ s.yearEnd }}/index.html"
+---
+
+<header>
+  <p class="kicker"><a href="{{ '/gwbb/season/' | url }}">← Back to Seasons</a></p>
+  <h1 class="masthead-title">GWBB {{ s.label }}</h1>
+  <hr class="rule">
+</header>
+
+<p class="article-note">
+  <strong>Season JSON:</strong>
+  <a href="{{ s.jsonUrl | url }}">{{ s.jsonUrl }}</a>
+</p>
+
+{% if seasonJsonMissing %}
+  <p><em>Season JSON missing for {{ s.yearEnd }}.</em></p>
+
+{% elif season %}
+  {% if season.schedule and season.schedule.length %}
+    {# Collect all gameIDs that have at least one stat row (means: boxscore content exists) #}
+    {% set boxIds = [] %}
+    {% for st in (season.gameStats or []) %}
+      {% set gid = st.gameId or st.gameID or st.GameID %}
+      {% if gid and (gid not in boxIds) %}
+        {% set boxIds = boxIds.concat([gid]) %}
+      {% endif %}
+    {% endfor %}
+
+    <h2>Schedule</h2>
+
+    <table>
+<thead>
+  <tr>
+    <th>Date</th>
+    <th>Opp</th>
+    <th>Result</th>
+  </tr>
+</thead>
+
+      <tbody>
+  {% for g in season.schedule %}
+    {# Canonical-ish game id across eras #}
+    {% set gid = g.gameId or g.GameID or g.GameID_Base or g.GameIDBase %}
+
+    {# Opponent #}
+    {% set opp = g.opponent or g.Opponent or 'Opponent' %}
+
+    {# Date #}
+    {% set dateLabel = g.dateLabel or g.Date %}
+
+    {# Site code #}
+    {% set sc = (g.siteCode or g.SiteCode or '') | upper %}
+
+    {% if sc == 'A' %}
+      {% set gameLabel = '@ ' ~ opp %}
+    {% elif sc == 'H' %}
+      {% set gameLabel = 'vs ' ~ opp %}
+    {% elif sc == 'N' %}
+      {% set gameLabel = opp ~ ' (N)' %}
+    {% else %}
+      {% set gameLabel = opp %}
+    {% endif %}
+
+    {# Result #}
+{% set outcomeRaw = (g.outcome or g.Outcome or '') | string | lower %}
+{% set firstChar = outcomeRaw | slice(0, 1) %}
+
+{% if firstChar == 'w' %}
+  {% set wl = 'W' %}
+{% elif firstChar == 'l' %}
+  {% set wl = 'L' %}
+{% else %}
+  {% set wl = (g.outcome or g.Outcome or '—') %}
+{% endif %}
+
+
+    {% set pf = g.pointsFor or g["Points for"] %}
+    {% set pa = g.pointsAgainst or g["Points Against"] %}
+
+    <tr>
+      <td>{{ dateLabel }}</td>
+
+      <td>
+        {% if gid and (gid in boxIds) %}
+          <a href="{{ ('/gwbb/boxscores/' ~ gid ~ '/') | url }}">{{ gameLabel }}</a>
+        {% else %}
+          {{ gameLabel }}
+        {% endif %}
+      </td>
+
+      <td>
+        {{ wl }}
+        {% if pf is not none and pa is not none %}
+          {{ pf }}–{{ pa }}
+        {% endif %}
+      </td>
+    </tr>
+  {% endfor %}
+</tbody>
+
+    </table>
+
+  {% else %}
+    <p>No schedule found in season JSON.</p>
+  {% endif %}
+
+{% else %}
+  <p><em>No season object loaded.</em></p>
+{% endif %}

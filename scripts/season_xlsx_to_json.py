@@ -39,13 +39,74 @@ def _json_safe(val):
 
 REQUIRED_SHEETS = ["SeasonMeta", "ScheduleResults", "Roster", "GameStats"]
 
+SCHEDULE_RENAME = {
+    "GameDate": "gameDate",
+    "Date": "dateLabel",
+    "Opponent": "opponent",
+    "Site": "site",
+    "Points for": "pointsFor",
+    "Points Against": "pointsAgainst",
+    "Outcome": "outcome",
+    "Standings": "standings",
+    "SiteCode": "siteCode",
+    "OppCode": "oppCode",
+    "GameID_Base": "gameIdBase",
+    "GameSortKey": "gameSortKey",
+    "GameID": "gameId",
+}
+
+ROSTER_RENAME = {
+    "Jersey": "jersey",
+    "Name": "name",
+    "Position": "pos",
+    "Grade": "grade",
+    "GradeFull": "gradeFull",
+    "GraduationYear": "gradYear",
+    "FirstName": "firstName",
+    "LastName": "lastName",
+    "PlayerID_Base": "playerIdBase",
+    "PlayerID_Suffix": "playerIdSuffix",
+    "PlayerID": "playerId",
+}
+
+GAMESTATS_RENAME = {
+    "GameID": "gameID",
+    "PlayerID": "playerID",
+    "Jersey": "jersey",
+    "PlayerName": "playerName",
+    "2PM": "twoPM",
+    "2PA": "twoPA",
+    "3PM": "threePM",
+    "3PA": "threePA",
+    "FTM": "ftM",
+    "FTA": "ftA",
+    "Pts": "pts",
+    "Reb": "reb",
+    "TenPlusPoints": "tenPlus",
+    "DoubleDouble": "doubleDouble",
+}
+
+    # the rest already match your schema (twoPM, twoPA, etc.)
+
+SHEET_RENAME_MAP = {
+    "GameStats": GAMESTATS_RENAME,
+    # SeasonMeta usually stays as-is, unless you want to normalize it too.
+}
+
+
 
 def _read_sheet(xlsx: Path, sheet: str) -> pd.DataFrame:
     df = pd.read_excel(xlsx, sheet_name=sheet, engine="openpyxl")
-    # Drop fully-empty rows/cols
     df = df.dropna(axis=0, how="all").dropna(axis=1, how="all")
-    # Normalize column names: keep as-is but strip whitespace
+
+    # Strip header whitespace
     df.columns = [str(c).strip() for c in df.columns]
+
+    # Apply canonical renames for this sheet (if defined)
+    rename_map = SHEET_RENAME_MAP.get(sheet, {})
+    if rename_map:
+        df = df.rename(columns=rename_map)
+
     return df
 
 
@@ -145,11 +206,26 @@ def main() -> None:
         "roster": _df_to_records(roster_df),
         "gameStats": _df_to_records(gamestats_df),
     }
-    # Normalize GWBB GameStats keys to codex form
+    season = {
+        "seasonYear": args.year,
+        "seasonMeta": _season_meta_to_object(season_meta_df),
+        "schedule": _df_to_records(schedule_df),
+        "roster": _df_to_records(roster_df),
+        "gameStats": _df_to_records(gamestats_df),
+    }
+
+    # Normalize GWBB GameStats keys to codex form (Excel headers -> canonical JSON keys)
     season["gameStats"] = [
-        _rename_keys(r, GWBB_GAMESTATS_MAP)
+        _rename_keys(r, GAMESTATS_RENAME)
         for r in season.get("gameStats", [])
     ]
+
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(season, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    print(f"OK: wrote {out} ({out.stat().st_size:,} bytes)")
+    print("Next: run 11ty build to publish into docs/ if your pipeline copies data files.")
+
 
 
 

@@ -1,7 +1,6 @@
 const fs = require("fs");
 const path = require("path");
 
-const BOX_DIR = path.join(process.cwd(), "src", "gwbb", "boxscores");
 const SEASON_DIR = path.join(process.cwd(), "src", "gwbb", "data");
 
 function safeJsonParse(txt, filename) {
@@ -52,29 +51,70 @@ function loadSeason(seasonYearEnd) {
   return safeJsonParse(raw, `${seasonYearEnd}.json`);
 }
 
+// YYYY-MM-DD or YYYY-MM-DDTHH... -> "Month D, YYYY"
+function formatUsDate(isoLike) {
+  if (!isoLike) return "";
+  const s = String(isoLike);
+
+  // best-effort: grab leading YYYY-MM-DD if present
+  const m = s.match(/^(\d{4}-\d{2}-\d{2})/);
+  const ymd = m ? m[1] : s.slice(0, 10);
+
+  const d = new Date(ymd + "T00:00:00");
+  if (Number.isNaN(d.getTime())) return ymd;
+
+  return d.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
+
 module.exports = class BoxscorePages {
   async data() {
-    const files = fs
-      .readdirSync(BOX_DIR)
-      .filter((f) => f.toLowerCase().endsWith(".json"))
+    // Load all season JSON files
+    const seasonFiles = fs
+      .readdirSync(SEASON_DIR)
+      .filter((f) => /^\d{4}\.json$/.test(f))
       .sort();
 
-    const boxscores = files.map((filename) => {
-      const fullPath = path.join(BOX_DIR, filename);
+    const boxscores = [];
+
+    for (const filename of seasonFiles) {
+      const fullPath = path.join(SEASON_DIR, filename);
       const raw = fs.readFileSync(fullPath, "utf-8");
-      const obj = safeJsonParse(raw, filename);
+      const season = safeJsonParse(raw, filename);
 
-      const gameID = obj.gameID || path.basename(filename, ".json");
       const seasonYearEnd =
-        obj.seasonYearEnd || getSeasonYearEndFromGameID(gameID);
+        season.seasonYear || Number(filename.replace(".json", ""));
+      const schedule = season.schedule || [];
+      const gameStats = season.gameStats || [];
 
-      return {
-        ...obj,
-        gameID,
-        seasonYearEnd,
-        __sourceFile: filename,
-      };
-    });
+      // Find unique gameIDs that actually have stats
+      const gameIdsWithStats = Array.from(
+        new Set(
+          gameStats
+            .map((r) => r.gameId || r.gameID || r.GameID)
+            .filter(Boolean)
+        )
+      );
+
+      for (const gameID of gameIdsWithStats) {
+        const sched =
+          schedule.find(
+            (g) =>
+              (g.gameId || g.GameID || g.GameID_Base || g.gameIdBase) === gameID
+          ) || {};
+
+        // IMPORTANT: put sched first, then hard-set the canon keys we rely on
+        boxscores.push({
+          ...sched,
+          gameID,
+          seasonYearEnd,
+          __sourceFile: filename, // provenance (season file)
+        });
+      }
+    }
 
     return {
       boxscores,
@@ -90,7 +130,9 @@ module.exports = class BoxscorePages {
         title: (data) => `${data.boxscore.gameID} — Box Score`,
         description: (data) => {
           const b = data.boxscore;
-          return `GWBB box score: ${b.opponent || "Opponent"} (${b.dateISO || ""})`;
+          return `GWBB box score: ${b.opponent || b.Opponent || "Opponent"} (${
+            b.dateLabel || b.dateISO || b.Date || ""
+          })`;
         },
       },
     };
@@ -98,17 +140,61 @@ module.exports = class BoxscorePages {
 
   render(data) {
     const b = data.boxscore;
-    const dateDisplay = b.dateLabel || b.dateISO || b.date || "";
 
+    // -----------------------------
+    // HEADER FIELDS (single source)
+    // -----------------------------
+    const opponent = b.opponent || b.Opponent || "Opponent";
+
+    const dateRaw =
+      b.dateISO ||
+      b.gameDate ||
+      b.GameDate ||
+      b.dateLabel ||
+      b.Date ||
+      b.date ||
+      "";
+    const dateDisplay = formatUsDate(dateRaw);
+
+    const siteCode = b.siteCode || b.SiteCode || "";
     const siteLabel =
-  b.siteCode === "H" ? "Home" :
-  b.siteCode === "A" ? "Away" :
-  b.siteCode === "N" ? "Neutral" :
-  b.siteCode === "U" ? "Unknown" :
-  "";
+      siteCode === "H"
+        ? "Home"
+        : siteCode === "A"
+        ? "Away"
+        : siteCode === "N"
+        ? "Neutral"
+        : siteCode === "U"
+        ? "Unknown"
+        : "";
 
+    const pointsFor =
+      b.pointsFor ??
+      b["Points for"] ??
+      b.PointsFor ??
+      b["PointsFor"] ??
+      null;
 
-    const seasonYearEnd = b.seasonYearEnd || 2025;
+    const pointsAgainst =
+      b.pointsAgainst ??
+      b["Points Against"] ??
+      b.PointsAgainst ??
+      b["PointsAgainst"] ??
+      null;
+
+    const outcome = (b.outcome || b.Outcome || "").toString();
+
+    const finalLine =
+      pointsFor !== null && pointsAgainst !== null
+        ? `Final: ${pointsFor}–${pointsAgainst}${
+            outcome ? " • " + outcome : ""
+          }`
+        : "";
+
+    // -----------------------------
+    // LOAD SEASON + GAME STATS
+    // -----------------------------
+    const seasonYearEnd = b.seasonYearEnd || getSeasonYearEndFromGameID(b.gameID);
     const season = loadSeason(seasonYearEnd);
 
     const roster = (season && (season.roster || season.players)) || [];
@@ -117,33 +203,36 @@ module.exports = class BoxscorePages {
     // Roster lookup (support both legacy and codex keys)
     const rosterById = {};
     for (const p of roster) {
-      const pid = (p && (p.playerID || p.PlayerID)) || null;
+      const pid = (p && (p.playerID || p.PlayerID || p.playerId || p.PlayerId)) || null;
       if (pid) rosterById[pid] = p;
     }
 
     // Rows for this game (support both legacy and codex keys)
     const rowsAll = gameStats.filter((r) => {
-      const rg = r.gameID || r.GameID;
+      const rg = r.gameId || r.gameID || r.GameID || r.GameID_Base;
       return rg === b.gameID;
     });
 
     // Only keep rows that map to a roster player (by playerID)
     const rows = rowsAll.filter((r) => {
-      const rp = r.playerID || r.PlayerID;
+      const rp = r.playerID || r.PlayerID || r.playerId || r.PlayerId;
       return rp && rosterById[rp];
     });
 
     // Aggregate duplicates per player
     const agg = new Map();
     for (const r of rows) {
-      const pid = r.playerID || r.PlayerID;
+      const pid = r.playerID || r.PlayerID || r.playerId || r.PlayerId;
       const prev = agg.get(pid) || {
         playerID: pid,
         jersey: r.jersey ?? r.Jersey ?? "",
         playerName: r.playerName ?? r.PlayerName ?? "",
-        twoPM: 0, twoPA: 0,
-        threePM: 0, threePA: 0,
-        ftM: 0, ftA: 0,
+        twoPM: 0,
+        twoPA: 0,
+        threePM: 0,
+        threePA: 0,
+        ftM: 0,
+        ftA: 0,
         pts: 0,
         reb: 0,
       };
@@ -176,7 +265,7 @@ module.exports = class BoxscorePages {
           r.playerName ??
           p.name ??
           p.Name ??
-          `${p.first || p.FirstName || ""} ${p.last || p.LastName || ""}`.trim(),
+          `${p.firstName || p.FirstName || ""} ${p.lastName || p.LastName || ""}`.trim(),
         twoPM: r.twoPM || 0,
         twoPA: r.twoPA || 0,
         threePM: r.threePM || 0,
@@ -220,100 +309,86 @@ module.exports = class BoxscorePages {
     const backToSeasonHref = `../../season/${seasonYearEnd}/`;
     const seasonDataHref = `../../data/${seasonYearEnd}.json`;
 
+    // -----------------------------
+    // RENDER (NO DUPLICATE HEADER)
+    // -----------------------------
     return `
 <header>
   <p class="kicker"><a href="${backToGwbbHref}">← Back to GWBB</a></p>
-  <h1 class="masthead-title" style="font-size:clamp(1.9rem,3.5vw,3rem);">
-    Box Score
-  </h1>
+  <h1 class="masthead-title" style="font-size:clamp(1.9rem,3.5vw,3rem);">Box Score</h1>
   <hr class="rule">
 </header>
 
 <section class="grid single">
-
   <main>
     <p class="kicker"><a href="${backToSeasonHref}">← Back to season</a></p>
 
     <div class="article">
-      <h2 style="margin-top:0;">${escapeHtml(b.opponent || "Opponent")}</h2>
+      <h2 style="margin-top:0;">${escapeHtml(opponent)}</h2>
 
-      <p class="small" style="margin:.25rem 0 0;">
-      <strong>${escapeHtml(dateDisplay)}</strong>
+      <div class="boxscore-header">
+        <p><strong>${escapeHtml(dateDisplay)}</strong>${siteLabel ? ` • ${escapeHtml(siteLabel)}` : ""}</p>
+        ${finalLine ? `<p><strong>${escapeHtml(finalLine)}</strong></p>` : ""}
+      </div>
 
-        • ${escapeHtml(siteLabel || "")}
-      </p>
+      ${
+        hasStats
+          ? `
+      <div class="article">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Player</th>
+              <th>2PT</th>
+              <th>3PT</th>
+              <th>FT</th>
+              <th>REB</th>
+              <th>PTS</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${playerRows
+              .map(
+                (r) => `<tr>
+                  <td>${escapeHtml(String(r.jersey))}</td>
+                  <td>
+                    <a href="../../../players/${escapeHtml(String(r.playerID))}/">
+                      ${escapeHtml(String(r.name))}
+                    </a>
+                  </td>
+                  <td>${r.twoPM}-${r.twoPA}</td>
+                  <td>${has3pt ? `${r.threePM}-${r.threePA}` : "—"}</td>
+                  <td>${r.ftM}-${r.ftA}</td>
+                  <td>${escapeHtml(String(r.reb))}</td>
+                  <td><strong>${escapeHtml(String(r.pts))}</strong></td>
+                </tr>`
+              )
+              .join("")}
+          </tbody>
+        </table>
+      </div>
+      `
+          : `
+      <p class="small"><em>This box score is incomplete. If you have missing statistics, scorebooks, or official records for this game, please contact the site administrator to help improve the historical record.</em></p>
+      `
+      }
 
-      <p class="lede" style="margin-top:.75rem;">
-        
-        <strong>Final:</strong>
-        ${escapeHtml(String(b.pf ?? ""))}–${escapeHtml(String(b.pa ?? ""))}
-        ${b.outcome ? ` • <strong>${escapeHtml(b.outcome)}</strong>` : ""}
-      </p>
+      <div class="article">
+        <div class="box">
+          <h3 style="margin:0 0 .5rem; font-family: var(--masthead);">Data Provenance</h3>
+          <p class="small" style="margin:0;">Generated from canonical season JSON and per-game stats.</p>
+          <p class="small" style="margin:.5rem 0 0;">
+            Season: <a href="${seasonDataHref}">/gwbb/data/${seasonYearEnd}.json</a>
+          </p>
+          <p class="small" style="margin:.5rem 0 0;">
+            Source file: <code>${escapeHtml(b.__sourceFile || "")}</code>
+          </p>
+        </div>
+      </div>
 
-${rows.length > 0 ? `
-  <div class="article">
-    <table>
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>Player</th>
-          <th>2PT</th>
-          <th>3PT</th>
-          <th>FT</th>
-          <th>REB</th>
-          <th>PTS</th>
-        </tr>
-      </thead>
-      <tbody>
-        ${playerRows
-          .map(
-            (r) => `<tr>
-              <td>${escapeHtml(String(r.jersey))}</td>
-              <td>
-                <a href="../../../players/${escapeHtml(String(r.playerID))}/">
-                  ${escapeHtml(String(r.name))}
-                </a>
-              </td>
-              <td>${r.twoPM}-${r.twoPA}</td>
-              <td>${has3pt ? `${r.threePM}-${r.threePA}` : "—"}</td>
-              <td>${r.ftM}-${r.ftA}</td>
-              <td>${escapeHtml(String(r.reb))}</td>
-              <td><strong>${escapeHtml(String(r.pts))}</strong></td>
-            </tr>`
-          )
-          .join("")}
-      </tbody>
-    </table>
-  </div>
-` : ""}
-
-
-   
-
-<div class="article">
-  <div class="box">
-    <h3 style="margin:0 0 .5rem; font-family: var(--masthead);">
-      Data Provenance
-    </h3>
-    <p class="small" style="margin:0;">
-      Generated from canonical season JSON and per-game boxscore JSON.
-    </p>
-    <p class="small" style="margin:.5rem 0 0;">
-      Season:
-      <a href="${seasonDataHref}">
-        /gwbb/data/${seasonYearEnd}.json
-      </a>
-    </p>
-    <p class="small" style="margin:.5rem 0 0;">
-      Source file:
-      <code>${escapeHtml(b.__sourceFile || "")}</code>
-    </p>
-  </div>
-</div>
-
+    </div>
   </main>
-
- 
 </section>
 `;
   }

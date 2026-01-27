@@ -1,0 +1,74 @@
+{
+  "playerID": "RANTIM2025",
+  "playerIDBase": "RANTIM2025",
+  "playerIDSuffix": 1,
+  "jersey": 3,
+  "first": "Timothy",
+  "last": "Rankin",
+  "name": "Timothy Rankin",
+  "pos": null,
+  "grade": "Fr.",
+  "gradeFull": "Freshman",
+  "gradYear": 2025,
+  "participation": [
+    {
+      "sportCode": "GWBB",
+      "seasonYearEnd": 2022,
+      "level": "V",
+      "role": "athlete"
+    }
+  ],
+  "seasons": [
+    {
+      "sportCode": "GWBB",
+      "seasonYearEnd": 2022,
+      "level": "V",
+      "gamesPlayed": 2,
+      "totals": {
+        "games": 2,
+        "pts": 1,
+        "reb": 1,
+        "twoPM": 0,
+        "twoPA": 1,
+        "threePM": 0,
+        "threePA": 0,
+        "ftM": 1,
+        "ftA": 2
+      },
+      "gameStats": [
+        {
+          "gameID": "GWBB2022-20220222-N-CLOVER",
+          "playerID": "RANTIM2025",
+          "jersey": 3,
+          "playerName": "Timothy Rankin",
+          "twoPM": 0,
+          "twoPA": 1,
+          "threePM": 0,
+          "threePA": 0,
+          "ftM": 1,
+          "ftA": 2,
+          "pts": 1,
+          "reb": 1,
+          "tenPlus": false,
+          "doubleDouble": false
+        },
+        {
+          "gameID": "GWBB2022-20220302-N-MCLEAN",
+          "playerID": "RANTIM2025",
+          "jersey": 3,
+          "playerName": "Timothy Rankin",
+          "twoPM": 0,
+          "twoPA": 0,
+          "threePM": 0,
+          "threePA": 0,
+          "ftM": 0,
+          "ftA": 0,
+          "pts": 0,
+          "reb": 0,
+          "tenPlus": false,
+          "doubleDouble": false
+        }
+      ]
+    }
+  ]
+}
