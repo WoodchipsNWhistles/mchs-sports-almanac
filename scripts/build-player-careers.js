@@ -72,30 +72,31 @@ for (const file of seasonFiles) {
   // group stats by playerID
   const statsByPlayer = new Map();
   for (const row of gameStats) {
-    const pid = row?.playerID;
+    const pid = row?.playerID || row?.PlayerID;
     if (!pid) continue;
     if (!statsByPlayer.has(pid)) statsByPlayer.set(pid, []);
     statsByPlayer.get(pid).push(row);
   }
 
   for (const r of roster) {
-    const pid = r?.playerID;
+    const pid = r?.playerID || r?.PlayerID;
     if (!pid) continue;
 
     if (!players.has(pid)) {
       players.set(pid, {
         playerID: pid,
 
-        playerIDBase: r.playerIDBase ?? null,
-        playerIDSuffix: r.playerIDSuffix ?? null,
-        jersey: r.jersey ?? null,
-        first: r.first ?? null,
-        last: r.last ?? null,
-        name: r.name ?? (r.first && r.last ? `${r.first} ${r.last}` : null),
-        pos: r.pos ?? null,
-        grade: r.grade ?? null,
-        gradeFull: r.gradeFull ?? null,
-        gradYear: r.gradYear ?? null,
+playerIDBase: r.playerIDBase ?? r.PlayerID_Base ?? null,
+playerIDSuffix: r.playerIDSuffix ?? r.PlayerID_Suffix ?? null,
+jersey: r.jersey ?? r.Jersey ?? null,
+first: r.first ?? r.FirstName ?? null,
+last: r.last ?? r.LastName ?? null,
+name: r.name ?? r.Name ?? ((r.FirstName && r.LastName) ? `${r.FirstName} ${r.LastName}` : null),
+pos: r.pos ?? r.Position ?? null,
+grade: r.grade ?? r.Grade ?? null,
+gradeFull: r.gradeFull ?? r.GradeFull ?? null,
+gradYear: r.gradYear ?? r.GraduationYear ?? null,
+
 
         participation: [],
         seasons: []

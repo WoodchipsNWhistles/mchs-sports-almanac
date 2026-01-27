@@ -6,11 +6,17 @@
   "first": "Cade",
   "last": "Scott",
   "name": "Cade Scott",
-  "pos": "PF",
-  "grade": "Sr.",
-  "gradeFull": "Senior",
+  "pos": "SG",
+  "grade": "Jr.",
+  "gradeFull": "Junior",
   "gradYear": 2025,
   "participation": [
+    {
+      "sportCode": "GWBB",
+      "seasonYearEnd": 2024,
+      "level": "V",
+      "role": "athlete"
+    },
     {
       "sportCode": "GWBB",
       "seasonYearEnd": 2025,
@@ -19,6 +25,24 @@
     }
   ],
   "seasons": [
+    {
+      "sportCode": "GWBB",
+      "seasonYearEnd": 2024,
+      "level": "V",
+      "gamesPlayed": 0,
+      "totals": {
+        "games": 0,
+        "pts": 0,
+        "reb": 0,
+        "twoPM": 0,
+        "twoPA": 0,
+        "threePM": 0,
+        "threePA": 0,
+        "ftM": 0,
+        "ftA": 0
+      },
+      "gameStats": []
+    },
     {
       "sportCode": "GWBB",
       "seasonYearEnd": 2025,

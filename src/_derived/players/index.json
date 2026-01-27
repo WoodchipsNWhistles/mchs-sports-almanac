@@ -7,11 +7,25 @@
     "gradYear": 2026
   },
   {
+    "playerID": "BLAMIC2024",
+    "name": "Michael Blackman",
+    "last": "Blackman",
+    "first": "Michael",
+    "gradYear": 2024
+  },
+  {
     "playerID": "BLADEV2026",
     "name": "Devon Blackmon",
     "last": "Blackmon",
     "first": "Devon",
     "gradYear": 2026
+  },
+  {
+    "playerID": "BROGAV2027",
+    "name": "Gavin Brown",
+    "last": "Brown",
+    "first": "Gavin",
+    "gradYear": 2027
   },
   {
     "playerID": "CLIKYL2027",
@@ -35,11 +49,25 @@
     "gradYear": 2027
   },
   {
+    "playerID": "HARGAR2024",
+    "name": "Garrett Hardesty",
+    "last": "Hardesty",
+    "first": "Garrett",
+    "gradYear": 2024
+  },
+  {
     "playerID": "HOUCAM2029",
     "name": "Cam House",
     "last": "House",
     "first": "Cam",
     "gradYear": 2029
+  },
+  {
+    "playerID": "JOHPEY2024",
+    "name": "Peyton Johnston",
+    "last": "Johnston",
+    "first": "Peyton",
+    "gradYear": 2024
   },
   {
     "playerID": "KAIETH2025",
@@ -63,6 +91,13 @@
     "gradYear": 2025
   },
   {
+    "playerID": "LINTRE2024",
+    "name": "Trevor Ling",
+    "last": "Ling",
+    "first": "Trevor",
+    "gradYear": 2024
+  },
+  {
     "playerID": "MEDAYD2027",
     "name": "Ayden Medley",
     "last": "Medley",
@@ -77,11 +112,25 @@
     "gradYear": 2027
   },
   {
+    "playerID": "POWMAS2024",
+    "name": "Mason Powers",
+    "last": "Powers",
+    "first": "Mason",
+    "gradYear": 2024
+  },
+  {
     "playerID": "SCOCAD2025",
     "name": "Cade Scott",
     "last": "Scott",
     "first": "Cade",
     "gradYear": 2025
+  },
+  {
+    "playerID": "SHABRO2024",
+    "name": "Bronson Shaw",
+    "last": "Shaw",
+    "first": "Bronson",
+    "gradYear": 2024
   },
   {
     "playerID": "SHOHAY2026",
