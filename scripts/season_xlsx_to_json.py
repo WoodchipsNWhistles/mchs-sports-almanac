@@ -88,6 +88,28 @@ def _season_meta_to_object(df: pd.DataFrame) -> Dict[str, Any]:
     row0 = {k: (None if pd.isna(v) else v) for k, v in row0.items()}
     return row0
 
+def _rename_keys(record: Dict[str, Any], mapping: Dict[str, str]) -> Dict[str, Any]:
+    out = {}
+    for k, v in record.items():
+        out[mapping.get(k, k)] = v
+    return out
+
+GWBB_GAMESTATS_MAP = {
+    "GameID": "gameID",
+    "PlayerID": "playerID",
+    "Jersey": "jersey",
+    "PlayerName": "playerName",
+    "2PM": "twoPM",
+    "2PA": "twoPA",
+    "3PM": "threePM",
+    "3PA": "threePA",
+    "FTM": "ftM",
+    "FTA": "ftA",
+    "Pts": "pts",
+    "Reb": "reb",
+    "TenPlusPoints": "tenPlus",
+    "DoubleDouble": "doubleDouble",
+}
 
 def main() -> None:
     ap = argparse.ArgumentParser()
@@ -113,6 +135,9 @@ def main() -> None:
     roster_df = _read_sheet(xlsx, "Roster")
     gamestats_df = _read_sheet(xlsx, "GameStats")
 
+
+
+
     season = {
         "seasonYear": args.year,
         "seasonMeta": _season_meta_to_object(season_meta_df),
@@ -120,6 +145,13 @@ def main() -> None:
         "roster": _df_to_records(roster_df),
         "gameStats": _df_to_records(gamestats_df),
     }
+    # Normalize GWBB GameStats keys to codex form
+    season["gameStats"] = [
+        _rename_keys(r, GWBB_GAMESTATS_MAP)
+        for r in season.get("gameStats", [])
+    ]
+
+
 
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(season, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

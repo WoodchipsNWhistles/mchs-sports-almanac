@@ -111,78 +111,84 @@ module.exports = class BoxscorePages {
     const seasonYearEnd = b.seasonYearEnd || 2025;
     const season = loadSeason(seasonYearEnd);
 
-   const roster = (season && (season.roster || season.players)) || [];
-const gameStats = (season && (season.gameStats || season.stats)) || [];
+    const roster = (season && (season.roster || season.players)) || [];
+    const gameStats = (season && (season.gameStats || season.stats)) || [];
 
-// Build roster lookup FIRST
-const rosterById = {};
-for (const p of roster) {
-  if (p && p.playerID) rosterById[p.playerID] = p;
-}
+    // Roster lookup (support both legacy and codex keys)
+    const rosterById = {};
+    for (const p of roster) {
+      const pid = (p && (p.playerID || p.PlayerID)) || null;
+      if (pid) rosterById[pid] = p;
+    }
 
-// Now filter stats to this game AND only our roster players
-const rows = gameStats.filter(
-  (r) => r.gameID === b.gameID && r.playerID && rosterById[r.playerID]
-);
+    // Rows for this game (support both legacy and codex keys)
+    const rowsAll = gameStats.filter((r) => {
+      const rg = r.gameID || r.GameID;
+      return rg === b.gameID;
+    });
 
-// Aggregate any duplicate lines for the same playerID in the same game
-const agg = new Map();
+    // Only keep rows that map to a roster player (by playerID)
+    const rows = rowsAll.filter((r) => {
+      const rp = r.playerID || r.PlayerID;
+      return rp && rosterById[rp];
+    });
 
-for (const r of rows) {
-  const key = r.playerID;
-  const prev = agg.get(key) || {
-    playerID: key,
-    jersey: r.jersey ?? "",
-    playerName: r.playerName ?? "",
-    twoPM: 0, twoPA: 0,
-    threePM: 0, threePA: 0,
-    ftM: 0, ftA: 0,
-    pts: 0,
-    reb: 0,
-  };
+    // Aggregate duplicates per player
+    const agg = new Map();
+    for (const r of rows) {
+      const pid = r.playerID || r.PlayerID;
+      const prev = agg.get(pid) || {
+        playerID: pid,
+        jersey: r.jersey ?? r.Jersey ?? "",
+        playerName: r.playerName ?? r.PlayerName ?? "",
+        twoPM: 0, twoPA: 0,
+        threePM: 0, threePA: 0,
+        ftM: 0, ftA: 0,
+        pts: 0,
+        reb: 0,
+      };
 
-  prev.jersey = r.jersey ?? prev.jersey;
-  prev.playerName = r.playerName ?? prev.playerName;
+      prev.jersey = r.jersey ?? r.Jersey ?? prev.jersey;
+      prev.playerName = r.playerName ?? r.PlayerName ?? prev.playerName;
 
-  prev.twoPM += Number(r.twoPM) || 0;
-  prev.twoPA += Number(r.twoPA) || 0;
-  prev.threePM += Number(r.threePM) || 0;
-  prev.threePA += Number(r.threePA) || 0;
-  prev.ftM += Number(r.ftM) || 0;
-  prev.ftA += Number(r.ftA) || 0;
-  prev.pts += Number(r.pts) || 0;
-  prev.reb += Number(r.reb) || 0;
+      prev.twoPM += Number(r.twoPM ?? r["2PM"]) || 0;
+      prev.twoPA += Number(r.twoPA ?? r["2PA"]) || 0;
+      prev.threePM += Number(r.threePM ?? r["3PM"]) || 0;
+      prev.threePA += Number(r.threePA ?? r["3PA"]) || 0;
+      prev.ftM += Number(r.ftM ?? r["FTM"]) || 0;
+      prev.ftA += Number(r.ftA ?? r["FTA"]) || 0;
+      prev.pts += Number(r.pts ?? r["Pts"]) || 0;
+      prev.reb += Number(r.reb ?? r["Reb"]) || 0;
 
-  agg.set(key, prev);
-}
+      agg.set(pid, prev);
+    }
 
-// Normalize + enrich player rows for display (one row per player)
-const playerRows = Array.from(agg.values()).map((r) => {
-  const p = rosterById[r.playerID] || {};
-  const pts = r.pts || 0;
-  const reb = r.reb || 0;
+    // Enrich player rows for display
+    const playerRows = Array.from(agg.values()).map((r) => {
+      const p = rosterById[r.playerID] || {};
+      const pts = r.pts || 0;
+      const reb = r.reb || 0;
 
-  return {
-    playerID: r.playerID,
-    jersey: r.jersey ?? p.jersey ?? "",
-    name:
-      r.playerName ??
-      p.name ??
-      `${p.first || ""} ${p.last || ""}`.trim(),
-    twoPM: r.twoPM || 0,
-    twoPA: r.twoPA || 0,
-    threePM: r.threePM || 0,
-    threePA: r.threePA || 0,
-    ftM: r.ftM || 0,
-    ftA: r.ftA || 0,
-    pts,
-    reb,
-    tenPlus: pts >= 10,
-    doubleDouble: pts >= 10 && reb >= 10,
-  };
-});
-
-
+      return {
+        playerID: r.playerID,
+        jersey: r.jersey ?? p.jersey ?? p.Jersey ?? "",
+        name:
+          r.playerName ??
+          p.name ??
+          p.Name ??
+          `${p.first || p.FirstName || ""} ${p.last || p.LastName || ""}`.trim(),
+        twoPM: r.twoPM || 0,
+        twoPA: r.twoPA || 0,
+        threePM: r.threePM || 0,
+        threePA: r.threePA || 0,
+        ftM: r.ftM || 0,
+        ftA: r.ftA || 0,
+        pts,
+        reb,
+        tenPlus: pts >= 10,
+        doubleDouble: pts >= 10 && reb >= 10,
+      };
+    });
 
     // Sort: jersey asc; fallback name
     playerRows.sort((a, c) => {
@@ -204,8 +210,7 @@ const playerRows = Array.from(agg.values()).map((r) => {
     const fgA = twoA + threeA;
 
     const has3pt = threeA > 0;
-    const isStub = (b.status || "") === "stub";
-    const hasStats = playerRows.length > 0;
+    const hasStats = rows.length > 0;
 
     // Choose one: decimal (.451) is classic; swap to pctPercent if you prefer 45.1%
     const pct = pctDecimal;
@@ -239,67 +244,51 @@ const playerRows = Array.from(agg.values()).map((r) => {
       </p>
 
       <p class="lede" style="margin-top:.75rem;">
+        
         <strong>Final:</strong>
         ${escapeHtml(String(b.pf ?? ""))}–${escapeHtml(String(b.pa ?? ""))}
         ${b.outcome ? ` • <strong>${escapeHtml(b.outcome)}</strong>` : ""}
       </p>
 
-${
-  hasStats
-    ? `<p class="small" style="margin:.75rem 0 0;">
-        <strong>Shooting:</strong>
-        FG ${fgM}-${fgA} (${pct(fgM, fgA)}) •
-        ${has3pt ? `3PT ${threeM}-${threeA} (${pct(threeM, threeA)}) •` : `3PT — •`}
-        FT ${ftMade}-${ftAtt} (${pct(ftMade, ftAtt)})
-      </p>`
-    : `<div class="box" style="margin-top:.75rem;">
-         <p style="margin:0;">
-           <strong>This box score is incomplete.</strong>
-           If you have missing statistics, scorebooks, or official records for this game, please contact the site administrator to help improve the historical record.
-         </p>
-       </div>`
-}
+${rows.length > 0 ? `
+  <div class="article">
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Player</th>
+          <th>2PT</th>
+          <th>3PT</th>
+          <th>FT</th>
+          <th>REB</th>
+          <th>PTS</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${playerRows
+          .map(
+            (r) => `<tr>
+              <td>${escapeHtml(String(r.jersey))}</td>
+              <td>
+                <a href="../../../players/${escapeHtml(String(r.playerID))}/">
+                  ${escapeHtml(String(r.name))}
+                </a>
+              </td>
+              <td>${r.twoPM}-${r.twoPA}</td>
+              <td>${has3pt ? `${r.threePM}-${r.threePA}` : "—"}</td>
+              <td>${r.ftM}-${r.ftA}</td>
+              <td>${escapeHtml(String(r.reb))}</td>
+              <td><strong>${escapeHtml(String(r.pts))}</strong></td>
+            </tr>`
+          )
+          .join("")}
+      </tbody>
+    </table>
+  </div>
+` : ""}
 
 
-    ${
-      hasStats
-        ? `<div class="article">
-            <table>
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>Player</th>
-                  <th>2PT</th>
-                  <th>3PT</th>
-                  <th>FT</th>
-                  <th>REB</th>
-                  <th>PTS</th>
-                </tr>
-              </thead>
-              <tbody>
-                ${playerRows
-                  .map(
-                    (r) => `<tr>
-                      <td>${escapeHtml(String(r.jersey))}</td>
-                      <td>
-<a href="../../../players/${escapeHtml(String(r.playerID))}/">
-    ${escapeHtml(String(r.name))}
-  </a>
-</td>
-
-                      <td>${r.twoPM}-${r.twoPA}</td>
-                      <td>${has3pt ? `${r.threePM}-${r.threePA}` : "—"}</td>
-                      <td>${r.ftM}-${r.ftA}</td>
-                      <td>${escapeHtml(String(r.reb))}</td>
-                      <td><strong>${escapeHtml(String(r.pts))}</strong></td>
-                    </tr>`
-                  )
-                  .join("")}
-              </tbody>
-            </table>
-          </div>`
-        : ""
-    }
+   
 
 <div class="article">
   <div class="box">
