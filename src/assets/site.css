@@ -170,3 +170,8 @@ thead th{
   font-family:var(--masthead);
 }
 
+.game { margin: 0 0 0.75rem 0; }
+.game summary { cursor: pointer; font-weight: 600; }
+.game-body { margin-top: 0.5rem; }
+
+

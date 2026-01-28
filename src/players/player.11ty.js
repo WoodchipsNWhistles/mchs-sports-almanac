@@ -26,6 +26,33 @@ function sum(rows, key) {
   return rows.reduce((acc, r) => acc + safeNum(r?.[key]), 0);
 }
 
+function dateFromGameID(gameID) {
+  if (!gameID) return "";
+  // Expect: GWBB2025-20241203-A-FLOYDC
+  const m = String(gameID).match(/-(\d{8})-/);
+  if (!m) return "";
+  const y = m[1].slice(0, 4);
+  const mo = m[1].slice(4, 6);
+  const d = m[1].slice(6, 8);
+  return `${y}-${mo}-${d}`;
+}
+
+function opponentFromGameID(gameID) {
+  if (!gameID) return "";
+  // Expect: GWBB2025-20241203-A-FLOYDC
+  const parts = String(gameID).split("-");
+  if (parts.length < 4) return "";
+  return parts.slice(3).join("-"); // supports any hyphenated opponent tokens
+}
+
+function siteFromGameID(gameID) {
+  if (!gameID) return "";
+  const s = String(gameID);
+  if (s.includes("-H-")) return "vs";
+  if (s.includes("-A-")) return "@";
+  return "";
+}
+
 // Pull *canonical* GWBB seasons from src/gwbb/data/*.json
 function loadGwbbSeasonFiles() {
   const dir = path.join(process.cwd(), "src", "gwbb", "data");
@@ -51,10 +78,7 @@ function buildVarsitySeasonsFromCanonical(playerID) {
 
   for (const { seasonYearEnd, season } of seasonFiles) {
     const gameStatsAll = season.gameStats || season.stats || [];
-    const rows = gameStatsAll.filter((r) => {
-      const pid = canonPlayerID(r);
-      return pid === playerID;
-    });
+    const rows = gameStatsAll.filter((r) => canonPlayerID(r) === playerID);
 
     if (!rows.length) continue;
 
@@ -69,9 +93,8 @@ function buildVarsitySeasonsFromCanonical(playerID) {
       const pts = safeNum(r.pts ?? r["Pts"]);
       const reb = safeNum(r.reb ?? r["Reb"]);
 
-      const tenPlus = r.tenPlus ?? r.tenPlusPoints ?? (pts >= 10);
-      const doubleDouble =
-        r.doubleDouble ?? (pts >= 10 && reb >= 10);
+      const tenPlus = r.tenPlus ?? r.tenPlusPoints ?? pts >= 10;
+      const doubleDouble = r.doubleDouble ?? (pts >= 10 && reb >= 10);
 
       return {
         gameId: canonGameID(r),
@@ -213,26 +236,104 @@ module.exports = class PlayerPage {
 
     const gameUrl = (gameID) => `${prefix}/gwbb/boxscores/${gameID}`;
 
-    const varsityGameRows = [...varsityGames]
-      .sort((a, b) => String(canonGameID(a)).localeCompare(String(canonGameID(b))))
-      .map((g) => {
-        const gid = canonGameID(g);
-        const two = `${g.twoPM ?? 0}-${g.twoPA ?? 0}`;
-        const three = `${g.threePM ?? 0}-${g.threePA ?? 0}`;
-        const ft = `${g.ftM ?? 0}-${g.ftA ?? 0}`;
-        return `<tr>
-          <td><a href="${gameUrl(gid)}/">${gid}</a></td>
-          <td>${two}</td>
-          <td>${pct(g.twoPM, g.twoPA)}</td>
-          <td>${three}</td>
-          <td>${pct(g.threePM, g.threePA)}</td>
-          <td>${ft}</td>
-          <td>${pct(g.ftM, g.ftA)}</td>
-          <td>${g.reb ?? 0}</td>
-          <td><strong>${g.pts ?? 0}</strong></td>
-        </tr>`;
+    // ---------------- Option C: collapse per season ----------------
+    const sortByGameID = (a, b) =>
+      String(canonGameID(a)).localeCompare(String(canonGameID(b)));
+
+    let careerCounter = 0;
+
+    const seasonLogsHtml = varsitySeasons
+      .map((s) => {
+        const seasonLabel = fmtSeason(s.seasonYearEnd);
+        const games = [...(s.gameStats ?? [])].sort(sortByGameID);
+        const gamesCount = games.length;
+
+        const t = s.totals ?? {};
+        const seasonPts = Number(t.pts ?? 0);
+        const seasonReb = Number(t.reb ?? 0);
+
+        const rowsHtml = games
+          .map((g, seasonIdx) => {
+            careerCounter += 1;
+
+            const gid = canonGameID(g);
+            if (!gid) return "";
+
+            const dateStr = dateFromGameID(gid);
+            const opp = opponentFromGameID(gid);
+            const site = siteFromGameID(gid);
+
+            const two = `${g.twoPM ?? 0}-${g.twoPA ?? 0}`;
+            const three = `${g.threePM ?? 0}-${g.threePA ?? 0}`;
+            const ft = `${g.ftM ?? 0}-${g.ftA ?? 0}`;
+
+            return `<tr>
+              <td>${careerCounter}</td>
+              <td>${seasonIdx + 1}</td>
+              <td>${dateStr || "—"}</td>
+              <td>${site && opp ? `${site} ${opp}` : opp || "—"}</td>
+              <td><a href="${gameUrl(gid)}/">${gid}</a></td>
+              <td>${two}</td>
+              <td>${pct(g.twoPM, g.twoPA)}</td>
+              <td>${three}</td>
+              <td>${pct(g.threePM, g.threePA)}</td>
+              <td>${ft}</td>
+              <td>${pct(g.ftM, g.ftA)}</td>
+              <td>${g.reb ?? 0}</td>
+              <td><strong>${g.pts ?? 0}</strong></td>
+            </tr>`;
+          })
+          .join("");
+
+        const inner =
+          gamesCount > 0
+            ? `<table>
+                <thead>
+                  <tr>
+                    <th>#Career</th>
+                    <th>#Season</th>
+                    <th>Date</th>
+                    <th>Opp</th>
+                    <th>Game</th>
+                    <th>2PT</th>
+                    <th>2PT%</th>
+                    <th>3PT</th>
+                    <th>3PT%</th>
+                    <th>FT</th>
+                    <th>FT%</th>
+                    <th>REB</th>
+                    <th>PTS</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${rowsHtml}
+                </tbody>
+              </table>`
+            : `<p>No game log on record for this season.</p>`;
+
+        const summary = `${seasonLabel} — ${gamesCount} game${
+          gamesCount === 1 ? "" : "s"
+        } — ${seasonPts} pts, ${seasonReb} reb`;
+
+        return `<details class="season">
+          <summary>${summary}</summary>
+          <div class="season-body">
+            ${inner}
+          </div>
+        </details>`;
       })
-      .join("");
+      .join("\n");
+
+    const perGameSectionHtml = `
+      <h2>Per-Game Log — Varsity</h2>
+      ${
+        varsitySeasons.length
+          ? `<div class="season-log">${seasonLogsHtml}</div>`
+          : `<p>No varsity game log on record.</p>`
+      }
+    `;
+
+    // ---------------- End Option C ----------------
 
     const varsityRows = varsitySeasons
       .map((s) => {
@@ -331,33 +432,15 @@ module.exports = class PlayerPage {
 
   <h2>Best Games on Record — Varsity</h2>
   <ul>
-    <li>Points: <strong>${maxPts ? `${maxPts}${ptsCount > 1 ? ` (${ptsCount} times)` : ""}` : "—"}</strong></li>
-    <li>Rebounds: <strong>${maxReb ? `${maxReb}${rebCount > 1 ? ` (${rebCount} times)` : ""}` : "—"}</strong></li>
+    <li>Points: <strong>${
+      maxPts ? `${maxPts}${ptsCount > 1 ? ` (${ptsCount} times)` : ""}` : "—"
+    }</strong></li>
+    <li>Rebounds: <strong>${
+      maxReb ? `${maxReb}${rebCount > 1 ? ` (${rebCount} times)` : ""}` : "—"
+    }</strong></li>
   </ul>
 
-  <h2>Per-Game Log — Varsity</h2>
-  ${
-    varsityGames.length
-      ? `<table>
-          <thead>
-            <tr>
-              <th>Game</th>
-              <th>2PT</th>
-              <th>2PT%</th>
-              <th>3PT</th>
-              <th>3PT%</th>
-              <th>FT</th>
-              <th>FT%</th>
-              <th>REB</th>
-              <th>PTS</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${varsityGameRows}
-          </tbody>
-        </table>`
-      : `<p>No varsity game log on record.</p>`
-  }
+  ${perGameSectionHtml}
 `
         : `<p>No varsity season totals on record.</p>`
     }
