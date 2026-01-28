@@ -17,6 +17,19 @@ function canonGameID(obj) {
   );
 }
 
+// Normalize a GH Pages-safe prefix.
+// Priority:
+//  1) src/_data/site.js -> { baseUrl: "/mchs-sports-almanac" }
+//  2) Eleventy pathPrefix (if provided)
+//  3) "" for local dev
+function getPathPrefix(data) {
+  const fromSite = data?.site?.baseUrl;
+  const fromEleventy = data?.pathPrefix;
+  const raw = fromSite ?? fromEleventy ?? "";
+  if (!raw) return "";
+  return String(raw).replace(/\/+$/, ""); // trim trailing slash
+}
+
 module.exports = class PlayerPage {
   data() {
     return {
@@ -27,7 +40,9 @@ module.exports = class PlayerPage {
       },
       permalink: (data) => {
         const pid = canonPlayerID(data.playerRef);
-        return `/players/${pid}/index.html`;
+        const prefix = getPathPrefix(data);
+        // Publish under the project root on GH Pages
+        return `${prefix}/players/${pid}/index.html`;
       },
       layout: "base.njk",
       eleventyComputed: {
@@ -40,6 +55,8 @@ module.exports = class PlayerPage {
   }
 
   render(data) {
+    const prefix = getPathPrefix(data);
+
     const playerID = canonPlayerID(data.playerRef);
     const p = path.join("src", "_derived", "players", `${playerID}.json`);
     const player = JSON.parse(fs.readFileSync(p, "utf8"));
@@ -94,8 +111,7 @@ module.exports = class PlayerPage {
       return `${((mm / aa) * 100).toFixed(1)}%`;
     };
 
-    // GH Pages-safe: Eleventy often provides pathPrefix (e.g. "/mchs-sports-almanac")
-    const prefix = data.pathPrefix || "";
+    // Build URLs that work on GH Pages project sites
     const gameUrl = (gameID) => `${prefix}/gwbb/boxscores/${gameID}`;
 
     const varsityGameRows = [...varsityGames]
