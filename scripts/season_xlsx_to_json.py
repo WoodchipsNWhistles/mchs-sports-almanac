@@ -70,8 +70,8 @@ ROSTER_RENAME = {
 }
 
 GAMESTATS_RENAME = {
-    "GameID": "gameID",
-    "PlayerID": "playerID",
+    "GameID": "gameId",
+    "PlayerID": "playerId",
     "Jersey": "jersey",
     "PlayerName": "playerName",
     "2PM": "twoPM",
@@ -87,9 +87,22 @@ GAMESTATS_RENAME = {
 }
 
     # the rest already match your schema (twoPM, twoPA, etc.)
+# 🔒 Canonicalizer: catches variant keys that sneak in during bulk pastes
+GAMESTATS_CANONICALIZE = {
+    "gameID": "gameId",
+    "GameID": "gameId",
+    "GameID_Base": "gameId",
+    "gameIdBase": "gameId",
+
+    "playerID": "playerID",   # no-op but explicit
+    "PlayerID": "playerID",
+}
 
 SHEET_RENAME_MAP = {
     "GameStats": GAMESTATS_RENAME,
+    "Roster": ROSTER_RENAME,
+    "GameStats": GAMESTATS_RENAME,
+
     # SeasonMeta usually stays as-is, unless you want to normalize it too.
 }
 
@@ -206,13 +219,12 @@ def main() -> None:
         "roster": _df_to_records(roster_df),
         "gameStats": _df_to_records(gamestats_df),
     }
-    season = {
-        "seasonYear": args.year,
-        "seasonMeta": _season_meta_to_object(season_meta_df),
-        "schedule": _df_to_records(schedule_df),
-        "roster": _df_to_records(roster_df),
-        "gameStats": _df_to_records(gamestats_df),
-    }
+
+    # 🔒 Canonicalize GameStats keys (belt + suspenders)
+    season["gameStats"] = [
+        _rename_keys(r, GAMESTATS_CANONICALIZE)
+        for r in season.get("gameStats", [])
+    ]
 
     # Normalize GWBB GameStats keys to codex form (Excel headers -> canonical JSON keys)
     season["gameStats"] = [

@@ -7,14 +7,113 @@ function canonPlayerID(obj) {
 
 function canonGameID(obj) {
   return (
-    obj?.gameID ||
     obj?.gameId ||
+    obj?.gameID ||
     obj?.GameID ||
     obj?.GameId ||
     obj?.GameID_Base ||
     obj?.gameIdBase ||
     null
   );
+}
+
+function safeNum(n) {
+  const x = Number(n);
+  return Number.isFinite(x) ? x : 0;
+}
+
+function sum(rows, key) {
+  return rows.reduce((acc, r) => acc + safeNum(r?.[key]), 0);
+}
+
+// Pull *canonical* GWBB seasons from src/gwbb/data/*.json
+function loadGwbbSeasonFiles() {
+  const dir = path.join(process.cwd(), "src", "gwbb", "data");
+  if (!fs.existsSync(dir)) return [];
+
+  return fs
+    .readdirSync(dir)
+    .filter((f) => /^\d{4}\.json$/.test(f))
+    .sort()
+    .map((f) => {
+      const full = path.join(dir, f);
+      const raw = fs.readFileSync(full, "utf8");
+      const season = JSON.parse(raw);
+      const seasonYearEnd = season.seasonYear || Number(f.replace(".json", ""));
+      return { seasonYearEnd, season };
+    });
+}
+
+// Build a Varsity seasons array from canonical season JSON
+function buildVarsitySeasonsFromCanonical(playerID) {
+  const seasons = [];
+  const seasonFiles = loadGwbbSeasonFiles();
+
+  for (const { seasonYearEnd, season } of seasonFiles) {
+    const gameStatsAll = season.gameStats || season.stats || [];
+    const rows = gameStatsAll.filter((r) => {
+      const pid = canonPlayerID(r);
+      return pid === playerID;
+    });
+
+    if (!rows.length) continue;
+
+    // normalize rows + compute derived flags if missing
+    const normRows = rows.map((r) => {
+      const twoPM = safeNum(r.twoPM ?? r["2PM"]);
+      const twoPA = safeNum(r.twoPA ?? r["2PA"]);
+      const threePM = safeNum(r.threePM ?? r["3PM"]);
+      const threePA = safeNum(r.threePA ?? r["3PA"]);
+      const ftM = safeNum(r.ftM ?? r["FTM"]);
+      const ftA = safeNum(r.ftA ?? r["FTA"]);
+      const pts = safeNum(r.pts ?? r["Pts"]);
+      const reb = safeNum(r.reb ?? r["Reb"]);
+
+      const tenPlus = r.tenPlus ?? r.tenPlusPoints ?? (pts >= 10);
+      const doubleDouble =
+        r.doubleDouble ?? (pts >= 10 && reb >= 10);
+
+      return {
+        gameId: canonGameID(r),
+        playerId: playerID,
+        jersey: r.jersey ?? r.Jersey ?? "",
+        playerName: r.playerName ?? r.PlayerName ?? "",
+        twoPM,
+        twoPA,
+        threePM,
+        threePA,
+        ftM,
+        ftA,
+        pts,
+        reb,
+        tenPlus: Boolean(tenPlus),
+        doubleDouble: Boolean(doubleDouble),
+      };
+    });
+
+    const totals = {
+      twoPM: sum(normRows, "twoPM"),
+      twoPA: sum(normRows, "twoPA"),
+      threePM: sum(normRows, "threePM"),
+      threePA: sum(normRows, "threePA"),
+      ftM: sum(normRows, "ftM"),
+      ftA: sum(normRows, "ftA"),
+      pts: sum(normRows, "pts"),
+      reb: sum(normRows, "reb"),
+    };
+
+    seasons.push({
+      seasonYearEnd,
+      level: "V",
+      gamesPlayed: normRows.length,
+      totals,
+      gameStats: normRows,
+    });
+  }
+
+  // sort by season ascending
+  seasons.sort((a, b) => (a.seasonYearEnd || 0) - (b.seasonYearEnd || 0));
+  return seasons;
 }
 
 module.exports = class PlayerPage {
@@ -25,21 +124,19 @@ module.exports = class PlayerPage {
         size: 1,
         alias: "playerRef",
       },
-permalink: (data) => {
-  const pid = canonPlayerID(data.playerRef);
-  return `/players/${pid}/index.html`;
-},
-              // To those who come behind:
-// This hardcoded prefix exists because Eleventy JS templates did not reliably
-// receive site.baseUrl or pathPrefix during GH Pages builds.
-// Root-relative links WILL 404 without this.
-// Verified working on GitHub Pages project sites.
-// Time wasted discovering this: ~14 hours.
-// If you change this, please increment thecounter and leave a note.
+      permalink: (data) => {
+        const pid = canonPlayerID(data.playerRef);
+        return `/players/${pid}/index.html`;
+      },
 
+      // To those who come behind:
+      // This hardcoded prefix exists because Eleventy JS templates did not reliably
+      // receive site.baseUrl or pathPrefix during GH Pages builds.
+      // Root-relative links WILL 404 without this.
+      // Verified working on GitHub Pages project sites.
+      // Time wasted discovering this: ~14 hours.
+      // If you change this, please increment the counter and leave a note.
 
-       
-    
       layout: "base.njk",
       eleventyComputed: {
         title: (data) => {
@@ -51,11 +148,18 @@ permalink: (data) => {
   }
 
   render(data) {
-   const prefix = "/mchs-sports-almanac";
+    const prefix = "/mchs-sports-almanac";
 
     const playerID = canonPlayerID(data.playerRef);
+
+    // Base player identity comes from _derived (name/gradYear/etc)
     const p = path.join("src", "_derived", "players", `${playerID}.json`);
     const player = JSON.parse(fs.readFileSync(p, "utf8"));
+
+    // ✅ IMPORTANT FIX:
+    // Always rebuild Varsity seasons from canonical season JSON (src/gwbb/data/*.json)
+    // so player pages reflect missing-game patches immediately.
+    player.seasons = buildVarsitySeasonsFromCanonical(playerID);
 
     const varsitySeasons = (player.seasons ?? []).filter((s) => s.level === "V");
     const varsityGames = varsitySeasons.flatMap((s) => s.gameStats ?? []);
@@ -106,9 +210,6 @@ permalink: (data) => {
       if (!aa) return "—";
       return `${((mm / aa) * 100).toFixed(1)}%`;
     };
-
-    // Build URLs that work on GH Pages project sites
-
 
     const gameUrl = (gameID) => `${prefix}/gwbb/boxscores/${gameID}`;
 
