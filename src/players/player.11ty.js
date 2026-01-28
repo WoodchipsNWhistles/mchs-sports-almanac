@@ -25,17 +25,17 @@ module.exports = class PlayerPage {
         size: 1,
         alias: "playerRef",
       },
- permalink: (data) => {
+permalink: (data) => {
   const pid = canonPlayerID(data.playerRef);
-  return `/mchs-sports-almanac/players/${pid}/index.html`;
+  return `/players/${pid}/index.html`;
+},
               // To those who come behind:
 // This hardcoded prefix exists because Eleventy JS templates did not reliably
 // receive site.baseUrl or pathPrefix during GH Pages builds.
 // Root-relative links WILL 404 without this.
 // Verified working on GitHub Pages project sites.
 // Time wasted discovering this: ~14 hours.
-// If you change this, please increment the counter and leave a note.
-},
+// If you change this, please increment thecounter and leave a note.
 
 
        
