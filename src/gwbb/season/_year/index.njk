@@ -13,10 +13,81 @@ permalink: "/gwbb/season/{{ s.yearEnd }}/index.html"
   <hr class="rule">
 </header>
 
-<p class="article-note">
-  <strong>Season JSON:</strong>
-  <a href="{{ s.jsonUrl | url }}">{{ s.jsonUrl }}</a>
-</p>
+
+{# Derived season summary (W–L, PF/PA, lede) #}
+{% set summary = gwbbSeasonSummaries[s.yearEnd] or {} %}
+{# Canonical postseason metadata (flags) #}
+{% set meta = gwbbSeasonMeta[s.yearEnd] or {} %}
+
+{% if meta and meta.seasonYearEnd %}
+  <div class="box" style="margin: 1rem 0;">
+    <h3 style="margin:0 0 .5rem; font-family: var(--masthead);">Season at a glance</h3>
+{% if summary.lede %}
+  <p class="small" style="margin:.5rem 0 0;"><em>{{ summary.lede }}</em></p>
+{% endif %}
+    <p class="small" style="margin:.25rem 0;">
+<strong>Head coach:</strong> {{ summary.coachName or meta.coachId or "—" }}
+
+    </p>
+    
+    {% if summary.wins is defined %}
+  <p class="small" style="margin:.25rem 0;"><strong>Record:</strong> {{ summary.wins }}–{{ summary.losses }}</p>
+  <p class="small" style="margin:.25rem 0;"><strong>Points:</strong> {{ summary.pfTotal }}–{{ summary.paTotal }}</p>
+{% endif %}
+
+
+{% if meta.districtChampion == 1 or meta.districtRunnerUp == 1 %}
+  <p class="small" style="margin:.25rem 0;">
+    <strong>District:</strong>
+    {% if meta.districtChampion == 1 %}
+      Champion
+    {% else %}
+      Runner-up
+    {% endif %}
+  </p>
+{% endif %}
+
+{% if meta.regionChampion == 1 or meta.regionRunnerUp == 1 %}
+  <p class="small" style="margin:.25rem 0;">
+    <strong>Region:</strong>
+    {% if meta.regionChampion == 1 %}
+      Champion
+    {% elif meta.regionRunnerUp == 1 %}
+      Runner-up
+    {% endif %}
+  </p>
+{% endif %}
+
+
+{% if
+  meta.stateChampion == 1
+  or meta.stateFinalist == 1
+  or meta.stateFinalFour == 1
+  or meta.stateElite8 == 1
+  or meta.stateSweet16 == 1
+%}
+  <p class="small" style="margin:.25rem 0;">
+    <strong>State:</strong>
+    {% if meta.stateChampion == 1 %}
+      Champion
+    {% elif meta.stateFinalist == 1 %}
+      Finalist
+    {% elif meta.stateFinalFour == 1 %}
+      Final Four
+    {% elif meta.stateElite8 == 1 %}
+      Elite Eight
+    {% elif meta.stateSweet16 == 1 %}
+      Sweet 16
+    {% endif %}
+  </p>
+{% endif %}
+
+<p class="small">DEBUG coachName: {{ summary.coachName }}</p>
+
+    </p>
+  </div>
+{% endif %}
+
 
 {% if seasonJsonMissing %}
   <p><em>Season JSON missing for {{ s.yearEnd }}.</em></p>
@@ -130,3 +201,16 @@ permalink: "/gwbb/season/{{ s.yearEnd }}/index.html"
 {% else %}
   <p><em>No season object loaded.</em></p>
 {% endif %}
+
+<footer class="article">
+  <div class="box">
+    <h3 style="margin:0 0 .5rem; font-family: var(--masthead);">Data provenance</h3>
+    <p class="small" style="margin:0;">
+      Season data compiled from official records and scorebooks.
+    </p>
+    <p class="small" style="margin:.5rem 0 0;">
+      JSON source:
+      <a href="{{ s.jsonUrl | url }}">{{ s.jsonUrl }}</a>
+    </p>
+  </div>
+</footer>
