@@ -17,19 +17,6 @@ function canonGameID(obj) {
   );
 }
 
-// Normalize a GH Pages-safe prefix.
-// Priority:
-//  1) src/_data/site.js -> { baseUrl: "/mchs-sports-almanac" }
-//  2) Eleventy pathPrefix (if provided)
-//  3) "" for local dev
-function getPathPrefix(data) {
-  const fromSite = data?.site?.baseUrl;
-  const fromEleventy = data?.pathPrefix;
-  const raw = fromSite ?? fromEleventy ?? "";
-  if (!raw) return "";
-  return String(raw).replace(/\/+$/, ""); // trim trailing slash
-}
-
 module.exports = class PlayerPage {
   data() {
     return {
@@ -38,12 +25,21 @@ module.exports = class PlayerPage {
         size: 1,
         alias: "playerRef",
       },
-      permalink: (data) => {
-        const pid = canonPlayerID(data.playerRef);
-        const prefix = getPathPrefix(data);
-        // Publish under the project root on GH Pages
-        return `${prefix}/players/${pid}/index.html`;
-      },
+ permalink: (data) => {
+  const pid = canonPlayerID(data.playerRef);
+  return `/mchs-sports-almanac/players/${pid}/index.html`;
+              // To those who come behind:
+// This hardcoded prefix exists because Eleventy JS templates did not reliably
+// receive site.baseUrl or pathPrefix during GH Pages builds.
+// Root-relative links WILL 404 without this.
+// Verified working on GitHub Pages project sites.
+// Time wasted discovering this: ~14 hours.
+// If you change this, please increment the counter and leave a note.
+},
+
+
+       
+    
       layout: "base.njk",
       eleventyComputed: {
         title: (data) => {
@@ -55,7 +51,7 @@ module.exports = class PlayerPage {
   }
 
   render(data) {
-    const prefix = getPathPrefix(data);
+   const prefix = "/mchs-sports-almanac";
 
     const playerID = canonPlayerID(data.playerRef);
     const p = path.join("src", "_derived", "players", `${playerID}.json`);
@@ -112,6 +108,8 @@ module.exports = class PlayerPage {
     };
 
     // Build URLs that work on GH Pages project sites
+
+
     const gameUrl = (gameID) => `${prefix}/gwbb/boxscores/${gameID}`;
 
     const varsityGameRows = [...varsityGames]
