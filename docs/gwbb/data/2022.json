@@ -457,17 +457,17 @@
   ],
   "roster": [
     {
-      "Jersey": null,
-      "Name": "Zeke Alexander",
-      "Position": null,
-      "Grade": "So.",
-      "GradeFull": "Sophomore",
-      "GraduationYear": 2024.0,
-      "FirstName": "Zeke",
-      "LastName": "Alexander",
-      "PlayerID_Base": "ALEZEK2024",
-      "PlayerID_Suffix": 1.0,
-      "PlayerID": "ALEZEK2024",
+      "jersey": null,
+      "name": "Zeke Alexander",
+      "pos": null,
+      "grade": "So.",
+      "gradeFull": "Sophomore",
+      "gradYear": 2024.0,
+      "firstName": "Zeke",
+      "lastName": "Alexander",
+      "playerIdBase": "ALEZEK2024",
+      "playerIdSuffix": 1.0,
+      "playerId": "ALEZEK2024",
       "Name_Key": "zeke alexander",
       "Unnamed: 13": null,
       "Unnamed: 21": null,
@@ -476,17 +476,17 @@
       "Unnamed: 24": null
     },
     {
-      "Jersey": null,
-      "Name": "Ethan Brandon",
-      "Position": "G",
-      "Grade": "So.",
-      "GradeFull": "Sophomore",
-      "GraduationYear": 2024.0,
-      "FirstName": "Ethan",
-      "LastName": "Brandon",
-      "PlayerID_Base": "BRAETH2024",
-      "PlayerID_Suffix": 1.0,
-      "PlayerID": "BRAETH2024",
+      "jersey": null,
+      "name": "Ethan Brandon",
+      "pos": "G",
+      "grade": "So.",
+      "gradeFull": "Sophomore",
+      "gradYear": 2024.0,
+      "firstName": "Ethan",
+      "lastName": "Brandon",
+      "playerIdBase": "BRAETH2024",
+      "playerIdSuffix": 1.0,
+      "playerId": "BRAETH2024",
       "Name_Key": "ethan brandon",
       "Unnamed: 13": null,
       "Unnamed: 21": null,
@@ -495,17 +495,17 @@
       "Unnamed: 24": null
     },
     {
-      "Jersey": null,
-      "Name": "Cooper Crump",
-      "Position": "SG",
-      "Grade": "Sr.",
-      "GradeFull": "Senior",
-      "GraduationYear": 2022.0,
-      "FirstName": "Cooper",
-      "LastName": "Crump",
-      "PlayerID_Base": "CRUCOO2022",
-      "PlayerID_Suffix": 1.0,
-      "PlayerID": "CRUCOO2022",
+      "jersey": null,
+      "name": "Cooper Crump",
+      "pos": "SG",
+      "grade": "Sr.",
+      "gradeFull": "Senior",
+      "gradYear": 2022.0,
+      "firstName": "Cooper",
+      "lastName": "Crump",
+      "playerIdBase": "CRUCOO2022",
+      "playerIdSuffix": 1.0,
+      "playerId": "CRUCOO2022",
       "Name_Key": "cooper crump",
       "Unnamed: 13": null,
       "Unnamed: 21": null,
@@ -514,17 +514,17 @@
       "Unnamed: 24": null
     },
     {
-      "Jersey": 3.0,
-      "Name": "Timothy Rankin",
-      "Position": null,
-      "Grade": "Fr.",
-      "GradeFull": "Freshman",
-      "GraduationYear": 2025.0,
-      "FirstName": "Timothy",
-      "LastName": "Rankin",
-      "PlayerID_Base": "RANTIM2025",
-      "PlayerID_Suffix": 1.0,
-      "PlayerID": "RANTIM2025",
+      "jersey": 3.0,
+      "name": "Timothy Rankin",
+      "pos": null,
+      "grade": "Fr.",
+      "gradeFull": "Freshman",
+      "gradYear": 2025.0,
+      "firstName": "Timothy",
+      "lastName": "Rankin",
+      "playerIdBase": "RANTIM2025",
+      "playerIdSuffix": 1.0,
+      "playerId": "RANTIM2025",
       "Name_Key": "timothy rankin",
       "Unnamed: 13": null,
       "Unnamed: 21": null,
@@ -533,17 +533,17 @@
       "Unnamed: 24": null
     },
     {
-      "Jersey": 4.0,
-      "Name": "Lucas Hail",
-      "Position": "PG",
-      "Grade": "Fr.",
-      "GradeFull": "Freshman",
-      "GraduationYear": 2025.0,
-      "FirstName": "Lucas",
-      "LastName": "Hail",
-      "PlayerID_Base": "HAILUC2025",
-      "PlayerID_Suffix": 1.0,
-      "PlayerID": "HAILUC2025",
+      "jersey": 4.0,
+      "name": "Lucas Hail",
+      "pos": "PG",
+      "grade": "Fr.",
+      "gradeFull": "Freshman",
+      "gradYear": 2025.0,
+      "firstName": "Lucas",
+      "lastName": "Hail",
+      "playerIdBase": "HAILUC2025",
+      "playerIdSuffix": 1.0,
+      "playerId": "HAILUC2025",
       "Name_Key": "lucas hail",
       "Unnamed: 13": null,
       "Unnamed: 21": null,
@@ -552,17 +552,17 @@
       "Unnamed: 24": null
     },
     {
-      "Jersey": 5.0,
-      "Name": "Trent Knoop",
-      "Position": "SG",
-      "Grade": "Sr.",
-      "GradeFull": "Senior",
-      "GraduationYear": 2022.0,
-      "FirstName": "Trent",
-      "LastName": "Knoop",
-      "PlayerID_Base": "KNOTRE2022",
-      "PlayerID_Suffix": 1.0,
-      "PlayerID": "KNOTRE2022",
+      "jersey": 5.0,
+      "name": "Trent Knoop",
+      "pos": "SG",
+      "grade": "Sr.",
+      "gradeFull": "Senior",
+      "gradYear": 2022.0,
+      "firstName": "Trent",
+      "lastName": "Knoop",
+      "playerIdBase": "KNOTRE2022",
+      "playerIdSuffix": 1.0,
+      "playerId": "KNOTRE2022",
       "Name_Key": "trent knoop",
       "Unnamed: 13": null,
       "Unnamed: 21": null,
@@ -571,17 +571,17 @@
       "Unnamed: 24": null
     },
     {
-      "Jersey": 12.0,
-      "Name": "Trevor Ling",
-      "Position": null,
-      "Grade": "So.",
-      "GradeFull": "Sophomore",
-      "GraduationYear": 2024.0,
-      "FirstName": "Trevor",
-      "LastName": "Ling",
-      "PlayerID_Base": "LINTRE2024",
-      "PlayerID_Suffix": 1.0,
-      "PlayerID": "LINTRE2024",
+      "jersey": 12.0,
+      "name": "Trevor Ling",
+      "pos": null,
+      "grade": "So.",
+      "gradeFull": "Sophomore",
+      "gradYear": 2024.0,
+      "firstName": "Trevor",
+      "lastName": "Ling",
+      "playerIdBase": "LINTRE2024",
+      "playerIdSuffix": 1.0,
+      "playerId": "LINTRE2024",
       "Name_Key": "trevor ling",
       "Unnamed: 13": null,
       "Unnamed: 21": null,
@@ -590,17 +590,17 @@
       "Unnamed: 24": null
     },
     {
-      "Jersey": 22.0,
-      "Name": "Talan Ledford",
-      "Position": null,
-      "Grade": "Fr.",
-      "GradeFull": "Freshman",
-      "GraduationYear": 2025.0,
-      "FirstName": "Talan",
-      "LastName": "Ledford",
-      "PlayerID_Base": "LEDTAL2025",
-      "PlayerID_Suffix": 1.0,
-      "PlayerID": "LEDTAL2025",
+      "jersey": 22.0,
+      "name": "Talan Ledford",
+      "pos": null,
+      "grade": "Fr.",
+      "gradeFull": "Freshman",
+      "gradYear": 2025.0,
+      "firstName": "Talan",
+      "lastName": "Ledford",
+      "playerIdBase": "LEDTAL2025",
+      "playerIdSuffix": 1.0,
+      "playerId": "LEDTAL2025",
       "Name_Key": "talan ledford",
       "Unnamed: 13": null,
       "Unnamed: 21": null,
@@ -609,17 +609,17 @@
       "Unnamed: 24": null
     },
     {
-      "Jersey": 13.0,
-      "Name": "Lawson King",
-      "Position": "SF",
-      "Grade": "Sr.",
-      "GradeFull": "Senior",
-      "GraduationYear": 2022.0,
-      "FirstName": "Lawson",
-      "LastName": "King",
-      "PlayerID_Base": "KINLAW2022",
-      "PlayerID_Suffix": 1.0,
-      "PlayerID": "KINLAW2022",
+      "jersey": 13.0,
+      "name": "Lawson King",
+      "pos": "SF",
+      "grade": "Sr.",
+      "gradeFull": "Senior",
+      "gradYear": 2022.0,
+      "firstName": "Lawson",
+      "lastName": "King",
+      "playerIdBase": "KINLAW2022",
+      "playerIdSuffix": 1.0,
+      "playerId": "KINLAW2022",
       "Name_Key": "lawson king",
       "Unnamed: 13": null,
       "Unnamed: 21": null,
@@ -628,17 +628,17 @@
       "Unnamed: 24": null
     },
     {
-      "Jersey": 14.0,
-      "Name": "Kyle Parker",
-      "Position": "SG",
-      "Grade": "Sr.",
-      "GradeFull": "Senior",
-      "GraduationYear": 2022.0,
-      "FirstName": "Kyle",
-      "LastName": "Parker",
-      "PlayerID_Base": "PARKYL2022",
-      "PlayerID_Suffix": 1.0,
-      "PlayerID": "PARKYL2022",
+      "jersey": 14.0,
+      "name": "Kyle Parker",
+      "pos": "SG",
+      "grade": "Sr.",
+      "gradeFull": "Senior",
+      "gradYear": 2022.0,
+      "firstName": "Kyle",
+      "lastName": "Parker",
+      "playerIdBase": "PARKYL2022",
+      "playerIdSuffix": 1.0,
+      "playerId": "PARKYL2022",
       "Name_Key": "kyle parker",
       "Unnamed: 13": null,
       "Unnamed: 21": null,
@@ -647,17 +647,17 @@
       "Unnamed: 24": null
     },
     {
-      "Jersey": 15.0,
-      "Name": "Ryan Dycus",
-      "Position": null,
-      "Grade": "So.",
-      "GradeFull": "Sophomore",
-      "GraduationYear": 2024.0,
-      "FirstName": "Ryan",
-      "LastName": "Dycus",
-      "PlayerID_Base": "DYCRYA2024",
-      "PlayerID_Suffix": 1.0,
-      "PlayerID": "DYCRYA2024",
+      "jersey": 15.0,
+      "name": "Ryan Dycus",
+      "pos": null,
+      "grade": "So.",
+      "gradeFull": "Sophomore",
+      "gradYear": 2024.0,
+      "firstName": "Ryan",
+      "lastName": "Dycus",
+      "playerIdBase": "DYCRYA2024",
+      "playerIdSuffix": 1.0,
+      "playerId": "DYCRYA2024",
       "Name_Key": "ryan dycus",
       "Unnamed: 13": null,
       "Unnamed: 21": null,
@@ -666,17 +666,17 @@
       "Unnamed: 24": null
     },
     {
-      "Jersey": 20.0,
-      "Name": "Cade Scott",
-      "Position": "SG",
-      "Grade": "Fr.",
-      "GradeFull": "Freshman",
-      "GraduationYear": 2025.0,
-      "FirstName": "Cade",
-      "LastName": "Scott",
-      "PlayerID_Base": "SCOCAD2025",
-      "PlayerID_Suffix": 1.0,
-      "PlayerID": "SCOCAD2025",
+      "jersey": 20.0,
+      "name": "Cade Scott",
+      "pos": "SG",
+      "grade": "Fr.",
+      "gradeFull": "Freshman",
+      "gradYear": 2025.0,
+      "firstName": "Cade",
+      "lastName": "Scott",
+      "playerIdBase": "SCOCAD2025",
+      "playerIdSuffix": 1.0,
+      "playerId": "SCOCAD2025",
       "Name_Key": "cade scott",
       "Unnamed: 13": null,
       "Unnamed: 21": null,
@@ -685,17 +685,17 @@
       "Unnamed: 24": null
     },
     {
-      "Jersey": 21.0,
-      "Name": "Garrett Hardesty",
-      "Position": null,
-      "Grade": "So.",
-      "GradeFull": "Sophomore",
-      "GraduationYear": 2024.0,
-      "FirstName": "Garrett",
-      "LastName": "Hardesty",
-      "PlayerID_Base": "HARGAR2024",
-      "PlayerID_Suffix": 1.0,
-      "PlayerID": "HARGAR2024",
+      "jersey": 21.0,
+      "name": "Garrett Hardesty",
+      "pos": null,
+      "grade": "So.",
+      "gradeFull": "Sophomore",
+      "gradYear": 2024.0,
+      "firstName": "Garrett",
+      "lastName": "Hardesty",
+      "playerIdBase": "HARGAR2024",
+      "playerIdSuffix": 1.0,
+      "playerId": "HARGAR2024",
       "Name_Key": "garrett hardesty",
       "Unnamed: 13": null,
       "Unnamed: 21": null,
@@ -704,17 +704,17 @@
       "Unnamed: 24": null
     },
     {
-      "Jersey": 23.0,
-      "Name": "Ethan Youart",
-      "Position": null,
-      "Grade": "Jr.",
-      "GradeFull": "Junior",
-      "GraduationYear": 2023.0,
-      "FirstName": "Ethan",
-      "LastName": "Youart",
-      "PlayerID_Base": "YOUETH2023",
-      "PlayerID_Suffix": 1.0,
-      "PlayerID": "YOUETH2023",
+      "jersey": 23.0,
+      "name": "Ethan Youart",
+      "pos": null,
+      "grade": "Jr.",
+      "gradeFull": "Junior",
+      "gradYear": 2023.0,
+      "firstName": "Ethan",
+      "lastName": "Youart",
+      "playerIdBase": "YOUETH2023",
+      "playerIdSuffix": 1.0,
+      "playerId": "YOUETH2023",
       "Name_Key": "ethan youart",
       "Unnamed: 13": null,
       "Unnamed: 21": null,
@@ -723,17 +723,17 @@
       "Unnamed: 24": null
     },
     {
-      "Jersey": 30.0,
-      "Name": "Peyton Johnston",
-      "Position": null,
-      "Grade": "So.",
-      "GradeFull": "Sophomore",
-      "GraduationYear": 2024.0,
-      "FirstName": "Peyton",
-      "LastName": "Johnston",
-      "PlayerID_Base": "JOHPEY2024",
-      "PlayerID_Suffix": 1.0,
-      "PlayerID": "JOHPEY2024",
+      "jersey": 30.0,
+      "name": "Peyton Johnston",
+      "pos": null,
+      "grade": "So.",
+      "gradeFull": "Sophomore",
+      "gradYear": 2024.0,
+      "firstName": "Peyton",
+      "lastName": "Johnston",
+      "playerIdBase": "JOHPEY2024",
+      "playerIdSuffix": 1.0,
+      "playerId": "JOHPEY2024",
       "Name_Key": "peyton johnston",
       "Unnamed: 13": null,
       "Unnamed: 21": null,
@@ -742,17 +742,17 @@
       "Unnamed: 24": null
     },
     {
-      "Jersey": 31.0,
-      "Name": "Grant Beavin",
-      "Position": "SG",
-      "Grade": "Sr.",
-      "GradeFull": "Senior",
-      "GraduationYear": 2022.0,
-      "FirstName": "Grant",
-      "LastName": "Beavin",
-      "PlayerID_Base": "BEAGRA2022",
-      "PlayerID_Suffix": 1.0,
-      "PlayerID": "BEAGRA2022",
+      "jersey": 31.0,
+      "name": "Grant Beavin",
+      "pos": "SG",
+      "grade": "Sr.",
+      "gradeFull": "Senior",
+      "gradYear": 2022.0,
+      "firstName": "Grant",
+      "lastName": "Beavin",
+      "playerIdBase": "BEAGRA2022",
+      "playerIdSuffix": 1.0,
+      "playerId": "BEAGRA2022",
       "Name_Key": "grant beavin",
       "Unnamed: 13": null,
       "Unnamed: 21": null,
@@ -761,17 +761,17 @@
       "Unnamed: 24": null
     },
     {
-      "Jersey": 33.0,
-      "Name": "Joseph Frost",
-      "Position": "F",
-      "Grade": "Jr.",
-      "GradeFull": "Junior",
-      "GraduationYear": 2023.0,
-      "FirstName": "Joseph",
-      "LastName": "Frost",
-      "PlayerID_Base": "FROJOS2023",
-      "PlayerID_Suffix": 1.0,
-      "PlayerID": "FROJOS2023",
+      "jersey": 33.0,
+      "name": "Joseph Frost",
+      "pos": "F",
+      "grade": "Jr.",
+      "gradeFull": "Junior",
+      "gradYear": 2023.0,
+      "firstName": "Joseph",
+      "lastName": "Frost",
+      "playerIdBase": "FROJOS2023",
+      "playerIdSuffix": 1.0,
+      "playerId": "FROJOS2023",
       "Name_Key": "joseph frost",
       "Unnamed: 13": null,
       "Unnamed: 21": null,
@@ -780,17 +780,17 @@
       "Unnamed: 24": null
     },
     {
-      "Jersey": 34.0,
-      "Name": "Blake Edwards",
-      "Position": null,
-      "Grade": "Sr.",
-      "GradeFull": "Senior",
-      "GraduationYear": 2022.0,
-      "FirstName": "Blake",
-      "LastName": "Edwards",
-      "PlayerID_Base": "EDWBLA2022",
-      "PlayerID_Suffix": 1.0,
-      "PlayerID": "EDWBLA2022",
+      "jersey": 34.0,
+      "name": "Blake Edwards",
+      "pos": null,
+      "grade": "Sr.",
+      "gradeFull": "Senior",
+      "gradYear": 2022.0,
+      "firstName": "Blake",
+      "lastName": "Edwards",
+      "playerIdBase": "EDWBLA2022",
+      "playerIdSuffix": 1.0,
+      "playerId": "EDWBLA2022",
       "Name_Key": "blake edwards",
       "Unnamed: 13": null,
       "Unnamed: 21": null,
@@ -799,17 +799,17 @@
       "Unnamed: 24": null
     },
     {
-      "Jersey": null,
-      "Name": null,
-      "Position": null,
-      "Grade": null,
-      "GradeFull": null,
-      "GraduationYear": null,
-      "FirstName": null,
-      "LastName": null,
-      "PlayerID_Base": null,
-      "PlayerID_Suffix": null,
-      "PlayerID": null,
+      "jersey": null,
+      "name": null,
+      "pos": null,
+      "grade": null,
+      "gradeFull": null,
+      "gradYear": null,
+      "firstName": null,
+      "lastName": null,
+      "playerIdBase": null,
+      "playerIdSuffix": null,
+      "playerId": null,
       "Name_Key": null,
       "Unnamed: 13": null,
       "Unnamed: 21": 23.0,
@@ -818,17 +818,17 @@
       "Unnamed: 24": "Jr."
     },
     {
-      "Jersey": null,
-      "Name": null,
-      "Position": null,
-      "Grade": null,
-      "GradeFull": null,
-      "GraduationYear": null,
-      "FirstName": null,
-      "LastName": null,
-      "PlayerID_Base": null,
-      "PlayerID_Suffix": null,
-      "PlayerID": null,
+      "jersey": null,
+      "name": null,
+      "pos": null,
+      "grade": null,
+      "gradeFull": null,
+      "gradYear": null,
+      "firstName": null,
+      "lastName": null,
+      "playerIdBase": null,
+      "playerIdSuffix": null,
+      "playerId": null,
       "Name_Key": null,
       "Unnamed: 13": null,
       "Unnamed: 21": 30.0,
@@ -837,17 +837,17 @@
       "Unnamed: 24": "So."
     },
     {
-      "Jersey": null,
-      "Name": null,
-      "Position": null,
-      "Grade": null,
-      "GradeFull": null,
-      "GraduationYear": null,
-      "FirstName": null,
-      "LastName": null,
-      "PlayerID_Base": null,
-      "PlayerID_Suffix": null,
-      "PlayerID": null,
+      "jersey": null,
+      "name": null,
+      "pos": null,
+      "grade": null,
+      "gradeFull": null,
+      "gradYear": null,
+      "firstName": null,
+      "lastName": null,
+      "playerIdBase": null,
+      "playerIdSuffix": null,
+      "playerId": null,
       "Name_Key": null,
       "Unnamed: 13": null,
       "Unnamed: 21": 31.0,
@@ -856,17 +856,17 @@
       "Unnamed: 24": "Sr."
     },
     {
-      "Jersey": null,
-      "Name": null,
-      "Position": null,
-      "Grade": null,
-      "GradeFull": null,
-      "GraduationYear": null,
-      "FirstName": null,
-      "LastName": null,
-      "PlayerID_Base": null,
-      "PlayerID_Suffix": null,
-      "PlayerID": null,
+      "jersey": null,
+      "name": null,
+      "pos": null,
+      "grade": null,
+      "gradeFull": null,
+      "gradYear": null,
+      "firstName": null,
+      "lastName": null,
+      "playerIdBase": null,
+      "playerIdSuffix": null,
+      "playerId": null,
       "Name_Key": null,
       "Unnamed: 13": null,
       "Unnamed: 21": 33.0,
@@ -875,17 +875,17 @@
       "Unnamed: 24": "Jr."
     },
     {
-      "Jersey": null,
-      "Name": null,
-      "Position": null,
-      "Grade": null,
-      "GradeFull": null,
-      "GraduationYear": null,
-      "FirstName": null,
-      "LastName": null,
-      "PlayerID_Base": null,
-      "PlayerID_Suffix": null,
-      "PlayerID": null,
+      "jersey": null,
+      "name": null,
+      "pos": null,
+      "grade": null,
+      "gradeFull": null,
+      "gradYear": null,
+      "firstName": null,
+      "lastName": null,
+      "playerIdBase": null,
+      "playerIdSuffix": null,
+      "playerId": null,
       "Name_Key": null,
       "Unnamed: 13": null,
       "Unnamed: 21": 34.0,
@@ -894,17 +894,17 @@
       "Unnamed: 24": "Sr."
     },
     {
-      "Jersey": null,
-      "Name": null,
-      "Position": null,
-      "Grade": null,
-      "GradeFull": null,
-      "GraduationYear": null,
-      "FirstName": null,
-      "LastName": null,
-      "PlayerID_Base": null,
-      "PlayerID_Suffix": null,
-      "PlayerID": null,
+      "jersey": null,
+      "name": null,
+      "pos": null,
+      "grade": null,
+      "gradeFull": null,
+      "gradYear": null,
+      "firstName": null,
+      "lastName": null,
+      "playerIdBase": null,
+      "playerIdSuffix": null,
+      "playerId": null,
       "Name_Key": null,
       "Unnamed: 13": "F",
       "Unnamed: 21": null,
@@ -915,8 +915,8 @@
   ],
   "gameStats": [
     {
-      "gameID": "GWBB2022-20211130-H-FLOYDC",
-      "playerID": "KNOTRE2022",
+      "gameId": "GWBB2022-20211130-H-FLOYDC",
+      "playerId": "KNOTRE2022",
       "jersey": 5,
       "playerName": "Trent Knoop",
       "twoPM": 0,
@@ -931,8 +931,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211130-H-FLOYDC",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20211130-H-FLOYDC",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 2,
@@ -947,8 +947,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211130-H-FLOYDC",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20211130-H-FLOYDC",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 1,
@@ -963,8 +963,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211130-H-FLOYDC",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20211130-H-FLOYDC",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 0,
@@ -979,8 +979,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211130-H-FLOYDC",
-      "playerID": "CRUCOO2022",
+      "gameId": "GWBB2022-20211130-H-FLOYDC",
+      "playerId": "CRUCOO2022",
       "jersey": 22,
       "playerName": "Cooper Crump",
       "twoPM": 1,
@@ -995,8 +995,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211130-H-FLOYDC",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20211130-H-FLOYDC",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 1,
@@ -1011,8 +1011,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211130-H-FLOYDC",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20211130-H-FLOYDC",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 2,
@@ -1027,8 +1027,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211130-H-FLOYDC",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20211130-H-FLOYDC",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 1,
@@ -1043,8 +1043,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211203-A-MCLEAN",
-      "playerID": "HAILUC2025",
+      "gameId": "GWBB2022-20211203-A-MCLEAN",
+      "playerId": "HAILUC2025",
       "jersey": 4,
       "playerName": "Lucas Hail",
       "twoPM": 0,
@@ -1059,8 +1059,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211203-A-MCLEAN",
-      "playerID": "LINTRE2024",
+      "gameId": "GWBB2022-20211203-A-MCLEAN",
+      "playerId": "LINTRE2024",
       "jersey": 12,
       "playerName": "Trevor Ling",
       "twoPM": 0,
@@ -1075,8 +1075,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211203-A-MCLEAN",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20211203-A-MCLEAN",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 0,
@@ -1091,8 +1091,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211203-A-MCLEAN",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20211203-A-MCLEAN",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 0,
@@ -1107,8 +1107,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211203-A-MCLEAN",
-      "playerID": "CRUCOO2022",
+      "gameId": "GWBB2022-20211203-A-MCLEAN",
+      "playerId": "CRUCOO2022",
       "jersey": 22,
       "playerName": "Cooper Crump",
       "twoPM": 0,
@@ -1123,8 +1123,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211203-A-MCLEAN",
-      "playerID": "YOUETH2023",
+      "gameId": "GWBB2022-20211203-A-MCLEAN",
+      "playerId": "YOUETH2023",
       "jersey": 23,
       "playerName": "Ethan Youart",
       "twoPM": 1,
@@ -1139,8 +1139,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211203-A-MCLEAN",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20211203-A-MCLEAN",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 2,
@@ -1155,8 +1155,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211203-A-MCLEAN",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20211203-A-MCLEAN",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 2,
@@ -1171,8 +1171,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211203-A-MCLEAN",
-      "playerID": "FROJOS2023",
+      "gameId": "GWBB2022-20211203-A-MCLEAN",
+      "playerId": "FROJOS2023",
       "jersey": 33,
       "playerName": "Joseph Frost",
       "twoPM": 0,
@@ -1187,8 +1187,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211203-A-MCLEAN",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20211203-A-MCLEAN",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 4,
@@ -1203,8 +1203,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211207-A-BRECKI",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20211207-A-BRECKI",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 1,
@@ -1219,8 +1219,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211207-A-BRECKI",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20211207-A-BRECKI",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 0,
@@ -1235,8 +1235,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211207-A-BRECKI",
-      "playerID": "CRUCOO2022",
+      "gameId": "GWBB2022-20211207-A-BRECKI",
+      "playerId": "CRUCOO2022",
       "jersey": 22,
       "playerName": "Cooper Crump",
       "twoPM": 1,
@@ -1251,8 +1251,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211207-A-BRECKI",
-      "playerID": "YOUETH2023",
+      "gameId": "GWBB2022-20211207-A-BRECKI",
+      "playerId": "YOUETH2023",
       "jersey": 23,
       "playerName": "Ethan Youart",
       "twoPM": 0,
@@ -1267,8 +1267,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211207-A-BRECKI",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20211207-A-BRECKI",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 0,
@@ -1283,8 +1283,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211207-A-BRECKI",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20211207-A-BRECKI",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 1,
@@ -1299,8 +1299,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211207-A-BRECKI",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20211207-A-BRECKI",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 5,
@@ -1315,8 +1315,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211214-H-NORTHH",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20211214-H-NORTHH",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 2,
@@ -1331,8 +1331,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211214-H-NORTHH",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20211214-H-NORTHH",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 0,
@@ -1347,8 +1347,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211214-H-NORTHH",
-      "playerID": "CRUCOO2022",
+      "gameId": "GWBB2022-20211214-H-NORTHH",
+      "playerId": "CRUCOO2022",
       "jersey": 22,
       "playerName": "Cooper Crump",
       "twoPM": 1,
@@ -1363,8 +1363,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211214-H-NORTHH",
-      "playerID": "YOUETH2023",
+      "gameId": "GWBB2022-20211214-H-NORTHH",
+      "playerId": "YOUETH2023",
       "jersey": 23,
       "playerName": "Ethan Youart",
       "twoPM": 0,
@@ -1379,8 +1379,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211214-H-NORTHH",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20211214-H-NORTHH",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 1,
@@ -1395,8 +1395,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211214-H-NORTHH",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20211214-H-NORTHH",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 6,
@@ -1411,8 +1411,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211214-H-NORTHH",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20211214-H-NORTHH",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 2,
@@ -1427,8 +1427,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211217-A-BULLIT",
-      "playerID": "HAILUC2025",
+      "gameId": "GWBB2022-20211217-A-BULLIT",
+      "playerId": "HAILUC2025",
       "jersey": 4,
       "playerName": "Lucas Hail",
       "twoPM": 0,
@@ -1443,8 +1443,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211217-A-BULLIT",
-      "playerID": "LINTRE2024",
+      "gameId": "GWBB2022-20211217-A-BULLIT",
+      "playerId": "LINTRE2024",
       "jersey": 12,
       "playerName": "Trevor Ling",
       "twoPM": 0,
@@ -1459,8 +1459,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211217-A-BULLIT",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20211217-A-BULLIT",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 1,
@@ -1475,8 +1475,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211217-A-BULLIT",
-      "playerID": "DYCRYA2024",
+      "gameId": "GWBB2022-20211217-A-BULLIT",
+      "playerId": "DYCRYA2024",
       "jersey": 15,
       "playerName": "Ryan Dycus",
       "twoPM": 0,
@@ -1491,8 +1491,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211217-A-BULLIT",
-      "playerID": "SCOCAD2025",
+      "gameId": "GWBB2022-20211217-A-BULLIT",
+      "playerId": "SCOCAD2025",
       "jersey": 20,
       "playerName": "Cade Scott",
       "twoPM": 0,
@@ -1507,8 +1507,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211217-A-BULLIT",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20211217-A-BULLIT",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 2,
@@ -1523,8 +1523,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211217-A-BULLIT",
-      "playerID": "CRUCOO2022",
+      "gameId": "GWBB2022-20211217-A-BULLIT",
+      "playerId": "CRUCOO2022",
       "jersey": 22,
       "playerName": "Cooper Crump",
       "twoPM": 0,
@@ -1539,8 +1539,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211217-A-BULLIT",
-      "playerID": "YOUETH2023",
+      "gameId": "GWBB2022-20211217-A-BULLIT",
+      "playerId": "YOUETH2023",
       "jersey": 23,
       "playerName": "Ethan Youart",
       "twoPM": 0,
@@ -1555,8 +1555,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211217-A-BULLIT",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20211217-A-BULLIT",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 0,
@@ -1571,8 +1571,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211217-A-BULLIT",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20211217-A-BULLIT",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 2,
@@ -1587,8 +1587,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211220-N-DAVIES",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20211220-N-DAVIES",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 3,
@@ -1603,8 +1603,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211220-N-DAVIES",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20211220-N-DAVIES",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 1,
@@ -1619,8 +1619,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211220-N-DAVIES",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20211220-N-DAVIES",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 1,
@@ -1635,8 +1635,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211220-N-DAVIES",
-      "playerID": "CRUCOO2022",
+      "gameId": "GWBB2022-20211220-N-DAVIES",
+      "playerId": "CRUCOO2022",
       "jersey": 22,
       "playerName": "Cooper Crump",
       "twoPM": 0,
@@ -1651,8 +1651,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211220-N-DAVIES",
-      "playerID": "YOUETH2023",
+      "gameId": "GWBB2022-20211220-N-DAVIES",
+      "playerId": "YOUETH2023",
       "jersey": 23,
       "playerName": "Ethan Youart",
       "twoPM": 0,
@@ -1667,8 +1667,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211220-N-DAVIES",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20211220-N-DAVIES",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 1,
@@ -1683,8 +1683,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211220-N-DAVIES",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20211220-N-DAVIES",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 0,
@@ -1699,8 +1699,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211220-N-DAVIES",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20211220-N-DAVIES",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 7,
@@ -1715,8 +1715,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211221-N-NELSON",
-      "playerID": "ALEZEK2024",
+      "gameId": "GWBB2022-20211221-N-NELSON",
+      "playerId": "ALEZEK2024",
       "jersey": 11,
       "playerName": "Zeke Alexander",
       "twoPM": 0,
@@ -1731,8 +1731,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211221-N-NELSON",
-      "playerID": "LINTRE2024",
+      "gameId": "GWBB2022-20211221-N-NELSON",
+      "playerId": "LINTRE2024",
       "jersey": 12,
       "playerName": "Trevor Ling",
       "twoPM": 0,
@@ -1747,8 +1747,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211221-N-NELSON",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20211221-N-NELSON",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 0,
@@ -1763,8 +1763,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211221-N-NELSON",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20211221-N-NELSON",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 3,
@@ -1779,8 +1779,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211221-N-NELSON",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20211221-N-NELSON",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 1,
@@ -1795,8 +1795,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211221-N-NELSON",
-      "playerID": "CRUCOO2022",
+      "gameId": "GWBB2022-20211221-N-NELSON",
+      "playerId": "CRUCOO2022",
       "jersey": 22,
       "playerName": "Cooper Crump",
       "twoPM": 1,
@@ -1811,8 +1811,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211221-N-NELSON",
-      "playerID": "YOUETH2023",
+      "gameId": "GWBB2022-20211221-N-NELSON",
+      "playerId": "YOUETH2023",
       "jersey": 23,
       "playerName": "Ethan Youart",
       "twoPM": 1,
@@ -1827,8 +1827,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211221-N-NELSON",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20211221-N-NELSON",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 1,
@@ -1843,8 +1843,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211221-N-NELSON",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20211221-N-NELSON",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 4,
@@ -1859,8 +1859,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211221-N-NELSON",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20211221-N-NELSON",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 2,
@@ -1875,8 +1875,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211228-A-OHIOCO",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20211228-A-OHIOCO",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 1,
@@ -1891,8 +1891,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211228-A-OHIOCO",
-      "playerID": "SCOCAD2025",
+      "gameId": "GWBB2022-20211228-A-OHIOCO",
+      "playerId": "SCOCAD2025",
       "jersey": 20,
       "playerName": "Cade Scott",
       "twoPM": 0,
@@ -1907,8 +1907,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211228-A-OHIOCO",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20211228-A-OHIOCO",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 1,
@@ -1923,8 +1923,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211228-A-OHIOCO",
-      "playerID": "CRUCOO2022",
+      "gameId": "GWBB2022-20211228-A-OHIOCO",
+      "playerId": "CRUCOO2022",
       "jersey": 22,
       "playerName": "Cooper Crump",
       "twoPM": 2,
@@ -1939,8 +1939,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211228-A-OHIOCO",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20211228-A-OHIOCO",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 2,
@@ -1955,8 +1955,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211228-A-OHIOCO",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20211228-A-OHIOCO",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 3,
@@ -1971,8 +1971,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211228-A-OHIOCO",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20211228-A-OHIOCO",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 3,
@@ -1987,8 +1987,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211229-A-HENDER",
-      "playerID": "HAILUC2025",
+      "gameId": "GWBB2022-20211229-A-HENDER",
+      "playerId": "HAILUC2025",
       "jersey": 4,
       "playerName": "Lucas Hail",
       "twoPM": 1,
@@ -2003,8 +2003,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211229-A-HENDER",
-      "playerID": "ALEZEK2024",
+      "gameId": "GWBB2022-20211229-A-HENDER",
+      "playerId": "ALEZEK2024",
       "jersey": 11,
       "playerName": "Zeke Alexander",
       "twoPM": 0,
@@ -2019,8 +2019,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211229-A-HENDER",
-      "playerID": "LINTRE2024",
+      "gameId": "GWBB2022-20211229-A-HENDER",
+      "playerId": "LINTRE2024",
       "jersey": 12,
       "playerName": "Trevor Ling",
       "twoPM": 1,
@@ -2035,8 +2035,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211229-A-HENDER",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20211229-A-HENDER",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 1,
@@ -2051,8 +2051,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211229-A-HENDER",
-      "playerID": "DYCRYA2024",
+      "gameId": "GWBB2022-20211229-A-HENDER",
+      "playerId": "DYCRYA2024",
       "jersey": 15,
       "playerName": "Ryan Dycus",
       "twoPM": 0,
@@ -2067,8 +2067,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211229-A-HENDER",
-      "playerID": "SCOCAD2025",
+      "gameId": "GWBB2022-20211229-A-HENDER",
+      "playerId": "SCOCAD2025",
       "jersey": 20,
       "playerName": "Cade Scott",
       "twoPM": 0,
@@ -2083,8 +2083,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211229-A-HENDER",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20211229-A-HENDER",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 0,
@@ -2099,8 +2099,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211229-A-HENDER",
-      "playerID": "CRUCOO2022",
+      "gameId": "GWBB2022-20211229-A-HENDER",
+      "playerId": "CRUCOO2022",
       "jersey": 22,
       "playerName": "Cooper Crump",
       "twoPM": 0,
@@ -2115,8 +2115,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211229-A-HENDER",
-      "playerID": "YOUETH2023",
+      "gameId": "GWBB2022-20211229-A-HENDER",
+      "playerId": "YOUETH2023",
       "jersey": 23,
       "playerName": "Ethan Youart",
       "twoPM": 0,
@@ -2131,8 +2131,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211229-A-HENDER",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20211229-A-HENDER",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 0,
@@ -2147,8 +2147,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211229-A-HENDER",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20211229-A-HENDER",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 1,
@@ -2163,8 +2163,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211229-A-HENDER",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20211229-A-HENDER",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 2,
@@ -2179,8 +2179,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211230-N-MAYFIE",
-      "playerID": "HAILUC2025",
+      "gameId": "GWBB2022-20211230-N-MAYFIE",
+      "playerId": "HAILUC2025",
       "jersey": 4,
       "playerName": "Lucas Hail",
       "twoPM": 0,
@@ -2195,8 +2195,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211230-N-MAYFIE",
-      "playerID": "ALEZEK2024",
+      "gameId": "GWBB2022-20211230-N-MAYFIE",
+      "playerId": "ALEZEK2024",
       "jersey": 11,
       "playerName": "Zeke Alexander",
       "twoPM": 1,
@@ -2211,8 +2211,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211230-N-MAYFIE",
-      "playerID": "LINTRE2024",
+      "gameId": "GWBB2022-20211230-N-MAYFIE",
+      "playerId": "LINTRE2024",
       "jersey": 12,
       "playerName": "Trevor Ling",
       "twoPM": 0,
@@ -2227,8 +2227,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211230-N-MAYFIE",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20211230-N-MAYFIE",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 0,
@@ -2243,8 +2243,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211230-N-MAYFIE",
-      "playerID": "DYCRYA2024",
+      "gameId": "GWBB2022-20211230-N-MAYFIE",
+      "playerId": "DYCRYA2024",
       "jersey": 15,
       "playerName": "Ryan Dycus",
       "twoPM": 0,
@@ -2259,8 +2259,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211230-N-MAYFIE",
-      "playerID": "SCOCAD2025",
+      "gameId": "GWBB2022-20211230-N-MAYFIE",
+      "playerId": "SCOCAD2025",
       "jersey": 20,
       "playerName": "Cade Scott",
       "twoPM": 1,
@@ -2275,8 +2275,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211230-N-MAYFIE",
-      "playerID": "CRUCOO2022",
+      "gameId": "GWBB2022-20211230-N-MAYFIE",
+      "playerId": "CRUCOO2022",
       "jersey": 22,
       "playerName": "Cooper Crump",
       "twoPM": 0,
@@ -2291,8 +2291,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211230-N-MAYFIE",
-      "playerID": "YOUETH2023",
+      "gameId": "GWBB2022-20211230-N-MAYFIE",
+      "playerId": "YOUETH2023",
       "jersey": 23,
       "playerName": "Ethan Youart",
       "twoPM": 1,
@@ -2307,8 +2307,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211230-N-MAYFIE",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20211230-N-MAYFIE",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 1,
@@ -2323,8 +2323,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211230-N-MAYFIE",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20211230-N-MAYFIE",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 3,
@@ -2339,8 +2339,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20211230-N-MAYFIE",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20211230-N-MAYFIE",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 1,
@@ -2355,8 +2355,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220104-A-ELIZAB",
-      "playerID": "HAILUC2025",
+      "gameId": "GWBB2022-20220104-A-ELIZAB",
+      "playerId": "HAILUC2025",
       "jersey": 4,
       "playerName": "Lucas Hail",
       "twoPM": 0,
@@ -2371,8 +2371,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220104-A-ELIZAB",
-      "playerID": "LINTRE2024",
+      "gameId": "GWBB2022-20220104-A-ELIZAB",
+      "playerId": "LINTRE2024",
       "jersey": 12,
       "playerName": "Trevor Ling",
       "twoPM": 0,
@@ -2387,8 +2387,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220104-A-ELIZAB",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20220104-A-ELIZAB",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 0,
@@ -2403,8 +2403,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220104-A-ELIZAB",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20220104-A-ELIZAB",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 6,
@@ -2419,8 +2419,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220104-A-ELIZAB",
-      "playerID": "DYCRYA2024",
+      "gameId": "GWBB2022-20220104-A-ELIZAB",
+      "playerId": "DYCRYA2024",
       "jersey": 15,
       "playerName": "Ryan Dycus",
       "twoPM": 0,
@@ -2435,8 +2435,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220104-A-ELIZAB",
-      "playerID": "SCOCAD2025",
+      "gameId": "GWBB2022-20220104-A-ELIZAB",
+      "playerId": "SCOCAD2025",
       "jersey": 20,
       "playerName": "Cade Scott",
       "twoPM": 0,
@@ -2451,8 +2451,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220104-A-ELIZAB",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20220104-A-ELIZAB",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 1,
@@ -2467,8 +2467,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220104-A-ELIZAB",
-      "playerID": "YOUETH2023",
+      "gameId": "GWBB2022-20220104-A-ELIZAB",
+      "playerId": "YOUETH2023",
       "jersey": 23,
       "playerName": "Ethan Youart",
       "twoPM": 0,
@@ -2483,8 +2483,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220104-A-ELIZAB",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20220104-A-ELIZAB",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 0,
@@ -2499,8 +2499,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220104-A-ELIZAB",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20220104-A-ELIZAB",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 1,
@@ -2515,8 +2515,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220104-A-ELIZAB",
-      "playerID": "FROJOS2023",
+      "gameId": "GWBB2022-20220104-A-ELIZAB",
+      "playerId": "FROJOS2023",
       "jersey": 33,
       "playerName": "Joseph Frost",
       "twoPM": 0,
@@ -2531,8 +2531,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220104-A-ELIZAB",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20220104-A-ELIZAB",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 1,
@@ -2547,8 +2547,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220111-A-SHELBY",
-      "playerID": "HAILUC2025",
+      "gameId": "GWBB2022-20220111-A-SHELBY",
+      "playerId": "HAILUC2025",
       "jersey": 4,
       "playerName": "Lucas Hail",
       "twoPM": 1,
@@ -2563,8 +2563,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220111-A-SHELBY",
-      "playerID": "ALEZEK2024",
+      "gameId": "GWBB2022-20220111-A-SHELBY",
+      "playerId": "ALEZEK2024",
       "jersey": 11,
       "playerName": "Zeke Alexander",
       "twoPM": 1,
@@ -2579,8 +2579,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220111-A-SHELBY",
-      "playerID": "LINTRE2024",
+      "gameId": "GWBB2022-20220111-A-SHELBY",
+      "playerId": "LINTRE2024",
       "jersey": 12,
       "playerName": "Trevor Ling",
       "twoPM": 0,
@@ -2595,8 +2595,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220111-A-SHELBY",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20220111-A-SHELBY",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 1,
@@ -2611,8 +2611,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220111-A-SHELBY",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20220111-A-SHELBY",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 3,
@@ -2627,8 +2627,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220111-A-SHELBY",
-      "playerID": "SCOCAD2025",
+      "gameId": "GWBB2022-20220111-A-SHELBY",
+      "playerId": "SCOCAD2025",
       "jersey": 20,
       "playerName": "Cade Scott",
       "twoPM": 1,
@@ -2643,8 +2643,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220111-A-SHELBY",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20220111-A-SHELBY",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 0,
@@ -2659,8 +2659,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220111-A-SHELBY",
-      "playerID": "YOUETH2023",
+      "gameId": "GWBB2022-20220111-A-SHELBY",
+      "playerId": "YOUETH2023",
       "jersey": 23,
       "playerName": "Ethan Youart",
       "twoPM": 0,
@@ -2675,8 +2675,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220111-A-SHELBY",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20220111-A-SHELBY",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 0,
@@ -2691,8 +2691,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220111-A-SHELBY",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20220111-A-SHELBY",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 4,
@@ -2707,8 +2707,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220111-A-SHELBY",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20220111-A-SHELBY",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 2,
@@ -2723,8 +2723,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220113-H-NORTHO",
-      "playerID": "HAILUC2025",
+      "gameId": "GWBB2022-20220113-H-NORTHO",
+      "playerId": "HAILUC2025",
       "jersey": 4,
       "playerName": "Lucas Hail",
       "twoPM": 0,
@@ -2739,8 +2739,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220113-H-NORTHO",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20220113-H-NORTHO",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 0,
@@ -2755,8 +2755,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220113-H-NORTHO",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20220113-H-NORTHO",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 2,
@@ -2771,8 +2771,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220113-H-NORTHO",
-      "playerID": "SCOCAD2025",
+      "gameId": "GWBB2022-20220113-H-NORTHO",
+      "playerId": "SCOCAD2025",
       "jersey": 20,
       "playerName": "Cade Scott",
       "twoPM": 0,
@@ -2787,8 +2787,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220113-H-NORTHO",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20220113-H-NORTHO",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 2,
@@ -2803,8 +2803,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220113-H-NORTHO",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20220113-H-NORTHO",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 0,
@@ -2819,8 +2819,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220113-H-NORTHO",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20220113-H-NORTHO",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 2,
@@ -2835,8 +2835,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220113-H-NORTHO",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20220113-H-NORTHO",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 2,
@@ -2851,8 +2851,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220118-A-DAVIES",
-      "playerID": "KNOTRE2022",
+      "gameId": "GWBB2022-20220118-A-DAVIES",
+      "playerId": "KNOTRE2022",
       "jersey": 5,
       "playerName": "Trent Knoop",
       "twoPM": 2,
@@ -2867,8 +2867,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220118-A-DAVIES",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20220118-A-DAVIES",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 0,
@@ -2883,8 +2883,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220118-A-DAVIES",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20220118-A-DAVIES",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 4,
@@ -2899,8 +2899,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220118-A-DAVIES",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20220118-A-DAVIES",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 1,
@@ -2915,8 +2915,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220118-A-DAVIES",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20220118-A-DAVIES",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 1,
@@ -2931,8 +2931,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220118-A-DAVIES",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20220118-A-DAVIES",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 2,
@@ -2947,8 +2947,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220118-A-DAVIES",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20220118-A-DAVIES",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 3,
@@ -2963,8 +2963,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220121-H-HANCOC",
-      "playerID": "KNOTRE2022",
+      "gameId": "GWBB2022-20220121-H-HANCOC",
+      "playerId": "KNOTRE2022",
       "jersey": 5,
       "playerName": "Trent Knoop",
       "twoPM": 2,
@@ -2979,8 +2979,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220121-H-HANCOC",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20220121-H-HANCOC",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 0,
@@ -2995,8 +2995,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220121-H-HANCOC",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20220121-H-HANCOC",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 3,
@@ -3011,8 +3011,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220121-H-HANCOC",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20220121-H-HANCOC",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 1,
@@ -3027,8 +3027,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220121-H-HANCOC",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20220121-H-HANCOC",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 0,
@@ -3043,8 +3043,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220121-H-HANCOC",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20220121-H-HANCOC",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 3,
@@ -3059,8 +3059,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220121-H-HANCOC",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20220121-H-HANCOC",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 3,
@@ -3075,8 +3075,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220125-A-TRINIT",
-      "playerID": "KNOTRE2022",
+      "gameId": "GWBB2022-20220125-A-TRINIT",
+      "playerId": "KNOTRE2022",
       "jersey": 5,
       "playerName": "Trent Knoop",
       "twoPM": 3,
@@ -3091,8 +3091,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220125-A-TRINIT",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20220125-A-TRINIT",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 1,
@@ -3107,8 +3107,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220125-A-TRINIT",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20220125-A-TRINIT",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 1,
@@ -3123,8 +3123,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220125-A-TRINIT",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20220125-A-TRINIT",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 0,
@@ -3139,8 +3139,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220125-A-TRINIT",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20220125-A-TRINIT",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 1,
@@ -3155,8 +3155,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220125-A-TRINIT",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20220125-A-TRINIT",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 4,
@@ -3171,8 +3171,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220125-A-TRINIT",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20220125-A-TRINIT",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 4,
@@ -3187,8 +3187,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220131-H-BRECKI",
-      "playerID": "HAILUC2025",
+      "gameId": "GWBB2022-20220131-H-BRECKI",
+      "playerId": "HAILUC2025",
       "jersey": 4,
       "playerName": "Lucas Hail",
       "twoPM": 0,
@@ -3203,8 +3203,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220131-H-BRECKI",
-      "playerID": "KNOTRE2022",
+      "gameId": "GWBB2022-20220131-H-BRECKI",
+      "playerId": "KNOTRE2022",
       "jersey": 5,
       "playerName": "Trent Knoop",
       "twoPM": 4,
@@ -3219,8 +3219,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220131-H-BRECKI",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20220131-H-BRECKI",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 0,
@@ -3235,8 +3235,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220131-H-BRECKI",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20220131-H-BRECKI",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 3,
@@ -3251,8 +3251,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220131-H-BRECKI",
-      "playerID": "SCOCAD2025",
+      "gameId": "GWBB2022-20220131-H-BRECKI",
+      "playerId": "SCOCAD2025",
       "jersey": 20,
       "playerName": "Cade Scott",
       "twoPM": 0,
@@ -3267,8 +3267,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220131-H-BRECKI",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20220131-H-BRECKI",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 2,
@@ -3283,8 +3283,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220131-H-BRECKI",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20220131-H-BRECKI",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 0,
@@ -3299,8 +3299,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220131-H-BRECKI",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20220131-H-BRECKI",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 3,
@@ -3315,8 +3315,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220131-H-BRECKI",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20220131-H-BRECKI",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 2,
@@ -3331,8 +3331,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220201-H-GRAYSO",
-      "playerID": "KNOTRE2022",
+      "gameId": "GWBB2022-20220201-H-GRAYSO",
+      "playerId": "KNOTRE2022",
       "jersey": 5,
       "playerName": "Trent Knoop",
       "twoPM": 2,
@@ -3347,8 +3347,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220201-H-GRAYSO",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20220201-H-GRAYSO",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 0,
@@ -3363,8 +3363,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220201-H-GRAYSO",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20220201-H-GRAYSO",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 2,
@@ -3379,8 +3379,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220201-H-GRAYSO",
-      "playerID": "SCOCAD2025",
+      "gameId": "GWBB2022-20220201-H-GRAYSO",
+      "playerId": "SCOCAD2025",
       "jersey": 20,
       "playerName": "Cade Scott",
       "twoPM": 0,
@@ -3395,8 +3395,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220201-H-GRAYSO",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20220201-H-GRAYSO",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 1,
@@ -3411,8 +3411,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220201-H-GRAYSO",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20220201-H-GRAYSO",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 1,
@@ -3427,8 +3427,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220201-H-GRAYSO",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20220201-H-GRAYSO",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 0,
@@ -3443,8 +3443,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220201-H-GRAYSO",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20220201-H-GRAYSO",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 3,
@@ -3459,8 +3459,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220207-A-HANCOC",
-      "playerID": "KNOTRE2022",
+      "gameId": "GWBB2022-20220207-A-HANCOC",
+      "playerId": "KNOTRE2022",
       "jersey": 5,
       "playerName": "Trent Knoop",
       "twoPM": 2,
@@ -3475,8 +3475,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220207-A-HANCOC",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20220207-A-HANCOC",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 1,
@@ -3491,8 +3491,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220207-A-HANCOC",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20220207-A-HANCOC",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 0,
@@ -3507,8 +3507,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220207-A-HANCOC",
-      "playerID": "SCOCAD2025",
+      "gameId": "GWBB2022-20220207-A-HANCOC",
+      "playerId": "SCOCAD2025",
       "jersey": 20,
       "playerName": "Cade Scott",
       "twoPM": 1,
@@ -3523,8 +3523,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220207-A-HANCOC",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20220207-A-HANCOC",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 1,
@@ -3539,8 +3539,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220207-A-HANCOC",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20220207-A-HANCOC",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 1,
@@ -3555,8 +3555,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220207-A-HANCOC",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20220207-A-HANCOC",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 2,
@@ -3571,8 +3571,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220207-A-HANCOC",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20220207-A-HANCOC",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 2,
@@ -3587,8 +3587,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220208-A-CENTRA",
-      "playerID": "BRAETH2024",
+      "gameId": "GWBB2022-20220208-A-CENTRA",
+      "playerId": "BRAETH2024",
       "jersey": 3,
       "playerName": "Ethan Brandon",
       "twoPM": 0,
@@ -3603,8 +3603,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220208-A-CENTRA",
-      "playerID": "HAILUC2025",
+      "gameId": "GWBB2022-20220208-A-CENTRA",
+      "playerId": "HAILUC2025",
       "jersey": 4,
       "playerName": "Lucas Hail",
       "twoPM": 1,
@@ -3619,8 +3619,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220208-A-CENTRA",
-      "playerID": "KNOTRE2022",
+      "gameId": "GWBB2022-20220208-A-CENTRA",
+      "playerId": "KNOTRE2022",
       "jersey": 5,
       "playerName": "Trent Knoop",
       "twoPM": 0,
@@ -3635,8 +3635,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220208-A-CENTRA",
-      "playerID": "LINTRE2024",
+      "gameId": "GWBB2022-20220208-A-CENTRA",
+      "playerId": "LINTRE2024",
       "jersey": 12,
       "playerName": "Trevor Ling",
       "twoPM": 0,
@@ -3651,8 +3651,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220208-A-CENTRA",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20220208-A-CENTRA",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 0,
@@ -3667,8 +3667,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220208-A-CENTRA",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20220208-A-CENTRA",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 2,
@@ -3683,8 +3683,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220208-A-CENTRA",
-      "playerID": "DYCRYA2024",
+      "gameId": "GWBB2022-20220208-A-CENTRA",
+      "playerId": "DYCRYA2024",
       "jersey": 15,
       "playerName": "Ryan Dycus",
       "twoPM": 0,
@@ -3699,8 +3699,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220208-A-CENTRA",
-      "playerID": "SCOCAD2025",
+      "gameId": "GWBB2022-20220208-A-CENTRA",
+      "playerId": "SCOCAD2025",
       "jersey": 20,
       "playerName": "Cade Scott",
       "twoPM": 1,
@@ -3715,8 +3715,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220208-A-CENTRA",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20220208-A-CENTRA",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 0,
@@ -3731,8 +3731,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220208-A-CENTRA",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20220208-A-CENTRA",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 2,
@@ -3747,8 +3747,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220208-A-CENTRA",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20220208-A-CENTRA",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 1,
@@ -3763,8 +3763,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220208-A-CENTRA",
-      "playerID": "FROJOS2023",
+      "gameId": "GWBB2022-20220208-A-CENTRA",
+      "playerId": "FROJOS2023",
       "jersey": 33,
       "playerName": "Joseph Frost",
       "twoPM": 0,
@@ -3779,8 +3779,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220209-H-CLOVER",
-      "playerID": "BRAETH2024",
+      "gameId": "GWBB2022-20220209-H-CLOVER",
+      "playerId": "BRAETH2024",
       "jersey": 3,
       "playerName": "Ethan Brandon",
       "twoPM": 2,
@@ -3795,8 +3795,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220209-H-CLOVER",
-      "playerID": "HAILUC2025",
+      "gameId": "GWBB2022-20220209-H-CLOVER",
+      "playerId": "HAILUC2025",
       "jersey": 4,
       "playerName": "Lucas Hail",
       "twoPM": 1,
@@ -3811,8 +3811,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220209-H-CLOVER",
-      "playerID": "KNOTRE2022",
+      "gameId": "GWBB2022-20220209-H-CLOVER",
+      "playerId": "KNOTRE2022",
       "jersey": 5,
       "playerName": "Trent Knoop",
       "twoPM": 0,
@@ -3827,8 +3827,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220209-H-CLOVER",
-      "playerID": "LINTRE2024",
+      "gameId": "GWBB2022-20220209-H-CLOVER",
+      "playerId": "LINTRE2024",
       "jersey": 12,
       "playerName": "Trevor Ling",
       "twoPM": 3,
@@ -3843,8 +3843,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220209-H-CLOVER",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20220209-H-CLOVER",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 1,
@@ -3859,8 +3859,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220209-H-CLOVER",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20220209-H-CLOVER",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 3,
@@ -3875,8 +3875,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220209-H-CLOVER",
-      "playerID": "DYCRYA2024",
+      "gameId": "GWBB2022-20220209-H-CLOVER",
+      "playerId": "DYCRYA2024",
       "jersey": 15,
       "playerName": "Ryan Dycus",
       "twoPM": 0,
@@ -3891,8 +3891,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220209-H-CLOVER",
-      "playerID": "SCOCAD2025",
+      "gameId": "GWBB2022-20220209-H-CLOVER",
+      "playerId": "SCOCAD2025",
       "jersey": 20,
       "playerName": "Cade Scott",
       "twoPM": 0,
@@ -3907,8 +3907,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220209-H-CLOVER",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20220209-H-CLOVER",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 0,
@@ -3923,8 +3923,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220209-H-CLOVER",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20220209-H-CLOVER",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 1,
@@ -3939,8 +3939,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220209-H-CLOVER",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20220209-H-CLOVER",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 2,
@@ -3955,8 +3955,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220209-H-CLOVER",
-      "playerID": "FROJOS2023",
+      "gameId": "GWBB2022-20220209-H-CLOVER",
+      "playerId": "FROJOS2023",
       "jersey": 33,
       "playerName": "Joseph Frost",
       "twoPM": 1,
@@ -3971,8 +3971,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220209-H-CLOVER",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20220209-H-CLOVER",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 1,
@@ -3987,8 +3987,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220211-A-CHRIST",
-      "playerID": "HAILUC2025",
+      "gameId": "GWBB2022-20220211-A-CHRIST",
+      "playerId": "HAILUC2025",
       "jersey": 4,
       "playerName": "Lucas Hail",
       "twoPM": 1,
@@ -4003,8 +4003,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220211-A-CHRIST",
-      "playerID": "KNOTRE2022",
+      "gameId": "GWBB2022-20220211-A-CHRIST",
+      "playerId": "KNOTRE2022",
       "jersey": 5,
       "playerName": "Trent Knoop",
       "twoPM": 0,
@@ -4019,8 +4019,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220211-A-CHRIST",
-      "playerID": "LINTRE2024",
+      "gameId": "GWBB2022-20220211-A-CHRIST",
+      "playerId": "LINTRE2024",
       "jersey": 12,
       "playerName": "Trevor Ling",
       "twoPM": 0,
@@ -4035,8 +4035,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220211-A-CHRIST",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20220211-A-CHRIST",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 2,
@@ -4051,8 +4051,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220211-A-CHRIST",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20220211-A-CHRIST",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 6,
@@ -4067,8 +4067,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220211-A-CHRIST",
-      "playerID": "DYCRYA2024",
+      "gameId": "GWBB2022-20220211-A-CHRIST",
+      "playerId": "DYCRYA2024",
       "jersey": 15,
       "playerName": "Ryan Dycus",
       "twoPM": 0,
@@ -4083,8 +4083,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220211-A-CHRIST",
-      "playerID": "SCOCAD2025",
+      "gameId": "GWBB2022-20220211-A-CHRIST",
+      "playerId": "SCOCAD2025",
       "jersey": 20,
       "playerName": "Cade Scott",
       "twoPM": 0,
@@ -4099,8 +4099,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220211-A-CHRIST",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20220211-A-CHRIST",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 0,
@@ -4115,8 +4115,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220211-A-CHRIST",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20220211-A-CHRIST",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 1,
@@ -4131,8 +4131,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220211-A-CHRIST",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20220211-A-CHRIST",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 1,
@@ -4147,8 +4147,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220211-A-CHRIST",
-      "playerID": "FROJOS2023",
+      "gameId": "GWBB2022-20220211-A-CHRIST",
+      "playerId": "FROJOS2023",
       "jersey": 33,
       "playerName": "Joseph Frost",
       "twoPM": 0,
@@ -4163,8 +4163,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220211-A-CHRIST",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20220211-A-CHRIST",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 2,
@@ -4179,8 +4179,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220215-H-NORTHB",
-      "playerID": "HAILUC2025",
+      "gameId": "GWBB2022-20220215-H-NORTHB",
+      "playerId": "HAILUC2025",
       "jersey": 4,
       "playerName": "Lucas Hail",
       "twoPM": 0,
@@ -4195,8 +4195,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220215-H-NORTHB",
-      "playerID": "KNOTRE2022",
+      "gameId": "GWBB2022-20220215-H-NORTHB",
+      "playerId": "KNOTRE2022",
       "jersey": 5,
       "playerName": "Trent Knoop",
       "twoPM": 0,
@@ -4211,8 +4211,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220215-H-NORTHB",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20220215-H-NORTHB",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 0,
@@ -4227,8 +4227,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220215-H-NORTHB",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20220215-H-NORTHB",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 5,
@@ -4243,8 +4243,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220215-H-NORTHB",
-      "playerID": "SCOCAD2025",
+      "gameId": "GWBB2022-20220215-H-NORTHB",
+      "playerId": "SCOCAD2025",
       "jersey": 20,
       "playerName": "Cade Scott",
       "twoPM": 0,
@@ -4259,8 +4259,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220215-H-NORTHB",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20220215-H-NORTHB",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 1,
@@ -4275,8 +4275,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220215-H-NORTHB",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20220215-H-NORTHB",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 1,
@@ -4291,8 +4291,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220215-H-NORTHB",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20220215-H-NORTHB",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 1,
@@ -4307,8 +4307,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220215-H-NORTHB",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20220215-H-NORTHB",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 6,
@@ -4323,8 +4323,8 @@
       "doubleDouble": true
     },
     {
-      "gameID": "GWBB2022-20220217-H-FAIRDA",
-      "playerID": "KNOTRE2022",
+      "gameId": "GWBB2022-20220217-H-FAIRDA",
+      "playerId": "KNOTRE2022",
       "jersey": 5,
       "playerName": "Trent Knoop",
       "twoPM": 2,
@@ -4339,8 +4339,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220217-H-FAIRDA",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20220217-H-FAIRDA",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 0,
@@ -4355,8 +4355,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220217-H-FAIRDA",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20220217-H-FAIRDA",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 1,
@@ -4371,8 +4371,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220217-H-FAIRDA",
-      "playerID": "SCOCAD2025",
+      "gameId": "GWBB2022-20220217-H-FAIRDA",
+      "playerId": "SCOCAD2025",
       "jersey": 20,
       "playerName": "Cade Scott",
       "twoPM": 0,
@@ -4387,8 +4387,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220217-H-FAIRDA",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20220217-H-FAIRDA",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 0,
@@ -4403,8 +4403,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220217-H-FAIRDA",
-      "playerID": "YOUETH2023",
+      "gameId": "GWBB2022-20220217-H-FAIRDA",
+      "playerId": "YOUETH2023",
       "jersey": 23,
       "playerName": "Ethan Youart",
       "twoPM": 0,
@@ -4419,8 +4419,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220217-H-FAIRDA",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20220217-H-FAIRDA",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 1,
@@ -4435,8 +4435,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220217-H-FAIRDA",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20220217-H-FAIRDA",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 3,
@@ -4451,8 +4451,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220217-H-FAIRDA",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20220217-H-FAIRDA",
+      "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
       "twoPM": 2,
@@ -4467,8 +4467,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220222-N-CLOVER",
-      "playerID": "RANTIM2025",
+      "gameId": "GWBB2022-20220222-N-CLOVER",
+      "playerId": "RANTIM2025",
       "jersey": 3,
       "playerName": "Timothy Rankin",
       "twoPM": 0,
@@ -4483,8 +4483,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220222-N-CLOVER",
-      "playerID": "HAILUC2025",
+      "gameId": "GWBB2022-20220222-N-CLOVER",
+      "playerId": "HAILUC2025",
       "jersey": 4,
       "playerName": "Lucas Hail",
       "twoPM": 1,
@@ -4499,8 +4499,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220222-N-CLOVER",
-      "playerID": "KNOTRE2022",
+      "gameId": "GWBB2022-20220222-N-CLOVER",
+      "playerId": "KNOTRE2022",
       "jersey": 5,
       "playerName": "Trent Knoop",
       "twoPM": 4,
@@ -4515,8 +4515,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220222-N-CLOVER",
-      "playerID": "LINTRE2024",
+      "gameId": "GWBB2022-20220222-N-CLOVER",
+      "playerId": "LINTRE2024",
       "jersey": 12,
       "playerName": "Trevor Ling",
       "twoPM": 0,
@@ -4531,8 +4531,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220222-N-CLOVER",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20220222-N-CLOVER",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 1,
@@ -4547,8 +4547,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220222-N-CLOVER",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20220222-N-CLOVER",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 0,
@@ -4563,8 +4563,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220222-N-CLOVER",
-      "playerID": "DYCRYA2024",
+      "gameId": "GWBB2022-20220222-N-CLOVER",
+      "playerId": "DYCRYA2024",
       "jersey": 15,
       "playerName": "Ryan Dycus",
       "twoPM": 0,
@@ -4579,8 +4579,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220222-N-CLOVER",
-      "playerID": "SCOCAD2025",
+      "gameId": "GWBB2022-20220222-N-CLOVER",
+      "playerId": "SCOCAD2025",
       "jersey": 20,
       "playerName": "Cade Scott",
       "twoPM": 1,
@@ -4595,8 +4595,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220222-N-CLOVER",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20220222-N-CLOVER",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 3,
@@ -4611,8 +4611,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220222-N-CLOVER",
-      "playerID": "YOUETH2023",
+      "gameId": "GWBB2022-20220222-N-CLOVER",
+      "playerId": "YOUETH2023",
       "jersey": 23,
       "playerName": "Ethan Youart",
       "twoPM": 0,
@@ -4627,8 +4627,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220222-N-CLOVER",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20220222-N-CLOVER",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 0,
@@ -4643,8 +4643,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220222-N-CLOVER",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20220222-N-CLOVER",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 3,
@@ -4659,8 +4659,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220222-N-CLOVER",
-      "playerID": "FROJOS2023",
+      "gameId": "GWBB2022-20220222-N-CLOVER",
+      "playerId": "FROJOS2023",
       "jersey": 33,
       "playerName": "Joseph Frost",
       "twoPM": 0,
@@ -4675,8 +4675,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220222-N-CLOVER",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20220222-N-CLOVER",
+      "playerId": "EDWBLA2022",
       "jersey": 34,
       "playerName": "Blake Edwards",
       "twoPM": 5,
@@ -4691,8 +4691,8 @@
       "doubleDouble": true
     },
     {
-      "gameID": "GWBB2022-20220225-N-HANCOC",
-      "playerID": "KNOTRE2022",
+      "gameId": "GWBB2022-20220225-N-HANCOC",
+      "playerId": "KNOTRE2022",
       "jersey": 5,
       "playerName": "Trent Knoop",
       "twoPM": 1,
@@ -4707,8 +4707,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220225-N-HANCOC",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20220225-N-HANCOC",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 0,
@@ -4723,8 +4723,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220225-N-HANCOC",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20220225-N-HANCOC",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 2,
@@ -4739,8 +4739,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220225-N-HANCOC",
-      "playerID": "SCOCAD2025",
+      "gameId": "GWBB2022-20220225-N-HANCOC",
+      "playerId": "SCOCAD2025",
       "jersey": 20,
       "playerName": "Cade Scott",
       "twoPM": 1,
@@ -4755,8 +4755,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220225-N-HANCOC",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20220225-N-HANCOC",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 2,
@@ -4771,8 +4771,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220225-N-HANCOC",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20220225-N-HANCOC",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 1,
@@ -4787,8 +4787,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220225-N-HANCOC",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20220225-N-HANCOC",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 1,
@@ -4803,8 +4803,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220225-N-HANCOC",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20220225-N-HANCOC",
+      "playerId": "EDWBLA2022",
       "jersey": 34,
       "playerName": "Blake Edwards",
       "twoPM": 7,
@@ -4819,8 +4819,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220302-N-MCLEAN",
-      "playerID": "RANTIM2025",
+      "gameId": "GWBB2022-20220302-N-MCLEAN",
+      "playerId": "RANTIM2025",
       "jersey": 3,
       "playerName": "Timothy Rankin",
       "twoPM": 0,
@@ -4835,8 +4835,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220302-N-MCLEAN",
-      "playerID": "HAILUC2025",
+      "gameId": "GWBB2022-20220302-N-MCLEAN",
+      "playerId": "HAILUC2025",
       "jersey": 4,
       "playerName": "Lucas Hail",
       "twoPM": 0,
@@ -4851,8 +4851,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220302-N-MCLEAN",
-      "playerID": "KNOTRE2022",
+      "gameId": "GWBB2022-20220302-N-MCLEAN",
+      "playerId": "KNOTRE2022",
       "jersey": 5,
       "playerName": "Trent Knoop",
       "twoPM": 1,
@@ -4867,8 +4867,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220302-N-MCLEAN",
-      "playerID": "LINTRE2024",
+      "gameId": "GWBB2022-20220302-N-MCLEAN",
+      "playerId": "LINTRE2024",
       "jersey": 12,
       "playerName": "Trevor Ling",
       "twoPM": 0,
@@ -4883,8 +4883,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220302-N-MCLEAN",
-      "playerID": "KINLAW2022",
+      "gameId": "GWBB2022-20220302-N-MCLEAN",
+      "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
       "twoPM": 1,
@@ -4899,8 +4899,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220302-N-MCLEAN",
-      "playerID": "PARKYL2022",
+      "gameId": "GWBB2022-20220302-N-MCLEAN",
+      "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
       "twoPM": 1,
@@ -4915,8 +4915,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220302-N-MCLEAN",
-      "playerID": "DYCRYA2024",
+      "gameId": "GWBB2022-20220302-N-MCLEAN",
+      "playerId": "DYCRYA2024",
       "jersey": 15,
       "playerName": "Ryan Dycus",
       "twoPM": 1,
@@ -4931,8 +4931,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220302-N-MCLEAN",
-      "playerID": "SCOCAD2025",
+      "gameId": "GWBB2022-20220302-N-MCLEAN",
+      "playerId": "SCOCAD2025",
       "jersey": 20,
       "playerName": "Cade Scott",
       "twoPM": 0,
@@ -4947,8 +4947,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220302-N-MCLEAN",
-      "playerID": "HARGAR2024",
+      "gameId": "GWBB2022-20220302-N-MCLEAN",
+      "playerId": "HARGAR2024",
       "jersey": 21,
       "playerName": "Garrett Hardesty",
       "twoPM": 0,
@@ -4963,8 +4963,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220302-N-MCLEAN",
-      "playerID": "LEDTAL2025",
+      "gameId": "GWBB2022-20220302-N-MCLEAN",
+      "playerId": "LEDTAL2025",
       "jersey": 22,
       "playerName": "Talan Ledford",
       "twoPM": 0,
@@ -4979,8 +4979,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220302-N-MCLEAN",
-      "playerID": "YOUETH2023",
+      "gameId": "GWBB2022-20220302-N-MCLEAN",
+      "playerId": "YOUETH2023",
       "jersey": 23,
       "playerName": "Ethan Youart",
       "twoPM": 0,
@@ -4995,8 +4995,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220302-N-MCLEAN",
-      "playerID": "JOHPEY2024",
+      "gameId": "GWBB2022-20220302-N-MCLEAN",
+      "playerId": "JOHPEY2024",
       "jersey": 30,
       "playerName": "Peyton Johnston",
       "twoPM": 1,
@@ -5011,8 +5011,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220302-N-MCLEAN",
-      "playerID": "BEAGRA2022",
+      "gameId": "GWBB2022-20220302-N-MCLEAN",
+      "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
       "twoPM": 2,
@@ -5027,8 +5027,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220302-N-MCLEAN",
-      "playerID": "FROJOS2023",
+      "gameId": "GWBB2022-20220302-N-MCLEAN",
+      "playerId": "FROJOS2023",
       "jersey": 33,
       "playerName": "Joseph Frost",
       "twoPM": 0,
@@ -5043,8 +5043,8 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2022-20220302-N-MCLEAN",
-      "playerID": "EDWBLA2022",
+      "gameId": "GWBB2022-20220302-N-MCLEAN",
+      "playerId": "EDWBLA2022",
       "jersey": 34,
       "playerName": "Blake Edwards",
       "twoPM": 1,
@@ -5055,6 +5055,214 @@
       "ftA": 2,
       "pts": 3,
       "reb": 5,
+      "tenPlus": false,
+      "doubleDouble": false
+    },
+    {
+      "gameId": "GWBB2022-20211209-A-CLOVER",
+      "playerId": "BLAMIC2024",
+      "jersey": 3,
+      "playerName": "Blackman, Michael",
+      "twoPM": 1,
+      "twoPA": 1,
+      "threePM": 1,
+      "threePA": 1,
+      "ftM": 0.0,
+      "ftA": 0,
+      "pts": 5,
+      "reb": 0,
+      "tenPlus": false,
+      "doubleDouble": false
+    },
+    {
+      "gameId": "GWBB2022-20211209-A-CLOVER",
+      "playerId": "STUBRA2025",
+      "jersey": 4,
+      "playerName": "Stull, Branson",
+      "twoPM": 2,
+      "twoPA": 3,
+      "threePM": 1,
+      "threePA": 1,
+      "ftM": 0.0,
+      "ftA": 0,
+      "pts": 7,
+      "reb": 0,
+      "tenPlus": false,
+      "doubleDouble": false
+    },
+    {
+      "gameId": "GWBB2022-20211209-A-CLOVER",
+      "playerId": "SCOCAD2025",
+      "jersey": 5,
+      "playerName": "Scott, Cade",
+      "twoPM": 5,
+      "twoPA": 7,
+      "threePM": 2,
+      "threePA": 8,
+      "ftM": 1.0,
+      "ftA": 1,
+      "pts": 17,
+      "reb": 3,
+      "tenPlus": true,
+      "doubleDouble": false
+    },
+    {
+      "gameId": "GWBB2022-20211209-A-CLOVER",
+      "playerId": "LINTRE2024",
+      "jersey": 11,
+      "playerName": "Ling, Trevor",
+      "twoPM": 1,
+      "twoPA": 3,
+      "threePM": 3,
+      "threePA": 3,
+      "ftM": 0.0,
+      "ftA": 0,
+      "pts": 11,
+      "reb": 2,
+      "tenPlus": true,
+      "doubleDouble": false
+    },
+    {
+      "gameId": "GWBB2022-20211209-A-CLOVER",
+      "playerId": "FORDRE2025",
+      "jersey": 12,
+      "playerName": "Ford, Drew",
+      "twoPM": 0,
+      "twoPA": 0,
+      "threePM": 0,
+      "threePA": 1,
+      "ftM": 0.0,
+      "ftA": 0,
+      "pts": 0,
+      "reb": 1,
+      "tenPlus": false,
+      "doubleDouble": false
+    },
+    {
+      "gameId": "GWBB2022-20211209-A-CLOVER",
+      "playerId": "DYCRYA2024",
+      "jersey": 13,
+      "playerName": "Dycus, Ryan",
+      "twoPM": 2,
+      "twoPA": 3,
+      "threePM": 0,
+      "threePA": 0,
+      "ftM": 0.0,
+      "ftA": 0,
+      "pts": 4,
+      "reb": 3,
+      "tenPlus": false,
+      "doubleDouble": false
+    },
+    {
+      "gameId": "GWBB2022-20211209-A-CLOVER",
+      "playerId": "WATALE2023",
+      "jersey": 14,
+      "playerName": "Waters, Alex",
+      "twoPM": 1,
+      "twoPA": 6,
+      "threePM": 0,
+      "threePA": 0,
+      "ftM": 1.0,
+      "ftA": 2,
+      "pts": 3,
+      "reb": 9,
+      "tenPlus": false,
+      "doubleDouble": false
+    },
+    {
+      "gameId": "GWBB2022-20211209-A-CLOVER",
+      "playerId": "KAIETH2025",
+      "jersey": 15,
+      "playerName": "Kaiser, Ethan",
+      "twoPM": 0,
+      "twoPA": 1,
+      "threePM": 0,
+      "threePA": 0,
+      "ftM": 0.0,
+      "ftA": 2,
+      "pts": 0,
+      "reb": 2,
+      "tenPlus": false,
+      "doubleDouble": false
+    },
+    {
+      "gameId": "GWBB2022-20211209-A-CLOVER",
+      "playerId": "HARGAR2024",
+      "jersey": 21,
+      "playerName": "Hardesty, Garrett",
+      "twoPM": 1,
+      "twoPA": 2,
+      "threePM": 1,
+      "threePA": 6,
+      "ftM": 1.0,
+      "ftA": 2,
+      "pts": 6,
+      "reb": 3,
+      "tenPlus": false,
+      "doubleDouble": false
+    },
+    {
+      "gameId": "GWBB2022-20211209-A-CLOVER",
+      "playerId": "SHOHAY2026",
+      "jersey": 22,
+      "playerName": "Shouse, Hayden",
+      "twoPM": 0,
+      "twoPA": 1,
+      "threePM": 0,
+      "threePA": 5,
+      "ftM": 0.0,
+      "ftA": 0,
+      "pts": 0,
+      "reb": 0,
+      "tenPlus": false,
+      "doubleDouble": false
+    },
+    {
+      "gameId": "GWBB2022-20211209-A-CLOVER",
+      "playerId": "FROJOS2023",
+      "jersey": 23,
+      "playerName": "Frost, Joseph",
+      "twoPM": 0,
+      "twoPA": 1,
+      "threePM": 0,
+      "threePA": 0,
+      "ftM": 0.0,
+      "ftA": 0,
+      "pts": 0,
+      "reb": 1,
+      "tenPlus": false,
+      "doubleDouble": false
+    },
+    {
+      "gameId": "GWBB2022-20211209-A-CLOVER",
+      "playerId": "JOHISI2023",
+      "jersey": 24,
+      "playerName": "Johnston, Isiah",
+      "twoPM": 0,
+      "twoPA": 1,
+      "threePM": 0,
+      "threePA": 0,
+      "ftM": 0.0,
+      "ftA": 0,
+      "pts": 0,
+      "reb": 2,
+      "tenPlus": false,
+      "doubleDouble": false
+    },
+    {
+      "gameId": "GWBB2022-20211209-A-CLOVER",
+      "playerId": "JOHPEY2024",
+      "jersey": 30,
+      "playerName": "Johnston, Peyton",
+      "twoPM": 1,
+      "twoPA": 3,
+      "threePM": 2,
+      "threePA": 8,
+      "ftM": 0.0,
+      "ftA": 0,
+      "pts": 8,
+      "reb": 7,
       "tenPlus": false,
       "doubleDouble": false
     }

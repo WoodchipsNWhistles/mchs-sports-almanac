@@ -46,13 +46,18 @@ permalink: "/gwbb/season/{{ s.yearEnd }}/index.html"
       <tbody>
   {% for g in season.schedule %}
     {# Canonical-ish game id across eras #}
-    {% set gid = g.gameId or g.GameID or g.GameID_Base or g.GameIDBase %}
+  {% set gid = g.gameId or g.gameID or g.GameID or g.GameId or g.GameID_Base or g.gameIdBase or g.GameIDBase %}
+  {% set opp = g.opponent or g.Opponent or 'Opponent' %}
+  {% set dateLabel = g.dateLabel or g.Date %}
+  {% set notes = (g.notes or g.Notes or '') | string %}
+{# Detect cancelled games #}
+{% set outcomeRaw = (g.outcome or g.Outcome or '') | string | lower %}
+{% set notesLower = notes | lower %}
+{% set isCancelled =
+  'cancel' in outcomeRaw
+  or 'cancel' in notesLower
+%}
 
-    {# Opponent #}
-    {% set opp = g.opponent or g.Opponent or 'Opponent' %}
-
-    {# Date #}
-    {% set dateLabel = g.dateLabel or g.Date %}
 
     {# Site code #}
     {% set sc = (g.siteCode or g.SiteCode or '') | upper %}
@@ -86,20 +91,32 @@ permalink: "/gwbb/season/{{ s.yearEnd }}/index.html"
     <tr>
       <td>{{ dateLabel }}</td>
 
-      <td>
-        {% if gid and (gid in boxIds) %}
-          <a href="{{ ('/gwbb/boxscores/' ~ gid ~ '/') | url }}">{{ gameLabel }}</a>
-        {% else %}
-          {{ gameLabel }}
-        {% endif %}
-      </td>
+           <td>
+  {% if gid and (gid in boxIds) %}
+    <a href="{{ ('/gwbb/boxscores/' ~ gid ~ '/') | url }}">{{ gameLabel }}</a>
+  {% else %}
+    {{ gameLabel }}
+  {% endif %}
+
+  {% if notes and notes != 'null' %}
+    <div class="small muted" style="margin-top:.15rem;">
+      {{ notes }}
+    </div>
+  {% endif %}
+</td>
+
 
       <td>
-        {{ wl }}
-        {% if pf is not none and pa is not none %}
-          {{ pf }}–{{ pa }}
-        {% endif %}
-      </td>
+  {% if isCancelled %}
+    Cancelled
+  {% else %}
+    {{ wl }}
+    {% if pf is not none and pa is not none %}
+      {{ pf }}–{{ pa }}
+    {% endif %}
+  {% endif %}
+</td>
+
     </tr>
   {% endfor %}
 </tbody>
