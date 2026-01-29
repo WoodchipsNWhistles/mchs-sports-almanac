@@ -1,0 +1,45 @@
+---
+layout: base.njk
+title: GWBB Career Leaders
+---
+
+<h1>GWBB Career Leaders</h1>
+<p class="lede-small">
+Career totals are aggregated from available per-game records. Due to inconsistent record keeping in earlier eras, some historical data may be incomplete. Season data from 2011–12, 2012–13, and 2014–15 through 2024–25 has been verified against official sources, including the KHSAA/Riherds repository, as last reviewed by this project on or about 2026-01-20. Some historical seasons may lack complete box score data.
+</p>
+
+{% set ptsLeaders = gwbbCareerTotals | sort(false, false, "pts") | reverse %}
+{% set rebLeaders = gwbbCareerTotals | sort(false, false, "reb") | reverse %}
+<h2>Career Points</h2>
+<table>
+  <thead>
+    <tr><th>Rk</th><th>Player Name</th><th>Game Played</th><th>PTS</th></tr>
+  </thead>
+  <tbody>
+  {% for row in gwbbCareerPtsTop10 %}
+    <tr>
+      <td>{{ loop.index }}</td>
+      <td>{{ playerNameLookup[row.playerID] or row.playerID }}</td>
+      <td>{{ row.gp }}</td>
+      <td>{{ row.pts }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<h2>Career Rebounds</h2>
+<table>
+  <thead>
+    <tr><th>Rk</th><th>Player Name</th><th>Games Played</th><th>REB</th></tr>
+  </thead>
+  <tbody>
+  {% for row in gwbbCareerRebTop10 %}
+    <tr>
+      <td>{{ loop.index }}</td>
+      <td>{{ playerNameLookup[row.playerID] or row.playerID }}</td>
+      <td>{{ row.gp }}</td>
+      <td>{{ row.reb }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
