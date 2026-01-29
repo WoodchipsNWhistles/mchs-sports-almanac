@@ -153,6 +153,13 @@ footer{
   color:var(--muted);
   font-size:.9rem;
 }
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2rem 0;
+}
+
 ul.columns {
   column-width: 16rem;
   column-gap: 2rem;

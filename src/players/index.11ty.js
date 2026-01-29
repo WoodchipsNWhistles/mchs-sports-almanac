@@ -81,7 +81,7 @@ module.exports = class PlayersIndexPage {
   <div class="players-by-year">
     ${gradBlocks || "<p>No players on record.</p>"}
   </div>
-
+<hr>
   <h2>Players A–Z</h2>
   ${
     byLastName.length
