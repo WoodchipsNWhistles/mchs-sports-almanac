@@ -153,6 +153,18 @@ footer{
   color:var(--muted);
   font-size:.9rem;
 }
+ul.columns {
+  column-width: 16rem;
+  column-gap: 2rem;
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+ul.columns li {
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+}
 
 table{
   width:100%;
