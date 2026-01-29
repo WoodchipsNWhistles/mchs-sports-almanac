@@ -132,7 +132,7 @@ a:hover{opacity:.85}
   font-style: italic;
   line-height: 1.5;
   margin: 0 0 0.75rem;
-  opacity: 0.85;           /* subtle de-emphasis without hurting readability */
+  opacity: 0.85;           /* subtle de-emphasis w/o hurting readability */
 }
 
 .grid.single {
