@@ -71,7 +71,7 @@ module.exports = class PlayersIndexPage {
 
     return `
 <div class="article">
-  <h1>Players</h1>
+  <h1>People</h1>
 
   <p>
     Browse by graduation year (collapsed by default), or scan the full A–Z list.
