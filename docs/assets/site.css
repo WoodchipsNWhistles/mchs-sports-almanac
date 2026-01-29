@@ -126,6 +126,15 @@ a:hover{opacity:.85}
   margin: 0 0 0.75rem;
 }
 
+.lede-small {
+  font-family: var(--body);
+  font-size: 0.95rem;      /* slightly smaller than body */
+  font-style: italic;
+  line-height: 1.5;
+  margin: 0 0 0.75rem;
+  opacity: 0.85;           /* subtle de-emphasis without hurting readability */
+}
+
 .grid.single {
   grid-template-columns: 1fr;
 }
