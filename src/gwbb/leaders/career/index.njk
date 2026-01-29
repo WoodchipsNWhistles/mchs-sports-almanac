@@ -19,7 +19,11 @@ Career totals are aggregated from available per-game records. Due to inconsisten
   {% for row in gwbbCareerPtsTop10 %}
     <tr>
       <td>{{ loop.index }}</td>
-      <td>{{ playerNameLookup[row.playerID] or row.playerID }}</td>
+      <td>
+  <a href="{{ playerLinkLookup[row.playerID] }}">
+    {{ playerNameLookup[row.playerID] or row.playerID }}
+  </a>
+</td>
       <td>{{ row.gp }}</td>
       <td>{{ row.pts }}</td>
     </tr>
@@ -36,7 +40,11 @@ Career totals are aggregated from available per-game records. Due to inconsisten
   {% for row in gwbbCareerRebTop10 %}
     <tr>
       <td>{{ loop.index }}</td>
-      <td>{{ playerNameLookup[row.playerID] or row.playerID }}</td>
+      <td>
+  <a href="{{ playerLinkLookup[row.playerID] }}">
+    {{ playerNameLookup[row.playerID] or row.playerID }}
+  </a>
+</td>
       <td>{{ row.gp }}</td>
       <td>{{ row.reb }}</td>
     </tr>

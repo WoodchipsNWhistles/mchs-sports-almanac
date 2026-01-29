@@ -14,12 +14,20 @@ module.exports = () => {
   );
 
   const playerNameLookup = buildPlayerNameLookup();
+  
+    const playerLinkLookup = {};
+  for (const r of rows) {
+    if (!r.playerID) continue;
+    playerLinkLookup[r.playerID] =
+      `/mchs-sports-almanac/players/${r.playerID}/`;
+  }
 
   return {
     gwbbCareerTotals: rows,
     gwbbCareerPtsTop10: gwbbCareerPtsLeaders.slice(0, 10),
     gwbbCareerRebTop10: gwbbCareerRebLeaders.slice(0, 10),
-    playerNameLookup,
+    playerNameLookup, 
+    playerLinkLookup,
   };
 };
 
