@@ -134,41 +134,36 @@ function buildVarsitySeasonsFromCanonical(playerID) {
     });
   }
 
-  // sort by season ascending
-  seasons.sort((a, b) => (a.seasonYearEnd || 0) - (b.seasonYearEnd || 0));
-  return seasons;
+// sort by season ascending
+seasons.sort((a, b) => (a.seasonYearEnd || 0) - (b.seasonYearEnd || 0));
+return seasons;
 }
 
 module.exports = class PlayerPage {
   data() {
-    return {
-      pagination: {
-        data: "playerIndex",
-        size: 1,
-        alias: "playerRef",
-      },
-      permalink: (data) => {
+
+  return {
+    pagination: {
+      data: "playerIndex",
+      size: 1,
+      alias: "playerRef",
+    },
+
+    permalink: (data) => {
+      const pid = canonPlayerID(data.playerRef);
+      return `/players/${pid}/index.html`;
+    },
+
+    layout: "base.njk",
+
+    eleventyComputed: {
+      title: (data) => {
         const pid = canonPlayerID(data.playerRef);
-        return `/players/${pid}/index.html`;
+        return `${data.playerRef?.name || pid} — Career`;
       },
-
-      // To those who come behind:
-      // This hardcoded prefix exists because Eleventy JS templates did not reliably
-      // receive site.baseUrl or pathPrefix during GH Pages builds.
-      // Root-relative links WILL 404 without this.
-      // Verified working on GitHub Pages project sites.
-      // Time wasted discovering this: ~14 hours.
-      // If you change this, please increment the counter and leave a note.
-
-      layout: "base.njk",
-      eleventyComputed: {
-        title: (data) => {
-          const pid = canonPlayerID(data.playerRef);
-          return `${data.playerRef.name || pid} — Career`;
-        },
-      },
-    };
-  }
+    },
+  };
+}
 
   render(data) {
     const prefix = "/mchs-sports-almanac";

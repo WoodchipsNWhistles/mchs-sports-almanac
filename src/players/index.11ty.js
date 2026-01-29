@@ -8,34 +8,43 @@ module.exports = class PlayersIndexPage {
   }
 
   render(data) {
-    // Keep consistent with your “prefix” approach on GH Pages project sites
     const prefix = "/mchs-sports-almanac";
+    const playerLink = (pid) => `${prefix}/players/${pid}/`;
 
-    const idx = data.playersIndex || {};
+    const canonPID = (p) =>
+      p?.personID || p?.playerID || p?.playerId || p?.PlayerID || p?.PlayerId || null;
+
+    const idx = data.playersIndex || data.playerIndex || {};
     const byGradYear = idx.byGradYear || {};
     const gradYearKeys = idx.gradYearKeys || [];
     const byLastName = idx.byLastName || [];
-
-    const playerLink = (pid) => `${prefix}/players/${pid}/`;
 
     const gradBlocks = gradYearKeys
       .map((k) => {
         const list = byGradYear[k] || [];
         const items = list
-          .map((p) => `<li><a href="${playerLink(p.playerID)}">${p.name}</a></li>`)
+          .map((p) => {
+            if (p.role && String(p.role).toLowerCase() !== "player") return "";
+            const pid = canonPID(p);
+            if (!pid) return "";
+            const name = p.name || `${p.first || ""} ${p.last || ""}`.trim() || pid;
+            return `<li><a href="${playerLink(pid)}">${name}</a></li>`;
+          })
+          .filter(Boolean)
           .join("");
+
         return `
           <details class="year">
             <summary>${k} <span class="muted">(${list.length})</span></summary>
-          <ul class="columns">${items}</ul>
+            <ul class="columns">${items}</ul>
           </details>
         `;
       })
       .join("\n");
 
-    // Group A–Z into collapsible letter buckets (by last name, fallback to name)
     const byLetter = {};
     for (const p of byLastName) {
+      if (p.role && String(p.role).toLowerCase() !== "player") continue;
       const last = (p.last || "").trim();
       const base = (last || p.name || "").trim();
       const ch = base ? base[0].toUpperCase() : "#";
@@ -55,9 +64,13 @@ module.exports = class PlayersIndexPage {
         const list = byLetter[letter] || [];
         const items = list
           .map((p) => {
+            const pid = canonPID(p);
+            if (!pid) return "";
+            const name = p.name || `${p.first || ""} ${p.last || ""}`.trim() || pid;
             const gy = p.gradYear ? ` (${p.gradYear})` : "";
-            return `<li><a href="${playerLink(p.playerID)}">${p.name}</a><span class="muted">${gy}</span></li>`;
+            return `<li><a href="${playerLink(pid)}">${name}</a><span class="muted">${gy}</span></li>`;
           })
+          .filter(Boolean)
           .join("");
 
         return `
@@ -81,7 +94,9 @@ module.exports = class PlayersIndexPage {
   <div class="players-by-year">
     ${gradBlocks || "<p>No players on record.</p>"}
   </div>
-<hr>
+
+  <hr>
+
   <h2>Players A–Z</h2>
   ${
     byLastName.length
