@@ -1,0 +1,108 @@
+{
+  "program": "BDBB",
+  "school": "Flaherty High School",
+  "season": 1967,
+  "seasonSpan": "1966-67",
+  "notes": "Schedule printed for the 1966-67 season. November/December dates are in 1966; January/February dates are in 1967. Tournament listings are recorded as event-stub games pending bracket/opponent detail.",
+  "games": [
+    {
+      "gameDate": "1966-11-08",
+      "opponent": "Grayson County Catholic",
+      "site": "home",
+      "pointsFor": 47,
+      "pointsAgainst": 43,
+      "outcome": "Win",
+      "notes": "Legacy box score printed with FG, FT, and total points only; shot attempts not recorded.",
+      "oppCode": "GRAYSO",
+      "gameIDBase": "BDBB-19661108-H-GRAYSO",
+      "boxscoreStatus": "legacy-scoring-lines",
+      "boxscoreFormat": "FG-FT-TP",
+      "legacyPlayerScoring": {
+        "homeTeam": {
+          "teamName": "Flaherty",
+          "players": [
+            { "personID": "LEEJAM1968", "name": "James Lee", "fgM": 2, "ftM": 1, "pts": 5 },
+            { "personID": "CRUJAC1967", "name": "Jackie Crutcher", "fgM": 4, "ftM": 0, "pts": 8 },
+            { "personID": "HARWAR1968", "name": "Warren Harding", "fgM": 5, "ftM": 0, "pts": 10 },
+            { "personID": "BRALAR1967", "name": "Larry Bradley", "fgM": 9, "ftM": 2, "pts": 20 },
+            { "personID": "COXDAL1967", "name": "Dale Cox", "fgM": 0, "ftM": 0, "pts": 0 },
+            { "personID": "CASVIC1967", "name": "Victor Caster", "fgM": 2, "ftM": 0, "pts": 4 }
+          ],
+          "teamTotalPts": 47
+        },
+        "awayTeam": {
+          "teamName": "Grayson County Catholic",
+          "players": [
+            { "name": "Michael Darst", "fgM": 3, "ftM": 0, "pts": 6 },
+            { "name": "Jed Johnson", "fgM": 0, "ftM": 1, "pts": 1 },
+            { "name": "David Johnson", "fgM": 4, "ftM": 0, "pts": 8 },
+            { "name": "Dwayne Clemons", "fgM": 12, "ftM": 4, "pts": 28 },
+            { "name": "Aloysius Whitfill", "fgM": 0, "ftM": 0, "pts": 0 }
+          ],
+          "teamTotalPts": 43
+        }
+      }
+    },
+
+    { "gameDate": "1966-11-11", "opponent": "Hancock County", "site": "away", "oppCode": "HANCOC", "gameIDBase": "BDBB-19661111-A-HANCOC" },
+    { "gameDate": "1966-11-15", "opponent": "Cub Run", "site": "home", "oppCode": "CUBRUN", "gameIDBase": "BDBB-19661115-H-CUBRUN" },
+    { "gameDate": "1966-11-18", "opponent": "Lebanon Junction", "site": "away", "oppCode": "LEBANO", "gameIDBase": "BDBB-19661118-A-LEBANO" },
+    { "gameDate": "1966-11-22", "opponent": "North Hardin", "site": "away", "oppCode": "NORTHH", "gameIDBase": "BDBB-19661122-A-NORTHH" },
+    { "gameDate": "1966-11-23", "opponent": "Munfordville", "site": "home", "oppCode": "MUNFOR", "gameIDBase": "BDBB-19661123-H-MUNFOR" },
+    { "gameDate": "1966-11-29", "opponent": "Elizabethtown", "site": "away", "oppCode": "ELIZAB", "gameIDBase": "BDBB-19661129-A-ELIZAB" },
+
+    { "gameDate": "1966-12-03", "opponent": "Fordsville", "site": "home", "oppCode": "FORDSV", "gameIDBase": "BDBB-19661203-H-FORDSV" },
+    { "gameDate": "1966-12-06", "opponent": "Meade County", "site": "away", "oppCode": "MEADEX", "gameIDBase": "BDBB-19661206-A-MEADEX" },
+    { "gameDate": "1966-12-09", "opponent": "Cloverport", "site": "home", "oppCode": "CLOVER", "gameIDBase": "BDBB-19661209-H-CLOVER" },
+    { "gameDate": "1966-12-10", "opponent": "Clarkson", "site": "home", "oppCode": "CLARKS", "gameIDBase": "BDBB-19661210-H-CLARKS" },
+
+    {
+      "gameDate": "1966-12-16",
+      "opponent": "Clarkson Tournament",
+      "site": "away",
+      "oppCode": "CLARKS",
+      "gameIDBase": "BDBB-19661216-A-CLARKS",
+      "notes": "Tournament listing; specific opponent/bracket not recorded in the printed schedule."
+    },
+    {
+      "gameDate": "1966-12-21",
+      "opponent": "Cub Run Tournament",
+      "site": "away",
+      "oppCode": "CUBRUN",
+      "gameIDBase": "BDBB-19661221-A-CUBRUN",
+      "notes": "Two-day tournament at Cub Run; day 1. Specific opponent/bracket not recorded in the printed schedule."
+    },
+    {
+      "gameDate": "1966-12-22",
+      "opponent": "Cub Run Tournament",
+      "site": "away",
+      "oppCode": "CUBRUN",
+      "gameIDBase": "BDBB-19661222-A-CUBRUN",
+      "notes": "Two-day tournament at Cub Run; day 2. Specific opponent/bracket not recorded in the printed schedule."
+    },
+
+    { "gameDate": "1967-01-03", "opponent": "St. Francis", "site": "away", "oppCode": "STFRAN", "gameIDBase": "BDBB-19670103-A-STFRAN" },
+    { "gameDate": "1967-01-10", "opponent": "Meade County", "site": "home", "oppCode": "MEADEX", "gameIDBase": "BDBB-19670110-H-MEADEX" },
+    { "gameDate": "1967-01-13", "opponent": "Grayson County Catholic", "site": "away", "oppCode": "GRAYSO", "gameIDBase": "BDBB-19670113-A-GRAYSO" },
+    { "gameDate": "1967-01-17", "opponent": "Fordsville", "site": "home", "oppCode": "FORDSV", "gameIDBase": "BDBB-19670117-H-FORDSV" },
+    { "gameDate": "1967-01-20", "opponent": "West Hardin", "site": "home", "oppCode": "WESTHA", "gameIDBase": "BDBB-19670120-H-WESTHA" },
+    { "gameDate": "1967-01-24", "opponent": "Aquinas", "site": "home", "oppCode": "AQUINA", "gameIDBase": "BDBB-19670124-H-AQUINA" },
+    { "gameDate": "1967-01-27", "opponent": "Cloverport", "site": "away", "oppCode": "CLOVER", "gameIDBase": "BDBB-19670127-A-CLOVER" },
+    { "gameDate": "1967-01-28", "opponent": "Iroquois", "site": "home", "oppCode": "IROQUO", "gameIDBase": "BDBB-19670128-H-IROQUO" },
+
+    { "gameDate": "1967-02-03", "opponent": "West Hardin", "site": "away", "oppCode": "WESTHA", "gameIDBase": "BDBB-19670203-A-WESTHA" },
+    { "gameDate": "1967-02-04", "opponent": "Fort Knox", "site": "home", "oppCode": "FORTKN", "gameIDBase": "BDBB-19670204-H-FORTKN" },
+    { "gameDate": "1967-02-07", "opponent": "Lebanon Junction", "site": "away", "oppCode": "LEBANO", "gameIDBase": "BDBB-19670207-A-LEBANO" },
+    {
+      "gameDate": "1967-02-11",
+      "opponent": "Aquinas",
+      "site": "away",
+      "oppCode": "AQUINA",
+      "gameIDBase": "BDBB-19670211-A-AQUINA",
+      "notes": "Printed as 'Aquinas at MHS' in the schedule; contest played at Meade County High School."
+    },
+    { "gameDate": "1967-02-14", "opponent": "Cub Run", "site": "away", "oppCode": "CUBRUN", "gameIDBase": "BDBB-19670214-A-CUBRUN" },
+    { "gameDate": "1967-02-17", "opponent": "North Hardin", "site": "home", "oppCode": "NORTHH", "gameIDBase": "BDBB-19670217-H-NORTHH" },
+    { "gameDate": "1967-02-24", "opponent": "St. Francis", "site": "away", "oppCode": "STFRAN", "gameIDBase": "BDBB-19670224-A-STFRAN" }
+  ]
+}
