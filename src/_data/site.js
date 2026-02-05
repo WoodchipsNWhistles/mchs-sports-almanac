@@ -1,3 +1,3 @@
 module.exports = {
-  baseUrl: ""
+  baseUrl: "/mchs-sports-almanac"
 };
