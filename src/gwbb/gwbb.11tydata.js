@@ -20,7 +20,7 @@ module.exports = () => {
   const playerLinkLookup = {};
   for (const r of rows) {
     if (!r.playerID) continue;
-    playerLinkLookup[r.playerID] = `/mchs-sports-almanac/players/${r.playerID}/`;
+    playerLinkLookup[r.playerID] = `/players/${r.playerID}/`;
   }
 
   // ---------- Helpers ----------

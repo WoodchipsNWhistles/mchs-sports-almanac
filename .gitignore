@@ -8,3 +8,4 @@ _inbox/
 # macOS
 .DS_Store
 EOF
+src/_site/
