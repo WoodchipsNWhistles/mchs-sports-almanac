@@ -166,7 +166,7 @@ module.exports = class PlayerPage {
 }
 
   render(data) {
-    const prefix = "/mchs-sports-almanac";
+    const prefix = "";
 
     const playerID = canonPlayerID(data.playerRef);
 

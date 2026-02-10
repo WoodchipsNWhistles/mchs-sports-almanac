@@ -8,7 +8,7 @@ module.exports = class PlayersIndexPage {
   }
 
   render(data) {
-    const prefix = "/mchs-sports-almanac";
+    const prefix = "";
     const playerLink = (pid) => `${prefix}/players/${pid}/`;
 
     const canonPID = (p) =>

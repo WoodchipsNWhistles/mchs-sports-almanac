@@ -9,3 +9,6 @@ _inbox/
 .DS_Store
 EOF
 src/_site/
+
+_site/
+src/_site/
