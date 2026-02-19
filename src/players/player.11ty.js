@@ -307,7 +307,7 @@ function renderBasketballBlock({
             <td>${seasonIdx + 1}</td>
             <td>${dateStr || "—"}</td>
             <td>${site && opp ? `${site} ${opp}` : opp || "—"}</td>
-            <td><a href="${gameUrl(gid)}/">${gid}</a></td>
+            <td><a href="${gameUrl(gid)}">${gid}</a></td>
             <td>${two}</td>
             <td>${pct(g.twoPM, g.twoPA)}</td>
             <td>${three}</td>

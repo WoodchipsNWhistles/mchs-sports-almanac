@@ -49,7 +49,7 @@ title: "LWBB {{ year }}"
     </thead>
     <tbody>
     {%- for g in schedule -%}
-
+      {% set gid = g["GameID"] or g["GameID_Base"] or g["gameId"] or g["gameID"] %}
       {% set date = g["Date"] %}
       {% set opp = g["Opponent"] %}
       {% set oppCode = g["OppCode"] %}
@@ -58,6 +58,8 @@ title: "LWBB {{ year }}"
       {% set pa = g["Points Against"] %}
       {% set outcome = g["Outcome"] %}
       {% set notes = g["Notes"] %}
+
+
 
       {# Site label #}
       {% if siteCode == "A" %}
@@ -93,7 +95,15 @@ title: "LWBB {{ year }}"
         <td>{{ date }}</td>
 
         <td>
-          {{ siteLabel }} {{ opp }} <small>({{ oppCode }})</small>
+          {% if gid %}
+  <a href="{{ ('/lwbb/boxscores/' ~ gid ~ '/') | url }}">
+    {{ siteLabel }} {{ opp }}
+  </a>
+{% else %}
+  {{ siteLabel }} {{ opp }}
+{% endif %}
+<small>({{ oppCode }})</small>
+
           {%- if notes -%}
             <br><small><em>{{ notes }}</em></small>
           {%- endif -%}

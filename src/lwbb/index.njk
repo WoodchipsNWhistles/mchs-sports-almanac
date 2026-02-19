@@ -10,16 +10,11 @@ title: Lady Wave Basketball
 <h2>Seasons</h2>
 
 <ul>
-{%- for s in metaSeasons -%}
+{%- for s in metaSeasons | reverse -%}
   <li>
-    {% if s.published %}
-      <a href="{{ ('/lwbb/season/' ~ s.seasonYear ~ '/') | url }}">
-        {{ s.display }}
-      </a>
-    {% else %}
+    <a href="{{ ('/lwbb/season/' ~ s.seasonYear ~ '/') | url }}">
       {{ s.display }}
-      <small>(unpublished)</small>
-    {% endif %}
+    </a>
   </li>
 {%- endfor -%}
 </ul>
