@@ -61,7 +61,9 @@ function readAllDerivedPlayers() {
       const raw = fs.readFileSync(full, "utf8");
       const p = JSON.parse(raw);
 
-      const id = canonPlayerID(p) || f.replace(/\.json$/i, "");
+      const id = canonPlayerID(p);
+      if (!id) continue; // skip non-canonical derived artifacts
+
       const name = safeStr(p.name) || id;
 
       const last = deriveLastName(p);
