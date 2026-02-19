@@ -12,3 +12,34 @@ src/_site/
 
 _site/
 src/_site/
+
+# OS junk
+.DS_Store
+._*
+Thumbs.db
+
+# Node / Eleventy build caches (safe)
+node_modules/
+.cache/
+.11ty-cache/
+_site/
+dist/
+tmp/
+.temp/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Local scratch
+*.patch
+*.orig
+
+# Finder duplicate folders (if they ever appear)
+* 2/
