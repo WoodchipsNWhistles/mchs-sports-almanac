@@ -225,10 +225,10 @@
       "Standings": -1,
       "Notes": null,
       "SiteCode": "A",
-      "OppCode": "MUHLEN",
-      "GameID_Base": "GWBB2014-20140111-A-MUHLEN",
+      "OppCode": "MUHLCO",
+      "GameID_Base": "GWBB2014-20140111-A-MUHLCO",
       "GameSortKey": "MUHLENBERG COUNTY|away|042|050|",
-      "GameID": "GWBB2014-20140111-A-MUHLEN"
+      "GameID": "GWBB2014-20140111-A-MUHLCO"
     },
     {
       "GameDate": "2014-01-14T00:00:00",
@@ -257,10 +257,10 @@
       "Standings": -1,
       "Notes": null,
       "SiteCode": "H",
-      "OppCode": "OWENSB",
-      "GameID_Base": "GWBB2014-20140116-H-OWENSB",
+      "OppCode": "OWCATH",
+      "GameID_Base": "GWBB2014-20140116-H-OWCATH",
       "GameSortKey": "OWENSBORO CATHOLIC|home|046|056|",
-      "GameID": "GWBB2014-20140116-H-OWENSB"
+      "GameID": "GWBB2014-20140116-H-OWCATH"
     },
     {
       "GameDate": "2014-01-21T00:00:00",
@@ -377,7 +377,7 @@
     {
       "GameDate": "2014-02-12T00:00:00",
       "Date": "Wed, Feb 12, 14",
-      "Opponent": "South Central, IN",
+      "Opponent": "South Central",
       "Site": "away",
       "Points for": 57,
       "Points Against": 61,
@@ -385,10 +385,10 @@
       "Standings": -1,
       "Notes": "Overtime",
       "SiteCode": "A",
-      "OppCode": "SOUTHC",
-      "GameID_Base": "GWBB2014-20140212-A-SOUTHC",
+      "OppCode": "SOCEIN",
+      "GameID_Base": "GWBB2014-20140212-A-SOCEIN",
       "GameSortKey": "SOUTH CENTRAL, IN|away|057|061|overtime",
-      "GameID": "GWBB2014-20140212-A-SOUTHC"
+      "GameID": "GWBB2014-20140212-A-SOCEIN"
     },
     {
       "GameDate": "2014-02-17T00:00:00",
@@ -401,10 +401,10 @@
       "Standings": 1,
       "Notes": null,
       "SiteCode": "H",
-      "OppCode": "BULLIT",
-      "GameID_Base": "GWBB2014-20140217-H-BULLIT",
+      "OppCode": "BULCEN",
+      "GameID_Base": "GWBB2014-20140217-H-BULCEN",
       "GameSortKey": "BULLITT CENTRAL|home|059|056|",
-      "GameID": "GWBB2014-20140217-H-BULLIT"
+      "GameID": "GWBB2014-20140217-H-BULCEN"
     },
     {
       "GameDate": "2014-02-18T00:00:00",
@@ -457,7 +457,7 @@
     {
       "GameDate": "2014-03-07T00:00:00",
       "Date": "Fri, Mar 7, 14",
-      "Opponent": "Owensboro",
+      "Opponent": "Owensboro HS",
       "Site": "at Owensboro Sportscenter",
       "Points for": 34,
       "Points Against": 72,
@@ -499,7 +499,7 @@
       "PlayerID": "HACCAL2017"
     },
     {
-      "Jersey": 2.0,
+      "Jersey": 2,
       "Name": "Zeb Wilson",
       "Position": "Guard",
       "Grade": "Sr.",
@@ -512,7 +512,7 @@
       "PlayerID": "WILZEB2014"
     },
     {
-      "Jersey": 3.0,
+      "Jersey": 3,
       "Name": "Micah Kaiser",
       "Position": "Forward",
       "Grade": "Jr.",
@@ -525,7 +525,7 @@
       "PlayerID": "KAIMIC2015"
     },
     {
-      "Jersey": 10.0,
+      "Jersey": 10,
       "Name": "Jacob Bewley",
       "Position": "Guard",
       "Grade": "So.",
@@ -538,7 +538,7 @@
       "PlayerID": "BEWJAC2016"
     },
     {
-      "Jersey": 11.0,
+      "Jersey": 11,
       "Name": "John Wilson",
       "Position": "Guard",
       "Grade": "Jr.",
@@ -551,7 +551,7 @@
       "PlayerID": "WILJOH2015"
     },
     {
-      "Jersey": 12.0,
+      "Jersey": 12,
       "Name": "John Miller",
       "Position": "Guard",
       "Grade": "Jr.",
@@ -564,7 +564,7 @@
       "PlayerID": "MILJOH2015"
     },
     {
-      "Jersey": 14.0,
+      "Jersey": 14,
       "Name": "Corey Stegner",
       "Position": "Guard",
       "Grade": "Jr.",
@@ -577,7 +577,7 @@
       "PlayerID": "STECOR2015"
     },
     {
-      "Jersey": 15.0,
+      "Jersey": 15,
       "Name": "Will King",
       "Position": "Guard",
       "Grade": "Jr.",
@@ -590,7 +590,7 @@
       "PlayerID": "KINWIL2015"
     },
     {
-      "Jersey": 21.0,
+      "Jersey": 21,
       "Name": "Luke Wilson",
       "Position": "Forward",
       "Grade": "Sr.",
@@ -603,7 +603,7 @@
       "PlayerID": "WILLUK2014"
     },
     {
-      "Jersey": 22.0,
+      "Jersey": 22,
       "Name": "Charles Mattingly",
       "Position": "Forward",
       "Grade": "Sr.",
@@ -616,7 +616,7 @@
       "PlayerID": "MATCHA2014"
     },
     {
-      "Jersey": 23.0,
+      "Jersey": 23,
       "Name": "Trevor Yates",
       "Position": "Forward",
       "Grade": "Jr.",
@@ -629,7 +629,7 @@
       "PlayerID": "YATTRE2015"
     },
     {
-      "Jersey": 25.0,
+      "Jersey": 25,
       "Name": "John Millay",
       "Position": "Forward",
       "Grade": "So.",
@@ -642,7 +642,7 @@
       "PlayerID": "MILJOH2016"
     },
     {
-      "Jersey": 34.0,
+      "Jersey": 34,
       "Name": "Josh Durbin",
       "Position": "Forward",
       "Grade": "So.",
@@ -655,7 +655,7 @@
       "PlayerID": "DURJOS2016"
     },
     {
-      "Jersey": 45.0,
+      "Jersey": 45,
       "Name": "Travis Jenkins",
       "Position": "Forward",
       "Grade": "Sr.",

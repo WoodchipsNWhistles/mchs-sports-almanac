@@ -1,0 +1,25 @@
+---
+layout: base.njk
+title: Lady Wave Basketball
+---
+
+<h1>Lady Wave Basketball</h1>
+
+{% set metaSeasons = lwbb.meta.seasons if lwbb.meta else [] %}
+
+<h2>Seasons</h2>
+
+<ul>
+{%- for s in metaSeasons -%}
+  <li>
+    {% if s.published %}
+      <a href="{{ ('/lwbb/season/' ~ s.seasonYear ~ '/') | url }}">
+        {{ s.display }}
+      </a>
+    {% else %}
+      {{ s.display }}
+      <small>(unpublished)</small>
+    {% endif %}
+  </li>
+{%- endfor -%}
+</ul>

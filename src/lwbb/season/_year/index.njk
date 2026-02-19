@@ -1,0 +1,116 @@
+---
+layout: base.njk
+pagination:
+  data: lwbb.years
+  size: 1
+  alias: year
+permalink: "/lwbb/season/{{ year }}/index.html"
+title: "LWBB {{ year }}"
+---
+
+{% set season = lwbb.seasons[year | string] %}
+{% set schedule = season.schedule or [] %}
+
+{# Find matching meta row #}
+{% set metaSeason = null %}
+{% if lwbb.meta and lwbb.meta.seasons %}
+  {% for s in lwbb.meta.seasons %}
+    {% if s.seasonYear == year %}
+      {% set metaSeason = s %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+<h1>Lady Wave Basketball — {{ year }}</h1>
+
+{% if metaSeason and metaSeason.display %}
+  <p><strong>Season:</strong> {{ metaSeason.display }}</p>
+{% endif %}
+
+{% if metaSeason and metaSeason.coach and metaSeason.coach.headCoach %}
+  <p><strong>Head Coach:</strong> {{ metaSeason.coach.headCoach.name }}</p>
+{% endif %}
+
+<p><a href="{{ '/lwbb/' | url }}">Back to LWBB</a></p>
+
+<h2>Schedule</h2>
+<p>{{ schedule | length }} games</p>
+
+{% if schedule | length == 0 %}
+  <p>No schedule data found for this season.</p>
+{% else %}
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Opponent</th>
+        <th>Result</th>
+      </tr>
+    </thead>
+    <tbody>
+    {%- for g in schedule -%}
+
+      {% set date = g["Date"] %}
+      {% set opp = g["Opponent"] %}
+      {% set oppCode = g["OppCode"] %}
+      {% set siteCode = g["SiteCode"] %}
+      {% set pf = g["Points for"] %}
+      {% set pa = g["Points Against"] %}
+      {% set outcome = g["Outcome"] %}
+      {% set notes = g["Notes"] %}
+
+      {# Site label #}
+      {% if siteCode == "A" %}
+        {% set siteLabel = "@" %}
+      {% elif siteCode == "H" %}
+        {% set siteLabel = "v" %}
+      {% else %}
+        {% set siteLabel = "vs" %}
+      {% endif %}
+
+      {# W/L formatting #}
+      {% if outcome == "Win" %}
+        {% set wl = "W" %}
+      {% elif outcome == "Loss" %}
+        {% set wl = "L" %}
+      {% else %}
+        {% set wl = "" %}
+      {% endif %}
+
+      {# Played if we have W/L and both scores #}
+      {% set played = (wl != "" and pf is not none and pa is not none) %}
+
+      {# Status detection: only promote certain Notes into Result #}
+      {% set status = "" %}
+      {% if (not played) and notes %}
+        {% set firstWord = (notes.split(" ")[0] | lower) %}
+        {% if firstWord == "canceled" or firstWord == "cancelled" or firstWord == "postponed" or firstWord == "forfeit" or firstWord == "suspended" or firstWord == "ppd" %}
+          {% set status = notes.split(" - ")[0] %}
+        {% endif %}
+      {% endif %}
+
+      <tr>
+        <td>{{ date }}</td>
+
+        <td>
+          {{ siteLabel }} {{ opp }} <small>({{ oppCode }})</small>
+          {%- if notes -%}
+            <br><small><em>{{ notes }}</em></small>
+          {%- endif -%}
+        </td>
+
+        <td>
+          {%- if played -%}
+            {{ wl }} {{ pf | int }}-{{ pa | int }}
+          {%- elif status != "" -%}
+            {{ status }}
+          {%- else -%}
+            —
+          {%- endif -%}
+        </td>
+      </tr>
+
+    {%- endfor -%}
+    </tbody>
+  </table>
+{% endif %}

@@ -2,7 +2,7 @@
   "seasonYear": 2021,
   "seasonMeta": {
     "SportCode": "GWBB",
-    "SeasonYearEnd": 2021.0,
+    "SeasonYearEnd": 2021,
     "CoachID": "COA_TRIJAS00",
     "Unnamed: 7": null,
     "Unnamed: 8": null,
@@ -220,10 +220,10 @@
       "Standings": -1,
       "Notes": null,
       "SiteCode": "H",
-      "OppCode": "BULLIT",
-      "GameID_Base": "GWBB2021-20210223-H-BULLIT",
+      "OppCode": "BULCEN",
+      "GameID_Base": "GWBB2021-20210223-H-BULCEN",
       "GameSortKey": "BULLITT CENTRAL|home|058|061|",
-      "GameID": "GWBB2021-20210223-H-BULLIT"
+      "GameID": "GWBB2021-20210223-H-BULCEN"
     },
     {
       "GameDate": "2021-02-25T00:00:00",
@@ -332,10 +332,10 @@
       "Standings": 1,
       "Notes": null,
       "SiteCode": "A",
-      "OppCode": "OWENSB",
-      "GameID_Base": "GWBB2021-20210311-A-OWENSB",
+      "OppCode": "OWCATH",
+      "GameID_Base": "GWBB2021-20210311-A-OWCATH",
       "GameSortKey": "OWENSBORO CATHOLIC|away|050|034|",
-      "GameID": "GWBB2021-20210311-A-OWENSB"
+      "GameID": "GWBB2021-20210311-A-OWCATH"
     },
     {
       "GameDate": "2021-03-15T00:00:00",
@@ -380,10 +380,10 @@
       "Standings": -1,
       "Notes": "3rd Region",
       "SiteCode": "N",
-      "OppCode": "OWENSB",
-      "GameID_Base": "GWBB2021-20210322-N-OWENSB",
+      "OppCode": "OWCATH",
+      "GameID_Base": "GWBB2021-20210322-N-OWCATH",
       "GameSortKey": "OWENSBORO CATHOLIC|at owensboro sportscenter|057|063|3rd region",
-      "GameID": "GWBB2021-20210322-N-OWENSB"
+      "GameID": "GWBB2021-20210322-N-OWCATH"
     }
   ],
   "roster": [
@@ -2153,7 +2153,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210223-H-BULLIT",
+      "gameId": "GWBB2021-20210223-H-BULCEN",
       "playerId": "ARMCAM2021",
       "jersey": 3,
       "playerName": "Cam Armstead",
@@ -2169,7 +2169,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210223-H-BULLIT",
+      "gameId": "GWBB2021-20210223-H-BULCEN",
       "playerId": "KNOTRE2022",
       "jersey": 5,
       "playerName": "Trent Knoop",
@@ -2185,7 +2185,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210223-H-BULLIT",
+      "gameId": "GWBB2021-20210223-H-BULCEN",
       "playerId": "CRUCOO2022",
       "jersey": 11,
       "playerName": "Cooper Crump",
@@ -2201,7 +2201,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210223-H-BULLIT",
+      "gameId": "GWBB2021-20210223-H-BULCEN",
       "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
@@ -2217,7 +2217,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210223-H-BULLIT",
+      "gameId": "GWBB2021-20210223-H-BULCEN",
       "playerId": "ABEDYL2021",
       "jersey": 20,
       "playerName": "Dylan Abell",
@@ -2233,7 +2233,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210223-H-BULLIT",
+      "gameId": "GWBB2021-20210223-H-BULCEN",
       "playerId": "DECCAN2021",
       "jersey": 30,
       "playerName": "Canon Decker",
@@ -2249,7 +2249,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210223-H-BULLIT",
+      "gameId": "GWBB2021-20210223-H-BULCEN",
       "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
@@ -2265,7 +2265,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210223-H-BULLIT",
+      "gameId": "GWBB2021-20210223-H-BULCEN",
       "playerId": "TURCAS2021",
       "jersey": 32,
       "playerName": "Casey Turner",
@@ -2985,7 +2985,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210311-A-OWENSB",
+      "gameId": "GWBB2021-20210311-A-OWCATH",
       "playerId": "ARMCAM2021",
       "jersey": 3,
       "playerName": "Cam Armstead",
@@ -3001,7 +3001,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210311-A-OWENSB",
+      "gameId": "GWBB2021-20210311-A-OWCATH",
       "playerId": "CRUCOO2022",
       "jersey": 11,
       "playerName": "Cooper Crump",
@@ -3017,7 +3017,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210311-A-OWENSB",
+      "gameId": "GWBB2021-20210311-A-OWCATH",
       "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
@@ -3033,7 +3033,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210311-A-OWENSB",
+      "gameId": "GWBB2021-20210311-A-OWCATH",
       "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
@@ -3049,7 +3049,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210311-A-OWENSB",
+      "gameId": "GWBB2021-20210311-A-OWCATH",
       "playerId": "ABEDYL2021",
       "jersey": 20,
       "playerName": "Dylan Abell",
@@ -3065,7 +3065,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210311-A-OWENSB",
+      "gameId": "GWBB2021-20210311-A-OWCATH",
       "playerId": "DAAPHO2021",
       "jersey": 23,
       "playerName": "Phoenix Daak",
@@ -3081,7 +3081,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210311-A-OWENSB",
+      "gameId": "GWBB2021-20210311-A-OWCATH",
       "playerId": "DECCAN2021",
       "jersey": 30,
       "playerName": "Canon Decker",
@@ -3097,7 +3097,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210311-A-OWENSB",
+      "gameId": "GWBB2021-20210311-A-OWCATH",
       "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
@@ -3113,7 +3113,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210311-A-OWENSB",
+      "gameId": "GWBB2021-20210311-A-OWCATH",
       "playerId": "TURCAS2021",
       "jersey": 32,
       "playerName": "Casey Turner",
@@ -3129,7 +3129,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210311-A-OWENSB",
+      "gameId": "GWBB2021-20210311-A-OWCATH",
       "playerId": "FITSHO2022",
       "jersey": 34,
       "playerName": "Shon Fitzner",
@@ -3145,7 +3145,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210311-A-OWENSB",
+      "gameId": "GWBB2021-20210311-A-OWCATH",
       "playerId": "EDWBLA2022",
       "jersey": 44,
       "playerName": "Blake Edwards",
@@ -3513,7 +3513,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210322-N-OWENSB",
+      "gameId": "GWBB2021-20210322-N-OWCATH",
       "playerId": "ARMCAM2021",
       "jersey": 3,
       "playerName": "Cam Armstead",
@@ -3529,7 +3529,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210322-N-OWENSB",
+      "gameId": "GWBB2021-20210322-N-OWCATH",
       "playerId": "CRUCOO2022",
       "jersey": 11,
       "playerName": "Cooper Crump",
@@ -3545,7 +3545,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210322-N-OWENSB",
+      "gameId": "GWBB2021-20210322-N-OWCATH",
       "playerId": "KINLAW2022",
       "jersey": 13,
       "playerName": "Lawson King",
@@ -3561,7 +3561,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210322-N-OWENSB",
+      "gameId": "GWBB2021-20210322-N-OWCATH",
       "playerId": "PARKYL2022",
       "jersey": 14,
       "playerName": "Kyle Parker",
@@ -3577,7 +3577,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210322-N-OWENSB",
+      "gameId": "GWBB2021-20210322-N-OWCATH",
       "playerId": "ABEDYL2021",
       "jersey": 20,
       "playerName": "Dylan Abell",
@@ -3593,7 +3593,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210322-N-OWENSB",
+      "gameId": "GWBB2021-20210322-N-OWCATH",
       "playerId": "DAAPHO2021",
       "jersey": 23,
       "playerName": "Phoenix Daak",
@@ -3609,7 +3609,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210322-N-OWENSB",
+      "gameId": "GWBB2021-20210322-N-OWCATH",
       "playerId": "DECCAN2021",
       "jersey": 30,
       "playerName": "Canon Decker",
@@ -3625,7 +3625,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210322-N-OWENSB",
+      "gameId": "GWBB2021-20210322-N-OWCATH",
       "playerId": "BEAGRA2022",
       "jersey": 31,
       "playerName": "Grant Beavin",
@@ -3641,7 +3641,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "GWBB2021-20210322-N-OWENSB",
+      "gameId": "GWBB2021-20210322-N-OWCATH",
       "playerId": "TURCAS2021",
       "jersey": 32,
       "playerName": "Casey Turner",

@@ -31,25 +31,25 @@
       "Outcome": "Loss",
       "Standings": -1,
       "SiteCode": "H",
-      "OppCode": "OWENSB",
-      "GameID_Base": "GWBB2018-20171201-H-OWENSB",
+      "OppCode": "OWCATH",
+      "GameID_Base": "GWBB2018-20171201-H-OWCATH",
       "GameSortKey": "OWENSBORO CATHOLIC|home|050|080|",
-      "GameID": "GWBB2018-20171201-H-OWENSB"
+      "GameID": "GWBB2018-20171201-H-OWCATH"
     },
     {
       "GameDate": "2017-12-05T00:00:00",
       "Date": "Tue, Dec 5, 17",
-      "Opponent": "Providence (Clarksville), IN",
+      "Opponent": "Providence",
       "Site": "home",
       "Points for": 55,
       "Points Against": 54,
       "Outcome": "Win",
       "Standings": 1,
       "SiteCode": "H",
-      "OppCode": "PROVID",
-      "GameID_Base": "GWBB2018-20171205-H-PROVID",
+      "OppCode": "PROVIN",
+      "GameID_Base": "GWBB2018-20171205-H-PROVIN",
       "GameSortKey": "PROVIDENCE (CLARKSVILLE), IN|home|055|054|",
-      "GameID": "GWBB2018-20171205-H-PROVID"
+      "GameID": "GWBB2018-20171205-H-PROVIN"
     },
     {
       "GameDate": "2017-12-07T00:00:00",
@@ -166,10 +166,10 @@
       "Outcome": "Win",
       "Standings": 1,
       "SiteCode": "H",
-      "OppCode": "BULLIT",
-      "GameID_Base": "GWBB2018-20180103-H-BULLIT",
+      "OppCode": "BULCEN",
+      "GameID_Base": "GWBB2018-20180103-H-BULCEN",
       "GameSortKey": "BULLITT CENTRAL|home|062|057|",
-      "GameID": "GWBB2018-20180103-H-BULLIT"
+      "GameID": "GWBB2018-20180103-H-BULCEN"
     },
     {
       "GameDate": "2018-01-05T00:00:00",
@@ -346,10 +346,10 @@
       "Outcome": "Win",
       "Standings": 1,
       "SiteCode": "H",
-      "OppCode": "CENTRA",
-      "GameID_Base": "GWBB2018-20180215-H-CENTRA",
+      "OppCode": "CHARDI",
+      "GameID_Base": "GWBB2018-20180215-H-CHARDI",
       "GameSortKey": "CENTRAL HARDIN|home|058|041|",
-      "GameID": "GWBB2018-20180215-H-CENTRA"
+      "GameID": "GWBB2018-20180215-H-CHARDI"
     },
     {
       "GameDate": "2018-02-20T00:00:00",
@@ -399,7 +399,7 @@
   ],
   "roster": [
     {
-      "Jersey": 3.0,
+      "Jersey": 3,
       "Name": "Chris Armstead",
       "Position": "SG",
       "Grade": "Jr.",
@@ -412,7 +412,7 @@
       "PlayerID": "ARMCHR2019"
     },
     {
-      "Jersey": 15.0,
+      "Jersey": 15,
       "Name": "Steven Benock",
       "Position": "SG",
       "Grade": "Sr.",
@@ -425,7 +425,7 @@
       "PlayerID": "BENSTE2018"
     },
     {
-      "Jersey": 22.0,
+      "Jersey": 22,
       "Name": "Peyton Cole",
       "Position": "SF",
       "Grade": "Jr.",
@@ -438,7 +438,7 @@
       "PlayerID": "COLPEY2019"
     },
     {
-      "Jersey": 2.0,
+      "Jersey": 2,
       "Name": "Matt Collard",
       "Position": "G",
       "Grade": "Sr.",
@@ -451,7 +451,7 @@
       "PlayerID": "COLMAT2018"
     },
     {
-      "Jersey": 14.0,
+      "Jersey": 14,
       "Name": "Carson Crump",
       "Position": "G",
       "Grade": "Jr.",
@@ -464,7 +464,7 @@
       "PlayerID": "CRUCAR2019"
     },
     {
-      "Jersey": 12.0,
+      "Jersey": 12,
       "Name": "Cooper Crump",
       "Position": "SG",
       "Grade": "8th",
@@ -477,7 +477,7 @@
       "PlayerID": "CRUCOO2022"
     },
     {
-      "Jersey": 10.0,
+      "Jersey": 10,
       "Name": "Mitchell Dozier",
       "Position": "C",
       "Grade": "So.",
@@ -490,7 +490,7 @@
       "PlayerID": "DOZMIT2020"
     },
     {
-      "Jersey": 5.0,
+      "Jersey": 5,
       "Name": "Dawson Gagel",
       "Position": "SG",
       "Grade": "Sr.",
@@ -516,7 +516,7 @@
       "PlayerID": "JOHPAR2020"
     },
     {
-      "Jersey": 13.0,
+      "Jersey": 13,
       "Name": "Aidan Matthews",
       "Position": "C",
       "Grade": "Sr.",
@@ -529,7 +529,7 @@
       "PlayerID": "MATAID2018"
     },
     {
-      "Jersey": 23.0,
+      "Jersey": 23,
       "Name": "Camron Nall",
       "Position": "SG",
       "Grade": "Jr.",
@@ -542,7 +542,7 @@
       "PlayerID": "NALCAM2019"
     },
     {
-      "Jersey": 44.0,
+      "Jersey": 44,
       "Name": "Kobe Nikolao",
       "Position": "PF",
       "Grade": "Jr.",
@@ -555,7 +555,7 @@
       "PlayerID": "NIKKOB2019"
     },
     {
-      "Jersey": 21.0,
+      "Jersey": 21,
       "Name": "Noah Schwartz",
       "Position": "SG",
       "Grade": "Sr.",
@@ -568,7 +568,7 @@
       "PlayerID": "SCHNOA2018"
     },
     {
-      "Jersey": 24.0,
+      "Jersey": 24,
       "Name": "Casey Turner",
       "Position": "PF",
       "Grade": "Fr.",
@@ -581,7 +581,7 @@
       "PlayerID": "TURCAS2021"
     },
     {
-      "Jersey": 20.0,
+      "Jersey": 20,
       "Name": "Chaney Weick",
       "Position": "SG",
       "Grade": "8th",
@@ -594,7 +594,7 @@
       "PlayerID": "WEICHA2022"
     },
     {
-      "Jersey": 42.0,
+      "Jersey": 42,
       "Name": "Chezney Weick",
       "Position": "PF",
       "Grade": "Jr.",
@@ -611,7 +611,7 @@
     {
       "gameID": "GWBB2018-20171128-A-OHIOCO",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 1,
       "twoPA": 3,
@@ -627,7 +627,7 @@
     {
       "gameID": "GWBB2018-20171128-A-OHIOCO",
       "playerID": "COLMAT2018",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Matt Collard",
       "twoPM": 1,
       "twoPA": 4,
@@ -643,7 +643,7 @@
     {
       "gameID": "GWBB2018-20171128-A-OHIOCO",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 2,
       "twoPA": 2,
@@ -659,7 +659,7 @@
     {
       "gameID": "GWBB2018-20171128-A-OHIOCO",
       "playerID": "CRUCOO2022",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Cooper Crump",
       "twoPM": 0,
       "twoPA": 0,
@@ -675,7 +675,7 @@
     {
       "gameID": "GWBB2018-20171128-A-OHIOCO",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 6,
       "twoPA": 10,
@@ -691,7 +691,7 @@
     {
       "gameID": "GWBB2018-20171128-A-OHIOCO",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 2,
       "twoPA": 2,
@@ -707,7 +707,7 @@
     {
       "gameID": "GWBB2018-20171128-A-OHIOCO",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 1,
       "twoPA": 1,
@@ -723,7 +723,7 @@
     {
       "gameID": "GWBB2018-20171128-A-OHIOCO",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 7,
       "twoPA": 16,
@@ -737,9 +737,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171201-H-OWENSB",
+      "gameID": "GWBB2018-20171201-H-OWCATH",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 0,
       "twoPA": 1,
@@ -753,9 +753,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171201-H-OWENSB",
+      "gameID": "GWBB2018-20171201-H-OWCATH",
       "playerID": "NALCAM2019",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Camron Nall",
       "twoPM": 1,
       "twoPA": 2,
@@ -769,9 +769,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171201-H-OWENSB",
+      "gameID": "GWBB2018-20171201-H-OWCATH",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 0,
       "twoPA": 0,
@@ -785,9 +785,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171201-H-OWENSB",
+      "gameID": "GWBB2018-20171201-H-OWCATH",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 2,
       "twoPA": 3,
@@ -801,9 +801,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171201-H-OWENSB",
+      "gameID": "GWBB2018-20171201-H-OWCATH",
       "playerID": "COLPEY2019",
-      "jersey": 22.0,
+      "jersey": 22,
       "playerName": "Peyton Cole",
       "twoPM": 1,
       "twoPA": 1,
@@ -817,9 +817,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171201-H-OWENSB",
+      "gameID": "GWBB2018-20171201-H-OWCATH",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 3,
       "twoPA": 5,
@@ -833,9 +833,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171201-H-OWENSB",
+      "gameID": "GWBB2018-20171201-H-OWCATH",
       "playerID": "COLMAT2018",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Matt Collard",
       "twoPM": 0,
       "twoPA": 1,
@@ -849,9 +849,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171201-H-OWENSB",
+      "gameID": "GWBB2018-20171201-H-OWCATH",
       "playerID": "CRUCOO2022",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Cooper Crump",
       "twoPM": 0,
       "twoPA": 0,
@@ -865,9 +865,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171201-H-OWENSB",
+      "gameID": "GWBB2018-20171201-H-OWCATH",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 0,
       "twoPA": 2,
@@ -881,9 +881,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171201-H-OWENSB",
+      "gameID": "GWBB2018-20171201-H-OWCATH",
       "playerID": "DOZMIT2020",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Mitchell Dozier",
       "twoPM": 0,
       "twoPA": 1,
@@ -897,9 +897,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171201-H-OWENSB",
+      "gameID": "GWBB2018-20171201-H-OWCATH",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 2,
       "twoPA": 4,
@@ -913,9 +913,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171201-H-OWENSB",
+      "gameID": "GWBB2018-20171201-H-OWCATH",
       "playerID": "TURCAS2021",
-      "jersey": 24.0,
+      "jersey": 24,
       "playerName": "Casey Turner",
       "twoPM": 0,
       "twoPA": 0,
@@ -929,9 +929,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171201-H-OWENSB",
+      "gameID": "GWBB2018-20171201-H-OWCATH",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 0,
       "twoPA": 3,
@@ -945,9 +945,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171201-H-OWENSB",
+      "gameID": "GWBB2018-20171201-H-OWCATH",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 1,
       "twoPA": 5,
@@ -961,9 +961,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171205-H-PROVID",
+      "gameID": "GWBB2018-20171205-H-PROVIN",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 0,
       "twoPA": 0,
@@ -977,9 +977,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171205-H-PROVID",
+      "gameID": "GWBB2018-20171205-H-PROVIN",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 4,
       "twoPA": 9,
@@ -993,9 +993,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171205-H-PROVID",
+      "gameID": "GWBB2018-20171205-H-PROVIN",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 0,
       "twoPA": 1,
@@ -1009,9 +1009,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171205-H-PROVID",
+      "gameID": "GWBB2018-20171205-H-PROVIN",
       "playerID": "COLMAT2018",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Matt Collard",
       "twoPM": 0,
       "twoPA": 0,
@@ -1025,9 +1025,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171205-H-PROVID",
+      "gameID": "GWBB2018-20171205-H-PROVIN",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 0,
       "twoPA": 0,
@@ -1041,9 +1041,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171205-H-PROVID",
+      "gameID": "GWBB2018-20171205-H-PROVIN",
       "playerID": "CRUCOO2022",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Cooper Crump",
       "twoPM": 0,
       "twoPA": 0,
@@ -1057,9 +1057,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171205-H-PROVID",
+      "gameID": "GWBB2018-20171205-H-PROVIN",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 2,
       "twoPA": 3,
@@ -1073,9 +1073,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171205-H-PROVID",
+      "gameID": "GWBB2018-20171205-H-PROVIN",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 5,
       "twoPA": 9,
@@ -1089,9 +1089,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171205-H-PROVID",
+      "gameID": "GWBB2018-20171205-H-PROVIN",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 0,
       "twoPA": 1,
@@ -1105,9 +1105,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20171205-H-PROVID",
+      "gameID": "GWBB2018-20171205-H-PROVIN",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 4,
       "twoPA": 13,
@@ -1123,7 +1123,7 @@
     {
       "gameID": "GWBB2018-20171207-A-CLOVER",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 2,
       "twoPA": 2,
@@ -1139,7 +1139,7 @@
     {
       "gameID": "GWBB2018-20171207-A-CLOVER",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 5,
       "twoPA": 6,
@@ -1155,7 +1155,7 @@
     {
       "gameID": "GWBB2018-20171207-A-CLOVER",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 1,
       "twoPA": 1,
@@ -1171,7 +1171,7 @@
     {
       "gameID": "GWBB2018-20171207-A-CLOVER",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 3,
       "twoPA": 4,
@@ -1187,7 +1187,7 @@
     {
       "gameID": "GWBB2018-20171207-A-CLOVER",
       "playerID": "COLPEY2019",
-      "jersey": 22.0,
+      "jersey": 22,
       "playerName": "Peyton Cole",
       "twoPM": 0,
       "twoPA": 2,
@@ -1203,7 +1203,7 @@
     {
       "gameID": "GWBB2018-20171207-A-CLOVER",
       "playerID": "COLMAT2018",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Matt Collard",
       "twoPM": 1,
       "twoPA": 1,
@@ -1219,7 +1219,7 @@
     {
       "gameID": "GWBB2018-20171207-A-CLOVER",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 0,
       "twoPA": 1,
@@ -1235,7 +1235,7 @@
     {
       "gameID": "GWBB2018-20171207-A-CLOVER",
       "playerID": "CRUCOO2022",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Cooper Crump",
       "twoPM": 0,
       "twoPA": 0,
@@ -1251,7 +1251,7 @@
     {
       "gameID": "GWBB2018-20171207-A-CLOVER",
       "playerID": "DOZMIT2020",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Mitchell Dozier",
       "twoPM": 2,
       "twoPA": 3,
@@ -1267,7 +1267,7 @@
     {
       "gameID": "GWBB2018-20171207-A-CLOVER",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 0,
       "twoPA": 0,
@@ -1283,7 +1283,7 @@
     {
       "gameID": "GWBB2018-20171207-A-CLOVER",
       "playerID": "NALCAM2019",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Camron Nall",
       "twoPM": 0,
       "twoPA": 3,
@@ -1299,7 +1299,7 @@
     {
       "gameID": "GWBB2018-20171207-A-CLOVER",
       "playerID": "TURCAS2021",
-      "jersey": 24.0,
+      "jersey": 24,
       "playerName": "Casey Turner",
       "twoPM": 1,
       "twoPA": 3,
@@ -1315,7 +1315,7 @@
     {
       "gameID": "GWBB2018-20171207-A-CLOVER",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 2,
       "twoPA": 4,
@@ -1331,7 +1331,7 @@
     {
       "gameID": "GWBB2018-20171207-A-CLOVER",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 4,
       "twoPA": 9,
@@ -1347,7 +1347,7 @@
     {
       "gameID": "GWBB2018-20171208-H-CAMPBE",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 0,
       "twoPA": 1,
@@ -1363,7 +1363,7 @@
     {
       "gameID": "GWBB2018-20171208-H-CAMPBE",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 1,
       "twoPA": 2,
@@ -1379,7 +1379,7 @@
     {
       "gameID": "GWBB2018-20171208-H-CAMPBE",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 0,
       "twoPA": 1,
@@ -1395,7 +1395,7 @@
     {
       "gameID": "GWBB2018-20171208-H-CAMPBE",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 6,
       "twoPA": 9,
@@ -1411,7 +1411,7 @@
     {
       "gameID": "GWBB2018-20171208-H-CAMPBE",
       "playerID": "COLPEY2019",
-      "jersey": 22.0,
+      "jersey": 22,
       "playerName": "Peyton Cole",
       "twoPM": 0,
       "twoPA": 0,
@@ -1427,7 +1427,7 @@
     {
       "gameID": "GWBB2018-20171208-H-CAMPBE",
       "playerID": "COLMAT2018",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Matt Collard",
       "twoPM": 0,
       "twoPA": 0,
@@ -1443,7 +1443,7 @@
     {
       "gameID": "GWBB2018-20171208-H-CAMPBE",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 1,
       "twoPA": 2,
@@ -1459,7 +1459,7 @@
     {
       "gameID": "GWBB2018-20171208-H-CAMPBE",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 2,
       "twoPA": 7,
@@ -1475,7 +1475,7 @@
     {
       "gameID": "GWBB2018-20171208-H-CAMPBE",
       "playerID": "CRUCOO2022",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Cooper Crump",
       "twoPM": 0,
       "twoPA": 0,
@@ -1491,7 +1491,7 @@
     {
       "gameID": "GWBB2018-20171208-H-CAMPBE",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 0,
       "twoPA": 0,
@@ -1507,7 +1507,7 @@
     {
       "gameID": "GWBB2018-20171208-H-CAMPBE",
       "playerID": "DOZMIT2020",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Mitchell Dozier",
       "twoPM": 0,
       "twoPA": 0,
@@ -1523,7 +1523,7 @@
     {
       "gameID": "GWBB2018-20171208-H-CAMPBE",
       "playerID": "NALCAM2019",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Camron Nall",
       "twoPM": 0,
       "twoPA": 0,
@@ -1539,7 +1539,7 @@
     {
       "gameID": "GWBB2018-20171208-H-CAMPBE",
       "playerID": "TURCAS2021",
-      "jersey": 24.0,
+      "jersey": 24,
       "playerName": "Casey Turner",
       "twoPM": 0,
       "twoPA": 0,
@@ -1555,7 +1555,7 @@
     {
       "gameID": "GWBB2018-20171208-H-CAMPBE",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 9,
       "twoPA": 19,
@@ -1571,7 +1571,7 @@
     {
       "gameID": "GWBB2018-20171215-A-BRECKI",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 0,
       "twoPA": 0,
@@ -1587,7 +1587,7 @@
     {
       "gameID": "GWBB2018-20171215-A-BRECKI",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 0,
       "twoPA": 0,
@@ -1603,7 +1603,7 @@
     {
       "gameID": "GWBB2018-20171215-A-BRECKI",
       "playerID": "COLMAT2018",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Matt Collard",
       "twoPM": 1,
       "twoPA": 3,
@@ -1619,7 +1619,7 @@
     {
       "gameID": "GWBB2018-20171215-A-BRECKI",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 3,
       "twoPA": 12,
@@ -1635,7 +1635,7 @@
     {
       "gameID": "GWBB2018-20171215-A-BRECKI",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 2,
       "twoPA": 3,
@@ -1651,7 +1651,7 @@
     {
       "gameID": "GWBB2018-20171215-A-BRECKI",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 2,
       "twoPA": 3,
@@ -1667,7 +1667,7 @@
     {
       "gameID": "GWBB2018-20171215-A-BRECKI",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 4,
       "twoPA": 5,
@@ -1683,7 +1683,7 @@
     {
       "gameID": "GWBB2018-20171215-A-BRECKI",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 0,
       "twoPA": 0,
@@ -1699,7 +1699,7 @@
     {
       "gameID": "GWBB2018-20171215-A-BRECKI",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 4,
       "twoPA": 7,
@@ -1715,7 +1715,7 @@
     {
       "gameID": "GWBB2018-20171220-N-DOSSXX",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 1,
       "twoPA": 2,
@@ -1731,7 +1731,7 @@
     {
       "gameID": "GWBB2018-20171220-N-DOSSXX",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 9,
       "twoPA": 14,
@@ -1747,7 +1747,7 @@
     {
       "gameID": "GWBB2018-20171220-N-DOSSXX",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 0,
       "twoPA": 1,
@@ -1763,7 +1763,7 @@
     {
       "gameID": "GWBB2018-20171220-N-DOSSXX",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 4,
       "twoPA": 10,
@@ -1779,7 +1779,7 @@
     {
       "gameID": "GWBB2018-20171220-N-DOSSXX",
       "playerID": "COLPEY2019",
-      "jersey": 22.0,
+      "jersey": 22,
       "playerName": "Peyton Cole",
       "twoPM": 0,
       "twoPA": 1,
@@ -1795,7 +1795,7 @@
     {
       "gameID": "GWBB2018-20171220-N-DOSSXX",
       "playerID": "COLMAT2018",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Matt Collard",
       "twoPM": 0,
       "twoPA": 0,
@@ -1811,7 +1811,7 @@
     {
       "gameID": "GWBB2018-20171220-N-DOSSXX",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 1,
       "twoPA": 3,
@@ -1827,7 +1827,7 @@
     {
       "gameID": "GWBB2018-20171220-N-DOSSXX",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 0,
       "twoPA": 2,
@@ -1843,7 +1843,7 @@
     {
       "gameID": "GWBB2018-20171220-N-DOSSXX",
       "playerID": "CRUCOO2022",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Cooper Crump",
       "twoPM": 0,
       "twoPA": 0,
@@ -1859,7 +1859,7 @@
     {
       "gameID": "GWBB2018-20171220-N-DOSSXX",
       "playerID": "DOZMIT2020",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Mitchell Dozier",
       "twoPM": 0,
       "twoPA": 0,
@@ -1875,7 +1875,7 @@
     {
       "gameID": "GWBB2018-20171220-N-DOSSXX",
       "playerID": "NALCAM2019",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Camron Nall",
       "twoPM": 0,
       "twoPA": 0,
@@ -1891,7 +1891,7 @@
     {
       "gameID": "GWBB2018-20171220-N-DOSSXX",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 0,
       "twoPA": 0,
@@ -1907,7 +1907,7 @@
     {
       "gameID": "GWBB2018-20171220-N-DOSSXX",
       "playerID": "TURCAS2021",
-      "jersey": 24.0,
+      "jersey": 24,
       "playerName": "Casey Turner",
       "twoPM": 0,
       "twoPA": 0,
@@ -1923,7 +1923,7 @@
     {
       "gameID": "GWBB2018-20171220-N-DOSSXX",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 2,
       "twoPA": 8,
@@ -1939,7 +1939,7 @@
     {
       "gameID": "GWBB2018-20171221-N-GARRAR",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 1,
       "twoPA": 1,
@@ -1955,7 +1955,7 @@
     {
       "gameID": "GWBB2018-20171221-N-GARRAR",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 9,
       "twoPA": 14,
@@ -1971,7 +1971,7 @@
     {
       "gameID": "GWBB2018-20171221-N-GARRAR",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 0,
       "twoPA": 0,
@@ -1987,7 +1987,7 @@
     {
       "gameID": "GWBB2018-20171221-N-GARRAR",
       "playerID": "COLMAT2018",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Matt Collard",
       "twoPM": 0,
       "twoPA": 0,
@@ -2003,7 +2003,7 @@
     {
       "gameID": "GWBB2018-20171221-N-GARRAR",
       "playerID": "CRUCOO2022",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Cooper Crump",
       "twoPM": 0,
       "twoPA": 0,
@@ -2019,7 +2019,7 @@
     {
       "gameID": "GWBB2018-20171221-N-GARRAR",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 0,
       "twoPA": 0,
@@ -2035,7 +2035,7 @@
     {
       "gameID": "GWBB2018-20171221-N-GARRAR",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 1,
       "twoPA": 2,
@@ -2051,7 +2051,7 @@
     {
       "gameID": "GWBB2018-20171221-N-GARRAR",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 2,
       "twoPA": 3,
@@ -2067,7 +2067,7 @@
     {
       "gameID": "GWBB2018-20171221-N-GARRAR",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 0,
       "twoPA": 0,
@@ -2083,7 +2083,7 @@
     {
       "gameID": "GWBB2018-20171221-N-GARRAR",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 7,
       "twoPA": 17,
@@ -2099,7 +2099,7 @@
     {
       "gameID": "GWBB2018-20171222-N-WHITLE",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 7,
       "twoPA": 12,
@@ -2115,7 +2115,7 @@
     {
       "gameID": "GWBB2018-20171222-N-WHITLE",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 0,
       "twoPA": 0,
@@ -2131,7 +2131,7 @@
     {
       "gameID": "GWBB2018-20171222-N-WHITLE",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 0,
       "twoPA": 0,
@@ -2147,7 +2147,7 @@
     {
       "gameID": "GWBB2018-20171222-N-WHITLE",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 0,
       "twoPA": 0,
@@ -2163,7 +2163,7 @@
     {
       "gameID": "GWBB2018-20171222-N-WHITLE",
       "playerID": "COLMAT2018",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Matt Collard",
       "twoPM": 1,
       "twoPA": 1,
@@ -2179,7 +2179,7 @@
     {
       "gameID": "GWBB2018-20171222-N-WHITLE",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 0,
       "twoPA": 1,
@@ -2195,7 +2195,7 @@
     {
       "gameID": "GWBB2018-20171222-N-WHITLE",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 0,
       "twoPA": 0,
@@ -2211,7 +2211,7 @@
     {
       "gameID": "GWBB2018-20171222-N-WHITLE",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 0,
       "twoPA": 0,
@@ -2227,7 +2227,7 @@
     {
       "gameID": "GWBB2018-20171222-N-WHITLE",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 8,
       "twoPA": 14,
@@ -2243,7 +2243,7 @@
     {
       "gameID": "GWBB2018-20171229-A-RYLEXX",
       "playerID": "NALCAM2019",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Camron Nall",
       "twoPM": 1,
       "twoPA": 2,
@@ -2259,7 +2259,7 @@
     {
       "gameID": "GWBB2018-20171229-A-RYLEXX",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 0,
       "twoPA": 0,
@@ -2275,7 +2275,7 @@
     {
       "gameID": "GWBB2018-20171229-A-RYLEXX",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 9,
       "twoPA": 13,
@@ -2291,7 +2291,7 @@
     {
       "gameID": "GWBB2018-20171229-A-RYLEXX",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 0,
       "twoPA": 2,
@@ -2307,7 +2307,7 @@
     {
       "gameID": "GWBB2018-20171229-A-RYLEXX",
       "playerID": "COLMAT2018",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Matt Collard",
       "twoPM": 1,
       "twoPA": 2,
@@ -2323,7 +2323,7 @@
     {
       "gameID": "GWBB2018-20171229-A-RYLEXX",
       "playerID": "CRUCOO2022",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Cooper Crump",
       "twoPM": 0,
       "twoPA": 0,
@@ -2339,7 +2339,7 @@
     {
       "gameID": "GWBB2018-20171229-A-RYLEXX",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 1,
       "twoPA": 3,
@@ -2355,7 +2355,7 @@
     {
       "gameID": "GWBB2018-20171229-A-RYLEXX",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 2,
       "twoPA": 4,
@@ -2371,7 +2371,7 @@
     {
       "gameID": "GWBB2018-20171229-A-RYLEXX",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 2,
       "twoPA": 7,
@@ -2387,7 +2387,7 @@
     {
       "gameID": "GWBB2018-20171229-A-RYLEXX",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 0,
       "twoPA": 0,
@@ -2403,7 +2403,7 @@
     {
       "gameID": "GWBB2018-20171229-A-RYLEXX",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 3,
       "twoPA": 10,
@@ -2417,9 +2417,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20180103-H-BULLIT",
+      "gameID": "GWBB2018-20180103-H-BULCEN",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 0,
       "twoPA": 1,
@@ -2433,9 +2433,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20180103-H-BULLIT",
+      "gameID": "GWBB2018-20180103-H-BULCEN",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 0,
       "twoPA": 0,
@@ -2449,9 +2449,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20180103-H-BULLIT",
+      "gameID": "GWBB2018-20180103-H-BULCEN",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 7,
       "twoPA": 15,
@@ -2465,9 +2465,9 @@
       "doubleDouble": true
     },
     {
-      "gameID": "GWBB2018-20180103-H-BULLIT",
+      "gameID": "GWBB2018-20180103-H-BULCEN",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 1,
       "twoPA": 1,
@@ -2481,9 +2481,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20180103-H-BULLIT",
+      "gameID": "GWBB2018-20180103-H-BULCEN",
       "playerID": "COLMAT2018",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Matt Collard",
       "twoPM": 1,
       "twoPA": 1,
@@ -2497,9 +2497,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20180103-H-BULLIT",
+      "gameID": "GWBB2018-20180103-H-BULCEN",
       "playerID": "CRUCOO2022",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Cooper Crump",
       "twoPM": 0,
       "twoPA": 0,
@@ -2513,9 +2513,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20180103-H-BULLIT",
+      "gameID": "GWBB2018-20180103-H-BULCEN",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 0,
       "twoPA": 0,
@@ -2529,9 +2529,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20180103-H-BULLIT",
+      "gameID": "GWBB2018-20180103-H-BULCEN",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 2,
       "twoPA": 4,
@@ -2545,9 +2545,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20180103-H-BULLIT",
+      "gameID": "GWBB2018-20180103-H-BULCEN",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 2,
       "twoPA": 3,
@@ -2561,9 +2561,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20180103-H-BULLIT",
+      "gameID": "GWBB2018-20180103-H-BULCEN",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 7,
       "twoPA": 12,
@@ -2579,7 +2579,7 @@
     {
       "gameID": "GWBB2018-20180105-A-JOHNHA",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 0,
       "twoPA": 1,
@@ -2595,7 +2595,7 @@
     {
       "gameID": "GWBB2018-20180105-A-JOHNHA",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 10,
       "twoPA": 16,
@@ -2611,7 +2611,7 @@
     {
       "gameID": "GWBB2018-20180105-A-JOHNHA",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 1,
       "twoPA": 1,
@@ -2627,7 +2627,7 @@
     {
       "gameID": "GWBB2018-20180105-A-JOHNHA",
       "playerID": "COLMAT2018",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Matt Collard",
       "twoPM": 0,
       "twoPA": 3,
@@ -2643,7 +2643,7 @@
     {
       "gameID": "GWBB2018-20180105-A-JOHNHA",
       "playerID": "CRUCOO2022",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Cooper Crump",
       "twoPM": 0,
       "twoPA": 0,
@@ -2659,7 +2659,7 @@
     {
       "gameID": "GWBB2018-20180105-A-JOHNHA",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 1,
       "twoPA": 1,
@@ -2675,7 +2675,7 @@
     {
       "gameID": "GWBB2018-20180105-A-JOHNHA",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 1,
       "twoPA": 5,
@@ -2691,7 +2691,7 @@
     {
       "gameID": "GWBB2018-20180105-A-JOHNHA",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 1,
       "twoPA": 4,
@@ -2707,7 +2707,7 @@
     {
       "gameID": "GWBB2018-20180105-A-JOHNHA",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 1,
       "twoPA": 4,
@@ -2723,7 +2723,7 @@
     {
       "gameID": "GWBB2018-20180109-H-HANCOC",
       "playerID": "COLMAT2018",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Matt Collard",
       "twoPM": 2,
       "twoPA": 3,
@@ -2739,7 +2739,7 @@
     {
       "gameID": "GWBB2018-20180109-H-HANCOC",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 0,
       "twoPA": 2,
@@ -2755,7 +2755,7 @@
     {
       "gameID": "GWBB2018-20180109-H-HANCOC",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 8,
       "twoPA": 13,
@@ -2771,7 +2771,7 @@
     {
       "gameID": "GWBB2018-20180109-H-HANCOC",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 1,
       "twoPA": 1,
@@ -2787,7 +2787,7 @@
     {
       "gameID": "GWBB2018-20180109-H-HANCOC",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 2,
       "twoPA": 3,
@@ -2803,7 +2803,7 @@
     {
       "gameID": "GWBB2018-20180109-H-HANCOC",
       "playerID": "CRUCOO2022",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Cooper Crump",
       "twoPM": 0,
       "twoPA": 0,
@@ -2819,7 +2819,7 @@
     {
       "gameID": "GWBB2018-20180109-H-HANCOC",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 3,
       "twoPA": 5,
@@ -2835,7 +2835,7 @@
     {
       "gameID": "GWBB2018-20180109-H-HANCOC",
       "playerID": "DOZMIT2020",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Mitchell Dozier",
       "twoPM": 0,
       "twoPA": 0,
@@ -2851,7 +2851,7 @@
     {
       "gameID": "GWBB2018-20180109-H-HANCOC",
       "playerID": "NALCAM2019",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Camron Nall",
       "twoPM": 0,
       "twoPA": 1,
@@ -2867,7 +2867,7 @@
     {
       "gameID": "GWBB2018-20180109-H-HANCOC",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 0,
       "twoPA": 0,
@@ -2883,7 +2883,7 @@
     {
       "gameID": "GWBB2018-20180109-H-HANCOC",
       "playerID": "TURCAS2021",
-      "jersey": 24.0,
+      "jersey": 24,
       "playerName": "Casey Turner",
       "twoPM": 0,
       "twoPA": 0,
@@ -2899,7 +2899,7 @@
     {
       "gameID": "GWBB2018-20180109-H-HANCOC",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 3,
       "twoPA": 6,
@@ -2915,7 +2915,7 @@
     {
       "gameID": "GWBB2018-20180109-H-HANCOC",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 3,
       "twoPA": 4,
@@ -2931,7 +2931,7 @@
     {
       "gameID": "GWBB2018-20180123-H-VALLEY",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 1,
       "twoPA": 1,
@@ -2947,7 +2947,7 @@
     {
       "gameID": "GWBB2018-20180123-H-VALLEY",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 7,
       "twoPA": 15,
@@ -2963,7 +2963,7 @@
     {
       "gameID": "GWBB2018-20180123-H-VALLEY",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 0,
       "twoPA": 2,
@@ -2979,7 +2979,7 @@
     {
       "gameID": "GWBB2018-20180123-H-VALLEY",
       "playerID": "COLMAT2018",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Matt Collard",
       "twoPM": 1,
       "twoPA": 2,
@@ -2995,7 +2995,7 @@
     {
       "gameID": "GWBB2018-20180123-H-VALLEY",
       "playerID": "CRUCOO2022",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Cooper Crump",
       "twoPM": 0,
       "twoPA": 0,
@@ -3011,7 +3011,7 @@
     {
       "gameID": "GWBB2018-20180123-H-VALLEY",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 1,
       "twoPA": 1,
@@ -3027,7 +3027,7 @@
     {
       "gameID": "GWBB2018-20180123-H-VALLEY",
       "playerID": "NALCAM2019",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Camron Nall",
       "twoPM": 1,
       "twoPA": 2,
@@ -3043,7 +3043,7 @@
     {
       "gameID": "GWBB2018-20180123-H-VALLEY",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 0,
       "twoPA": 0,
@@ -3059,7 +3059,7 @@
     {
       "gameID": "GWBB2018-20180123-H-VALLEY",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 3,
       "twoPA": 5,
@@ -3075,7 +3075,7 @@
     {
       "gameID": "GWBB2018-20180123-H-VALLEY",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 2,
       "twoPA": 3,
@@ -3091,7 +3091,7 @@
     {
       "gameID": "GWBB2018-20180123-H-VALLEY",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 4,
       "twoPA": 8,
@@ -3107,7 +3107,7 @@
     {
       "gameID": "GWBB2018-20180126-H-BRECKI",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 1,
       "twoPA": 1,
@@ -3123,7 +3123,7 @@
     {
       "gameID": "GWBB2018-20180126-H-BRECKI",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 8,
       "twoPA": 15,
@@ -3139,7 +3139,7 @@
     {
       "gameID": "GWBB2018-20180126-H-BRECKI",
       "playerID": "COLMAT2018",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Matt Collard",
       "twoPM": 2,
       "twoPA": 2,
@@ -3155,7 +3155,7 @@
     {
       "gameID": "GWBB2018-20180126-H-BRECKI",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 0,
       "twoPA": 1,
@@ -3171,7 +3171,7 @@
     {
       "gameID": "GWBB2018-20180126-H-BRECKI",
       "playerID": "CRUCOO2022",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Cooper Crump",
       "twoPM": 0,
       "twoPA": 0,
@@ -3187,7 +3187,7 @@
     {
       "gameID": "GWBB2018-20180126-H-BRECKI",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 0,
       "twoPA": 1,
@@ -3203,7 +3203,7 @@
     {
       "gameID": "GWBB2018-20180126-H-BRECKI",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 2,
       "twoPA": 5,
@@ -3219,7 +3219,7 @@
     {
       "gameID": "GWBB2018-20180126-H-BRECKI",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 1,
       "twoPA": 2,
@@ -3235,7 +3235,7 @@
     {
       "gameID": "GWBB2018-20180126-H-BRECKI",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 3,
       "twoPA": 7,
@@ -3251,7 +3251,7 @@
     {
       "gameID": "GWBB2018-20180130-H-NORTHH",
       "playerID": "COLMAT2018",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Matt Collard",
       "twoPM": 1,
       "twoPA": 1,
@@ -3267,7 +3267,7 @@
     {
       "gameID": "GWBB2018-20180130-H-NORTHH",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 1,
       "twoPA": 1,
@@ -3283,7 +3283,7 @@
     {
       "gameID": "GWBB2018-20180130-H-NORTHH",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 7,
       "twoPA": 10,
@@ -3299,7 +3299,7 @@
     {
       "gameID": "GWBB2018-20180130-H-NORTHH",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 0,
       "twoPA": 0,
@@ -3315,7 +3315,7 @@
     {
       "gameID": "GWBB2018-20180130-H-NORTHH",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 1,
       "twoPA": 2,
@@ -3331,7 +3331,7 @@
     {
       "gameID": "GWBB2018-20180130-H-NORTHH",
       "playerID": "NALCAM2019",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Camron Nall",
       "twoPM": 1,
       "twoPA": 2,
@@ -3347,7 +3347,7 @@
     {
       "gameID": "GWBB2018-20180130-H-NORTHH",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 2,
       "twoPA": 2,
@@ -3363,7 +3363,7 @@
     {
       "gameID": "GWBB2018-20180130-H-NORTHH",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 1,
       "twoPA": 3,
@@ -3379,7 +3379,7 @@
     {
       "gameID": "GWBB2018-20180130-H-NORTHH",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 1,
       "twoPA": 2,
@@ -3395,7 +3395,7 @@
     {
       "gameID": "GWBB2018-20180130-H-NORTHH",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 7,
       "twoPA": 13,
@@ -3411,7 +3411,7 @@
     {
       "gameID": "GWBB2018-20180202-H-CLOVER",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 4,
       "twoPA": 6,
@@ -3427,7 +3427,7 @@
     {
       "gameID": "GWBB2018-20180202-H-CLOVER",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 4,
       "twoPA": 7,
@@ -3443,7 +3443,7 @@
     {
       "gameID": "GWBB2018-20180202-H-CLOVER",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 1,
       "twoPA": 3,
@@ -3459,7 +3459,7 @@
     {
       "gameID": "GWBB2018-20180202-H-CLOVER",
       "playerID": "COLPEY2019",
-      "jersey": 22.0,
+      "jersey": 22,
       "playerName": "Peyton Cole",
       "twoPM": 1,
       "twoPA": 3,
@@ -3475,7 +3475,7 @@
     {
       "gameID": "GWBB2018-20180202-H-CLOVER",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 3,
       "twoPA": 6,
@@ -3491,7 +3491,7 @@
     {
       "gameID": "GWBB2018-20180202-H-CLOVER",
       "playerID": "COLMAT2018",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Matt Collard",
       "twoPM": 3,
       "twoPA": 3,
@@ -3507,7 +3507,7 @@
     {
       "gameID": "GWBB2018-20180202-H-CLOVER",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 2,
       "twoPA": 2,
@@ -3523,7 +3523,7 @@
     {
       "gameID": "GWBB2018-20180202-H-CLOVER",
       "playerID": "NALCAM2019",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Camron Nall",
       "twoPM": 4,
       "twoPA": 8,
@@ -3539,7 +3539,7 @@
     {
       "gameID": "GWBB2018-20180202-H-CLOVER",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 2,
       "twoPA": 3,
@@ -3555,7 +3555,7 @@
     {
       "gameID": "GWBB2018-20180202-H-CLOVER",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 3,
       "twoPA": 6,
@@ -3571,7 +3571,7 @@
     {
       "gameID": "GWBB2018-20180202-H-CLOVER",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 5,
       "twoPA": 6,
@@ -3587,7 +3587,7 @@
     {
       "gameID": "GWBB2018-20180203-A-DAVIES",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 5,
       "twoPA": 12,
@@ -3603,7 +3603,7 @@
     {
       "gameID": "GWBB2018-20180203-A-DAVIES",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 1,
       "twoPA": 1,
@@ -3619,7 +3619,7 @@
     {
       "gameID": "GWBB2018-20180203-A-DAVIES",
       "playerID": "COLMAT2018",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Matt Collard",
       "twoPM": 1,
       "twoPA": 1,
@@ -3635,7 +3635,7 @@
     {
       "gameID": "GWBB2018-20180203-A-DAVIES",
       "playerID": "COLPEY2019",
-      "jersey": 22.0,
+      "jersey": 22,
       "playerName": "Peyton Cole",
       "twoPM": 0,
       "twoPA": 0,
@@ -3651,7 +3651,7 @@
     {
       "gameID": "GWBB2018-20180203-A-DAVIES",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 0,
       "twoPA": 1,
@@ -3667,7 +3667,7 @@
     {
       "gameID": "GWBB2018-20180203-A-DAVIES",
       "playerID": "NALCAM2019",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Camron Nall",
       "twoPM": 0,
       "twoPA": 0,
@@ -3683,7 +3683,7 @@
     {
       "gameID": "GWBB2018-20180203-A-DAVIES",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 0,
       "twoPA": 0,
@@ -3699,7 +3699,7 @@
     {
       "gameID": "GWBB2018-20180203-A-DAVIES",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 8,
       "twoPA": 11,
@@ -3715,7 +3715,7 @@
     {
       "gameID": "GWBB2018-20180203-A-DAVIES",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 1,
       "twoPA": 6,
@@ -3731,7 +3731,7 @@
     {
       "gameID": "GWBB2018-20180206-A-GRAYSO",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 2,
       "twoPA": 3,
@@ -3747,7 +3747,7 @@
     {
       "gameID": "GWBB2018-20180206-A-GRAYSO",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 0,
       "twoPA": 0,
@@ -3763,7 +3763,7 @@
     {
       "gameID": "GWBB2018-20180206-A-GRAYSO",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 1,
       "twoPA": 1,
@@ -3779,7 +3779,7 @@
     {
       "gameID": "GWBB2018-20180206-A-GRAYSO",
       "playerID": "COLMAT2018",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Matt Collard",
       "twoPM": 0,
       "twoPA": 0,
@@ -3795,7 +3795,7 @@
     {
       "gameID": "GWBB2018-20180206-A-GRAYSO",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 4,
       "twoPA": 10,
@@ -3811,7 +3811,7 @@
     {
       "gameID": "GWBB2018-20180206-A-GRAYSO",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 0,
       "twoPA": 0,
@@ -3827,7 +3827,7 @@
     {
       "gameID": "GWBB2018-20180206-A-GRAYSO",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 1,
       "twoPA": 6,
@@ -3843,7 +3843,7 @@
     {
       "gameID": "GWBB2018-20180206-A-GRAYSO",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 5,
       "twoPA": 8,
@@ -3859,7 +3859,7 @@
     {
       "gameID": "GWBB2018-20180208-A-HANCOC",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 0,
       "twoPA": 0,
@@ -3875,7 +3875,7 @@
     {
       "gameID": "GWBB2018-20180208-A-HANCOC",
       "playerID": "COLMAT2018",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Matt Collard",
       "twoPM": 0,
       "twoPA": 1,
@@ -3891,7 +3891,7 @@
     {
       "gameID": "GWBB2018-20180208-A-HANCOC",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 0,
       "twoPA": 0,
@@ -3907,7 +3907,7 @@
     {
       "gameID": "GWBB2018-20180208-A-HANCOC",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 0,
       "twoPA": 0,
@@ -3923,7 +3923,7 @@
     {
       "gameID": "GWBB2018-20180208-A-HANCOC",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 5,
       "twoPA": 11,
@@ -3939,7 +3939,7 @@
     {
       "gameID": "GWBB2018-20180208-A-HANCOC",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 0,
       "twoPA": 0,
@@ -3955,7 +3955,7 @@
     {
       "gameID": "GWBB2018-20180208-A-HANCOC",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 8,
       "twoPA": 11,
@@ -3971,7 +3971,7 @@
     {
       "gameID": "GWBB2018-20180208-A-HANCOC",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 4,
       "twoPA": 7,
@@ -3987,7 +3987,7 @@
     {
       "gameID": "GWBB2018-20180209-A-NORTHO",
       "playerID": "COLMAT2018",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Matt Collard",
       "twoPM": 1,
       "twoPA": 2,
@@ -4003,7 +4003,7 @@
     {
       "gameID": "GWBB2018-20180209-A-NORTHO",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 0,
       "twoPA": 0,
@@ -4019,7 +4019,7 @@
     {
       "gameID": "GWBB2018-20180209-A-NORTHO",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 4,
       "twoPA": 10,
@@ -4035,7 +4035,7 @@
     {
       "gameID": "GWBB2018-20180209-A-NORTHO",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 0,
       "twoPA": 1,
@@ -4051,7 +4051,7 @@
     {
       "gameID": "GWBB2018-20180209-A-NORTHO",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 0,
       "twoPA": 2,
@@ -4067,7 +4067,7 @@
     {
       "gameID": "GWBB2018-20180209-A-NORTHO",
       "playerID": "CRUCOO2022",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Cooper Crump",
       "twoPM": 0,
       "twoPA": 0,
@@ -4083,7 +4083,7 @@
     {
       "gameID": "GWBB2018-20180209-A-NORTHO",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 1,
       "twoPA": 1,
@@ -4099,7 +4099,7 @@
     {
       "gameID": "GWBB2018-20180209-A-NORTHO",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 3,
       "twoPA": 3,
@@ -4115,7 +4115,7 @@
     {
       "gameID": "GWBB2018-20180209-A-NORTHO",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 3,
       "twoPA": 9,
@@ -4131,7 +4131,7 @@
     {
       "gameID": "GWBB2018-20180212-A-ELIZAB",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 1,
       "twoPA": 1,
@@ -4147,7 +4147,7 @@
     {
       "gameID": "GWBB2018-20180212-A-ELIZAB",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 6,
       "twoPA": 17,
@@ -4163,7 +4163,7 @@
     {
       "gameID": "GWBB2018-20180212-A-ELIZAB",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 1,
       "twoPA": 2,
@@ -4179,7 +4179,7 @@
     {
       "gameID": "GWBB2018-20180212-A-ELIZAB",
       "playerID": "COLMAT2018",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Matt Collard",
       "twoPM": 2,
       "twoPA": 7,
@@ -4195,7 +4195,7 @@
     {
       "gameID": "GWBB2018-20180212-A-ELIZAB",
       "playerID": "CRUCOO2022",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Cooper Crump",
       "twoPM": 0,
       "twoPA": 0,
@@ -4211,7 +4211,7 @@
     {
       "gameID": "GWBB2018-20180212-A-ELIZAB",
       "playerID": "NALCAM2019",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Camron Nall",
       "twoPM": 2,
       "twoPA": 2,
@@ -4227,7 +4227,7 @@
     {
       "gameID": "GWBB2018-20180212-A-ELIZAB",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 1,
       "twoPA": 1,
@@ -4243,7 +4243,7 @@
     {
       "gameID": "GWBB2018-20180212-A-ELIZAB",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 1,
       "twoPA": 3,
@@ -4259,7 +4259,7 @@
     {
       "gameID": "GWBB2018-20180212-A-ELIZAB",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 3,
       "twoPA": 9,
@@ -4275,7 +4275,7 @@
     {
       "gameID": "GWBB2018-20180212-A-ELIZAB",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 3,
       "twoPA": 7,
@@ -4289,9 +4289,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20180215-H-CENTRA",
+      "gameID": "GWBB2018-20180215-H-CHARDI",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 2,
       "twoPA": 3,
@@ -4305,9 +4305,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20180215-H-CENTRA",
+      "gameID": "GWBB2018-20180215-H-CHARDI",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 8,
       "twoPA": 15,
@@ -4321,9 +4321,9 @@
       "doubleDouble": true
     },
     {
-      "gameID": "GWBB2018-20180215-H-CENTRA",
+      "gameID": "GWBB2018-20180215-H-CHARDI",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 0,
       "twoPA": 1,
@@ -4337,9 +4337,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20180215-H-CENTRA",
+      "gameID": "GWBB2018-20180215-H-CHARDI",
       "playerID": "COLPEY2019",
-      "jersey": 22.0,
+      "jersey": 22,
       "playerName": "Peyton Cole",
       "twoPM": 0,
       "twoPA": 0,
@@ -4353,9 +4353,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20180215-H-CENTRA",
+      "gameID": "GWBB2018-20180215-H-CHARDI",
       "playerID": "COLMAT2018",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Matt Collard",
       "twoPM": 2,
       "twoPA": 3,
@@ -4369,9 +4369,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20180215-H-CENTRA",
+      "gameID": "GWBB2018-20180215-H-CHARDI",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 0,
       "twoPA": 1,
@@ -4385,9 +4385,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20180215-H-CENTRA",
+      "gameID": "GWBB2018-20180215-H-CHARDI",
       "playerID": "CRUCOO2022",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Cooper Crump",
       "twoPM": 0,
       "twoPA": 0,
@@ -4401,9 +4401,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20180215-H-CENTRA",
+      "gameID": "GWBB2018-20180215-H-CHARDI",
       "playerID": "DOZMIT2020",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Mitchell Dozier",
       "twoPM": 0,
       "twoPA": 1,
@@ -4417,9 +4417,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20180215-H-CENTRA",
+      "gameID": "GWBB2018-20180215-H-CHARDI",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 0,
       "twoPA": 2,
@@ -4433,9 +4433,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20180215-H-CENTRA",
+      "gameID": "GWBB2018-20180215-H-CHARDI",
       "playerID": "NALCAM2019",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Camron Nall",
       "twoPM": 0,
       "twoPA": 0,
@@ -4449,9 +4449,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20180215-H-CENTRA",
+      "gameID": "GWBB2018-20180215-H-CHARDI",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 1,
       "twoPA": 3,
@@ -4465,9 +4465,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2018-20180215-H-CENTRA",
+      "gameID": "GWBB2018-20180215-H-CHARDI",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 7,
       "twoPA": 10,
@@ -4483,7 +4483,7 @@
     {
       "gameID": "GWBB2018-20180220-N-CLOVER",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 2,
       "twoPA": 6,
@@ -4499,7 +4499,7 @@
     {
       "gameID": "GWBB2018-20180220-N-CLOVER",
       "playerID": "NALCAM2019",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Camron Nall",
       "twoPM": 8,
       "twoPA": 9,
@@ -4515,7 +4515,7 @@
     {
       "gameID": "GWBB2018-20180220-N-CLOVER",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 1,
       "twoPA": 3,
@@ -4531,7 +4531,7 @@
     {
       "gameID": "GWBB2018-20180220-N-CLOVER",
       "playerID": "COLMAT2018",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Matt Collard",
       "twoPM": 1,
       "twoPA": 1,
@@ -4547,7 +4547,7 @@
     {
       "gameID": "GWBB2018-20180220-N-CLOVER",
       "playerID": "COLPEY2019",
-      "jersey": 22.0,
+      "jersey": 22,
       "playerName": "Peyton Cole",
       "twoPM": 2,
       "twoPA": 4,
@@ -4563,7 +4563,7 @@
     {
       "gameID": "GWBB2018-20180220-N-CLOVER",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 3,
       "twoPA": 5,
@@ -4579,7 +4579,7 @@
     {
       "gameID": "GWBB2018-20180220-N-CLOVER",
       "playerID": "CRUCOO2022",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Cooper Crump",
       "twoPM": 0,
       "twoPA": 0,
@@ -4595,7 +4595,7 @@
     {
       "gameID": "GWBB2018-20180220-N-CLOVER",
       "playerID": "DOZMIT2020",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Mitchell Dozier",
       "twoPM": 4,
       "twoPA": 5,
@@ -4627,7 +4627,7 @@
     {
       "gameID": "GWBB2018-20180220-N-CLOVER",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 0,
       "twoPA": 0,
@@ -4643,7 +4643,7 @@
     {
       "gameID": "GWBB2018-20180220-N-CLOVER",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 2,
       "twoPA": 3,
@@ -4659,7 +4659,7 @@
     {
       "gameID": "GWBB2018-20180220-N-CLOVER",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 2,
       "twoPA": 3,
@@ -4675,7 +4675,7 @@
     {
       "gameID": "GWBB2018-20180220-N-CLOVER",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 0,
       "twoPA": 0,
@@ -4691,7 +4691,7 @@
     {
       "gameID": "GWBB2018-20180220-N-CLOVER",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 2,
       "twoPA": 3,
@@ -4707,7 +4707,7 @@
     {
       "gameID": "GWBB2018-20180223-A-BRECKI",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 2,
       "twoPA": 2,
@@ -4723,7 +4723,7 @@
     {
       "gameID": "GWBB2018-20180223-A-BRECKI",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 6,
       "twoPA": 8,
@@ -4739,7 +4739,7 @@
     {
       "gameID": "GWBB2018-20180223-A-BRECKI",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 0,
       "twoPA": 1,
@@ -4755,7 +4755,7 @@
     {
       "gameID": "GWBB2018-20180223-A-BRECKI",
       "playerID": "COLMAT2018",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Matt Collard",
       "twoPM": 2,
       "twoPA": 2,
@@ -4771,7 +4771,7 @@
     {
       "gameID": "GWBB2018-20180223-A-BRECKI",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 0,
       "twoPA": 2,
@@ -4787,7 +4787,7 @@
     {
       "gameID": "GWBB2018-20180223-A-BRECKI",
       "playerID": "NALCAM2019",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Camron Nall",
       "twoPM": 0,
       "twoPA": 0,
@@ -4803,7 +4803,7 @@
     {
       "gameID": "GWBB2018-20180223-A-BRECKI",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 0,
       "twoPA": 0,
@@ -4819,7 +4819,7 @@
     {
       "gameID": "GWBB2018-20180223-A-BRECKI",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 7,
       "twoPA": 12,
@@ -4835,7 +4835,7 @@
     {
       "gameID": "GWBB2018-20180223-A-BRECKI",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 2,
       "twoPA": 2,
@@ -4851,7 +4851,7 @@
     {
       "gameID": "GWBB2018-20180223-A-BRECKI",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 7,
       "twoPA": 10,
@@ -4867,7 +4867,7 @@
     {
       "gameID": "GWBB2018-20180228-N-APOLLO",
       "playerID": "COLMAT2018",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Matt Collard",
       "twoPM": 2,
       "twoPA": 2,
@@ -4883,7 +4883,7 @@
     {
       "gameID": "GWBB2018-20180228-N-APOLLO",
       "playerID": "ARMCHR2019",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "Chris Armstead",
       "twoPM": 0,
       "twoPA": 1,
@@ -4899,7 +4899,7 @@
     {
       "gameID": "GWBB2018-20180228-N-APOLLO",
       "playerID": "GAGDAW2018",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Dawson Gagel",
       "twoPM": 4,
       "twoPA": 4,
@@ -4915,7 +4915,7 @@
     {
       "gameID": "GWBB2018-20180228-N-APOLLO",
       "playerID": "BENSTE2018",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Steven Benock",
       "twoPM": 0,
       "twoPA": 1,
@@ -4931,7 +4931,7 @@
     {
       "gameID": "GWBB2018-20180228-N-APOLLO",
       "playerID": "MATAID2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Aidan Matthews",
       "twoPM": 1,
       "twoPA": 8,
@@ -4947,7 +4947,7 @@
     {
       "gameID": "GWBB2018-20180228-N-APOLLO",
       "playerID": "CRUCOO2022",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Cooper Crump",
       "twoPM": 0,
       "twoPA": 0,
@@ -4963,7 +4963,7 @@
     {
       "gameID": "GWBB2018-20180228-N-APOLLO",
       "playerID": "NIKKOB2019",
-      "jersey": 44.0,
+      "jersey": 44,
       "playerName": "Kobe Nikolao",
       "twoPM": 0,
       "twoPA": 0,
@@ -4979,7 +4979,7 @@
     {
       "gameID": "GWBB2018-20180228-N-APOLLO",
       "playerID": "SCHNOA2018",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Noah Schwartz",
       "twoPM": 2,
       "twoPA": 7,
@@ -4995,7 +4995,7 @@
     {
       "gameID": "GWBB2018-20180228-N-APOLLO",
       "playerID": "WEICHA2022",
-      "jersey": 20.0,
+      "jersey": 20,
       "playerName": "Chaney Weick",
       "twoPM": 2,
       "twoPA": 2,
@@ -5011,7 +5011,7 @@
     {
       "gameID": "GWBB2018-20180228-N-APOLLO",
       "playerID": "WEICHE2019",
-      "jersey": 42.0,
+      "jersey": 42,
       "playerName": "Chezney Weick",
       "twoPM": 5,
       "twoPA": 18,
