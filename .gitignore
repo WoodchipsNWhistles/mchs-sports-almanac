@@ -8,10 +8,11 @@ _inbox/
 # macOS
 .DS_Store
 EOF
-src/_site/
 
+# Eleventy build output
 _site/
 src/_site/
+
 
 # OS junk
 .DS_Store

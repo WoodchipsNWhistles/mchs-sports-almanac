@@ -1,16 +1,20 @@
 {
   "seasonYear": 2026,
-  "seasonMeta": {},
+  "seasonMeta": {
+    "SportCode": "LWBB",
+    "SeasonYearEnd": 2026,
+    "CoachID": "p_0000000002"
+  },
   "schedule": [
     {
       "GameDate": "2025-12-02T00:00:00",
       "Date": "Tue, Dec 2, 25",
       "Opponent": "Bardstown",
       "Site": "home",
-      "Points for": 44,
-      "Points Against": 60,
+      "Points for": 44.0,
+      "Points Against": 60.0,
       "Outcome": "Loss",
-      "Standings": -1,
+      "Standings": -1.0,
       "Notes": null,
       "SiteCode": "H",
       "OppCode": "BARDST",
@@ -23,10 +27,10 @@
       "Date": "Fri, Dec 5, 25",
       "Opponent": "Daviess County",
       "Site": "away",
-      "Points for": 47,
-      "Points Against": 52,
+      "Points for": 47.0,
+      "Points Against": 52.0,
       "Outcome": "Loss",
-      "Standings": -1,
+      "Standings": -1.0,
       "Notes": null,
       "SiteCode": "A",
       "OppCode": "DAVIES",
@@ -39,10 +43,10 @@
       "Date": "Sat, Dec 6, 25",
       "Opponent": "Grayson County",
       "Site": "at Breckinridge County",
-      "Points for": 44,
-      "Points Against": 56,
+      "Points for": 44.0,
+      "Points Against": 56.0,
       "Outcome": "Loss",
-      "Standings": -1,
+      "Standings": -1.0,
       "Notes": "Tip Off Classic",
       "SiteCode": "N",
       "OppCode": "GRAYSO",
@@ -55,10 +59,10 @@
       "Date": "Fri, Dec 12, 25",
       "Opponent": "Breckinridge County",
       "Site": "home",
-      "Points for": 45,
-      "Points Against": 56,
+      "Points for": 45.0,
+      "Points Against": 56.0,
       "Outcome": "Loss",
-      "Standings": -1,
+      "Standings": -1.0,
       "Notes": null,
       "SiteCode": "H",
       "OppCode": "BRECKI",
@@ -71,10 +75,10 @@
       "Date": "Tue, Dec 16, 25",
       "Opponent": "Corydon Central (Corydon), IN",
       "Site": "away",
-      "Points for": 46,
-      "Points Against": 56,
+      "Points for": 46.0,
+      "Points Against": 56.0,
       "Outcome": "Loss",
-      "Standings": -1,
+      "Standings": -1.0,
       "Notes": null,
       "SiteCode": "A",
       "OppCode": "CORYDO",
@@ -87,26 +91,26 @@
       "Date": "Sat, Dec 20, 25",
       "Opponent": "Louisville Saints",
       "Site": "home",
-      "Points for": 67,
-      "Points Against": 50,
+      "Points for": 67.0,
+      "Points Against": 50.0,
       "Outcome": "Win",
-      "Standings": 1,
+      "Standings": 1.0,
       "Notes": null,
       "SiteCode": "H",
-      "OppCode": "LOUSAI",
-      "GameID_Base": "LWBB2026-20251220-H-LOUSAI",
+      "OppCode": "LOUISV",
+      "GameID_Base": "LWBB2026-20251220-H-LOUISV",
       "GameSortKey": "LOUISVILLE SAINTS|home|067|050|",
-      "GameID": "LWBB2026-20251220-H-LOUSAI"
+      "GameID": "LWBB2026-20251220-H-LOUISV"
     },
     {
       "GameDate": "2025-12-29T00:00:00",
       "Date": "Mon, Dec 29, 25",
       "Opponent": "Edmonson County",
       "Site": "away",
-      "Points for": 52,
-      "Points Against": 50,
+      "Points for": 52.0,
+      "Points Against": 50.0,
       "Outcome": "Win",
-      "Standings": 1,
+      "Standings": 1.0,
       "Notes": "Rafferty's/Double Dogs Caveland Classic",
       "SiteCode": "A",
       "OppCode": "EDMONS",
@@ -119,10 +123,10 @@
       "Date": "Tue, Dec 30, 25",
       "Opponent": "Taylor County",
       "Site": "at Edmonson County",
-      "Points for": 25,
-      "Points Against": 49,
+      "Points for": 25.0,
+      "Points Against": 49.0,
       "Outcome": "Loss",
-      "Standings": -1,
+      "Standings": -1.0,
       "Notes": "Rafferty's/Double Dogs Caveland Classic",
       "SiteCode": "N",
       "OppCode": "TAYLOR",
@@ -135,26 +139,26 @@
       "Date": "Wed, Dec 31, 25",
       "Opponent": "Butler County",
       "Site": "at Edmonson County",
-      "Points for": 75,
-      "Points Against": 44,
+      "Points for": 75.0,
+      "Points Against": 44.0,
       "Outcome": "Win",
-      "Standings": 1,
+      "Standings": 1.0,
       "Notes": "Rafferty's/Double Dogs Caveland Classic",
       "SiteCode": "N",
-      "OppCode": "BUTLCO",
-      "GameID_Base": "LWBB2026-20251231-N-BUTLCO",
+      "OppCode": "BUTLER",
+      "GameID_Base": "LWBB2026-20251231-N-BUTLER",
       "GameSortKey": "BUTLER COUNTY|at edmonson county|075|044|rafferty's/double dogs caveland classic",
-      "GameID": "LWBB2026-20251231-N-BUTLCO"
+      "GameID": "LWBB2026-20251231-N-BUTLER"
     },
     {
       "GameDate": "2026-01-08T00:00:00",
       "Date": "Thu, Jan 8, 26",
       "Opponent": "Elizabethtown",
       "Site": "home",
-      "Points for": 69,
-      "Points Against": 64,
+      "Points for": 69.0,
+      "Points Against": 64.0,
       "Outcome": "Win",
-      "Standings": 1,
+      "Standings": 1.0,
       "Notes": null,
       "SiteCode": "H",
       "OppCode": "ELIZAB",
@@ -167,10 +171,10 @@
       "Date": "Tue, Jan 13, 26",
       "Opponent": "North Bullitt",
       "Site": "away",
-      "Points for": 67,
-      "Points Against": 54,
+      "Points for": 67.0,
+      "Points Against": 54.0,
       "Outcome": "Win",
-      "Standings": 1,
+      "Standings": 1.0,
       "Notes": null,
       "SiteCode": "A",
       "OppCode": "NORTHB",
@@ -183,10 +187,10 @@
       "Date": "Wed, Jan 14, 26",
       "Opponent": "Cloverport",
       "Site": "away",
-      "Points for": 64,
-      "Points Against": 27,
+      "Points for": 64.0,
+      "Points Against": 27.0,
       "Outcome": "Win",
-      "Standings": 1,
+      "Standings": 1.0,
       "Notes": null,
       "SiteCode": "A",
       "OppCode": "CLOVER",
@@ -199,26 +203,26 @@
       "Date": "Thu, Jan 15, 26",
       "Opponent": "Bullitt East",
       "Site": "home",
-      "Points for": 37,
-      "Points Against": 57,
+      "Points for": 37.0,
+      "Points Against": 57.0,
       "Outcome": "Loss",
-      "Standings": -1,
+      "Standings": -1.0,
       "Notes": null,
       "SiteCode": "H",
-      "OppCode": "BULEAS",
-      "GameID_Base": "LWBB2026-20260115-H-BULEAS",
+      "OppCode": "BULLIT",
+      "GameID_Base": "LWBB2026-20260115-H-BULLIT",
       "GameSortKey": "BULLITT EAST|home|037|057|",
-      "GameID": "LWBB2026-20260115-H-BULEAS"
+      "GameID": "LWBB2026-20260115-H-BULLIT"
     },
     {
       "GameDate": "2026-01-17T00:00:00",
       "Date": "Sat, Jan 17, 26",
-      "Opponent": "Owensboro HS",
+      "Opponent": "Owensboro",
       "Site": "away",
-      "Points for": 60,
-      "Points Against": 51,
+      "Points for": 60.0,
+      "Points Against": 51.0,
       "Outcome": "Win",
-      "Standings": 1,
+      "Standings": 1.0,
       "Notes": null,
       "SiteCode": "A",
       "OppCode": "OWENSB",
@@ -231,10 +235,10 @@
       "Date": "Tue, Jan 20, 26",
       "Opponent": "Nelson County",
       "Site": "away",
-      "Points for": 47,
-      "Points Against": 38,
+      "Points for": 47.0,
+      "Points Against": 38.0,
       "Outcome": "Win",
-      "Standings": 1,
+      "Standings": 1.0,
       "Notes": null,
       "SiteCode": "A",
       "OppCode": "NELSON",
@@ -247,10 +251,10 @@
       "Date": "Fri, Jan 23, 26",
       "Opponent": "Hancock County",
       "Site": "home",
-      "Points for": 57,
-      "Points Against": 39,
+      "Points for": 57.0,
+      "Points Against": 39.0,
       "Outcome": "Win",
-      "Standings": 1,
+      "Standings": 1.0,
       "Notes": "Homecoming",
       "SiteCode": "H",
       "OppCode": "HANCOC",
@@ -263,10 +267,10 @@
       "Date": "Sat, Jan 31, 26",
       "Opponent": "South Oldham",
       "Site": "home",
-      "Points for": 70,
-      "Points Against": 63,
+      "Points for": 70.0,
+      "Points Against": 63.0,
       "Outcome": "Win",
-      "Standings": 1,
+      "Standings": 1.0,
       "Notes": "Postponed from 1/27/26 - Snow Emergency",
       "SiteCode": "H",
       "OppCode": "SOUTHO",
@@ -279,10 +283,10 @@
       "Date": "Sun, Feb 1, 26",
       "Opponent": "Breckinridge County",
       "Site": "away",
-      "Points for": 43,
-      "Points Against": 52,
+      "Points for": 43.0,
+      "Points Against": 52.0,
       "Outcome": "Loss",
-      "Standings": -1,
+      "Standings": -1.0,
       "Notes": "Postponed from 1/30/26 - Snow Emergency",
       "SiteCode": "A",
       "OppCode": "BRECKI",
@@ -311,10 +315,10 @@
       "Date": "Thu, Feb 5, 26",
       "Opponent": "Cloverport",
       "Site": "home",
-      "Points for": 71,
-      "Points Against": 14,
+      "Points for": 71.0,
+      "Points Against": 14.0,
       "Outcome": "Win",
-      "Standings": 1,
+      "Standings": 1.0,
       "Notes": "Senior Night",
       "SiteCode": "H",
       "OppCode": "CLOVER",
@@ -327,10 +331,10 @@
       "Date": "Fri, Feb 6, 26",
       "Opponent": "Hancock County",
       "Site": "away",
-      "Points for": 56,
-      "Points Against": 30,
+      "Points for": 56.0,
+      "Points Against": 30.0,
       "Outcome": "Win",
-      "Standings": 1,
+      "Standings": 1.0,
       "Notes": null,
       "SiteCode": "A",
       "OppCode": "HANCOC",
@@ -341,12 +345,12 @@
     {
       "GameDate": "2026-02-07T00:00:00",
       "Date": "Sat, Feb 7, 26",
-      "Opponent": "Hopkinsville",
+      "Opponent": "Hopkins County Central",
       "Site": "home",
-      "Points for": 38,
-      "Points Against": 59,
+      "Points for": 38.0,
+      "Points Against": 59.0,
       "Outcome": "Loss",
-      "Standings": -1,
+      "Standings": -1.0,
       "Notes": "Originally scheduled against Bethlehem",
       "SiteCode": "H",
       "OppCode": "HOPKIN",
@@ -359,26 +363,26 @@
       "Date": "Tue, Feb 10, 26",
       "Opponent": "Central Hardin",
       "Site": "home",
-      "Points for": 66,
-      "Points Against": 33,
+      "Points for": 66.0,
+      "Points Against": 33.0,
       "Outcome": "Win",
-      "Standings": 1,
+      "Standings": 1.0,
       "Notes": "Rescheduled from 2/17/2026",
       "SiteCode": "H",
-      "OppCode": "CHARDI",
-      "GameID_Base": "LWBB2026-20260210-H-CHARDI",
+      "OppCode": "CENTRA",
+      "GameID_Base": "LWBB2026-20260210-H-CENTRA",
       "GameSortKey": "CENTRAL HARDIN|home|066|033|rescheduled from 2/17/2026",
-      "GameID": "LWBB2026-20260210-H-CHARDI"
+      "GameID": "LWBB2026-20260210-H-CENTRA"
     },
     {
       "GameDate": "2026-02-11T00:00:00",
       "Date": "Wed, Feb 11, 26",
       "Opponent": "Valley",
       "Site": "away",
-      "Points for": 57,
-      "Points Against": 40,
+      "Points for": 57.0,
+      "Points Against": 40.0,
       "Outcome": "Win",
-      "Standings": 1,
+      "Standings": 1.0,
       "Notes": null,
       "SiteCode": "A",
       "OppCode": "VALLEY",
@@ -391,10 +395,10 @@
       "Date": "Fri, Feb 13, 26",
       "Opponent": "John Hardin",
       "Site": "home",
-      "Points for": 63,
-      "Points Against": 58,
+      "Points for": 63.0,
+      "Points Against": 58.0,
       "Outcome": "Win",
-      "Standings": 1,
+      "Standings": 1.0,
       "Notes": null,
       "SiteCode": "H",
       "OppCode": "JOHNHA",
@@ -405,18 +409,18 @@
     {
       "GameDate": "2026-02-17T00:00:00",
       "Date": "Tue, Feb 17, 26",
-      "Opponent": "Bullitt Central",
+      "Opponent": "BullItt Central",
       "Site": "home",
-      "Points for": null,
-      "Points Against": null,
-      "Outcome": null,
-      "Standings": null,
+      "Points for": 61.0,
+      "Points Against": 52.0,
+      "Outcome": "Win",
+      "Standings": 1.0,
       "Notes": "Late addition to Scheudle",
       "SiteCode": "H",
       "OppCode": "BULCEN",
-      "GameID_Base": "LWBB2026-20260217-H-BULCEN",
-      "GameSortKey": "BULLITT CENTRAL|home|000|000|late addition to scheudle",
-      "GameID": "LWBB2026-20260217-H-BULCEN"
+      "GameID_Base": "LW2026-20260217-H-BULCEN",
+      "GameSortKey": "BULLITT CENTRAL|home|061|052|late addition to scheudle",
+      "GameID": "LW2026-20260217-H-BULCEN"
     },
     {
       "GameDate": "2026-02-20T00:00:00",
@@ -1382,7 +1386,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251220-H-LOUSAI",
+      "gameId": "LWBB2026-20251220-H-LOUISV",
       "playerId": "HARKAR2026",
       "jersey": 1,
       "playerName": "Kari Hardesty",
@@ -1399,7 +1403,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251220-H-LOUSAI",
+      "gameId": "LWBB2026-20251220-H-LOUISV",
       "playerId": "TANEMM2027",
       "jersey": 10,
       "playerName": "Emma Tanner",
@@ -1416,7 +1420,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251220-H-LOUSAI",
+      "gameId": "LWBB2026-20251220-H-LOUISV",
       "playerId": "NEVJAY2028",
       "jersey": 11,
       "playerName": "Jaycelyn Nevitt",
@@ -1433,7 +1437,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251220-H-LOUSAI",
+      "gameId": "LWBB2026-20251220-H-LOUISV",
       "playerId": "THOKAR2029",
       "jersey": 12,
       "playerName": "Karla Thornsberry",
@@ -1450,7 +1454,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251220-H-LOUSAI",
+      "gameId": "LWBB2026-20251220-H-LOUISV",
       "playerId": "MEDJAY2029",
       "jersey": 15,
       "playerName": "Jayla Medley",
@@ -1467,7 +1471,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251220-H-LOUSAI",
+      "gameId": "LWBB2026-20251220-H-LOUISV",
       "playerId": "BRAHAR2029",
       "jersey": 20,
       "playerName": "Harper Bradley",
@@ -1484,7 +1488,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251220-H-LOUSAI",
+      "gameId": "LWBB2026-20251220-H-LOUISV",
       "playerId": "STUADD2026",
       "jersey": 21,
       "playerName": "Addie Stull",
@@ -1501,7 +1505,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251220-H-LOUSAI",
+      "gameId": "LWBB2026-20251220-H-LOUISV",
       "playerId": "LUCELL2030",
       "jersey": 23,
       "playerName": "Ella Lucas",
@@ -1518,7 +1522,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251220-H-LOUSAI",
+      "gameId": "LWBB2026-20251220-H-LOUISV",
       "playerId": "HARPAI2026",
       "jersey": 55,
       "playerName": "Paige Harrison",
@@ -1909,7 +1913,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251231-N-BUTLCO",
+      "gameId": "LWBB2026-20251231-N-BUTLER",
       "playerId": "HARKAR2026",
       "jersey": 1,
       "playerName": "Kari Hardesty",
@@ -1926,7 +1930,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251231-N-BUTLCO",
+      "gameId": "LWBB2026-20251231-N-BUTLER",
       "playerId": "RANKEN2029",
       "jersey": 2,
       "playerName": "Kendall Raney",
@@ -1943,7 +1947,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251231-N-BUTLCO",
+      "gameId": "LWBB2026-20251231-N-BUTLER",
       "playerId": "STUIZZ2030",
       "jersey": 3,
       "playerName": "Izzie Stull",
@@ -1960,7 +1964,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251231-N-BUTLCO",
+      "gameId": "LWBB2026-20251231-N-BUTLER",
       "playerId": "TANEMM2027",
       "jersey": 10,
       "playerName": "Emma Tanner",
@@ -1977,7 +1981,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251231-N-BUTLCO",
+      "gameId": "LWBB2026-20251231-N-BUTLER",
       "playerId": "NEVJAY2028",
       "jersey": 11,
       "playerName": "Jaycelyn Nevitt",
@@ -1994,7 +1998,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251231-N-BUTLCO",
+      "gameId": "LWBB2026-20251231-N-BUTLER",
       "playerId": "THOKAR2029",
       "jersey": 12,
       "playerName": "Karla Thornsberry",
@@ -2011,7 +2015,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251231-N-BUTLCO",
+      "gameId": "LWBB2026-20251231-N-BUTLER",
       "playerId": "GRAPEY2029",
       "jersey": 13,
       "playerName": "Peyton Gray",
@@ -2028,7 +2032,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251231-N-BUTLCO",
+      "gameId": "LWBB2026-20251231-N-BUTLER",
       "playerId": "CLALEN2029",
       "jersey": 14,
       "playerName": "Lena Clanton",
@@ -2045,7 +2049,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251231-N-BUTLCO",
+      "gameId": "LWBB2026-20251231-N-BUTLER",
       "playerId": "MEDJAY2029",
       "jersey": 15,
       "playerName": "Jayla Medley",
@@ -2062,7 +2066,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251231-N-BUTLCO",
+      "gameId": "LWBB2026-20251231-N-BUTLER",
       "playerId": "BRAHAR2029",
       "jersey": 20,
       "playerName": "Harper Bradley",
@@ -2079,7 +2083,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251231-N-BUTLCO",
+      "gameId": "LWBB2026-20251231-N-BUTLER",
       "playerId": "STUADD2026",
       "jersey": 21,
       "playerName": "Addie Stull",
@@ -2096,7 +2100,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251231-N-BUTLCO",
+      "gameId": "LWBB2026-20251231-N-BUTLER",
       "playerId": "LUCELL2030",
       "jersey": 23,
       "playerName": "Ella Lucas",
@@ -2113,7 +2117,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251231-N-BUTLCO",
+      "gameId": "LWBB2026-20251231-N-BUTLER",
       "playerId": "RAYLIN2027",
       "jersey": 24,
       "playerName": "Lindsey Ray",
@@ -2130,7 +2134,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20251231-N-BUTLCO",
+      "gameId": "LWBB2026-20251231-N-BUTLER",
       "playerId": "HARPAI2026",
       "jersey": 55,
       "playerName": "Paige Harrison",
@@ -2572,7 +2576,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260115-H-BULEAS",
+      "gameId": "LWBB2026-20260115-H-BULLIT",
       "playerId": "HARKAR2026",
       "jersey": 1,
       "playerName": "Kari Hardesty",
@@ -2589,7 +2593,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260115-H-BULEAS",
+      "gameId": "LWBB2026-20260115-H-BULLIT",
       "playerId": "RANKEN2029",
       "jersey": 2,
       "playerName": "Kendall Raney",
@@ -2606,7 +2610,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260115-H-BULEAS",
+      "gameId": "LWBB2026-20260115-H-BULLIT",
       "playerId": "STUIZZ2030",
       "jersey": 3,
       "playerName": "Izzie Stull",
@@ -2623,7 +2627,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260115-H-BULEAS",
+      "gameId": "LWBB2026-20260115-H-BULLIT",
       "playerId": "TANEMM2027",
       "jersey": 10,
       "playerName": "Emma Tanner",
@@ -2640,7 +2644,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260115-H-BULEAS",
+      "gameId": "LWBB2026-20260115-H-BULLIT",
       "playerId": "NEVJAY2028",
       "jersey": 11,
       "playerName": "Jaycelyn Nevitt",
@@ -2657,7 +2661,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260115-H-BULEAS",
+      "gameId": "LWBB2026-20260115-H-BULLIT",
       "playerId": "THOKAR2029",
       "jersey": 12,
       "playerName": "Karla Thornsberry",
@@ -2674,7 +2678,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260115-H-BULEAS",
+      "gameId": "LWBB2026-20260115-H-BULLIT",
       "playerId": "GRAPEY2029",
       "jersey": 13,
       "playerName": "Peyton Gray",
@@ -2691,7 +2695,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260115-H-BULEAS",
+      "gameId": "LWBB2026-20260115-H-BULLIT",
       "playerId": "CLALEN2029",
       "jersey": 14,
       "playerName": "Lena Clanton",
@@ -2708,7 +2712,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260115-H-BULEAS",
+      "gameId": "LWBB2026-20260115-H-BULLIT",
       "playerId": "MEDJAY2029",
       "jersey": 15,
       "playerName": "Jayla Medley",
@@ -2725,7 +2729,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260115-H-BULEAS",
+      "gameId": "LWBB2026-20260115-H-BULLIT",
       "playerId": "BRAHAR2029",
       "jersey": 20,
       "playerName": "Harper Bradley",
@@ -2742,7 +2746,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260115-H-BULEAS",
+      "gameId": "LWBB2026-20260115-H-BULLIT",
       "playerId": "STUADD2026",
       "jersey": 21,
       "playerName": "Addie Stull",
@@ -2759,7 +2763,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260115-H-BULEAS",
+      "gameId": "LWBB2026-20260115-H-BULLIT",
       "playerId": "LUCELL2030",
       "jersey": 23,
       "playerName": "Ella Lucas",
@@ -2776,7 +2780,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260115-H-BULEAS",
+      "gameId": "LWBB2026-20260115-H-BULLIT",
       "playerId": "RAYLIN2027",
       "jersey": 24,
       "playerName": "Lindsey Ray",
@@ -2793,7 +2797,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260115-H-BULEAS",
+      "gameId": "LWBB2026-20260115-H-BULLIT",
       "playerId": "HARPAI2026",
       "jersey": 55,
       "playerName": "Paige Harrison",
@@ -4204,7 +4208,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260210-H-CHARDI",
+      "gameId": "LWBB2026-20260210-H-CENTRA",
       "playerId": "HARKAR2026",
       "jersey": 1,
       "playerName": "Kari Hardesty",
@@ -4221,7 +4225,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260210-H-CHARDI",
+      "gameId": "LWBB2026-20260210-H-CENTRA",
       "playerId": "RANKEN2029",
       "jersey": 2,
       "playerName": "Kendall Raney",
@@ -4238,7 +4242,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260210-H-CHARDI",
+      "gameId": "LWBB2026-20260210-H-CENTRA",
       "playerId": "STUIZZ2030",
       "jersey": 3,
       "playerName": "Izzie Stull",
@@ -4255,7 +4259,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260210-H-CHARDI",
+      "gameId": "LWBB2026-20260210-H-CENTRA",
       "playerId": "NEVJAY2028",
       "jersey": 11,
       "playerName": "Jaycelyn Nevitt",
@@ -4272,7 +4276,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260210-H-CHARDI",
+      "gameId": "LWBB2026-20260210-H-CENTRA",
       "playerId": "THOKAR2029",
       "jersey": 12,
       "playerName": "Karla Thornsberry",
@@ -4289,7 +4293,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260210-H-CHARDI",
+      "gameId": "LWBB2026-20260210-H-CENTRA",
       "playerId": "GRAPEY2029",
       "jersey": 13,
       "playerName": "Peyton Gray",
@@ -4306,7 +4310,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260210-H-CHARDI",
+      "gameId": "LWBB2026-20260210-H-CENTRA",
       "playerId": "CLALEN2029",
       "jersey": 14,
       "playerName": "Lena Clanton",
@@ -4323,7 +4327,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260210-H-CHARDI",
+      "gameId": "LWBB2026-20260210-H-CENTRA",
       "playerId": "MEDJAY2029",
       "jersey": 15,
       "playerName": "Jayla Medley",
@@ -4340,7 +4344,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260210-H-CHARDI",
+      "gameId": "LWBB2026-20260210-H-CENTRA",
       "playerId": "BRAHAR2029",
       "jersey": 20,
       "playerName": "Harper Bradley",
@@ -4357,7 +4361,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260210-H-CHARDI",
+      "gameId": "LWBB2026-20260210-H-CENTRA",
       "playerId": "STUADD2026",
       "jersey": 21,
       "playerName": "Addie Stull",
@@ -4374,7 +4378,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260210-H-CHARDI",
+      "gameId": "LWBB2026-20260210-H-CENTRA",
       "playerId": "LUCELL2030",
       "jersey": 23,
       "playerName": "Ella Lucas",
@@ -4391,7 +4395,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260210-H-CHARDI",
+      "gameId": "LWBB2026-20260210-H-CENTRA",
       "playerId": "RAYLIN2027",
       "jersey": 24,
       "playerName": "Lindsey Ray",
@@ -4408,7 +4412,7 @@
       "TenPlusRebounds": false
     },
     {
-      "gameId": "LWBB2026-20260210-H-CHARDI",
+      "gameId": "LWBB2026-20260210-H-CENTRA",
       "playerId": "HARPAI2026",
       "jersey": 55,
       "playerName": "Paige Harrison",
@@ -4763,6 +4767,125 @@
       "tenPlus": false,
       "doubleDouble": false,
       "TenPlusRebounds": false
+    },
+    {
+      "gameId": "LW2026-20260217-H-BULCEN",
+      "playerId": "HARKAR2026",
+      "jersey": 1,
+      "playerName": "Kari Hardesty",
+      "twoPM": 0,
+      "twoPA": 0,
+      "threePM": 1,
+      "threePA": 3,
+      "ftM": 2,
+      "ftA": 4,
+      "pts": 5,
+      "reb": 2,
+      "tenPlus": false,
+      "doubleDouble": false,
+      "TenPlusRebounds": false
+    },
+    {
+      "gameId": "LW2026-20260217-H-BULCEN",
+      "playerId": "TANEMM2027",
+      "jersey": 10,
+      "playerName": "Emma Tanner",
+      "twoPM": 0,
+      "twoPA": 0,
+      "threePM": 1,
+      "threePA": 1,
+      "ftM": 0,
+      "ftA": 0,
+      "pts": 3,
+      "reb": 0,
+      "tenPlus": false,
+      "doubleDouble": false,
+      "TenPlusRebounds": false
+    },
+    {
+      "gameId": "LW2026-20260217-H-BULCEN",
+      "playerId": "NEVJAY2028",
+      "jersey": 11,
+      "playerName": "Jaycelyn Nevitt",
+      "twoPM": 1,
+      "twoPA": 5,
+      "threePM": 2,
+      "threePA": 8,
+      "ftM": 4,
+      "ftA": 5,
+      "pts": 12,
+      "reb": 9,
+      "tenPlus": true,
+      "doubleDouble": false,
+      "TenPlusRebounds": false
+    },
+    {
+      "gameId": "LW2026-20260217-H-BULCEN",
+      "playerId": "THOKAR2029",
+      "jersey": 12,
+      "playerName": "Karla Thornsberry",
+      "twoPM": 3,
+      "twoPA": 8,
+      "threePM": 1,
+      "threePA": 4,
+      "ftM": 1,
+      "ftA": 1,
+      "pts": 10,
+      "reb": 4,
+      "tenPlus": true,
+      "doubleDouble": false,
+      "TenPlusRebounds": false
+    },
+    {
+      "gameId": "LW2026-20260217-H-BULCEN",
+      "playerId": "STUADD2026",
+      "jersey": 21,
+      "playerName": "Addie Stull",
+      "twoPM": 0,
+      "twoPA": 1,
+      "threePM": 0,
+      "threePA": 1,
+      "ftM": 0,
+      "ftA": 0,
+      "pts": 0,
+      "reb": 2,
+      "tenPlus": false,
+      "doubleDouble": false,
+      "TenPlusRebounds": false
+    },
+    {
+      "gameId": "LW2026-20260217-H-BULCEN",
+      "playerId": "LUCELL2030",
+      "jersey": 23,
+      "playerName": "Ella Lucas",
+      "twoPM": 6,
+      "twoPA": 17,
+      "threePM": 0,
+      "threePA": 0,
+      "ftM": 2,
+      "ftA": 3,
+      "pts": 14,
+      "reb": 2,
+      "tenPlus": true,
+      "doubleDouble": false,
+      "TenPlusRebounds": false
+    },
+    {
+      "gameId": "LW2026-20260217-H-BULCEN",
+      "playerId": "HARPAI2026",
+      "jersey": 55,
+      "playerName": "Paige Harrison",
+      "twoPM": 8,
+      "twoPA": 9,
+      "threePM": 0,
+      "threePA": 0,
+      "ftM": 1,
+      "ftA": 3,
+      "pts": 17,
+      "reb": 14,
+      "tenPlus": true,
+      "doubleDouble": true,
+      "TenPlusRebounds": true
     }
   ]
 }

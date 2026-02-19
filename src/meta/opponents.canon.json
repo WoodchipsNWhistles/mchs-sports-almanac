@@ -137,8 +137,8 @@
     "AUSTTT": { "name": "Australia Travel Team", "state": "AU" },
     "FRARTN": { "name": "Franklin Road Academy", "state": "TN" },
     "PROVIN": { "name": "Providence", "state": "IN" },
-    "SOCEIN": { "name": "South Central", "state": "IN" }
-
+    "SOCEIN": { "name": "South Central", "state": "IN" },
+    "FLOYDC": {"name": "Floyd Central", "state": "IN"}
   }
 }
 
