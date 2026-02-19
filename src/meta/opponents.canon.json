@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "byCode": {
+    "OWCATH": { "name": "Owensboro Catholic", "state": "KY" },
+    "OWENSB": { "name": "Owensboro HS", "state": "KY" },
+
+    "CHARDI": { "name": "Central Hardin", "state": "KY" },
+    "CENTRA": { "name": "Central HS (Louisville)", "state": "KY" },
+    "JOHNHA": { "name": "John Hardin", "state": "KY" },
+    "NHARDI": { "name": "North Hardin", "state": "KY" },
+    "NHARDX": { "name": "North Hardin Christian", "state": "KY" },
+
+    "OLDHAM": { "name": "Oldham County", "state": "KY" },
+    "SOLDHA": { "name": "South Oldham", "state": "KY" },
+    "NOLDHA": { "name": "North Oldham", "state": "KY" },
+
+    "BULEAS": { "name": "Bullitt East", "state": "KY" },
+    "BULCEN": { "name": "Bullitt Central", "state": "KY" },
+    "NBULLI": { "name": "North Bullitt", "state": "KY" },
+
+    "RUSSCO": { "name": "Russell County", "state": "KY" },
+    "RUSSHS": { "name": "Russell HS", "state": "KY" },
+    "RUSSPR": { "name": "Russell Springs", "state": "KY" },
+    "RUSVIL": { "name": "Russellville", "state": "KY" },
+    "RUSIND": { "name": "Russell Independent", "state": "KY" },
+
+    "PIKEVI": { "name": "Pikeville", "state": "KY" },
+    "PIKECO": { "name": "Pike County", "state": "KY" },
+
+    "CALOUI": { "name": "Christian Academy Louisville", "state": "KY" },
+    "CHRICO": { "name": "Christian County", "state": "KY" },
+
+    "FRASIM": { "name": "Franklin-Simpson", "state": "KY" },
+    "FRANCO": { "name": "Franklin County", "state": "KY" },
+    "FRANHS": { "name": "Frankfort HS", "state": "KY" },
+    "FRANKX": { "name": "Frankfort Christian", "state": "KY" },
+
+    "BUTLHS": { "name": "Butler HS", "state": "KY" },
+    "BUTLCO": { "name": "Butler County", "state": "KY" },
+
+    "CAMPCO": { "name": "Campbell County", "state": "KY" },
+    "CAMPHS": { "name": "Campbellsville", "state": "KY" },
+
+    "DANVIL": { "name": "Danville", "state": "KY" },
+    "DANVIX": { "name": "Danville Christian", "state": "KY" },
+
+    "FTCAMP": { "name": "Fort Campbell", "state": "KY" },
+    "FTKNOX": { "name": "Fort Knox", "state": "KY" },
+
+    "FULTCI": { "name": "Fulton City", "state": "KY" },
+    "FULTCO": { "name": "Fulton County", "state": "KY" },
+
+    "HENRCL": { "name": "Henry Clay", "state": "KY" },
+    "HENRCO": { "name": "Henry County", "state": "KY" },
+
+    "HERFLO": { "name": "Heritage (Florence)", "state": "KY" },
+    "HERHOP": { "name": "Heritage (Hopkinsville)", "state": "KY" },
+
+    "HIGHLA": { "name": "Highlands", "state": "KY" },
+    "HIGHLX": { "name": "Highlands Latin", "state": "KY" },
+
+    "HCROLO": { "name": "Holy Cross Louisville", "state": "KY" },
+    "HCROCO": { "name": "Holy Cross Covington", "state": "KY" },
+
+    "HOPCEN": { "name": "Hopkins County Central", "state": "KY" },
+    "HOPKIN": { "name": "Hopkinsville", "state": "KY" },
+
+    "JACKCI": { "name": "Jackson City", "state": "KY" },
+    "JACKCO": { "name": "Jackson County", "state": "KY" },
+
+    "KYCODA": { "name": "Kentucky Country Day", "state": "KY" },
+    "KYDEAF": { "name": "Kentucky School for the Deaf", "state": "KY" },
+
+    "LEXCAT": { "name": "Lexington Catholic", "state": "KY" },
+    "LEXCHR": { "name": "Lexington Christian", "state": "KY" },
+
+    "MADCEN": { "name": "Madison Central", "state": "KY" },
+    "MADSOU": { "name": "Madison Southern", "state": "KY" },
+    "MADNHO": { "name": "Madisonville–North Hopkins", "state": "KY" },
+
+    "NEWPOR": { "name": "Newport", "state": "KY" },
+    "NEWCAT": { "name": "Newport Central Catholic", "state": "KY" },
+
+    "NLAURE": { "name": "North Laurel", "state": "KY" },
+    "SLAURE": { "name": "South Laurel", "state": "KY" },
+
+    "SCOTHS": { "name": "Scott HS", "state": "KY" },
+    "SCOTCO": { "name": "Scott County", "state": "KY" },
+
+    "SHELCO": { "name": "Shelby County", "state": "KY" },
+    "SHELVA": { "name": "Shelby Valley", "state": "KY" },
+
+    "SOMEHS": { "name": "Somerset HS", "state": "KY" },
+    "SOMERX": { "name": "Somerset Christian", "state": "KY" },
+
+    "SWESTE": { "name": "Southwestern", "state": "KY" },
+    "SOUTHS": { "name": "Southern HS (Louisville)", "state": "KY" },
+
+    "TRINWH": { "name": "Trinity (Whitesville)", "state": "KY" },
+    "TRINLO": { "name": "Trinity (Louisville)", "state": "KY" },
+
+    "WARCEN": { "name": "Warren Central", "state": "KY" },
+    "WAREAS": { "name": "Warren East", "state": "KY" },
+    "SWARRE": { "name": "South Warren", "state": "KY" },
+
+    "WCARTE": { "name": "West Carter", "state": "KY" },
+    "WJESSA": { "name": "West Jessamine", "state": "KY" },
+    "WESTHS": { "name": "Western HS", "state": "KY" },
+    "WESHIL": { "name": "Western Hills", "state": "KY" },
+
+    "WILBUR": { "name": "Williamsburg", "state": "KY" },
+    "WILTOW": { "name": "Williamstown", "state": "KY" },
+
+    "STARGA": { "name": "Starr’s Mill", "state": "GA" },
+    "JEFFGA": { "name": "Jefferson", "state": "GA" },
+    "JACKTN": { "name": "Jackson South Side", "state": "TN" },
+
+    "CORYCE": { "name": "Corydon Central", "state": "IN" },
+    "SILVIN": { "name": "Silver Creek", "state": "IN" },
+
+    "MOUNAZ": { "name": "Mountain Pointe", "state": "AZ" },
+    "HIGLAZ": { "name": "Higley", "state": "AZ" },
+    "CEASAZ": { "name": "Ceasar Chavez", "state": "AZ" },
+
+    "DOUGOK": { "name": "Douglass OKC", "state": "OK" },
+
+    "INDETN": { "name": "Independence", "state": "TN" },
+    
+    "LOUCOL": { "name": "Louisville Collegiate", "state": "KY" },
+    "LOUSAI": { "name": "Louisville Saints", "state": "KY" },
+
+    "MUHLCO": { "name": "Muhlenberg County", "state": "KY" },
+    "MUHLNO": { "name": "Muhlenberg North", "state": "KY" },
+    "MUHLSO": { "name": "Muhlenberg South", "state": "KY" },
+
+    "AUSTWA": { "name": "Australia Wanneroo", "state": "AU" },
+    "AUSTTT": { "name": "Australia Travel Team", "state": "AU" },
+    "FRARTN": { "name": "Franklin Road Academy", "state": "TN" },
+    "PROVIN": { "name": "Providence", "state": "IN" },
+    "SOCEIN": { "name": "South Central", "state": "IN" }
+
+  }
+}
+

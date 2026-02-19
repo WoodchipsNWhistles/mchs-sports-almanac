@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "legacyCode": "OWENSB",
+      "choose": [
+        { "ifNameContains": ["Catholic"], "canon": "OWCATH" },
+        { "default": true, "canon": "OWENSB" }
+      ]
+    },
+    {
+      "legacyCode": "CENTRA",
+      "choose": [
+        { "ifNameContains": ["Hardin"], "canon": "CHARDI" },
+        { "default": true, "canon": "CENTRA" }
+      ]
+    },
+    {
+      "legacyCode": "MUHLEN",
+      "choose": [
+        { "ifNameContains": ["North"], "canon": "MUHLNO" },
+        { "ifNameContains": ["South"], "canon": "MUHLSO" },
+        { "default": true, "canon": "MUHLCO" }
+      ]
+    },
+    {
+      "legacyCode": "BULLIT",
+      "choose": [
+        { "ifNameContains": ["East"], "canon": "BULEAS" },
+        { "ifNameContains": ["Central"], "canon": "BULCEN" }
+      ]
+    },
+    {
+      "legacyCode": "SOUTHW",
+      "choose": [
+        { "ifNameContains": ["Warren"], "canon": "SWARRE" },
+        { "ifNameContains": ["Southwestern"], "canon": "SWESTE" }
+      ]
+    },
+    {
+      "legacyCode": "BUTLER",
+      "choose": [
+        { "ifNameContains": ["County"], "canon": "BUTLCO" },
+        { "default": true, "canon": "BUTLHS" }
+      ]
+    },
+    {
+      "legacyCode": "AUSTRA",
+      "choose": [
+        { "ifNameContains": ["Wanneroo"], "canon": "AUSTWA" },
+        { "ifNameContains": ["Travel"], "canon": "AUSTTT" },
+        { "ifNameContains": ["Australian Travel"], "canon": "AUSTTT" }
+      ]
+    },
+    {
+      "legacyCode": "LOUISV",
+      "choose": [
+        { "ifNameContains": ["Collegiate"], "canon": "LOUCOL" },
+        { "ifNameContains": ["Saints"], "canon": "LOUSAI" }
+      ]
+    },
+            {
+      "legacyCode": "FRANKL",
+      "choose": [
+        { "ifNameContains": ["Road Academy"], "canon": "FRARTN" },
+        { "ifNameContains": ["Franklin Road"], "canon": "FRARTN" },
+        { "ifNameContains": ["Simpson"], "canon": "FRASIM" },
+        { "ifNameContains": ["County"], "canon": "FRANCO" }
+      ]
+    },
+    {
+      "legacyCode": "PROVID",
+      "choose": [
+        { "default": true, "canon": "PROVIN" }
+      ]
+    },
+    {
+      "legacyCode": "SOUTHC",
+      "choose": [
+        { "default": true, "canon": "SOCEIN" }
+      ]
+    }
+
+  ]
+}

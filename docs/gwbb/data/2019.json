@@ -33,15 +33,15 @@
       "Standings": -1,
       "Notes": null,
       "SiteCode": "A",
-      "OppCode": "OWENSB",
-      "GameID_Base": "GWBB2019-20181130-A-OWENSB",
+      "OppCode": "OWCATH",
+      "GameID_Base": "GWBB2019-20181130-A-OWCATH",
       "GameSortKey": "OWENSBORO CATHOLIC|away|041|081|",
-      "GameID": "GWBB2019-20181130-A-OWENSB"
+      "GameID": "GWBB2019-20181130-A-OWCATH"
     },
     {
       "GameDate": "2018-12-04T00:00:00",
       "Date": "Tue, Dec 4, 18",
-      "Opponent": "Providence (Clarksville), IN",
+      "Opponent": "Providence",
       "Site": "away",
       "Points for": 68,
       "Points Against": 70,
@@ -49,10 +49,10 @@
       "Standings": -1,
       "Notes": null,
       "SiteCode": "A",
-      "OppCode": "PROVID",
-      "GameID_Base": "GWBB2019-20181204-A-PROVID",
+      "OppCode": "PROVIN",
+      "GameID_Base": "GWBB2019-20181204-A-PROVIN",
       "GameSortKey": "PROVIDENCE (CLARKSVILLE), IN|away|068|070|",
-      "GameID": "GWBB2019-20181204-A-PROVID"
+      "GameID": "GWBB2019-20181204-A-PROVIN"
     },
     {
       "GameDate": "2018-12-06T00:00:00",
@@ -225,10 +225,10 @@
       "Standings": 1,
       "Notes": null,
       "SiteCode": "A",
-      "OppCode": "BULLIT",
-      "GameID_Base": "GWBB2019-20190104-A-BULLIT",
+      "OppCode": "BULCEN",
+      "GameID_Base": "GWBB2019-20190104-A-BULCEN",
       "GameSortKey": "BULLITT CENTRAL|away|061|054|",
-      "GameID": "GWBB2019-20190104-A-BULLIT"
+      "GameID": "GWBB2019-20190104-A-BULCEN"
     },
     {
       "GameDate": "2019-01-08T00:00:00",
@@ -433,10 +433,10 @@
       "Standings": -1,
       "Notes": null,
       "SiteCode": "A",
-      "OppCode": "CENTRA",
-      "GameID_Base": "GWBB2019-20190214-A-CENTRA",
+      "OppCode": "CHARDI",
+      "GameID_Base": "GWBB2019-20190214-A-CHARDI",
       "GameSortKey": "CENTRAL HARDIN|away|062|072|",
-      "GameID": "GWBB2019-20190214-A-CENTRA"
+      "GameID": "GWBB2019-20190214-A-CHARDI"
     },
     {
       "GameDate": "2019-02-19T00:00:00",
@@ -473,7 +473,7 @@
     {
       "GameDate": "2019-02-26T00:00:00",
       "Date": "Tue, Feb 26, 19",
-      "Opponent": "Owensboro",
+      "Opponent": "Owensboro HS",
       "Site": "at Owensboro Sportscenter",
       "Points for": 61,
       "Points Against": 85,
@@ -528,7 +528,7 @@
       "PlayerID": "GOOTRE2021"
     },
     {
-      "Jersey": 2.0,
+      "Jersey": 2,
       "Name": "Parker Johnston",
       "Position": "SF",
       "Grade": "Jr.",
@@ -541,7 +541,7 @@
       "PlayerID": "JOHPAR2020"
     },
     {
-      "Jersey": 3.0,
+      "Jersey": 3,
       "Name": "Chris Armstead",
       "Position": "SG",
       "Grade": "Sr.",
@@ -554,7 +554,7 @@
       "PlayerID": "ARMCHR2019"
     },
     {
-      "Jersey": 5.0,
+      "Jersey": 5,
       "Name": "Peyton Cole",
       "Position": "SF",
       "Grade": "Sr.",
@@ -567,7 +567,7 @@
       "PlayerID": "COLPEY2019"
     },
     {
-      "Jersey": 10.0,
+      "Jersey": 10,
       "Name": "Mitchell Dozier",
       "Position": "C",
       "Grade": "Jr.",
@@ -580,7 +580,7 @@
       "PlayerID": "DOZMIT2020"
     },
     {
-      "Jersey": 12.0,
+      "Jersey": 12,
       "Name": "Cooper Crump",
       "Position": "SG",
       "Grade": "Fr.",
@@ -593,7 +593,7 @@
       "PlayerID": "CRUCOO2022"
     },
     {
-      "Jersey": 14.0,
+      "Jersey": 14,
       "Name": "Carson Crump",
       "Position": "G",
       "Grade": "Sr.",
@@ -606,7 +606,7 @@
       "PlayerID": "CRUCAR2019"
     },
     {
-      "Jersey": 15.0,
+      "Jersey": 15,
       "Name": "Canon Decker",
       "Position": "PG",
       "Grade": "So.",
@@ -619,7 +619,7 @@
       "PlayerID": "DECCAN2021"
     },
     {
-      "Jersey": 20.0,
+      "Jersey": 20,
       "Name": "Brayden Blankenship",
       "Position": "SG",
       "Grade": "Jr.",
@@ -632,7 +632,7 @@
       "PlayerID": "BLABRA2020"
     },
     {
-      "Jersey": 21.0,
+      "Jersey": 21,
       "Name": "Dylan Abell",
       "Position": "SF",
       "Grade": "So.",
@@ -645,7 +645,7 @@
       "PlayerID": "ABEDYL2021"
     },
     {
-      "Jersey": 22.0,
+      "Jersey": 22,
       "Name": "Chaney Weick",
       "Position": "SG",
       "Grade": "Fr.",
@@ -658,7 +658,7 @@
       "PlayerID": "WEICHA2022"
     },
     {
-      "Jersey": 23.0,
+      "Jersey": 23,
       "Name": "Camron Nall",
       "Position": "SG",
       "Grade": "Sr.",
@@ -671,7 +671,7 @@
       "PlayerID": "NALCAM2019"
     },
     {
-      "Jersey": 24.0,
+      "Jersey": 24,
       "Name": "Casey Turner",
       "Position": "PF",
       "Grade": "So.",
@@ -684,7 +684,7 @@
       "PlayerID": "TURCAS2021"
     },
     {
-      "Jersey": 42.0,
+      "Jersey": 42,
       "Name": "Chezney Weick",
       "Position": "PF",
       "Grade": "Sr.",
@@ -697,7 +697,7 @@
       "PlayerID": "WEICHE2019"
     },
     {
-      "Jersey": 44.0,
+      "Jersey": 44,
       "Name": "Kobe Nikolao",
       "Position": "PF",
       "Grade": "Sr.",
@@ -856,7 +856,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20181130-A-OWENSB",
+      "gameID": "GWBB2019-20181130-A-OWCATH",
       "playerID": "JOHPAR2020",
       "jersey": 2,
       "playerName": "Parker Johnston",
@@ -872,7 +872,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20181130-A-OWENSB",
+      "gameID": "GWBB2019-20181130-A-OWCATH",
       "playerID": "ABEDYL2021",
       "jersey": 21,
       "playerName": "Dylan Abell",
@@ -888,7 +888,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20181130-A-OWENSB",
+      "gameID": "GWBB2019-20181130-A-OWCATH",
       "playerID": "COLPEY2019",
       "jersey": 5,
       "playerName": "Peyton Cole",
@@ -904,7 +904,7 @@
       "doubleDouble": true
     },
     {
-      "gameID": "GWBB2019-20181130-A-OWENSB",
+      "gameID": "GWBB2019-20181130-A-OWCATH",
       "playerID": "CRUCAR2019",
       "jersey": 14,
       "playerName": "Carson Crump",
@@ -920,7 +920,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20181130-A-OWENSB",
+      "gameID": "GWBB2019-20181130-A-OWCATH",
       "playerID": "DOZMIT2020",
       "jersey": 10,
       "playerName": "Mitchell Dozier",
@@ -936,7 +936,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20181130-A-OWENSB",
+      "gameID": "GWBB2019-20181130-A-OWCATH",
       "playerID": "BLABRA2020",
       "jersey": 20,
       "playerName": "Brayden Blankenship",
@@ -952,7 +952,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20181130-A-OWENSB",
+      "gameID": "GWBB2019-20181130-A-OWCATH",
       "playerID": "DECCAN2021",
       "jersey": 15,
       "playerName": "Canon Decker",
@@ -968,7 +968,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20181130-A-OWENSB",
+      "gameID": "GWBB2019-20181130-A-OWCATH",
       "playerID": "WEICHA2022",
       "jersey": 22,
       "playerName": "Chaney Weick",
@@ -984,7 +984,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20181130-A-OWENSB",
+      "gameID": "GWBB2019-20181130-A-OWCATH",
       "playerID": "NALCAM2019",
       "jersey": 23,
       "playerName": "Camron Nall",
@@ -1000,7 +1000,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20181130-A-OWENSB",
+      "gameID": "GWBB2019-20181130-A-OWCATH",
       "playerID": "WEICHE2019",
       "jersey": 42,
       "playerName": "Chezney Weick",
@@ -1016,7 +1016,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20181130-A-OWENSB",
+      "gameID": "GWBB2019-20181130-A-OWCATH",
       "playerID": "NIKKOB2019",
       "jersey": 44,
       "playerName": "Kobe Nikolao",
@@ -1032,7 +1032,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20181204-A-PROVID",
+      "gameID": "GWBB2019-20181204-A-PROVIN",
       "playerID": "BLABRA2020",
       "jersey": 20,
       "playerName": "Brayden Blankenship",
@@ -1048,7 +1048,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20181204-A-PROVID",
+      "gameID": "GWBB2019-20181204-A-PROVIN",
       "playerID": "WEICHE2019",
       "jersey": 42,
       "playerName": "Chezney Weick",
@@ -1064,7 +1064,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20181204-A-PROVID",
+      "gameID": "GWBB2019-20181204-A-PROVIN",
       "playerID": "COLPEY2019",
       "jersey": 5,
       "playerName": "Peyton Cole",
@@ -1080,7 +1080,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20181204-A-PROVID",
+      "gameID": "GWBB2019-20181204-A-PROVIN",
       "playerID": "WEICHA2022",
       "jersey": 22,
       "playerName": "Chaney Weick",
@@ -1096,7 +1096,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20181204-A-PROVID",
+      "gameID": "GWBB2019-20181204-A-PROVIN",
       "playerID": "NALCAM2019",
       "jersey": 23,
       "playerName": "Camron Nall",
@@ -1112,7 +1112,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20181204-A-PROVID",
+      "gameID": "GWBB2019-20181204-A-PROVIN",
       "playerID": "CRUCAR2019",
       "jersey": 14,
       "playerName": "Carson Crump",
@@ -1128,7 +1128,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20181204-A-PROVID",
+      "gameID": "GWBB2019-20181204-A-PROVIN",
       "playerID": "NIKKOB2019",
       "jersey": 44,
       "playerName": "Kobe Nikolao",
@@ -1144,7 +1144,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20181204-A-PROVID",
+      "gameID": "GWBB2019-20181204-A-PROVIN",
       "playerID": "DOZMIT2020",
       "jersey": 10,
       "playerName": "Mitchell Dozier",
@@ -2856,7 +2856,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20190104-A-BULLIT",
+      "gameID": "GWBB2019-20190104-A-BULCEN",
       "playerID": "ARMCHR2019",
       "jersey": 3,
       "playerName": "Chris Armstead",
@@ -2872,7 +2872,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20190104-A-BULLIT",
+      "gameID": "GWBB2019-20190104-A-BULCEN",
       "playerID": "COLPEY2019",
       "jersey": 5,
       "playerName": "Peyton Cole",
@@ -2888,7 +2888,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20190104-A-BULLIT",
+      "gameID": "GWBB2019-20190104-A-BULCEN",
       "playerID": "DECCAN2021",
       "jersey": 15,
       "playerName": "Canon Decker",
@@ -2904,7 +2904,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20190104-A-BULLIT",
+      "gameID": "GWBB2019-20190104-A-BULCEN",
       "playerID": "BLABRA2020",
       "jersey": 20,
       "playerName": "Brayden Blankenship",
@@ -2920,7 +2920,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20190104-A-BULLIT",
+      "gameID": "GWBB2019-20190104-A-BULCEN",
       "playerID": "WEICHA2022",
       "jersey": 22,
       "playerName": "Chaney Weick",
@@ -2936,7 +2936,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20190104-A-BULLIT",
+      "gameID": "GWBB2019-20190104-A-BULCEN",
       "playerID": "NALCAM2019",
       "jersey": 23,
       "playerName": "Camron Nall",
@@ -2952,7 +2952,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20190104-A-BULLIT",
+      "gameID": "GWBB2019-20190104-A-BULCEN",
       "playerID": "WEICHE2019",
       "jersey": 42,
       "playerName": "Chezney Weick",
@@ -2968,7 +2968,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20190104-A-BULLIT",
+      "gameID": "GWBB2019-20190104-A-BULCEN",
       "playerID": "NIKKOB2019",
       "jersey": 44,
       "playerName": "Kobe Nikolao",
@@ -4968,7 +4968,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20190214-A-CENTRA",
+      "gameID": "GWBB2019-20190214-A-CHARDI",
       "playerID": "WEICHA2022",
       "jersey": 22,
       "playerName": "Chaney Weick",
@@ -4984,7 +4984,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20190214-A-CENTRA",
+      "gameID": "GWBB2019-20190214-A-CHARDI",
       "playerID": "ARMCHR2019",
       "jersey": 3,
       "playerName": "Chris Armstead",
@@ -5000,7 +5000,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20190214-A-CENTRA",
+      "gameID": "GWBB2019-20190214-A-CHARDI",
       "playerID": "COLPEY2019",
       "jersey": 5,
       "playerName": "Peyton Cole",
@@ -5016,7 +5016,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20190214-A-CENTRA",
+      "gameID": "GWBB2019-20190214-A-CHARDI",
       "playerID": "JOHPAR2020",
       "jersey": 2,
       "playerName": "Parker Johnston",
@@ -5032,7 +5032,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20190214-A-CENTRA",
+      "gameID": "GWBB2019-20190214-A-CHARDI",
       "playerID": "CRUCAR2019",
       "jersey": 14,
       "playerName": "Carson Crump",
@@ -5048,7 +5048,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20190214-A-CENTRA",
+      "gameID": "GWBB2019-20190214-A-CHARDI",
       "playerID": "DOZMIT2020",
       "jersey": 10,
       "playerName": "Mitchell Dozier",
@@ -5064,7 +5064,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20190214-A-CENTRA",
+      "gameID": "GWBB2019-20190214-A-CHARDI",
       "playerID": "DECCAN2021",
       "jersey": 15,
       "playerName": "Canon Decker",
@@ -5080,7 +5080,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20190214-A-CENTRA",
+      "gameID": "GWBB2019-20190214-A-CHARDI",
       "playerID": "ABEDYL2021",
       "jersey": 21,
       "playerName": "Dylan Abell",
@@ -5096,7 +5096,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20190214-A-CENTRA",
+      "gameID": "GWBB2019-20190214-A-CHARDI",
       "playerID": "BLABRA2020",
       "jersey": 20,
       "playerName": "Brayden Blankenship",
@@ -5112,7 +5112,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20190214-A-CENTRA",
+      "gameID": "GWBB2019-20190214-A-CHARDI",
       "playerID": "NALCAM2019",
       "jersey": 23,
       "playerName": "Camron Nall",
@@ -5128,7 +5128,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20190214-A-CENTRA",
+      "gameID": "GWBB2019-20190214-A-CHARDI",
       "playerID": "TURCAS2021",
       "jersey": 24,
       "playerName": "Casey Turner",
@@ -5144,7 +5144,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2019-20190214-A-CENTRA",
+      "gameID": "GWBB2019-20190214-A-CHARDI",
       "playerID": "WEICHE2019",
       "jersey": 42,
       "playerName": "Chezney Weick",

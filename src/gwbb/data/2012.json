@@ -113,10 +113,10 @@
       "Standings": -1,
       "Notes": null,
       "SiteCode": "N",
-      "OppCode": "FRANKL",
-      "GameID_Base": "GWBB2012-20111220-N-FRANKL",
+      "OppCode": "FRASIM",
+      "GameID_Base": "GWBB2012-20111220-N-FRASIM",
       "GameSortKey": "FRANKLIN-SIMPSON|at edmonson county|059|061|",
-      "GameID": "GWBB2012-20111220-N-FRANKL"
+      "GameID": "GWBB2012-20111220-N-FRASIM"
     },
     {
       "GameDate": "2011-12-21T00:00:00",
@@ -129,10 +129,10 @@
       "Standings": 1,
       "Notes": null,
       "SiteCode": "N",
-      "OppCode": "OWENSB",
-      "GameID_Base": "GWBB2012-20111221-N-OWENSB",
+      "OppCode": "OWCATH",
+      "GameID_Base": "GWBB2012-20111221-N-OWCATH",
       "GameSortKey": "OWENSBORO CATHOLIC|at edmonson county|048|041|",
-      "GameID": "GWBB2012-20111221-N-OWENSB"
+      "GameID": "GWBB2012-20111221-N-OWCATH"
     },
     {
       "GameDate": "2011-12-22T00:00:00",
@@ -289,10 +289,10 @@
       "Standings": -1,
       "Notes": null,
       "SiteCode": "A",
-      "OppCode": "MUHLEN",
-      "GameID_Base": "GWBB2012-20120121-A-MUHLEN",
+      "OppCode": "MUHLCO",
+      "GameID_Base": "GWBB2012-20120121-A-MUHLCO",
       "GameSortKey": "MUHLENBERG COUNTY|away|073|081|",
-      "GameID": "GWBB2012-20120121-A-MUHLEN"
+      "GameID": "GWBB2012-20120121-A-MUHLCO"
     },
     {
       "GameDate": "2012-01-27T00:00:00",
@@ -417,10 +417,10 @@
       "Standings": -1,
       "Notes": null,
       "SiteCode": "A",
-      "OppCode": "CENTRA",
-      "GameID_Base": "GWBB2012-20120217-A-CENTRA",
+      "OppCode": "CHARDI",
+      "GameID_Base": "GWBB2012-20120217-A-CHARDI",
       "GameSortKey": "CENTRAL HARDIN|away|061|072|",
-      "GameID": "GWBB2012-20120217-A-CENTRA"
+      "GameID": "GWBB2012-20120217-A-CHARDI"
     },
     {
       "GameDate": "2012-02-21T00:00:00",
@@ -465,10 +465,10 @@
       "Standings": 1,
       "Notes": "3rd Region",
       "SiteCode": "N",
-      "OppCode": "BUTLER",
-      "GameID_Base": "GWBB2012-20120301-N-BUTLER",
+      "OppCode": "BUTLCO",
+      "GameID_Base": "GWBB2012-20120301-N-BUTLCO",
       "GameSortKey": "BUTLER COUNTY|at owensboro sportscenter|087|057|3rd region",
-      "GameID": "GWBB2012-20120301-N-BUTLER"
+      "GameID": "GWBB2012-20120301-N-BUTLCO"
     },
     {
       "GameDate": "2012-03-03T00:00:00",
@@ -1585,7 +1585,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20111220-N-FRANKL",
+      "gameID": "GWBB2012-20111220-N-FRASIM",
       "playerID": "SMIBRA2012",
       "jersey": 23,
       "playerName": "Brady Smith",
@@ -1601,7 +1601,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20111220-N-FRANKL",
+      "gameID": "GWBB2012-20111220-N-FRASIM",
       "playerID": "COMSTE2012",
       "jersey": 32,
       "playerName": "Stephen Compton",
@@ -1617,7 +1617,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20111220-N-FRANKL",
+      "gameID": "GWBB2012-20111220-N-FRASIM",
       "playerID": "DOWWES2012",
       "jersey": 35,
       "playerName": "Wes Dowell",
@@ -1633,7 +1633,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20111220-N-FRANKL",
+      "gameID": "GWBB2012-20111220-N-FRASIM",
       "playerID": "GARCHA2012",
       "jersey": 3,
       "playerName": "Chase Garris",
@@ -1649,7 +1649,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20111220-N-FRANKL",
+      "gameID": "GWBB2012-20111220-N-FRASIM",
       "playerID": "GARBRY2013",
       "jersey": 13,
       "playerName": "Bryce Garris",
@@ -1665,7 +1665,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20111220-N-FRANKL",
+      "gameID": "GWBB2012-20111220-N-FRASIM",
       "playerID": "WILBOX2012",
       "jersey": 11,
       "playerName": "Bo Wilson",
@@ -1681,7 +1681,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20111220-N-FRANKL",
+      "gameID": "GWBB2012-20111220-N-FRASIM",
       "playerID": "RAYJAR2013",
       "jersey": 14,
       "playerName": "Jared Raymer",
@@ -1697,7 +1697,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20111220-N-FRANKL",
+      "gameID": "GWBB2012-20111220-N-FRASIM",
       "playerID": "WILTHO2012",
       "jersey": 21,
       "playerName": "Thomas Wilson",
@@ -1713,7 +1713,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20111220-N-FRANKL",
+      "gameID": "GWBB2012-20111220-N-FRASIM",
       "playerID": "WILZEB2014",
       "jersey": 2,
       "playerName": "Zeb Wilson",
@@ -1729,7 +1729,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20111221-N-OWENSB",
+      "gameID": "GWBB2012-20111221-N-OWCATH",
       "playerID": "COMSTE2012",
       "jersey": 32,
       "playerName": "Stephen Compton",
@@ -1745,7 +1745,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20111221-N-OWENSB",
+      "gameID": "GWBB2012-20111221-N-OWCATH",
       "playerID": "GARBRY2013",
       "jersey": 13,
       "playerName": "Bryce Garris",
@@ -1761,7 +1761,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20111221-N-OWENSB",
+      "gameID": "GWBB2012-20111221-N-OWCATH",
       "playerID": "DOWWES2012",
       "jersey": 35,
       "playerName": "Wes Dowell",
@@ -1777,7 +1777,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20111221-N-OWENSB",
+      "gameID": "GWBB2012-20111221-N-OWCATH",
       "playerID": "GARCHA2012",
       "jersey": 3,
       "playerName": "Chase Garris",
@@ -1793,7 +1793,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20111221-N-OWENSB",
+      "gameID": "GWBB2012-20111221-N-OWCATH",
       "playerID": "SMIBRA2012",
       "jersey": 23,
       "playerName": "Brady Smith",
@@ -1809,7 +1809,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20111221-N-OWENSB",
+      "gameID": "GWBB2012-20111221-N-OWCATH",
       "playerID": "RAYJAR2013",
       "jersey": 14,
       "playerName": "Jared Raymer",
@@ -1825,7 +1825,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20111221-N-OWENSB",
+      "gameID": "GWBB2012-20111221-N-OWCATH",
       "playerID": "WILBOX2012",
       "jersey": 11,
       "playerName": "Bo Wilson",
@@ -1841,7 +1841,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20111221-N-OWENSB",
+      "gameID": "GWBB2012-20111221-N-OWCATH",
       "playerID": "WILLUK2014",
       "jersey": 5,
       "playerName": "Luke Wilson",
@@ -1857,7 +1857,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20111221-N-OWENSB",
+      "gameID": "GWBB2012-20111221-N-OWCATH",
       "playerID": "WILTHO2012",
       "jersey": 21,
       "playerName": "Thomas Wilson",
@@ -1873,7 +1873,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20111221-N-OWENSB",
+      "gameID": "GWBB2012-20111221-N-OWCATH",
       "playerID": "WILZEB2014",
       "jersey": 2,
       "playerName": "Zeb Wilson",
@@ -3393,7 +3393,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120121-A-MUHLEN",
+      "gameID": "GWBB2012-20120121-A-MUHLCO",
       "playerID": "COMSTE2012",
       "jersey": 32,
       "playerName": "Stephen Compton",
@@ -3409,7 +3409,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120121-A-MUHLEN",
+      "gameID": "GWBB2012-20120121-A-MUHLCO",
       "playerID": "DOWWES2012",
       "jersey": 35,
       "playerName": "Wes Dowell",
@@ -3425,7 +3425,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120121-A-MUHLEN",
+      "gameID": "GWBB2012-20120121-A-MUHLCO",
       "playerID": "WILBOX2012",
       "jersey": 11,
       "playerName": "Bo Wilson",
@@ -3441,7 +3441,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120121-A-MUHLEN",
+      "gameID": "GWBB2012-20120121-A-MUHLCO",
       "playerID": "GARBRY2013",
       "jersey": 13,
       "playerName": "Bryce Garris",
@@ -3457,7 +3457,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120121-A-MUHLEN",
+      "gameID": "GWBB2012-20120121-A-MUHLCO",
       "playerID": "GARCHA2012",
       "jersey": 3,
       "playerName": "Chase Garris",
@@ -3473,7 +3473,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120121-A-MUHLEN",
+      "gameID": "GWBB2012-20120121-A-MUHLCO",
       "playerID": "MATCHA2014",
       "jersey": 44,
       "playerName": "Charles Mattingly",
@@ -3489,7 +3489,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120121-A-MUHLEN",
+      "gameID": "GWBB2012-20120121-A-MUHLCO",
       "playerID": "SMIBRA2012",
       "jersey": 23,
       "playerName": "Brady Smith",
@@ -3505,7 +3505,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120121-A-MUHLEN",
+      "gameID": "GWBB2012-20120121-A-MUHLCO",
       "playerID": "WILTHO2012",
       "jersey": 21,
       "playerName": "Thomas Wilson",
@@ -3521,7 +3521,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120121-A-MUHLEN",
+      "gameID": "GWBB2012-20120121-A-MUHLCO",
       "playerID": "WILZEB2014",
       "jersey": 2,
       "playerName": "Zeb Wilson",
@@ -4769,7 +4769,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120217-A-CENTRA",
+      "gameID": "GWBB2012-20120217-A-CHARDI",
       "playerID": "COMSTE2012",
       "jersey": 32,
       "playerName": "Stephen Compton",
@@ -4785,7 +4785,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120217-A-CENTRA",
+      "gameID": "GWBB2012-20120217-A-CHARDI",
       "playerID": "WILBOX2012",
       "jersey": 11,
       "playerName": "Bo Wilson",
@@ -4801,7 +4801,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120217-A-CENTRA",
+      "gameID": "GWBB2012-20120217-A-CHARDI",
       "playerID": "GARBRY2013",
       "jersey": 13,
       "playerName": "Bryce Garris",
@@ -4817,7 +4817,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120217-A-CENTRA",
+      "gameID": "GWBB2012-20120217-A-CHARDI",
       "playerID": "GARCHA2012",
       "jersey": 3,
       "playerName": "Chase Garris",
@@ -4833,7 +4833,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120217-A-CENTRA",
+      "gameID": "GWBB2012-20120217-A-CHARDI",
       "playerID": "MATCHA2014",
       "jersey": 44,
       "playerName": "Charles Mattingly",
@@ -4849,7 +4849,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120217-A-CENTRA",
+      "gameID": "GWBB2012-20120217-A-CHARDI",
       "playerID": "RAYJAR2013",
       "jersey": 14,
       "playerName": "Jared Raymer",
@@ -4865,7 +4865,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120217-A-CENTRA",
+      "gameID": "GWBB2012-20120217-A-CHARDI",
       "playerID": "SMIBRA2012",
       "jersey": 23,
       "playerName": "Brady Smith",
@@ -4881,7 +4881,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120217-A-CENTRA",
+      "gameID": "GWBB2012-20120217-A-CHARDI",
       "playerID": "WILLUK2014",
       "jersey": 5,
       "playerName": "Luke Wilson",
@@ -4897,7 +4897,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120217-A-CENTRA",
+      "gameID": "GWBB2012-20120217-A-CHARDI",
       "playerID": "WILTHO2012",
       "jersey": 21,
       "playerName": "Thomas Wilson",
@@ -4913,7 +4913,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120217-A-CENTRA",
+      "gameID": "GWBB2012-20120217-A-CHARDI",
       "playerID": "WILZEB2014",
       "jersey": 2,
       "playerName": "Zeb Wilson",
@@ -5329,7 +5329,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120301-N-BUTLER",
+      "gameID": "GWBB2012-20120301-N-BUTLCO",
       "playerID": "GARBRY2013",
       "jersey": 13,
       "playerName": "Bryce Garris",
@@ -5345,7 +5345,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120301-N-BUTLER",
+      "gameID": "GWBB2012-20120301-N-BUTLCO",
       "playerID": "COMSTE2012",
       "jersey": 32,
       "playerName": "Stephen Compton",
@@ -5361,7 +5361,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120301-N-BUTLER",
+      "gameID": "GWBB2012-20120301-N-BUTLCO",
       "playerID": "WILBOX2012",
       "jersey": 11,
       "playerName": "Bo Wilson",
@@ -5377,7 +5377,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120301-N-BUTLER",
+      "gameID": "GWBB2012-20120301-N-BUTLCO",
       "playerID": "DOWWES2012",
       "jersey": 35,
       "playerName": "Wes Dowell",
@@ -5393,7 +5393,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120301-N-BUTLER",
+      "gameID": "GWBB2012-20120301-N-BUTLCO",
       "playerID": "WILTHO2012",
       "jersey": 21,
       "playerName": "Thomas Wilson",
@@ -5409,7 +5409,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120301-N-BUTLER",
+      "gameID": "GWBB2012-20120301-N-BUTLCO",
       "playerID": "GARCHA2012",
       "jersey": 3,
       "playerName": "Chase Garris",
@@ -5425,7 +5425,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120301-N-BUTLER",
+      "gameID": "GWBB2012-20120301-N-BUTLCO",
       "playerID": "SMIBRA2012",
       "jersey": 23,
       "playerName": "Brady Smith",
@@ -5441,7 +5441,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120301-N-BUTLER",
+      "gameID": "GWBB2012-20120301-N-BUTLCO",
       "playerID": "MATCHA2014",
       "jersey": 44,
       "playerName": "Charles Mattingly",
@@ -5457,7 +5457,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120301-N-BUTLER",
+      "gameID": "GWBB2012-20120301-N-BUTLCO",
       "playerID": "RAYJAR2013",
       "jersey": 14,
       "playerName": "Jared Raymer",
@@ -5473,7 +5473,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120301-N-BUTLER",
+      "gameID": "GWBB2012-20120301-N-BUTLCO",
       "playerID": "WILCON2013",
       "jersey": 24,
       "playerName": "Connor Williams",
@@ -5489,7 +5489,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120301-N-BUTLER",
+      "gameID": "GWBB2012-20120301-N-BUTLCO",
       "playerID": "WILLUK2014",
       "jersey": 5,
       "playerName": "Luke Wilson",
@@ -5505,7 +5505,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120301-N-BUTLER",
+      "gameID": "GWBB2012-20120301-N-BUTLCO",
       "playerID": "WILZEB2014",
       "jersey": 2,
       "playerName": "Zeb Wilson",
@@ -5521,7 +5521,7 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2012-20120301-N-BUTLER",
+      "gameID": "GWBB2012-20120301-N-BUTLCO",
       "playerID": "WILJOH2015",
       "jersey": 12,
       "playerName": "John Wilson",

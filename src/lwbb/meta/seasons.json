@@ -1,0 +1,310 @@
+{
+  "sport": "LWBB",
+  "metaVersion": 1,
+  "seasons": [
+    {
+      "seasonYear": 2009,
+      "display": "2008-09",
+      "published": false,
+      "verified": false,
+      "excludeReason": "",
+      "sourceNotes": "",
+      "coach": {
+        "headCoach": {
+          "name": "Josh Hurt",
+          "coachIDPasted": "p_0000000007"
+        },
+        "assistants": []
+      },
+      "record": {
+        "wins": null,
+        "losses": null
+      }
+    },
+    {
+      "seasonYear": 2012,
+      "display": "2011-12",
+      "published": false,
+      "verified": false,
+      "excludeReason": "",
+      "sourceNotes": "",
+      "coach": {
+        "headCoach": {
+          "name": "Josh Hurt",
+          "coachIDPasted": "p_0000000007"
+        },
+        "assistants": []
+      },
+      "record": {
+        "wins": null,
+        "losses": null
+      }
+    },
+    {
+      "seasonYear": 2013,
+      "display": "2012-13",
+      "published": false,
+      "verified": false,
+      "excludeReason": "",
+      "sourceNotes": "",
+      "coach": {
+        "headCoach": {
+          "name": "Josh Hurt",
+          "coachIDPasted": "p_0000000007"
+        },
+        "assistants": []
+      },
+      "record": {
+        "wins": null,
+        "losses": null
+      }
+    },
+    {
+      "seasonYear": 2014,
+      "display": "2013-14",
+      "published": false,
+      "verified": false,
+      "excludeReason": "",
+      "sourceNotes": "",
+      "coach": {
+        "headCoach": {
+          "name": "Josh Hurt",
+          "coachIDPasted": "p_0000000007"
+        },
+        "assistants": []
+      },
+      "record": {
+        "wins": null,
+        "losses": null
+      }
+    },
+    {
+      "seasonYear": 2015,
+      "display": "2014-15",
+      "published": false,
+      "verified": false,
+      "excludeReason": "",
+      "sourceNotes": "",
+      "coach": {
+        "headCoach": {
+          "name": "Whitney Hooper",
+          "coachIDPasted": "p_0000000008"
+        },
+        "assistants": []
+      },
+      "record": {
+        "wins": null,
+        "losses": null
+      }
+    },
+    {
+      "seasonYear": 2016,
+      "display": "2015-16",
+      "published": false,
+      "verified": false,
+      "excludeReason": "",
+      "sourceNotes": "",
+      "coach": {
+        "headCoach": {
+          "name": "Whitney Hooper",
+          "coachIDPasted": "p_0000000008"
+        },
+        "assistants": []
+      },
+      "record": {
+        "wins": null,
+        "losses": null
+      }
+    },
+    {
+      "seasonYear": 2017,
+      "display": "2016-17",
+      "published": false,
+      "verified": false,
+      "excludeReason": "",
+      "sourceNotes": "",
+      "coach": {
+        "headCoach": {
+          "name": "Dina Hackert",
+          "coachIDPasted": "p_0000000009"
+        },
+        "assistants": []
+      },
+      "record": {
+        "wins": null,
+        "losses": null
+      }
+    },
+    {
+      "seasonYear": 2018,
+      "display": "2017-18",
+      "published": false,
+      "verified": false,
+      "excludeReason": "",
+      "sourceNotes": "",
+      "coach": {
+        "headCoach": {
+          "name": "Dina Hackert",
+          "coachIDPasted": "p_0000000009"
+        },
+        "assistants": []
+      },
+      "record": {
+        "wins": null,
+        "losses": null
+      }
+    },
+    {
+      "seasonYear": 2019,
+      "display": "2018-19",
+      "published": false,
+      "verified": false,
+      "excludeReason": "",
+      "sourceNotes": "",
+      "coach": {
+        "headCoach": {
+          "name": "Dina Hackert",
+          "coachIDPasted": "p_0000000009"
+        },
+        "assistants": []
+      },
+      "record": {
+        "wins": null,
+        "losses": null
+      }
+    },
+    {
+      "seasonYear": 2020,
+      "display": "2019-20",
+      "published": false,
+      "verified": false,
+      "excludeReason": "",
+      "sourceNotes": "",
+      "coach": {
+        "headCoach": {
+          "name": "Dina Hackert",
+          "coachIDPasted": "p_0000000009"
+        },
+        "assistants": []
+      },
+      "record": {
+        "wins": null,
+        "losses": null
+      }
+    },
+    {
+      "seasonYear": 2021,
+      "display": "2020-21",
+      "published": false,
+      "verified": false,
+      "excludeReason": "",
+      "sourceNotes": "",
+      "coach": {
+        "headCoach": {
+          "name": "Dina Hackert",
+          "coachIDPasted": "p_0000000009"
+        },
+        "assistants": []
+      },
+      "record": {
+        "wins": null,
+        "losses": null
+      }
+    },
+    {
+      "seasonYear": 2022,
+      "display": "2021-22",
+      "published": false,
+      "verified": false,
+      "excludeReason": "",
+      "sourceNotes": "",
+      "coach": {
+        "headCoach": {
+          "name": "Dina Hackert",
+          "coachIDPasted": "p_0000000009"
+        },
+        "assistants": []
+      },
+      "record": {
+        "wins": null,
+        "losses": null
+      }
+    },
+    {
+      "seasonYear": 2023,
+      "display": "2022-23",
+      "published": false,
+      "verified": false,
+      "excludeReason": "",
+      "sourceNotes": "",
+      "coach": {
+        "headCoach": {
+          "name": "Dina Hackert",
+          "coachIDPasted": "p_0000000009"
+        },
+        "assistants": []
+      },
+      "record": {
+        "wins": null,
+        "losses": null
+      }
+    },
+    {
+      "seasonYear": 2024,
+      "display": "2023-24",
+      "published": false,
+      "verified": false,
+      "excludeReason": "",
+      "sourceNotes": "",
+      "coach": {
+        "headCoach": {
+          "name": "Dina Hackert",
+          "coachIDPasted": "p_0000000009"
+        },
+        "assistants": []
+      },
+      "record": {
+        "wins": null,
+        "losses": null
+      }
+    },
+    {
+      "seasonYear": 2025,
+      "display": "2024-25",
+      "published": false,
+      "verified": false,
+      "excludeReason": "",
+      "sourceNotes": "",
+      "coach": {
+        "headCoach": {
+          "name": "Dina Hackert",
+          "coachIDPasted": "p_0000000009"
+        },
+        "assistants": []
+      },
+      "record": {
+        "wins": null,
+        "losses": null
+      }
+    },
+    {
+      "seasonYear": 2026,
+      "display": "2025-26",
+      "published": false,
+      "verified": false,
+      "excludeReason": "Current season remains excluded until final.",
+      "sourceNotes": "",
+      "coach": {
+        "headCoach": {
+          "name": "Jason Tripure",
+          "coachIDPasted": "p_0000000002"
+        },
+        "assistants": []
+      },
+      "record": {
+        "wins": null,
+        "losses": null
+      }
+    }
+  ]
+}

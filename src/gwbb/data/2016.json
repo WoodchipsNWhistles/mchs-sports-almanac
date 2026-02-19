@@ -33,10 +33,10 @@
       "Standings": 1,
       "Notes": null,
       "SiteCode": "H",
-      "OppCode": "OWENSB",
-      "GameID_Base": "GWBB2016-20151204-H-OWENSB",
+      "OppCode": "OWCATH",
+      "GameID_Base": "GWBB2016-20151204-H-OWCATH",
       "GameSortKey": "OWENSBORO CATHOLIC|home|064|045|",
-      "GameID": "GWBB2016-20151204-H-OWENSB"
+      "GameID": "GWBB2016-20151204-H-OWCATH"
     },
     {
       "GameDate": "2015-12-05T00:00:00",
@@ -57,7 +57,7 @@
     {
       "GameDate": "2015-12-08T00:00:00",
       "Date": "Tue, Dec 8, 15",
-      "Opponent": "Providence, IN",
+      "Opponent": "Providence",
       "Site": "home",
       "Points for": 63,
       "Points Against": 59,
@@ -65,10 +65,10 @@
       "Standings": 1,
       "Notes": null,
       "SiteCode": "H",
-      "OppCode": "PROVID",
-      "GameID_Base": "GWBB2016-20151208-H-PROVID",
+      "OppCode": "PROVIN",
+      "GameID_Base": "GWBB2016-20151208-H-PROVIN",
       "GameSortKey": "PROVIDENCE, IN|home|063|059|",
-      "GameID": "GWBB2016-20151208-H-PROVID"
+      "GameID": "GWBB2016-20151208-H-PROVIN"
     },
     {
       "GameDate": "2015-12-10T00:00:00",
@@ -241,10 +241,10 @@
       "Standings": 1,
       "Notes": null,
       "SiteCode": "H",
-      "OppCode": "BULLIT",
-      "GameID_Base": "GWBB2016-20160105-H-BULLIT",
+      "OppCode": "BULCEN",
+      "GameID_Base": "GWBB2016-20160105-H-BULCEN",
       "GameSortKey": "BULLITT CENTRAL|home|075|068|",
-      "GameID": "GWBB2016-20160105-H-BULLIT"
+      "GameID": "GWBB2016-20160105-H-BULCEN"
     },
     {
       "GameDate": "2016-01-08T00:00:00",
@@ -321,10 +321,10 @@
       "Standings": -1,
       "Notes": null,
       "SiteCode": "A",
-      "OppCode": "BULLIT",
-      "GameID_Base": "GWBB2016-20160126-A-BULLIT",
+      "OppCode": "BULEAS",
+      "GameID_Base": "GWBB2016-20160126-A-BULEAS",
       "GameSortKey": "BULLITT EAST|away|044|085|",
-      "GameID": "GWBB2016-20160126-A-BULLIT"
+      "GameID": "GWBB2016-20160126-A-BULEAS"
     },
     {
       "GameDate": "2016-01-29T00:00:00",
@@ -449,10 +449,10 @@
       "Standings": -1,
       "Notes": null,
       "SiteCode": "H",
-      "OppCode": "CENTRA",
-      "GameID_Base": "GWBB2016-20160218-H-CENTRA",
+      "OppCode": "CHARDI",
+      "GameID_Base": "GWBB2016-20160218-H-CHARDI",
       "GameSortKey": "CENTRAL HARDIN|home|059|066|",
-      "GameID": "GWBB2016-20160218-H-CENTRA"
+      "GameID": "GWBB2016-20160218-H-CHARDI"
     },
     {
       "GameDate": "2016-02-23T00:00:00",
@@ -513,10 +513,10 @@
       "Standings": 1,
       "Notes": "3rd Region",
       "SiteCode": "N",
-      "OppCode": "MUHLEN",
-      "GameID_Base": "GWBB2016-20160305-N-MUHLEN",
+      "OppCode": "MUHLCO",
+      "GameID_Base": "GWBB2016-20160305-N-MUHLCO",
       "GameSortKey": "MUHLENBERG COUNTY|at owensboro sportscenter|067|056|3rd region",
-      "GameID": "GWBB2016-20160305-N-MUHLEN"
+      "GameID": "GWBB2016-20160305-N-MUHLCO"
     },
     {
       "GameDate": "2016-03-08T00:00:00",
@@ -529,10 +529,10 @@
       "Standings": -1,
       "Notes": "3rd RegionChampionship",
       "SiteCode": "N",
-      "OppCode": "OWENSB",
-      "GameID_Base": "GWBB2016-20160308-N-OWENSB",
+      "OppCode": "OWCATH",
+      "GameID_Base": "GWBB2016-20160308-N-OWCATH",
       "GameSortKey": "OWENSBORO CATHOLIC|at owensboro sportscenter|040|051|3rd regionchampionship",
-      "GameID": "GWBB2016-20160308-N-OWENSB"
+      "GameID": "GWBB2016-20160308-N-OWCATH"
     }
   ],
   "roster": [
@@ -736,7 +736,7 @@
     {
       "gameID": "GWBB2016-20151201-A-OHIOCO",
       "playerID": "AMMGAR2017",
-      "jersey": 11.0,
+      "jersey": 11,
       "playerName": "Garrett Ammons",
       "twoPM": 0,
       "twoPA": 0,
@@ -752,7 +752,7 @@
     {
       "gameID": "GWBB2016-20151201-A-OHIOCO",
       "playerID": "BEAJAK2016",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 0,
       "twoPA": 0,
@@ -768,7 +768,7 @@
     {
       "gameID": "GWBB2016-20151201-A-OHIOCO",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 8,
       "twoPA": 12,
@@ -784,7 +784,7 @@
     {
       "gameID": "GWBB2016-20151201-A-OHIOCO",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 2,
       "twoPA": 2,
@@ -800,7 +800,7 @@
     {
       "gameID": "GWBB2016-20151201-A-OHIOCO",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 3,
       "twoPA": 6,
@@ -816,7 +816,7 @@
     {
       "gameID": "GWBB2016-20151201-A-OHIOCO",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 4,
       "twoPA": 10,
@@ -832,7 +832,7 @@
     {
       "gameID": "GWBB2016-20151201-A-OHIOCO",
       "playerID": "MEDCAS2017",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Case Medley",
       "twoPM": 0,
       "twoPA": 0,
@@ -848,7 +848,7 @@
     {
       "gameID": "GWBB2016-20151201-A-OHIOCO",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 0,
       "twoPA": 2,
@@ -864,7 +864,7 @@
     {
       "gameID": "GWBB2016-20151201-A-OHIOCO",
       "playerID": "CLADAK2017",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Dakota Clayton",
       "twoPM": 0,
       "twoPA": 0,
@@ -880,7 +880,7 @@
     {
       "gameID": "GWBB2016-20151201-A-OHIOCO",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 0,
@@ -896,7 +896,7 @@
     {
       "gameID": "GWBB2016-20151201-A-OHIOCO",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 3,
       "twoPA": 4,
@@ -910,9 +910,9 @@
       "doubleDouble": true
     },
     {
-      "gameID": "GWBB2016-20151204-H-OWENSB",
+      "gameID": "GWBB2016-20151204-H-OWCATH",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 5,
       "twoPA": 7,
@@ -926,9 +926,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20151204-H-OWENSB",
+      "gameID": "GWBB2016-20151204-H-OWCATH",
       "playerID": "BEAJAK2016",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 0,
       "twoPA": 0,
@@ -942,9 +942,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20151204-H-OWENSB",
+      "gameID": "GWBB2016-20151204-H-OWCATH",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 1,
       "twoPA": 4,
@@ -958,9 +958,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20151204-H-OWENSB",
+      "gameID": "GWBB2016-20151204-H-OWCATH",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 0,
       "twoPA": 2,
@@ -974,9 +974,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20151204-H-OWENSB",
+      "gameID": "GWBB2016-20151204-H-OWCATH",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 3,
       "twoPA": 5,
@@ -990,9 +990,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20151204-H-OWENSB",
+      "gameID": "GWBB2016-20151204-H-OWCATH",
       "playerID": "AMMGAR2017",
-      "jersey": 11.0,
+      "jersey": 11,
       "playerName": "Garrett Ammons",
       "twoPM": 0,
       "twoPA": 0,
@@ -1006,9 +1006,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20151204-H-OWENSB",
+      "gameID": "GWBB2016-20151204-H-OWCATH",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 1,
       "twoPA": 3,
@@ -1022,9 +1022,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20151204-H-OWENSB",
+      "gameID": "GWBB2016-20151204-H-OWCATH",
       "playerID": "MEDCAS2017",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Case Medley",
       "twoPM": 0,
       "twoPA": 0,
@@ -1038,9 +1038,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20151204-H-OWENSB",
+      "gameID": "GWBB2016-20151204-H-OWCATH",
       "playerID": "CLADAK2017",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Dakota Clayton",
       "twoPM": 0,
       "twoPA": 0,
@@ -1054,9 +1054,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20151204-H-OWENSB",
+      "gameID": "GWBB2016-20151204-H-OWCATH",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 1,
@@ -1070,9 +1070,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20151204-H-OWENSB",
+      "gameID": "GWBB2016-20151204-H-OWCATH",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 3,
       "twoPA": 5,
@@ -1088,7 +1088,7 @@
     {
       "gameID": "GWBB2016-20151205-U-MARION",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 0,
       "twoPA": 1,
@@ -1104,7 +1104,7 @@
     {
       "gameID": "GWBB2016-20151205-U-MARION",
       "playerID": "BEAJAK2016",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 1,
       "twoPA": 2,
@@ -1120,7 +1120,7 @@
     {
       "gameID": "GWBB2016-20151205-U-MARION",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 3,
       "twoPA": 4,
@@ -1136,7 +1136,7 @@
     {
       "gameID": "GWBB2016-20151205-U-MARION",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 6,
       "twoPA": 12,
@@ -1152,7 +1152,7 @@
     {
       "gameID": "GWBB2016-20151205-U-MARION",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 3,
       "twoPA": 7,
@@ -1168,7 +1168,7 @@
     {
       "gameID": "GWBB2016-20151205-U-MARION",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 1,
       "twoPA": 2,
@@ -1184,7 +1184,7 @@
     {
       "gameID": "GWBB2016-20151205-U-MARION",
       "playerID": "AMMGAR2017",
-      "jersey": 11.0,
+      "jersey": 11,
       "playerName": "Garrett Ammons",
       "twoPM": 0,
       "twoPA": 0,
@@ -1200,7 +1200,7 @@
     {
       "gameID": "GWBB2016-20151205-U-MARION",
       "playerID": "MEDCAS2017",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Case Medley",
       "twoPM": 0,
       "twoPA": 0,
@@ -1216,7 +1216,7 @@
     {
       "gameID": "GWBB2016-20151205-U-MARION",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 1,
       "twoPA": 2,
@@ -1232,7 +1232,7 @@
     {
       "gameID": "GWBB2016-20151205-U-MARION",
       "playerID": "CLADAK2017",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Dakota Clayton",
       "twoPM": 0,
       "twoPA": 0,
@@ -1248,7 +1248,7 @@
     {
       "gameID": "GWBB2016-20151205-U-MARION",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 5,
       "twoPA": 6,
@@ -1262,9 +1262,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20151208-H-PROVID",
+      "gameID": "GWBB2016-20151208-H-PROVIN",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 3,
       "twoPA": 10,
@@ -1278,9 +1278,9 @@
       "doubleDouble": true
     },
     {
-      "gameID": "GWBB2016-20151208-H-PROVID",
+      "gameID": "GWBB2016-20151208-H-PROVIN",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 0,
       "twoPA": 0,
@@ -1294,9 +1294,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20151208-H-PROVID",
+      "gameID": "GWBB2016-20151208-H-PROVIN",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 4,
       "twoPA": 4,
@@ -1310,9 +1310,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20151208-H-PROVID",
+      "gameID": "GWBB2016-20151208-H-PROVIN",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 0,
       "twoPA": 1,
@@ -1326,9 +1326,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20151208-H-PROVID",
+      "gameID": "GWBB2016-20151208-H-PROVIN",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 0,
@@ -1342,9 +1342,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20151208-H-PROVID",
+      "gameID": "GWBB2016-20151208-H-PROVIN",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 2,
       "twoPA": 2,
@@ -1358,9 +1358,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20151208-H-PROVID",
+      "gameID": "GWBB2016-20151208-H-PROVIN",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 8,
       "twoPA": 9,
@@ -1376,7 +1376,7 @@
     {
       "gameID": "GWBB2016-20151210-A-CLOVER",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 1,
       "twoPA": 3,
@@ -1392,7 +1392,7 @@
     {
       "gameID": "GWBB2016-20151210-A-CLOVER",
       "playerID": "BEAJAK2016",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 1,
       "twoPA": 2,
@@ -1408,7 +1408,7 @@
     {
       "gameID": "GWBB2016-20151210-A-CLOVER",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 1,
       "twoPA": 1,
@@ -1424,7 +1424,7 @@
     {
       "gameID": "GWBB2016-20151210-A-CLOVER",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 2,
       "twoPA": 3,
@@ -1440,7 +1440,7 @@
     {
       "gameID": "GWBB2016-20151210-A-CLOVER",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 1,
       "twoPA": 2,
@@ -1456,7 +1456,7 @@
     {
       "gameID": "GWBB2016-20151210-A-CLOVER",
       "playerID": "AMMGAR2017",
-      "jersey": 11.0,
+      "jersey": 11,
       "playerName": "Garrett Ammons",
       "twoPM": 0,
       "twoPA": 0,
@@ -1472,7 +1472,7 @@
     {
       "gameID": "GWBB2016-20151210-A-CLOVER",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 2,
       "twoPA": 3,
@@ -1488,7 +1488,7 @@
     {
       "gameID": "GWBB2016-20151210-A-CLOVER",
       "playerID": "MEDCAS2017",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Case Medley",
       "twoPM": 0,
       "twoPA": 4,
@@ -1504,7 +1504,7 @@
     {
       "gameID": "GWBB2016-20151210-A-CLOVER",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 1,
       "twoPA": 7,
@@ -1520,7 +1520,7 @@
     {
       "gameID": "GWBB2016-20151210-A-CLOVER",
       "playerID": "CLADAK2017",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Dakota Clayton",
       "twoPM": 0,
       "twoPA": 0,
@@ -1536,7 +1536,7 @@
     {
       "gameID": "GWBB2016-20151210-A-CLOVER",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 2,
       "twoPA": 2,
@@ -1552,7 +1552,7 @@
     {
       "gameID": "GWBB2016-20151211-H-CAMPBE",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 5,
       "twoPA": 6,
@@ -1568,7 +1568,7 @@
     {
       "gameID": "GWBB2016-20151211-H-CAMPBE",
       "playerID": "BEAJAK2016",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 0,
       "twoPA": 0,
@@ -1584,7 +1584,7 @@
     {
       "gameID": "GWBB2016-20151211-H-CAMPBE",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 3,
       "twoPA": 6,
@@ -1600,7 +1600,7 @@
     {
       "gameID": "GWBB2016-20151211-H-CAMPBE",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 3,
       "twoPA": 5,
@@ -1616,7 +1616,7 @@
     {
       "gameID": "GWBB2016-20151211-H-CAMPBE",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 7,
       "twoPA": 9,
@@ -1632,7 +1632,7 @@
     {
       "gameID": "GWBB2016-20151211-H-CAMPBE",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 2,
       "twoPA": 4,
@@ -1648,7 +1648,7 @@
     {
       "gameID": "GWBB2016-20151211-H-CAMPBE",
       "playerID": "AMMGAR2017",
-      "jersey": 1.0,
+      "jersey": 1,
       "playerName": "Garrett Ammons",
       "twoPM": 0,
       "twoPA": 0,
@@ -1664,7 +1664,7 @@
     {
       "gameID": "GWBB2016-20151211-H-CAMPBE",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 0,
@@ -1680,7 +1680,7 @@
     {
       "gameID": "GWBB2016-20151211-H-CAMPBE",
       "playerID": "CLADAK2017",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Dakota Clayton",
       "twoPM": 0,
       "twoPA": 0,
@@ -1696,7 +1696,7 @@
     {
       "gameID": "GWBB2016-20151211-H-CAMPBE",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 1,
       "twoPA": 4,
@@ -1712,7 +1712,7 @@
     {
       "gameID": "GWBB2016-20151215-A-BRECKI",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 3,
       "twoPA": 12,
@@ -1728,7 +1728,7 @@
     {
       "gameID": "GWBB2016-20151215-A-BRECKI",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 4,
       "twoPA": 4,
@@ -1744,7 +1744,7 @@
     {
       "gameID": "GWBB2016-20151215-A-BRECKI",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 2,
       "twoPA": 3,
@@ -1760,7 +1760,7 @@
     {
       "gameID": "GWBB2016-20151215-A-BRECKI",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 2,
       "twoPA": 3,
@@ -1776,7 +1776,7 @@
     {
       "gameID": "GWBB2016-20151215-A-BRECKI",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 1,
@@ -1792,7 +1792,7 @@
     {
       "gameID": "GWBB2016-20151215-A-BRECKI",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 3,
       "twoPA": 5,
@@ -1808,7 +1808,7 @@
     {
       "gameID": "GWBB2016-20151215-A-BRECKI",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 2,
       "twoPA": 2,
@@ -1824,7 +1824,7 @@
     {
       "gameID": "GWBB2016-20151217-A-HANCOC",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 1,
       "twoPA": 2,
@@ -1840,7 +1840,7 @@
     {
       "gameID": "GWBB2016-20151217-A-HANCOC",
       "playerID": "BEAJAK2016",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 0,
       "twoPA": 1,
@@ -1856,7 +1856,7 @@
     {
       "gameID": "GWBB2016-20151217-A-HANCOC",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 6,
       "twoPA": 11,
@@ -1872,7 +1872,7 @@
     {
       "gameID": "GWBB2016-20151217-A-HANCOC",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 4,
       "twoPA": 9,
@@ -1888,7 +1888,7 @@
     {
       "gameID": "GWBB2016-20151217-A-HANCOC",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 5,
       "twoPA": 7,
@@ -1904,7 +1904,7 @@
     {
       "gameID": "GWBB2016-20151217-A-HANCOC",
       "playerID": "AMMGAR2017",
-      "jersey": 11.0,
+      "jersey": 11,
       "playerName": "Garrett Ammons",
       "twoPM": 0,
       "twoPA": 0,
@@ -1920,7 +1920,7 @@
     {
       "gameID": "GWBB2016-20151217-A-HANCOC",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 1,
       "twoPA": 2,
@@ -1936,7 +1936,7 @@
     {
       "gameID": "GWBB2016-20151217-A-HANCOC",
       "playerID": "MEDCAS2017",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Case Medley",
       "twoPM": 0,
       "twoPA": 0,
@@ -1952,7 +1952,7 @@
     {
       "gameID": "GWBB2016-20151217-A-HANCOC",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 0,
       "twoPA": 2,
@@ -1968,7 +1968,7 @@
     {
       "gameID": "GWBB2016-20151217-A-HANCOC",
       "playerID": "CLADAK2017",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Dakota Clayton",
       "twoPM": 0,
       "twoPA": 0,
@@ -1984,7 +1984,7 @@
     {
       "gameID": "GWBB2016-20151217-A-HANCOC",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 6,
       "twoPA": 6,
@@ -2000,7 +2000,7 @@
     {
       "gameID": "GWBB2016-20151221-N-BOURBO",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 9,
       "twoPA": 0,
@@ -2016,7 +2016,7 @@
     {
       "gameID": "GWBB2016-20151221-N-BOURBO",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 1,
       "twoPA": 0,
@@ -2032,7 +2032,7 @@
     {
       "gameID": "GWBB2016-20151221-N-BOURBO",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 2,
       "twoPA": 0,
@@ -2048,7 +2048,7 @@
     {
       "gameID": "GWBB2016-20151221-N-BOURBO",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 1,
       "twoPA": 0,
@@ -2064,7 +2064,7 @@
     {
       "gameID": "GWBB2016-20151221-N-BOURBO",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 0,
@@ -2080,7 +2080,7 @@
     {
       "gameID": "GWBB2016-20151221-N-BOURBO",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 2,
       "twoPA": 0,
@@ -2096,7 +2096,7 @@
     {
       "gameID": "GWBB2016-20151221-N-BOURBO",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 5,
       "twoPA": 0,
@@ -2112,7 +2112,7 @@
     {
       "gameID": "GWBB2016-20151222-N-COLLIN",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 6,
       "twoPA": 7,
@@ -2128,7 +2128,7 @@
     {
       "gameID": "GWBB2016-20151222-N-COLLIN",
       "playerID": "BEAJAK2016",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 0,
       "twoPA": 0,
@@ -2144,7 +2144,7 @@
     {
       "gameID": "GWBB2016-20151222-N-COLLIN",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 0,
       "twoPA": 1,
@@ -2160,7 +2160,7 @@
     {
       "gameID": "GWBB2016-20151222-N-COLLIN",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 4,
       "twoPA": 7,
@@ -2176,7 +2176,7 @@
     {
       "gameID": "GWBB2016-20151222-N-COLLIN",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 0,
       "twoPA": 2,
@@ -2192,7 +2192,7 @@
     {
       "gameID": "GWBB2016-20151222-N-COLLIN",
       "playerID": "AMMGAR2017",
-      "jersey": 11.0,
+      "jersey": 11,
       "playerName": "Garrett Ammons",
       "twoPM": 0,
       "twoPA": 0,
@@ -2208,7 +2208,7 @@
     {
       "gameID": "GWBB2016-20151222-N-COLLIN",
       "playerID": "MEDCAS2017",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Case Medley",
       "twoPM": 0,
       "twoPA": 0,
@@ -2224,7 +2224,7 @@
     {
       "gameID": "GWBB2016-20151222-N-COLLIN",
       "playerID": "CLADAK2017",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Dakota Clayton",
       "twoPM": 0,
       "twoPA": 0,
@@ -2240,7 +2240,7 @@
     {
       "gameID": "GWBB2016-20151222-N-COLLIN",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 0,
       "twoPA": 0,
@@ -2256,7 +2256,7 @@
     {
       "gameID": "GWBB2016-20151222-N-COLLIN",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 0,
@@ -2272,7 +2272,7 @@
     {
       "gameID": "GWBB2016-20151222-N-COLLIN",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 4,
       "twoPA": 8,
@@ -2288,7 +2288,7 @@
     {
       "gameID": "GWBB2016-20151223-A-MERCER",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 0,
@@ -2304,7 +2304,7 @@
     {
       "gameID": "GWBB2016-20151223-A-MERCER",
       "playerID": "BEAJAK2016",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 0,
       "twoPA": 0,
@@ -2320,7 +2320,7 @@
     {
       "gameID": "GWBB2016-20151223-A-MERCER",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 2,
       "twoPA": 6,
@@ -2336,7 +2336,7 @@
     {
       "gameID": "GWBB2016-20151223-A-MERCER",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 2,
       "twoPA": 4,
@@ -2352,7 +2352,7 @@
     {
       "gameID": "GWBB2016-20151223-A-MERCER",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 0,
       "twoPA": 2,
@@ -2368,7 +2368,7 @@
     {
       "gameID": "GWBB2016-20151223-A-MERCER",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 0,
       "twoPA": 2,
@@ -2384,7 +2384,7 @@
     {
       "gameID": "GWBB2016-20151223-A-MERCER",
       "playerID": "AMMGAR2017",
-      "jersey": 11.0,
+      "jersey": 11,
       "playerName": "Garrett Ammons",
       "twoPM": 0,
       "twoPA": 0,
@@ -2400,7 +2400,7 @@
     {
       "gameID": "GWBB2016-20151223-A-MERCER",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 0,
       "twoPA": 3,
@@ -2416,7 +2416,7 @@
     {
       "gameID": "GWBB2016-20151223-A-MERCER",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 4,
       "twoPA": 7,
@@ -2432,7 +2432,7 @@
     {
       "gameID": "GWBB2016-20151228-N-JEFFER",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 8,
       "twoPA": 8,
@@ -2448,7 +2448,7 @@
     {
       "gameID": "GWBB2016-20151228-N-JEFFER",
       "playerID": "BEAJAK2016",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 1,
       "twoPA": 2,
@@ -2464,7 +2464,7 @@
     {
       "gameID": "GWBB2016-20151228-N-JEFFER",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 2,
       "twoPA": 4,
@@ -2480,7 +2480,7 @@
     {
       "gameID": "GWBB2016-20151228-N-JEFFER",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 4,
       "twoPA": 4,
@@ -2496,7 +2496,7 @@
     {
       "gameID": "GWBB2016-20151228-N-JEFFER",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 2,
       "twoPA": 2,
@@ -2512,7 +2512,7 @@
     {
       "gameID": "GWBB2016-20151228-N-JEFFER",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 0,
       "twoPA": 0,
@@ -2528,7 +2528,7 @@
     {
       "gameID": "GWBB2016-20151228-N-JEFFER",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 2,
       "twoPA": 6,
@@ -2544,7 +2544,7 @@
     {
       "gameID": "GWBB2016-20151228-N-JEFFER",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 10,
       "twoPA": 13,
@@ -2560,7 +2560,7 @@
     {
       "gameID": "GWBB2016-20151229-N-MASONC",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 4,
       "twoPA": 9,
@@ -2576,7 +2576,7 @@
     {
       "gameID": "GWBB2016-20151229-N-MASONC",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 3,
       "twoPA": 6,
@@ -2592,7 +2592,7 @@
     {
       "gameID": "GWBB2016-20151229-N-MASONC",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 0,
       "twoPA": 2,
@@ -2608,7 +2608,7 @@
     {
       "gameID": "GWBB2016-20151229-N-MASONC",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 0,
       "twoPA": 0,
@@ -2624,7 +2624,7 @@
     {
       "gameID": "GWBB2016-20151229-N-MASONC",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 0,
@@ -2640,7 +2640,7 @@
     {
       "gameID": "GWBB2016-20151229-N-MASONC",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 4,
       "twoPA": 8,
@@ -2656,7 +2656,7 @@
     {
       "gameID": "GWBB2016-20151229-N-MASONC",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 5,
       "twoPA": 9,
@@ -2672,7 +2672,7 @@
     {
       "gameID": "GWBB2016-20151230-A-SOUTHO",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 5,
       "twoPA": 7,
@@ -2688,7 +2688,7 @@
     {
       "gameID": "GWBB2016-20151230-A-SOUTHO",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 3,
       "twoPA": 7,
@@ -2704,7 +2704,7 @@
     {
       "gameID": "GWBB2016-20151230-A-SOUTHO",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 1,
       "twoPA": 1,
@@ -2720,7 +2720,7 @@
     {
       "gameID": "GWBB2016-20151230-A-SOUTHO",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 1,
       "twoPA": 3,
@@ -2736,7 +2736,7 @@
     {
       "gameID": "GWBB2016-20151230-A-SOUTHO",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 1,
       "twoPA": 2,
@@ -2752,7 +2752,7 @@
     {
       "gameID": "GWBB2016-20151230-A-SOUTHO",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 3,
       "twoPA": 4,
@@ -2768,7 +2768,7 @@
     {
       "gameID": "GWBB2016-20151230-A-SOUTHO",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 6,
       "twoPA": 8,
@@ -2782,9 +2782,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160105-H-BULLIT",
+      "gameID": "GWBB2016-20160105-H-BULCEN",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 8,
       "twoPA": 16,
@@ -2798,9 +2798,9 @@
       "doubleDouble": true
     },
     {
-      "gameID": "GWBB2016-20160105-H-BULLIT",
+      "gameID": "GWBB2016-20160105-H-BULCEN",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 0,
       "twoPA": 1,
@@ -2814,9 +2814,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160105-H-BULLIT",
+      "gameID": "GWBB2016-20160105-H-BULCEN",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 2,
       "twoPA": 7,
@@ -2830,9 +2830,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160105-H-BULLIT",
+      "gameID": "GWBB2016-20160105-H-BULCEN",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 0,
       "twoPA": 1,
@@ -2846,9 +2846,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160105-H-BULLIT",
+      "gameID": "GWBB2016-20160105-H-BULCEN",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 0,
@@ -2862,9 +2862,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160105-H-BULLIT",
+      "gameID": "GWBB2016-20160105-H-BULCEN",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 3,
       "twoPA": 4,
@@ -2878,9 +2878,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160105-H-BULLIT",
+      "gameID": "GWBB2016-20160105-H-BULCEN",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 4,
       "twoPA": 6,
@@ -2896,7 +2896,7 @@
     {
       "gameID": "GWBB2016-20160108-A-JOHNHA",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 3,
       "twoPA": 9,
@@ -2912,7 +2912,7 @@
     {
       "gameID": "GWBB2016-20160108-A-JOHNHA",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 6,
       "twoPA": 9,
@@ -2928,7 +2928,7 @@
     {
       "gameID": "GWBB2016-20160108-A-JOHNHA",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 2,
       "twoPA": 3,
@@ -2944,7 +2944,7 @@
     {
       "gameID": "GWBB2016-20160108-A-JOHNHA",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 0,
       "twoPA": 0,
@@ -2960,7 +2960,7 @@
     {
       "gameID": "GWBB2016-20160108-A-JOHNHA",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 0,
@@ -2976,7 +2976,7 @@
     {
       "gameID": "GWBB2016-20160108-A-JOHNHA",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 2,
       "twoPA": 9,
@@ -2992,7 +2992,7 @@
     {
       "gameID": "GWBB2016-20160108-A-JOHNHA",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 4,
       "twoPA": 5,
@@ -3008,7 +3008,7 @@
     {
       "gameID": "GWBB2016-20160112-H-HANCOC",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 7,
       "twoPA": 11,
@@ -3024,7 +3024,7 @@
     {
       "gameID": "GWBB2016-20160112-H-HANCOC",
       "playerID": "BEAJAK2016",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 0,
       "twoPA": 0,
@@ -3040,7 +3040,7 @@
     {
       "gameID": "GWBB2016-20160112-H-HANCOC",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 0,
       "twoPA": 2,
@@ -3056,7 +3056,7 @@
     {
       "gameID": "GWBB2016-20160112-H-HANCOC",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 3,
       "twoPA": 3,
@@ -3072,7 +3072,7 @@
     {
       "gameID": "GWBB2016-20160112-H-HANCOC",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 1,
       "twoPA": 2,
@@ -3088,7 +3088,7 @@
     {
       "gameID": "GWBB2016-20160112-H-HANCOC",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 0,
       "twoPA": 0,
@@ -3104,7 +3104,7 @@
     {
       "gameID": "GWBB2016-20160112-H-HANCOC",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 0,
@@ -3120,7 +3120,7 @@
     {
       "gameID": "GWBB2016-20160112-H-HANCOC",
       "playerID": "CLADAK2017",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Dakota Clayton",
       "twoPM": 0,
       "twoPA": 0,
@@ -3152,7 +3152,7 @@
     {
       "gameID": "GWBB2016-20160112-H-HANCOC",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 10,
       "twoPA": 11,
@@ -3168,7 +3168,7 @@
     {
       "gameID": "GWBB2016-20160115-A-ELIZAB",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 2,
       "twoPA": 5,
@@ -3184,7 +3184,7 @@
     {
       "gameID": "GWBB2016-20160115-A-ELIZAB",
       "playerID": "BEAJAK2016",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 1,
       "twoPA": 1,
@@ -3200,7 +3200,7 @@
     {
       "gameID": "GWBB2016-20160115-A-ELIZAB",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 2,
       "twoPA": 3,
@@ -3216,7 +3216,7 @@
     {
       "gameID": "GWBB2016-20160115-A-ELIZAB",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 2,
       "twoPA": 6,
@@ -3232,7 +3232,7 @@
     {
       "gameID": "GWBB2016-20160115-A-ELIZAB",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 3,
       "twoPA": 5,
@@ -3248,7 +3248,7 @@
     {
       "gameID": "GWBB2016-20160115-A-ELIZAB",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 0,
@@ -3264,7 +3264,7 @@
     {
       "gameID": "GWBB2016-20160115-A-ELIZAB",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 2,
       "twoPA": 5,
@@ -3280,7 +3280,7 @@
     {
       "gameID": "GWBB2016-20160115-A-ELIZAB",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 4,
       "twoPA": 12,
@@ -3296,7 +3296,7 @@
     {
       "gameID": "GWBB2016-20160119-H-NORTHH",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 5,
       "twoPA": 9,
@@ -3312,7 +3312,7 @@
     {
       "gameID": "GWBB2016-20160119-H-NORTHH",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 6,
       "twoPA": 6,
@@ -3328,7 +3328,7 @@
     {
       "gameID": "GWBB2016-20160119-H-NORTHH",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 3,
       "twoPA": 4,
@@ -3344,7 +3344,7 @@
     {
       "gameID": "GWBB2016-20160119-H-NORTHH",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 0,
       "twoPA": 0,
@@ -3360,7 +3360,7 @@
     {
       "gameID": "GWBB2016-20160119-H-NORTHH",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 0,
@@ -3376,7 +3376,7 @@
     {
       "gameID": "GWBB2016-20160119-H-NORTHH",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 0,
       "twoPA": 2,
@@ -3392,7 +3392,7 @@
     {
       "gameID": "GWBB2016-20160119-H-NORTHH",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 4,
       "twoPA": 5,
@@ -3406,9 +3406,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160126-A-BULLIT",
+      "gameID": "GWBB2016-20160126-A-BULEAS",
       "playerID": "AMMGAR2017",
-      "jersey": 11.0,
+      "jersey": 11,
       "playerName": "Garrett Ammons",
       "twoPM": 0,
       "twoPA": 0,
@@ -3422,9 +3422,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160126-A-BULLIT",
+      "gameID": "GWBB2016-20160126-A-BULEAS",
       "playerID": "BEAJAK2016",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 2,
       "twoPA": 2,
@@ -3438,9 +3438,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160126-A-BULLIT",
+      "gameID": "GWBB2016-20160126-A-BULEAS",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 4,
       "twoPA": 5,
@@ -3454,9 +3454,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160126-A-BULLIT",
+      "gameID": "GWBB2016-20160126-A-BULEAS",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 2,
       "twoPA": 10,
@@ -3470,9 +3470,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160126-A-BULLIT",
+      "gameID": "GWBB2016-20160126-A-BULEAS",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 0,
       "twoPA": 1,
@@ -3486,9 +3486,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160126-A-BULLIT",
+      "gameID": "GWBB2016-20160126-A-BULEAS",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 2,
       "twoPA": 5,
@@ -3502,9 +3502,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160126-A-BULLIT",
+      "gameID": "GWBB2016-20160126-A-BULEAS",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 0,
       "twoPA": 1,
@@ -3518,9 +3518,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160126-A-BULLIT",
+      "gameID": "GWBB2016-20160126-A-BULEAS",
       "playerID": "CLADAK2017",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Dakota Clayton",
       "twoPM": 0,
       "twoPA": 1,
@@ -3534,9 +3534,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160126-A-BULLIT",
+      "gameID": "GWBB2016-20160126-A-BULEAS",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 1,
       "twoPA": 1,
@@ -3550,9 +3550,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160126-A-BULLIT",
+      "gameID": "GWBB2016-20160126-A-BULEAS",
       "playerID": "WEICHE2019",
-      "jersey": 25.0,
+      "jersey": 25,
       "playerName": "Chesney Weick",
       "twoPM": 0,
       "twoPA": 2,
@@ -3566,9 +3566,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160126-A-BULLIT",
+      "gameID": "GWBB2016-20160126-A-BULEAS",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 2,
       "twoPA": 4,
@@ -3584,7 +3584,7 @@
     {
       "gameID": "GWBB2016-20160129-H-BRECKI",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 3,
       "twoPA": 9,
@@ -3600,7 +3600,7 @@
     {
       "gameID": "GWBB2016-20160129-H-BRECKI",
       "playerID": "BEAJAK2016",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 0,
       "twoPA": 0,
@@ -3616,7 +3616,7 @@
     {
       "gameID": "GWBB2016-20160129-H-BRECKI",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 4,
       "twoPA": 5,
@@ -3632,7 +3632,7 @@
     {
       "gameID": "GWBB2016-20160129-H-BRECKI",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 4,
       "twoPA": 7,
@@ -3648,7 +3648,7 @@
     {
       "gameID": "GWBB2016-20160129-H-BRECKI",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 0,
       "twoPA": 0,
@@ -3664,7 +3664,7 @@
     {
       "gameID": "GWBB2016-20160129-H-BRECKI",
       "playerID": "AMMGAR2017",
-      "jersey": 11.0,
+      "jersey": 11,
       "playerName": "Garrett Ammons",
       "twoPM": 0,
       "twoPA": 0,
@@ -3680,7 +3680,7 @@
     {
       "gameID": "GWBB2016-20160129-H-BRECKI",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 1,
       "twoPA": 2,
@@ -3696,7 +3696,7 @@
     {
       "gameID": "GWBB2016-20160129-H-BRECKI",
       "playerID": "MEDCAS2017",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Case Medley",
       "twoPM": 0,
       "twoPA": 0,
@@ -3712,7 +3712,7 @@
     {
       "gameID": "GWBB2016-20160129-H-BRECKI",
       "playerID": "CLADAK2017",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Dakota Clayton",
       "twoPM": 0,
       "twoPA": 0,
@@ -3728,7 +3728,7 @@
     {
       "gameID": "GWBB2016-20160129-H-BRECKI",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 0,
       "twoPA": 0,
@@ -3744,7 +3744,7 @@
     {
       "gameID": "GWBB2016-20160129-H-BRECKI",
       "playerID": "WEICHE2019",
-      "jersey": 25.0,
+      "jersey": 25,
       "playerName": "Chesney Weick",
       "twoPM": 2,
       "twoPA": 2,
@@ -3760,7 +3760,7 @@
     {
       "gameID": "GWBB2016-20160129-H-BRECKI",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 0,
@@ -3776,7 +3776,7 @@
     {
       "gameID": "GWBB2016-20160130-N-BARDST",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 3,
       "twoPA": 6,
@@ -3792,7 +3792,7 @@
     {
       "gameID": "GWBB2016-20160130-N-BARDST",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 4,
       "twoPA": 6,
@@ -3808,7 +3808,7 @@
     {
       "gameID": "GWBB2016-20160130-N-BARDST",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 2,
       "twoPA": 5,
@@ -3824,7 +3824,7 @@
     {
       "gameID": "GWBB2016-20160130-N-BARDST",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 3,
       "twoPA": 3,
@@ -3840,7 +3840,7 @@
     {
       "gameID": "GWBB2016-20160130-N-BARDST",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 0,
@@ -3856,7 +3856,7 @@
     {
       "gameID": "GWBB2016-20160130-N-BARDST",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 3,
       "twoPA": 5,
@@ -3872,7 +3872,7 @@
     {
       "gameID": "GWBB2016-20160130-N-BARDST",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 3,
       "twoPA": 4,
@@ -3888,7 +3888,7 @@
     {
       "gameID": "GWBB2016-20160205-H-CLOVER",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 7,
       "twoPA": 9,
@@ -3904,7 +3904,7 @@
     {
       "gameID": "GWBB2016-20160205-H-CLOVER",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 5,
       "twoPA": 6,
@@ -3920,7 +3920,7 @@
     {
       "gameID": "GWBB2016-20160205-H-CLOVER",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 1,
       "twoPA": 2,
@@ -3936,7 +3936,7 @@
     {
       "gameID": "GWBB2016-20160205-H-CLOVER",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 1,
       "twoPA": 2,
@@ -3952,7 +3952,7 @@
     {
       "gameID": "GWBB2016-20160205-H-CLOVER",
       "playerID": "BENSTE2018",
-      "jersey": 22.0,
+      "jersey": 22,
       "playerName": "Steven Benock",
       "twoPM": 0,
       "twoPA": 0,
@@ -3968,7 +3968,7 @@
     {
       "gameID": "GWBB2016-20160205-H-CLOVER",
       "playerID": "AMMGAR2017",
-      "jersey": 11.0,
+      "jersey": 11,
       "playerName": "Garrett Ammons",
       "twoPM": 0,
       "twoPA": 1,
@@ -3984,7 +3984,7 @@
     {
       "gameID": "GWBB2016-20160205-H-CLOVER",
       "playerID": "WEICHE2019",
-      "jersey": 25.0,
+      "jersey": 25,
       "playerName": "Chesney Weick",
       "twoPM": 3,
       "twoPA": 4,
@@ -4000,7 +4000,7 @@
     {
       "gameID": "GWBB2016-20160205-H-CLOVER",
       "playerID": "CLADAK2017",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Dakota Clayton",
       "twoPM": 0,
       "twoPA": 0,
@@ -4016,7 +4016,7 @@
     {
       "gameID": "GWBB2016-20160205-H-CLOVER",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 1,
       "twoPA": 1,
@@ -4032,7 +4032,7 @@
     {
       "gameID": "GWBB2016-20160205-H-CLOVER",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 1,
@@ -4048,7 +4048,7 @@
     {
       "gameID": "GWBB2016-20160205-H-CLOVER",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 4,
       "twoPA": 4,
@@ -4064,7 +4064,7 @@
     {
       "gameID": "GWBB2016-20160206-U-DAVIES",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 4,
       "twoPA": 10,
@@ -4080,7 +4080,7 @@
     {
       "gameID": "GWBB2016-20160206-U-DAVIES",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 1,
       "twoPA": 9,
@@ -4096,7 +4096,7 @@
     {
       "gameID": "GWBB2016-20160206-U-DAVIES",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 1,
       "twoPA": 5,
@@ -4112,7 +4112,7 @@
     {
       "gameID": "GWBB2016-20160206-U-DAVIES",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 1,
       "twoPA": 3,
@@ -4128,7 +4128,7 @@
     {
       "gameID": "GWBB2016-20160206-U-DAVIES",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 1,
@@ -4144,7 +4144,7 @@
     {
       "gameID": "GWBB2016-20160206-U-DAVIES",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 2,
       "twoPA": 6,
@@ -4160,7 +4160,7 @@
     {
       "gameID": "GWBB2016-20160206-U-DAVIES",
       "playerID": "WEICHE2019",
-      "jersey": 25.0,
+      "jersey": 25,
       "playerName": "Chesney Weick",
       "twoPM": 0,
       "twoPA": 0,
@@ -4176,7 +4176,7 @@
     {
       "gameID": "GWBB2016-20160206-U-DAVIES",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 2,
       "twoPA": 2,
@@ -4192,7 +4192,7 @@
     {
       "gameID": "GWBB2016-20160211-H-JOHNHA",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 7,
       "twoPA": 11,
@@ -4208,7 +4208,7 @@
     {
       "gameID": "GWBB2016-20160211-H-JOHNHA",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 4,
       "twoPA": 10,
@@ -4224,7 +4224,7 @@
     {
       "gameID": "GWBB2016-20160211-H-JOHNHA",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 2,
       "twoPA": 4,
@@ -4240,7 +4240,7 @@
     {
       "gameID": "GWBB2016-20160211-H-JOHNHA",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 1,
       "twoPA": 4,
@@ -4256,7 +4256,7 @@
     {
       "gameID": "GWBB2016-20160211-H-JOHNHA",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 0,
@@ -4272,7 +4272,7 @@
     {
       "gameID": "GWBB2016-20160211-H-JOHNHA",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 2,
       "twoPA": 5,
@@ -4288,7 +4288,7 @@
     {
       "gameID": "GWBB2016-20160211-H-JOHNHA",
       "playerID": "WEICHE2019",
-      "jersey": 25.0,
+      "jersey": 25,
       "playerName": "Chesney Weick",
       "twoPM": 0,
       "twoPA": 0,
@@ -4304,7 +4304,7 @@
     {
       "gameID": "GWBB2016-20160211-H-JOHNHA",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 6,
       "twoPA": 11,
@@ -4320,7 +4320,7 @@
     {
       "gameID": "GWBB2016-20160212-A-NORTHO",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 3,
       "twoPA": 8,
@@ -4336,7 +4336,7 @@
     {
       "gameID": "GWBB2016-20160212-A-NORTHO",
       "playerID": "BEAJAK2016",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 0,
       "twoPA": 0,
@@ -4352,7 +4352,7 @@
     {
       "gameID": "GWBB2016-20160212-A-NORTHO",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 6,
       "twoPA": 7,
@@ -4368,7 +4368,7 @@
     {
       "gameID": "GWBB2016-20160212-A-NORTHO",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 1,
       "twoPA": 4,
@@ -4384,7 +4384,7 @@
     {
       "gameID": "GWBB2016-20160212-A-NORTHO",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 0,
@@ -4400,7 +4400,7 @@
     {
       "gameID": "GWBB2016-20160212-A-NORTHO",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 1,
       "twoPA": 4,
@@ -4416,7 +4416,7 @@
     {
       "gameID": "GWBB2016-20160212-A-NORTHO",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 2,
       "twoPA": 3,
@@ -4432,7 +4432,7 @@
     {
       "gameID": "GWBB2016-20160212-A-NORTHO",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 2,
       "twoPA": 4,
@@ -4448,7 +4448,7 @@
     {
       "gameID": "GWBB2016-20160216-A-OLDHAM",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 2,
       "twoPA": 8,
@@ -4464,7 +4464,7 @@
     {
       "gameID": "GWBB2016-20160216-A-OLDHAM",
       "playerID": "BEAJAK2016",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 0,
       "twoPA": 0,
@@ -4480,7 +4480,7 @@
     {
       "gameID": "GWBB2016-20160216-A-OLDHAM",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 6,
       "twoPA": 9,
@@ -4496,7 +4496,7 @@
     {
       "gameID": "GWBB2016-20160216-A-OLDHAM",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 2,
       "twoPA": 5,
@@ -4512,7 +4512,7 @@
     {
       "gameID": "GWBB2016-20160216-A-OLDHAM",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 1,
       "twoPA": 6,
@@ -4528,7 +4528,7 @@
     {
       "gameID": "GWBB2016-20160216-A-OLDHAM",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 1,
       "twoPA": 2,
@@ -4544,7 +4544,7 @@
     {
       "gameID": "GWBB2016-20160216-A-OLDHAM",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 1,
       "twoPA": 1,
@@ -4560,7 +4560,7 @@
     {
       "gameID": "GWBB2016-20160216-A-OLDHAM",
       "playerID": "AMMGAR2017",
-      "jersey": 11.0,
+      "jersey": 11,
       "playerName": "Garrett Ammons",
       "twoPM": 0,
       "twoPA": 0,
@@ -4576,7 +4576,7 @@
     {
       "gameID": "GWBB2016-20160216-A-OLDHAM",
       "playerID": "CLADAK2017",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Dakota Clayton",
       "twoPM": 0,
       "twoPA": 0,
@@ -4592,7 +4592,7 @@
     {
       "gameID": "GWBB2016-20160216-A-OLDHAM",
       "playerID": "WEICHE2019",
-      "jersey": 25.0,
+      "jersey": 25,
       "playerName": "Chesney Weick",
       "twoPM": 0,
       "twoPA": 0,
@@ -4606,9 +4606,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160218-H-CENTRA",
+      "gameID": "GWBB2016-20160218-H-CHARDI",
       "playerID": "BEAJAK2016",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 0,
       "twoPA": 0,
@@ -4622,9 +4622,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160218-H-CENTRA",
+      "gameID": "GWBB2016-20160218-H-CHARDI",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 5,
       "twoPA": 11,
@@ -4638,9 +4638,9 @@
       "doubleDouble": true
     },
     {
-      "gameID": "GWBB2016-20160218-H-CENTRA",
+      "gameID": "GWBB2016-20160218-H-CHARDI",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 2,
       "twoPA": 5,
@@ -4654,9 +4654,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160218-H-CENTRA",
+      "gameID": "GWBB2016-20160218-H-CHARDI",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 1,
       "twoPA": 3,
@@ -4670,9 +4670,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160218-H-CENTRA",
+      "gameID": "GWBB2016-20160218-H-CHARDI",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 2,
       "twoPA": 4,
@@ -4686,9 +4686,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160218-H-CENTRA",
+      "gameID": "GWBB2016-20160218-H-CHARDI",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 0,
@@ -4702,9 +4702,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160218-H-CENTRA",
+      "gameID": "GWBB2016-20160218-H-CHARDI",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 6,
       "twoPA": 8,
@@ -4718,9 +4718,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160218-H-CENTRA",
+      "gameID": "GWBB2016-20160218-H-CHARDI",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 1,
       "twoPA": 3,
@@ -4736,7 +4736,7 @@
     {
       "gameID": "GWBB2016-20160223-H-CLOVER",
       "playerID": "AMMGAR2017",
-      "jersey": 11.0,
+      "jersey": 11,
       "playerName": "Garrett Ammons",
       "twoPM": 0,
       "twoPA": 1,
@@ -4752,7 +4752,7 @@
     {
       "gameID": "GWBB2016-20160223-H-CLOVER",
       "playerID": "BEAJAK2016",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 1,
       "twoPA": 1,
@@ -4768,7 +4768,7 @@
     {
       "gameID": "GWBB2016-20160223-H-CLOVER",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 3,
       "twoPA": 4,
@@ -4784,7 +4784,7 @@
     {
       "gameID": "GWBB2016-20160223-H-CLOVER",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 5,
       "twoPA": 6,
@@ -4800,7 +4800,7 @@
     {
       "gameID": "GWBB2016-20160223-H-CLOVER",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 0,
       "twoPA": 0,
@@ -4816,7 +4816,7 @@
     {
       "gameID": "GWBB2016-20160223-H-CLOVER",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 2,
       "twoPA": 2,
@@ -4832,7 +4832,7 @@
     {
       "gameID": "GWBB2016-20160223-H-CLOVER",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 2,
       "twoPA": 4,
@@ -4848,7 +4848,7 @@
     {
       "gameID": "GWBB2016-20160223-H-CLOVER",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 3,
       "twoPA": 3,
@@ -4880,7 +4880,7 @@
     {
       "gameID": "GWBB2016-20160223-H-CLOVER",
       "playerID": "BENSTE2018",
-      "jersey": 22.0,
+      "jersey": 22,
       "playerName": "Steven Benock",
       "twoPM": 0,
       "twoPA": 1,
@@ -4896,7 +4896,7 @@
     {
       "gameID": "GWBB2016-20160223-H-CLOVER",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 1,
       "twoPA": 2,
@@ -4912,7 +4912,7 @@
     {
       "gameID": "GWBB2016-20160223-H-CLOVER",
       "playerID": "CLADAK2017",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Dakota Clayton",
       "twoPM": 2,
       "twoPA": 4,
@@ -4928,7 +4928,7 @@
     {
       "gameID": "GWBB2016-20160223-H-CLOVER",
       "playerID": "MATAID2018",
-      "jersey": 32.0,
+      "jersey": 32,
       "playerName": "Aiden Matthews",
       "twoPM": 0,
       "twoPA": 0,
@@ -4944,7 +4944,7 @@
     {
       "gameID": "GWBB2016-20160223-H-CLOVER",
       "playerID": "WEICHE2019",
-      "jersey": 25.0,
+      "jersey": 25,
       "playerName": "Chesney Weick",
       "twoPM": 0,
       "twoPA": 0,
@@ -4960,7 +4960,7 @@
     {
       "gameID": "GWBB2016-20160226-H-BRECKI",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 12,
       "twoPA": 23,
@@ -4976,7 +4976,7 @@
     {
       "gameID": "GWBB2016-20160226-H-BRECKI",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 3,
       "twoPA": 6,
@@ -4992,7 +4992,7 @@
     {
       "gameID": "GWBB2016-20160226-H-BRECKI",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 5,
       "twoPA": 9,
@@ -5008,7 +5008,7 @@
     {
       "gameID": "GWBB2016-20160226-H-BRECKI",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 2,
       "twoPA": 7,
@@ -5024,7 +5024,7 @@
     {
       "gameID": "GWBB2016-20160226-H-BRECKI",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 1,
@@ -5040,7 +5040,7 @@
     {
       "gameID": "GWBB2016-20160226-H-BRECKI",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 3,
       "twoPA": 4,
@@ -5056,7 +5056,7 @@
     {
       "gameID": "GWBB2016-20160226-H-BRECKI",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 3,
       "twoPA": 6,
@@ -5072,7 +5072,7 @@
     {
       "gameID": "GWBB2016-20160303-N-GRAYSO",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 6,
       "twoPA": 8,
@@ -5088,7 +5088,7 @@
     {
       "gameID": "GWBB2016-20160303-N-GRAYSO",
       "playerID": "BEAJAK2016",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 2,
       "twoPA": 5,
@@ -5104,7 +5104,7 @@
     {
       "gameID": "GWBB2016-20160303-N-GRAYSO",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 8,
       "twoPA": 8,
@@ -5120,7 +5120,7 @@
     {
       "gameID": "GWBB2016-20160303-N-GRAYSO",
       "playerID": "AMMGAR2017",
-      "jersey": 11.0,
+      "jersey": 11,
       "playerName": "Garrett Ammons",
       "twoPM": 0,
       "twoPA": 0,
@@ -5136,7 +5136,7 @@
     {
       "gameID": "GWBB2016-20160303-N-GRAYSO",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 1,
       "twoPA": 3,
@@ -5152,7 +5152,7 @@
     {
       "gameID": "GWBB2016-20160303-N-GRAYSO",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 1,
       "twoPA": 4,
@@ -5168,7 +5168,7 @@
     {
       "gameID": "GWBB2016-20160303-N-GRAYSO",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 0,
       "twoPA": 0,
@@ -5184,7 +5184,7 @@
     {
       "gameID": "GWBB2016-20160303-N-GRAYSO",
       "playerID": "MATAID2018",
-      "jersey": 32.0,
+      "jersey": 32,
       "playerName": "Aiden Matthews",
       "twoPM": 0,
       "twoPA": 1,
@@ -5200,7 +5200,7 @@
     {
       "gameID": "GWBB2016-20160303-N-GRAYSO",
       "playerID": "MEDCAS2017",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Case Medley",
       "twoPM": 0,
       "twoPA": 0,
@@ -5216,7 +5216,7 @@
     {
       "gameID": "GWBB2016-20160303-N-GRAYSO",
       "playerID": "SCHNOA2018",
-      "jersey": 13.0,
+      "jersey": 13,
       "playerName": "Noah Schwartz",
       "twoPM": 0,
       "twoPA": 0,
@@ -5232,7 +5232,7 @@
     {
       "gameID": "GWBB2016-20160303-N-GRAYSO",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 1,
       "twoPA": 3,
@@ -5248,7 +5248,7 @@
     {
       "gameID": "GWBB2016-20160303-N-GRAYSO",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 1,
       "twoPA": 3,
@@ -5264,7 +5264,7 @@
     {
       "gameID": "GWBB2016-20160303-N-GRAYSO",
       "playerID": "BENSTE2018",
-      "jersey": 22.0,
+      "jersey": 22,
       "playerName": "Steven Benock",
       "twoPM": 0,
       "twoPA": 0,
@@ -5280,7 +5280,7 @@
     {
       "gameID": "GWBB2016-20160303-N-GRAYSO",
       "playerID": "CLADAK2017",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Dakota Clayton",
       "twoPM": 0,
       "twoPA": 0,
@@ -5296,7 +5296,7 @@
     {
       "gameID": "GWBB2016-20160303-N-GRAYSO",
       "playerID": "WEICHE2019",
-      "jersey": 25.0,
+      "jersey": 25,
       "playerName": "Chesney Weick",
       "twoPM": 0,
       "twoPA": 1,
@@ -5310,9 +5310,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160305-N-MUHLEN",
+      "gameID": "GWBB2016-20160305-N-MUHLCO",
       "playerID": "BEAJAK2016",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 0,
       "twoPA": 0,
@@ -5326,9 +5326,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160305-N-MUHLEN",
+      "gameID": "GWBB2016-20160305-N-MUHLCO",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 8,
       "twoPA": 13,
@@ -5342,9 +5342,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160305-N-MUHLEN",
+      "gameID": "GWBB2016-20160305-N-MUHLCO",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 3,
       "twoPA": 7,
@@ -5358,9 +5358,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160305-N-MUHLEN",
+      "gameID": "GWBB2016-20160305-N-MUHLCO",
       "playerID": "MATKAS2016",
-      "jersey": 5.0,
+      "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 2,
       "twoPA": 3,
@@ -5374,9 +5374,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160305-N-MUHLEN",
+      "gameID": "GWBB2016-20160305-N-MUHLCO",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 2,
       "twoPA": 3,
@@ -5390,9 +5390,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160305-N-MUHLEN",
+      "gameID": "GWBB2016-20160305-N-MUHLCO",
       "playerID": "AMMGAR2017",
-      "jersey": 11.0,
+      "jersey": 11,
       "playerName": "Garrett Ammons",
       "twoPM": 0,
       "twoPA": 0,
@@ -5406,9 +5406,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160305-N-MUHLEN",
+      "gameID": "GWBB2016-20160305-N-MUHLCO",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 2,
       "twoPA": 3,
@@ -5422,9 +5422,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160305-N-MUHLEN",
+      "gameID": "GWBB2016-20160305-N-MUHLCO",
       "playerID": "MEDCAS2017",
-      "jersey": 12.0,
+      "jersey": 12,
       "playerName": "Case Medley",
       "twoPM": 0,
       "twoPA": 0,
@@ -5438,9 +5438,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160305-N-MUHLEN",
+      "gameID": "GWBB2016-20160305-N-MUHLCO",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 1,
       "twoPA": 4,
@@ -5454,9 +5454,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160305-N-MUHLEN",
+      "gameID": "GWBB2016-20160305-N-MUHLCO",
       "playerID": "CLADAK2017",
-      "jersey": 23.0,
+      "jersey": 23,
       "playerName": "Dakota Clayton",
       "twoPM": 0,
       "twoPA": 0,
@@ -5470,9 +5470,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160305-N-MUHLEN",
+      "gameID": "GWBB2016-20160305-N-MUHLCO",
       "playerID": "WEICHE2019",
-      "jersey": 25.0,
+      "jersey": 25,
       "playerName": "Chesney Weick",
       "twoPM": 0,
       "twoPA": 0,
@@ -5486,9 +5486,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160305-N-MUHLEN",
+      "gameID": "GWBB2016-20160305-N-MUHLCO",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 4,
       "twoPA": 6,
@@ -5502,9 +5502,9 @@
       "doubleDouble": true
     },
     {
-      "gameID": "GWBB2016-20160308-N-OWENSB",
+      "gameID": "GWBB2016-20160308-N-OWCATH",
       "playerID": "BAKJAM2017",
-      "jersey": 3.0,
+      "jersey": 3,
       "playerName": "James Baker",
       "twoPM": 2,
       "twoPA": 5,
@@ -5518,9 +5518,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160308-N-OWENSB",
+      "gameID": "GWBB2016-20160308-N-OWCATH",
       "playerID": "BEAJAK2016",
-      "jersey": 2.0,
+      "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 0,
       "twoPA": 0,
@@ -5534,9 +5534,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160308-N-OWENSB",
+      "gameID": "GWBB2016-20160308-N-OWCATH",
       "playerID": "BEWJAC2016",
-      "jersey": 10.0,
+      "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 0,
       "twoPA": 0,
@@ -5550,9 +5550,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160308-N-OWENSB",
+      "gameID": "GWBB2016-20160308-N-OWCATH",
       "playerID": "MILJOH2016",
-      "jersey": 14.0,
+      "jersey": 14,
       "playerName": "John Millay",
       "twoPM": 2,
       "twoPA": 2,
@@ -5566,9 +5566,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160308-N-OWENSB",
+      "gameID": "GWBB2016-20160308-N-OWCATH",
       "playerID": "WILMAC2016",
-      "jersey": 15.0,
+      "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
       "twoPA": 0,
@@ -5582,9 +5582,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160308-N-OWENSB",
+      "gameID": "GWBB2016-20160308-N-OWCATH",
       "playerID": "HACCAL2017",
-      "jersey": 21.0,
+      "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 3,
       "twoPA": 3,
@@ -5598,9 +5598,9 @@
       "doubleDouble": false
     },
     {
-      "gameID": "GWBB2016-20160308-N-OWENSB",
+      "gameID": "GWBB2016-20160308-N-OWCATH",
       "playerID": "DURJOS2016",
-      "jersey": 34.0,
+      "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 3,
       "twoPA": 5,
