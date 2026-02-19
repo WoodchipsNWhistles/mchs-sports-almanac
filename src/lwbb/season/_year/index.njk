@@ -5,7 +5,8 @@ pagination:
   size: 1
   alias: year
 permalink: "/lwbb/season/{{ year }}/index.html"
-title: "LWBB {{ year }}"
+eleventyComputed:
+  title: "Lady Wave Basketball - {{ year }}"
 ---
 
 {% set season = lwbb.seasons[year | string] %}

@@ -127,7 +127,19 @@ module.exports = class BoxscorePages {
       layout: "base.njk",
 
       eleventyComputed: {
-        title: (data) => `${data.boxscore.gameID} — Box Score`,
+        title: (data) => {
+  const b = data.boxscore || {};
+  const opp = b.opponent || b.Opponent || "Opponent";
+
+  const dateRaw =
+    b.dateISO || b.gameDate || b.GameDate || b.dateLabel || b.Date || b.date || "";
+  const date = (String(dateRaw).match(/^(\d{4}-\d{2}-\d{2})/) || [null, ""])[1];
+
+  const siteCode = b.siteCode || b.SiteCode || "";
+  const atVs = siteCode === "A" ? "@" : "vs";
+
+  return `Greenwave Basketball - ${date || "Date Unknown"} ${atVs} ${opp}`;
+},
         description: (data) => {
           const b = data.boxscore;
           return `GWBB box score: ${b.opponent || b.Opponent || "Opponent"} (${
