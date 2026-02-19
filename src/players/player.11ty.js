@@ -1,8 +1,39 @@
 const fs = require("fs");
 const path = require("path");
 
-function canonPlayerID(obj) {
-  return obj?.playerID || obj?.playerId || obj?.PlayerID || obj?.PlayerId || null;
+// Canonical global person index (p_ ids + alias crosswalk)
+const personIndex = require("../_data/personIndex.json");
+
+// Derived player pid list (built from filenames in src/_derived/players)
+const derivedPlayersIndex = require("../_data/playersIndex.js");
+
+function isPid(s) {
+  return typeof s === "string" && /^p_\d{10}$/.test(s);
+}
+
+function canonPlayerID(objOrString) {
+  // Accept pid string directly
+  if (typeof objOrString === "string") {
+    if (isPid(objOrString)) return objOrString;
+    const mapped = personIndex.byAlias?.[objOrString];
+    return isPid(mapped) ? mapped : null;
+  }
+
+  // Accept object with various player id field names
+  const raw =
+    objOrString?.playerID ??
+    objOrString?.playerId ??
+    objOrString?.PlayerID ??
+    objOrString?.PlayerId ??
+    objOrString?.personID ??
+    objOrString?.personId ??
+    null;
+
+  if (!raw) return null;
+  if (isPid(raw)) return raw;
+
+  const mapped = personIndex.byAlias?.[raw];
+  return isPid(mapped) ? mapped : null;
 }
 
 function canonGameID(obj) {
@@ -160,9 +191,8 @@ function buildGwbbSeasons(playerID) {
   return seasons;
 }
 
-// MVP rules for LWBB:
+// LWBB rules:
 // - If player appears in roster, include season even if no per-game stats exist
-// - If stats exist, normalize same way as GWBB
 function buildLwbbSeasons(playerID) {
   const seasons = [];
   const seasonFiles = loadLwbbSeasonFiles();
@@ -205,7 +235,7 @@ function buildLwbbSeasons(playerID) {
   return seasons;
 }
 
-// -------------------- Render a sport block (tables + log) --------------------
+// -------------------- Render a sport block --------------------
 
 function renderBasketballBlock({
   sportTitle,
@@ -273,7 +303,6 @@ function renderBasketballBlock({
 
   const gameUrl = (gameID) => `${boxscorePrefix}${gameID}`;
 
-  // Per-game log (collapse per season)
   const sortByGameID = (a, b) => String(canonGameID(a)).localeCompare(String(canonGameID(b)));
   let careerCounter = 0;
 
@@ -358,7 +387,6 @@ function renderBasketballBlock({
     ${seasons.length ? `<div class="season-log">${seasonLogsHtml}</div>` : `<p>No varsity game log on record.</p>`}
   `;
 
-  // If literally no per-game rows exist, treat as incomplete stats for this sport
   const hasStats = games.length > 0;
 
   if (!hasStats) {
@@ -444,14 +472,13 @@ module.exports = class PlayerPage {
   data() {
     return {
       pagination: {
-        data: "playersIndex.players",
+        data: "playerPidList",
         size: 1,
-        alias: "playerRef",
-        filter: (p) => Boolean(canonPlayerID(p) || p?.personID),
+        alias: "pid",
       },
 
       permalink: (data) => {
-        const pid = canonPlayerID(data.playerRef) || data.playerRef?.personID;
+        const pid = canonPlayerID(data.pid);
         if (!pid) return false;
         return `/players/${pid}/index.html`;
       },
@@ -460,8 +487,10 @@ module.exports = class PlayerPage {
 
       eleventyComputed: {
         title: (data) => {
-          const pid = canonPlayerID(data.playerRef) || data.playerRef?.personID;
-          return `${data.playerRef?.name || pid} — Career`;
+          const pid = canonPlayerID(data.pid);
+          const p = personIndex.people?.[pid];
+          const name = p?.display || [p?.first, p?.last].filter(Boolean).join(" ") || pid;
+          return `${name} — Career`;
         },
       },
     };
@@ -470,15 +499,19 @@ module.exports = class PlayerPage {
   render(data) {
     const prefix = "";
 
-    const playerID = canonPlayerID(data.playerRef) || data.playerRef?.personID;
+    const playerID = canonPlayerID(data.pid);
     if (!playerID) return "";
 
-    const p = path.join("src", "_derived", "players", `${playerID}.json`);
-    const player = JSON.parse(fs.readFileSync(p, "utf8"));
+    const derivedPath = path.join(process.cwd(), "src", "_derived", "players", `${playerID}.json`);
+    if (!fs.existsSync(derivedPath)) {
+      return `<div class="article"><h1>${playerID}</h1><p>Player record not found.</p></div>`;
+    }
+
+    const player = JSON.parse(fs.readFileSync(derivedPath, "utf8"));
 
     const gwbbSeasons = buildGwbbSeasons(playerID);
     const lwbbSeasons = buildLwbbSeasons(playerID);
-    
+
     const gwbbBlock = renderBasketballBlock({
       sportTitle: "Meade County Greenwave Basketball",
       seasons: gwbbSeasons,
@@ -486,47 +519,47 @@ module.exports = class PlayerPage {
       levelLabel: "Varsity",
     });
 
+    let lwbbBlock = "";
 
-    // LWBB: always show header if rostered, even if no stats
-let lwbbBlock = "";
+    if (lwbbSeasons.length) {
+      const rosterYears = lwbbSeasons.map((s) => fmtSeason(s.seasonYearEnd)).join(", ");
 
-if (lwbbSeasons.length) {
-  const rosterYears = lwbbSeasons
-    .map((s) => fmtSeason(s.seasonYearEnd))
-    .join(", ");
+      const lwbbHasGameStats = lwbbSeasons.some((s) => (s.gameStats ?? []).length > 0);
 
-  const lwbbHasGameStats = lwbbSeasons.some(
-    (s) => (s.gameStats ?? []).length > 0
-  );
-
-  lwbbBlock = `
-    <h2>Meade County LadyWave Basketball</h2>
-    <p><strong>Seasons rostered:</strong> ${rosterYears}</p>
-    ${
-      !lwbbHasGameStats
-        ? `<div class="notice notice--incomplete">
-             <p><strong>Incomplete statistics:</strong> this player page currently reflects roster appearances for LadyWave seasons. If you have missing statistics, scorebooks, or official records, please contact the site administrator to help improve the historical record.</p>
-           </div>`
-        : ""
+      lwbbBlock = `
+        <h2>Meade County LadyWave Basketball</h2>
+        <p><strong>Seasons rostered:</strong> ${rosterYears}</p>
+        ${
+          !lwbbHasGameStats
+            ? `<div class="notice notice--incomplete">
+                 <p><strong>Incomplete statistics:</strong> this player page currently reflects roster appearances for LadyWave seasons. If you have missing statistics, scorebooks, or official records, please contact the site administrator to help improve the historical record.</p>
+               </div>`
+            : ""
+        }
+        ${renderBasketballBlock({
+          sportTitle: "",
+          seasons: lwbbSeasons,
+          boxscorePrefix: `${prefix}/lwbb/boxscores/`,
+          levelLabel: "Varsity",
+        })}
+      `;
     }
-    ${renderBasketballBlock({
-      sportTitle: "", // prevent duplicate h2
-      seasons: lwbbSeasons,
-      boxscorePrefix: `${prefix}/lwbb/boxscores/`,
-      levelLabel: "Varsity",
-    })}
-  `;
-}
+
+    const displayName =
+      player.name ??
+      player.playerName ??
+      personIndex.people?.[playerID]?.display ??
+      playerID;
 
     return `
-  <div class="article">
-    <h1>${player.name ?? player.playerID ?? player.playerId}</h1>
-    <p><strong>PlayerID:</strong> ${player.playerID ?? player.playerId}</p>
-    <p><strong>Grad Year:</strong> ${player.gradYear ?? player.gradyear ?? "—"}</p>
+      <div class="article">
+        <h1>${displayName}</h1>
+        <p><strong>PersonID:</strong> ${playerID}</p>
+        <p><strong>Grad Year:</strong> ${player.gradYear ?? player.gradyear ?? "—"}</p>
 
-    ${gwbbBlock}
-    ${lwbbBlock}
-  </div>
-`;
+        ${gwbbBlock}
+        ${lwbbBlock}
+      </div>
+    `;
   }
 };

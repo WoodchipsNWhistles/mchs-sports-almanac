@@ -445,9 +445,9 @@
       "gradYear": 2022,
       "firstName": "Aubrey",
       "lastName": "Hardesty",
-      "playerIdBase": "HARAUB2022",
+      "playerIdBase": "p_0000000109",
       "playerIdSuffix": 1,
-      "playerId": "HARAUB2022"
+      "playerId": "p_0000000109"
     },
     {
       "jersey": 2,
@@ -458,9 +458,9 @@
       "gradYear": 2020,
       "firstName": "Braydin",
       "lastName": "Board",
-      "playerIdBase": "BOABRA2020",
+      "playerIdBase": "p_0000000047",
       "playerIdSuffix": 1,
-      "playerId": "BOABRA2020"
+      "playerId": "p_0000000047"
     },
     {
       "jersey": 3,
@@ -471,9 +471,9 @@
       "gradYear": 2018,
       "firstName": "Ryleigh",
       "lastName": "Board",
-      "playerIdBase": "BOARYL2018",
+      "playerIdBase": "p_0000000048",
       "playerIdSuffix": 1,
-      "playerId": "BOARYL2018"
+      "playerId": "p_0000000048"
     },
     {
       "jersey": 4,
@@ -484,9 +484,9 @@
       "gradYear": 2018,
       "firstName": "Allie",
       "lastName": "Robertson",
-      "playerIdBase": "ROBALL2018",
+      "playerIdBase": "p_0000000181",
       "playerIdSuffix": 1,
-      "playerId": "ROBALL2018"
+      "playerId": "p_0000000181"
     },
     {
       "jersey": 10,
@@ -497,9 +497,9 @@
       "gradYear": 2020,
       "firstName": "Kenzey",
       "lastName": "Compton",
-      "playerIdBase": "COMKEN2020",
+      "playerIdBase": "p_0000000067",
       "playerIdSuffix": 1,
-      "playerId": "COMKEN2020"
+      "playerId": "p_0000000067"
     },
     {
       "jersey": 11,
@@ -510,9 +510,9 @@
       "gradYear": 2021,
       "firstName": "Emily",
       "lastName": "Myers",
-      "playerIdBase": "MYEEMI2021",
+      "playerIdBase": "p_0000000158",
       "playerIdSuffix": 1,
-      "playerId": "MYEEMI2021"
+      "playerId": "p_0000000158"
     },
     {
       "jersey": 13,
@@ -523,9 +523,9 @@
       "gradYear": 2019,
       "firstName": "Lauren",
       "lastName": "Laslie",
-      "playerIdBase": "LASLAU2019",
+      "playerIdBase": "p_0000000135",
       "playerIdSuffix": 1,
-      "playerId": "LASLAU2019"
+      "playerId": "p_0000000135"
     },
     {
       "jersey": 14,
@@ -536,9 +536,9 @@
       "gradYear": 2019,
       "firstName": "Abby",
       "lastName": "Nelson",
-      "playerIdBase": "NELABB2019",
+      "playerIdBase": "p_0000000160",
       "playerIdSuffix": 1,
-      "playerId": "NELABB2019"
+      "playerId": "p_0000000160"
     },
     {
       "jersey": 20,
@@ -549,9 +549,9 @@
       "gradYear": 2018,
       "firstName": "Elizabeth",
       "lastName": "Youart",
-      "playerIdBase": "YOUELI2018",
+      "playerIdBase": "p_0000000224",
       "playerIdSuffix": 1,
-      "playerId": "YOUELI2018"
+      "playerId": "p_0000000224"
     },
     {
       "jersey": 21,
@@ -562,9 +562,9 @@
       "gradYear": 2021,
       "firstName": "D",
       "lastName": "Griffen",
-      "playerIdBase": "GRIDXX2021",
+      "playerIdBase": "p_0000000105",
       "playerIdSuffix": 1,
-      "playerId": "GRIDXX2021"
+      "playerId": "p_0000000105"
     },
     {
       "jersey": 23,
@@ -575,9 +575,9 @@
       "gradYear": 2021,
       "firstName": "Jenna",
       "lastName": "Gallimore",
-      "playerIdBase": "GALJEN2021",
+      "playerIdBase": "p_0000000095",
       "playerIdSuffix": 1,
-      "playerId": "GALJEN2021"
+      "playerId": "p_0000000095"
     },
     {
       "jersey": 24,
@@ -588,9 +588,9 @@
       "gradYear": 2018,
       "firstName": "Kayla",
       "lastName": "Edwards",
-      "playerIdBase": "EDWKAY2018",
+      "playerIdBase": "p_0000000086",
       "playerIdSuffix": 1,
-      "playerId": "EDWKAY2018"
+      "playerId": "p_0000000086"
     },
     {
       "jersey": 33,
@@ -601,9 +601,9 @@
       "gradYear": 2019,
       "firstName": "Anissa",
       "lastName": "Richer",
-      "playerIdBase": "RICANI2019",
+      "playerIdBase": "p_0000000179",
       "playerIdSuffix": 1,
-      "playerId": "RICANI2019"
+      "playerId": "p_0000000179"
     },
     {
       "jersey": 34,
@@ -614,9 +614,9 @@
       "gradYear": 2018,
       "firstName": "Lauren",
       "lastName": "Alexander",
-      "playerIdBase": "ALELAU2018",
+      "playerIdBase": "p_0000000030",
       "playerIdSuffix": 1,
-      "playerId": "ALELAU2018"
+      "playerId": "p_0000000030"
     },
     {
       "jersey": 44,
@@ -627,9 +627,9 @@
       "gradYear": 2019,
       "firstName": "Lexi",
       "lastName": "Matthews",
-      "playerIdBase": "MATLEX2019",
+      "playerIdBase": "p_0000000149",
       "playerIdSuffix": 1,
-      "playerId": "MATLEX2019"
+      "playerId": "p_0000000149"
     },
     {
       "jersey": 55,
@@ -640,15 +640,15 @@
       "gradYear": 2020,
       "firstName": "Kendall",
       "lastName": "Wingler",
-      "playerIdBase": "WINKEN2020",
+      "playerIdBase": "p_0000000220",
       "playerIdSuffix": 1,
-      "playerId": "WINKEN2020"
+      "playerId": "p_0000000220"
     }
   ],
   "gameStats": [
     {
       "gameId": "LWBB2018-20171201-H-OWCATH",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 0,
@@ -664,7 +664,7 @@
     },
     {
       "gameId": "LWBB2018-20171201-H-OWCATH",
-      "playerId": "BOARYL2018",
+      "playerId": "p_0000000048",
       "jersey": 3,
       "playerName": "Ryleigh Board",
       "twoPM": 2,
@@ -680,7 +680,7 @@
     },
     {
       "gameId": "LWBB2018-20171201-H-OWCATH",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 4,
@@ -696,7 +696,7 @@
     },
     {
       "gameId": "LWBB2018-20171201-H-OWCATH",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 1,
@@ -712,7 +712,7 @@
     },
     {
       "gameId": "LWBB2018-20171201-H-OWCATH",
-      "playerId": "MYEEMI2021",
+      "playerId": "p_0000000158",
       "jersey": 11,
       "playerName": "Emily Myers",
       "twoPM": 0,
@@ -728,7 +728,7 @@
     },
     {
       "gameId": "LWBB2018-20171201-H-OWCATH",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 1,
@@ -744,7 +744,7 @@
     },
     {
       "gameId": "LWBB2018-20171201-H-OWCATH",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 0,
@@ -760,7 +760,7 @@
     },
     {
       "gameId": "LWBB2018-20171201-H-OWCATH",
-      "playerId": "ALELAU2018",
+      "playerId": "p_0000000030",
       "jersey": 34,
       "playerName": "Lauren Alexander",
       "twoPM": 8,
@@ -776,7 +776,7 @@
     },
     {
       "gameId": "LWBB2018-20171201-H-OWCATH",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 4,
@@ -792,7 +792,7 @@
     },
     {
       "gameId": "LWBB2018-20171205-H-GRAYSO",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 0,
@@ -808,7 +808,7 @@
     },
     {
       "gameId": "LWBB2018-20171205-H-GRAYSO",
-      "playerId": "BOARYL2018",
+      "playerId": "p_0000000048",
       "jersey": 3,
       "playerName": "Ryleigh Board",
       "twoPM": 2,
@@ -824,7 +824,7 @@
     },
     {
       "gameId": "LWBB2018-20171205-H-GRAYSO",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 2,
@@ -840,7 +840,7 @@
     },
     {
       "gameId": "LWBB2018-20171205-H-GRAYSO",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 1,
@@ -856,7 +856,7 @@
     },
     {
       "gameId": "LWBB2018-20171205-H-GRAYSO",
-      "playerId": "MYEEMI2021",
+      "playerId": "p_0000000158",
       "jersey": 11,
       "playerName": "Emily Myers",
       "twoPM": 0,
@@ -872,7 +872,7 @@
     },
     {
       "gameId": "LWBB2018-20171205-H-GRAYSO",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 1,
@@ -888,7 +888,7 @@
     },
     {
       "gameId": "LWBB2018-20171205-H-GRAYSO",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 1,
@@ -904,7 +904,7 @@
     },
     {
       "gameId": "LWBB2018-20171205-H-GRAYSO",
-      "playerId": "ALELAU2018",
+      "playerId": "p_0000000030",
       "jersey": 34,
       "playerName": "Lauren Alexander",
       "twoPM": 3,
@@ -920,7 +920,7 @@
     },
     {
       "gameId": "LWBB2018-20171205-H-GRAYSO",
-      "playerId": "MATLEX2019",
+      "playerId": "p_0000000149",
       "jersey": 44,
       "playerName": "Lexi Matthews",
       "twoPM": 0,
@@ -936,7 +936,7 @@
     },
     {
       "gameId": "LWBB2018-20171205-H-GRAYSO",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 5,
@@ -952,7 +952,7 @@
     },
     {
       "gameId": "LWBB2018-20171207-A-CLOVER",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 2,
@@ -968,7 +968,7 @@
     },
     {
       "gameId": "LWBB2018-20171207-A-CLOVER",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 1,
@@ -984,7 +984,7 @@
     },
     {
       "gameId": "LWBB2018-20171207-A-CLOVER",
-      "playerId": "BOARYL2018",
+      "playerId": "p_0000000048",
       "jersey": 3,
       "playerName": "Ryleigh Board",
       "twoPM": 3,
@@ -1000,7 +1000,7 @@
     },
     {
       "gameId": "LWBB2018-20171207-A-CLOVER",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 5,
@@ -1016,7 +1016,7 @@
     },
     {
       "gameId": "LWBB2018-20171207-A-CLOVER",
-      "playerId": "ROBALL2018",
+      "playerId": "p_0000000181",
       "jersey": 4,
       "playerName": "Allie Robertson",
       "twoPM": 0,
@@ -1032,7 +1032,7 @@
     },
     {
       "gameId": "LWBB2018-20171207-A-CLOVER",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 1,
@@ -1048,7 +1048,7 @@
     },
     {
       "gameId": "LWBB2018-20171207-A-CLOVER",
-      "playerId": "COMKEN2020",
+      "playerId": "p_0000000067",
       "jersey": 10,
       "playerName": "Kenzey Compton",
       "twoPM": 1,
@@ -1064,7 +1064,7 @@
     },
     {
       "gameId": "LWBB2018-20171207-A-CLOVER",
-      "playerId": "MYEEMI2021",
+      "playerId": "p_0000000158",
       "jersey": 11,
       "playerName": "Emily Myers",
       "twoPM": 1,
@@ -1080,7 +1080,7 @@
     },
     {
       "gameId": "LWBB2018-20171207-A-CLOVER",
-      "playerId": "EDWKAY2018",
+      "playerId": "p_0000000086",
       "jersey": 24,
       "playerName": "Kayla Edwards",
       "twoPM": 1,
@@ -1096,7 +1096,7 @@
     },
     {
       "gameId": "LWBB2018-20171207-A-CLOVER",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 1,
@@ -1112,7 +1112,7 @@
     },
     {
       "gameId": "LWBB2018-20171207-A-CLOVER",
-      "playerId": "RICANI2019",
+      "playerId": "p_0000000179",
       "jersey": 33,
       "playerName": "Anissa Richer",
       "twoPM": 0,
@@ -1128,7 +1128,7 @@
     },
     {
       "gameId": "LWBB2018-20171207-A-CLOVER",
-      "playerId": "MATLEX2019",
+      "playerId": "p_0000000149",
       "jersey": 44,
       "playerName": "Lexi Matthews",
       "twoPM": 0,
@@ -1144,7 +1144,7 @@
     },
     {
       "gameId": "LWBB2018-20171207-A-CLOVER",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 6,
@@ -1160,7 +1160,7 @@
     },
     {
       "gameId": "LWBB2018-20171215-A-BRECKI",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 0,
@@ -1176,7 +1176,7 @@
     },
     {
       "gameId": "LWBB2018-20171215-A-BRECKI",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 3,
@@ -1192,7 +1192,7 @@
     },
     {
       "gameId": "LWBB2018-20171215-A-BRECKI",
-      "playerId": "BOARYL2018",
+      "playerId": "p_0000000048",
       "jersey": 3,
       "playerName": "Ryleigh Board",
       "twoPM": 3,
@@ -1208,7 +1208,7 @@
     },
     {
       "gameId": "LWBB2018-20171215-A-BRECKI",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 3,
@@ -1224,7 +1224,7 @@
     },
     {
       "gameId": "LWBB2018-20171215-A-BRECKI",
-      "playerId": "COMKEN2020",
+      "playerId": "p_0000000067",
       "jersey": 10,
       "playerName": "Kenzey Compton",
       "twoPM": 0,
@@ -1240,7 +1240,7 @@
     },
     {
       "gameId": "LWBB2018-20171215-A-BRECKI",
-      "playerId": "MYEEMI2021",
+      "playerId": "p_0000000158",
       "jersey": 11,
       "playerName": "Emily Myers",
       "twoPM": 2,
@@ -1256,7 +1256,7 @@
     },
     {
       "gameId": "LWBB2018-20171215-A-BRECKI",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 0,
@@ -1272,7 +1272,7 @@
     },
     {
       "gameId": "LWBB2018-20171215-A-BRECKI",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 1,
@@ -1288,7 +1288,7 @@
     },
     {
       "gameId": "LWBB2018-20171215-A-BRECKI",
-      "playerId": "RICANI2019",
+      "playerId": "p_0000000179",
       "jersey": 33,
       "playerName": "Anissa Richer",
       "twoPM": 1,
@@ -1304,7 +1304,7 @@
     },
     {
       "gameId": "LWBB2018-20171215-A-BRECKI",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 6,
@@ -1320,7 +1320,7 @@
     },
     {
       "gameId": "LWBB2018-20171220-N-NORTHB",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 1,
@@ -1336,7 +1336,7 @@
     },
     {
       "gameId": "LWBB2018-20171220-N-NORTHB",
-      "playerId": "BOARYL2018",
+      "playerId": "p_0000000048",
       "jersey": 3,
       "playerName": "Ryleigh Board",
       "twoPM": 5,
@@ -1352,7 +1352,7 @@
     },
     {
       "gameId": "LWBB2018-20171220-N-NORTHB",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 3,
@@ -1368,7 +1368,7 @@
     },
     {
       "gameId": "LWBB2018-20171220-N-NORTHB",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 0,
@@ -1384,7 +1384,7 @@
     },
     {
       "gameId": "LWBB2018-20171220-N-NORTHB",
-      "playerId": "MYEEMI2021",
+      "playerId": "p_0000000158",
       "jersey": 11,
       "playerName": "Emily Myers",
       "twoPM": 0,
@@ -1400,7 +1400,7 @@
     },
     {
       "gameId": "LWBB2018-20171220-N-NORTHB",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 1,
@@ -1416,7 +1416,7 @@
     },
     {
       "gameId": "LWBB2018-20171220-N-NORTHB",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 0,
@@ -1432,7 +1432,7 @@
     },
     {
       "gameId": "LWBB2018-20171220-N-NORTHB",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 0,
@@ -1448,7 +1448,7 @@
     },
     {
       "gameId": "LWBB2018-20171220-N-NORTHB",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 4,
@@ -1464,7 +1464,7 @@
     },
     {
       "gameId": "LWBB2018-20171221-N-HENRYC",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 1,
@@ -1480,7 +1480,7 @@
     },
     {
       "gameId": "LWBB2018-20171221-N-HENRYC",
-      "playerId": "BOARYL2018",
+      "playerId": "p_0000000048",
       "jersey": 3,
       "playerName": "Ryleigh Board",
       "twoPM": 4,
@@ -1496,7 +1496,7 @@
     },
     {
       "gameId": "LWBB2018-20171221-N-HENRYC",
-      "playerId": "RICANI2019",
+      "playerId": "p_0000000179",
       "jersey": 33,
       "playerName": "Anissa Richer",
       "twoPM": 0,
@@ -1512,7 +1512,7 @@
     },
     {
       "gameId": "LWBB2018-20171221-N-HENRYC",
-      "playerId": "ROBALL2018",
+      "playerId": "p_0000000181",
       "jersey": 4,
       "playerName": "Allie Robertson",
       "twoPM": 0,
@@ -1528,7 +1528,7 @@
     },
     {
       "gameId": "LWBB2018-20171221-N-HENRYC",
-      "playerId": "COMKEN2020",
+      "playerId": "p_0000000067",
       "jersey": 10,
       "playerName": "Kenzey Compton",
       "twoPM": 1,
@@ -1544,7 +1544,7 @@
     },
     {
       "gameId": "LWBB2018-20171221-N-HENRYC",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 2,
@@ -1560,7 +1560,7 @@
     },
     {
       "gameId": "LWBB2018-20171221-N-HENRYC",
-      "playerId": "MYEEMI2021",
+      "playerId": "p_0000000158",
       "jersey": 11,
       "playerName": "Emily Myers",
       "twoPM": 0,
@@ -1576,7 +1576,7 @@
     },
     {
       "gameId": "LWBB2018-20171221-N-HENRYC",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 1,
@@ -1592,7 +1592,7 @@
     },
     {
       "gameId": "LWBB2018-20171221-N-HENRYC",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 2,
@@ -1608,7 +1608,7 @@
     },
     {
       "gameId": "LWBB2018-20171221-N-HENRYC",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 1,
@@ -1624,7 +1624,7 @@
     },
     {
       "gameId": "LWBB2018-20171221-N-HENRYC",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 0,
@@ -1640,7 +1640,7 @@
     },
     {
       "gameId": "LWBB2018-20171221-N-HENRYC",
-      "playerId": "EDWKAY2018",
+      "playerId": "p_0000000086",
       "jersey": 24,
       "playerName": "Kayla Edwards",
       "twoPM": 0,
@@ -1656,7 +1656,7 @@
     },
     {
       "gameId": "LWBB2018-20171221-N-HENRYC",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 5,
@@ -1672,7 +1672,7 @@
     },
     {
       "gameId": "LWBB2018-20171222-N-KNOTTC",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 2,
@@ -1688,7 +1688,7 @@
     },
     {
       "gameId": "LWBB2018-20171222-N-KNOTTC",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 2,
@@ -1704,7 +1704,7 @@
     },
     {
       "gameId": "LWBB2018-20171222-N-KNOTTC",
-      "playerId": "BOARYL2018",
+      "playerId": "p_0000000048",
       "jersey": 3,
       "playerName": "Ryleigh Board",
       "twoPM": 5,
@@ -1720,7 +1720,7 @@
     },
     {
       "gameId": "LWBB2018-20171222-N-KNOTTC",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 1,
@@ -1736,7 +1736,7 @@
     },
     {
       "gameId": "LWBB2018-20171222-N-KNOTTC",
-      "playerId": "COMKEN2020",
+      "playerId": "p_0000000067",
       "jersey": 10,
       "playerName": "Kenzey Compton",
       "twoPM": 0,
@@ -1752,7 +1752,7 @@
     },
     {
       "gameId": "LWBB2018-20171222-N-KNOTTC",
-      "playerId": "MYEEMI2021",
+      "playerId": "p_0000000158",
       "jersey": 11,
       "playerName": "Emily Myers",
       "twoPM": 0,
@@ -1768,7 +1768,7 @@
     },
     {
       "gameId": "LWBB2018-20171222-N-KNOTTC",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 0,
@@ -1784,7 +1784,7 @@
     },
     {
       "gameId": "LWBB2018-20171222-N-KNOTTC",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 0,
@@ -1800,7 +1800,7 @@
     },
     {
       "gameId": "LWBB2018-20171222-N-KNOTTC",
-      "playerId": "EDWKAY2018",
+      "playerId": "p_0000000086",
       "jersey": 24,
       "playerName": "Kayla Edwards",
       "twoPM": 0,
@@ -1816,7 +1816,7 @@
     },
     {
       "gameId": "LWBB2018-20171222-N-KNOTTC",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 0,
@@ -1832,7 +1832,7 @@
     },
     {
       "gameId": "LWBB2018-20171222-N-KNOTTC",
-      "playerId": "RICANI2019",
+      "playerId": "p_0000000179",
       "jersey": 33,
       "playerName": "Anissa Richer",
       "twoPM": 0,
@@ -1848,7 +1848,7 @@
     },
     {
       "gameId": "LWBB2018-20171222-N-KNOTTC",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 9,
@@ -1864,7 +1864,7 @@
     },
     {
       "gameId": "LWBB2018-20180102-A-APOLLO",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 2,
@@ -1880,7 +1880,7 @@
     },
     {
       "gameId": "LWBB2018-20180102-A-APOLLO",
-      "playerId": "BOARYL2018",
+      "playerId": "p_0000000048",
       "jersey": 3,
       "playerName": "Ryleigh Board",
       "twoPM": 1,
@@ -1896,7 +1896,7 @@
     },
     {
       "gameId": "LWBB2018-20180102-A-APOLLO",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 0,
@@ -1912,7 +1912,7 @@
     },
     {
       "gameId": "LWBB2018-20180102-A-APOLLO",
-      "playerId": "COMKEN2020",
+      "playerId": "p_0000000067",
       "jersey": 10,
       "playerName": "Kenzey Compton",
       "twoPM": 0,
@@ -1928,7 +1928,7 @@
     },
     {
       "gameId": "LWBB2018-20180102-A-APOLLO",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 3,
@@ -1944,7 +1944,7 @@
     },
     {
       "gameId": "LWBB2018-20180102-A-APOLLO",
-      "playerId": "MYEEMI2021",
+      "playerId": "p_0000000158",
       "jersey": 11,
       "playerName": "Emily Myers",
       "twoPM": 0,
@@ -1960,7 +1960,7 @@
     },
     {
       "gameId": "LWBB2018-20180102-A-APOLLO",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 0,
@@ -1976,7 +1976,7 @@
     },
     {
       "gameId": "LWBB2018-20180102-A-APOLLO",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 0,
@@ -1992,7 +1992,7 @@
     },
     {
       "gameId": "LWBB2018-20180102-A-APOLLO",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 0,
@@ -2008,7 +2008,7 @@
     },
     {
       "gameId": "LWBB2018-20180102-A-APOLLO",
-      "playerId": "ALELAU2018",
+      "playerId": "p_0000000030",
       "jersey": 34,
       "playerName": "Lauren Alexander",
       "twoPM": 2,
@@ -2024,7 +2024,7 @@
     },
     {
       "gameId": "LWBB2018-20180102-A-APOLLO",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 6,
@@ -2040,7 +2040,7 @@
     },
     {
       "gameId": "LWBB2018-20180106-A-EDMONS",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 0,
@@ -2056,7 +2056,7 @@
     },
     {
       "gameId": "LWBB2018-20180106-A-EDMONS",
-      "playerId": "BOARYL2018",
+      "playerId": "p_0000000048",
       "jersey": 3,
       "playerName": "Ryleigh Board",
       "twoPM": 5,
@@ -2072,7 +2072,7 @@
     },
     {
       "gameId": "LWBB2018-20180106-A-EDMONS",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 1,
@@ -2088,7 +2088,7 @@
     },
     {
       "gameId": "LWBB2018-20180106-A-EDMONS",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 1,
@@ -2104,7 +2104,7 @@
     },
     {
       "gameId": "LWBB2018-20180106-A-EDMONS",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 3,
@@ -2120,7 +2120,7 @@
     },
     {
       "gameId": "LWBB2018-20180106-A-EDMONS",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 0,
@@ -2136,7 +2136,7 @@
     },
     {
       "gameId": "LWBB2018-20180106-A-EDMONS",
-      "playerId": "ALELAU2018",
+      "playerId": "p_0000000030",
       "jersey": 34,
       "playerName": "Lauren Alexander",
       "twoPM": 3,
@@ -2152,7 +2152,7 @@
     },
     {
       "gameId": "LWBB2018-20180106-A-EDMONS",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 7,
@@ -2168,7 +2168,7 @@
     },
     {
       "gameId": "LWBB2018-20180109-H-HANCOC",
-      "playerId": "ALELAU2018",
+      "playerId": "p_0000000030",
       "jersey": 34,
       "playerName": "Lauren Alexander",
       "twoPM": 5,
@@ -2184,7 +2184,7 @@
     },
     {
       "gameId": "LWBB2018-20180109-H-HANCOC",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 0,
@@ -2200,7 +2200,7 @@
     },
     {
       "gameId": "LWBB2018-20180109-H-HANCOC",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 1,
@@ -2216,7 +2216,7 @@
     },
     {
       "gameId": "LWBB2018-20180109-H-HANCOC",
-      "playerId": "BOARYL2018",
+      "playerId": "p_0000000048",
       "jersey": 3,
       "playerName": "Ryleigh Board",
       "twoPM": 3,
@@ -2232,7 +2232,7 @@
     },
     {
       "gameId": "LWBB2018-20180109-H-HANCOC",
-      "playerId": "ROBALL2018",
+      "playerId": "p_0000000181",
       "jersey": 4,
       "playerName": "Allie Robertson",
       "twoPM": 0,
@@ -2248,7 +2248,7 @@
     },
     {
       "gameId": "LWBB2018-20180109-H-HANCOC",
-      "playerId": "COMKEN2020",
+      "playerId": "p_0000000067",
       "jersey": 10,
       "playerName": "Kenzey Compton",
       "twoPM": 0,
@@ -2264,7 +2264,7 @@
     },
     {
       "gameId": "LWBB2018-20180109-H-HANCOC",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 0,
@@ -2280,7 +2280,7 @@
     },
     {
       "gameId": "LWBB2018-20180109-H-HANCOC",
-      "playerId": "EDWKAY2018",
+      "playerId": "p_0000000086",
       "jersey": 24,
       "playerName": "Kayla Edwards",
       "twoPM": 1,
@@ -2296,7 +2296,7 @@
     },
     {
       "gameId": "LWBB2018-20180109-H-HANCOC",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 1,
@@ -2312,7 +2312,7 @@
     },
     {
       "gameId": "LWBB2018-20180109-H-HANCOC",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 0,
@@ -2328,7 +2328,7 @@
     },
     {
       "gameId": "LWBB2018-20180109-H-HANCOC",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 0,
@@ -2344,7 +2344,7 @@
     },
     {
       "gameId": "LWBB2018-20180109-H-HANCOC",
-      "playerId": "RICANI2019",
+      "playerId": "p_0000000179",
       "jersey": 33,
       "playerName": "Anissa Richer",
       "twoPM": 0,
@@ -2360,7 +2360,7 @@
     },
     {
       "gameId": "LWBB2018-20180109-H-HANCOC",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 8,
@@ -2376,7 +2376,7 @@
     },
     {
       "gameId": "LWBB2018-20180120-H-MUHLCO",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 0,
@@ -2392,7 +2392,7 @@
     },
     {
       "gameId": "LWBB2018-20180120-H-MUHLCO",
-      "playerId": "BOARYL2018",
+      "playerId": "p_0000000048",
       "jersey": 3,
       "playerName": "Ryleigh Board",
       "twoPM": 4,
@@ -2408,7 +2408,7 @@
     },
     {
       "gameId": "LWBB2018-20180120-H-MUHLCO",
-      "playerId": "COMKEN2020",
+      "playerId": "p_0000000067",
       "jersey": 10,
       "playerName": "Kenzey Compton",
       "twoPM": 0,
@@ -2424,7 +2424,7 @@
     },
     {
       "gameId": "LWBB2018-20180120-H-MUHLCO",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 2,
@@ -2440,7 +2440,7 @@
     },
     {
       "gameId": "LWBB2018-20180120-H-MUHLCO",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 2,
@@ -2456,7 +2456,7 @@
     },
     {
       "gameId": "LWBB2018-20180120-H-MUHLCO",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 0,
@@ -2472,7 +2472,7 @@
     },
     {
       "gameId": "LWBB2018-20180120-H-MUHLCO",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 1,
@@ -2488,7 +2488,7 @@
     },
     {
       "gameId": "LWBB2018-20180120-H-MUHLCO",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 0,
@@ -2504,7 +2504,7 @@
     },
     {
       "gameId": "LWBB2018-20180120-H-MUHLCO",
-      "playerId": "ALELAU2018",
+      "playerId": "p_0000000030",
       "jersey": 34,
       "playerName": "Lauren Alexander",
       "twoPM": 4,
@@ -2520,7 +2520,7 @@
     },
     {
       "gameId": "LWBB2018-20180120-H-MUHLCO",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 12,
@@ -2536,7 +2536,7 @@
     },
     {
       "gameId": "LWBB2018-20180123-H-SPENCE",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 0,
@@ -2552,7 +2552,7 @@
     },
     {
       "gameId": "LWBB2018-20180123-H-SPENCE",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 1,
@@ -2568,7 +2568,7 @@
     },
     {
       "gameId": "LWBB2018-20180123-H-SPENCE",
-      "playerId": "BOARYL2018",
+      "playerId": "p_0000000048",
       "jersey": 3,
       "playerName": "Ryleigh Board",
       "twoPM": 5,
@@ -2584,7 +2584,7 @@
     },
     {
       "gameId": "LWBB2018-20180123-H-SPENCE",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 0,
@@ -2600,7 +2600,7 @@
     },
     {
       "gameId": "LWBB2018-20180123-H-SPENCE",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 1,
@@ -2616,7 +2616,7 @@
     },
     {
       "gameId": "LWBB2018-20180123-H-SPENCE",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 0,
@@ -2632,7 +2632,7 @@
     },
     {
       "gameId": "LWBB2018-20180123-H-SPENCE",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 0,
@@ -2648,7 +2648,7 @@
     },
     {
       "gameId": "LWBB2018-20180123-H-SPENCE",
-      "playerId": "ALELAU2018",
+      "playerId": "p_0000000030",
       "jersey": 34,
       "playerName": "Lauren Alexander",
       "twoPM": 2,
@@ -2664,7 +2664,7 @@
     },
     {
       "gameId": "LWBB2018-20180123-H-SPENCE",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 9,
@@ -2680,7 +2680,7 @@
     },
     {
       "gameId": "LWBB2018-20180126-H-BRECKI",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 0,
@@ -2696,7 +2696,7 @@
     },
     {
       "gameId": "LWBB2018-20180126-H-BRECKI",
-      "playerId": "BOARYL2018",
+      "playerId": "p_0000000048",
       "jersey": 3,
       "playerName": "Ryleigh Board",
       "twoPM": 6,
@@ -2712,7 +2712,7 @@
     },
     {
       "gameId": "LWBB2018-20180126-H-BRECKI",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 4,
@@ -2728,7 +2728,7 @@
     },
     {
       "gameId": "LWBB2018-20180126-H-BRECKI",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 1,
@@ -2744,7 +2744,7 @@
     },
     {
       "gameId": "LWBB2018-20180126-H-BRECKI",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 0,
@@ -2760,7 +2760,7 @@
     },
     {
       "gameId": "LWBB2018-20180126-H-BRECKI",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 0,
@@ -2776,7 +2776,7 @@
     },
     {
       "gameId": "LWBB2018-20180126-H-BRECKI",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 0,
@@ -2792,7 +2792,7 @@
     },
     {
       "gameId": "LWBB2018-20180126-H-BRECKI",
-      "playerId": "ALELAU2018",
+      "playerId": "p_0000000030",
       "jersey": 34,
       "playerName": "Lauren Alexander",
       "twoPM": 5,
@@ -2808,7 +2808,7 @@
     },
     {
       "gameId": "LWBB2018-20180126-H-BRECKI",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 5,
@@ -2824,7 +2824,7 @@
     },
     {
       "gameId": "LWBB2018-20180127-A-DAVIES",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 1,
@@ -2840,7 +2840,7 @@
     },
     {
       "gameId": "LWBB2018-20180127-A-DAVIES",
-      "playerId": "BOARYL2018",
+      "playerId": "p_0000000048",
       "jersey": 3,
       "playerName": "Ryleigh Board",
       "twoPM": 4,
@@ -2856,7 +2856,7 @@
     },
     {
       "gameId": "LWBB2018-20180127-A-DAVIES",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 1,
@@ -2872,7 +2872,7 @@
     },
     {
       "gameId": "LWBB2018-20180127-A-DAVIES",
-      "playerId": "COMKEN2020",
+      "playerId": "p_0000000067",
       "jersey": 10,
       "playerName": "Kenzey Compton",
       "twoPM": 0,
@@ -2888,7 +2888,7 @@
     },
     {
       "gameId": "LWBB2018-20180127-A-DAVIES",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 1,
@@ -2904,7 +2904,7 @@
     },
     {
       "gameId": "LWBB2018-20180127-A-DAVIES",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 1,
@@ -2920,7 +2920,7 @@
     },
     {
       "gameId": "LWBB2018-20180127-A-DAVIES",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 0,
@@ -2936,7 +2936,7 @@
     },
     {
       "gameId": "LWBB2018-20180127-A-DAVIES",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 0,
@@ -2952,7 +2952,7 @@
     },
     {
       "gameId": "LWBB2018-20180127-A-DAVIES",
-      "playerId": "ALELAU2018",
+      "playerId": "p_0000000030",
       "jersey": 34,
       "playerName": "Lauren Alexander",
       "twoPM": 5,
@@ -2968,7 +2968,7 @@
     },
     {
       "gameId": "LWBB2018-20180127-A-DAVIES",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 4,
@@ -2984,7 +2984,7 @@
     },
     {
       "gameId": "LWBB2018-20180129-H-OHIOCO",
-      "playerId": "ALELAU2018",
+      "playerId": "p_0000000030",
       "jersey": 34,
       "playerName": "Lauren Alexander",
       "twoPM": 5,
@@ -3000,7 +3000,7 @@
     },
     {
       "gameId": "LWBB2018-20180129-H-OHIOCO",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 9,
@@ -3016,7 +3016,7 @@
     },
     {
       "gameId": "LWBB2018-20180129-H-OHIOCO",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 2,
@@ -3032,7 +3032,7 @@
     },
     {
       "gameId": "LWBB2018-20180129-H-OHIOCO",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 0,
@@ -3048,7 +3048,7 @@
     },
     {
       "gameId": "LWBB2018-20180129-H-OHIOCO",
-      "playerId": "BOARYL2018",
+      "playerId": "p_0000000048",
       "jersey": 3,
       "playerName": "Ryleigh Board",
       "twoPM": 2,
@@ -3064,7 +3064,7 @@
     },
     {
       "gameId": "LWBB2018-20180129-H-OHIOCO",
-      "playerId": "ROBALL2018",
+      "playerId": "p_0000000181",
       "jersey": 4,
       "playerName": "Allie Robertson",
       "twoPM": 1,
@@ -3080,7 +3080,7 @@
     },
     {
       "gameId": "LWBB2018-20180129-H-OHIOCO",
-      "playerId": "COMKEN2020",
+      "playerId": "p_0000000067",
       "jersey": 10,
       "playerName": "Kenzey Compton",
       "twoPM": 0,
@@ -3096,7 +3096,7 @@
     },
     {
       "gameId": "LWBB2018-20180129-H-OHIOCO",
-      "playerId": "MYEEMI2021",
+      "playerId": "p_0000000158",
       "jersey": 11,
       "playerName": "Emily Myers",
       "twoPM": 0,
@@ -3112,7 +3112,7 @@
     },
     {
       "gameId": "LWBB2018-20180129-H-OHIOCO",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 1,
@@ -3128,7 +3128,7 @@
     },
     {
       "gameId": "LWBB2018-20180129-H-OHIOCO",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 0,
@@ -3144,7 +3144,7 @@
     },
     {
       "gameId": "LWBB2018-20180129-H-OHIOCO",
-      "playerId": "EDWKAY2018",
+      "playerId": "p_0000000086",
       "jersey": 24,
       "playerName": "Kayla Edwards",
       "twoPM": 0,
@@ -3160,7 +3160,7 @@
     },
     {
       "gameId": "LWBB2018-20180129-H-OHIOCO",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 1,
@@ -3176,7 +3176,7 @@
     },
     {
       "gameId": "LWBB2018-20180129-H-OHIOCO",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 0,
@@ -3192,7 +3192,7 @@
     },
     {
       "gameId": "LWBB2018-20180129-H-OHIOCO",
-      "playerId": "MATLEX2019",
+      "playerId": "p_0000000149",
       "jersey": 44,
       "playerName": "Lexi Matthews",
       "twoPM": 0,
@@ -3208,7 +3208,7 @@
     },
     {
       "gameId": "LWBB2018-20180129-H-OHIOCO",
-      "playerId": "RICANI2019",
+      "playerId": "p_0000000179",
       "jersey": 33,
       "playerName": "Anissa Richer",
       "twoPM": 0,
@@ -3224,7 +3224,7 @@
     },
     {
       "gameId": "LWBB2018-20180130-A-LARUEC",
-      "playerId": "BOARYL2018",
+      "playerId": "p_0000000048",
       "jersey": 3,
       "playerName": "Ryleigh Board",
       "twoPM": 1,
@@ -3240,7 +3240,7 @@
     },
     {
       "gameId": "LWBB2018-20180130-A-LARUEC",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 2,
@@ -3256,7 +3256,7 @@
     },
     {
       "gameId": "LWBB2018-20180130-A-LARUEC",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 4,
@@ -3272,7 +3272,7 @@
     },
     {
       "gameId": "LWBB2018-20180130-A-LARUEC",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 0,
@@ -3288,7 +3288,7 @@
     },
     {
       "gameId": "LWBB2018-20180130-A-LARUEC",
-      "playerId": "COMKEN2020",
+      "playerId": "p_0000000067",
       "jersey": 10,
       "playerName": "Kenzey Compton",
       "twoPM": 0,
@@ -3304,7 +3304,7 @@
     },
     {
       "gameId": "LWBB2018-20180130-A-LARUEC",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 0,
@@ -3320,7 +3320,7 @@
     },
     {
       "gameId": "LWBB2018-20180130-A-LARUEC",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 0,
@@ -3336,7 +3336,7 @@
     },
     {
       "gameId": "LWBB2018-20180130-A-LARUEC",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 0,
@@ -3352,7 +3352,7 @@
     },
     {
       "gameId": "LWBB2018-20180130-A-LARUEC",
-      "playerId": "ALELAU2018",
+      "playerId": "p_0000000030",
       "jersey": 34,
       "playerName": "Lauren Alexander",
       "twoPM": 5,
@@ -3368,7 +3368,7 @@
     },
     {
       "gameId": "LWBB2018-20180130-A-LARUEC",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 2,
@@ -3384,7 +3384,7 @@
     },
     {
       "gameId": "LWBB2018-20180202-H-CLOVER",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 1,
@@ -3400,7 +3400,7 @@
     },
     {
       "gameId": "LWBB2018-20180202-H-CLOVER",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 3,
@@ -3416,7 +3416,7 @@
     },
     {
       "gameId": "LWBB2018-20180202-H-CLOVER",
-      "playerId": "ALELAU2018",
+      "playerId": "p_0000000030",
       "jersey": 34,
       "playerName": "Lauren Alexander",
       "twoPM": 6,
@@ -3432,7 +3432,7 @@
     },
     {
       "gameId": "LWBB2018-20180202-H-CLOVER",
-      "playerId": "ROBALL2018",
+      "playerId": "p_0000000181",
       "jersey": 4,
       "playerName": "Allie Robertson",
       "twoPM": 0,
@@ -3448,7 +3448,7 @@
     },
     {
       "gameId": "LWBB2018-20180202-H-CLOVER",
-      "playerId": "COMKEN2020",
+      "playerId": "p_0000000067",
       "jersey": 10,
       "playerName": "Kenzey Compton",
       "twoPM": 1,
@@ -3464,7 +3464,7 @@
     },
     {
       "gameId": "LWBB2018-20180202-H-CLOVER",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 3,
@@ -3480,7 +3480,7 @@
     },
     {
       "gameId": "LWBB2018-20180202-H-CLOVER",
-      "playerId": "MYEEMI2021",
+      "playerId": "p_0000000158",
       "jersey": 11,
       "playerName": "Emily Myers",
       "twoPM": 0,
@@ -3496,7 +3496,7 @@
     },
     {
       "gameId": "LWBB2018-20180202-H-CLOVER",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 1,
@@ -3512,7 +3512,7 @@
     },
     {
       "gameId": "LWBB2018-20180202-H-CLOVER",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 0,
@@ -3528,7 +3528,7 @@
     },
     {
       "gameId": "LWBB2018-20180202-H-CLOVER",
-      "playerId": "EDWKAY2018",
+      "playerId": "p_0000000086",
       "jersey": 24,
       "playerName": "Kayla Edwards",
       "twoPM": 1,
@@ -3544,7 +3544,7 @@
     },
     {
       "gameId": "LWBB2018-20180202-H-CLOVER",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 2,
@@ -3560,7 +3560,7 @@
     },
     {
       "gameId": "LWBB2018-20180202-H-CLOVER",
-      "playerId": "RICANI2019",
+      "playerId": "p_0000000179",
       "jersey": 33,
       "playerName": "Anissa Richer",
       "twoPM": 0,
@@ -3576,7 +3576,7 @@
     },
     {
       "gameId": "LWBB2018-20180202-H-CLOVER",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 5,
@@ -3592,7 +3592,7 @@
     },
     {
       "gameId": "LWBB2018-20180205-H-OWENSB",
-      "playerId": "ALELAU2018",
+      "playerId": "p_0000000030",
       "jersey": 34,
       "playerName": "Lauren Alexander",
       "twoPM": 4,
@@ -3608,7 +3608,7 @@
     },
     {
       "gameId": "LWBB2018-20180205-H-OWENSB",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 1,
@@ -3624,7 +3624,7 @@
     },
     {
       "gameId": "LWBB2018-20180205-H-OWENSB",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 3,
@@ -3640,7 +3640,7 @@
     },
     {
       "gameId": "LWBB2018-20180205-H-OWENSB",
-      "playerId": "ROBALL2018",
+      "playerId": "p_0000000181",
       "jersey": 4,
       "playerName": "Allie Robertson",
       "twoPM": 1,
@@ -3656,7 +3656,7 @@
     },
     {
       "gameId": "LWBB2018-20180205-H-OWENSB",
-      "playerId": "COMKEN2020",
+      "playerId": "p_0000000067",
       "jersey": 10,
       "playerName": "Kenzey Compton",
       "twoPM": 0,
@@ -3672,7 +3672,7 @@
     },
     {
       "gameId": "LWBB2018-20180205-H-OWENSB",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 0,
@@ -3688,7 +3688,7 @@
     },
     {
       "gameId": "LWBB2018-20180205-H-OWENSB",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 1,
@@ -3704,7 +3704,7 @@
     },
     {
       "gameId": "LWBB2018-20180205-H-OWENSB",
-      "playerId": "EDWKAY2018",
+      "playerId": "p_0000000086",
       "jersey": 24,
       "playerName": "Kayla Edwards",
       "twoPM": 0,
@@ -3720,7 +3720,7 @@
     },
     {
       "gameId": "LWBB2018-20180205-H-OWENSB",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 0,
@@ -3736,7 +3736,7 @@
     },
     {
       "gameId": "LWBB2018-20180205-H-OWENSB",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 2,
@@ -3752,7 +3752,7 @@
     },
     {
       "gameId": "LWBB2018-20180205-H-OWENSB",
-      "playerId": "RICANI2019",
+      "playerId": "p_0000000179",
       "jersey": 33,
       "playerName": "Anissa Richer",
       "twoPM": 1,
@@ -3768,7 +3768,7 @@
     },
     {
       "gameId": "LWBB2018-20180205-H-OWENSB",
-      "playerId": "MATLEX2019",
+      "playerId": "p_0000000149",
       "jersey": 44,
       "playerName": "Lexi Matthews",
       "twoPM": 1,
@@ -3784,7 +3784,7 @@
     },
     {
       "gameId": "LWBB2018-20180205-H-OWENSB",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 10,
@@ -3800,7 +3800,7 @@
     },
     {
       "gameId": "LWBB2018-20180206-A-NORTHH",
-      "playerId": "ALELAU2018",
+      "playerId": "p_0000000030",
       "jersey": 34,
       "playerName": "Lauren Alexander",
       "twoPM": 5,
@@ -3816,7 +3816,7 @@
     },
     {
       "gameId": "LWBB2018-20180206-A-NORTHH",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 0,
@@ -3832,7 +3832,7 @@
     },
     {
       "gameId": "LWBB2018-20180206-A-NORTHH",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 0,
@@ -3848,7 +3848,7 @@
     },
     {
       "gameId": "LWBB2018-20180206-A-NORTHH",
-      "playerId": "ROBALL2018",
+      "playerId": "p_0000000181",
       "jersey": 4,
       "playerName": "Allie Robertson",
       "twoPM": 0,
@@ -3864,7 +3864,7 @@
     },
     {
       "gameId": "LWBB2018-20180206-A-NORTHH",
-      "playerId": "COMKEN2020",
+      "playerId": "p_0000000067",
       "jersey": 10,
       "playerName": "Kenzey Compton",
       "twoPM": 0,
@@ -3880,7 +3880,7 @@
     },
     {
       "gameId": "LWBB2018-20180206-A-NORTHH",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 4,
@@ -3896,7 +3896,7 @@
     },
     {
       "gameId": "LWBB2018-20180206-A-NORTHH",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 0,
@@ -3912,7 +3912,7 @@
     },
     {
       "gameId": "LWBB2018-20180206-A-NORTHH",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 0,
@@ -3928,7 +3928,7 @@
     },
     {
       "gameId": "LWBB2018-20180206-A-NORTHH",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 2,
@@ -3944,7 +3944,7 @@
     },
     {
       "gameId": "LWBB2018-20180206-A-NORTHH",
-      "playerId": "EDWKAY2018",
+      "playerId": "p_0000000086",
       "jersey": 24,
       "playerName": "Kayla Edwards",
       "twoPM": 0,
@@ -3960,7 +3960,7 @@
     },
     {
       "gameId": "LWBB2018-20180206-A-NORTHH",
-      "playerId": "RICANI2019",
+      "playerId": "p_0000000179",
       "jersey": 33,
       "playerName": "Anissa Richer",
       "twoPM": 0,
@@ -3976,7 +3976,7 @@
     },
     {
       "gameId": "LWBB2018-20180206-A-NORTHH",
-      "playerId": "MATLEX2019",
+      "playerId": "p_0000000149",
       "jersey": 44,
       "playerName": "Lexi Matthews",
       "twoPM": 0,
@@ -3992,7 +3992,7 @@
     },
     {
       "gameId": "LWBB2018-20180206-A-NORTHH",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 4,
@@ -4008,7 +4008,7 @@
     },
     {
       "gameId": "LWBB2018-20180207-A-HANCOC",
-      "playerId": "ALELAU2018",
+      "playerId": "p_0000000030",
       "jersey": 34,
       "playerName": "Lauren Alexander",
       "twoPM": 6,
@@ -4024,7 +4024,7 @@
     },
     {
       "gameId": "LWBB2018-20180207-A-HANCOC",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 2,
@@ -4040,7 +4040,7 @@
     },
     {
       "gameId": "LWBB2018-20180207-A-HANCOC",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 2,
@@ -4056,7 +4056,7 @@
     },
     {
       "gameId": "LWBB2018-20180207-A-HANCOC",
-      "playerId": "ROBALL2018",
+      "playerId": "p_0000000181",
       "jersey": 4,
       "playerName": "Allie Robertson",
       "twoPM": 0,
@@ -4072,7 +4072,7 @@
     },
     {
       "gameId": "LWBB2018-20180207-A-HANCOC",
-      "playerId": "COMKEN2020",
+      "playerId": "p_0000000067",
       "jersey": 10,
       "playerName": "Kenzey Compton",
       "twoPM": 1,
@@ -4088,7 +4088,7 @@
     },
     {
       "gameId": "LWBB2018-20180207-A-HANCOC",
-      "playerId": "EDWKAY2018",
+      "playerId": "p_0000000086",
       "jersey": 24,
       "playerName": "Kayla Edwards",
       "twoPM": 0,
@@ -4104,7 +4104,7 @@
     },
     {
       "gameId": "LWBB2018-20180207-A-HANCOC",
-      "playerId": "MYEEMI2021",
+      "playerId": "p_0000000158",
       "jersey": 11,
       "playerName": "Emily Myers",
       "twoPM": 0,
@@ -4120,7 +4120,7 @@
     },
     {
       "gameId": "LWBB2018-20180207-A-HANCOC",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 3,
@@ -4136,7 +4136,7 @@
     },
     {
       "gameId": "LWBB2018-20180207-A-HANCOC",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 0,
@@ -4152,7 +4152,7 @@
     },
     {
       "gameId": "LWBB2018-20180207-A-HANCOC",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 0,
@@ -4168,7 +4168,7 @@
     },
     {
       "gameId": "LWBB2018-20180207-A-HANCOC",
-      "playerId": "MATLEX2019",
+      "playerId": "p_0000000149",
       "jersey": 44,
       "playerName": "Lexi Matthews",
       "twoPM": 1,
@@ -4184,7 +4184,7 @@
     },
     {
       "gameId": "LWBB2018-20180207-A-HANCOC",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 1,
@@ -4200,7 +4200,7 @@
     },
     {
       "gameId": "LWBB2018-20180207-A-HANCOC",
-      "playerId": "RICANI2019",
+      "playerId": "p_0000000179",
       "jersey": 33,
       "playerName": "Anissa Richer",
       "twoPM": 2,
@@ -4216,7 +4216,7 @@
     },
     {
       "gameId": "LWBB2018-20180207-A-HANCOC",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 12,
@@ -4232,7 +4232,7 @@
     },
     {
       "gameId": "LWBB2018-20180209-H-NELSON",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 3,
@@ -4248,7 +4248,7 @@
     },
     {
       "gameId": "LWBB2018-20180209-H-NELSON",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 0,
@@ -4264,7 +4264,7 @@
     },
     {
       "gameId": "LWBB2018-20180209-H-NELSON",
-      "playerId": "COMKEN2020",
+      "playerId": "p_0000000067",
       "jersey": 10,
       "playerName": "Kenzey Compton",
       "twoPM": 0,
@@ -4280,7 +4280,7 @@
     },
     {
       "gameId": "LWBB2018-20180209-H-NELSON",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 0,
@@ -4296,7 +4296,7 @@
     },
     {
       "gameId": "LWBB2018-20180209-H-NELSON",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 0,
@@ -4312,7 +4312,7 @@
     },
     {
       "gameId": "LWBB2018-20180209-H-NELSON",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 0,
@@ -4328,7 +4328,7 @@
     },
     {
       "gameId": "LWBB2018-20180209-H-NELSON",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 0,
@@ -4344,7 +4344,7 @@
     },
     {
       "gameId": "LWBB2018-20180209-H-NELSON",
-      "playerId": "ALELAU2018",
+      "playerId": "p_0000000030",
       "jersey": 34,
       "playerName": "Lauren Alexander",
       "twoPM": 9,
@@ -4360,7 +4360,7 @@
     },
     {
       "gameId": "LWBB2018-20180209-H-NELSON",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 4,
@@ -4376,7 +4376,7 @@
     },
     {
       "gameId": "LWBB2018-20180212-A-ELIZAB",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 1,
@@ -4392,7 +4392,7 @@
     },
     {
       "gameId": "LWBB2018-20180212-A-ELIZAB",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 3,
@@ -4408,7 +4408,7 @@
     },
     {
       "gameId": "LWBB2018-20180212-A-ELIZAB",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 0,
@@ -4424,7 +4424,7 @@
     },
     {
       "gameId": "LWBB2018-20180212-A-ELIZAB",
-      "playerId": "COMKEN2020",
+      "playerId": "p_0000000067",
       "jersey": 10,
       "playerName": "Kenzey Compton",
       "twoPM": 0,
@@ -4440,7 +4440,7 @@
     },
     {
       "gameId": "LWBB2018-20180212-A-ELIZAB",
-      "playerId": "MYEEMI2021",
+      "playerId": "p_0000000158",
       "jersey": 11,
       "playerName": "Emily Myers",
       "twoPM": 1,
@@ -4456,7 +4456,7 @@
     },
     {
       "gameId": "LWBB2018-20180212-A-ELIZAB",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 3,
@@ -4472,7 +4472,7 @@
     },
     {
       "gameId": "LWBB2018-20180212-A-ELIZAB",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 0,
@@ -4488,7 +4488,7 @@
     },
     {
       "gameId": "LWBB2018-20180212-A-ELIZAB",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 0,
@@ -4504,7 +4504,7 @@
     },
     {
       "gameId": "LWBB2018-20180212-A-ELIZAB",
-      "playerId": "ALELAU2018",
+      "playerId": "p_0000000030",
       "jersey": 34,
       "playerName": "Lauren Alexander",
       "twoPM": 3,
@@ -4520,7 +4520,7 @@
     },
     {
       "gameId": "LWBB2018-20180212-A-ELIZAB",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 3,
@@ -4536,7 +4536,7 @@
     },
     {
       "gameId": "LWBB2018-20180213-A-THOMAS",
-      "playerId": "ALELAU2018",
+      "playerId": "p_0000000030",
       "jersey": 34,
       "playerName": "Lauren Alexander",
       "twoPM": 4,
@@ -4552,7 +4552,7 @@
     },
     {
       "gameId": "LWBB2018-20180213-A-THOMAS",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 2,
@@ -4568,7 +4568,7 @@
     },
     {
       "gameId": "LWBB2018-20180213-A-THOMAS",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 0,
@@ -4584,7 +4584,7 @@
     },
     {
       "gameId": "LWBB2018-20180213-A-THOMAS",
-      "playerId": "BOARYL2018",
+      "playerId": "p_0000000048",
       "jersey": 3,
       "playerName": "Ryleigh Board",
       "twoPM": 5,
@@ -4600,7 +4600,7 @@
     },
     {
       "gameId": "LWBB2018-20180213-A-THOMAS",
-      "playerId": "ROBALL2018",
+      "playerId": "p_0000000181",
       "jersey": 4,
       "playerName": "Allie Robertson",
       "twoPM": 0,
@@ -4616,7 +4616,7 @@
     },
     {
       "gameId": "LWBB2018-20180213-A-THOMAS",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 0,
@@ -4632,7 +4632,7 @@
     },
     {
       "gameId": "LWBB2018-20180213-A-THOMAS",
-      "playerId": "MYEEMI2021",
+      "playerId": "p_0000000158",
       "jersey": 11,
       "playerName": "Emily Myers",
       "twoPM": 0,
@@ -4648,7 +4648,7 @@
     },
     {
       "gameId": "LWBB2018-20180213-A-THOMAS",
-      "playerId": "EDWKAY2018",
+      "playerId": "p_0000000086",
       "jersey": 24,
       "playerName": "Kayla Edwards",
       "twoPM": 0,
@@ -4664,7 +4664,7 @@
     },
     {
       "gameId": "LWBB2018-20180213-A-THOMAS",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 0,
@@ -4680,7 +4680,7 @@
     },
     {
       "gameId": "LWBB2018-20180213-A-THOMAS",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 1,
@@ -4696,7 +4696,7 @@
     },
     {
       "gameId": "LWBB2018-20180213-A-THOMAS",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 1,
@@ -4712,7 +4712,7 @@
     },
     {
       "gameId": "LWBB2018-20180213-A-THOMAS",
-      "playerId": "MATLEX2019",
+      "playerId": "p_0000000149",
       "jersey": 44,
       "playerName": "Lexi Matthews",
       "twoPM": 0,
@@ -4728,7 +4728,7 @@
     },
     {
       "gameId": "LWBB2018-20180213-A-THOMAS",
-      "playerId": "RICANI2019",
+      "playerId": "p_0000000179",
       "jersey": 33,
       "playerName": "Anissa Richer",
       "twoPM": 0,
@@ -4744,7 +4744,7 @@
     },
     {
       "gameId": "LWBB2018-20180213-A-THOMAS",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 5,
@@ -4760,7 +4760,7 @@
     },
     {
       "gameId": "LWBB2018-20180216-H-CHARDI",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 0,
@@ -4776,7 +4776,7 @@
     },
     {
       "gameId": "LWBB2018-20180216-H-CHARDI",
-      "playerId": "BOARYL2018",
+      "playerId": "p_0000000048",
       "jersey": 3,
       "playerName": "Ryleigh Board",
       "twoPM": 5,
@@ -4792,7 +4792,7 @@
     },
     {
       "gameId": "LWBB2018-20180216-H-CHARDI",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 2,
@@ -4808,7 +4808,7 @@
     },
     {
       "gameId": "LWBB2018-20180216-H-CHARDI",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 0,
@@ -4824,7 +4824,7 @@
     },
     {
       "gameId": "LWBB2018-20180216-H-CHARDI",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 0,
@@ -4840,7 +4840,7 @@
     },
     {
       "gameId": "LWBB2018-20180216-H-CHARDI",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 0,
@@ -4856,7 +4856,7 @@
     },
     {
       "gameId": "LWBB2018-20180216-H-CHARDI",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 0,
@@ -4872,7 +4872,7 @@
     },
     {
       "gameId": "LWBB2018-20180216-H-CHARDI",
-      "playerId": "ALELAU2018",
+      "playerId": "p_0000000030",
       "jersey": 34,
       "playerName": "Lauren Alexander",
       "twoPM": 4,
@@ -4888,7 +4888,7 @@
     },
     {
       "gameId": "LWBB2018-20180216-H-CHARDI",
-      "playerId": "WINKEN2020",
+      "playerId": "p_0000000220",
       "jersey": 55,
       "playerName": "Kendall Wingler",
       "twoPM": 6,
@@ -4904,7 +4904,7 @@
     },
     {
       "gameId": "LWBB2018-20180219-N-CLOVER",
-      "playerId": "ALELAU2018",
+      "playerId": "p_0000000030",
       "jersey": 34,
       "playerName": "Lauren Alexander",
       "twoPM": 2,
@@ -4920,7 +4920,7 @@
     },
     {
       "gameId": "LWBB2018-20180219-N-CLOVER",
-      "playerId": "HARAUB2022",
+      "playerId": "p_0000000109",
       "jersey": null,
       "playerName": "Aubrey Hardesty",
       "twoPM": 0,
@@ -4936,7 +4936,7 @@
     },
     {
       "gameId": "LWBB2018-20180219-N-CLOVER",
-      "playerId": "BOARYL2018",
+      "playerId": "p_0000000048",
       "jersey": 3,
       "playerName": "Ryleigh Board",
       "twoPM": 7,
@@ -4952,7 +4952,7 @@
     },
     {
       "gameId": "LWBB2018-20180219-N-CLOVER",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 0,
@@ -4968,7 +4968,7 @@
     },
     {
       "gameId": "LWBB2018-20180219-N-CLOVER",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 5,
@@ -4984,7 +4984,7 @@
     },
     {
       "gameId": "LWBB2018-20180219-N-CLOVER",
-      "playerId": "ROBALL2018",
+      "playerId": "p_0000000181",
       "jersey": 4,
       "playerName": "Allie Robertson",
       "twoPM": 0,
@@ -5000,7 +5000,7 @@
     },
     {
       "gameId": "LWBB2018-20180219-N-CLOVER",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 4,
@@ -5016,7 +5016,7 @@
     },
     {
       "gameId": "LWBB2018-20180219-N-CLOVER",
-      "playerId": "COMKEN2020",
+      "playerId": "p_0000000067",
       "jersey": 10,
       "playerName": "Kenzey Compton",
       "twoPM": 0,
@@ -5032,7 +5032,7 @@
     },
     {
       "gameId": "LWBB2018-20180219-N-CLOVER",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 3,
@@ -5048,7 +5048,7 @@
     },
     {
       "gameId": "LWBB2018-20180219-N-CLOVER",
-      "playerId": "MATLEX2019",
+      "playerId": "p_0000000149",
       "jersey": 44,
       "playerName": "Lexi Matthews",
       "twoPM": 0,
@@ -5064,7 +5064,7 @@
     },
     {
       "gameId": "LWBB2018-20180219-N-CLOVER",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 0,
@@ -5080,7 +5080,7 @@
     },
     {
       "gameId": "LWBB2018-20180219-N-CLOVER",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 0,
@@ -5096,7 +5096,7 @@
     },
     {
       "gameId": "LWBB2018-20180219-N-CLOVER",
-      "playerId": "EDWKAY2018",
+      "playerId": "p_0000000086",
       "jersey": 24,
       "playerName": "Kayla Edwards",
       "twoPM": 0,
@@ -5112,7 +5112,7 @@
     },
     {
       "gameId": "LWBB2018-20180219-N-CLOVER",
-      "playerId": "RICANI2019",
+      "playerId": "p_0000000179",
       "jersey": 33,
       "playerName": "Anissa Richer",
       "twoPM": 1,
@@ -5128,7 +5128,7 @@
     },
     {
       "gameId": "LWBB2018-20180222-A-BRECKI",
-      "playerId": "BOARYL2018",
+      "playerId": "p_0000000048",
       "jersey": 3,
       "playerName": "Ryleigh Board",
       "twoPM": 5,
@@ -5144,7 +5144,7 @@
     },
     {
       "gameId": "LWBB2018-20180222-A-BRECKI",
-      "playerId": "HARAUB2022",
+      "playerId": "p_0000000109",
       "jersey": null,
       "playerName": "Aubrey Hardesty",
       "twoPM": 0,
@@ -5160,7 +5160,7 @@
     },
     {
       "gameId": "LWBB2018-20180222-A-BRECKI",
-      "playerId": "BOABRA2020",
+      "playerId": "p_0000000047",
       "jersey": 2,
       "playerName": "Braydin Board",
       "twoPM": 2,
@@ -5176,7 +5176,7 @@
     },
     {
       "gameId": "LWBB2018-20180222-A-BRECKI",
-      "playerId": "GRIDXX2021",
+      "playerId": "p_0000000105",
       "jersey": 21,
       "playerName": "D Griffen",
       "twoPM": 0,
@@ -5192,7 +5192,7 @@
     },
     {
       "gameId": "LWBB2018-20180222-A-BRECKI",
-      "playerId": "NELABB2019",
+      "playerId": "p_0000000160",
       "jersey": 14,
       "playerName": "Abby Nelson",
       "twoPM": 0,
@@ -5208,7 +5208,7 @@
     },
     {
       "gameId": "LWBB2018-20180222-A-BRECKI",
-      "playerId": "COMKEN2020",
+      "playerId": "p_0000000067",
       "jersey": 10,
       "playerName": "Kenzey Compton",
       "twoPM": 0,
@@ -5224,7 +5224,7 @@
     },
     {
       "gameId": "LWBB2018-20180222-A-BRECKI",
-      "playerId": "YOUELI2018",
+      "playerId": "p_0000000224",
       "jersey": 20,
       "playerName": "Elizabeth Youart",
       "twoPM": 1,
@@ -5240,7 +5240,7 @@
     },
     {
       "gameId": "LWBB2018-20180222-A-BRECKI",
-      "playerId": "LASLAU2019",
+      "playerId": "p_0000000135",
       "jersey": 13,
       "playerName": "Lauren Laslie",
       "twoPM": 0,
@@ -5256,7 +5256,7 @@
     },
     {
       "gameId": "LWBB2018-20180222-A-BRECKI",
-      "playerId": "GALJEN2021",
+      "playerId": "p_0000000095",
       "jersey": 23,
       "playerName": "Jenna Gallimore",
       "twoPM": 0,
@@ -5272,7 +5272,7 @@
     },
     {
       "gameId": "LWBB2018-20180222-A-BRECKI",
-      "playerId": "ALELAU2018",
+      "playerId": "p_0000000030",
       "jersey": 34,
       "playerName": "Lauren Alexander",
       "twoPM": 9,

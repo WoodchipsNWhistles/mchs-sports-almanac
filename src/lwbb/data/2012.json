@@ -541,9 +541,9 @@
       "gradYear": 2015,
       "firstName": "Kelsey",
       "lastName": "Sutton",
-      "playerIdBase": "SUTKEL2015",
+      "playerIdBase": "p_0000000196",
       "playerIdSuffix": 1,
-      "playerId": "SUTKEL2015"
+      "playerId": "p_0000000196"
     },
     {
       "jersey": 4,
@@ -554,9 +554,9 @@
       "gradYear": 2015,
       "firstName": "Elissa",
       "lastName": "Youart",
-      "playerIdBase": "YOUELI2015",
+      "playerIdBase": "p_0000000223",
       "playerIdSuffix": 1,
-      "playerId": "YOUELI2015"
+      "playerId": "p_0000000223"
     },
     {
       "jersey": 5,
@@ -567,9 +567,9 @@
       "gradYear": 2015,
       "firstName": "Addi",
       "lastName": "Lynch",
-      "playerIdBase": "LYNADD2015",
+      "playerIdBase": "p_0000000144",
       "playerIdSuffix": 1,
-      "playerId": "LYNADD2015"
+      "playerId": "p_0000000144"
     },
     {
       "jersey": 10,
@@ -580,9 +580,9 @@
       "gradYear": 2014,
       "firstName": "Katelyn",
       "lastName": "Cucino",
-      "playerIdBase": "CUCKAT2014",
+      "playerIdBase": "p_0000000076",
       "playerIdSuffix": 1,
-      "playerId": "CUCKAT2014"
+      "playerId": "p_0000000076"
     },
     {
       "jersey": 11,
@@ -593,9 +593,9 @@
       "gradYear": 2014,
       "firstName": "Ellie",
       "lastName": "Devries",
-      "playerIdBase": "DEVELL2014",
+      "playerIdBase": "p_0000000079",
       "playerIdSuffix": 1,
-      "playerId": "DEVELL2014"
+      "playerId": "p_0000000079"
     },
     {
       "jersey": 12,
@@ -606,9 +606,9 @@
       "gradYear": 2015,
       "firstName": "Kristin",
       "lastName": "Peters",
-      "playerIdBase": "PETKRI2015",
+      "playerIdBase": "p_0000000166",
       "playerIdSuffix": 1,
-      "playerId": "PETKRI2015"
+      "playerId": "p_0000000166"
     },
     {
       "jersey": 13,
@@ -619,9 +619,9 @@
       "gradYear": 2013,
       "firstName": "Alexis",
       "lastName": "Greco",
-      "playerIdBase": "GREALE2013",
+      "playerIdBase": "p_0000000103",
       "playerIdSuffix": 1,
-      "playerId": "GREALE2013"
+      "playerId": "p_0000000103"
     },
     {
       "jersey": 15,
@@ -632,9 +632,9 @@
       "gradYear": 2014,
       "firstName": "Autumn",
       "lastName": "Bruner",
-      "playerIdBase": "BRUAUT2014",
+      "playerIdBase": "p_0000000055",
       "playerIdSuffix": 1,
-      "playerId": "BRUAUT2014"
+      "playerId": "p_0000000055"
     },
     {
       "jersey": 20,
@@ -645,9 +645,9 @@
       "gradYear": 2014,
       "firstName": "Raley",
       "lastName": "Johnson",
-      "playerIdBase": "JOHRAL2014",
+      "playerIdBase": "p_0000000122",
       "playerIdSuffix": 1,
-      "playerId": "JOHRAL2014"
+      "playerId": "p_0000000122"
     },
     {
       "jersey": 21,
@@ -658,9 +658,9 @@
       "gradYear": 2014,
       "firstName": "Ashley",
       "lastName": "Bloomer",
-      "playerIdBase": "BLOASH2014",
+      "playerIdBase": "p_0000000046",
       "playerIdSuffix": 1,
-      "playerId": "BLOASH2014"
+      "playerId": "p_0000000046"
     },
     {
       "jersey": 23,
@@ -671,9 +671,9 @@
       "gradYear": 2014,
       "firstName": "Carrisa",
       "lastName": "Schwartz",
-      "playerIdBase": "SCHCAR2014",
+      "playerIdBase": "p_0000000182",
       "playerIdSuffix": 1,
-      "playerId": "SCHCAR2014"
+      "playerId": "p_0000000182"
     },
     {
       "jersey": 24,
@@ -684,9 +684,9 @@
       "gradYear": 2015,
       "firstName": "Morgan",
       "lastName": "Turner",
-      "playerIdBase": "TURMOR2015",
+      "playerIdBase": "p_0000000201",
       "playerIdSuffix": 1,
-      "playerId": "TURMOR2015"
+      "playerId": "p_0000000201"
     },
     {
       "jersey": 25,
@@ -697,9 +697,9 @@
       "gradYear": 2013,
       "firstName": "Megan",
       "lastName": "Aebersold",
-      "playerIdBase": "AEBMEG2013",
+      "playerIdBase": "p_0000000028",
       "playerIdSuffix": 1,
-      "playerId": "AEBMEG2013"
+      "playerId": "p_0000000028"
     },
     {
       "jersey": 32,
@@ -710,9 +710,9 @@
       "gradYear": 2013,
       "firstName": "Rachel",
       "lastName": "Crebessa",
-      "playerIdBase": "CRERAC2013",
+      "playerIdBase": "p_0000000071",
       "playerIdSuffix": 1,
-      "playerId": "CRERAC2013"
+      "playerId": "p_0000000071"
     },
     {
       "jersey": 42,
@@ -723,15 +723,15 @@
       "gradYear": 2013,
       "firstName": "Maya",
       "lastName": "Luney",
-      "playerIdBase": "LUNMAY2013",
+      "playerIdBase": "p_0000000143",
       "playerIdSuffix": 1,
-      "playerId": "LUNMAY2013"
+      "playerId": "p_0000000143"
     }
   ],
   "gameStats": [
     {
       "gameId": "LWBB2012-20111129-H-ELIZAB",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 0,
@@ -747,7 +747,7 @@
     },
     {
       "gameId": "LWBB2012-20111129-H-ELIZAB",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 1,
@@ -763,7 +763,7 @@
     },
     {
       "gameId": "LWBB2012-20111129-H-ELIZAB",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 2,
@@ -779,7 +779,7 @@
     },
     {
       "gameId": "LWBB2012-20111129-H-ELIZAB",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 0,
@@ -795,7 +795,7 @@
     },
     {
       "gameId": "LWBB2012-20111129-H-ELIZAB",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 0,
@@ -811,7 +811,7 @@
     },
     {
       "gameId": "LWBB2012-20111129-H-ELIZAB",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 0,
@@ -827,7 +827,7 @@
     },
     {
       "gameId": "LWBB2012-20111129-H-ELIZAB",
-      "playerId": "BLOASH2014",
+      "playerId": "p_0000000046",
       "jersey": 21,
       "playerName": "Ashley Bloomer",
       "twoPM": 0,
@@ -843,7 +843,7 @@
     },
     {
       "gameId": "LWBB2012-20111129-H-ELIZAB",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 0,
@@ -859,7 +859,7 @@
     },
     {
       "gameId": "LWBB2012-20111129-H-ELIZAB",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 0,
@@ -875,7 +875,7 @@
     },
     {
       "gameId": "LWBB2012-20111129-H-ELIZAB",
-      "playerId": "DEVELL2014",
+      "playerId": "p_0000000079",
       "jersey": 11,
       "playerName": "Ellie Devries",
       "twoPM": 0,
@@ -891,7 +891,7 @@
     },
     {
       "gameId": "LWBB2012-20111129-H-ELIZAB",
-      "playerId": "PETKRI2015",
+      "playerId": "p_0000000166",
       "jersey": 12,
       "playerName": "Kristin Peters",
       "twoPM": 0,
@@ -907,7 +907,7 @@
     },
     {
       "gameId": "LWBB2012-20111129-H-ELIZAB",
-      "playerId": "BRUAUT2014",
+      "playerId": "p_0000000055",
       "jersey": 15,
       "playerName": "Autumn Bruner",
       "twoPM": 0,
@@ -923,7 +923,7 @@
     },
     {
       "gameId": "LWBB2012-20111129-H-ELIZAB",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -939,7 +939,7 @@
     },
     {
       "gameId": "LWBB2012-20111129-H-ELIZAB",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 1,
@@ -955,7 +955,7 @@
     },
     {
       "gameId": "LWBB2012-20111129-H-ELIZAB",
-      "playerId": "CRERAC2013",
+      "playerId": "p_0000000071",
       "jersey": 32,
       "playerName": "Rachel Crebessa",
       "twoPM": 1,
@@ -971,7 +971,7 @@
     },
     {
       "gameId": "LWBB2012-20111202-H-LARUEC",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 0,
@@ -987,7 +987,7 @@
     },
     {
       "gameId": "LWBB2012-20111202-H-LARUEC",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 5,
@@ -1003,7 +1003,7 @@
     },
     {
       "gameId": "LWBB2012-20111202-H-LARUEC",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 0,
@@ -1019,7 +1019,7 @@
     },
     {
       "gameId": "LWBB2012-20111202-H-LARUEC",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 0,
@@ -1035,7 +1035,7 @@
     },
     {
       "gameId": "LWBB2012-20111202-H-LARUEC",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -1051,7 +1051,7 @@
     },
     {
       "gameId": "LWBB2012-20111202-H-LARUEC",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 0,
@@ -1067,7 +1067,7 @@
     },
     {
       "gameId": "LWBB2012-20111202-H-LARUEC",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 3,
@@ -1083,7 +1083,7 @@
     },
     {
       "gameId": "LWBB2012-20111202-H-LARUEC",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 0,
@@ -1099,7 +1099,7 @@
     },
     {
       "gameId": "LWBB2012-20111202-H-LARUEC",
-      "playerId": "CRERAC2013",
+      "playerId": "p_0000000071",
       "jersey": 32,
       "playerName": "Rachel Crebessa",
       "twoPM": 0,
@@ -1115,7 +1115,7 @@
     },
     {
       "gameId": "LWBB2012-20111202-H-LARUEC",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 3,
@@ -1131,7 +1131,7 @@
     },
     {
       "gameId": "LWBB2012-20111209-A-BRECKI",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 0,
@@ -1147,7 +1147,7 @@
     },
     {
       "gameId": "LWBB2012-20111209-A-BRECKI",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 1,
@@ -1163,7 +1163,7 @@
     },
     {
       "gameId": "LWBB2012-20111209-A-BRECKI",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 1,
@@ -1179,7 +1179,7 @@
     },
     {
       "gameId": "LWBB2012-20111209-A-BRECKI",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -1195,7 +1195,7 @@
     },
     {
       "gameId": "LWBB2012-20111209-A-BRECKI",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 0,
@@ -1211,7 +1211,7 @@
     },
     {
       "gameId": "LWBB2012-20111209-A-BRECKI",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 4,
@@ -1227,7 +1227,7 @@
     },
     {
       "gameId": "LWBB2012-20111209-A-BRECKI",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 0,
@@ -1243,7 +1243,7 @@
     },
     {
       "gameId": "LWBB2012-20111209-A-BRECKI",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 3,
@@ -1259,7 +1259,7 @@
     },
     {
       "gameId": "LWBB2012-20111213-H-GRAYSO",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 0,
@@ -1275,7 +1275,7 @@
     },
     {
       "gameId": "LWBB2012-20111213-H-GRAYSO",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 1,
@@ -1291,7 +1291,7 @@
     },
     {
       "gameId": "LWBB2012-20111213-H-GRAYSO",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 2,
@@ -1307,7 +1307,7 @@
     },
     {
       "gameId": "LWBB2012-20111213-H-GRAYSO",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 0,
@@ -1323,7 +1323,7 @@
     },
     {
       "gameId": "LWBB2012-20111213-H-GRAYSO",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 2,
@@ -1339,7 +1339,7 @@
     },
     {
       "gameId": "LWBB2012-20111213-H-GRAYSO",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 2,
@@ -1355,7 +1355,7 @@
     },
     {
       "gameId": "LWBB2012-20111213-H-GRAYSO",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 4,
@@ -1371,7 +1371,7 @@
     },
     {
       "gameId": "LWBB2012-20111213-H-GRAYSO",
-      "playerId": "BLOASH2014",
+      "playerId": "p_0000000046",
       "jersey": 21,
       "playerName": "Ashley Bloomer",
       "twoPM": 0,
@@ -1387,7 +1387,7 @@
     },
     {
       "gameId": "LWBB2012-20111213-H-GRAYSO",
-      "playerId": "DEVELL2014",
+      "playerId": "p_0000000079",
       "jersey": 11,
       "playerName": "Ellie Devries",
       "twoPM": 0,
@@ -1403,7 +1403,7 @@
     },
     {
       "gameId": "LWBB2012-20111213-H-GRAYSO",
-      "playerId": "PETKRI2015",
+      "playerId": "p_0000000166",
       "jersey": 12,
       "playerName": "Kristin Peters",
       "twoPM": 0,
@@ -1419,7 +1419,7 @@
     },
     {
       "gameId": "LWBB2012-20111213-H-GRAYSO",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 3,
@@ -1435,7 +1435,7 @@
     },
     {
       "gameId": "LWBB2012-20111213-H-GRAYSO",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -1451,7 +1451,7 @@
     },
     {
       "gameId": "LWBB2012-20111213-H-GRAYSO",
-      "playerId": "BRUAUT2014",
+      "playerId": "p_0000000055",
       "jersey": 15,
       "playerName": "Autumn Bruner",
       "twoPM": 0,
@@ -1467,7 +1467,7 @@
     },
     {
       "gameId": "LWBB2012-20111213-H-GRAYSO",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 0,
@@ -1483,7 +1483,7 @@
     },
     {
       "gameId": "LWBB2012-20111213-H-GRAYSO",
-      "playerId": "CRERAC2013",
+      "playerId": "p_0000000071",
       "jersey": 32,
       "playerName": "Rachel Crebessa",
       "twoPM": 1,
@@ -1499,7 +1499,7 @@
     },
     {
       "gameId": "LWBB2012-20111215-A-HANCOC",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 1,
@@ -1515,7 +1515,7 @@
     },
     {
       "gameId": "LWBB2012-20111215-A-HANCOC",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 1,
@@ -1531,7 +1531,7 @@
     },
     {
       "gameId": "LWBB2012-20111215-A-HANCOC",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 2,
@@ -1547,7 +1547,7 @@
     },
     {
       "gameId": "LWBB2012-20111215-A-HANCOC",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 1,
@@ -1563,7 +1563,7 @@
     },
     {
       "gameId": "LWBB2012-20111215-A-HANCOC",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -1579,7 +1579,7 @@
     },
     {
       "gameId": "LWBB2012-20111215-A-HANCOC",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 0,
@@ -1595,7 +1595,7 @@
     },
     {
       "gameId": "LWBB2012-20111215-A-HANCOC",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 3,
@@ -1611,7 +1611,7 @@
     },
     {
       "gameId": "LWBB2012-20111215-A-HANCOC",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 0,
@@ -1627,7 +1627,7 @@
     },
     {
       "gameId": "LWBB2012-20111215-A-HANCOC",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 1,
@@ -1643,7 +1643,7 @@
     },
     {
       "gameId": "LWBB2012-20111216-U-HARTCO",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 3,
@@ -1659,7 +1659,7 @@
     },
     {
       "gameId": "LWBB2012-20111216-U-HARTCO",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 1,
@@ -1675,7 +1675,7 @@
     },
     {
       "gameId": "LWBB2012-20111216-U-HARTCO",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 3,
@@ -1691,7 +1691,7 @@
     },
     {
       "gameId": "LWBB2012-20111216-U-HARTCO",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 0,
@@ -1707,7 +1707,7 @@
     },
     {
       "gameId": "LWBB2012-20111216-U-HARTCO",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 2,
@@ -1723,7 +1723,7 @@
     },
     {
       "gameId": "LWBB2012-20111216-U-HARTCO",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 1,
@@ -1739,7 +1739,7 @@
     },
     {
       "gameId": "LWBB2012-20111216-U-HARTCO",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 1,
@@ -1755,7 +1755,7 @@
     },
     {
       "gameId": "LWBB2012-20111216-U-HARTCO",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -1771,7 +1771,7 @@
     },
     {
       "gameId": "LWBB2012-20111216-U-HARTCO",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 0,
@@ -1787,7 +1787,7 @@
     },
     {
       "gameId": "LWBB2012-20111216-U-HARTCO",
-      "playerId": "CRERAC2013",
+      "playerId": "p_0000000071",
       "jersey": 32,
       "playerName": "Rachel Crebessa",
       "twoPM": 0,
@@ -1803,7 +1803,7 @@
     },
     {
       "gameId": "LWBB2012-20111216-U-HARTCO",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 4,
@@ -1819,7 +1819,7 @@
     },
     {
       "gameId": "LWBB2012-20111219-N-ASSUMP",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 0,
@@ -1835,7 +1835,7 @@
     },
     {
       "gameId": "LWBB2012-20111219-N-ASSUMP",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 1,
@@ -1851,7 +1851,7 @@
     },
     {
       "gameId": "LWBB2012-20111219-N-ASSUMP",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 1,
@@ -1867,7 +1867,7 @@
     },
     {
       "gameId": "LWBB2012-20111219-N-ASSUMP",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 0,
@@ -1883,7 +1883,7 @@
     },
     {
       "gameId": "LWBB2012-20111219-N-ASSUMP",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -1899,7 +1899,7 @@
     },
     {
       "gameId": "LWBB2012-20111219-N-ASSUMP",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 0,
@@ -1915,7 +1915,7 @@
     },
     {
       "gameId": "LWBB2012-20111219-N-ASSUMP",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 3,
@@ -1931,7 +1931,7 @@
     },
     {
       "gameId": "LWBB2012-20111219-N-ASSUMP",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 0,
@@ -1947,7 +1947,7 @@
     },
     {
       "gameId": "LWBB2012-20111219-N-ASSUMP",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 2,
@@ -1963,7 +1963,7 @@
     },
     {
       "gameId": "LWBB2012-20111220-N-RYLEXX",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 1,
@@ -1979,7 +1979,7 @@
     },
     {
       "gameId": "LWBB2012-20111220-N-RYLEXX",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 2,
@@ -1995,7 +1995,7 @@
     },
     {
       "gameId": "LWBB2012-20111220-N-RYLEXX",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 4,
@@ -2011,7 +2011,7 @@
     },
     {
       "gameId": "LWBB2012-20111220-N-RYLEXX",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 0,
@@ -2027,7 +2027,7 @@
     },
     {
       "gameId": "LWBB2012-20111220-N-RYLEXX",
-      "playerId": "BLOASH2014",
+      "playerId": "p_0000000046",
       "jersey": 21,
       "playerName": "Ashley Bloomer",
       "twoPM": 0,
@@ -2043,7 +2043,7 @@
     },
     {
       "gameId": "LWBB2012-20111220-N-RYLEXX",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 0,
@@ -2059,7 +2059,7 @@
     },
     {
       "gameId": "LWBB2012-20111220-N-RYLEXX",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 0,
@@ -2075,7 +2075,7 @@
     },
     {
       "gameId": "LWBB2012-20111220-N-RYLEXX",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 0,
@@ -2091,7 +2091,7 @@
     },
     {
       "gameId": "LWBB2012-20111220-N-RYLEXX",
-      "playerId": "DEVELL2014",
+      "playerId": "p_0000000079",
       "jersey": 11,
       "playerName": "Ellie Devries",
       "twoPM": 1,
@@ -2107,7 +2107,7 @@
     },
     {
       "gameId": "LWBB2012-20111220-N-RYLEXX",
-      "playerId": "BRUAUT2014",
+      "playerId": "p_0000000055",
       "jersey": 15,
       "playerName": "Autumn Bruner",
       "twoPM": 0,
@@ -2123,7 +2123,7 @@
     },
     {
       "gameId": "LWBB2012-20111220-N-RYLEXX",
-      "playerId": "PETKRI2015",
+      "playerId": "p_0000000166",
       "jersey": 12,
       "playerName": "Kristin Peters",
       "twoPM": 0,
@@ -2139,7 +2139,7 @@
     },
     {
       "gameId": "LWBB2012-20111220-N-RYLEXX",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 2,
@@ -2155,7 +2155,7 @@
     },
     {
       "gameId": "LWBB2012-20111220-N-RYLEXX",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -2171,7 +2171,7 @@
     },
     {
       "gameId": "LWBB2012-20111220-N-RYLEXX",
-      "playerId": "CRERAC2013",
+      "playerId": "p_0000000071",
       "jersey": 32,
       "playerName": "Rachel Crebessa",
       "twoPM": 0,
@@ -2187,7 +2187,7 @@
     },
     {
       "gameId": "LWBB2012-20111220-N-RYLEXX",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 0,
@@ -2203,7 +2203,7 @@
     },
     {
       "gameId": "LWBB2012-20111222-N-MURRAY",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 0,
@@ -2219,7 +2219,7 @@
     },
     {
       "gameId": "LWBB2012-20111222-N-MURRAY",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 1,
@@ -2235,7 +2235,7 @@
     },
     {
       "gameId": "LWBB2012-20111222-N-MURRAY",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 0,
@@ -2251,7 +2251,7 @@
     },
     {
       "gameId": "LWBB2012-20111222-N-MURRAY",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 1,
@@ -2267,7 +2267,7 @@
     },
     {
       "gameId": "LWBB2012-20111222-N-MURRAY",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 0,
@@ -2283,7 +2283,7 @@
     },
     {
       "gameId": "LWBB2012-20111222-N-MURRAY",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -2299,7 +2299,7 @@
     },
     {
       "gameId": "LWBB2012-20111222-N-MURRAY",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 0,
@@ -2315,7 +2315,7 @@
     },
     {
       "gameId": "LWBB2012-20111222-N-MURRAY",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 5,
@@ -2331,7 +2331,7 @@
     },
     {
       "gameId": "LWBB2012-20111222-N-MURRAY",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 1,
@@ -2347,7 +2347,7 @@
     },
     {
       "gameId": "LWBB2012-20111222-N-MURRAY",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 2,
@@ -2363,7 +2363,7 @@
     },
     {
       "gameId": "LWBB2012-20111223-N-CHRIST",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 3,
@@ -2379,7 +2379,7 @@
     },
     {
       "gameId": "LWBB2012-20111223-N-CHRIST",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 0,
@@ -2395,7 +2395,7 @@
     },
     {
       "gameId": "LWBB2012-20111223-N-CHRIST",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 3,
@@ -2411,7 +2411,7 @@
     },
     {
       "gameId": "LWBB2012-20111223-N-CHRIST",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 0,
@@ -2427,7 +2427,7 @@
     },
     {
       "gameId": "LWBB2012-20111223-N-CHRIST",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 2,
@@ -2443,7 +2443,7 @@
     },
     {
       "gameId": "LWBB2012-20111223-N-CHRIST",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -2459,7 +2459,7 @@
     },
     {
       "gameId": "LWBB2012-20111223-N-CHRIST",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 0,
@@ -2475,7 +2475,7 @@
     },
     {
       "gameId": "LWBB2012-20111223-N-CHRIST",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 4,
@@ -2491,7 +2491,7 @@
     },
     {
       "gameId": "LWBB2012-20111223-N-CHRIST",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 0,
@@ -2507,7 +2507,7 @@
     },
     {
       "gameId": "LWBB2012-20111223-N-CHRIST",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 4,
@@ -2523,7 +2523,7 @@
     },
     {
       "gameId": "LWBB2012-20111227-N-VALLEY",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 0,
@@ -2539,7 +2539,7 @@
     },
     {
       "gameId": "LWBB2012-20111227-N-VALLEY",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 4,
@@ -2555,7 +2555,7 @@
     },
     {
       "gameId": "LWBB2012-20111227-N-VALLEY",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 5,
@@ -2571,7 +2571,7 @@
     },
     {
       "gameId": "LWBB2012-20111227-N-VALLEY",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 1,
@@ -2587,7 +2587,7 @@
     },
     {
       "gameId": "LWBB2012-20111227-N-VALLEY",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 3,
@@ -2603,7 +2603,7 @@
     },
     {
       "gameId": "LWBB2012-20111227-N-VALLEY",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 1,
@@ -2619,7 +2619,7 @@
     },
     {
       "gameId": "LWBB2012-20111227-N-VALLEY",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 4,
@@ -2635,7 +2635,7 @@
     },
     {
       "gameId": "LWBB2012-20111227-N-VALLEY",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 1,
@@ -2651,7 +2651,7 @@
     },
     {
       "gameId": "LWBB2012-20111227-N-VALLEY",
-      "playerId": "BLOASH2014",
+      "playerId": "p_0000000046",
       "jersey": 21,
       "playerName": "Ashley Bloomer",
       "twoPM": 0,
@@ -2667,7 +2667,7 @@
     },
     {
       "gameId": "LWBB2012-20111227-N-VALLEY",
-      "playerId": "DEVELL2014",
+      "playerId": "p_0000000079",
       "jersey": 11,
       "playerName": "Ellie Devries",
       "twoPM": 0,
@@ -2683,7 +2683,7 @@
     },
     {
       "gameId": "LWBB2012-20111227-N-VALLEY",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -2699,7 +2699,7 @@
     },
     {
       "gameId": "LWBB2012-20111227-N-VALLEY",
-      "playerId": "PETKRI2015",
+      "playerId": "p_0000000166",
       "jersey": 12,
       "playerName": "Kristin Peters",
       "twoPM": 0,
@@ -2715,7 +2715,7 @@
     },
     {
       "gameId": "LWBB2012-20111227-N-VALLEY",
-      "playerId": "CRERAC2013",
+      "playerId": "p_0000000071",
       "jersey": 32,
       "playerName": "Rachel Crebessa",
       "twoPM": 0,
@@ -2731,7 +2731,7 @@
     },
     {
       "gameId": "LWBB2012-20111227-N-VALLEY",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 1,
@@ -2747,7 +2747,7 @@
     },
     {
       "gameId": "LWBB2012-20111228-N-SPENCE",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 1,
@@ -2763,7 +2763,7 @@
     },
     {
       "gameId": "LWBB2012-20111228-N-SPENCE",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 0,
@@ -2779,7 +2779,7 @@
     },
     {
       "gameId": "LWBB2012-20111228-N-SPENCE",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 6,
@@ -2795,7 +2795,7 @@
     },
     {
       "gameId": "LWBB2012-20111228-N-SPENCE",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 3,
@@ -2811,7 +2811,7 @@
     },
     {
       "gameId": "LWBB2012-20111228-N-SPENCE",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 3,
@@ -2827,7 +2827,7 @@
     },
     {
       "gameId": "LWBB2012-20111228-N-SPENCE",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 0,
@@ -2843,7 +2843,7 @@
     },
     {
       "gameId": "LWBB2012-20111228-N-SPENCE",
-      "playerId": "BLOASH2014",
+      "playerId": "p_0000000046",
       "jersey": 21,
       "playerName": "Ashley Bloomer",
       "twoPM": 0,
@@ -2859,7 +2859,7 @@
     },
     {
       "gameId": "LWBB2012-20111228-N-SPENCE",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 0,
@@ -2875,7 +2875,7 @@
     },
     {
       "gameId": "LWBB2012-20111228-N-SPENCE",
-      "playerId": "DEVELL2014",
+      "playerId": "p_0000000079",
       "jersey": 11,
       "playerName": "Ellie Devries",
       "twoPM": 4,
@@ -2891,7 +2891,7 @@
     },
     {
       "gameId": "LWBB2012-20111228-N-SPENCE",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 2,
@@ -2907,7 +2907,7 @@
     },
     {
       "gameId": "LWBB2012-20111228-N-SPENCE",
-      "playerId": "PETKRI2015",
+      "playerId": "p_0000000166",
       "jersey": 12,
       "playerName": "Kristin Peters",
       "twoPM": 0,
@@ -2923,7 +2923,7 @@
     },
     {
       "gameId": "LWBB2012-20111228-N-SPENCE",
-      "playerId": "BRUAUT2014",
+      "playerId": "p_0000000055",
       "jersey": 15,
       "playerName": "Autumn Bruner",
       "twoPM": 0,
@@ -2939,7 +2939,7 @@
     },
     {
       "gameId": "LWBB2012-20111228-N-SPENCE",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 1,
@@ -2955,7 +2955,7 @@
     },
     {
       "gameId": "LWBB2012-20111228-N-SPENCE",
-      "playerId": "CRERAC2013",
+      "playerId": "p_0000000071",
       "jersey": 32,
       "playerName": "Rachel Crebessa",
       "twoPM": 0,
@@ -2971,7 +2971,7 @@
     },
     {
       "gameId": "LWBB2012-20111228-N-SPENCE",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 2,
@@ -2987,7 +2987,7 @@
     },
     {
       "gameId": "LWBB2012-20111229-N-FAIRVI",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 1,
@@ -3003,7 +3003,7 @@
     },
     {
       "gameId": "LWBB2012-20111229-N-FAIRVI",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 0,
@@ -3019,7 +3019,7 @@
     },
     {
       "gameId": "LWBB2012-20111229-N-FAIRVI",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 4,
@@ -3035,7 +3035,7 @@
     },
     {
       "gameId": "LWBB2012-20111229-N-FAIRVI",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 0,
@@ -3051,7 +3051,7 @@
     },
     {
       "gameId": "LWBB2012-20111229-N-FAIRVI",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 1,
@@ -3067,7 +3067,7 @@
     },
     {
       "gameId": "LWBB2012-20111229-N-FAIRVI",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 4,
@@ -3083,7 +3083,7 @@
     },
     {
       "gameId": "LWBB2012-20111229-N-FAIRVI",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 1,
@@ -3099,7 +3099,7 @@
     },
     {
       "gameId": "LWBB2012-20111229-N-FAIRVI",
-      "playerId": "BLOASH2014",
+      "playerId": "p_0000000046",
       "jersey": 21,
       "playerName": "Ashley Bloomer",
       "twoPM": 0,
@@ -3115,7 +3115,7 @@
     },
     {
       "gameId": "LWBB2012-20111229-N-FAIRVI",
-      "playerId": "DEVELL2014",
+      "playerId": "p_0000000079",
       "jersey": 11,
       "playerName": "Ellie Devries",
       "twoPM": 2,
@@ -3131,7 +3131,7 @@
     },
     {
       "gameId": "LWBB2012-20111229-N-FAIRVI",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 3,
@@ -3147,7 +3147,7 @@
     },
     {
       "gameId": "LWBB2012-20111229-N-FAIRVI",
-      "playerId": "PETKRI2015",
+      "playerId": "p_0000000166",
       "jersey": 12,
       "playerName": "Kristin Peters",
       "twoPM": 0,
@@ -3163,7 +3163,7 @@
     },
     {
       "gameId": "LWBB2012-20111229-N-FAIRVI",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 1,
@@ -3179,7 +3179,7 @@
     },
     {
       "gameId": "LWBB2012-20111229-N-FAIRVI",
-      "playerId": "BRUAUT2014",
+      "playerId": "p_0000000055",
       "jersey": 15,
       "playerName": "Autumn Bruner",
       "twoPM": 0,
@@ -3195,7 +3195,7 @@
     },
     {
       "gameId": "LWBB2012-20111229-N-FAIRVI",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 3,
@@ -3211,7 +3211,7 @@
     },
     {
       "gameId": "LWBB2012-20111229-N-FAIRVI",
-      "playerId": "CRERAC2013",
+      "playerId": "p_0000000071",
       "jersey": 32,
       "playerName": "Rachel Crebessa",
       "twoPM": 0,
@@ -3227,7 +3227,7 @@
     },
     {
       "gameId": "LWBB2012-20120103-A-CLOVER",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 2,
@@ -3243,7 +3243,7 @@
     },
     {
       "gameId": "LWBB2012-20120103-A-CLOVER",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 2,
@@ -3259,7 +3259,7 @@
     },
     {
       "gameId": "LWBB2012-20120103-A-CLOVER",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 5,
@@ -3275,7 +3275,7 @@
     },
     {
       "gameId": "LWBB2012-20120103-A-CLOVER",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 3,
@@ -3291,7 +3291,7 @@
     },
     {
       "gameId": "LWBB2012-20120103-A-CLOVER",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 4,
@@ -3307,7 +3307,7 @@
     },
     {
       "gameId": "LWBB2012-20120103-A-CLOVER",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 1,
@@ -3323,7 +3323,7 @@
     },
     {
       "gameId": "LWBB2012-20120103-A-CLOVER",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 3,
@@ -3339,7 +3339,7 @@
     },
     {
       "gameId": "LWBB2012-20120103-A-CLOVER",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 0,
@@ -3355,7 +3355,7 @@
     },
     {
       "gameId": "LWBB2012-20120103-A-CLOVER",
-      "playerId": "BLOASH2014",
+      "playerId": "p_0000000046",
       "jersey": 21,
       "playerName": "Ashley Bloomer",
       "twoPM": 1,
@@ -3371,7 +3371,7 @@
     },
     {
       "gameId": "LWBB2012-20120103-A-CLOVER",
-      "playerId": "DEVELL2014",
+      "playerId": "p_0000000079",
       "jersey": 11,
       "playerName": "Ellie Devries",
       "twoPM": 0,
@@ -3387,7 +3387,7 @@
     },
     {
       "gameId": "LWBB2012-20120103-A-CLOVER",
-      "playerId": "CRERAC2013",
+      "playerId": "p_0000000071",
       "jersey": 32,
       "playerName": "Rachel Crebessa",
       "twoPM": 4,
@@ -3403,7 +3403,7 @@
     },
     {
       "gameId": "LWBB2012-20120103-A-CLOVER",
-      "playerId": "PETKRI2015",
+      "playerId": "p_0000000166",
       "jersey": 12,
       "playerName": "Kristin Peters",
       "twoPM": 0,
@@ -3419,7 +3419,7 @@
     },
     {
       "gameId": "LWBB2012-20120103-A-CLOVER",
-      "playerId": "BRUAUT2014",
+      "playerId": "p_0000000055",
       "jersey": 15,
       "playerName": "Autumn Bruner",
       "twoPM": 0,
@@ -3435,7 +3435,7 @@
     },
     {
       "gameId": "LWBB2012-20120103-A-CLOVER",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 4,
@@ -3451,7 +3451,7 @@
     },
     {
       "gameId": "LWBB2012-20120103-A-CLOVER",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 0,
@@ -3467,7 +3467,7 @@
     },
     {
       "gameId": "LWBB2012-20120105-A-FLOYDC",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 0,
@@ -3483,7 +3483,7 @@
     },
     {
       "gameId": "LWBB2012-20120105-A-FLOYDC",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 0,
@@ -3499,7 +3499,7 @@
     },
     {
       "gameId": "LWBB2012-20120105-A-FLOYDC",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 4,
@@ -3515,7 +3515,7 @@
     },
     {
       "gameId": "LWBB2012-20120105-A-FLOYDC",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 0,
@@ -3531,7 +3531,7 @@
     },
     {
       "gameId": "LWBB2012-20120105-A-FLOYDC",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 1,
@@ -3547,7 +3547,7 @@
     },
     {
       "gameId": "LWBB2012-20120105-A-FLOYDC",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 5,
@@ -3563,7 +3563,7 @@
     },
     {
       "gameId": "LWBB2012-20120105-A-FLOYDC",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 0,
@@ -3579,7 +3579,7 @@
     },
     {
       "gameId": "LWBB2012-20120105-A-FLOYDC",
-      "playerId": "DEVELL2014",
+      "playerId": "p_0000000079",
       "jersey": 11,
       "playerName": "Ellie Devries",
       "twoPM": 0,
@@ -3595,7 +3595,7 @@
     },
     {
       "gameId": "LWBB2012-20120105-A-FLOYDC",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -3611,7 +3611,7 @@
     },
     {
       "gameId": "LWBB2012-20120105-A-FLOYDC",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 0,
@@ -3627,7 +3627,7 @@
     },
     {
       "gameId": "LWBB2012-20120105-A-FLOYDC",
-      "playerId": "CRERAC2013",
+      "playerId": "p_0000000071",
       "jersey": 32,
       "playerName": "Rachel Crebessa",
       "twoPM": 0,
@@ -3643,7 +3643,7 @@
     },
     {
       "gameId": "LWBB2012-20120105-A-FLOYDC",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 4,
@@ -3659,7 +3659,7 @@
     },
     {
       "gameId": "LWBB2012-20120107-H-EDMONS",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 0,
@@ -3675,7 +3675,7 @@
     },
     {
       "gameId": "LWBB2012-20120107-H-EDMONS",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 0,
@@ -3691,7 +3691,7 @@
     },
     {
       "gameId": "LWBB2012-20120107-H-EDMONS",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 1,
@@ -3707,7 +3707,7 @@
     },
     {
       "gameId": "LWBB2012-20120107-H-EDMONS",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 1,
@@ -3723,7 +3723,7 @@
     },
     {
       "gameId": "LWBB2012-20120107-H-EDMONS",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 0,
@@ -3739,7 +3739,7 @@
     },
     {
       "gameId": "LWBB2012-20120107-H-EDMONS",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 0,
@@ -3755,7 +3755,7 @@
     },
     {
       "gameId": "LWBB2012-20120107-H-EDMONS",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 4,
@@ -3771,7 +3771,7 @@
     },
     {
       "gameId": "LWBB2012-20120107-H-EDMONS",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 1,
@@ -3787,7 +3787,7 @@
     },
     {
       "gameId": "LWBB2012-20120107-H-EDMONS",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 2,
@@ -3803,7 +3803,7 @@
     },
     {
       "gameId": "LWBB2012-20120110-A-LARUEC",
-      "playerId": "CRERAC2013",
+      "playerId": "p_0000000071",
       "jersey": 32,
       "playerName": "Rachel Crebessa",
       "twoPM": 0,
@@ -3819,7 +3819,7 @@
     },
     {
       "gameId": "LWBB2012-20120110-A-LARUEC",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 0,
@@ -3835,7 +3835,7 @@
     },
     {
       "gameId": "LWBB2012-20120110-A-LARUEC",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 0,
@@ -3851,7 +3851,7 @@
     },
     {
       "gameId": "LWBB2012-20120110-A-LARUEC",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 1,
@@ -3867,7 +3867,7 @@
     },
     {
       "gameId": "LWBB2012-20120110-A-LARUEC",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 0,
@@ -3883,7 +3883,7 @@
     },
     {
       "gameId": "LWBB2012-20120110-A-LARUEC",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 0,
@@ -3899,7 +3899,7 @@
     },
     {
       "gameId": "LWBB2012-20120110-A-LARUEC",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 1,
@@ -3915,7 +3915,7 @@
     },
     {
       "gameId": "LWBB2012-20120110-A-LARUEC",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 1,
@@ -3931,7 +3931,7 @@
     },
     {
       "gameId": "LWBB2012-20120110-A-LARUEC",
-      "playerId": "DEVELL2014",
+      "playerId": "p_0000000079",
       "jersey": 11,
       "playerName": "Ellie Devries",
       "twoPM": 0,
@@ -3947,7 +3947,7 @@
     },
     {
       "gameId": "LWBB2012-20120110-A-LARUEC",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 0,
@@ -3963,7 +3963,7 @@
     },
     {
       "gameId": "LWBB2012-20120110-A-LARUEC",
-      "playerId": "PETKRI2015",
+      "playerId": "p_0000000166",
       "jersey": 12,
       "playerName": "Kristin Peters",
       "twoPM": 0,
@@ -3979,7 +3979,7 @@
     },
     {
       "gameId": "LWBB2012-20120110-A-LARUEC",
-      "playerId": "BRUAUT2014",
+      "playerId": "p_0000000055",
       "jersey": 15,
       "playerName": "Autumn Bruner",
       "twoPM": 1,
@@ -3995,7 +3995,7 @@
     },
     {
       "gameId": "LWBB2012-20120110-A-LARUEC",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -4011,7 +4011,7 @@
     },
     {
       "gameId": "LWBB2012-20120110-A-LARUEC",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 0,
@@ -4027,7 +4027,7 @@
     },
     {
       "gameId": "LWBB2012-20120116-A-APOLLO",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 3,
@@ -4043,7 +4043,7 @@
     },
     {
       "gameId": "LWBB2012-20120116-A-APOLLO",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 2,
@@ -4059,7 +4059,7 @@
     },
     {
       "gameId": "LWBB2012-20120116-A-APOLLO",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 3,
@@ -4075,7 +4075,7 @@
     },
     {
       "gameId": "LWBB2012-20120116-A-APOLLO",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 0,
@@ -4091,7 +4091,7 @@
     },
     {
       "gameId": "LWBB2012-20120116-A-APOLLO",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 0,
@@ -4107,7 +4107,7 @@
     },
     {
       "gameId": "LWBB2012-20120116-A-APOLLO",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 1,
@@ -4123,7 +4123,7 @@
     },
     {
       "gameId": "LWBB2012-20120116-A-APOLLO",
-      "playerId": "PETKRI2015",
+      "playerId": "p_0000000166",
       "jersey": 12,
       "playerName": "Kristin Peters",
       "twoPM": 0,
@@ -4139,7 +4139,7 @@
     },
     {
       "gameId": "LWBB2012-20120116-A-APOLLO",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -4155,7 +4155,7 @@
     },
     {
       "gameId": "LWBB2012-20120116-A-APOLLO",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 0,
@@ -4171,7 +4171,7 @@
     },
     {
       "gameId": "LWBB2012-20120116-A-APOLLO",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 0,
@@ -4187,7 +4187,7 @@
     },
     {
       "gameId": "LWBB2012-20120116-A-APOLLO",
-      "playerId": "CRERAC2013",
+      "playerId": "p_0000000071",
       "jersey": 32,
       "playerName": "Rachel Crebessa",
       "twoPM": 0,
@@ -4203,7 +4203,7 @@
     },
     {
       "gameId": "LWBB2012-20120116-A-APOLLO",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 3,
@@ -4219,7 +4219,7 @@
     },
     {
       "gameId": "LWBB2012-20120120-H-BRECKI",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 0,
@@ -4235,7 +4235,7 @@
     },
     {
       "gameId": "LWBB2012-20120120-H-BRECKI",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 0,
@@ -4251,7 +4251,7 @@
     },
     {
       "gameId": "LWBB2012-20120120-H-BRECKI",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 5,
@@ -4267,7 +4267,7 @@
     },
     {
       "gameId": "LWBB2012-20120120-H-BRECKI",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 0,
@@ -4283,7 +4283,7 @@
     },
     {
       "gameId": "LWBB2012-20120120-H-BRECKI",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 1,
@@ -4299,7 +4299,7 @@
     },
     {
       "gameId": "LWBB2012-20120120-H-BRECKI",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 1,
@@ -4315,7 +4315,7 @@
     },
     {
       "gameId": "LWBB2012-20120120-H-BRECKI",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 1,
@@ -4331,7 +4331,7 @@
     },
     {
       "gameId": "LWBB2012-20120120-H-BRECKI",
-      "playerId": "DEVELL2014",
+      "playerId": "p_0000000079",
       "jersey": 11,
       "playerName": "Ellie Devries",
       "twoPM": 0,
@@ -4347,7 +4347,7 @@
     },
     {
       "gameId": "LWBB2012-20120120-H-BRECKI",
-      "playerId": "PETKRI2015",
+      "playerId": "p_0000000166",
       "jersey": 12,
       "playerName": "Kristin Peters",
       "twoPM": 0,
@@ -4363,7 +4363,7 @@
     },
     {
       "gameId": "LWBB2012-20120120-H-BRECKI",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -4379,7 +4379,7 @@
     },
     {
       "gameId": "LWBB2012-20120120-H-BRECKI",
-      "playerId": "BRUAUT2014",
+      "playerId": "p_0000000055",
       "jersey": 15,
       "playerName": "Autumn Bruner",
       "twoPM": 0,
@@ -4395,7 +4395,7 @@
     },
     {
       "gameId": "LWBB2012-20120120-H-BRECKI",
-      "playerId": "CRERAC2013",
+      "playerId": "p_0000000071",
       "jersey": 32,
       "playerName": "Rachel Crebessa",
       "twoPM": 0,
@@ -4411,7 +4411,7 @@
     },
     {
       "gameId": "LWBB2012-20120120-H-BRECKI",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 1,
@@ -4427,7 +4427,7 @@
     },
     {
       "gameId": "LWBB2012-20120121-A-MUHLCO",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 2,
@@ -4443,7 +4443,7 @@
     },
     {
       "gameId": "LWBB2012-20120121-A-MUHLCO",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 1,
@@ -4459,7 +4459,7 @@
     },
     {
       "gameId": "LWBB2012-20120121-A-MUHLCO",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 0,
@@ -4475,7 +4475,7 @@
     },
     {
       "gameId": "LWBB2012-20120121-A-MUHLCO",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 2,
@@ -4491,7 +4491,7 @@
     },
     {
       "gameId": "LWBB2012-20120121-A-MUHLCO",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 0,
@@ -4507,7 +4507,7 @@
     },
     {
       "gameId": "LWBB2012-20120121-A-MUHLCO",
-      "playerId": "DEVELL2014",
+      "playerId": "p_0000000079",
       "jersey": 11,
       "playerName": "Ellie Devries",
       "twoPM": 0,
@@ -4523,7 +4523,7 @@
     },
     {
       "gameId": "LWBB2012-20120121-A-MUHLCO",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 1,
@@ -4539,7 +4539,7 @@
     },
     {
       "gameId": "LWBB2012-20120121-A-MUHLCO",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 7,
@@ -4555,7 +4555,7 @@
     },
     {
       "gameId": "LWBB2012-20120121-A-MUHLCO",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 1,
@@ -4571,7 +4571,7 @@
     },
     {
       "gameId": "LWBB2012-20120121-A-MUHLCO",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 0,
@@ -4587,7 +4587,7 @@
     },
     {
       "gameId": "LWBB2012-20120123-H-HANCOC",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 0,
@@ -4603,7 +4603,7 @@
     },
     {
       "gameId": "LWBB2012-20120123-H-HANCOC",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 2,
@@ -4619,7 +4619,7 @@
     },
     {
       "gameId": "LWBB2012-20120123-H-HANCOC",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 0,
@@ -4635,7 +4635,7 @@
     },
     {
       "gameId": "LWBB2012-20120123-H-HANCOC",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 1,
@@ -4651,7 +4651,7 @@
     },
     {
       "gameId": "LWBB2012-20120123-H-HANCOC",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -4667,7 +4667,7 @@
     },
     {
       "gameId": "LWBB2012-20120123-H-HANCOC",
-      "playerId": "PETKRI2015",
+      "playerId": "p_0000000166",
       "jersey": 12,
       "playerName": "Kristin Peters",
       "twoPM": 0,
@@ -4683,7 +4683,7 @@
     },
     {
       "gameId": "LWBB2012-20120123-H-HANCOC",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 7,
@@ -4699,7 +4699,7 @@
     },
     {
       "gameId": "LWBB2012-20120123-H-HANCOC",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 0,
@@ -4715,7 +4715,7 @@
     },
     {
       "gameId": "LWBB2012-20120123-H-HANCOC",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 1,
@@ -4731,7 +4731,7 @@
     },
     {
       "gameId": "LWBB2012-20120126-H-OWENSB",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 0,
@@ -4747,7 +4747,7 @@
     },
     {
       "gameId": "LWBB2012-20120126-H-OWENSB",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 0,
@@ -4763,7 +4763,7 @@
     },
     {
       "gameId": "LWBB2012-20120126-H-OWENSB",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 2,
@@ -4779,7 +4779,7 @@
     },
     {
       "gameId": "LWBB2012-20120126-H-OWENSB",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 2,
@@ -4795,7 +4795,7 @@
     },
     {
       "gameId": "LWBB2012-20120126-H-OWENSB",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -4811,7 +4811,7 @@
     },
     {
       "gameId": "LWBB2012-20120126-H-OWENSB",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 0,
@@ -4827,7 +4827,7 @@
     },
     {
       "gameId": "LWBB2012-20120126-H-OWENSB",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 5,
@@ -4843,7 +4843,7 @@
     },
     {
       "gameId": "LWBB2012-20120126-H-OWENSB",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 0,
@@ -4859,7 +4859,7 @@
     },
     {
       "gameId": "LWBB2012-20120126-H-OWENSB",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 2,
@@ -4875,7 +4875,7 @@
     },
     {
       "gameId": "LWBB2012-20120128-A-DAVIES",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 3,
@@ -4891,7 +4891,7 @@
     },
     {
       "gameId": "LWBB2012-20120128-A-DAVIES",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 0,
@@ -4907,7 +4907,7 @@
     },
     {
       "gameId": "LWBB2012-20120128-A-DAVIES",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 0,
@@ -4923,7 +4923,7 @@
     },
     {
       "gameId": "LWBB2012-20120128-A-DAVIES",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 0,
@@ -4939,7 +4939,7 @@
     },
     {
       "gameId": "LWBB2012-20120128-A-DAVIES",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 1,
@@ -4955,7 +4955,7 @@
     },
     {
       "gameId": "LWBB2012-20120128-A-DAVIES",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -4971,7 +4971,7 @@
     },
     {
       "gameId": "LWBB2012-20120128-A-DAVIES",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 4,
@@ -4987,7 +4987,7 @@
     },
     {
       "gameId": "LWBB2012-20120128-A-DAVIES",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 0,
@@ -5003,7 +5003,7 @@
     },
     {
       "gameId": "LWBB2012-20120128-A-DAVIES",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 3,
@@ -5019,7 +5019,7 @@
     },
     {
       "gameId": "LWBB2012-20120202-A-SOUTHO",
-      "playerId": "DEVELL2014",
+      "playerId": "p_0000000079",
       "jersey": 11,
       "playerName": "Ellie Devries",
       "twoPM": 1,
@@ -5035,7 +5035,7 @@
     },
     {
       "gameId": "LWBB2012-20120202-A-SOUTHO",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 0,
@@ -5051,7 +5051,7 @@
     },
     {
       "gameId": "LWBB2012-20120202-A-SOUTHO",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -5067,7 +5067,7 @@
     },
     {
       "gameId": "LWBB2012-20120202-A-SOUTHO",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 0,
@@ -5083,7 +5083,7 @@
     },
     {
       "gameId": "LWBB2012-20120202-A-SOUTHO",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 1,
@@ -5099,7 +5099,7 @@
     },
     {
       "gameId": "LWBB2012-20120202-A-SOUTHO",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 2,
@@ -5115,7 +5115,7 @@
     },
     {
       "gameId": "LWBB2012-20120202-A-SOUTHO",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 2,
@@ -5131,7 +5131,7 @@
     },
     {
       "gameId": "LWBB2012-20120202-A-SOUTHO",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 0,
@@ -5147,7 +5147,7 @@
     },
     {
       "gameId": "LWBB2012-20120202-A-SOUTHO",
-      "playerId": "PETKRI2015",
+      "playerId": "p_0000000166",
       "jersey": 12,
       "playerName": "Kristin Peters",
       "twoPM": 0,
@@ -5163,7 +5163,7 @@
     },
     {
       "gameId": "LWBB2012-20120202-A-SOUTHO",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 0,
@@ -5179,7 +5179,7 @@
     },
     {
       "gameId": "LWBB2012-20120202-A-SOUTHO",
-      "playerId": "CRERAC2013",
+      "playerId": "p_0000000071",
       "jersey": 32,
       "playerName": "Rachel Crebessa",
       "twoPM": 1,
@@ -5195,7 +5195,7 @@
     },
     {
       "gameId": "LWBB2012-20120202-A-SOUTHO",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 2,
@@ -5211,7 +5211,7 @@
     },
     {
       "gameId": "LWBB2012-20120204-H-CLOVER",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 1,
@@ -5227,7 +5227,7 @@
     },
     {
       "gameId": "LWBB2012-20120204-H-CLOVER",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 4,
@@ -5243,7 +5243,7 @@
     },
     {
       "gameId": "LWBB2012-20120204-H-CLOVER",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 0,
@@ -5259,7 +5259,7 @@
     },
     {
       "gameId": "LWBB2012-20120204-H-CLOVER",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 0,
@@ -5275,7 +5275,7 @@
     },
     {
       "gameId": "LWBB2012-20120204-H-CLOVER",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 1,
@@ -5291,7 +5291,7 @@
     },
     {
       "gameId": "LWBB2012-20120204-H-CLOVER",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 2,
@@ -5307,7 +5307,7 @@
     },
     {
       "gameId": "LWBB2012-20120204-H-CLOVER",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 1,
@@ -5323,7 +5323,7 @@
     },
     {
       "gameId": "LWBB2012-20120204-H-CLOVER",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 4,
@@ -5339,7 +5339,7 @@
     },
     {
       "gameId": "LWBB2012-20120204-H-CLOVER",
-      "playerId": "DEVELL2014",
+      "playerId": "p_0000000079",
       "jersey": 11,
       "playerName": "Ellie Devries",
       "twoPM": 3,
@@ -5355,7 +5355,7 @@
     },
     {
       "gameId": "LWBB2012-20120204-H-CLOVER",
-      "playerId": "BRUAUT2014",
+      "playerId": "p_0000000055",
       "jersey": 15,
       "playerName": "Autumn Bruner",
       "twoPM": 0,
@@ -5371,7 +5371,7 @@
     },
     {
       "gameId": "LWBB2012-20120204-H-CLOVER",
-      "playerId": "PETKRI2015",
+      "playerId": "p_0000000166",
       "jersey": 12,
       "playerName": "Kristin Peters",
       "twoPM": 0,
@@ -5387,7 +5387,7 @@
     },
     {
       "gameId": "LWBB2012-20120204-H-CLOVER",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -5403,7 +5403,7 @@
     },
     {
       "gameId": "LWBB2012-20120204-H-CLOVER",
-      "playerId": "CRERAC2013",
+      "playerId": "p_0000000071",
       "jersey": 32,
       "playerName": "Rachel Crebessa",
       "twoPM": 0,
@@ -5419,7 +5419,7 @@
     },
     {
       "gameId": "LWBB2012-20120204-H-CLOVER",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 1,
@@ -5435,7 +5435,7 @@
     },
     {
       "gameId": "LWBB2012-20120206-A-OLDHAM",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 3,
@@ -5451,7 +5451,7 @@
     },
     {
       "gameId": "LWBB2012-20120206-A-OLDHAM",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 1,
@@ -5467,7 +5467,7 @@
     },
     {
       "gameId": "LWBB2012-20120206-A-OLDHAM",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 2,
@@ -5483,7 +5483,7 @@
     },
     {
       "gameId": "LWBB2012-20120206-A-OLDHAM",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 1,
@@ -5499,7 +5499,7 @@
     },
     {
       "gameId": "LWBB2012-20120206-A-OLDHAM",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 0,
@@ -5515,7 +5515,7 @@
     },
     {
       "gameId": "LWBB2012-20120206-A-OLDHAM",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -5531,7 +5531,7 @@
     },
     {
       "gameId": "LWBB2012-20120206-A-OLDHAM",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 2,
@@ -5547,7 +5547,7 @@
     },
     {
       "gameId": "LWBB2012-20120206-A-OLDHAM",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 1,
@@ -5563,7 +5563,7 @@
     },
     {
       "gameId": "LWBB2012-20120206-A-OLDHAM",
-      "playerId": "CRERAC2013",
+      "playerId": "p_0000000071",
       "jersey": 32,
       "playerName": "Rachel Crebessa",
       "twoPM": 0,
@@ -5579,7 +5579,7 @@
     },
     {
       "gameId": "LWBB2012-20120206-A-OLDHAM",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 5,
@@ -5595,7 +5595,7 @@
     },
     {
       "gameId": "LWBB2012-20120209-A-GRAYSO",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 1,
@@ -5611,7 +5611,7 @@
     },
     {
       "gameId": "LWBB2012-20120209-A-GRAYSO",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 1,
@@ -5627,7 +5627,7 @@
     },
     {
       "gameId": "LWBB2012-20120209-A-GRAYSO",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 6,
@@ -5643,7 +5643,7 @@
     },
     {
       "gameId": "LWBB2012-20120209-A-GRAYSO",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 2,
@@ -5659,7 +5659,7 @@
     },
     {
       "gameId": "LWBB2012-20120209-A-GRAYSO",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 4,
@@ -5675,7 +5675,7 @@
     },
     {
       "gameId": "LWBB2012-20120209-A-GRAYSO",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 4,
@@ -5691,7 +5691,7 @@
     },
     {
       "gameId": "LWBB2012-20120209-A-GRAYSO",
-      "playerId": "BRUAUT2014",
+      "playerId": "p_0000000055",
       "jersey": 15,
       "playerName": "Autumn Bruner",
       "twoPM": 0,
@@ -5707,7 +5707,7 @@
     },
     {
       "gameId": "LWBB2012-20120209-A-GRAYSO",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 1,
@@ -5723,7 +5723,7 @@
     },
     {
       "gameId": "LWBB2012-20120209-A-GRAYSO",
-      "playerId": "DEVELL2014",
+      "playerId": "p_0000000079",
       "jersey": 11,
       "playerName": "Ellie Devries",
       "twoPM": 0,
@@ -5739,7 +5739,7 @@
     },
     {
       "gameId": "LWBB2012-20120209-A-GRAYSO",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -5755,7 +5755,7 @@
     },
     {
       "gameId": "LWBB2012-20120209-A-GRAYSO",
-      "playerId": "PETKRI2015",
+      "playerId": "p_0000000166",
       "jersey": 12,
       "playerName": "Kristin Peters",
       "twoPM": 0,
@@ -5771,7 +5771,7 @@
     },
     {
       "gameId": "LWBB2012-20120209-A-GRAYSO",
-      "playerId": "CRERAC2013",
+      "playerId": "p_0000000071",
       "jersey": 32,
       "playerName": "Rachel Crebessa",
       "twoPM": 0,
@@ -5787,7 +5787,7 @@
     },
     {
       "gameId": "LWBB2012-20120209-A-GRAYSO",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 1,
@@ -5803,7 +5803,7 @@
     },
     {
       "gameId": "LWBB2012-20120209-A-GRAYSO",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 0,
@@ -5819,7 +5819,7 @@
     },
     {
       "gameId": "LWBB2012-20120211-A-JOHNHA",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 0,
@@ -5835,7 +5835,7 @@
     },
     {
       "gameId": "LWBB2012-20120211-A-JOHNHA",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 3,
@@ -5851,7 +5851,7 @@
     },
     {
       "gameId": "LWBB2012-20120211-A-JOHNHA",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 0,
@@ -5867,7 +5867,7 @@
     },
     {
       "gameId": "LWBB2012-20120211-A-JOHNHA",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 0,
@@ -5883,7 +5883,7 @@
     },
     {
       "gameId": "LWBB2012-20120211-A-JOHNHA",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -5899,7 +5899,7 @@
     },
     {
       "gameId": "LWBB2012-20120211-A-JOHNHA",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 1,
@@ -5915,7 +5915,7 @@
     },
     {
       "gameId": "LWBB2012-20120211-A-JOHNHA",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 3,
@@ -5931,7 +5931,7 @@
     },
     {
       "gameId": "LWBB2012-20120211-A-JOHNHA",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 0,
@@ -5947,7 +5947,7 @@
     },
     {
       "gameId": "LWBB2012-20120211-A-JOHNHA",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 0,
@@ -5963,7 +5963,7 @@
     },
     {
       "gameId": "LWBB2012-20120214-H-NORTHH",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 2,
@@ -5979,7 +5979,7 @@
     },
     {
       "gameId": "LWBB2012-20120214-H-NORTHH",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 2,
@@ -5995,7 +5995,7 @@
     },
     {
       "gameId": "LWBB2012-20120214-H-NORTHH",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 1,
@@ -6011,7 +6011,7 @@
     },
     {
       "gameId": "LWBB2012-20120214-H-NORTHH",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 0,
@@ -6027,7 +6027,7 @@
     },
     {
       "gameId": "LWBB2012-20120214-H-NORTHH",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 0,
@@ -6043,7 +6043,7 @@
     },
     {
       "gameId": "LWBB2012-20120214-H-NORTHH",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 0,
@@ -6059,7 +6059,7 @@
     },
     {
       "gameId": "LWBB2012-20120214-H-NORTHH",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 2,
@@ -6075,7 +6075,7 @@
     },
     {
       "gameId": "LWBB2012-20120214-H-NORTHH",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 0,
@@ -6091,7 +6091,7 @@
     },
     {
       "gameId": "LWBB2012-20120214-H-NORTHH",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 2,
@@ -6107,7 +6107,7 @@
     },
     {
       "gameId": "LWBB2012-20120217-A-CHARDI",
-      "playerId": "AEBMEG2013",
+      "playerId": "p_0000000028",
       "jersey": 25,
       "playerName": "Megan Aebersold",
       "twoPM": 1,
@@ -6123,7 +6123,7 @@
     },
     {
       "gameId": "LWBB2012-20120217-A-CHARDI",
-      "playerId": "SUTKEL2015",
+      "playerId": "p_0000000196",
       "jersey": 3,
       "playerName": "Kelsey Sutton",
       "twoPM": 1,
@@ -6139,7 +6139,7 @@
     },
     {
       "gameId": "LWBB2012-20120217-A-CHARDI",
-      "playerId": "TURMOR2015",
+      "playerId": "p_0000000201",
       "jersey": 24,
       "playerName": "Morgan Turner",
       "twoPM": 2,
@@ -6155,7 +6155,7 @@
     },
     {
       "gameId": "LWBB2012-20120217-A-CHARDI",
-      "playerId": "YOUELI2015",
+      "playerId": "p_0000000223",
       "jersey": 4,
       "playerName": "Elissa Youart",
       "twoPM": 0,
@@ -6171,7 +6171,7 @@
     },
     {
       "gameId": "LWBB2012-20120217-A-CHARDI",
-      "playerId": "JOHRAL2014",
+      "playerId": "p_0000000122",
       "jersey": 20,
       "playerName": "Raley Johnson",
       "twoPM": 3,
@@ -6187,7 +6187,7 @@
     },
     {
       "gameId": "LWBB2012-20120217-A-CHARDI",
-      "playerId": "LYNADD2015",
+      "playerId": "p_0000000144",
       "jersey": 5,
       "playerName": "Addi Lynch",
       "twoPM": 1,
@@ -6203,7 +6203,7 @@
     },
     {
       "gameId": "LWBB2012-20120217-A-CHARDI",
-      "playerId": "BRUAUT2014",
+      "playerId": "p_0000000055",
       "jersey": 15,
       "playerName": "Autumn Bruner",
       "twoPM": 0,
@@ -6219,7 +6219,7 @@
     },
     {
       "gameId": "LWBB2012-20120217-A-CHARDI",
-      "playerId": "CUCKAT2014",
+      "playerId": "p_0000000076",
       "jersey": 10,
       "playerName": "Katelyn Cucino",
       "twoPM": 0,
@@ -6235,7 +6235,7 @@
     },
     {
       "gameId": "LWBB2012-20120217-A-CHARDI",
-      "playerId": "GREALE2013",
+      "playerId": "p_0000000103",
       "jersey": 13,
       "playerName": "Alexis Greco",
       "twoPM": 1,
@@ -6251,7 +6251,7 @@
     },
     {
       "gameId": "LWBB2012-20120217-A-CHARDI",
-      "playerId": "DEVELL2014",
+      "playerId": "p_0000000079",
       "jersey": 11,
       "playerName": "Ellie Devries",
       "twoPM": 0,
@@ -6267,7 +6267,7 @@
     },
     {
       "gameId": "LWBB2012-20120217-A-CHARDI",
-      "playerId": "LUNMAY2013",
+      "playerId": "p_0000000143",
       "jersey": 42,
       "playerName": "Maya Luney",
       "twoPM": 2,
@@ -6283,7 +6283,7 @@
     },
     {
       "gameId": "LWBB2012-20120217-A-CHARDI",
-      "playerId": "PETKRI2015",
+      "playerId": "p_0000000166",
       "jersey": 12,
       "playerName": "Kristin Peters",
       "twoPM": 0,
@@ -6299,7 +6299,7 @@
     },
     {
       "gameId": "LWBB2012-20120217-A-CHARDI",
-      "playerId": "CRERAC2013",
+      "playerId": "p_0000000071",
       "jersey": 32,
       "playerName": "Rachel Crebessa",
       "twoPM": 0,
@@ -6315,7 +6315,7 @@
     },
     {
       "gameId": "LWBB2012-20120217-A-CHARDI",
-      "playerId": "SCHCAR2014",
+      "playerId": "p_0000000182",
       "jersey": 23,
       "playerName": "Carrisa Schwartz",
       "twoPM": 0,

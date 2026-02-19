@@ -21,12 +21,12 @@
         "homeTeam": {
           "teamName": "Flaherty",
           "players": [
-            { "personID": "LEEJAM1968", "name": "James Lee", "fgM": 2, "ftM": 1, "pts": 5 },
-            { "personID": "CRUJAC1967", "name": "Jackie Crutcher", "fgM": 4, "ftM": 0, "pts": 8 },
-            { "personID": "HARWAR1968", "name": "Warren Harding", "fgM": 5, "ftM": 0, "pts": 10 },
-            { "personID": "BRALAR1967", "name": "Larry Bradley", "fgM": 9, "ftM": 2, "pts": 20 },
-            { "personID": "COXDAL1967", "name": "Dale Cox", "fgM": 0, "ftM": 0, "pts": 0 },
-            { "personID": "CASVIC1967", "name": "Victor Caster", "fgM": 2, "ftM": 0, "pts": 4 }
+            { "personID": "p_0000000137", "name": "James Lee", "fgM": 2, "ftM": 1, "pts": 5 },
+            { "personID": "p_0000000075", "name": "Jackie Crutcher", "fgM": 4, "ftM": 0, "pts": 8 },
+            { "personID": "p_0000000113", "name": "Warren Harding", "fgM": 5, "ftM": 0, "pts": 10 },
+            { "personID": "p_0000000051", "name": "Larry Bradley", "fgM": 9, "ftM": 2, "pts": 20 },
+            { "personID": "p_0000000069", "name": "Dale Cox", "fgM": 0, "ftM": 0, "pts": 0 },
+            { "personID": "p_0000000058", "name": "Victor Caster", "fgM": 2, "ftM": 0, "pts": 4 }
           ],
           "teamTotalPts": 47
         },

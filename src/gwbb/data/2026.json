@@ -481,9 +481,9 @@
       "gradYear": 2026,
       "firstName": "Devon",
       "lastName": "Blackmon",
-      "playerIdBase": "BLADEV2026",
+      "playerIdBase": "p_0000000044",
       "playerIdSuffix": 1,
-      "playerId": "BLADEV2026"
+      "playerId": "p_0000000044"
     },
     {
       "jersey": 4,
@@ -494,9 +494,9 @@
       "gradYear": 2027,
       "firstName": "Ayden",
       "lastName": "Medley",
-      "playerIdBase": "MEDAYD2027",
+      "playerIdBase": "p_0000000150",
       "playerIdSuffix": 1,
-      "playerId": "MEDAYD2027"
+      "playerId": "p_0000000150"
     },
     {
       "jersey": 5,
@@ -507,9 +507,9 @@
       "gradYear": 2028,
       "firstName": "Jentzen",
       "lastName": "Hayes",
-      "playerIdBase": "HAYJEN2028",
+      "playerIdBase": "p_0000000114",
       "playerIdSuffix": 1,
-      "playerId": "HAYJEN2028"
+      "playerId": "p_0000000114"
     },
     {
       "jersey": 10,
@@ -520,9 +520,9 @@
       "gradYear": 2028,
       "firstName": "Collin",
       "lastName": "Carroll",
-      "playerIdBase": "CARCOL2028",
+      "playerIdBase": "p_0000000056",
       "playerIdSuffix": 1,
-      "playerId": "CARCOL2028"
+      "playerId": "p_0000000056"
     },
     {
       "jersey": 11,
@@ -533,9 +533,9 @@
       "gradYear": 2028,
       "firstName": "Mason",
       "lastName": "Wiles",
-      "playerIdBase": "WILMAS2028",
+      "playerIdBase": "p_0000000217",
       "playerIdSuffix": 1,
-      "playerId": "WILMAS2028"
+      "playerId": "p_0000000217"
     },
     {
       "jersey": 13,
@@ -546,9 +546,9 @@
       "gradYear": 2026,
       "firstName": "Andrew",
       "lastName": "Wellman",
-      "playerIdBase": "WELAND2026",
+      "playerIdBase": "p_0000000207",
       "playerIdSuffix": 1,
-      "playerId": "WELAND2026"
+      "playerId": "p_0000000207"
     },
     {
       "jersey": 14,
@@ -559,9 +559,9 @@
       "gradYear": 2027,
       "firstName": "Caleb",
       "lastName": "Greene",
-      "playerIdBase": "GRECAL2027",
+      "playerIdBase": "p_0000000104",
       "playerIdSuffix": 1,
-      "playerId": "GRECAL2027"
+      "playerId": "p_0000000104"
     },
     {
       "jersey": 15,
@@ -572,9 +572,9 @@
       "gradYear": 2028,
       "firstName": "Ethan",
       "lastName": "Jolly",
-      "playerIdBase": "JOLETH2028",
+      "playerIdBase": "p_0000000123",
       "playerIdSuffix": 1,
-      "playerId": "JOLETH2028"
+      "playerId": "p_0000000123"
     },
     {
       "jersey": 20,
@@ -585,9 +585,9 @@
       "gradYear": 2027,
       "firstName": "Kyler",
       "lastName": "Clites",
-      "playerIdBase": "CLIKYL2027",
+      "playerIdBase": "p_0000000064",
       "playerIdSuffix": 1,
-      "playerId": "CLIKYL2027"
+      "playerId": "p_0000000064"
     },
     {
       "jersey": 21,
@@ -598,9 +598,9 @@
       "gradYear": 2026,
       "firstName": "Jackson",
       "lastName": "Bahr",
-      "playerIdBase": "BAHJAC2026",
+      "playerIdBase": "p_0000000036",
       "playerIdSuffix": 1,
-      "playerId": "BAHJAC2026"
+      "playerId": "p_0000000036"
     },
     {
       "jersey": 22,
@@ -611,9 +611,9 @@
       "gradYear": 2028,
       "firstName": "Tresson",
       "lastName": "Ohler",
-      "playerIdBase": "OHLTRE2028",
+      "playerIdBase": "p_0000000163",
       "playerIdSuffix": 1,
-      "playerId": "OHLTRE2028"
+      "playerId": "p_0000000163"
     },
     {
       "jersey": 23,
@@ -624,9 +624,9 @@
       "gradYear": 2026,
       "firstName": "Hayden",
       "lastName": "Shouse",
-      "playerIdBase": "SHOHAY2026",
+      "playerIdBase": "p_0000000188",
       "playerIdSuffix": 1,
-      "playerId": "SHOHAY2026"
+      "playerId": "p_0000000188"
     },
     {
       "jersey": 24,
@@ -637,9 +637,9 @@
       "gradYear": 2027,
       "firstName": "Sam",
       "lastName": "Goins",
-      "playerIdBase": "GOISAM2027",
+      "playerIdBase": "p_0000000100",
       "playerIdSuffix": 1,
-      "playerId": "GOISAM2027"
+      "playerId": "p_0000000100"
     },
     {
       "jersey": 30,
@@ -650,9 +650,9 @@
       "gradYear": 2028,
       "firstName": "Boss",
       "lastName": "Caster",
-      "playerIdBase": "CASBOS2028",
+      "playerIdBase": "p_0000000057",
       "playerIdSuffix": 1,
-      "playerId": "CASBOS2028"
+      "playerId": "p_0000000057"
     },
     {
       "jersey": 31,
@@ -663,9 +663,9 @@
       "gradYear": 2027,
       "firstName": "Carter",
       "lastName": "Pike",
-      "playerIdBase": "PIKCAR2027",
+      "playerIdBase": "p_0000000167",
       "playerIdSuffix": 1,
-      "playerId": "PIKCAR2027"
+      "playerId": "p_0000000167"
     },
     {
       "jersey": 34,
@@ -676,9 +676,9 @@
       "gradYear": 2028,
       "firstName": "Cannon",
       "lastName": "Scott",
-      "playerIdBase": "SCOCAN2028",
+      "playerIdBase": "p_0000000186",
       "playerIdSuffix": 1,
-      "playerId": "SCOCAN2028"
+      "playerId": "p_0000000186"
     },
     {
       "jersey": 44,
@@ -689,15 +689,15 @@
       "gradYear": 2029,
       "firstName": "Rudy",
       "lastName": "Reeder",
-      "playerIdBase": "REERUD2029",
+      "playerIdBase": "p_0000000178",
       "playerIdSuffix": 1,
-      "playerId": "REERUD2029"
+      "playerId": "p_0000000178"
     }
   ],
   "gameStats": [
     {
       "gameId": "GWBB2026-20251203-H-FLOYDC",
-      "playerId": "BLADEV2026",
+      "playerId": "p_0000000044",
       "jersey": 3,
       "playerName": "Devon Blackmon",
       "twoPM": 0,
@@ -713,7 +713,7 @@
     },
     {
       "gameId": "GWBB2026-20251203-H-FLOYDC",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 1,
@@ -729,7 +729,7 @@
     },
     {
       "gameId": "GWBB2026-20251203-H-FLOYDC",
-      "playerId": "GOISAM2027",
+      "playerId": "p_0000000100",
       "jersey": 20,
       "playerName": "Sam Goins",
       "twoPM": 0,
@@ -745,7 +745,7 @@
     },
     {
       "gameId": "GWBB2026-20251203-H-FLOYDC",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 4,
@@ -761,7 +761,7 @@
     },
     {
       "gameId": "GWBB2026-20251203-H-FLOYDC",
-      "playerId": "CARCOL2028",
+      "playerId": "p_0000000056",
       "jersey": 10,
       "playerName": "Collin Carroll",
       "twoPM": 0,
@@ -777,7 +777,7 @@
     },
     {
       "gameId": "GWBB2026-20251203-H-FLOYDC",
-      "playerId": "GRECAL2027",
+      "playerId": "p_0000000104",
       "jersey": 14,
       "playerName": "Caleb Greene",
       "twoPM": 0,
@@ -793,7 +793,7 @@
     },
     {
       "gameId": "GWBB2026-20251203-H-FLOYDC",
-      "playerId": "JOLETH2028",
+      "playerId": "p_0000000123",
       "jersey": 15,
       "playerName": "Ethan Jolly",
       "twoPM": 0,
@@ -809,7 +809,7 @@
     },
     {
       "gameId": "GWBB2026-20251203-H-FLOYDC",
-      "playerId": "CLIKYL2027",
+      "playerId": "p_0000000064",
       "jersey": 20,
       "playerName": "Kyler Clites",
       "twoPM": 0,
@@ -825,7 +825,7 @@
     },
     {
       "gameId": "GWBB2026-20251203-H-FLOYDC",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 0,
@@ -841,7 +841,7 @@
     },
     {
       "gameId": "GWBB2026-20251203-H-FLOYDC",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 7,
@@ -857,7 +857,7 @@
     },
     {
       "gameId": "GWBB2026-20251203-H-FLOYDC",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 3,
@@ -873,7 +873,7 @@
     },
     {
       "gameId": "GWBB2026-20251209-A-LANESV",
-      "playerId": "BLADEV2026",
+      "playerId": "p_0000000044",
       "jersey": 3,
       "playerName": "Devon Blackmon",
       "twoPM": 1,
@@ -889,7 +889,7 @@
     },
     {
       "gameId": "GWBB2026-20251209-A-LANESV",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 6,
@@ -905,7 +905,7 @@
     },
     {
       "gameId": "GWBB2026-20251209-A-LANESV",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 2,
@@ -921,7 +921,7 @@
     },
     {
       "gameId": "GWBB2026-20251209-A-LANESV",
-      "playerId": "CARCOL2028",
+      "playerId": "p_0000000056",
       "jersey": 10,
       "playerName": "Collin Carroll",
       "twoPM": 0,
@@ -937,7 +937,7 @@
     },
     {
       "gameId": "GWBB2026-20251209-A-LANESV",
-      "playerId": "WILMAS2028",
+      "playerId": "p_0000000217",
       "jersey": 11,
       "playerName": "Mason Wiles",
       "twoPM": 0,
@@ -953,7 +953,7 @@
     },
     {
       "gameId": "GWBB2026-20251209-A-LANESV",
-      "playerId": "WELAND2026",
+      "playerId": "p_0000000207",
       "jersey": 13,
       "playerName": "Andrew Wellman",
       "twoPM": 0,
@@ -969,7 +969,7 @@
     },
     {
       "gameId": "GWBB2026-20251209-A-LANESV",
-      "playerId": "GRECAL2027",
+      "playerId": "p_0000000104",
       "jersey": 14,
       "playerName": "Caleb Greene",
       "twoPM": 0,
@@ -985,7 +985,7 @@
     },
     {
       "gameId": "GWBB2026-20251209-A-LANESV",
-      "playerId": "JOLETH2028",
+      "playerId": "p_0000000123",
       "jersey": 15,
       "playerName": "Ethan Jolly",
       "twoPM": 0,
@@ -1001,7 +1001,7 @@
     },
     {
       "gameId": "GWBB2026-20251209-A-LANESV",
-      "playerId": "CLIKYL2027",
+      "playerId": "p_0000000064",
       "jersey": 20,
       "playerName": "Kyler Clites",
       "twoPM": 0,
@@ -1017,7 +1017,7 @@
     },
     {
       "gameId": "GWBB2026-20251209-A-LANESV",
-      "playerId": "BAHJAC2026",
+      "playerId": "p_0000000036",
       "jersey": 21,
       "playerName": "Jackson Bahr",
       "twoPM": 0,
@@ -1033,7 +1033,7 @@
     },
     {
       "gameId": "GWBB2026-20251209-A-LANESV",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 2,
@@ -1049,7 +1049,7 @@
     },
     {
       "gameId": "GWBB2026-20251209-A-LANESV",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 13,
@@ -1065,7 +1065,7 @@
     },
     {
       "gameId": "GWBB2026-20251209-A-LANESV",
-      "playerId": "CASBOS2028",
+      "playerId": "p_0000000057",
       "jersey": 30,
       "playerName": "Boss Caster",
       "twoPM": 0,
@@ -1081,7 +1081,7 @@
     },
     {
       "gameId": "GWBB2026-20251209-A-LANESV",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 1,
@@ -1097,7 +1097,7 @@
     },
     {
       "gameId": "GWBB2026-20251212-H-BRECKI",
-      "playerId": "BLADEV2026",
+      "playerId": "p_0000000044",
       "jersey": 3,
       "playerName": "Devon Blackmon",
       "twoPM": 0,
@@ -1113,7 +1113,7 @@
     },
     {
       "gameId": "GWBB2026-20251212-H-BRECKI",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 3,
@@ -1129,7 +1129,7 @@
     },
     {
       "gameId": "GWBB2026-20251212-H-BRECKI",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 3,
@@ -1145,7 +1145,7 @@
     },
     {
       "gameId": "GWBB2026-20251212-H-BRECKI",
-      "playerId": "CARCOL2028",
+      "playerId": "p_0000000056",
       "jersey": 10,
       "playerName": "Collin Carroll",
       "twoPM": 0,
@@ -1161,7 +1161,7 @@
     },
     {
       "gameId": "GWBB2026-20251212-H-BRECKI",
-      "playerId": "GRECAL2027",
+      "playerId": "p_0000000104",
       "jersey": 14,
       "playerName": "Caleb Greene",
       "twoPM": 0,
@@ -1177,7 +1177,7 @@
     },
     {
       "gameId": "GWBB2026-20251212-H-BRECKI",
-      "playerId": "CLIKYL2027",
+      "playerId": "p_0000000064",
       "jersey": 20,
       "playerName": "Kyler Clites",
       "twoPM": 2,
@@ -1193,7 +1193,7 @@
     },
     {
       "gameId": "GWBB2026-20251212-H-BRECKI",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 2,
@@ -1209,7 +1209,7 @@
     },
     {
       "gameId": "GWBB2026-20251212-H-BRECKI",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 6,
@@ -1225,7 +1225,7 @@
     },
     {
       "gameId": "GWBB2026-20251212-H-BRECKI",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 1,
@@ -1241,7 +1241,7 @@
     },
     {
       "gameId": "GWBB2026-20251219-H-BULEAS",
-      "playerId": "BLADEV2026",
+      "playerId": "p_0000000044",
       "jersey": 3,
       "playerName": "Devon Blackmon",
       "twoPM": 0,
@@ -1257,7 +1257,7 @@
     },
     {
       "gameId": "GWBB2026-20251219-H-BULEAS",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 5,
@@ -1273,7 +1273,7 @@
     },
     {
       "gameId": "GWBB2026-20251219-H-BULEAS",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 0,
@@ -1289,7 +1289,7 @@
     },
     {
       "gameId": "GWBB2026-20251219-H-BULEAS",
-      "playerId": "CARCOL2028",
+      "playerId": "p_0000000056",
       "jersey": 10,
       "playerName": "Collin Carroll",
       "twoPM": 0,
@@ -1305,7 +1305,7 @@
     },
     {
       "gameId": "GWBB2026-20251219-H-BULEAS",
-      "playerId": "CLIKYL2027",
+      "playerId": "p_0000000064",
       "jersey": 20,
       "playerName": "Kyler Clites",
       "twoPM": 0,
@@ -1321,7 +1321,7 @@
     },
     {
       "gameId": "GWBB2026-20251219-H-BULEAS",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 8,
@@ -1337,7 +1337,7 @@
     },
     {
       "gameId": "GWBB2026-20251219-H-BULEAS",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 1,
@@ -1353,7 +1353,7 @@
     },
     {
       "gameId": "GWBB2026-20251220-H-LOUSAI",
-      "playerId": "BLADEV2026",
+      "playerId": "p_0000000044",
       "jersey": 3,
       "playerName": "Devon Blackmon",
       "twoPM": 1,
@@ -1369,7 +1369,7 @@
     },
     {
       "gameId": "GWBB2026-20251220-H-LOUSAI",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 8,
@@ -1385,7 +1385,7 @@
     },
     {
       "gameId": "GWBB2026-20251220-H-LOUSAI",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 0,
@@ -1401,7 +1401,7 @@
     },
     {
       "gameId": "GWBB2026-20251220-H-LOUSAI",
-      "playerId": "CARCOL2028",
+      "playerId": "p_0000000056",
       "jersey": 10,
       "playerName": "Collin Carroll",
       "twoPM": 0,
@@ -1417,7 +1417,7 @@
     },
     {
       "gameId": "GWBB2026-20251220-H-LOUSAI",
-      "playerId": "WILMAS2028",
+      "playerId": "p_0000000217",
       "jersey": 11,
       "playerName": "Mason Wiles",
       "twoPM": 0,
@@ -1433,7 +1433,7 @@
     },
     {
       "gameId": "GWBB2026-20251220-H-LOUSAI",
-      "playerId": "GRECAL2027",
+      "playerId": "p_0000000104",
       "jersey": 14,
       "playerName": "Caleb Greene",
       "twoPM": 0,
@@ -1449,7 +1449,7 @@
     },
     {
       "gameId": "GWBB2026-20251220-H-LOUSAI",
-      "playerId": "JOLETH2028",
+      "playerId": "p_0000000123",
       "jersey": 15,
       "playerName": "Ethan Jolly",
       "twoPM": 0,
@@ -1465,7 +1465,7 @@
     },
     {
       "gameId": "GWBB2026-20251220-H-LOUSAI",
-      "playerId": "CLIKYL2027",
+      "playerId": "p_0000000064",
       "jersey": 20,
       "playerName": "Kyler Clites",
       "twoPM": 0,
@@ -1481,7 +1481,7 @@
     },
     {
       "gameId": "GWBB2026-20251220-H-LOUSAI",
-      "playerId": "BAHJAC2026",
+      "playerId": "p_0000000036",
       "jersey": 21,
       "playerName": "Jackson Bahr",
       "twoPM": 0,
@@ -1497,7 +1497,7 @@
     },
     {
       "gameId": "GWBB2026-20251220-H-LOUSAI",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 6,
@@ -1513,7 +1513,7 @@
     },
     {
       "gameId": "GWBB2026-20251220-H-LOUSAI",
-      "playerId": "CASBOS2028",
+      "playerId": "p_0000000057",
       "jersey": 30,
       "playerName": "Boss Caster",
       "twoPM": 0,
@@ -1529,7 +1529,7 @@
     },
     {
       "gameId": "GWBB2026-20251220-H-LOUSAI",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 2,
@@ -1545,7 +1545,7 @@
     },
     {
       "gameId": "GWBB2026-20251222-N-BEECHS",
-      "playerId": "BLADEV2026",
+      "playerId": "p_0000000044",
       "jersey": 3,
       "playerName": "Devon Blackmon",
       "twoPM": 0,
@@ -1561,7 +1561,7 @@
     },
     {
       "gameId": "GWBB2026-20251222-N-BEECHS",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 3,
@@ -1577,7 +1577,7 @@
     },
     {
       "gameId": "GWBB2026-20251222-N-BEECHS",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 1,
@@ -1593,7 +1593,7 @@
     },
     {
       "gameId": "GWBB2026-20251222-N-BEECHS",
-      "playerId": "CARCOL2028",
+      "playerId": "p_0000000056",
       "jersey": 10,
       "playerName": "Collin Carroll",
       "twoPM": 0,
@@ -1609,7 +1609,7 @@
     },
     {
       "gameId": "GWBB2026-20251222-N-BEECHS",
-      "playerId": "WILMAS2028",
+      "playerId": "p_0000000217",
       "jersey": 11,
       "playerName": "Mason Wiles",
       "twoPM": 0,
@@ -1625,7 +1625,7 @@
     },
     {
       "gameId": "GWBB2026-20251222-N-BEECHS",
-      "playerId": "GRECAL2027",
+      "playerId": "p_0000000104",
       "jersey": 14,
       "playerName": "Caleb Greene",
       "twoPM": 0,
@@ -1641,7 +1641,7 @@
     },
     {
       "gameId": "GWBB2026-20251222-N-BEECHS",
-      "playerId": "CLIKYL2027",
+      "playerId": "p_0000000064",
       "jersey": 20,
       "playerName": "Kyler Clites",
       "twoPM": 0,
@@ -1657,7 +1657,7 @@
     },
     {
       "gameId": "GWBB2026-20251222-N-BEECHS",
-      "playerId": "BAHJAC2026",
+      "playerId": "p_0000000036",
       "jersey": 21,
       "playerName": "Jackson Bahr",
       "twoPM": 0,
@@ -1673,7 +1673,7 @@
     },
     {
       "gameId": "GWBB2026-20251222-N-BEECHS",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 2,
@@ -1689,7 +1689,7 @@
     },
     {
       "gameId": "GWBB2026-20251222-N-BEECHS",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 7,
@@ -1705,7 +1705,7 @@
     },
     {
       "gameId": "GWBB2026-20251222-N-BEECHS",
-      "playerId": "CASBOS2028",
+      "playerId": "p_0000000057",
       "jersey": 30,
       "playerName": "Boss Caster",
       "twoPM": 0,
@@ -1721,7 +1721,7 @@
     },
     {
       "gameId": "GWBB2026-20251222-N-BEECHS",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 0,
@@ -1737,7 +1737,7 @@
     },
     {
       "gameId": "GWBB2026-20251222-N-MUHLCO",
-      "playerId": "BLADEV2026",
+      "playerId": "p_0000000044",
       "jersey": 3,
       "playerName": "Devon Blackmon",
       "twoPM": 0,
@@ -1753,7 +1753,7 @@
     },
     {
       "gameId": "GWBB2026-20251222-N-MUHLCO",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 1,
@@ -1769,7 +1769,7 @@
     },
     {
       "gameId": "GWBB2026-20251222-N-MUHLCO",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 0,
@@ -1785,7 +1785,7 @@
     },
     {
       "gameId": "GWBB2026-20251222-N-MUHLCO",
-      "playerId": "CARCOL2028",
+      "playerId": "p_0000000056",
       "jersey": 10,
       "playerName": "Collin Carroll",
       "twoPM": 0,
@@ -1801,7 +1801,7 @@
     },
     {
       "gameId": "GWBB2026-20251222-N-MUHLCO",
-      "playerId": "GRECAL2027",
+      "playerId": "p_0000000104",
       "jersey": 14,
       "playerName": "Caleb Greene",
       "twoPM": 0,
@@ -1817,7 +1817,7 @@
     },
     {
       "gameId": "GWBB2026-20251222-N-MUHLCO",
-      "playerId": "CLIKYL2027",
+      "playerId": "p_0000000064",
       "jersey": 20,
       "playerName": "Kyler Clites",
       "twoPM": 0,
@@ -1833,7 +1833,7 @@
     },
     {
       "gameId": "GWBB2026-20251222-N-MUHLCO",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 2,
@@ -1849,7 +1849,7 @@
     },
     {
       "gameId": "GWBB2026-20251222-N-MUHLCO",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 9,
@@ -1865,7 +1865,7 @@
     },
     {
       "gameId": "GWBB2026-20251222-N-MUHLCO",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 1,
@@ -1881,7 +1881,7 @@
     },
     {
       "gameId": "GWBB2026-20251223-N-FAYETT",
-      "playerId": "BLADEV2026",
+      "playerId": "p_0000000044",
       "jersey": 3,
       "playerName": "Devon Blackmon",
       "twoPM": 0,
@@ -1897,7 +1897,7 @@
     },
     {
       "gameId": "GWBB2026-20251223-N-FAYETT",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 1,
@@ -1913,7 +1913,7 @@
     },
     {
       "gameId": "GWBB2026-20251223-N-FAYETT",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 1,
@@ -1929,7 +1929,7 @@
     },
     {
       "gameId": "GWBB2026-20251223-N-FAYETT",
-      "playerId": "CARCOL2028",
+      "playerId": "p_0000000056",
       "jersey": 10,
       "playerName": "Collin Carroll",
       "twoPM": 0,
@@ -1945,7 +1945,7 @@
     },
     {
       "gameId": "GWBB2026-20251223-N-FAYETT",
-      "playerId": "WILMAS2028",
+      "playerId": "p_0000000217",
       "jersey": 11,
       "playerName": "Mason Wiles",
       "twoPM": 0,
@@ -1961,7 +1961,7 @@
     },
     {
       "gameId": "GWBB2026-20251223-N-FAYETT",
-      "playerId": "WELAND2026",
+      "playerId": "p_0000000207",
       "jersey": 13,
       "playerName": "Andrew Wellman",
       "twoPM": 0,
@@ -1977,7 +1977,7 @@
     },
     {
       "gameId": "GWBB2026-20251223-N-FAYETT",
-      "playerId": "GRECAL2027",
+      "playerId": "p_0000000104",
       "jersey": 14,
       "playerName": "Caleb Greene",
       "twoPM": 0,
@@ -1993,7 +1993,7 @@
     },
     {
       "gameId": "GWBB2026-20251223-N-FAYETT",
-      "playerId": "JOLETH2028",
+      "playerId": "p_0000000123",
       "jersey": 15,
       "playerName": "Ethan Jolly",
       "twoPM": 1,
@@ -2009,7 +2009,7 @@
     },
     {
       "gameId": "GWBB2026-20251223-N-FAYETT",
-      "playerId": "CLIKYL2027",
+      "playerId": "p_0000000064",
       "jersey": 20,
       "playerName": "Kyler Clites",
       "twoPM": 0,
@@ -2025,7 +2025,7 @@
     },
     {
       "gameId": "GWBB2026-20251223-N-FAYETT",
-      "playerId": "BAHJAC2026",
+      "playerId": "p_0000000036",
       "jersey": 21,
       "playerName": "Jackson Bahr",
       "twoPM": 1,
@@ -2041,7 +2041,7 @@
     },
     {
       "gameId": "GWBB2026-20251223-N-FAYETT",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 5,
@@ -2057,7 +2057,7 @@
     },
     {
       "gameId": "GWBB2026-20251223-N-FAYETT",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 8,
@@ -2073,7 +2073,7 @@
     },
     {
       "gameId": "GWBB2026-20251223-N-FAYETT",
-      "playerId": "CASBOS2028",
+      "playerId": "p_0000000057",
       "jersey": 30,
       "playerName": "Boss Caster",
       "twoPM": 0,
@@ -2089,7 +2089,7 @@
     },
     {
       "gameId": "GWBB2026-20251223-N-FAYETT",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 1,
@@ -2105,7 +2105,7 @@
     },
     {
       "gameId": "GWBB2026-20260103-H-EASTER",
-      "playerId": "BLADEV2026",
+      "playerId": "p_0000000044",
       "jersey": 3,
       "playerName": "Devon Blackmon",
       "twoPM": 0,
@@ -2121,7 +2121,7 @@
     },
     {
       "gameId": "GWBB2026-20260103-H-EASTER",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 4,
@@ -2137,7 +2137,7 @@
     },
     {
       "gameId": "GWBB2026-20260103-H-EASTER",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 2,
@@ -2153,7 +2153,7 @@
     },
     {
       "gameId": "GWBB2026-20260103-H-EASTER",
-      "playerId": "GRECAL2027",
+      "playerId": "p_0000000104",
       "jersey": 14,
       "playerName": "Caleb Greene",
       "twoPM": 0,
@@ -2169,7 +2169,7 @@
     },
     {
       "gameId": "GWBB2026-20260103-H-EASTER",
-      "playerId": "CLIKYL2027",
+      "playerId": "p_0000000064",
       "jersey": 20,
       "playerName": "Kyler Clites",
       "twoPM": 0,
@@ -2185,7 +2185,7 @@
     },
     {
       "gameId": "GWBB2026-20260103-H-EASTER",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 2,
@@ -2201,7 +2201,7 @@
     },
     {
       "gameId": "GWBB2026-20260102-A-MCLEAN",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 10,
@@ -2217,7 +2217,7 @@
     },
     {
       "gameId": "GWBB2026-20260103-H-EASTER",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 0,
@@ -2233,7 +2233,7 @@
     },
     {
       "gameId": "GWBB2026-20260107-H-OWCATH",
-      "playerId": "BLADEV2026",
+      "playerId": "p_0000000044",
       "jersey": 3,
       "playerName": "Devon Blackmon",
       "twoPM": 0,
@@ -2249,7 +2249,7 @@
     },
     {
       "gameId": "GWBB2026-20260107-H-OWCATH",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 1,
@@ -2265,7 +2265,7 @@
     },
     {
       "gameId": "GWBB2026-20260107-H-OWCATH",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 2,
@@ -2281,7 +2281,7 @@
     },
     {
       "gameId": "GWBB2026-20260107-H-OWCATH",
-      "playerId": "CARCOL2028",
+      "playerId": "p_0000000056",
       "jersey": 10,
       "playerName": "Collin Carroll",
       "twoPM": 0,
@@ -2297,7 +2297,7 @@
     },
     {
       "gameId": "GWBB2026-20260107-H-OWCATH",
-      "playerId": "WILMAS2028",
+      "playerId": "p_0000000217",
       "jersey": 11,
       "playerName": "Mason Wiles",
       "twoPM": 0,
@@ -2313,7 +2313,7 @@
     },
     {
       "gameId": "GWBB2026-20260107-H-OWCATH",
-      "playerId": "GRECAL2027",
+      "playerId": "p_0000000104",
       "jersey": 14,
       "playerName": "Caleb Greene",
       "twoPM": 0,
@@ -2329,7 +2329,7 @@
     },
     {
       "gameId": "GWBB2026-20260107-H-OWCATH",
-      "playerId": "JOLETH2028",
+      "playerId": "p_0000000123",
       "jersey": 15,
       "playerName": "Ethan Jolly",
       "twoPM": 1,
@@ -2345,7 +2345,7 @@
     },
     {
       "gameId": "GWBB2026-20260107-H-OWCATH",
-      "playerId": "CLIKYL2027",
+      "playerId": "p_0000000064",
       "jersey": 20,
       "playerName": "Kyler Clites",
       "twoPM": 0,
@@ -2361,7 +2361,7 @@
     },
     {
       "gameId": "GWBB2026-20260107-H-OWCATH",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 1,
@@ -2377,7 +2377,7 @@
     },
     {
       "gameId": "GWBB2026-20260103-H-EASTER",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 9,
@@ -2393,7 +2393,7 @@
     },
     {
       "gameId": "GWBB2026-20260107-H-OWCATH",
-      "playerId": "CASBOS2028",
+      "playerId": "p_0000000057",
       "jersey": 30,
       "playerName": "Boss Caster",
       "twoPM": 0,
@@ -2409,7 +2409,7 @@
     },
     {
       "gameId": "GWBB2026-20260107-H-OWCATH",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 0,
@@ -2425,7 +2425,7 @@
     },
     {
       "gameId": "GWBB2026-20260109-A-OHIOCO",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 1,
@@ -2441,7 +2441,7 @@
     },
     {
       "gameId": "GWBB2026-20260109-A-OHIOCO",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 2,
@@ -2457,7 +2457,7 @@
     },
     {
       "gameId": "GWBB2026-20260109-A-OHIOCO",
-      "playerId": "CARCOL2028",
+      "playerId": "p_0000000056",
       "jersey": 10,
       "playerName": "Collin Carroll",
       "twoPM": 0,
@@ -2473,7 +2473,7 @@
     },
     {
       "gameId": "GWBB2026-20260109-A-OHIOCO",
-      "playerId": "GRECAL2027",
+      "playerId": "p_0000000104",
       "jersey": 14,
       "playerName": "Caleb Greene",
       "twoPM": 0,
@@ -2489,7 +2489,7 @@
     },
     {
       "gameId": "GWBB2026-20260109-A-OHIOCO",
-      "playerId": "JOLETH2028",
+      "playerId": "p_0000000123",
       "jersey": 15,
       "playerName": "Ethan Jolly",
       "twoPM": 0,
@@ -2505,7 +2505,7 @@
     },
     {
       "gameId": "GWBB2026-20260109-A-OHIOCO",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 2,
@@ -2521,7 +2521,7 @@
     },
     {
       "gameId": "GWBB2026-20260107-H-OWCATH",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 9,
@@ -2537,7 +2537,7 @@
     },
     {
       "gameId": "GWBB2026-20260109-A-OHIOCO",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 0,
@@ -2553,7 +2553,7 @@
     },
     {
       "gameId": "GWBB2026-20260113-H-SHELBY",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 4,
@@ -2569,7 +2569,7 @@
     },
     {
       "gameId": "GWBB2026-20260113-H-SHELBY",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 5,
@@ -2585,7 +2585,7 @@
     },
     {
       "gameId": "GWBB2026-20260113-H-SHELBY",
-      "playerId": "CARCOL2028",
+      "playerId": "p_0000000056",
       "jersey": 10,
       "playerName": "Collin Carroll",
       "twoPM": 0,
@@ -2601,7 +2601,7 @@
     },
     {
       "gameId": "GWBB2026-20260113-H-SHELBY",
-      "playerId": "GRECAL2027",
+      "playerId": "p_0000000104",
       "jersey": 14,
       "playerName": "Caleb Greene",
       "twoPM": 0,
@@ -2617,7 +2617,7 @@
     },
     {
       "gameId": "GWBB2026-20260113-H-SHELBY",
-      "playerId": "JOLETH2028",
+      "playerId": "p_0000000123",
       "jersey": 15,
       "playerName": "Ethan Jolly",
       "twoPM": 1,
@@ -2633,7 +2633,7 @@
     },
     {
       "gameId": "GWBB2026-20260113-H-SHELBY",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 4,
@@ -2649,7 +2649,7 @@
     },
     {
       "gameId": "GWBB2026-20260109-A-OHIOCO",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 6,
@@ -2665,7 +2665,7 @@
     },
     {
       "gameId": "GWBB2026-20260113-H-SHELBY",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 0,
@@ -2681,7 +2681,7 @@
     },
     {
       "gameId": "GWBB2026-20260114-A-CLOVER",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 5,
@@ -2697,7 +2697,7 @@
     },
     {
       "gameId": "GWBB2026-20260114-A-CLOVER",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 1,
@@ -2713,7 +2713,7 @@
     },
     {
       "gameId": "GWBB2026-20260114-A-CLOVER",
-      "playerId": "CARCOL2028",
+      "playerId": "p_0000000056",
       "jersey": 10,
       "playerName": "Collin Carroll",
       "twoPM": 1,
@@ -2729,7 +2729,7 @@
     },
     {
       "gameId": "GWBB2026-20260114-A-CLOVER",
-      "playerId": "WILMAS2028",
+      "playerId": "p_0000000217",
       "jersey": 11,
       "playerName": "Mason Wiles",
       "twoPM": 2,
@@ -2745,7 +2745,7 @@
     },
     {
       "gameId": "GWBB2026-20260114-A-CLOVER",
-      "playerId": "WELAND2026",
+      "playerId": "p_0000000207",
       "jersey": 13,
       "playerName": "Andrew Wellman",
       "twoPM": 0,
@@ -2761,7 +2761,7 @@
     },
     {
       "gameId": "GWBB2026-20260114-A-CLOVER",
-      "playerId": "GRECAL2027",
+      "playerId": "p_0000000104",
       "jersey": 14,
       "playerName": "Caleb Greene",
       "twoPM": 1,
@@ -2777,7 +2777,7 @@
     },
     {
       "gameId": "GWBB2026-20260114-A-CLOVER",
-      "playerId": "JOLETH2028",
+      "playerId": "p_0000000123",
       "jersey": 15,
       "playerName": "Ethan Jolly",
       "twoPM": 1,
@@ -2793,7 +2793,7 @@
     },
     {
       "gameId": "GWBB2026-20260114-A-CLOVER",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 2,
@@ -2809,7 +2809,7 @@
     },
     {
       "gameId": "GWBB2026-20260113-H-SHELBY",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 10,
@@ -2825,7 +2825,7 @@
     },
     {
       "gameId": "GWBB2026-20260114-A-CLOVER",
-      "playerId": "CASBOS2028",
+      "playerId": "p_0000000057",
       "jersey": 30,
       "playerName": "Boss Caster",
       "twoPM": 2,
@@ -2841,7 +2841,7 @@
     },
     {
       "gameId": "GWBB2026-20260114-A-CLOVER",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 0,
@@ -2857,7 +2857,7 @@
     },
     {
       "gameId": "GWBB2026-20260114-A-CLOVER",
-      "playerId": "SCOCAN2028",
+      "playerId": "p_0000000186",
       "jersey": 34,
       "playerName": "Cannon Scott",
       "twoPM": 2,
@@ -2873,7 +2873,7 @@
     },
     {
       "gameId": "GWBB2026-20260114-A-CLOVER",
-      "playerId": "REERUD2029",
+      "playerId": "p_0000000178",
       "jersey": 44,
       "playerName": "Rudy Reeder",
       "twoPM": 3,
@@ -2889,7 +2889,7 @@
     },
     {
       "gameId": "GWBB2026-20260116-A-CORYCE",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 6,
@@ -2905,7 +2905,7 @@
     },
     {
       "gameId": "GWBB2026-20260116-A-CORYCE",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 2,
@@ -2921,7 +2921,7 @@
     },
     {
       "gameId": "GWBB2026-20260116-A-CORYCE",
-      "playerId": "CARCOL2028",
+      "playerId": "p_0000000056",
       "jersey": 10,
       "playerName": "Collin Carroll",
       "twoPM": 0,
@@ -2937,7 +2937,7 @@
     },
     {
       "gameId": "GWBB2026-20260116-A-CORYCE",
-      "playerId": "JOLETH2028",
+      "playerId": "p_0000000123",
       "jersey": 15,
       "playerName": "Ethan Jolly",
       "twoPM": 0,
@@ -2953,7 +2953,7 @@
     },
     {
       "gameId": "GWBB2026-20260116-A-CORYCE",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 0,
@@ -2969,7 +2969,7 @@
     },
     {
       "gameId": "GWBB2026-20260114-A-CLOVER",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 11,
@@ -2985,7 +2985,7 @@
     },
     {
       "gameId": "GWBB2026-20260116-A-CORYCE",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 0,
@@ -3001,7 +3001,7 @@
     },
     {
       "gameId": "GWBB2026-20260122-A-LOUSAI",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 4,
@@ -3017,7 +3017,7 @@
     },
     {
       "gameId": "GWBB2026-20260122-A-LOUSAI",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 5,
@@ -3033,7 +3033,7 @@
     },
     {
       "gameId": "GWBB2026-20260122-A-LOUSAI",
-      "playerId": "CARCOL2028",
+      "playerId": "p_0000000056",
       "jersey": 10,
       "playerName": "Collin Carroll",
       "twoPM": 0,
@@ -3049,7 +3049,7 @@
     },
     {
       "gameId": "GWBB2026-20260122-A-LOUSAI",
-      "playerId": "WILMAS2028",
+      "playerId": "p_0000000217",
       "jersey": 11,
       "playerName": "Mason Wiles",
       "twoPM": 0,
@@ -3065,7 +3065,7 @@
     },
     {
       "gameId": "GWBB2026-20260122-A-LOUSAI",
-      "playerId": "WELAND2026",
+      "playerId": "p_0000000207",
       "jersey": 13,
       "playerName": "Andrew Wellman",
       "twoPM": 0,
@@ -3081,7 +3081,7 @@
     },
     {
       "gameId": "GWBB2026-20260122-A-LOUSAI",
-      "playerId": "GRECAL2027",
+      "playerId": "p_0000000104",
       "jersey": 14,
       "playerName": "Caleb Greene",
       "twoPM": 0,
@@ -3097,7 +3097,7 @@
     },
     {
       "gameId": "GWBB2026-20260122-A-LOUSAI",
-      "playerId": "JOLETH2028",
+      "playerId": "p_0000000123",
       "jersey": 15,
       "playerName": "Ethan Jolly",
       "twoPM": 2,
@@ -3113,7 +3113,7 @@
     },
     {
       "gameId": "GWBB2026-20260122-A-LOUSAI",
-      "playerId": "CLIKYL2027",
+      "playerId": "p_0000000064",
       "jersey": 20,
       "playerName": "Kyler Clites",
       "twoPM": 2,
@@ -3129,7 +3129,7 @@
     },
     {
       "gameId": "GWBB2026-20260122-A-LOUSAI",
-      "playerId": "BAHJAC2026",
+      "playerId": "p_0000000036",
       "jersey": 21,
       "playerName": "Jackson Bahr",
       "twoPM": 1,
@@ -3145,7 +3145,7 @@
     },
     {
       "gameId": "GWBB2026-20260122-A-LOUSAI",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 4,
@@ -3161,7 +3161,7 @@
     },
     {
       "gameId": "GWBB2026-20260116-A-CORYCE",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 5,
@@ -3177,7 +3177,7 @@
     },
     {
       "gameId": "GWBB2026-20260122-A-LOUSAI",
-      "playerId": "CASBOS2028",
+      "playerId": "p_0000000057",
       "jersey": 30,
       "playerName": "Boss Caster",
       "twoPM": 0,
@@ -3193,7 +3193,7 @@
     },
     {
       "gameId": "GWBB2026-20260122-A-LOUSAI",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 0,
@@ -3209,7 +3209,7 @@
     },
     {
       "gameId": "GWBB2026-20260123-H-HANCOC",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 4,
@@ -3225,7 +3225,7 @@
     },
     {
       "gameId": "GWBB2026-20260123-H-HANCOC",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 2,
@@ -3241,7 +3241,7 @@
     },
     {
       "gameId": "GWBB2026-20260123-H-HANCOC",
-      "playerId": "CARCOL2028",
+      "playerId": "p_0000000056",
       "jersey": 10,
       "playerName": "Collin Carroll",
       "twoPM": 0,
@@ -3257,7 +3257,7 @@
     },
     {
       "gameId": "GWBB2026-20260123-H-HANCOC",
-      "playerId": "GRECAL2027",
+      "playerId": "p_0000000104",
       "jersey": 14,
       "playerName": "Caleb Greene",
       "twoPM": 0,
@@ -3273,7 +3273,7 @@
     },
     {
       "gameId": "GWBB2026-20260123-H-HANCOC",
-      "playerId": "JOLETH2028",
+      "playerId": "p_0000000123",
       "jersey": 15,
       "playerName": "Ethan Jolly",
       "twoPM": 0,
@@ -3289,7 +3289,7 @@
     },
     {
       "gameId": "GWBB2026-20260123-H-HANCOC",
-      "playerId": "CLIKYL2027",
+      "playerId": "p_0000000064",
       "jersey": 20,
       "playerName": "Kyler Clites",
       "twoPM": 0,
@@ -3305,7 +3305,7 @@
     },
     {
       "gameId": "GWBB2026-20260123-H-HANCOC",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 1,
@@ -3321,7 +3321,7 @@
     },
     {
       "gameId": "GWBB2026-20260120-A-DAVIES",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 2,
@@ -3337,7 +3337,7 @@
     },
     {
       "gameId": "GWBB2026-20260123-H-HANCOC",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 0,
@@ -3353,7 +3353,7 @@
     },
     {
       "gameId": "GWBB2026-20260131-N-ELIZAB",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 6,
@@ -3369,7 +3369,7 @@
     },
     {
       "gameId": "GWBB2026-20260131-N-ELIZAB",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 2,
@@ -3385,7 +3385,7 @@
     },
     {
       "gameId": "GWBB2026-20260131-N-ELIZAB",
-      "playerId": "WILMAS2028",
+      "playerId": "p_0000000217",
       "jersey": 11,
       "playerName": "Mason Wiles",
       "twoPM": 0,
@@ -3401,7 +3401,7 @@
     },
     {
       "gameId": "GWBB2026-20260131-N-ELIZAB",
-      "playerId": "GRECAL2027",
+      "playerId": "p_0000000104",
       "jersey": 14,
       "playerName": "Caleb Greene",
       "twoPM": 0,
@@ -3417,7 +3417,7 @@
     },
     {
       "gameId": "GWBB2026-20260131-N-ELIZAB",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 1,
@@ -3433,7 +3433,7 @@
     },
     {
       "gameId": "GWBB2026-20260122-A-LOUSAI",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 12,
@@ -3449,7 +3449,7 @@
     },
     {
       "gameId": "GWBB2026-20260131-N-ELIZAB",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 0,
@@ -3465,7 +3465,7 @@
     },
     {
       "gameId": "GWBB2026-20260131-N-ELIZAB",
-      "playerId": "CLIKYL2027",
+      "playerId": "p_0000000064",
       "jersey": 44,
       "playerName": "Kyler Clites",
       "twoPM": 0,
@@ -3481,7 +3481,7 @@
     },
     {
       "gameId": "GWBB2026-20260201-A-BRECKI",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 4,
@@ -3497,7 +3497,7 @@
     },
     {
       "gameId": "GWBB2026-20260201-A-BRECKI",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 2,
@@ -3513,7 +3513,7 @@
     },
     {
       "gameId": "GWBB2026-20260201-A-BRECKI",
-      "playerId": "CARCOL2028",
+      "playerId": "p_0000000056",
       "jersey": 10,
       "playerName": "Collin Carroll",
       "twoPM": 0,
@@ -3529,7 +3529,7 @@
     },
     {
       "gameId": "GWBB2026-20260201-A-BRECKI",
-      "playerId": "WILMAS2028",
+      "playerId": "p_0000000217",
       "jersey": 11,
       "playerName": "Mason Wiles",
       "twoPM": 0,
@@ -3545,7 +3545,7 @@
     },
     {
       "gameId": "GWBB2026-20260201-A-BRECKI",
-      "playerId": "WELAND2026",
+      "playerId": "p_0000000207",
       "jersey": 13,
       "playerName": "Andrew Wellman",
       "twoPM": 0,
@@ -3561,7 +3561,7 @@
     },
     {
       "gameId": "GWBB2026-20260201-A-BRECKI",
-      "playerId": "GRECAL2027",
+      "playerId": "p_0000000104",
       "jersey": 14,
       "playerName": "Caleb Greene",
       "twoPM": 0,
@@ -3577,7 +3577,7 @@
     },
     {
       "gameId": "GWBB2026-20260201-A-BRECKI",
-      "playerId": "JOLETH2028",
+      "playerId": "p_0000000123",
       "jersey": 15,
       "playerName": "Ethan Jolly",
       "twoPM": 1,
@@ -3593,7 +3593,7 @@
     },
     {
       "gameId": "GWBB2026-20260201-A-BRECKI",
-      "playerId": "CLIKYL2027",
+      "playerId": "p_0000000064",
       "jersey": 20,
       "playerName": "Kyler Clites",
       "twoPM": 2,
@@ -3609,7 +3609,7 @@
     },
     {
       "gameId": "GWBB2026-20260201-A-BRECKI",
-      "playerId": "BAHJAC2026",
+      "playerId": "p_0000000036",
       "jersey": 21,
       "playerName": "Jackson Bahr",
       "twoPM": 1,
@@ -3625,7 +3625,7 @@
     },
     {
       "gameId": "GWBB2026-20260201-A-BRECKI",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 4,
@@ -3641,7 +3641,7 @@
     },
     {
       "gameId": "GWBB2026-20260123-H-HANCOC",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 8,
@@ -3657,7 +3657,7 @@
     },
     {
       "gameId": "GWBB2026-20260201-A-BRECKI",
-      "playerId": "CASBOS2028",
+      "playerId": "p_0000000057",
       "jersey": 30,
       "playerName": "Boss Caster",
       "twoPM": 0,
@@ -3673,7 +3673,7 @@
     },
     {
       "gameId": "GWBB2026-20260201-A-BRECKI",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 0,
@@ -3689,7 +3689,7 @@
     },
     {
       "gameId": "GWBB2026-20260205-H-CLOVER",
-      "playerId": "BLADEV2026",
+      "playerId": "p_0000000044",
       "jersey": 3,
       "playerName": "Devon Blackmon",
       "twoPM": 3,
@@ -3705,7 +3705,7 @@
     },
     {
       "gameId": "GWBB2026-20260205-H-CLOVER",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 4,
@@ -3721,7 +3721,7 @@
     },
     {
       "gameId": "GWBB2026-20260205-H-CLOVER",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 2,
@@ -3737,7 +3737,7 @@
     },
     {
       "gameId": "GWBB2026-20260205-H-CLOVER",
-      "playerId": "CARCOL2028",
+      "playerId": "p_0000000056",
       "jersey": 10,
       "playerName": "Collin Carroll",
       "twoPM": 1,
@@ -3753,7 +3753,7 @@
     },
     {
       "gameId": "GWBB2026-20260205-H-CLOVER",
-      "playerId": "WILMAS2028",
+      "playerId": "p_0000000217",
       "jersey": 11,
       "playerName": "Mason Wiles",
       "twoPM": 0,
@@ -3769,7 +3769,7 @@
     },
     {
       "gameId": "GWBB2026-20260205-H-CLOVER",
-      "playerId": "WELAND2026",
+      "playerId": "p_0000000207",
       "jersey": 13,
       "playerName": "Andrew Wellman",
       "twoPM": 1,
@@ -3785,7 +3785,7 @@
     },
     {
       "gameId": "GWBB2026-20260205-H-CLOVER",
-      "playerId": "GRECAL2027",
+      "playerId": "p_0000000104",
       "jersey": 14,
       "playerName": "Caleb Greene",
       "twoPM": 1,
@@ -3801,7 +3801,7 @@
     },
     {
       "gameId": "GWBB2026-20260205-H-CLOVER",
-      "playerId": "JOLETH2028",
+      "playerId": "p_0000000123",
       "jersey": 15,
       "playerName": "Ethan Jolly",
       "twoPM": 2,
@@ -3817,7 +3817,7 @@
     },
     {
       "gameId": "GWBB2026-20260205-H-CLOVER",
-      "playerId": "CLIKYL2027",
+      "playerId": "p_0000000064",
       "jersey": 20,
       "playerName": "Kyler Clites",
       "twoPM": 1,
@@ -3833,7 +3833,7 @@
     },
     {
       "gameId": "GWBB2026-20260205-H-CLOVER",
-      "playerId": "BAHJAC2026",
+      "playerId": "p_0000000036",
       "jersey": 21,
       "playerName": "Jackson Bahr",
       "twoPM": 5,
@@ -3849,7 +3849,7 @@
     },
     {
       "gameId": "GWBB2026-20260205-H-CLOVER",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 5,
@@ -3865,7 +3865,7 @@
     },
     {
       "gameId": "GWBB2026-20260131-N-ELIZAB",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 9,
@@ -3881,7 +3881,7 @@
     },
     {
       "gameId": "GWBB2026-20260205-H-CLOVER",
-      "playerId": "CASBOS2028",
+      "playerId": "p_0000000057",
       "jersey": 30,
       "playerName": "Boss Caster",
       "twoPM": 0,
@@ -3897,7 +3897,7 @@
     },
     {
       "gameId": "GWBB2026-20260205-H-CLOVER",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 2,
@@ -3913,7 +3913,7 @@
     },
     {
       "gameId": "GWBB2026-20260205-H-CLOVER",
-      "playerId": "SCOCAN2028",
+      "playerId": "p_0000000186",
       "jersey": 34,
       "playerName": "Cannon Scott",
       "twoPM": 1,
@@ -3929,7 +3929,7 @@
     },
     {
       "gameId": "GWBB2026-20260206-A-HANCOC",
-      "playerId": "BLADEV2026",
+      "playerId": "p_0000000044",
       "jersey": 3,
       "playerName": "Devon Blackmon",
       "twoPM": 0,
@@ -3945,7 +3945,7 @@
     },
     {
       "gameId": "GWBB2026-20260206-A-HANCOC",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 4,
@@ -3961,7 +3961,7 @@
     },
     {
       "gameId": "GWBB2026-20260206-A-HANCOC",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 1,
@@ -3977,7 +3977,7 @@
     },
     {
       "gameId": "GWBB2026-20260206-A-HANCOC",
-      "playerId": "GRECAL2027",
+      "playerId": "p_0000000104",
       "jersey": 14,
       "playerName": "Caleb Greene",
       "twoPM": 0,
@@ -3993,7 +3993,7 @@
     },
     {
       "gameId": "GWBB2026-20260206-A-HANCOC",
-      "playerId": "JOLETH2028",
+      "playerId": "p_0000000123",
       "jersey": 15,
       "playerName": "Ethan Jolly",
       "twoPM": 0,
@@ -4009,7 +4009,7 @@
     },
     {
       "gameId": "GWBB2026-20260206-A-HANCOC",
-      "playerId": "CLIKYL2027",
+      "playerId": "p_0000000064",
       "jersey": 20,
       "playerName": "Kyler Clites",
       "twoPM": 1,
@@ -4025,7 +4025,7 @@
     },
     {
       "gameId": "GWBB2026-20260206-A-HANCOC",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 1,
@@ -4041,7 +4041,7 @@
     },
     {
       "gameId": "GWBB2026-20260201-A-BRECKI",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 7,
@@ -4057,7 +4057,7 @@
     },
     {
       "gameId": "GWBB2026-20260206-A-HANCOC",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 0,
@@ -4073,7 +4073,7 @@
     },
     {
       "gameId": "GWBB2026-20260120-A-DAVIES",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 3,
@@ -4089,7 +4089,7 @@
     },
     {
       "gameId": "GWBB2026-20260120-A-DAVIES",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 4,
@@ -4105,7 +4105,7 @@
     },
     {
       "gameId": "GWBB2026-20260120-A-DAVIES",
-      "playerId": "CARCOL2028",
+      "playerId": "p_0000000056",
       "jersey": 10,
       "playerName": "Collin Carroll",
       "twoPM": 0,
@@ -4121,7 +4121,7 @@
     },
     {
       "gameId": "GWBB2026-20260120-A-DAVIES",
-      "playerId": "WILMAS2028",
+      "playerId": "p_0000000217",
       "jersey": 11,
       "playerName": "Mason Wiles",
       "twoPM": 0,
@@ -4137,7 +4137,7 @@
     },
     {
       "gameId": "GWBB2026-20260120-A-DAVIES",
-      "playerId": "GRECAL2027",
+      "playerId": "p_0000000104",
       "jersey": 14,
       "playerName": "Caleb Greene",
       "twoPM": 0,
@@ -4153,7 +4153,7 @@
     },
     {
       "gameId": "GWBB2026-20260120-A-DAVIES",
-      "playerId": "JOLETH2028",
+      "playerId": "p_0000000123",
       "jersey": 15,
       "playerName": "Ethan Jolly",
       "twoPM": 0,
@@ -4169,7 +4169,7 @@
     },
     {
       "gameId": "GWBB2026-20260120-A-DAVIES",
-      "playerId": "CLIKYL2027",
+      "playerId": "p_0000000064",
       "jersey": 20,
       "playerName": "Kyler Clites",
       "twoPM": 0,
@@ -4185,7 +4185,7 @@
     },
     {
       "gameId": "GWBB2026-20260120-A-DAVIES",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 5,
@@ -4201,7 +4201,7 @@
     },
     {
       "gameId": "GWBB2026-20260205-H-CLOVER",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 6,
@@ -4217,7 +4217,7 @@
     },
     {
       "gameId": "GWBB2026-20260120-A-DAVIES",
-      "playerId": "CASBOS2028",
+      "playerId": "p_0000000057",
       "jersey": 30,
       "playerName": "Boss Caster",
       "twoPM": 0,
@@ -4233,7 +4233,7 @@
     },
     {
       "gameId": "GWBB2026-20260120-A-DAVIES",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 0,
@@ -4249,7 +4249,7 @@
     },
     {
       "gameId": "GWBB2026-20260211-A-VALLEY",
-      "playerId": "BLADEV2026",
+      "playerId": "p_0000000044",
       "jersey": 3,
       "playerName": "Devon Blackmon",
       "twoPM": 0,
@@ -4265,7 +4265,7 @@
     },
     {
       "gameId": "GWBB2026-20260211-A-VALLEY",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 3,
@@ -4281,7 +4281,7 @@
     },
     {
       "gameId": "GWBB2026-20260211-A-VALLEY",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 0,
@@ -4297,7 +4297,7 @@
     },
     {
       "gameId": "GWBB2026-20260211-A-VALLEY",
-      "playerId": "CARCOL2028",
+      "playerId": "p_0000000056",
       "jersey": 10,
       "playerName": "Collin Carroll",
       "twoPM": 0,
@@ -4313,7 +4313,7 @@
     },
     {
       "gameId": "GWBB2026-20260211-A-VALLEY",
-      "playerId": "GRECAL2027",
+      "playerId": "p_0000000104",
       "jersey": 14,
       "playerName": "Caleb Greene",
       "twoPM": 0,
@@ -4329,7 +4329,7 @@
     },
     {
       "gameId": "GWBB2026-20260211-A-VALLEY",
-      "playerId": "JOLETH2028",
+      "playerId": "p_0000000123",
       "jersey": 15,
       "playerName": "Ethan Jolly",
       "twoPM": 0,
@@ -4345,7 +4345,7 @@
     },
     {
       "gameId": "GWBB2026-20260211-A-VALLEY",
-      "playerId": "CLIKYL2027",
+      "playerId": "p_0000000064",
       "jersey": 20,
       "playerName": "Kyler Clites",
       "twoPM": 0,
@@ -4361,7 +4361,7 @@
     },
     {
       "gameId": "GWBB2026-20260211-A-VALLEY",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 1,
@@ -4377,7 +4377,7 @@
     },
     {
       "gameId": "GWBB2026-20260206-A-HANCOC",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 8,
@@ -4393,7 +4393,7 @@
     },
     {
       "gameId": "GWBB2026-20260211-A-VALLEY",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 0,
@@ -4409,7 +4409,7 @@
     },
     {
       "gameId": "GWBB2026-20260102-A-MCLEAN",
-      "playerId": "BLADEV2026",
+      "playerId": "p_0000000044",
       "jersey": 3,
       "playerName": "Devon Blackmon",
       "twoPM": 1,
@@ -4425,7 +4425,7 @@
     },
     {
       "gameId": "GWBB2026-20260102-A-MCLEAN",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 1,
@@ -4441,7 +4441,7 @@
     },
     {
       "gameId": "GWBB2026-20260102-A-MCLEAN",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 1,
@@ -4457,7 +4457,7 @@
     },
     {
       "gameId": "GWBB2026-20260102-A-MCLEAN",
-      "playerId": "GRECAL2027",
+      "playerId": "p_0000000104",
       "jersey": 14,
       "playerName": "Caleb Greene",
       "twoPM": 0,
@@ -4473,7 +4473,7 @@
     },
     {
       "gameId": "GWBB2026-20260102-A-MCLEAN",
-      "playerId": "JOLETH2028",
+      "playerId": "p_0000000123",
       "jersey": 15,
       "playerName": "Ethan Jolly",
       "twoPM": 0,
@@ -4489,7 +4489,7 @@
     },
     {
       "gameId": "GWBB2026-20260102-A-MCLEAN",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 3,
@@ -4505,7 +4505,7 @@
     },
     {
       "gameId": "GWBB2026-20260211-A-VALLEY",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 8,
@@ -4521,7 +4521,7 @@
     },
     {
       "gameId": "GWBB2026-20260102-A-MCLEAN",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 0,
@@ -4537,7 +4537,7 @@
     },
     {
       "gameId": "GWBB2026-20260214-H-SWARRE",
-      "playerId": "BLADEV2026",
+      "playerId": "p_0000000044",
       "jersey": 3,
       "playerName": "Devon Blackmon",
       "twoPM": 0,
@@ -4553,7 +4553,7 @@
     },
     {
       "gameId": "GWBB2026-20260214-H-SWARRE",
-      "playerId": "MEDAYD2027",
+      "playerId": "p_0000000150",
       "jersey": 4,
       "playerName": "Ayden Medley",
       "twoPM": 1,
@@ -4569,7 +4569,7 @@
     },
     {
       "gameId": "GWBB2026-20260214-H-SWARRE",
-      "playerId": "HAYJEN2028",
+      "playerId": "p_0000000114",
       "jersey": 5,
       "playerName": "Jentzen Hayes",
       "twoPM": 1,
@@ -4585,7 +4585,7 @@
     },
     {
       "gameId": "GWBB2026-20260214-H-SWARRE",
-      "playerId": "CARCOL2028",
+      "playerId": "p_0000000056",
       "jersey": 10,
       "playerName": "Collin Carroll",
       "twoPM": 0,
@@ -4601,7 +4601,7 @@
     },
     {
       "gameId": "GWBB2026-20260214-H-SWARRE",
-      "playerId": "JOLETH2028",
+      "playerId": "p_0000000123",
       "jersey": 15,
       "playerName": "Ethan Jolly",
       "twoPM": 0,
@@ -4617,7 +4617,7 @@
     },
     {
       "gameId": "GWBB2026-20260214-H-SWARRE",
-      "playerId": "CLIKYL2027",
+      "playerId": "p_0000000064",
       "jersey": 20,
       "playerName": "Kyler Clites",
       "twoPM": 0,
@@ -4633,7 +4633,7 @@
     },
     {
       "gameId": "GWBB2026-20260214-H-SWARRE",
-      "playerId": "OHLTRE2028",
+      "playerId": "p_0000000163",
       "jersey": 22,
       "playerName": "Tresson Ohler",
       "twoPM": 1,
@@ -4649,7 +4649,7 @@
     },
     {
       "gameId": "GWBB2026-20260214-H-SWARRE",
-      "playerId": "SHOHAY2026",
+      "playerId": "p_0000000188",
       "jersey": 23,
       "playerName": "Hayden Shouse",
       "twoPM": 8,
@@ -4665,7 +4665,7 @@
     },
     {
       "gameId": "GWBB2026-20260214-H-SWARRE",
-      "playerId": "PIKCAR2027",
+      "playerId": "p_0000000167",
       "jersey": 31,
       "playerName": "Carter Pike",
       "twoPM": 0,

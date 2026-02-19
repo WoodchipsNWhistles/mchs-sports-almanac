@@ -481,9 +481,9 @@
       "GraduationYear": 2016,
       "FirstName": "Mack",
       "LastName": "Wilson",
-      "PlayerID_Base": "WILMAC2016",
+      "PlayerID_Base": "p_0000000216",
       "PlayerID_Suffix": 1,
-      "PlayerID": "WILMAC2016"
+      "PlayerID": "p_0000000216"
     },
     {
       "Jersey": null,
@@ -494,9 +494,9 @@
       "GraduationYear": 2017,
       "FirstName": "Calvin",
       "LastName": "Hackert",
-      "PlayerID_Base": "HACCAL2017",
+      "PlayerID_Base": "p_0000000106",
       "PlayerID_Suffix": 1,
-      "PlayerID": "HACCAL2017"
+      "PlayerID": "p_0000000106"
     },
     {
       "Jersey": 2,
@@ -507,9 +507,9 @@
       "GraduationYear": 2014,
       "FirstName": "Zeb",
       "LastName": "Wilson",
-      "PlayerID_Base": "WILZEB2014",
+      "PlayerID_Base": "p_0000000219",
       "PlayerID_Suffix": 1,
-      "PlayerID": "WILZEB2014"
+      "PlayerID": "p_0000000219"
     },
     {
       "Jersey": 3,
@@ -520,9 +520,9 @@
       "GraduationYear": 2015,
       "FirstName": "Micah",
       "LastName": "Kaiser",
-      "PlayerID_Base": "KAIMIC2015",
+      "PlayerID_Base": "p_0000000126",
       "PlayerID_Suffix": 1,
-      "PlayerID": "KAIMIC2015"
+      "PlayerID": "p_0000000126"
     },
     {
       "Jersey": 10,
@@ -533,9 +533,9 @@
       "GraduationYear": 2016,
       "FirstName": "Jacob",
       "LastName": "Bewley",
-      "PlayerID_Base": "BEWJAC2016",
+      "PlayerID_Base": "p_0000000042",
       "PlayerID_Suffix": 1,
-      "PlayerID": "BEWJAC2016"
+      "PlayerID": "p_0000000042"
     },
     {
       "Jersey": 11,
@@ -546,9 +546,9 @@
       "GraduationYear": 2015,
       "FirstName": "John",
       "LastName": "Wilson",
-      "PlayerID_Base": "WILJOH2015",
+      "PlayerID_Base": "p_0000000213",
       "PlayerID_Suffix": 1,
-      "PlayerID": "WILJOH2015"
+      "PlayerID": "p_0000000213"
     },
     {
       "Jersey": 12,
@@ -559,9 +559,9 @@
       "GraduationYear": 2015,
       "FirstName": "John",
       "LastName": "Miller",
-      "PlayerID_Base": "MILJOH2015",
+      "PlayerID_Base": "p_0000000155",
       "PlayerID_Suffix": 1,
-      "PlayerID": "MILJOH2015"
+      "PlayerID": "p_0000000155"
     },
     {
       "Jersey": 14,
@@ -572,9 +572,9 @@
       "GraduationYear": 2015,
       "FirstName": "Corey",
       "LastName": "Stegner",
-      "PlayerID_Base": "STECOR2015",
+      "PlayerID_Base": "p_0000000191",
       "PlayerID_Suffix": 1,
-      "PlayerID": "STECOR2015"
+      "PlayerID": "p_0000000191"
     },
     {
       "Jersey": 15,
@@ -585,9 +585,9 @@
       "GraduationYear": 2015,
       "FirstName": "Will",
       "LastName": "King",
-      "PlayerID_Base": "KINWIL2015",
+      "PlayerID_Base": "p_0000000131",
       "PlayerID_Suffix": 1,
-      "PlayerID": "KINWIL2015"
+      "PlayerID": "p_0000000131"
     },
     {
       "Jersey": 21,
@@ -598,9 +598,9 @@
       "GraduationYear": 2014,
       "FirstName": "Luke",
       "LastName": "Wilson",
-      "PlayerID_Base": "WILLUK2014",
+      "PlayerID_Base": "p_0000000215",
       "PlayerID_Suffix": 1,
-      "PlayerID": "WILLUK2014"
+      "PlayerID": "p_0000000215"
     },
     {
       "Jersey": 22,
@@ -611,9 +611,9 @@
       "GraduationYear": 2014,
       "FirstName": "Charles",
       "LastName": "Mattingly",
-      "PlayerID_Base": "MATCHA2014",
+      "PlayerID_Base": "p_0000000147",
       "PlayerID_Suffix": 1,
-      "PlayerID": "MATCHA2014"
+      "PlayerID": "p_0000000147"
     },
     {
       "Jersey": 23,
@@ -624,9 +624,9 @@
       "GraduationYear": 2015,
       "FirstName": "Trevor",
       "LastName": "Yates",
-      "PlayerID_Base": "YATTRE2015",
+      "PlayerID_Base": "p_0000000222",
       "PlayerID_Suffix": 1,
-      "PlayerID": "YATTRE2015"
+      "PlayerID": "p_0000000222"
     },
     {
       "Jersey": 25,
@@ -637,9 +637,9 @@
       "GraduationYear": 2016,
       "FirstName": "John",
       "LastName": "Millay",
-      "PlayerID_Base": "MILJOH2016",
+      "PlayerID_Base": "p_0000000156",
       "PlayerID_Suffix": 1,
-      "PlayerID": "MILJOH2016"
+      "PlayerID": "p_0000000156"
     },
     {
       "Jersey": 34,
@@ -650,9 +650,9 @@
       "GraduationYear": 2016,
       "FirstName": "Josh",
       "LastName": "Durbin",
-      "PlayerID_Base": "DURJOS2016",
+      "PlayerID_Base": "p_0000000082",
       "PlayerID_Suffix": 1,
-      "PlayerID": "DURJOS2016"
+      "PlayerID": "p_0000000082"
     },
     {
       "Jersey": 45,
@@ -663,9 +663,9 @@
       "GraduationYear": 2014,
       "FirstName": "Travis",
       "LastName": "Jenkins",
-      "PlayerID_Base": "JENTRA2014",
+      "PlayerID_Base": "p_0000000117",
       "PlayerID_Suffix": 1,
-      "PlayerID": "JENTRA2014"
+      "PlayerID": "p_0000000117"
     }
   ],
   "gameStats": [

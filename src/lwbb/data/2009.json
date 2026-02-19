@@ -477,9 +477,9 @@
       "gradYear": 2010,
       "firstName": "Paige",
       "lastName": "Long",
-      "playerIdBase": "LONPAI2010",
+      "playerIdBase": "p_0000000141",
       "playerIdSuffix": 1,
-      "playerId": "LONPAI2010"
+      "playerId": "p_0000000141"
     },
     {
       "jersey": 10,
@@ -490,9 +490,9 @@
       "gradYear": 2012,
       "firstName": "Kristin",
       "lastName": "Benton",
-      "playerIdBase": "BENKRI2012",
+      "playerIdBase": "p_0000000040",
       "playerIdSuffix": 1,
-      "playerId": "BENKRI2012"
+      "playerId": "p_0000000040"
     },
     {
       "jersey": 15,
@@ -503,9 +503,9 @@
       "gradYear": 2010,
       "firstName": "Caroline",
       "lastName": "Wilson",
-      "playerIdBase": "WILCAR2010",
+      "playerIdBase": "p_0000000209",
       "playerIdSuffix": 1,
-      "playerId": "WILCAR2010"
+      "playerId": "p_0000000209"
     },
     {
       "jersey": 20,
@@ -516,9 +516,9 @@
       "gradYear": 2011,
       "firstName": "Tiffany",
       "lastName": "Brown",
-      "playerIdBase": "BROTIF2011",
+      "playerIdBase": "p_0000000054",
       "playerIdSuffix": 1,
-      "playerId": "BROTIF2011"
+      "playerId": "p_0000000054"
     },
     {
       "jersey": 21,
@@ -529,9 +529,9 @@
       "gradYear": 2011,
       "firstName": "Mallory",
       "lastName": "Wathen",
-      "playerIdBase": "WATMAL2011",
+      "playerIdBase": "p_0000000204",
       "playerIdSuffix": 1,
-      "playerId": "WATMAL2011"
+      "playerId": "p_0000000204"
     },
     {
       "jersey": 22,
@@ -542,9 +542,9 @@
       "gradYear": 2012,
       "firstName": "Scarlett",
       "lastName": "Powers",
-      "playerIdBase": "POWSCA2012",
+      "playerIdBase": "p_0000000171",
       "playerIdSuffix": 1,
-      "playerId": "POWSCA2012"
+      "playerId": "p_0000000171"
     },
     {
       "jersey": 23,
@@ -555,9 +555,9 @@
       "gradYear": 2010,
       "firstName": "Alexa",
       "lastName": "Adams",
-      "playerIdBase": "ADAALE2010",
+      "playerIdBase": "p_0000000027",
       "playerIdSuffix": 1,
-      "playerId": "ADAALE2010"
+      "playerId": "p_0000000027"
     },
     {
       "jersey": 24,
@@ -568,9 +568,9 @@
       "gradYear": 2010,
       "firstName": "Bliss",
       "lastName": "Powers",
-      "playerIdBase": "POWBLI2010",
+      "playerIdBase": "p_0000000169",
       "playerIdSuffix": 1,
-      "playerId": "POWBLI2010"
+      "playerId": "p_0000000169"
     },
     {
       "jersey": 25,
@@ -581,9 +581,9 @@
       "gradYear": 2012,
       "firstName": "Ashley",
       "lastName": "Funk",
-      "playerIdBase": "FUNASH2012",
+      "playerIdBase": "p_0000000093",
       "playerIdSuffix": 1,
-      "playerId": "FUNASH2012"
+      "playerId": "p_0000000093"
     },
     {
       "jersey": 31,
@@ -594,9 +594,9 @@
       "gradYear": 2009,
       "firstName": "Chelsea",
       "lastName": "Stinnett",
-      "playerIdBase": "STICHE2009",
+      "playerIdBase": "p_0000000192",
       "playerIdSuffix": 1,
-      "playerId": "STICHE2009"
+      "playerId": "p_0000000192"
     },
     {
       "jersey": 32,
@@ -607,9 +607,9 @@
       "gradYear": 2012,
       "firstName": "Kayla",
       "lastName": "Padgett",
-      "playerIdBase": "PADKAY2012",
+      "playerIdBase": "p_0000000164",
       "playerIdSuffix": 1,
-      "playerId": "PADKAY2012"
+      "playerId": "p_0000000164"
     },
     {
       "jersey": 34,
@@ -620,15 +620,15 @@
       "gradYear": 2012,
       "firstName": "Rachel",
       "lastName": "Johnson",
-      "playerIdBase": "JOHRAC2012",
+      "playerIdBase": "p_0000000121",
       "playerIdSuffix": 1,
-      "playerId": "JOHRAC2012"
+      "playerId": "p_0000000121"
     }
   ],
   "gameStats": [
     {
       "gameId": "LWBB2009-20081202-H-ELIZAB",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 2,
@@ -644,7 +644,7 @@
     },
     {
       "gameId": "LWBB2009-20081202-H-ELIZAB",
-      "playerId": "LONPAI2010",
+      "playerId": "p_0000000141",
       "jersey": 5,
       "playerName": "Paige Long",
       "twoPM": 0,
@@ -660,7 +660,7 @@
     },
     {
       "gameId": "LWBB2009-20081202-H-ELIZAB",
-      "playerId": "WILCAR2010",
+      "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
       "twoPM": 6,
@@ -676,7 +676,7 @@
     },
     {
       "gameId": "LWBB2009-20081202-H-ELIZAB",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 0,
@@ -692,7 +692,7 @@
     },
     {
       "gameId": "LWBB2009-20081202-H-ELIZAB",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 1,
@@ -708,7 +708,7 @@
     },
     {
       "gameId": "LWBB2009-20081202-H-ELIZAB",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 0,
@@ -724,7 +724,7 @@
     },
     {
       "gameId": "LWBB2009-20081202-H-ELIZAB",
-      "playerId": "FUNASH2012",
+      "playerId": "p_0000000093",
       "jersey": 25,
       "playerName": "Ashley Funk",
       "twoPM": 0,
@@ -740,7 +740,7 @@
     },
     {
       "gameId": "LWBB2009-20081202-H-ELIZAB",
-      "playerId": "STICHE2009",
+      "playerId": "p_0000000192",
       "jersey": 31,
       "playerName": "Chelsea Stinnett",
       "twoPM": 0,
@@ -756,7 +756,7 @@
     },
     {
       "gameId": "LWBB2009-20081204-A-TAYLOR",
-      "playerId": "WILCAR2010",
+      "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
       "twoPM": 4,
@@ -772,7 +772,7 @@
     },
     {
       "gameId": "LWBB2009-20081204-A-TAYLOR",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 2,
@@ -788,7 +788,7 @@
     },
     {
       "gameId": "LWBB2009-20081204-A-TAYLOR",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 3,
@@ -804,7 +804,7 @@
     },
     {
       "gameId": "LWBB2009-20081204-A-TAYLOR",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 1,
@@ -820,7 +820,7 @@
     },
     {
       "gameId": "LWBB2009-20081204-A-TAYLOR",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 3,
@@ -836,7 +836,7 @@
     },
     {
       "gameId": "LWBB2009-20081204-A-TAYLOR",
-      "playerId": "STICHE2009",
+      "playerId": "p_0000000192",
       "jersey": 31,
       "playerName": "Chelsea Stinnett",
       "twoPM": 0,
@@ -852,7 +852,7 @@
     },
     {
       "gameId": "LWBB2009-20081206-H-APOLLO",
-      "playerId": "WILCAR2010",
+      "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
       "twoPM": 3,
@@ -868,7 +868,7 @@
     },
     {
       "gameId": "LWBB2009-20081206-H-APOLLO",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 5,
@@ -884,7 +884,7 @@
     },
     {
       "gameId": "LWBB2009-20081206-H-APOLLO",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 5,
@@ -900,7 +900,7 @@
     },
     {
       "gameId": "LWBB2009-20081206-H-APOLLO",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 3,
@@ -916,7 +916,7 @@
     },
     {
       "gameId": "LWBB2009-20081206-H-APOLLO",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 1,
@@ -932,7 +932,7 @@
     },
     {
       "gameId": "LWBB2009-20081206-H-APOLLO",
-      "playerId": "FUNASH2012",
+      "playerId": "p_0000000093",
       "jersey": 25,
       "playerName": "Ashley Funk",
       "twoPM": 0,
@@ -948,7 +948,7 @@
     },
     {
       "gameId": "LWBB2009-20081206-H-APOLLO",
-      "playerId": "STICHE2009",
+      "playerId": "p_0000000192",
       "jersey": 31,
       "playerName": "Chelsea Stinnett",
       "twoPM": 0,
@@ -964,7 +964,7 @@
     },
     {
       "gameId": "LWBB2009-20081206-H-APOLLO",
-      "playerId": "PADKAY2012",
+      "playerId": "p_0000000164",
       "jersey": 32,
       "playerName": "Kayla Padgett",
       "twoPM": 1,
@@ -980,7 +980,7 @@
     },
     {
       "gameId": "LWBB2009-20081208-A-OHIOCO",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 2,
@@ -996,7 +996,7 @@
     },
     {
       "gameId": "LWBB2009-20081208-A-OHIOCO",
-      "playerId": "LONPAI2010",
+      "playerId": "p_0000000141",
       "jersey": 5,
       "playerName": "Paige Long",
       "twoPM": 0,
@@ -1012,7 +1012,7 @@
     },
     {
       "gameId": "LWBB2009-20081208-A-OHIOCO",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 3,
@@ -1028,7 +1028,7 @@
     },
     {
       "gameId": "LWBB2009-20081208-A-OHIOCO",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 2,
@@ -1044,7 +1044,7 @@
     },
     {
       "gameId": "LWBB2009-20081208-A-OHIOCO",
-      "playerId": "WILCAR2010",
+      "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
       "twoPM": 0,
@@ -1060,7 +1060,7 @@
     },
     {
       "gameId": "LWBB2009-20081208-A-OHIOCO",
-      "playerId": "STICHE2009",
+      "playerId": "p_0000000192",
       "jersey": 31,
       "playerName": "Chelsea Stinnett",
       "twoPM": 1,
@@ -1076,7 +1076,7 @@
     },
     {
       "gameId": "LWBB2009-20081208-A-OHIOCO",
-      "playerId": "BROTIF2011",
+      "playerId": "p_0000000054",
       "jersey": 20,
       "playerName": "Tiffany Brown",
       "twoPM": 0,
@@ -1092,7 +1092,7 @@
     },
     {
       "gameId": "LWBB2009-20081208-A-OHIOCO",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 2,
@@ -1108,7 +1108,7 @@
     },
     {
       "gameId": "LWBB2009-20081208-A-OHIOCO",
-      "playerId": "FUNASH2012",
+      "playerId": "p_0000000093",
       "jersey": 25,
       "playerName": "Ashley Funk",
       "twoPM": 0,
@@ -1124,7 +1124,7 @@
     },
     {
       "gameId": "LWBB2009-20081208-A-OHIOCO",
-      "playerId": "PADKAY2012",
+      "playerId": "p_0000000164",
       "jersey": 32,
       "playerName": "Kayla Padgett",
       "twoPM": 0,
@@ -1140,7 +1140,7 @@
     },
     {
       "gameId": "LWBB2009-20081218-H-HANCOC",
-      "playerId": "WILCAR2010",
+      "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
       "twoPM": 4,
@@ -1156,7 +1156,7 @@
     },
     {
       "gameId": "LWBB2009-20081218-H-HANCOC",
-      "playerId": "LONPAI2010",
+      "playerId": "p_0000000141",
       "jersey": 5,
       "playerName": "Paige Long",
       "twoPM": 0,
@@ -1172,7 +1172,7 @@
     },
     {
       "gameId": "LWBB2009-20081218-H-HANCOC",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 0,
@@ -1188,7 +1188,7 @@
     },
     {
       "gameId": "LWBB2009-20081218-H-HANCOC",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 2,
@@ -1204,7 +1204,7 @@
     },
     {
       "gameId": "LWBB2009-20081218-H-HANCOC",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 2,
@@ -1220,7 +1220,7 @@
     },
     {
       "gameId": "LWBB2009-20081218-H-HANCOC",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 0,
@@ -1236,7 +1236,7 @@
     },
     {
       "gameId": "LWBB2009-20081218-H-HANCOC",
-      "playerId": "FUNASH2012",
+      "playerId": "p_0000000093",
       "jersey": 25,
       "playerName": "Ashley Funk",
       "twoPM": 0,
@@ -1252,7 +1252,7 @@
     },
     {
       "gameId": "LWBB2009-20081218-H-HANCOC",
-      "playerId": "PADKAY2012",
+      "playerId": "p_0000000164",
       "jersey": 32,
       "playerName": "Kayla Padgett",
       "twoPM": 1,
@@ -1268,7 +1268,7 @@
     },
     {
       "gameId": "LWBB2009-20081220-N-STHENR",
-      "playerId": "WILCAR2010",
+      "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
       "twoPM": 4,
@@ -1284,7 +1284,7 @@
     },
     {
       "gameId": "LWBB2009-20081220-N-STHENR",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 6,
@@ -1300,7 +1300,7 @@
     },
     {
       "gameId": "LWBB2009-20081220-N-STHENR",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 4,
@@ -1316,7 +1316,7 @@
     },
     {
       "gameId": "LWBB2009-20081220-N-STHENR",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 3,
@@ -1332,7 +1332,7 @@
     },
     {
       "gameId": "LWBB2009-20081220-N-STHENR",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 1,
@@ -1348,7 +1348,7 @@
     },
     {
       "gameId": "LWBB2009-20081220-N-STHENR",
-      "playerId": "FUNASH2012",
+      "playerId": "p_0000000093",
       "jersey": 25,
       "playerName": "Ashley Funk",
       "twoPM": 0,
@@ -1364,7 +1364,7 @@
     },
     {
       "gameId": "LWBB2009-20081220-N-STHENR",
-      "playerId": "PADKAY2012",
+      "playerId": "p_0000000164",
       "jersey": 32,
       "playerName": "Kayla Padgett",
       "twoPM": 2,
@@ -1380,7 +1380,7 @@
     },
     {
       "gameId": "LWBB2009-20081222-N-TRIMBL",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 4,
@@ -1396,7 +1396,7 @@
     },
     {
       "gameId": "LWBB2009-20081222-N-TRIMBL",
-      "playerId": "WILCAR2010",
+      "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
       "twoPM": 2,
@@ -1412,7 +1412,7 @@
     },
     {
       "gameId": "LWBB2009-20081222-N-TRIMBL",
-      "playerId": "FUNASH2012",
+      "playerId": "p_0000000093",
       "jersey": 25,
       "playerName": "Ashley Funk",
       "twoPM": 0,
@@ -1428,7 +1428,7 @@
     },
     {
       "gameId": "LWBB2009-20081222-N-TRIMBL",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 5,
@@ -1444,7 +1444,7 @@
     },
     {
       "gameId": "LWBB2009-20081222-N-TRIMBL",
-      "playerId": "BROTIF2011",
+      "playerId": "p_0000000054",
       "jersey": 20,
       "playerName": "Tiffany Brown",
       "twoPM": 0,
@@ -1460,7 +1460,7 @@
     },
     {
       "gameId": "LWBB2009-20081222-N-TRIMBL",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 3,
@@ -1476,7 +1476,7 @@
     },
     {
       "gameId": "LWBB2009-20081222-N-TRIMBL",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 0,
@@ -1492,7 +1492,7 @@
     },
     {
       "gameId": "LWBB2009-20081222-N-TRIMBL",
-      "playerId": "PADKAY2012",
+      "playerId": "p_0000000164",
       "jersey": 32,
       "playerName": "Kayla Padgett",
       "twoPM": 0,
@@ -1508,7 +1508,7 @@
     },
     {
       "gameId": "LWBB2009-20081222-N-TRIMBL",
-      "playerId": "JOHRAC2012",
+      "playerId": "p_0000000121",
       "jersey": 34,
       "playerName": "Rachel Johnson",
       "twoPM": 0,
@@ -1524,7 +1524,7 @@
     },
     {
       "gameId": "LWBB2009-20081223-N-GALLAT",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 5,
@@ -1540,7 +1540,7 @@
     },
     {
       "gameId": "LWBB2009-20081223-N-GALLAT",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 4,
@@ -1556,7 +1556,7 @@
     },
     {
       "gameId": "LWBB2009-20081223-N-GALLAT",
-      "playerId": "WILCAR2010",
+      "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
       "twoPM": 2,
@@ -1572,7 +1572,7 @@
     },
     {
       "gameId": "LWBB2009-20081223-N-GALLAT",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 3,
@@ -1588,7 +1588,7 @@
     },
     {
       "gameId": "LWBB2009-20081223-N-GALLAT",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 1,
@@ -1604,7 +1604,7 @@
     },
     {
       "gameId": "LWBB2009-20081223-N-GALLAT",
-      "playerId": "FUNASH2012",
+      "playerId": "p_0000000093",
       "jersey": 25,
       "playerName": "Ashley Funk",
       "twoPM": 0,
@@ -1620,7 +1620,7 @@
     },
     {
       "gameId": "LWBB2009-20081223-N-GALLAT",
-      "playerId": "PADKAY2012",
+      "playerId": "p_0000000164",
       "jersey": 32,
       "playerName": "Kayla Padgett",
       "twoPM": 3,
@@ -1636,7 +1636,7 @@
     },
     {
       "gameId": "LWBB2009-20081223-N-GALLAT",
-      "playerId": "JOHRAC2012",
+      "playerId": "p_0000000121",
       "jersey": 34,
       "playerName": "Rachel Johnson",
       "twoPM": 0,
@@ -1652,7 +1652,7 @@
     },
     {
       "gameId": "LWBB2009-20081226-N-BOYLEC",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 1,
@@ -1668,7 +1668,7 @@
     },
     {
       "gameId": "LWBB2009-20081226-N-BOYLEC",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 9,
@@ -1684,7 +1684,7 @@
     },
     {
       "gameId": "LWBB2009-20081226-N-BOYLEC",
-      "playerId": "WILCAR2010",
+      "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
       "twoPM": 2,
@@ -1700,7 +1700,7 @@
     },
     {
       "gameId": "LWBB2009-20081226-N-BOYLEC",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 2,
@@ -1716,7 +1716,7 @@
     },
     {
       "gameId": "LWBB2009-20081226-N-BOYLEC",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 7,
@@ -1732,7 +1732,7 @@
     },
     {
       "gameId": "LWBB2009-20081226-N-BOYLEC",
-      "playerId": "PADKAY2012",
+      "playerId": "p_0000000164",
       "jersey": 32,
       "playerName": "Kayla Padgett",
       "twoPM": 1,
@@ -1748,7 +1748,7 @@
     },
     {
       "gameId": "LWBB2009-20081227-N-BOURBO",
-      "playerId": "WILCAR2010",
+      "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
       "twoPM": 2,
@@ -1764,7 +1764,7 @@
     },
     {
       "gameId": "LWBB2009-20081227-N-BOURBO",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 4,
@@ -1780,7 +1780,7 @@
     },
     {
       "gameId": "LWBB2009-20081227-N-BOURBO",
-      "playerId": "BENKRI2012",
+      "playerId": "p_0000000040",
       "jersey": 10,
       "playerName": "Kristin Benton",
       "twoPM": 1,
@@ -1796,7 +1796,7 @@
     },
     {
       "gameId": "LWBB2009-20081227-N-BOURBO",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 3,
@@ -1812,7 +1812,7 @@
     },
     {
       "gameId": "LWBB2009-20081227-N-BOURBO",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 2,
@@ -1828,7 +1828,7 @@
     },
     {
       "gameId": "LWBB2009-20081227-N-BOURBO",
-      "playerId": "BROTIF2011",
+      "playerId": "p_0000000054",
       "jersey": 20,
       "playerName": "Tiffany Brown",
       "twoPM": 1,
@@ -1844,7 +1844,7 @@
     },
     {
       "gameId": "LWBB2009-20081227-N-BOURBO",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 0,
@@ -1860,7 +1860,7 @@
     },
     {
       "gameId": "LWBB2009-20081227-N-BOURBO",
-      "playerId": "FUNASH2012",
+      "playerId": "p_0000000093",
       "jersey": 25,
       "playerName": "Ashley Funk",
       "twoPM": 0,
@@ -1876,7 +1876,7 @@
     },
     {
       "gameId": "LWBB2009-20081227-N-BOURBO",
-      "playerId": "PADKAY2012",
+      "playerId": "p_0000000164",
       "jersey": 32,
       "playerName": "Kayla Padgett",
       "twoPM": 4,
@@ -1892,7 +1892,7 @@
     },
     {
       "gameId": "LWBB2009-20081227-N-BRYANS",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 0,
@@ -1908,7 +1908,7 @@
     },
     {
       "gameId": "LWBB2009-20081227-N-BRYANS",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 3,
@@ -1924,7 +1924,7 @@
     },
     {
       "gameId": "LWBB2009-20081227-N-BRYANS",
-      "playerId": "WILCAR2010",
+      "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
       "twoPM": 5,
@@ -1940,7 +1940,7 @@
     },
     {
       "gameId": "LWBB2009-20081227-N-BRYANS",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 4,
@@ -1956,7 +1956,7 @@
     },
     {
       "gameId": "LWBB2009-20081227-N-BRYANS",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 3,
@@ -1972,7 +1972,7 @@
     },
     {
       "gameId": "LWBB2009-20081227-N-BRYANS",
-      "playerId": "FUNASH2012",
+      "playerId": "p_0000000093",
       "jersey": 25,
       "playerName": "Ashley Funk",
       "twoPM": 0,
@@ -1988,7 +1988,7 @@
     },
     {
       "gameId": "LWBB2009-20081227-N-BRYANS",
-      "playerId": "PADKAY2012",
+      "playerId": "p_0000000164",
       "jersey": 32,
       "playerName": "Kayla Padgett",
       "twoPM": 0,
@@ -2004,7 +2004,7 @@
     },
     {
       "gameId": "LWBB2009-20081227-N-BRYANS",
-      "playerId": "JOHRAC2012",
+      "playerId": "p_0000000121",
       "jersey": 34,
       "playerName": "Rachel Johnson",
       "twoPM": 0,
@@ -2020,7 +2020,7 @@
     },
     {
       "gameId": "LWBB2009-20081228-N-PARISX",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 0,
@@ -2036,7 +2036,7 @@
     },
     {
       "gameId": "LWBB2009-20081228-N-PARISX",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 7,
@@ -2052,7 +2052,7 @@
     },
     {
       "gameId": "LWBB2009-20081228-N-PARISX",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 3,
@@ -2068,7 +2068,7 @@
     },
     {
       "gameId": "LWBB2009-20081228-N-PARISX",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 0,
@@ -2084,7 +2084,7 @@
     },
     {
       "gameId": "LWBB2009-20081228-N-PARISX",
-      "playerId": "BROTIF2011",
+      "playerId": "p_0000000054",
       "jersey": 20,
       "playerName": "Tiffany Brown",
       "twoPM": 0,
@@ -2100,7 +2100,7 @@
     },
     {
       "gameId": "LWBB2009-20081228-N-PARISX",
-      "playerId": "FUNASH2012",
+      "playerId": "p_0000000093",
       "jersey": 25,
       "playerName": "Ashley Funk",
       "twoPM": 1,
@@ -2116,7 +2116,7 @@
     },
     {
       "gameId": "LWBB2009-20081228-N-PARISX",
-      "playerId": "PADKAY2012",
+      "playerId": "p_0000000164",
       "jersey": 32,
       "playerName": "Kayla Padgett",
       "twoPM": 1,
@@ -2132,7 +2132,7 @@
     },
     {
       "gameId": "LWBB2009-20090105-H-EDMONS",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 4,
@@ -2148,7 +2148,7 @@
     },
     {
       "gameId": "LWBB2009-20090105-H-EDMONS",
-      "playerId": "LONPAI2010",
+      "playerId": "p_0000000141",
       "jersey": 5,
       "playerName": "Paige Long",
       "twoPM": 0,
@@ -2164,7 +2164,7 @@
     },
     {
       "gameId": "LWBB2009-20090105-H-EDMONS",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 5,
@@ -2180,7 +2180,7 @@
     },
     {
       "gameId": "LWBB2009-20090105-H-EDMONS",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 4,
@@ -2196,7 +2196,7 @@
     },
     {
       "gameId": "LWBB2009-20090105-H-EDMONS",
-      "playerId": "WILCAR2010",
+      "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
       "twoPM": 1,
@@ -2212,7 +2212,7 @@
     },
     {
       "gameId": "LWBB2009-20090105-H-EDMONS",
-      "playerId": "FUNASH2012",
+      "playerId": "p_0000000093",
       "jersey": 25,
       "playerName": "Ashley Funk",
       "twoPM": 0,
@@ -2228,7 +2228,7 @@
     },
     {
       "gameId": "LWBB2009-20090105-H-EDMONS",
-      "playerId": "BROTIF2011",
+      "playerId": "p_0000000054",
       "jersey": 20,
       "playerName": "Tiffany Brown",
       "twoPM": 0,
@@ -2244,7 +2244,7 @@
     },
     {
       "gameId": "LWBB2009-20090105-H-EDMONS",
-      "playerId": "JOHRAC2012",
+      "playerId": "p_0000000121",
       "jersey": 34,
       "playerName": "Rachel Johnson",
       "twoPM": 0,
@@ -2260,7 +2260,7 @@
     },
     {
       "gameId": "LWBB2009-20090105-H-EDMONS",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 1,
@@ -2276,7 +2276,7 @@
     },
     {
       "gameId": "LWBB2009-20090105-H-EDMONS",
-      "playerId": "PADKAY2012",
+      "playerId": "p_0000000164",
       "jersey": 32,
       "playerName": "Kayla Padgett",
       "twoPM": 0,
@@ -2292,7 +2292,7 @@
     },
     {
       "gameId": "LWBB2009-20090108-H-UNKNOW",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 2,
@@ -2308,7 +2308,7 @@
     },
     {
       "gameId": "LWBB2009-20090108-H-UNKNOW",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 1,
@@ -2324,7 +2324,7 @@
     },
     {
       "gameId": "LWBB2009-20090108-H-UNKNOW",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 1,
@@ -2340,7 +2340,7 @@
     },
     {
       "gameId": "LWBB2009-20090108-H-UNKNOW",
-      "playerId": "WILCAR2010",
+      "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
       "twoPM": 2,
@@ -2356,7 +2356,7 @@
     },
     {
       "gameId": "LWBB2009-20090108-H-UNKNOW",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 3,
@@ -2372,7 +2372,7 @@
     },
     {
       "gameId": "LWBB2009-20090108-H-UNKNOW",
-      "playerId": "PADKAY2012",
+      "playerId": "p_0000000164",
       "jersey": 32,
       "playerName": "Kayla Padgett",
       "twoPM": 3,
@@ -2388,7 +2388,7 @@
     },
     {
       "gameId": "LWBB2009-20090110-H-AUSTWA",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 3,
@@ -2404,7 +2404,7 @@
     },
     {
       "gameId": "LWBB2009-20090110-H-AUSTWA",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 4,
@@ -2420,7 +2420,7 @@
     },
     {
       "gameId": "LWBB2009-20090110-H-AUSTWA",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 6,
@@ -2436,7 +2436,7 @@
     },
     {
       "gameId": "LWBB2009-20090110-H-AUSTWA",
-      "playerId": "WILCAR2010",
+      "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
       "twoPM": 3,
@@ -2452,7 +2452,7 @@
     },
     {
       "gameId": "LWBB2009-20090110-H-AUSTWA",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 3,
@@ -2468,7 +2468,7 @@
     },
     {
       "gameId": "LWBB2009-20090110-H-AUSTWA",
-      "playerId": "FUNASH2012",
+      "playerId": "p_0000000093",
       "jersey": 25,
       "playerName": "Ashley Funk",
       "twoPM": 0,
@@ -2484,7 +2484,7 @@
     },
     {
       "gameId": "LWBB2009-20090110-H-AUSTWA",
-      "playerId": "PADKAY2012",
+      "playerId": "p_0000000164",
       "jersey": 32,
       "playerName": "Kayla Padgett",
       "twoPM": 1,
@@ -2500,7 +2500,7 @@
     },
     {
       "gameId": "LWBB2009-20090112-H-BRECKI",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 1,
@@ -2516,7 +2516,7 @@
     },
     {
       "gameId": "LWBB2009-20090112-H-BRECKI",
-      "playerId": "WILCAR2010",
+      "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
       "twoPM": 4,
@@ -2532,7 +2532,7 @@
     },
     {
       "gameId": "LWBB2009-20090112-H-BRECKI",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 8,
@@ -2548,7 +2548,7 @@
     },
     {
       "gameId": "LWBB2009-20090112-H-BRECKI",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 3,
@@ -2564,7 +2564,7 @@
     },
     {
       "gameId": "LWBB2009-20090112-H-BRECKI",
-      "playerId": "BROTIF2011",
+      "playerId": "p_0000000054",
       "jersey": 20,
       "playerName": "Tiffany Brown",
       "twoPM": 0,
@@ -2580,7 +2580,7 @@
     },
     {
       "gameId": "LWBB2009-20090112-H-BRECKI",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 1,
@@ -2596,7 +2596,7 @@
     },
     {
       "gameId": "LWBB2009-20090112-H-BRECKI",
-      "playerId": "FUNASH2012",
+      "playerId": "p_0000000093",
       "jersey": 25,
       "playerName": "Ashley Funk",
       "twoPM": 0,
@@ -2612,7 +2612,7 @@
     },
     {
       "gameId": "LWBB2009-20090112-H-BRECKI",
-      "playerId": "PADKAY2012",
+      "playerId": "p_0000000164",
       "jersey": 32,
       "playerName": "Kayla Padgett",
       "twoPM": 1,
@@ -2628,7 +2628,7 @@
     },
     {
       "gameId": "LWBB2009-20090115-A-HANCOC",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 1,
@@ -2644,7 +2644,7 @@
     },
     {
       "gameId": "LWBB2009-20090115-A-HANCOC",
-      "playerId": "WILCAR2010",
+      "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
       "twoPM": 2,
@@ -2660,7 +2660,7 @@
     },
     {
       "gameId": "LWBB2009-20090115-A-HANCOC",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 4,
@@ -2676,7 +2676,7 @@
     },
     {
       "gameId": "LWBB2009-20090115-A-HANCOC",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 3,
@@ -2692,7 +2692,7 @@
     },
     {
       "gameId": "LWBB2009-20090115-A-HANCOC",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 6,
@@ -2708,7 +2708,7 @@
     },
     {
       "gameId": "LWBB2009-20090115-A-HANCOC",
-      "playerId": "PADKAY2012",
+      "playerId": "p_0000000164",
       "jersey": 32,
       "playerName": "Kayla Padgett",
       "twoPM": 1,
@@ -2724,7 +2724,7 @@
     },
     {
       "gameId": "LWBB2009-20090116-A-CLOVER",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 7,
@@ -2740,7 +2740,7 @@
     },
     {
       "gameId": "LWBB2009-20090116-A-CLOVER",
-      "playerId": "LONPAI2010",
+      "playerId": "p_0000000141",
       "jersey": 5,
       "playerName": "Paige Long",
       "twoPM": 0,
@@ -2756,7 +2756,7 @@
     },
     {
       "gameId": "LWBB2009-20090116-A-CLOVER",
-      "playerId": "FUNASH2012",
+      "playerId": "p_0000000093",
       "jersey": 25,
       "playerName": "Ashley Funk",
       "twoPM": 4,
@@ -2772,7 +2772,7 @@
     },
     {
       "gameId": "LWBB2009-20090116-A-CLOVER",
-      "playerId": "BENKRI2012",
+      "playerId": "p_0000000040",
       "jersey": 10,
       "playerName": "Kristin Benton",
       "twoPM": 4,
@@ -2788,7 +2788,7 @@
     },
     {
       "gameId": "LWBB2009-20090116-A-CLOVER",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 5,
@@ -2804,7 +2804,7 @@
     },
     {
       "gameId": "LWBB2009-20090116-A-CLOVER",
-      "playerId": "WILCAR2010",
+      "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
       "twoPM": 2,
@@ -2820,7 +2820,7 @@
     },
     {
       "gameId": "LWBB2009-20090116-A-CLOVER",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 4,
@@ -2836,7 +2836,7 @@
     },
     {
       "gameId": "LWBB2009-20090116-A-CLOVER",
-      "playerId": "BROTIF2011",
+      "playerId": "p_0000000054",
       "jersey": 20,
       "playerName": "Tiffany Brown",
       "twoPM": 2,
@@ -2852,7 +2852,7 @@
     },
     {
       "gameId": "LWBB2009-20090116-A-CLOVER",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 4,
@@ -2868,7 +2868,7 @@
     },
     {
       "gameId": "LWBB2009-20090116-A-CLOVER",
-      "playerId": "JOHRAC2012",
+      "playerId": "p_0000000121",
       "jersey": 34,
       "playerName": "Rachel Johnson",
       "twoPM": 0,
@@ -2884,7 +2884,7 @@
     },
     {
       "gameId": "LWBB2009-20090116-A-CLOVER",
-      "playerId": "PADKAY2012",
+      "playerId": "p_0000000164",
       "jersey": 32,
       "playerName": "Kayla Padgett",
       "twoPM": 1,
@@ -2900,7 +2900,7 @@
     },
     {
       "gameId": "LWBB2009-20090119-H-MUHLNO",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 6,
@@ -2916,7 +2916,7 @@
     },
     {
       "gameId": "LWBB2009-20090119-H-MUHLNO",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 6,
@@ -2932,7 +2932,7 @@
     },
     {
       "gameId": "LWBB2009-20090119-H-MUHLNO",
-      "playerId": "BENKRI2012",
+      "playerId": "p_0000000040",
       "jersey": 10,
       "playerName": "Kristin Benton",
       "twoPM": 1,
@@ -2948,7 +2948,7 @@
     },
     {
       "gameId": "LWBB2009-20090119-H-MUHLNO",
-      "playerId": "WILCAR2010",
+      "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
       "twoPM": 4,
@@ -2964,7 +2964,7 @@
     },
     {
       "gameId": "LWBB2009-20090119-H-MUHLNO",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 3,
@@ -2980,7 +2980,7 @@
     },
     {
       "gameId": "LWBB2009-20090119-H-MUHLNO",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 0,
@@ -2996,7 +2996,7 @@
     },
     {
       "gameId": "LWBB2009-20090119-H-MUHLNO",
-      "playerId": "PADKAY2012",
+      "playerId": "p_0000000164",
       "jersey": 32,
       "playerName": "Kayla Padgett",
       "twoPM": 0,
@@ -3012,7 +3012,7 @@
     },
     {
       "gameId": "LWBB2009-20090120-A-GRAYSO",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 3,
@@ -3028,7 +3028,7 @@
     },
     {
       "gameId": "LWBB2009-20090120-A-GRAYSO",
-      "playerId": "LONPAI2010",
+      "playerId": "p_0000000141",
       "jersey": 5,
       "playerName": "Paige Long",
       "twoPM": 0,
@@ -3044,7 +3044,7 @@
     },
     {
       "gameId": "LWBB2009-20090120-A-GRAYSO",
-      "playerId": "WILCAR2010",
+      "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
       "twoPM": 1,
@@ -3060,7 +3060,7 @@
     },
     {
       "gameId": "LWBB2009-20090120-A-GRAYSO",
-      "playerId": "BENKRI2012",
+      "playerId": "p_0000000040",
       "jersey": 10,
       "playerName": "Kristin Benton",
       "twoPM": 2,
@@ -3076,7 +3076,7 @@
     },
     {
       "gameId": "LWBB2009-20090120-A-GRAYSO",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 2,
@@ -3092,7 +3092,7 @@
     },
     {
       "gameId": "LWBB2009-20090120-A-GRAYSO",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 1,
@@ -3108,7 +3108,7 @@
     },
     {
       "gameId": "LWBB2009-20090120-A-GRAYSO",
-      "playerId": "FUNASH2012",
+      "playerId": "p_0000000093",
       "jersey": 25,
       "playerName": "Ashley Funk",
       "twoPM": 0,
@@ -3124,7 +3124,7 @@
     },
     {
       "gameId": "LWBB2009-20090120-A-GRAYSO",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 1,
@@ -3140,7 +3140,7 @@
     },
     {
       "gameId": "LWBB2009-20090124-A-BRECKI",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 3,
@@ -3156,7 +3156,7 @@
     },
     {
       "gameId": "LWBB2009-20090124-A-BRECKI",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 2,
@@ -3172,7 +3172,7 @@
     },
     {
       "gameId": "LWBB2009-20090124-A-BRECKI",
-      "playerId": "WILCAR2010",
+      "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
       "twoPM": 3,
@@ -3188,7 +3188,7 @@
     },
     {
       "gameId": "LWBB2009-20090124-A-BRECKI",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 1,
@@ -3204,7 +3204,7 @@
     },
     {
       "gameId": "LWBB2009-20090124-A-BRECKI",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 2,
@@ -3220,7 +3220,7 @@
     },
     {
       "gameId": "LWBB2009-20090124-A-BRECKI",
-      "playerId": "PADKAY2012",
+      "playerId": "p_0000000164",
       "jersey": 32,
       "playerName": "Kayla Padgett",
       "twoPM": 0,
@@ -3236,7 +3236,7 @@
     },
     {
       "gameId": "LWBB2009-20090205-H-SOUTHO",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 1,
@@ -3252,7 +3252,7 @@
     },
     {
       "gameId": "LWBB2009-20090205-H-SOUTHO",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 5,
@@ -3268,7 +3268,7 @@
     },
     {
       "gameId": "LWBB2009-20090205-H-SOUTHO",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 4,
@@ -3284,7 +3284,7 @@
     },
     {
       "gameId": "LWBB2009-20090205-H-SOUTHO",
-      "playerId": "WILCAR2010",
+      "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
       "twoPM": 0,
@@ -3300,7 +3300,7 @@
     },
     {
       "gameId": "LWBB2009-20090205-H-SOUTHO",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 1,
@@ -3316,7 +3316,7 @@
     },
     {
       "gameId": "LWBB2009-20090205-H-SOUTHO",
-      "playerId": "FUNASH2012",
+      "playerId": "p_0000000093",
       "jersey": 25,
       "playerName": "Ashley Funk",
       "twoPM": 0,
@@ -3332,7 +3332,7 @@
     },
     {
       "gameId": "LWBB2009-20090205-H-SOUTHO",
-      "playerId": "PADKAY2012",
+      "playerId": "p_0000000164",
       "jersey": 32,
       "playerName": "Kayla Padgett",
       "twoPM": 0,
@@ -3348,7 +3348,7 @@
     },
     {
       "gameId": "LWBB2009-20090207-H-CLOVER",
-      "playerId": "BENKRI2012",
+      "playerId": "p_0000000040",
       "jersey": 10,
       "playerName": "Kristin Benton",
       "twoPM": 6,
@@ -3364,7 +3364,7 @@
     },
     {
       "gameId": "LWBB2009-20090207-H-CLOVER",
-      "playerId": "LONPAI2010",
+      "playerId": "p_0000000141",
       "jersey": 5,
       "playerName": "Paige Long",
       "twoPM": 1,
@@ -3380,7 +3380,7 @@
     },
     {
       "gameId": "LWBB2009-20090207-H-CLOVER",
-      "playerId": "POWSCA2012",
+      "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
       "twoPM": 4,
@@ -3396,7 +3396,7 @@
     },
     {
       "gameId": "LWBB2009-20090207-H-CLOVER",
-      "playerId": "FUNASH2012",
+      "playerId": "p_0000000093",
       "jersey": 25,
       "playerName": "Ashley Funk",
       "twoPM": 1,
@@ -3412,7 +3412,7 @@
     },
     {
       "gameId": "LWBB2009-20090207-H-CLOVER",
-      "playerId": "ADAALE2010",
+      "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
       "twoPM": 0,
@@ -3428,7 +3428,7 @@
     },
     {
       "gameId": "LWBB2009-20090207-H-CLOVER",
-      "playerId": "WATMAL2011",
+      "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
       "twoPM": 2,
@@ -3444,7 +3444,7 @@
     },
     {
       "gameId": "LWBB2009-20090207-H-CLOVER",
-      "playerId": "POWBLI2010",
+      "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
       "twoPM": 2,
@@ -3460,7 +3460,7 @@
     },
     {
       "gameId": "LWBB2009-20090207-H-CLOVER",
-      "playerId": "PADKAY2012",
+      "playerId": "p_0000000164",
       "jersey": 32,
       "playerName": "Kayla Padgett",
       "twoPM": 4,
@@ -3476,7 +3476,7 @@
     },
     {
       "gameId": "LWBB2009-20090207-H-CLOVER",
-      "playerId": "JOHRAC2012",
+      "playerId": "p_0000000121",
       "jersey": 34,
       "playerName": "Rachel Johnson",
       "twoPM": 1,

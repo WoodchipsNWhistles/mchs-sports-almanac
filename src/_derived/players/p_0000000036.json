@@ -1,0 +1,106 @@
+{
+  "playerID": "p_0000000036",
+  "playerIDBase": "p_0000000036",
+  "playerIDSuffix": 1,
+  "jersey": 21,
+  "first": "Jackson",
+  "last": "Bahr",
+  "name": "Jackson Bahr",
+  "pos": "PF",
+  "grade": "Jr.",
+  "gradeFull": "Junior",
+  "gradYear": 2026,
+  "participation": [
+    {
+      "sportCode": "GWBB",
+      "seasonYearEnd": 2025,
+      "level": "V",
+      "role": "athlete"
+    }
+  ],
+  "seasons": [
+    {
+      "sportCode": "GWBB",
+      "seasonYearEnd": 2025,
+      "level": "V",
+      "gamesPlayed": 4,
+      "totals": {
+        "games": 4,
+        "pts": 20,
+        "reb": 7,
+        "twoPM": 3,
+        "twoPA": 8,
+        "threePM": 4,
+        "threePA": 9,
+        "ftM": 2,
+        "ftA": 3
+      },
+      "gameStats": [
+        {
+          "gameID": "GWBB2025-20241210-H-CLOVER",
+          "playerID": "p_0000000036",
+          "jersey": 21,
+          "playerName": "Jackson Bahr",
+          "twoPM": 1,
+          "twoPA": 3,
+          "threePM": 0,
+          "threePA": 2,
+          "ftM": 0,
+          "ftA": 0,
+          "pts": 2,
+          "reb": 3,
+          "tenPlus": false,
+          "doubleDouble": false
+        },
+        {
+          "gameID": "GWBB2025-20250114-H-TRINIT",
+          "playerID": "p_0000000036",
+          "jersey": 21,
+          "playerName": "Jackson Bahr",
+          "twoPM": 0,
+          "twoPA": 2,
+          "threePM": 1,
+          "threePA": 2,
+          "ftM": 0,
+          "ftA": 0,
+          "pts": 3,
+          "reb": 1,
+          "tenPlus": false,
+          "doubleDouble": false
+        },
+        {
+          "gameID": "GWBB2025-20250206-A-CLOVER",
+          "playerID": "p_0000000036",
+          "jersey": 21,
+          "playerName": "Jackson Bahr",
+          "twoPM": 2,
+          "twoPA": 3,
+          "threePM": 2,
+          "threePA": 3,
+          "ftM": 1,
+          "ftA": 1,
+          "pts": 11,
+          "reb": 2,
+          "tenPlus": true,
+          "doubleDouble": false
+        },
+        {
+          "gameID": "GWBB2025-20250221-H-CAMPBE",
+          "playerID": "p_0000000036",
+          "jersey": 21,
+          "playerName": "Jackson Bahr",
+          "twoPM": 0,
+          "twoPA": 0,
+          "threePM": 1,
+          "threePA": 2,
+          "ftM": 1,
+          "ftA": 2,
+          "pts": 4,
+          "reb": 1,
+          "tenPlus": false,
+          "doubleDouble": false
+        }
+      ]
+    }
+  ]
+}

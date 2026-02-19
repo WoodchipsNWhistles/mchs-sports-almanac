@@ -465,9 +465,9 @@
       "GraduationYear": 2016,
       "FirstName": "Jake",
       "LastName": "Beavin",
-      "PlayerID_Base": "BEAJAK2016",
+      "PlayerID_Base": "p_0000000039",
       "PlayerID_Suffix": 1,
-      "PlayerID": "BEAJAK2016"
+      "PlayerID": "p_0000000039"
     },
     {
       "Jersey": 5,
@@ -478,9 +478,9 @@
       "GraduationYear": 2016,
       "FirstName": "Kase",
       "LastName": "Mattingly",
-      "PlayerID_Base": "MATKAS2016",
+      "PlayerID_Base": "p_0000000148",
       "PlayerID_Suffix": 1,
-      "PlayerID": "MATKAS2016"
+      "PlayerID": "p_0000000148"
     },
     {
       "Jersey": 10,
@@ -491,9 +491,9 @@
       "GraduationYear": 2016,
       "FirstName": "Jacob",
       "LastName": "Bewley",
-      "PlayerID_Base": "BEWJAC2016",
+      "PlayerID_Base": "p_0000000042",
       "PlayerID_Suffix": 1,
-      "PlayerID": "BEWJAC2016"
+      "PlayerID": "p_0000000042"
     },
     {
       "Jersey": 11,
@@ -504,9 +504,9 @@
       "GraduationYear": 2015,
       "FirstName": "Will",
       "LastName": "King",
-      "PlayerID_Base": "KINWIL2015",
+      "PlayerID_Base": "p_0000000131",
       "PlayerID_Suffix": 1,
-      "PlayerID": "KINWIL2015"
+      "PlayerID": "p_0000000131"
     },
     {
       "Jersey": 12,
@@ -517,9 +517,9 @@
       "GraduationYear": 2015,
       "FirstName": "John",
       "LastName": "Miller",
-      "PlayerID_Base": "MILJOH2015",
+      "PlayerID_Base": "p_0000000155",
       "PlayerID_Suffix": 1,
-      "PlayerID": "MILJOH2015"
+      "PlayerID": "p_0000000155"
     },
     {
       "Jersey": 13,
@@ -530,9 +530,9 @@
       "GraduationYear": 2015,
       "FirstName": "Darion",
       "LastName": "Williams",
-      "PlayerID_Base": "WILDAR2015",
+      "PlayerID_Base": "p_0000000211",
       "PlayerID_Suffix": 1,
-      "PlayerID": "WILDAR2015"
+      "PlayerID": "p_0000000211"
     },
     {
       "Jersey": 14,
@@ -543,9 +543,9 @@
       "GraduationYear": 2015,
       "FirstName": "Corey",
       "LastName": "Stegner",
-      "PlayerID_Base": "STECOR2015",
+      "PlayerID_Base": "p_0000000191",
       "PlayerID_Suffix": 1,
-      "PlayerID": "STECOR2015"
+      "PlayerID": "p_0000000191"
     },
     {
       "Jersey": 15,
@@ -556,9 +556,9 @@
       "GraduationYear": 2016,
       "FirstName": "Mack",
       "LastName": "Wilson",
-      "PlayerID_Base": "WILMAC2016",
+      "PlayerID_Base": "p_0000000216",
       "PlayerID_Suffix": 1,
-      "PlayerID": "WILMAC2016"
+      "PlayerID": "p_0000000216"
     },
     {
       "Jersey": 21,
@@ -569,9 +569,9 @@
       "GraduationYear": 2017,
       "FirstName": "Calvin",
       "LastName": "Hackert",
-      "PlayerID_Base": "HACCAL2017",
+      "PlayerID_Base": "p_0000000106",
       "PlayerID_Suffix": 1,
-      "PlayerID": "HACCAL2017"
+      "PlayerID": "p_0000000106"
     },
     {
       "Jersey": 23,
@@ -582,9 +582,9 @@
       "GraduationYear": 2015,
       "FirstName": "Trevor",
       "LastName": "Yates",
-      "PlayerID_Base": "YATTRE2015",
+      "PlayerID_Base": "p_0000000222",
       "PlayerID_Suffix": 1,
-      "PlayerID": "YATTRE2015"
+      "PlayerID": "p_0000000222"
     },
     {
       "Jersey": 25,
@@ -595,9 +595,9 @@
       "GraduationYear": 2015,
       "FirstName": "Micah",
       "LastName": "Kaiser",
-      "PlayerID_Base": "KAIMIC2015",
+      "PlayerID_Base": "p_0000000126",
       "PlayerID_Suffix": 1,
-      "PlayerID": "KAIMIC2015"
+      "PlayerID": "p_0000000126"
     },
     {
       "Jersey": 34,
@@ -608,9 +608,9 @@
       "GraduationYear": 2016,
       "FirstName": "Josh",
       "LastName": "Durbin",
-      "PlayerID_Base": "DURJOS2016",
+      "PlayerID_Base": "p_0000000082",
       "PlayerID_Suffix": 1,
-      "PlayerID": "DURJOS2016"
+      "PlayerID": "p_0000000082"
     },
     {
       "Jersey": 42,
@@ -621,15 +621,15 @@
       "GraduationYear": 2015,
       "FirstName": "John",
       "LastName": "Wilson",
-      "PlayerID_Base": "WILJOH2015",
+      "PlayerID_Base": "p_0000000213",
       "PlayerID_Suffix": 1,
-      "PlayerID": "WILJOH2015"
+      "PlayerID": "p_0000000213"
     }
   ],
   "gameStats": [
     {
       "gameID": "GWBB2015-20141201-H-HOLYCR",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 2,
@@ -645,7 +645,7 @@
     },
     {
       "gameID": "GWBB2015-20141201-H-HOLYCR",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 1,
@@ -661,7 +661,7 @@
     },
     {
       "gameID": "GWBB2015-20141201-H-HOLYCR",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 4,
@@ -677,7 +677,7 @@
     },
     {
       "gameID": "GWBB2015-20141201-H-HOLYCR",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 0,
@@ -693,7 +693,7 @@
     },
     {
       "gameID": "GWBB2015-20141201-H-HOLYCR",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 1,
@@ -709,7 +709,7 @@
     },
     {
       "gameID": "GWBB2015-20141201-H-HOLYCR",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 0,
@@ -725,7 +725,7 @@
     },
     {
       "gameID": "GWBB2015-20141201-H-HOLYCR",
-      "playerID": "YATTRE2015",
+      "playerID": "p_0000000222",
       "jersey": 23,
       "playerName": "Trevor Yates",
       "twoPM": 0,
@@ -741,7 +741,7 @@
     },
     {
       "gameID": "GWBB2015-20141201-H-HOLYCR",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 3,
@@ -757,7 +757,7 @@
     },
     {
       "gameID": "GWBB2015-20141201-H-HOLYCR",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 0,
@@ -773,7 +773,7 @@
     },
     {
       "gameID": "GWBB2015-20141204-H-SOCEIN",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 3,
@@ -789,7 +789,7 @@
     },
     {
       "gameID": "GWBB2015-20141204-H-SOCEIN",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 1,
@@ -805,7 +805,7 @@
     },
     {
       "gameID": "GWBB2015-20141204-H-SOCEIN",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 5,
@@ -821,7 +821,7 @@
     },
     {
       "gameID": "GWBB2015-20141204-H-SOCEIN",
-      "playerID": "YATTRE2015",
+      "playerID": "p_0000000222",
       "jersey": 23,
       "playerName": "Trevor Yates",
       "twoPM": 2,
@@ -837,7 +837,7 @@
     },
     {
       "gameID": "GWBB2015-20141204-H-SOCEIN",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 0,
@@ -853,7 +853,7 @@
     },
     {
       "gameID": "GWBB2015-20141204-H-SOCEIN",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 3,
@@ -869,7 +869,7 @@
     },
     {
       "gameID": "GWBB2015-20141204-H-SOCEIN",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 2,
@@ -885,7 +885,7 @@
     },
     {
       "gameID": "GWBB2015-20141204-H-SOCEIN",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 0,
@@ -901,7 +901,7 @@
     },
     {
       "gameID": "GWBB2015-20141204-H-SOCEIN",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 6,
@@ -917,7 +917,7 @@
     },
     {
       "gameID": "GWBB2015-20141204-H-SOCEIN",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 1,
@@ -933,7 +933,7 @@
     },
     {
       "gameID": "GWBB2015-20141205-A-OWCATH",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 2,
@@ -949,7 +949,7 @@
     },
     {
       "gameID": "GWBB2015-20141205-A-OWCATH",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 4,
@@ -965,7 +965,7 @@
     },
     {
       "gameID": "GWBB2015-20141205-A-OWCATH",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 1,
@@ -981,7 +981,7 @@
     },
     {
       "gameID": "GWBB2015-20141205-A-OWCATH",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 3,
@@ -997,7 +997,7 @@
     },
     {
       "gameID": "GWBB2015-20141205-A-OWCATH",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 2,
@@ -1013,7 +1013,7 @@
     },
     {
       "gameID": "GWBB2015-20141205-A-OWCATH",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 0,
@@ -1029,7 +1029,7 @@
     },
     {
       "gameID": "GWBB2015-20141205-A-OWCATH",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 0,
@@ -1045,7 +1045,7 @@
     },
     {
       "gameID": "GWBB2015-20141205-A-OWCATH",
-      "playerID": "YATTRE2015",
+      "playerID": "p_0000000222",
       "jersey": 23,
       "playerName": "Trevor Yates",
       "twoPM": 0,
@@ -1061,7 +1061,7 @@
     },
     {
       "gameID": "GWBB2015-20141205-A-OWCATH",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 0,
@@ -1077,7 +1077,7 @@
     },
     {
       "gameID": "GWBB2015-20141205-A-OWCATH",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 1,
@@ -1093,7 +1093,7 @@
     },
     {
       "gameID": "GWBB2015-20141209-H-HANCOC",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 2,
@@ -1109,7 +1109,7 @@
     },
     {
       "gameID": "GWBB2015-20141209-H-HANCOC",
-      "playerID": "BEAJAK2016",
+      "playerID": "p_0000000039",
       "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 0,
@@ -1125,7 +1125,7 @@
     },
     {
       "gameID": "GWBB2015-20141209-H-HANCOC",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 2,
@@ -1141,7 +1141,7 @@
     },
     {
       "gameID": "GWBB2015-20141209-H-HANCOC",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 1,
@@ -1157,7 +1157,7 @@
     },
     {
       "gameID": "GWBB2015-20141209-H-HANCOC",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 2,
@@ -1173,7 +1173,7 @@
     },
     {
       "gameID": "GWBB2015-20141209-H-HANCOC",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 1,
@@ -1189,7 +1189,7 @@
     },
     {
       "gameID": "GWBB2015-20141209-H-HANCOC",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 4,
@@ -1205,7 +1205,7 @@
     },
     {
       "gameID": "GWBB2015-20141209-H-HANCOC",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 0,
@@ -1221,7 +1221,7 @@
     },
     {
       "gameID": "GWBB2015-20141209-H-HANCOC",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 2,
@@ -1237,7 +1237,7 @@
     },
     {
       "gameID": "GWBB2015-20141209-H-HANCOC",
-      "playerID": "KAIMIC2015",
+      "playerID": "p_0000000126",
       "jersey": 25,
       "playerName": "Micah Kaiser",
       "twoPM": 0,
@@ -1253,7 +1253,7 @@
     },
     {
       "gameID": "GWBB2015-20141209-H-HANCOC",
-      "playerID": "WILMAC2016",
+      "playerID": "p_0000000216",
       "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
@@ -1269,7 +1269,7 @@
     },
     {
       "gameID": "GWBB2015-20141209-H-HANCOC",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 0,
@@ -1285,7 +1285,7 @@
     },
     {
       "gameID": "GWBB2015-20141209-H-HANCOC",
-      "playerID": "YATTRE2015",
+      "playerID": "p_0000000222",
       "jersey": 23,
       "playerName": "Trevor Yates",
       "twoPM": 1,
@@ -1301,7 +1301,7 @@
     },
     {
       "gameID": "GWBB2015-20141211-H-CLOVER",
-      "playerID": "BEAJAK2016",
+      "playerID": "p_0000000039",
       "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 1,
@@ -1317,7 +1317,7 @@
     },
     {
       "gameID": "GWBB2015-20141211-H-CLOVER",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 3,
@@ -1333,7 +1333,7 @@
     },
     {
       "gameID": "GWBB2015-20141211-H-CLOVER",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 1,
@@ -1349,7 +1349,7 @@
     },
     {
       "gameID": "GWBB2015-20141211-H-CLOVER",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 0,
@@ -1365,7 +1365,7 @@
     },
     {
       "gameID": "GWBB2015-20141211-H-CLOVER",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 3,
@@ -1381,7 +1381,7 @@
     },
     {
       "gameID": "GWBB2015-20141211-H-CLOVER",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 6,
@@ -1397,7 +1397,7 @@
     },
     {
       "gameID": "GWBB2015-20141211-H-CLOVER",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 2,
@@ -1413,7 +1413,7 @@
     },
     {
       "gameID": "GWBB2015-20141211-H-CLOVER",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 2,
@@ -1429,7 +1429,7 @@
     },
     {
       "gameID": "GWBB2015-20141211-H-CLOVER",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 2,
@@ -1445,7 +1445,7 @@
     },
     {
       "gameID": "GWBB2015-20141211-H-CLOVER",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 2,
@@ -1461,7 +1461,7 @@
     },
     {
       "gameID": "GWBB2015-20141211-H-CLOVER",
-      "playerID": "WILMAC2016",
+      "playerID": "p_0000000216",
       "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 2,
@@ -1477,7 +1477,7 @@
     },
     {
       "gameID": "GWBB2015-20141211-H-CLOVER",
-      "playerID": "KAIMIC2015",
+      "playerID": "p_0000000126",
       "jersey": 25,
       "playerName": "Micah Kaiser",
       "twoPM": 2,
@@ -1493,7 +1493,7 @@
     },
     {
       "gameID": "GWBB2015-20141211-H-CLOVER",
-      "playerID": "YATTRE2015",
+      "playerID": "p_0000000222",
       "jersey": 23,
       "playerName": "Trevor Yates",
       "twoPM": 1,
@@ -1509,7 +1509,7 @@
     },
     {
       "gameID": "GWBB2015-20141212-A-CAMPBE",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 0,
@@ -1525,7 +1525,7 @@
     },
     {
       "gameID": "GWBB2015-20141212-A-CAMPBE",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 2,
@@ -1541,7 +1541,7 @@
     },
     {
       "gameID": "GWBB2015-20141212-A-CAMPBE",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 3,
@@ -1557,7 +1557,7 @@
     },
     {
       "gameID": "GWBB2015-20141212-A-CAMPBE",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 2,
@@ -1573,7 +1573,7 @@
     },
     {
       "gameID": "GWBB2015-20141212-A-CAMPBE",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 3,
@@ -1589,7 +1589,7 @@
     },
     {
       "gameID": "GWBB2015-20141212-A-CAMPBE",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 0,
@@ -1605,7 +1605,7 @@
     },
     {
       "gameID": "GWBB2015-20141212-A-CAMPBE",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 0,
@@ -1621,7 +1621,7 @@
     },
     {
       "gameID": "GWBB2015-20141212-A-CAMPBE",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 1,
@@ -1637,7 +1637,7 @@
     },
     {
       "gameID": "GWBB2015-20141212-A-CAMPBE",
-      "playerID": "WILMAC2016",
+      "playerID": "p_0000000216",
       "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
@@ -1653,7 +1653,7 @@
     },
     {
       "gameID": "GWBB2015-20141212-A-CAMPBE",
-      "playerID": "YATTRE2015",
+      "playerID": "p_0000000222",
       "jersey": 23,
       "playerName": "Trevor Yates",
       "twoPM": 0,
@@ -1669,7 +1669,7 @@
     },
     {
       "gameID": "GWBB2015-20141212-A-CAMPBE",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 2,
@@ -1685,7 +1685,7 @@
     },
     {
       "gameID": "GWBB2015-20141216-H-BRECKI",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 1,
@@ -1701,7 +1701,7 @@
     },
     {
       "gameID": "GWBB2015-20141216-H-BRECKI",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 4,
@@ -1717,7 +1717,7 @@
     },
     {
       "gameID": "GWBB2015-20141216-H-BRECKI",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 2,
@@ -1733,7 +1733,7 @@
     },
     {
       "gameID": "GWBB2015-20141216-H-BRECKI",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 1,
@@ -1749,7 +1749,7 @@
     },
     {
       "gameID": "GWBB2015-20141216-H-BRECKI",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 2,
@@ -1765,7 +1765,7 @@
     },
     {
       "gameID": "GWBB2015-20141216-H-BRECKI",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 1,
@@ -1781,7 +1781,7 @@
     },
     {
       "gameID": "GWBB2015-20141216-H-BRECKI",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 0,
@@ -1797,7 +1797,7 @@
     },
     {
       "gameID": "GWBB2015-20141216-H-BRECKI",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 2,
@@ -1813,7 +1813,7 @@
     },
     {
       "gameID": "GWBB2015-20141216-H-BRECKI",
-      "playerID": "KAIMIC2015",
+      "playerID": "p_0000000126",
       "jersey": 25,
       "playerName": "Micah Kaiser",
       "twoPM": 0,
@@ -1829,7 +1829,7 @@
     },
     {
       "gameID": "GWBB2015-20141216-H-BRECKI",
-      "playerID": "YATTRE2015",
+      "playerID": "p_0000000222",
       "jersey": 23,
       "playerName": "Trevor Yates",
       "twoPM": 0,
@@ -1845,7 +1845,7 @@
     },
     {
       "gameID": "GWBB2015-20141216-H-BRECKI",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 0,
@@ -1861,7 +1861,7 @@
     },
     {
       "gameID": "GWBB2015-20141219-N-LETCHE",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 0,
@@ -1877,7 +1877,7 @@
     },
     {
       "gameID": "GWBB2015-20141219-N-LETCHE",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 1,
@@ -1893,7 +1893,7 @@
     },
     {
       "gameID": "GWBB2015-20141219-N-LETCHE",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 3,
@@ -1909,7 +1909,7 @@
     },
     {
       "gameID": "GWBB2015-20141219-N-LETCHE",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 1,
@@ -1925,7 +1925,7 @@
     },
     {
       "gameID": "GWBB2015-20141219-N-LETCHE",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 1,
@@ -1941,7 +1941,7 @@
     },
     {
       "gameID": "GWBB2015-20141219-N-LETCHE",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 0,
@@ -1957,7 +1957,7 @@
     },
     {
       "gameID": "GWBB2015-20141219-N-LETCHE",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 1,
@@ -1973,7 +1973,7 @@
     },
     {
       "gameID": "GWBB2015-20141219-N-LETCHE",
-      "playerID": "WILMAC2016",
+      "playerID": "p_0000000216",
       "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
@@ -1989,7 +1989,7 @@
     },
     {
       "gameID": "GWBB2015-20141219-N-LETCHE",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 3,
@@ -2005,7 +2005,7 @@
     },
     {
       "gameID": "GWBB2015-20141219-N-LETCHE",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 2,
@@ -2021,7 +2021,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-N-REDBIR",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 4,
@@ -2037,7 +2037,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-N-REDBIR",
-      "playerID": "BEAJAK2016",
+      "playerID": "p_0000000039",
       "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 1,
@@ -2053,7 +2053,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-N-REDBIR",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 2,
@@ -2069,7 +2069,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-N-REDBIR",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 3,
@@ -2085,7 +2085,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-N-REDBIR",
-      "playerID": "YATTRE2015",
+      "playerID": "p_0000000222",
       "jersey": 23,
       "playerName": "Trevor Yates",
       "twoPM": 0,
@@ -2101,7 +2101,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-N-REDBIR",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 1,
@@ -2117,7 +2117,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-N-REDBIR",
-      "playerID": "WILMAC2016",
+      "playerID": "p_0000000216",
       "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 4,
@@ -2133,7 +2133,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-N-REDBIR",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 1,
@@ -2149,7 +2149,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-N-REDBIR",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 3,
@@ -2165,7 +2165,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-N-REDBIR",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 0,
@@ -2181,7 +2181,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-N-REDBIR",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 0,
@@ -2197,7 +2197,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-N-REDBIR",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 1,
@@ -2213,7 +2213,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-N-REDBIR",
-      "playerID": "KAIMIC2015",
+      "playerID": "p_0000000126",
       "jersey": 25,
       "playerName": "Micah Kaiser",
       "twoPM": 0,
@@ -2229,7 +2229,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-A-LESLIE",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 3,
@@ -2245,7 +2245,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-A-LESLIE",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 4,
@@ -2261,7 +2261,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-A-LESLIE",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 6,
@@ -2277,7 +2277,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-A-LESLIE",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 3,
@@ -2293,7 +2293,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-A-LESLIE",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 1,
@@ -2309,7 +2309,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-A-LESLIE",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 1,
@@ -2325,7 +2325,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-A-LESLIE",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 1,
@@ -2341,7 +2341,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-A-LESLIE",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 1,
@@ -2357,7 +2357,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-A-LESLIE",
-      "playerID": "WILMAC2016",
+      "playerID": "p_0000000216",
       "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
@@ -2373,7 +2373,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-A-LESLIE",
-      "playerID": "YATTRE2015",
+      "playerID": "p_0000000222",
       "jersey": 23,
       "playerName": "Trevor Yates",
       "twoPM": 0,
@@ -2389,7 +2389,7 @@
     },
     {
       "gameID": "GWBB2015-20141220-A-LESLIE",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 0,
@@ -2405,7 +2405,7 @@
     },
     {
       "gameID": "GWBB2015-20150106-A-BULCEN",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 2,
@@ -2421,7 +2421,7 @@
     },
     {
       "gameID": "GWBB2015-20150106-A-BULCEN",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 1,
@@ -2437,7 +2437,7 @@
     },
     {
       "gameID": "GWBB2015-20150106-A-BULCEN",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 0,
@@ -2453,7 +2453,7 @@
     },
     {
       "gameID": "GWBB2015-20150106-A-BULCEN",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 1,
@@ -2469,7 +2469,7 @@
     },
     {
       "gameID": "GWBB2015-20150106-A-BULCEN",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 0,
@@ -2485,7 +2485,7 @@
     },
     {
       "gameID": "GWBB2015-20150106-A-BULCEN",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 1,
@@ -2501,7 +2501,7 @@
     },
     {
       "gameID": "GWBB2015-20150106-A-BULCEN",
-      "playerID": "WILMAC2016",
+      "playerID": "p_0000000216",
       "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
@@ -2517,7 +2517,7 @@
     },
     {
       "gameID": "GWBB2015-20150106-A-BULCEN",
-      "playerID": "YATTRE2015",
+      "playerID": "p_0000000222",
       "jersey": 23,
       "playerName": "Trevor Yates",
       "twoPM": 0,
@@ -2533,7 +2533,7 @@
     },
     {
       "gameID": "GWBB2015-20150106-A-BULCEN",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 2,
@@ -2549,7 +2549,7 @@
     },
     {
       "gameID": "GWBB2015-20150106-A-BULCEN",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 3,
@@ -2565,7 +2565,7 @@
     },
     {
       "gameID": "GWBB2015-20150109-H-JOHNHA",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 2,
@@ -2581,7 +2581,7 @@
     },
     {
       "gameID": "GWBB2015-20150109-H-JOHNHA",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 1,
@@ -2597,7 +2597,7 @@
     },
     {
       "gameID": "GWBB2015-20150109-H-JOHNHA",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 3,
@@ -2613,7 +2613,7 @@
     },
     {
       "gameID": "GWBB2015-20150109-H-JOHNHA",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 0,
@@ -2629,7 +2629,7 @@
     },
     {
       "gameID": "GWBB2015-20150109-H-JOHNHA",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 0,
@@ -2645,7 +2645,7 @@
     },
     {
       "gameID": "GWBB2015-20150109-H-JOHNHA",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 0,
@@ -2661,7 +2661,7 @@
     },
     {
       "gameID": "GWBB2015-20150109-H-JOHNHA",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 0,
@@ -2677,7 +2677,7 @@
     },
     {
       "gameID": "GWBB2015-20150109-H-JOHNHA",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 6,
@@ -2693,7 +2693,7 @@
     },
     {
       "gameID": "GWBB2015-20150109-H-JOHNHA",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 3,
@@ -2709,7 +2709,7 @@
     },
     {
       "gameID": "GWBB2015-20150113-A-HANCOC",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 2,
@@ -2725,7 +2725,7 @@
     },
     {
       "gameID": "GWBB2015-20150113-A-HANCOC",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 1,
@@ -2741,7 +2741,7 @@
     },
     {
       "gameID": "GWBB2015-20150113-A-HANCOC",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 3,
@@ -2757,7 +2757,7 @@
     },
     {
       "gameID": "GWBB2015-20150113-A-HANCOC",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 2,
@@ -2773,7 +2773,7 @@
     },
     {
       "gameID": "GWBB2015-20150113-A-HANCOC",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 0,
@@ -2789,7 +2789,7 @@
     },
     {
       "gameID": "GWBB2015-20150113-A-HANCOC",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 1,
@@ -2805,7 +2805,7 @@
     },
     {
       "gameID": "GWBB2015-20150113-A-HANCOC",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 1,
@@ -2821,7 +2821,7 @@
     },
     {
       "gameID": "GWBB2015-20150113-A-HANCOC",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 3,
@@ -2837,7 +2837,7 @@
     },
     {
       "gameID": "GWBB2015-20150113-A-HANCOC",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 1,
@@ -2853,7 +2853,7 @@
     },
     {
       "gameID": "GWBB2015-20150116-H-ELIZAB",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 1,
@@ -2869,7 +2869,7 @@
     },
     {
       "gameID": "GWBB2015-20150116-H-ELIZAB",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 1,
@@ -2885,7 +2885,7 @@
     },
     {
       "gameID": "GWBB2015-20150116-H-ELIZAB",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 4,
@@ -2901,7 +2901,7 @@
     },
     {
       "gameID": "GWBB2015-20150116-H-ELIZAB",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 0,
@@ -2917,7 +2917,7 @@
     },
     {
       "gameID": "GWBB2015-20150116-H-ELIZAB",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 0,
@@ -2933,7 +2933,7 @@
     },
     {
       "gameID": "GWBB2015-20150116-H-ELIZAB",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 1,
@@ -2949,7 +2949,7 @@
     },
     {
       "gameID": "GWBB2015-20150116-H-ELIZAB",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 0,
@@ -2965,7 +2965,7 @@
     },
     {
       "gameID": "GWBB2015-20150116-H-ELIZAB",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 5,
@@ -2981,7 +2981,7 @@
     },
     {
       "gameID": "GWBB2015-20150116-H-ELIZAB",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 0,
@@ -2997,7 +2997,7 @@
     },
     {
       "gameID": "GWBB2015-20150119-H-MUHLCO",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 4,
@@ -3013,7 +3013,7 @@
     },
     {
       "gameID": "GWBB2015-20150119-H-MUHLCO",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 8,
@@ -3029,7 +3029,7 @@
     },
     {
       "gameID": "GWBB2015-20150119-H-MUHLCO",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 1,
@@ -3045,7 +3045,7 @@
     },
     {
       "gameID": "GWBB2015-20150119-H-MUHLCO",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 0,
@@ -3061,7 +3061,7 @@
     },
     {
       "gameID": "GWBB2015-20150119-H-MUHLCO",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 0,
@@ -3077,7 +3077,7 @@
     },
     {
       "gameID": "GWBB2015-20150119-H-MUHLCO",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 0,
@@ -3093,7 +3093,7 @@
     },
     {
       "gameID": "GWBB2015-20150119-H-MUHLCO",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 0,
@@ -3109,7 +3109,7 @@
     },
     {
       "gameID": "GWBB2015-20150119-H-MUHLCO",
-      "playerID": "WILMAC2016",
+      "playerID": "p_0000000216",
       "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
@@ -3125,7 +3125,7 @@
     },
     {
       "gameID": "GWBB2015-20150119-H-MUHLCO",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 3,
@@ -3141,7 +3141,7 @@
     },
     {
       "gameID": "GWBB2015-20150119-H-MUHLCO",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 2,
@@ -3157,7 +3157,7 @@
     },
     {
       "gameID": "GWBB2015-20150120-A-NORTHH",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 4,
@@ -3173,7 +3173,7 @@
     },
     {
       "gameID": "GWBB2015-20150120-A-NORTHH",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 2,
@@ -3189,7 +3189,7 @@
     },
     {
       "gameID": "GWBB2015-20150120-A-NORTHH",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 3,
@@ -3205,7 +3205,7 @@
     },
     {
       "gameID": "GWBB2015-20150120-A-NORTHH",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 1,
@@ -3221,7 +3221,7 @@
     },
     {
       "gameID": "GWBB2015-20150120-A-NORTHH",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 2,
@@ -3237,7 +3237,7 @@
     },
     {
       "gameID": "GWBB2015-20150120-A-NORTHH",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 0,
@@ -3253,7 +3253,7 @@
     },
     {
       "gameID": "GWBB2015-20150120-A-NORTHH",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 0,
@@ -3269,7 +3269,7 @@
     },
     {
       "gameID": "GWBB2015-20150120-A-NORTHH",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 0,
@@ -3285,7 +3285,7 @@
     },
     {
       "gameID": "GWBB2015-20150120-A-NORTHH",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 2,
@@ -3301,7 +3301,7 @@
     },
     {
       "gameID": "GWBB2015-20150124-H-NORTHO",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 5,
@@ -3317,7 +3317,7 @@
     },
     {
       "gameID": "GWBB2015-20150124-H-NORTHO",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 4,
@@ -3333,7 +3333,7 @@
     },
     {
       "gameID": "GWBB2015-20150124-H-NORTHO",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 5,
@@ -3349,7 +3349,7 @@
     },
     {
       "gameID": "GWBB2015-20150124-H-NORTHO",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 0,
@@ -3365,7 +3365,7 @@
     },
     {
       "gameID": "GWBB2015-20150124-H-NORTHO",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 0,
@@ -3381,7 +3381,7 @@
     },
     {
       "gameID": "GWBB2015-20150124-H-NORTHO",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 0,
@@ -3397,7 +3397,7 @@
     },
     {
       "gameID": "GWBB2015-20150124-H-NORTHO",
-      "playerID": "WILMAC2016",
+      "playerID": "p_0000000216",
       "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
@@ -3413,7 +3413,7 @@
     },
     {
       "gameID": "GWBB2015-20150124-H-NORTHO",
-      "playerID": "YATTRE2015",
+      "playerID": "p_0000000222",
       "jersey": 23,
       "playerName": "Trevor Yates",
       "twoPM": 0,
@@ -3429,7 +3429,7 @@
     },
     {
       "gameID": "GWBB2015-20150124-H-NORTHO",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 1,
@@ -3445,7 +3445,7 @@
     },
     {
       "gameID": "GWBB2015-20150124-H-NORTHO",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 6,
@@ -3461,7 +3461,7 @@
     },
     {
       "gameID": "GWBB2015-20150130-A-BRECKI",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 2,
@@ -3477,7 +3477,7 @@
     },
     {
       "gameID": "GWBB2015-20150130-A-BRECKI",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 3,
@@ -3493,7 +3493,7 @@
     },
     {
       "gameID": "GWBB2015-20150130-A-BRECKI",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 2,
@@ -3509,7 +3509,7 @@
     },
     {
       "gameID": "GWBB2015-20150130-A-BRECKI",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 0,
@@ -3525,7 +3525,7 @@
     },
     {
       "gameID": "GWBB2015-20150130-A-BRECKI",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 0,
@@ -3541,7 +3541,7 @@
     },
     {
       "gameID": "GWBB2015-20150130-A-BRECKI",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 0,
@@ -3557,7 +3557,7 @@
     },
     {
       "gameID": "GWBB2015-20150130-A-BRECKI",
-      "playerID": "WILMAC2016",
+      "playerID": "p_0000000216",
       "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
@@ -3573,7 +3573,7 @@
     },
     {
       "gameID": "GWBB2015-20150130-A-BRECKI",
-      "playerID": "YATTRE2015",
+      "playerID": "p_0000000222",
       "jersey": 23,
       "playerName": "Trevor Yates",
       "twoPM": 0,
@@ -3589,7 +3589,7 @@
     },
     {
       "gameID": "GWBB2015-20150130-A-BRECKI",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 2,
@@ -3605,7 +3605,7 @@
     },
     {
       "gameID": "GWBB2015-20150130-A-BRECKI",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 3,
@@ -3621,7 +3621,7 @@
     },
     {
       "gameID": "GWBB2015-20150131-N-BARDST",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 1,
@@ -3637,7 +3637,7 @@
     },
     {
       "gameID": "GWBB2015-20150131-N-BARDST",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 5,
@@ -3653,7 +3653,7 @@
     },
     {
       "gameID": "GWBB2015-20150131-N-BARDST",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 0,
@@ -3669,7 +3669,7 @@
     },
     {
       "gameID": "GWBB2015-20150131-N-BARDST",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 0,
@@ -3685,7 +3685,7 @@
     },
     {
       "gameID": "GWBB2015-20150131-N-BARDST",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 0,
@@ -3701,7 +3701,7 @@
     },
     {
       "gameID": "GWBB2015-20150131-N-BARDST",
-      "playerID": "WILMAC2016",
+      "playerID": "p_0000000216",
       "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 1,
@@ -3717,7 +3717,7 @@
     },
     {
       "gameID": "GWBB2015-20150131-N-BARDST",
-      "playerID": "KAIMIC2015",
+      "playerID": "p_0000000126",
       "jersey": 25,
       "playerName": "Micah Kaiser",
       "twoPM": 0,
@@ -3733,7 +3733,7 @@
     },
     {
       "gameID": "GWBB2015-20150131-N-BARDST",
-      "playerID": "YATTRE2015",
+      "playerID": "p_0000000222",
       "jersey": 23,
       "playerName": "Trevor Yates",
       "twoPM": 0,
@@ -3749,7 +3749,7 @@
     },
     {
       "gameID": "GWBB2015-20150131-N-BARDST",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 4,
@@ -3765,7 +3765,7 @@
     },
     {
       "gameID": "GWBB2015-20150131-N-BARDST",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 2,
@@ -3781,7 +3781,7 @@
     },
     {
       "gameID": "GWBB2015-20150206-A-CLOVER",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 0,
@@ -3797,7 +3797,7 @@
     },
     {
       "gameID": "GWBB2015-20150206-A-CLOVER",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 9,
@@ -3813,7 +3813,7 @@
     },
     {
       "gameID": "GWBB2015-20150206-A-CLOVER",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 5,
@@ -3829,7 +3829,7 @@
     },
     {
       "gameID": "GWBB2015-20150206-A-CLOVER",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 2,
@@ -3845,7 +3845,7 @@
     },
     {
       "gameID": "GWBB2015-20150206-A-CLOVER",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 2,
@@ -3861,7 +3861,7 @@
     },
     {
       "gameID": "GWBB2015-20150206-A-CLOVER",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 0,
@@ -3877,7 +3877,7 @@
     },
     {
       "gameID": "GWBB2015-20150206-A-CLOVER",
-      "playerID": "KAIMIC2015",
+      "playerID": "p_0000000126",
       "jersey": 25,
       "playerName": "Micah Kaiser",
       "twoPM": 0,
@@ -3893,7 +3893,7 @@
     },
     {
       "gameID": "GWBB2015-20150206-A-CLOVER",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 0,
@@ -3909,7 +3909,7 @@
     },
     {
       "gameID": "GWBB2015-20150206-A-CLOVER",
-      "playerID": "WILMAC2016",
+      "playerID": "p_0000000216",
       "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
@@ -3925,7 +3925,7 @@
     },
     {
       "gameID": "GWBB2015-20150206-A-CLOVER",
-      "playerID": "YATTRE2015",
+      "playerID": "p_0000000222",
       "jersey": 23,
       "playerName": "Trevor Yates",
       "twoPM": 0,
@@ -3941,7 +3941,7 @@
     },
     {
       "gameID": "GWBB2015-20150206-A-CLOVER",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 2,
@@ -3957,7 +3957,7 @@
     },
     {
       "gameID": "GWBB2015-20150207-H-DAVIES",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 1,
@@ -3973,7 +3973,7 @@
     },
     {
       "gameID": "GWBB2015-20150207-H-DAVIES",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 6,
@@ -3989,7 +3989,7 @@
     },
     {
       "gameID": "GWBB2015-20150207-H-DAVIES",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 0,
@@ -4005,7 +4005,7 @@
     },
     {
       "gameID": "GWBB2015-20150207-H-DAVIES",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 0,
@@ -4021,7 +4021,7 @@
     },
     {
       "gameID": "GWBB2015-20150207-H-DAVIES",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 0,
@@ -4037,7 +4037,7 @@
     },
     {
       "gameID": "GWBB2015-20150207-H-DAVIES",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 10,
@@ -4053,7 +4053,7 @@
     },
     {
       "gameID": "GWBB2015-20150207-H-DAVIES",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 1,
@@ -4069,7 +4069,7 @@
     },
     {
       "gameID": "GWBB2015-20150210-A-GRAYSO",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 2,
@@ -4085,7 +4085,7 @@
     },
     {
       "gameID": "GWBB2015-20150210-A-GRAYSO",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 6,
@@ -4101,7 +4101,7 @@
     },
     {
       "gameID": "GWBB2015-20150210-A-GRAYSO",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 2,
@@ -4117,7 +4117,7 @@
     },
     {
       "gameID": "GWBB2015-20150210-A-GRAYSO",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 0,
@@ -4133,7 +4133,7 @@
     },
     {
       "gameID": "GWBB2015-20150210-A-GRAYSO",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 1,
@@ -4149,7 +4149,7 @@
     },
     {
       "gameID": "GWBB2015-20150210-A-GRAYSO",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 1,
@@ -4165,7 +4165,7 @@
     },
     {
       "gameID": "GWBB2015-20150210-A-GRAYSO",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 6,
@@ -4181,7 +4181,7 @@
     },
     {
       "gameID": "GWBB2015-20150210-A-GRAYSO",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 3,
@@ -4197,7 +4197,7 @@
     },
     {
       "gameID": "GWBB2015-20150212-A-JOHNHA",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 1,
@@ -4213,7 +4213,7 @@
     },
     {
       "gameID": "GWBB2015-20150212-A-JOHNHA",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 7,
@@ -4229,7 +4229,7 @@
     },
     {
       "gameID": "GWBB2015-20150212-A-JOHNHA",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 5,
@@ -4245,7 +4245,7 @@
     },
     {
       "gameID": "GWBB2015-20150212-A-JOHNHA",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 0,
@@ -4261,7 +4261,7 @@
     },
     {
       "gameID": "GWBB2015-20150212-A-JOHNHA",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 0,
@@ -4277,7 +4277,7 @@
     },
     {
       "gameID": "GWBB2015-20150212-A-JOHNHA",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 2,
@@ -4293,7 +4293,7 @@
     },
     {
       "gameID": "GWBB2015-20150212-A-JOHNHA",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 0,
@@ -4309,7 +4309,7 @@
     },
     {
       "gameID": "GWBB2015-20150212-A-JOHNHA",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 1,
@@ -4325,7 +4325,7 @@
     },
     {
       "gameID": "GWBB2015-20150212-A-JOHNHA",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 0,
@@ -4341,7 +4341,7 @@
     },
     {
       "gameID": "GWBB2015-20150212-A-JOHNHA",
-      "playerID": "WILMAC2016",
+      "playerID": "p_0000000216",
       "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 1,
@@ -4357,7 +4357,7 @@
     },
     {
       "gameID": "GWBB2015-20150212-A-JOHNHA",
-      "playerID": "YATTRE2015",
+      "playerID": "p_0000000222",
       "jersey": 23,
       "playerName": "Trevor Yates",
       "twoPM": 1,
@@ -4373,7 +4373,7 @@
     },
     {
       "gameID": "GWBB2015-20150212-A-JOHNHA",
-      "playerID": "KAIMIC2015",
+      "playerID": "p_0000000126",
       "jersey": 25,
       "playerName": "Micah Kaiser",
       "twoPM": 0,
@@ -4389,7 +4389,7 @@
     },
     {
       "gameID": "GWBB2015-20150224-N-HANCOC",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 4,
@@ -4405,7 +4405,7 @@
     },
     {
       "gameID": "GWBB2015-20150224-N-HANCOC",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 1,
@@ -4421,7 +4421,7 @@
     },
     {
       "gameID": "GWBB2015-20150224-N-HANCOC",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 3,
@@ -4437,7 +4437,7 @@
     },
     {
       "gameID": "GWBB2015-20150224-N-HANCOC",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 0,
@@ -4453,7 +4453,7 @@
     },
     {
       "gameID": "GWBB2015-20150224-N-HANCOC",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 0,
@@ -4469,7 +4469,7 @@
     },
     {
       "gameID": "GWBB2015-20150224-N-HANCOC",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 1,
@@ -4485,7 +4485,7 @@
     },
     {
       "gameID": "GWBB2015-20150224-N-HANCOC",
-      "playerID": "YATTRE2015",
+      "playerID": "p_0000000222",
       "jersey": 23,
       "playerName": "Trevor Yates",
       "twoPM": 0,
@@ -4501,7 +4501,7 @@
     },
     {
       "gameID": "GWBB2015-20150224-N-HANCOC",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 1,
@@ -4517,7 +4517,7 @@
     },
     {
       "gameID": "GWBB2015-20150224-N-HANCOC",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 0,
@@ -4533,7 +4533,7 @@
     },
     {
       "gameID": "GWBB2015-20150227-N-BRECKI",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 1,
@@ -4549,7 +4549,7 @@
     },
     {
       "gameID": "GWBB2015-20150227-N-BRECKI",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 5,
@@ -4565,7 +4565,7 @@
     },
     {
       "gameID": "GWBB2015-20150227-N-BRECKI",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 2,
@@ -4581,7 +4581,7 @@
     },
     {
       "gameID": "GWBB2015-20150227-N-BRECKI",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 1,
@@ -4597,7 +4597,7 @@
     },
     {
       "gameID": "GWBB2015-20150227-N-BRECKI",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 0,
@@ -4613,7 +4613,7 @@
     },
     {
       "gameID": "GWBB2015-20150227-N-BRECKI",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 0,
@@ -4629,7 +4629,7 @@
     },
     {
       "gameID": "GWBB2015-20150227-N-BRECKI",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 6,
@@ -4645,7 +4645,7 @@
     },
     {
       "gameID": "GWBB2015-20150227-N-BRECKI",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 1,
@@ -4661,7 +4661,7 @@
     },
     {
       "gameID": "GWBB2015-20150307-N-MCLEAN",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 4,
@@ -4677,7 +4677,7 @@
     },
     {
       "gameID": "GWBB2015-20150307-N-MCLEAN",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 4,
@@ -4693,7 +4693,7 @@
     },
     {
       "gameID": "GWBB2015-20150307-N-MCLEAN",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 3,
@@ -4709,7 +4709,7 @@
     },
     {
       "gameID": "GWBB2015-20150307-N-MCLEAN",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 3,
@@ -4725,7 +4725,7 @@
     },
     {
       "gameID": "GWBB2015-20150307-N-MCLEAN",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 0,
@@ -4741,7 +4741,7 @@
     },
     {
       "gameID": "GWBB2015-20150307-N-MCLEAN",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 0,
@@ -4757,7 +4757,7 @@
     },
     {
       "gameID": "GWBB2015-20150307-N-MCLEAN",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 1,
@@ -4773,7 +4773,7 @@
     },
     {
       "gameID": "GWBB2015-20150307-N-MCLEAN",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 0,
@@ -4789,7 +4789,7 @@
     },
     {
       "gameID": "GWBB2015-20150307-N-MCLEAN",
-      "playerID": "WILMAC2016",
+      "playerID": "p_0000000216",
       "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
@@ -4805,7 +4805,7 @@
     },
     {
       "gameID": "GWBB2015-20150307-N-MCLEAN",
-      "playerID": "YATTRE2015",
+      "playerID": "p_0000000222",
       "jersey": 23,
       "playerName": "Trevor Yates",
       "twoPM": 0,
@@ -4821,7 +4821,7 @@
     },
     {
       "gameID": "GWBB2015-20150307-N-MCLEAN",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 0,
@@ -4837,7 +4837,7 @@
     },
     {
       "gameID": "GWBB2015-20150309-N-APOLLO",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 2,
@@ -4853,7 +4853,7 @@
     },
     {
       "gameID": "GWBB2015-20150309-N-APOLLO",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 1,
@@ -4869,7 +4869,7 @@
     },
     {
       "gameID": "GWBB2015-20150309-N-APOLLO",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 1,
@@ -4885,7 +4885,7 @@
     },
     {
       "gameID": "GWBB2015-20150309-N-APOLLO",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 1,
@@ -4901,7 +4901,7 @@
     },
     {
       "gameID": "GWBB2015-20150309-N-APOLLO",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 0,
@@ -4917,7 +4917,7 @@
     },
     {
       "gameID": "GWBB2015-20150309-N-APOLLO",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 2,
@@ -4933,7 +4933,7 @@
     },
     {
       "gameID": "GWBB2015-20150309-N-APOLLO",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 0,
@@ -4949,7 +4949,7 @@
     },
     {
       "gameID": "GWBB2015-20150310-N-OWENSB",
-      "playerID": "BEAJAK2016",
+      "playerID": "p_0000000039",
       "jersey": 2,
       "playerName": "Jake Beavin",
       "twoPM": 0,
@@ -4965,7 +4965,7 @@
     },
     {
       "gameID": "GWBB2015-20150310-N-OWENSB",
-      "playerID": "DURJOS2016",
+      "playerID": "p_0000000082",
       "jersey": 34,
       "playerName": "Josh Durbin",
       "twoPM": 4,
@@ -4981,7 +4981,7 @@
     },
     {
       "gameID": "GWBB2015-20150310-N-OWENSB",
-      "playerID": "MATKAS2016",
+      "playerID": "p_0000000148",
       "jersey": 5,
       "playerName": "Kase Mattingly",
       "twoPM": 3,
@@ -4997,7 +4997,7 @@
     },
     {
       "gameID": "GWBB2015-20150310-N-OWENSB",
-      "playerID": "STECOR2015",
+      "playerID": "p_0000000191",
       "jersey": 14,
       "playerName": "Corey Stegner",
       "twoPM": 1,
@@ -5013,7 +5013,7 @@
     },
     {
       "gameID": "GWBB2015-20150310-N-OWENSB",
-      "playerID": "BEWJAC2016",
+      "playerID": "p_0000000042",
       "jersey": 10,
       "playerName": "Jacob Bewley",
       "twoPM": 3,
@@ -5029,7 +5029,7 @@
     },
     {
       "gameID": "GWBB2015-20150310-N-OWENSB",
-      "playerID": "KINWIL2015",
+      "playerID": "p_0000000131",
       "jersey": 11,
       "playerName": "Will King",
       "twoPM": 1,
@@ -5045,7 +5045,7 @@
     },
     {
       "gameID": "GWBB2015-20150310-N-OWENSB",
-      "playerID": "MILJOH2015",
+      "playerID": "p_0000000155",
       "jersey": 12,
       "playerName": "John Miller",
       "twoPM": 0,
@@ -5061,7 +5061,7 @@
     },
     {
       "gameID": "GWBB2015-20150310-N-OWENSB",
-      "playerID": "HACCAL2017",
+      "playerID": "p_0000000106",
       "jersey": 21,
       "playerName": "Calvin Hackert",
       "twoPM": 1,
@@ -5077,7 +5077,7 @@
     },
     {
       "gameID": "GWBB2015-20150310-N-OWENSB",
-      "playerID": "WILDAR2015",
+      "playerID": "p_0000000211",
       "jersey": 13,
       "playerName": "Darion Williams",
       "twoPM": 0,
@@ -5093,7 +5093,7 @@
     },
     {
       "gameID": "GWBB2015-20150310-N-OWENSB",
-      "playerID": "WILJOH2015",
+      "playerID": "p_0000000213",
       "jersey": 42,
       "playerName": "John Wilson",
       "twoPM": 3,
@@ -5109,7 +5109,7 @@
     },
     {
       "gameID": "GWBB2015-20150310-N-OWENSB",
-      "playerID": "WILMAC2016",
+      "playerID": "p_0000000216",
       "jersey": 15,
       "playerName": "Mack Wilson",
       "twoPM": 0,
@@ -5125,7 +5125,7 @@
     },
     {
       "gameID": "GWBB2015-20150310-N-OWENSB",
-      "playerID": "YATTRE2015",
+      "playerID": "p_0000000222",
       "jersey": 23,
       "playerName": "Trevor Yates",
       "twoPM": 0,

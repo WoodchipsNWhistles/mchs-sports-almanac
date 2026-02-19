@@ -1,0 +1,106 @@
+{
+  "playerID": "p_0000000127",
+  "playerIDBase": "p_0000000127",
+  "playerIDSuffix": 1,
+  "jersey": 24,
+  "first": "Logan",
+  "last": "Kasey",
+  "name": "Logan Kasey",
+  "pos": "SG",
+  "grade": "So.",
+  "gradeFull": "Sophomore",
+  "gradYear": 2027,
+  "participation": [
+    {
+      "sportCode": "GWBB",
+      "seasonYearEnd": 2025,
+      "level": "V",
+      "role": "athlete"
+    }
+  ],
+  "seasons": [
+    {
+      "sportCode": "GWBB",
+      "seasonYearEnd": 2025,
+      "level": "V",
+      "gamesPlayed": 4,
+      "totals": {
+        "games": 4,
+        "pts": 13,
+        "reb": 7,
+        "twoPM": 5,
+        "twoPA": 9,
+        "threePM": 1,
+        "threePA": 3,
+        "ftM": 0,
+        "ftA": 1
+      },
+      "gameStats": [
+        {
+          "gameID": "GWBB2025-20241210-H-CLOVER",
+          "playerID": "p_0000000127",
+          "jersey": 24,
+          "playerName": "Logan Kasey",
+          "twoPM": 1,
+          "twoPA": 3,
+          "threePM": 0,
+          "threePA": 1,
+          "ftM": 0,
+          "ftA": 0,
+          "pts": 2,
+          "reb": 4,
+          "tenPlus": false,
+          "doubleDouble": false
+        },
+        {
+          "gameID": "GWBB2025-20250114-H-TRINIT",
+          "playerID": "p_0000000127",
+          "jersey": 24,
+          "playerName": "Logan Kasey",
+          "twoPM": 0,
+          "twoPA": 1,
+          "threePM": 0,
+          "threePA": 0,
+          "ftM": 0,
+          "ftA": 0,
+          "pts": 0,
+          "reb": 1,
+          "tenPlus": false,
+          "doubleDouble": false
+        },
+        {
+          "gameID": "GWBB2025-20250206-A-CLOVER",
+          "playerID": "p_0000000127",
+          "jersey": 24,
+          "playerName": "Logan Kasey",
+          "twoPM": 4,
+          "twoPA": 4,
+          "threePM": 1,
+          "threePA": 2,
+          "ftM": 0,
+          "ftA": 1,
+          "pts": 11,
+          "reb": 2,
+          "tenPlus": true,
+          "doubleDouble": false
+        },
+        {
+          "gameID": "GWBB2025-20250221-H-CAMPBE",
+          "playerID": "p_0000000127",
+          "jersey": 24,
+          "playerName": "Logan Kasey",
+          "twoPM": 0,
+          "twoPA": 1,
+          "threePM": 0,
+          "threePA": 0,
+          "ftM": 0,
+          "ftA": 0,
+          "pts": 0,
+          "reb": 0,
+          "tenPlus": false,
+          "doubleDouble": false
+        }
+      ]
+    }
+  ]
+}
