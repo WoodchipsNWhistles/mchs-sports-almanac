@@ -1,0 +1,5 @@
+{
+  "nextSeq": 26,
+  "reservedMax": 25,
+  "notes": "p_0000000001–p_0000000025 reserved for historical coaches; personID is global across roles."
+}

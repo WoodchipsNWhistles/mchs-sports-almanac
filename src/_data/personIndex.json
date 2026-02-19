@@ -1,0 +1,2554 @@
+{
+  "meta": {
+    "schema": 1,
+    "updated": "2026-02-19",
+    "notes": "Global person index. p_0000000001–p_0000000025 reserved/seeded for coaches.",
+    "nextPid": 227
+  },
+  "people": {
+    "p_0000000001": {
+      "first": "Travis",
+      "last": "Hackert",
+      "display": "Travis Hackert",
+      "sort": "Hackert, Travis",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "GWBB Head Coach 2025-",
+        "GWBB Assistant Coach 2024-25"
+      ],
+      "aliases": []
+    },
+    "p_0000000002": {
+      "first": "Jason",
+      "last": "Tripure",
+      "display": "Jason Tripure",
+      "sort": "Tripure, Jason",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "GWBB Head Coach 2014-2025",
+        "LWBB Head Coach 2025-"
+      ],
+      "aliases": []
+    },
+    "p_0000000003": {
+      "first": "Josh",
+      "last": "Henderson",
+      "display": "Josh Henderson",
+      "sort": "Henderson, Josh",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "GWBB Head Coach 2013-14"
+      ],
+      "aliases": []
+    },
+    "p_0000000004": {
+      "first": "Jerry",
+      "last": "Garris",
+      "display": "Jerry Garris",
+      "sort": "Garris, Jerry",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "GWBB Head Coach 2002-13"
+      ],
+      "aliases": []
+    },
+    "p_0000000005": {
+      "first": "Garry",
+      "last": "Goode",
+      "display": "Garry Goode",
+      "sort": "Goode, Garry",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "GWBB Head Coach 1997-2002"
+      ],
+      "aliases": []
+    },
+    "p_0000000006": {
+      "first": "Michael",
+      "last": "Schwartz",
+      "display": "Michael Schwartz",
+      "sort": "Schwartz, Michael",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "LWBB Head Coach 1998-2004"
+      ],
+      "aliases": []
+    },
+    "p_0000000007": {
+      "first": "Josh",
+      "last": "Hurt",
+      "display": "Josh Hurt",
+      "sort": "Hurt, Josh",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "LWBB Head Coach 2004-14"
+      ],
+      "aliases": []
+    },
+    "p_0000000008": {
+      "first": "Whitney",
+      "last": "Hooper",
+      "display": "Whitney Hooper",
+      "sort": "Hooper, Whitney",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "LWBB Head Coach 2014-16"
+      ],
+      "aliases": []
+    },
+    "p_0000000009": {
+      "first": "Dina",
+      "last": "Hackert",
+      "display": "Dina Hackert",
+      "sort": "Hackert, Dina",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "LWBB Head Coach 2016-25"
+      ],
+      "aliases": []
+    },
+    "p_0000000010": {
+      "first": "Bobby",
+      "last": "Pollock",
+      "display": "Bobby Pollock",
+      "sort": "Pollock, Bobby",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "LWBB Head Coach 1978-1997"
+      ],
+      "aliases": []
+    },
+    "p_0000000011": {
+      "first": "Troy",
+      "last": "Jobe",
+      "display": "Troy Jobe",
+      "sort": "Jobe, Troy",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "GWSW Head Coach"
+      ],
+      "aliases": []
+    },
+    "p_0000000012": {
+      "first": null,
+      "last": "Palmer",
+      "display": "Palmer",
+      "sort": "Palmer",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "LWVB Coach 2000"
+      ],
+      "aliases": []
+    },
+    "p_0000000013": {
+      "first": "Krista",
+      "last": "Sipes",
+      "display": "Krista Sipes",
+      "sort": "Sipes, Krista",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "LWVB Coach 2002"
+      ],
+      "aliases": []
+    },
+    "p_0000000014": {
+      "first": "Mickie",
+      "last": "McManamon",
+      "display": "Mickie McManamon",
+      "sort": "McManamon, Mickie",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "LWVB Coach 2003-2004"
+      ],
+      "aliases": []
+    },
+    "p_0000000015": {
+      "first": "Chad",
+      "last": "Butler",
+      "display": "Chad Butler",
+      "sort": "Butler, Chad",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "LWVB Coach 2005-2006"
+      ],
+      "aliases": []
+    },
+    "p_0000000016": {
+      "first": "Amber",
+      "last": "English",
+      "display": "Amber English",
+      "sort": "English, Amber",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "LWVB Coach 2007"
+      ],
+      "aliases": []
+    },
+    "p_0000000017": {
+      "first": "Michele",
+      "last": "West",
+      "display": "Michele West",
+      "sort": "West, Michele",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "LWVB Coach 2008"
+      ],
+      "aliases": []
+    },
+    "p_0000000018": {
+      "first": "Jennifer",
+      "last": "Smith",
+      "display": "Jennifer Smith",
+      "sort": "Smith, Jennifer",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "LWVB Coach 2009-2010"
+      ],
+      "aliases": []
+    },
+    "p_0000000019": {
+      "first": "Shajunana",
+      "last": "Ditto",
+      "display": "Shajunana Ditto",
+      "sort": "Ditto, Shajunana",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "LWVB Coach 2011-2013"
+      ],
+      "aliases": []
+    },
+    "p_0000000020": {
+      "first": "Morgan",
+      "last": "Benham",
+      "display": "Morgan Benham",
+      "sort": "Benham, Morgan",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "LWVB Coach 2014-2017",
+        "LWVB Coach 2023-2025"
+      ],
+      "aliases": []
+    },
+    "p_0000000021": {
+      "first": "Robert",
+      "last": "Dunn",
+      "display": "Robert Dunn",
+      "sort": "Dunn, Robert",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "LWVB Coach 2018-2020"
+      ],
+      "aliases": []
+    },
+    "p_0000000022": {
+      "first": "Todd",
+      "last": "Saylor",
+      "display": "Todd Saylor",
+      "sort": "Saylor, Todd",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "LWVB Coach 2021-2022"
+      ],
+      "aliases": []
+    },
+    "p_0000000023": {
+      "first": "Ellet",
+      "last": "Pace",
+      "display": "Ellet Pace",
+      "sort": "Pace, Ellet",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "GWBB Coach 1948"
+      ],
+      "aliases": []
+    },
+    "p_0000000024": {
+      "first": "Delpha",
+      "last": "Starks",
+      "display": "Delpha Starks",
+      "sort": "Starks, Delpha",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "GWBB Coach 1949"
+      ],
+      "aliases": [
+        "D.T. Starks",
+        "Delpha T. Starks"
+      ]
+    },
+    "p_0000000025": {
+      "first": "Bill",
+      "last": "Case",
+      "display": "Bill Case",
+      "sort": "Case, Bill",
+      "roles": [
+        "coach"
+      ],
+      "roleNotes": [
+        "GWBB Coach 1960s"
+      ],
+      "aliases": []
+    },
+    "p_0000000026": {
+      "display": "ABEDYL2021",
+      "sort": "ABEDYL2021",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "ABEDYL2021"
+      ]
+    },
+    "p_0000000027": {
+      "display": "ADAALE2010",
+      "sort": "ADAALE2010",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "ADAALE2010"
+      ]
+    },
+    "p_0000000028": {
+      "display": "AEBMEG2013",
+      "sort": "AEBMEG2013",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "AEBMEG2013"
+      ]
+    },
+    "p_0000000029": {
+      "display": "AEBMOL2021",
+      "sort": "AEBMOL2021",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "AEBMOL2021"
+      ]
+    },
+    "p_0000000030": {
+      "display": "ALELAU2018",
+      "sort": "ALELAU2018",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "ALELAU2018"
+      ]
+    },
+    "p_0000000031": {
+      "display": "ALEZEK2024",
+      "sort": "ALEZEK2024",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "ALEZEK2024"
+      ]
+    },
+    "p_0000000032": {
+      "display": "AMMGAR2017",
+      "sort": "AMMGAR2017",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "AMMGAR2017"
+      ]
+    },
+    "p_0000000033": {
+      "display": "ARMCAM2021",
+      "sort": "ARMCAM2021",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "ARMCAM2021"
+      ]
+    },
+    "p_0000000034": {
+      "display": "ARMCHR2019",
+      "sort": "ARMCHR2019",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "ARMCHR2019"
+      ]
+    },
+    "p_0000000035": {
+      "display": "BABANN2024",
+      "sort": "BABANN2024",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "BABANN2024"
+      ]
+    },
+    "p_0000000036": {
+      "display": "BAHJAC2026",
+      "sort": "BAHJAC2026",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "BAHJAC2026"
+      ]
+    },
+    "p_0000000037": {
+      "display": "BAKJAM2017",
+      "sort": "BAKJAM2017",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "BAKJAM2017"
+      ]
+    },
+    "p_0000000038": {
+      "display": "BEAGRA2022",
+      "sort": "BEAGRA2022",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "BEAGRA2022"
+      ]
+    },
+    "p_0000000039": {
+      "display": "BEAJAK2016",
+      "sort": "BEAJAK2016",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "BEAJAK2016"
+      ]
+    },
+    "p_0000000040": {
+      "display": "BENKRI2012",
+      "sort": "BENKRI2012",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "BENKRI2012"
+      ]
+    },
+    "p_0000000041": {
+      "display": "BENSTE2018",
+      "sort": "BENSTE2018",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "BENSTE2018"
+      ]
+    },
+    "p_0000000042": {
+      "display": "BEWJAC2016",
+      "sort": "BEWJAC2016",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "BEWJAC2016"
+      ]
+    },
+    "p_0000000043": {
+      "display": "BLABRA2020",
+      "sort": "BLABRA2020",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "BLABRA2020"
+      ]
+    },
+    "p_0000000044": {
+      "display": "BLADEV2026",
+      "sort": "BLADEV2026",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "BLADEV2026"
+      ]
+    },
+    "p_0000000045": {
+      "display": "BLAMIC2024",
+      "sort": "BLAMIC2024",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "BLAMIC2024"
+      ]
+    },
+    "p_0000000046": {
+      "display": "BLOASH2014",
+      "sort": "BLOASH2014",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "BLOASH2014"
+      ]
+    },
+    "p_0000000047": {
+      "display": "BOABRA2020",
+      "sort": "BOABRA2020",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "BOABRA2020"
+      ]
+    },
+    "p_0000000048": {
+      "display": "BOARYL2018",
+      "sort": "BOARYL2018",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "BOARYL2018"
+      ]
+    },
+    "p_0000000049": {
+      "display": "BRAETH2024",
+      "sort": "BRAETH2024",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "BRAETH2024"
+      ]
+    },
+    "p_0000000050": {
+      "display": "BRAHAR2029",
+      "sort": "BRAHAR2029",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "BRAHAR2029"
+      ]
+    },
+    "p_0000000051": {
+      "display": "BRALAR1967",
+      "sort": "BRALAR1967",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "BRALAR1967"
+      ]
+    },
+    "p_0000000052": {
+      "display": "BRAPEY2025",
+      "sort": "BRAPEY2025",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "BRAPEY2025"
+      ]
+    },
+    "p_0000000053": {
+      "display": "BROGAV2027",
+      "sort": "BROGAV2027",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "BROGAV2027"
+      ]
+    },
+    "p_0000000054": {
+      "display": "BROTIF2011",
+      "sort": "BROTIF2011",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "BROTIF2011"
+      ]
+    },
+    "p_0000000055": {
+      "display": "BRUAUT2014",
+      "sort": "BRUAUT2014",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "BRUAUT2014"
+      ]
+    },
+    "p_0000000056": {
+      "display": "CARCOL2028",
+      "sort": "CARCOL2028",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "CARCOL2028"
+      ]
+    },
+    "p_0000000057": {
+      "display": "CASBOS2028",
+      "sort": "CASBOS2028",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "CASBOS2028"
+      ]
+    },
+    "p_0000000058": {
+      "display": "CASVIC1967",
+      "sort": "CASVIC1967",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "CASVIC1967"
+      ]
+    },
+    "p_0000000059": {
+      "display": "CLADAK2017",
+      "sort": "CLADAK2017",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "CLADAK2017"
+      ]
+    },
+    "p_0000000060": {
+      "display": "CLAELL2026",
+      "sort": "CLAELL2026",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "CLAELL2026"
+      ]
+    },
+    "p_0000000061": {
+      "display": "CLALAU2016",
+      "sort": "CLALAU2016",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "CLALAU2016"
+      ]
+    },
+    "p_0000000062": {
+      "display": "CLALEN2029",
+      "sort": "CLALEN2029",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "CLALEN2029"
+      ]
+    },
+    "p_0000000063": {
+      "display": "CLAMAT2023",
+      "sort": "CLAMAT2023",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "CLAMAT2023"
+      ]
+    },
+    "p_0000000064": {
+      "display": "CLIKYL2027",
+      "sort": "CLIKYL2027",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "CLIKYL2027"
+      ]
+    },
+    "p_0000000065": {
+      "display": "COLMAT2018",
+      "sort": "COLMAT2018",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "COLMAT2018"
+      ]
+    },
+    "p_0000000066": {
+      "display": "COLPEY2019",
+      "sort": "COLPEY2019",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "COLPEY2019"
+      ]
+    },
+    "p_0000000067": {
+      "display": "COMKEN2020",
+      "sort": "COMKEN2020",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "COMKEN2020"
+      ]
+    },
+    "p_0000000068": {
+      "display": "COMSTE2012",
+      "sort": "COMSTE2012",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "COMSTE2012"
+      ]
+    },
+    "p_0000000069": {
+      "display": "COXDAL1967",
+      "sort": "COXDAL1967",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "COXDAL1967"
+      ]
+    },
+    "p_0000000070": {
+      "display": "CRASAG2023",
+      "sort": "CRASAG2023",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "CRASAG2023"
+      ]
+    },
+    "p_0000000071": {
+      "display": "CRERAC2013",
+      "sort": "CRERAC2013",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "CRERAC2013"
+      ]
+    },
+    "p_0000000072": {
+      "display": "CROWIL2018",
+      "sort": "CROWIL2018",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "CROWIL2018"
+      ]
+    },
+    "p_0000000073": {
+      "display": "CRUCAR2019",
+      "sort": "CRUCAR2019",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "CRUCAR2019"
+      ]
+    },
+    "p_0000000074": {
+      "display": "CRUCOO2022",
+      "sort": "CRUCOO2022",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "CRUCOO2022"
+      ]
+    },
+    "p_0000000075": {
+      "display": "CRUJAC1967",
+      "sort": "CRUJAC1967",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "CRUJAC1967"
+      ]
+    },
+    "p_0000000076": {
+      "display": "CUCKAT2014",
+      "sort": "CUCKAT2014",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "CUCKAT2014"
+      ]
+    },
+    "p_0000000077": {
+      "display": "DAAPHO2021",
+      "sort": "DAAPHO2021",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "DAAPHO2021"
+      ]
+    },
+    "p_0000000078": {
+      "display": "DECCAN2021",
+      "sort": "DECCAN2021",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "DECCAN2021"
+      ]
+    },
+    "p_0000000079": {
+      "display": "DEVELL2014",
+      "sort": "DEVELL2014",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "DEVELL2014"
+      ]
+    },
+    "p_0000000080": {
+      "display": "DOWWES2012",
+      "sort": "DOWWES2012",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "DOWWES2012"
+      ]
+    },
+    "p_0000000081": {
+      "display": "DOZMIT2020",
+      "sort": "DOZMIT2020",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "DOZMIT2020"
+      ]
+    },
+    "p_0000000082": {
+      "display": "DURJOS2016",
+      "sort": "DURJOS2016",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "DURJOS2016"
+      ]
+    },
+    "p_0000000083": {
+      "display": "DURKAT2023",
+      "sort": "DURKAT2023",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "DURKAT2023"
+      ]
+    },
+    "p_0000000084": {
+      "display": "DYCRYA2024",
+      "sort": "DYCRYA2024",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "DYCRYA2024"
+      ]
+    },
+    "p_0000000085": {
+      "display": "EDWBLA2022",
+      "sort": "EDWBLA2022",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "EDWBLA2022"
+      ]
+    },
+    "p_0000000086": {
+      "display": "EDWKAY2018",
+      "sort": "EDWKAY2018",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "EDWKAY2018"
+      ]
+    },
+    "p_0000000087": {
+      "display": "ELLMAD2019",
+      "sort": "ELLMAD2019",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "ELLMAD2019"
+      ]
+    },
+    "p_0000000088": {
+      "display": "FIEMAD2027",
+      "sort": "FIEMAD2027",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "FIEMAD2027"
+      ]
+    },
+    "p_0000000089": {
+      "display": "FITSHO2022",
+      "sort": "FITSHO2022",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "FITSHO2022"
+      ]
+    },
+    "p_0000000090": {
+      "display": "FORDRE2025",
+      "sort": "FORDRE2025",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "FORDRE2025"
+      ]
+    },
+    "p_0000000091": {
+      "display": "FREMIR2024",
+      "sort": "FREMIR2024",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "FREMIR2024"
+      ]
+    },
+    "p_0000000092": {
+      "display": "FROJOS2023",
+      "sort": "FROJOS2023",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "FROJOS2023"
+      ]
+    },
+    "p_0000000093": {
+      "display": "FUNASH2012",
+      "sort": "FUNASH2012",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "FUNASH2012"
+      ]
+    },
+    "p_0000000094": {
+      "display": "GAGDAW2018",
+      "sort": "GAGDAW2018",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "GAGDAW2018"
+      ]
+    },
+    "p_0000000095": {
+      "display": "GALJEN2021",
+      "sort": "GALJEN2021",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "GALJEN2021"
+      ]
+    },
+    "p_0000000096": {
+      "display": "GALMAR2016",
+      "sort": "GALMAR2016",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "GALMAR2016"
+      ]
+    },
+    "p_0000000097": {
+      "display": "GARBRY2013",
+      "sort": "GARBRY2013",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "GARBRY2013"
+      ]
+    },
+    "p_0000000098": {
+      "display": "GARCHA2012",
+      "sort": "GARCHA2012",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "GARCHA2012"
+      ]
+    },
+    "p_0000000099": {
+      "display": "GERLAI2028",
+      "sort": "GERLAI2028",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "GERLAI2028"
+      ]
+    },
+    "p_0000000100": {
+      "display": "GOISAM2027",
+      "sort": "GOISAM2027",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "GOISAM2027"
+      ]
+    },
+    "p_0000000101": {
+      "display": "GOOTRE2021",
+      "sort": "GOOTRE2021",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "GOOTRE2021"
+      ]
+    },
+    "p_0000000102": {
+      "display": "GRAPEY2029",
+      "sort": "GRAPEY2029",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "GRAPEY2029"
+      ]
+    },
+    "p_0000000103": {
+      "display": "GREALE2013",
+      "sort": "GREALE2013",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "GREALE2013"
+      ]
+    },
+    "p_0000000104": {
+      "display": "GRECAL2027",
+      "sort": "GRECAL2027",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "GRECAL2027"
+      ]
+    },
+    "p_0000000105": {
+      "display": "GRIDXX2021",
+      "sort": "GRIDXX2021",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "GRIDXX2021"
+      ]
+    },
+    "p_0000000106": {
+      "display": "HACCAL2017",
+      "sort": "HACCAL2017",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "HACCAL2017"
+      ]
+    },
+    "p_0000000107": {
+      "display": "HACSPE2015",
+      "sort": "HACSPE2015",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "HACSPE2015"
+      ]
+    },
+    "p_0000000108": {
+      "display": "HAILUC2025",
+      "sort": "HAILUC2025",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "HAILUC2025"
+      ]
+    },
+    "p_0000000109": {
+      "display": "HARAUB2022",
+      "sort": "HARAUB2022",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "HARAUB2022"
+      ]
+    },
+    "p_0000000110": {
+      "display": "HARCAR2026",
+      "sort": "HARCAR2026",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "HARCAR2026"
+      ]
+    },
+    "p_0000000111": {
+      "display": "HARGAR2024",
+      "sort": "HARGAR2024",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "HARGAR2024"
+      ]
+    },
+    "p_0000000112": {
+      "display": "HARPAI2026",
+      "sort": "HARPAI2026",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "HARPAI2026"
+      ]
+    },
+    "p_0000000113": {
+      "display": "HARWAR1968",
+      "sort": "HARWAR1968",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "HARWAR1968"
+      ]
+    },
+    "p_0000000114": {
+      "display": "HAYJEN2028",
+      "sort": "HAYJEN2028",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "HAYJEN2028"
+      ]
+    },
+    "p_0000000115": {
+      "display": "HENKAI2025",
+      "sort": "HENKAI2025",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "HENKAI2025"
+      ]
+    },
+    "p_0000000116": {
+      "display": "HOUCAM2029",
+      "sort": "HOUCAM2029",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "HOUCAM2029"
+      ]
+    },
+    "p_0000000117": {
+      "display": "JENTRA2014",
+      "sort": "JENTRA2014",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "JENTRA2014"
+      ]
+    },
+    "p_0000000118": {
+      "display": "JOHISI2023",
+      "sort": "JOHISI2023",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "JOHISI2023"
+      ]
+    },
+    "p_0000000119": {
+      "display": "JOHPAR2020",
+      "sort": "JOHPAR2020",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "JOHPAR2020"
+      ]
+    },
+    "p_0000000120": {
+      "display": "JOHPEY2024",
+      "sort": "JOHPEY2024",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "JOHPEY2024"
+      ]
+    },
+    "p_0000000121": {
+      "display": "JOHRAC2012",
+      "sort": "JOHRAC2012",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "JOHRAC2012"
+      ]
+    },
+    "p_0000000122": {
+      "display": "JOHRAL2014",
+      "sort": "JOHRAL2014",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "JOHRAL2014"
+      ]
+    },
+    "p_0000000123": {
+      "display": "JOLETH2028",
+      "sort": "JOLETH2028",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "JOLETH2028"
+      ]
+    },
+    "p_0000000124": {
+      "display": "JONKAT2030",
+      "sort": "JONKAT2030",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "JONKAT2030"
+      ]
+    },
+    "p_0000000125": {
+      "display": "KAIETH2025",
+      "sort": "KAIETH2025",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "KAIETH2025"
+      ]
+    },
+    "p_0000000126": {
+      "display": "KAIMIC2015",
+      "sort": "KAIMIC2015",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "KAIMIC2015"
+      ]
+    },
+    "p_0000000127": {
+      "display": "KASLOG2027",
+      "sort": "KASLOG2027",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "KASLOG2027"
+      ]
+    },
+    "p_0000000128": {
+      "display": "KEIALE2022",
+      "sort": "KEIALE2022",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "KEIALE2022"
+      ]
+    },
+    "p_0000000129": {
+      "display": "KEIMAG2026",
+      "sort": "KEIMAG2026",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "KEIMAG2026"
+      ]
+    },
+    "p_0000000130": {
+      "display": "KINLAW2022",
+      "sort": "KINLAW2022",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "KINLAW2022"
+      ]
+    },
+    "p_0000000131": {
+      "display": "KINWIL2015",
+      "sort": "KINWIL2015",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "KINWIL2015"
+      ]
+    },
+    "p_0000000132": {
+      "display": "KNOANN2023",
+      "sort": "KNOANN2023",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "KNOANN2023"
+      ]
+    },
+    "p_0000000133": {
+      "display": "KNOTRE2022",
+      "sort": "KNOTRE2022",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "KNOTRE2022"
+      ]
+    },
+    "p_0000000134": {
+      "display": "LANALL2017",
+      "sort": "LANALL2017",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "LANALL2017"
+      ]
+    },
+    "p_0000000135": {
+      "display": "LASLAU2019",
+      "sort": "LASLAU2019",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "LASLAU2019"
+      ]
+    },
+    "p_0000000136": {
+      "display": "LEDTAL2025",
+      "sort": "LEDTAL2025",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "LEDTAL2025"
+      ]
+    },
+    "p_0000000137": {
+      "display": "LEEJAM1968",
+      "sort": "LEEJAM1968",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "LEEJAM1968"
+      ]
+    },
+    "p_0000000138": {
+      "display": "LEWTAR2017",
+      "sort": "LEWTAR2017",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "LEWTAR2017"
+      ]
+    },
+    "p_0000000139": {
+      "display": "LINABB2016",
+      "sort": "LINABB2016",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "LINABB2016"
+      ]
+    },
+    "p_0000000140": {
+      "display": "LINTRE2024",
+      "sort": "LINTRE2024",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "LINTRE2024"
+      ]
+    },
+    "p_0000000141": {
+      "display": "LONPAI2010",
+      "sort": "LONPAI2010",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "LONPAI2010"
+      ]
+    },
+    "p_0000000142": {
+      "display": "LUCELL2030",
+      "sort": "LUCELL2030",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "LUCELL2030"
+      ]
+    },
+    "p_0000000143": {
+      "display": "LUNMAY2013",
+      "sort": "LUNMAY2013",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "LUNMAY2013"
+      ]
+    },
+    "p_0000000144": {
+      "display": "LYNADD2015",
+      "sort": "LYNADD2015",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "LYNADD2015"
+      ]
+    },
+    "p_0000000145": {
+      "display": "MARLIZ2021",
+      "sort": "MARLIZ2021",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "MARLIZ2021"
+      ]
+    },
+    "p_0000000146": {
+      "display": "MATAID2018",
+      "sort": "MATAID2018",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "MATAID2018"
+      ]
+    },
+    "p_0000000147": {
+      "display": "MATCHA2014",
+      "sort": "MATCHA2014",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "MATCHA2014"
+      ]
+    },
+    "p_0000000148": {
+      "display": "MATKAS2016",
+      "sort": "MATKAS2016",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "MATKAS2016"
+      ]
+    },
+    "p_0000000149": {
+      "display": "MATLEX2019",
+      "sort": "MATLEX2019",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "MATLEX2019"
+      ]
+    },
+    "p_0000000150": {
+      "display": "MEDAYD2027",
+      "sort": "MEDAYD2027",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "MEDAYD2027"
+      ]
+    },
+    "p_0000000151": {
+      "display": "MEDCAS2017",
+      "sort": "MEDCAS2017",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "MEDCAS2017"
+      ]
+    },
+    "p_0000000152": {
+      "display": "MEDJAY2029",
+      "sort": "MEDJAY2029",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "MEDJAY2029"
+      ]
+    },
+    "p_0000000153": {
+      "display": "MEDPAI2024",
+      "sort": "MEDPAI2024",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "MEDPAI2024"
+      ]
+    },
+    "p_0000000154": {
+      "display": "MILANG2016",
+      "sort": "MILANG2016",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "MILANG2016"
+      ]
+    },
+    "p_0000000155": {
+      "display": "MILJOH2015",
+      "sort": "MILJOH2015",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "MILJOH2015"
+      ]
+    },
+    "p_0000000156": {
+      "display": "MILJOH2016",
+      "sort": "MILJOH2016",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "MILJOH2016"
+      ]
+    },
+    "p_0000000157": {
+      "display": "MILMAG2017",
+      "sort": "MILMAG2017",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "MILMAG2017"
+      ]
+    },
+    "p_0000000158": {
+      "display": "MYEEMI2021",
+      "sort": "MYEEMI2021",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "MYEEMI2021"
+      ]
+    },
+    "p_0000000159": {
+      "display": "NALCAM2019",
+      "sort": "NALCAM2019",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "NALCAM2019"
+      ]
+    },
+    "p_0000000160": {
+      "display": "NELABB2019",
+      "sort": "NELABB2019",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "NELABB2019"
+      ]
+    },
+    "p_0000000161": {
+      "display": "NEVJAC2028",
+      "sort": "NEVJAC2028",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "NEVJAC2028"
+      ]
+    },
+    "p_0000000162": {
+      "display": "NIKKOB2019",
+      "sort": "NIKKOB2019",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "NIKKOB2019"
+      ]
+    },
+    "p_0000000163": {
+      "display": "OHLTRE2028",
+      "sort": "OHLTRE2028",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "OHLTRE2028"
+      ]
+    },
+    "p_0000000164": {
+      "display": "PADKAY2012",
+      "sort": "PADKAY2012",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "PADKAY2012"
+      ]
+    },
+    "p_0000000165": {
+      "display": "PARKYL2022",
+      "sort": "PARKYL2022",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "PARKYL2022"
+      ]
+    },
+    "p_0000000166": {
+      "display": "PETKRI2015",
+      "sort": "PETKRI2015",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "PETKRI2015"
+      ]
+    },
+    "p_0000000167": {
+      "display": "PIKCAR2027",
+      "sort": "PIKCAR2027",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "PIKCAR2027"
+      ]
+    },
+    "p_0000000168": {
+      "display": "POLBRA2022",
+      "sort": "POLBRA2022",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "POLBRA2022"
+      ]
+    },
+    "p_0000000169": {
+      "display": "POWBLI2010",
+      "sort": "POWBLI2010",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "POWBLI2010"
+      ]
+    },
+    "p_0000000170": {
+      "display": "POWMAS2024",
+      "sort": "POWMAS2024",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "POWMAS2024"
+      ]
+    },
+    "p_0000000171": {
+      "display": "POWSCA2012",
+      "sort": "POWSCA2012",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "POWSCA2012"
+      ]
+    },
+    "p_0000000172": {
+      "display": "RANKEN2029",
+      "sort": "RANKEN2029",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "RANKEN2029"
+      ]
+    },
+    "p_0000000173": {
+      "display": "RANTIM2025",
+      "sort": "RANTIM2025",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "RANTIM2025"
+      ]
+    },
+    "p_0000000174": {
+      "display": "RAYJAR2013",
+      "sort": "RAYJAR2013",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "RAYJAR2013"
+      ]
+    },
+    "p_0000000175": {
+      "display": "RAYKAC2022",
+      "sort": "RAYKAC2022",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "RAYKAC2022"
+      ]
+    },
+    "p_0000000176": {
+      "display": "RAYLIN2027",
+      "sort": "RAYLIN2027",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "RAYLIN2027"
+      ]
+    },
+    "p_0000000177": {
+      "display": "REAKAR2016",
+      "sort": "REAKAR2016",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "REAKAR2016"
+      ]
+    },
+    "p_0000000178": {
+      "display": "REERUD2029",
+      "sort": "REERUD2029",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "REERUD2029"
+      ]
+    },
+    "p_0000000179": {
+      "display": "RICANI2019",
+      "sort": "RICANI2019",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "RICANI2019"
+      ]
+    },
+    "p_0000000180": {
+      "display": "RIDKAY2025",
+      "sort": "RIDKAY2025",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "RIDKAY2025"
+      ]
+    },
+    "p_0000000181": {
+      "display": "ROBALL2018",
+      "sort": "ROBALL2018",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "ROBALL2018"
+      ]
+    },
+    "p_0000000182": {
+      "display": "SCHCAR2014",
+      "sort": "SCHCAR2014",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "SCHCAR2014"
+      ]
+    },
+    "p_0000000183": {
+      "display": "SCHCHE2012",
+      "sort": "SCHCHE2012",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "SCHCHE2012"
+      ]
+    },
+    "p_0000000184": {
+      "display": "SCHNOA2018",
+      "sort": "SCHNOA2018",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "SCHNOA2018"
+      ]
+    },
+    "p_0000000185": {
+      "display": "SCOCAD2025",
+      "sort": "SCOCAD2025",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "SCOCAD2025"
+      ]
+    },
+    "p_0000000186": {
+      "display": "SCOCAN2028",
+      "sort": "SCOCAN2028",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "SCOCAN2028"
+      ]
+    },
+    "p_0000000187": {
+      "display": "SHABRO2024",
+      "sort": "SHABRO2024",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "SHABRO2024"
+      ]
+    },
+    "p_0000000188": {
+      "display": "SHOHAY2026",
+      "sort": "SHOHAY2026",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "SHOHAY2026"
+      ]
+    },
+    "p_0000000189": {
+      "display": "SMIBRA2012",
+      "sort": "SMIBRA2012",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "SMIBRA2012"
+      ]
+    },
+    "p_0000000190": {
+      "display": "SPEBRO2016",
+      "sort": "SPEBRO2016",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "SPEBRO2016"
+      ]
+    },
+    "p_0000000191": {
+      "display": "STECOR2015",
+      "sort": "STECOR2015",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "STECOR2015"
+      ]
+    },
+    "p_0000000192": {
+      "display": "STICHE2009",
+      "sort": "STICHE2009",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "STICHE2009"
+      ]
+    },
+    "p_0000000193": {
+      "display": "STUADD2026",
+      "sort": "STUADD2026",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "STUADD2026"
+      ]
+    },
+    "p_0000000194": {
+      "display": "STUBRA2025",
+      "sort": "STUBRA2025",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "STUBRA2025"
+      ]
+    },
+    "p_0000000195": {
+      "display": "STUIZZ2030",
+      "sort": "STUIZZ2030",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "STUIZZ2030"
+      ]
+    },
+    "p_0000000196": {
+      "display": "SUTKEL2015",
+      "sort": "SUTKEL2015",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "SUTKEL2015"
+      ]
+    },
+    "p_0000000197": {
+      "display": "TANEMM2027",
+      "sort": "TANEMM2027",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "TANEMM2027"
+      ]
+    },
+    "p_0000000198": {
+      "display": "THOKAR2029",
+      "sort": "THOKAR2029",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "THOKAR2029"
+      ]
+    },
+    "p_0000000199": {
+      "display": "TRISAV2025",
+      "sort": "TRISAV2025",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "TRISAV2025"
+      ]
+    },
+    "p_0000000200": {
+      "display": "TURCAS2021",
+      "sort": "TURCAS2021",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "TURCAS2021"
+      ]
+    },
+    "p_0000000201": {
+      "display": "TURMOR2015",
+      "sort": "TURMOR2015",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "TURMOR2015"
+      ]
+    },
+    "p_0000000202": {
+      "display": "VESTIM2026",
+      "sort": "VESTIM2026",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "VESTIM2026"
+      ]
+    },
+    "p_0000000203": {
+      "display": "WATALE2023",
+      "sort": "WATALE2023",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "WATALE2023"
+      ]
+    },
+    "p_0000000204": {
+      "display": "WATMAL2011",
+      "sort": "WATMAL2011",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "WATMAL2011"
+      ]
+    },
+    "p_0000000205": {
+      "display": "WEICHA2022",
+      "sort": "WEICHA2022",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "WEICHA2022"
+      ]
+    },
+    "p_0000000206": {
+      "display": "WEICHE2019",
+      "sort": "WEICHE2019",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "WEICHE2019"
+      ]
+    },
+    "p_0000000207": {
+      "display": "WELAND2026",
+      "sort": "WELAND2026",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "WELAND2026"
+      ]
+    },
+    "p_0000000208": {
+      "display": "WILBOX2012",
+      "sort": "WILBOX2012",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "WILBOX2012"
+      ]
+    },
+    "p_0000000209": {
+      "display": "WILCAR2010",
+      "sort": "WILCAR2010",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "WILCAR2010"
+      ]
+    },
+    "p_0000000210": {
+      "display": "WILCON2013",
+      "sort": "WILCON2013",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "WILCON2013"
+      ]
+    },
+    "p_0000000211": {
+      "display": "WILDAR2015",
+      "sort": "WILDAR2015",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "WILDAR2015"
+      ]
+    },
+    "p_0000000212": {
+      "display": "WILEMM2016",
+      "sort": "WILEMM2016",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "WILEMM2016"
+      ]
+    },
+    "p_0000000213": {
+      "display": "WILJOH2015",
+      "sort": "WILJOH2015",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "WILJOH2015"
+      ]
+    },
+    "p_0000000214": {
+      "display": "WILKAT2016",
+      "sort": "WILKAT2016",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "WILKAT2016"
+      ]
+    },
+    "p_0000000215": {
+      "display": "WILLUK2014",
+      "sort": "WILLUK2014",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "WILLUK2014"
+      ]
+    },
+    "p_0000000216": {
+      "display": "WILMAC2016",
+      "sort": "WILMAC2016",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "WILMAC2016"
+      ]
+    },
+    "p_0000000217": {
+      "display": "WILMAS2028",
+      "sort": "WILMAS2028",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "WILMAS2028"
+      ]
+    },
+    "p_0000000218": {
+      "display": "WILTHO2012",
+      "sort": "WILTHO2012",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "WILTHO2012"
+      ]
+    },
+    "p_0000000219": {
+      "display": "WILZEB2014",
+      "sort": "WILZEB2014",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "WILZEB2014"
+      ]
+    },
+    "p_0000000220": {
+      "display": "WINKEN2020",
+      "sort": "WINKEN2020",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "WINKEN2020"
+      ]
+    },
+    "p_0000000221": {
+      "display": "YATBRY9999",
+      "sort": "YATBRY9999",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "YATBRY9999"
+      ]
+    },
+    "p_0000000222": {
+      "display": "YATTRE2015",
+      "sort": "YATTRE2015",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "YATTRE2015"
+      ]
+    },
+    "p_0000000223": {
+      "display": "YOUELI2015",
+      "sort": "YOUELI2015",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "YOUELI2015"
+      ]
+    },
+    "p_0000000224": {
+      "display": "YOUELI2018",
+      "sort": "YOUELI2018",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "YOUELI2018"
+      ]
+    },
+    "p_0000000225": {
+      "display": "YOUETH2023",
+      "sort": "YOUETH2023",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "YOUETH2023"
+      ]
+    },
+    "p_0000000226": {
+      "display": "ZINSEA2026",
+      "sort": "ZINSEA2026",
+      "roles": [
+        "player"
+      ],
+      "aliases": [
+        "ZINSEA2026"
+      ]
+    }
+  },
+  "byAlias": {
+    "ABEDYL2021": "p_0000000026",
+    "ADAALE2010": "p_0000000027",
+    "AEBMEG2013": "p_0000000028",
+    "AEBMOL2021": "p_0000000029",
+    "ALELAU2018": "p_0000000030",
+    "ALEZEK2024": "p_0000000031",
+    "AMMGAR2017": "p_0000000032",
+    "ARMCAM2021": "p_0000000033",
+    "ARMCHR2019": "p_0000000034",
+    "BABANN2024": "p_0000000035",
+    "BAHJAC2026": "p_0000000036",
+    "BAKJAM2017": "p_0000000037",
+    "BEAGRA2022": "p_0000000038",
+    "BEAJAK2016": "p_0000000039",
+    "BENKRI2012": "p_0000000040",
+    "BENSTE2018": "p_0000000041",
+    "BEWJAC2016": "p_0000000042",
+    "BLABRA2020": "p_0000000043",
+    "BLADEV2026": "p_0000000044",
+    "BLAMIC2024": "p_0000000045",
+    "BLOASH2014": "p_0000000046",
+    "BOABRA2020": "p_0000000047",
+    "BOARYL2018": "p_0000000048",
+    "BRAETH2024": "p_0000000049",
+    "BRAHAR2029": "p_0000000050",
+    "BRALAR1967": "p_0000000051",
+    "BRAPEY2025": "p_0000000052",
+    "BROGAV2027": "p_0000000053",
+    "BROTIF2011": "p_0000000054",
+    "BRUAUT2014": "p_0000000055",
+    "CARCOL2028": "p_0000000056",
+    "CASBOS2028": "p_0000000057",
+    "CASVIC1967": "p_0000000058",
+    "CLADAK2017": "p_0000000059",
+    "CLAELL2026": "p_0000000060",
+    "CLALAU2016": "p_0000000061",
+    "CLALEN2029": "p_0000000062",
+    "CLAMAT2023": "p_0000000063",
+    "CLIKYL2027": "p_0000000064",
+    "COLMAT2018": "p_0000000065",
+    "COLPEY2019": "p_0000000066",
+    "COMKEN2020": "p_0000000067",
+    "COMSTE2012": "p_0000000068",
+    "COXDAL1967": "p_0000000069",
+    "CRASAG2023": "p_0000000070",
+    "CRERAC2013": "p_0000000071",
+    "CROWIL2018": "p_0000000072",
+    "CRUCAR2019": "p_0000000073",
+    "CRUCOO2022": "p_0000000074",
+    "CRUJAC1967": "p_0000000075",
+    "CUCKAT2014": "p_0000000076",
+    "DAAPHO2021": "p_0000000077",
+    "DECCAN2021": "p_0000000078",
+    "DEVELL2014": "p_0000000079",
+    "DOWWES2012": "p_0000000080",
+    "DOZMIT2020": "p_0000000081",
+    "DURJOS2016": "p_0000000082",
+    "DURKAT2023": "p_0000000083",
+    "DYCRYA2024": "p_0000000084",
+    "EDWBLA2022": "p_0000000085",
+    "EDWKAY2018": "p_0000000086",
+    "ELLMAD2019": "p_0000000087",
+    "FIEMAD2027": "p_0000000088",
+    "FITSHO2022": "p_0000000089",
+    "FORDRE2025": "p_0000000090",
+    "FREMIR2024": "p_0000000091",
+    "FROJOS2023": "p_0000000092",
+    "FUNASH2012": "p_0000000093",
+    "GAGDAW2018": "p_0000000094",
+    "GALJEN2021": "p_0000000095",
+    "GALMAR2016": "p_0000000096",
+    "GARBRY2013": "p_0000000097",
+    "GARCHA2012": "p_0000000098",
+    "GERLAI2028": "p_0000000099",
+    "GOISAM2027": "p_0000000100",
+    "GOOTRE2021": "p_0000000101",
+    "GRAPEY2029": "p_0000000102",
+    "GREALE2013": "p_0000000103",
+    "GRECAL2027": "p_0000000104",
+    "GRIDXX2021": "p_0000000105",
+    "HACCAL2017": "p_0000000106",
+    "HACSPE2015": "p_0000000107",
+    "HAILUC2025": "p_0000000108",
+    "HARAUB2022": "p_0000000109",
+    "HARCAR2026": "p_0000000110",
+    "HARGAR2024": "p_0000000111",
+    "HARPAI2026": "p_0000000112",
+    "HARWAR1968": "p_0000000113",
+    "HAYJEN2028": "p_0000000114",
+    "HENKAI2025": "p_0000000115",
+    "HOUCAM2029": "p_0000000116",
+    "JENTRA2014": "p_0000000117",
+    "JOHISI2023": "p_0000000118",
+    "JOHPAR2020": "p_0000000119",
+    "JOHPEY2024": "p_0000000120",
+    "JOHRAC2012": "p_0000000121",
+    "JOHRAL2014": "p_0000000122",
+    "JOLETH2028": "p_0000000123",
+    "JONKAT2030": "p_0000000124",
+    "KAIETH2025": "p_0000000125",
+    "KAIMIC2015": "p_0000000126",
+    "KASLOG2027": "p_0000000127",
+    "KEIALE2022": "p_0000000128",
+    "KEIMAG2026": "p_0000000129",
+    "KINLAW2022": "p_0000000130",
+    "KINWIL2015": "p_0000000131",
+    "KNOANN2023": "p_0000000132",
+    "KNOTRE2022": "p_0000000133",
+    "LANALL2017": "p_0000000134",
+    "LASLAU2019": "p_0000000135",
+    "LEDTAL2025": "p_0000000136",
+    "LEEJAM1968": "p_0000000137",
+    "LEWTAR2017": "p_0000000138",
+    "LINABB2016": "p_0000000139",
+    "LINTRE2024": "p_0000000140",
+    "LONPAI2010": "p_0000000141",
+    "LUCELL2030": "p_0000000142",
+    "LUNMAY2013": "p_0000000143",
+    "LYNADD2015": "p_0000000144",
+    "MARLIZ2021": "p_0000000145",
+    "MATAID2018": "p_0000000146",
+    "MATCHA2014": "p_0000000147",
+    "MATKAS2016": "p_0000000148",
+    "MATLEX2019": "p_0000000149",
+    "MEDAYD2027": "p_0000000150",
+    "MEDCAS2017": "p_0000000151",
+    "MEDJAY2029": "p_0000000152",
+    "MEDPAI2024": "p_0000000153",
+    "MILANG2016": "p_0000000154",
+    "MILJOH2015": "p_0000000155",
+    "MILJOH2016": "p_0000000156",
+    "MILMAG2017": "p_0000000157",
+    "MYEEMI2021": "p_0000000158",
+    "NALCAM2019": "p_0000000159",
+    "NELABB2019": "p_0000000160",
+    "NEVJAC2028": "p_0000000161",
+    "NIKKOB2019": "p_0000000162",
+    "OHLTRE2028": "p_0000000163",
+    "PADKAY2012": "p_0000000164",
+    "PARKYL2022": "p_0000000165",
+    "PETKRI2015": "p_0000000166",
+    "PIKCAR2027": "p_0000000167",
+    "POLBRA2022": "p_0000000168",
+    "POWBLI2010": "p_0000000169",
+    "POWMAS2024": "p_0000000170",
+    "POWSCA2012": "p_0000000171",
+    "RANKEN2029": "p_0000000172",
+    "RANTIM2025": "p_0000000173",
+    "RAYJAR2013": "p_0000000174",
+    "RAYKAC2022": "p_0000000175",
+    "RAYLIN2027": "p_0000000176",
+    "REAKAR2016": "p_0000000177",
+    "REERUD2029": "p_0000000178",
+    "RICANI2019": "p_0000000179",
+    "RIDKAY2025": "p_0000000180",
+    "ROBALL2018": "p_0000000181",
+    "SCHCAR2014": "p_0000000182",
+    "SCHCHE2012": "p_0000000183",
+    "SCHNOA2018": "p_0000000184",
+    "SCOCAD2025": "p_0000000185",
+    "SCOCAN2028": "p_0000000186",
+    "SHABRO2024": "p_0000000187",
+    "SHOHAY2026": "p_0000000188",
+    "SMIBRA2012": "p_0000000189",
+    "SPEBRO2016": "p_0000000190",
+    "STECOR2015": "p_0000000191",
+    "STICHE2009": "p_0000000192",
+    "STUADD2026": "p_0000000193",
+    "STUBRA2025": "p_0000000194",
+    "STUIZZ2030": "p_0000000195",
+    "SUTKEL2015": "p_0000000196",
+    "TANEMM2027": "p_0000000197",
+    "THOKAR2029": "p_0000000198",
+    "TRISAV2025": "p_0000000199",
+    "TURCAS2021": "p_0000000200",
+    "TURMOR2015": "p_0000000201",
+    "VESTIM2026": "p_0000000202",
+    "WATALE2023": "p_0000000203",
+    "WATMAL2011": "p_0000000204",
+    "WEICHA2022": "p_0000000205",
+    "WEICHE2019": "p_0000000206",
+    "WELAND2026": "p_0000000207",
+    "WILBOX2012": "p_0000000208",
+    "WILCAR2010": "p_0000000209",
+    "WILCON2013": "p_0000000210",
+    "WILDAR2015": "p_0000000211",
+    "WILEMM2016": "p_0000000212",
+    "WILJOH2015": "p_0000000213",
+    "WILKAT2016": "p_0000000214",
+    "WILLUK2014": "p_0000000215",
+    "WILMAC2016": "p_0000000216",
+    "WILMAS2028": "p_0000000217",
+    "WILTHO2012": "p_0000000218",
+    "WILZEB2014": "p_0000000219",
+    "WINKEN2020": "p_0000000220",
+    "YATBRY9999": "p_0000000221",
+    "YATTRE2015": "p_0000000222",
+    "YOUELI2015": "p_0000000223",
+    "YOUELI2018": "p_0000000224",
+    "YOUETH2023": "p_0000000225",
+    "ZINSEA2026": "p_0000000226"
+  }
+}
