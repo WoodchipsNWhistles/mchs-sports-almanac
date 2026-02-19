@@ -1,9 +1,9 @@
 ---
 layout: base.njk
-title: LWBB Career Leaders
+title: lwbb Career Leaders
 ---
 
-<h1>LWBB Career Leaders</h1>
+<h1>lwbb Career Leaders</h1>
 
 <p class="lede-small">
 Career totals are aggregated from available per-game records. Due to inconsistent record keeping in earlier eras, some historical data may be incomplete. Season data from 2011–12, 2012–13, and 2014–15 through 2024–25 has been verified against official sources, including the KHSAA/Riherds repository, as last reviewed by this project on or about 2026-01-20.
@@ -40,7 +40,7 @@ Career totals are aggregated from available per-game records. Due to inconsisten
       <tr><th>Rk</th><th>Player</th><th>GP</th><th>PTS</th></tr>
     </thead>
     <tbody>
-    {% for row in LWBBCareerPtsTop10 %}
+    {% for row in lwbbCareerPtsTop10 %}
       <tr>
         <td>{{ loop.index }}</td>
         <td>{{ playerCell(row) }}</td>
@@ -57,7 +57,7 @@ Career totals are aggregated from available per-game records. Due to inconsisten
       <tr><th>Rk</th><th>Player</th><th>GP</th><th>PPG</th><th>PTS</th></tr>
     </thead>
     <tbody>
-    {% for row in LWBBCareerPPGTop10 %}
+    {% for row in lwbbCareerPPGTop10 %}
       <tr>
         <td>{{ loop.index }}</td>
         <td>{{ playerCell(row) }}</td>
@@ -79,7 +79,7 @@ Career totals are aggregated from available per-game records. Due to inconsisten
       <tr><th>Rk</th><th>Player</th><th>GP</th><th>REB</th></tr>
     </thead>
     <tbody>
-    {% for row in LWBBCareerRebTop10 %}
+    {% for row in lwbbCareerRebTop10 %}
       <tr>
         <td>{{ loop.index }}</td>
         <td>{{ playerCell(row) }}</td>
@@ -96,7 +96,7 @@ Career totals are aggregated from available per-game records. Due to inconsisten
       <tr><th>Rk</th><th>Player</th><th>GP</th><th>RPG</th><th>REB</th></tr>
     </thead>
     <tbody>
-    {% for row in LWBBCareerRPGTop10 %}
+    {% for row in lwbbCareerRPGTop10 %}
       <tr>
         <td>{{ loop.index }}</td>
         <td>{{ playerCell(row) }}</td>
@@ -114,7 +114,7 @@ Career totals are aggregated from available per-game records. Due to inconsisten
       <tr><th>Rk</th><th>Player</th><th>GP</th><th>DD</th></tr>
     </thead>
     <tbody>
-    {% for row in LWBBCareerDDTop10 %}
+    {% for row in lwbbCareerDDTop10 %}
       <tr>
         <td>{{ loop.index }}</td>
         <td>{{ playerCell(row) }}</td>
@@ -135,7 +135,7 @@ Career totals are aggregated from available per-game records. Due to inconsisten
       <tr><th>Rk</th><th>Player</th><th>GP</th><th>3PM</th><th>3PA</th></tr>
     </thead>
     <tbody>
-    {% for row in LWBBCareer3PMTop10 %}
+    {% for row in lwbbCareer3PMTop10 %}
       <tr>
         <td>{{ loop.index }}</td>
         <td>{{ playerCell(row) }}</td>
@@ -153,7 +153,7 @@ Career totals are aggregated from available per-game records. Due to inconsisten
       <tr><th>Rk</th><th>Player</th><th>GP</th><th>3PA</th><th>3PM</th></tr>
     </thead>
     <tbody>
-    {% for row in LWBBCareer3PATop10 %}
+    {% for row in lwbbCareer3PATop10 %}
       <tr>
         <td>{{ loop.index }}</td>
         <td>{{ playerCell(row) }}</td>
@@ -171,7 +171,7 @@ Career totals are aggregated from available per-game records. Due to inconsisten
       <tr><th>Rk</th><th>Player</th><th>GP</th><th>FTM</th><th>FTA</th></tr>
     </thead>
     <tbody>
-    {% for row in LWBBCareerFTMTop10 %}
+    {% for row in lwbbCareerFTMTop10 %}
       <tr>
         <td>{{ loop.index }}</td>
         <td>{{ playerCell(row) }}</td>
@@ -189,7 +189,7 @@ Career totals are aggregated from available per-game records. Due to inconsisten
       <tr><th>Rk</th><th>Player</th><th>GP</th><th>FTA</th><th>FTM</th></tr>
     </thead>
     <tbody>
-    {% for row in LWBBCareerFTATop10 %}
+    {% for row in lwbbCareerFTATop10 %}
       <tr>
         <td>{{ loop.index }}</td>
         <td>{{ playerCell(row) }}</td>
@@ -211,7 +211,7 @@ Career totals are aggregated from available per-game records. Due to inconsisten
       <tr><th>Rk</th><th>Player</th><th>FG</th><th>FG%</th></tr>
     </thead>
     <tbody>
-    {% for row in LWBBCareerFGPctTop10 %}
+    {% for row in lwbbCareerFGPctTop10 %}
       <tr>
         <td>{{ loop.index }}</td>
         <td>{{ playerCell(row) }}</td>
@@ -228,7 +228,7 @@ Career totals are aggregated from available per-game records. Due to inconsisten
       <tr><th>Rk</th><th>Player</th><th>3PT</th><th>3P%</th></tr>
     </thead>
     <tbody>
-    {% for row in LWBBCareer3PPctTop10 %}
+    {% for row in lwbbCareer3PPctTop10 %}
       <tr>
         <td>{{ loop.index }}</td>
         <td>{{ playerCell(row) }}</td>
@@ -245,7 +245,7 @@ Career totals are aggregated from available per-game records. Due to inconsisten
       <tr><th>Rk</th><th>Player</th><th>FT</th><th>FT%</th></tr>
     </thead>
     <tbody>
-    {% for row in LWBBCareerFTPctTop10 %}
+    {% for row in lwbbCareerFTPctTop10 %}
       <tr>
         <td>{{ loop.index }}</td>
         <td>{{ playerCell(row) }}</td>
