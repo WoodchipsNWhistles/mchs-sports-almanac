@@ -1,0 +1,46 @@
+{
+  "title": "11th District Girls",
+  "subtitle": "Tournament Bracket",
+  "updated": "2026-02-20",
+  "location": "Tiger Arena, Breckinridge County HS",
+  "timezoneNote": "All times CST",
+  "rounds": [
+    {
+      "name": "Semifinals",
+      "games": [
+        {
+          "id": "g1",
+          "label": "Game 1",
+          "date": "Monday, February 23, 2026",
+          "time": "5:30 PM",
+          "teamA": { "name": "Breckinridge County", "score": 0 },
+          "teamB": { "name": "Cloverport", "score": 0 },
+          "winner": null
+        },
+        {
+          "id": "g2",
+          "label": "Game 2",
+          "date": "Monday, February 23, 2026",
+          "time": "7:00 PM",
+          "teamA": { "name": "Meade County", "score": 0 },
+          "teamB": { "name": "Hancock County", "score": 0 },
+          "winner": null
+        }
+      ]
+    },
+    {
+      "name": "Championship",
+      "games": [
+        {
+          "id": "g3",
+          "label": "Final",
+          "date": "Thursday, February 26, 2026",
+          "time": "6:00 PM",
+          "teamA": { "name": "Winner G1", "score": 0 },
+          "teamB": { "name": "Winner G2", "score": 0 },
+          "winner": null
+        }
+      ]
+    }
+  ]
+}

@@ -6,11 +6,26 @@ description: Independent historical and statistical archive of Meade County High
 
 <header>
   <h1 class="masthead-title">MCHS Sports Almanac</h1>
-  <p class="deck">A long letter from home to those away.</p>
+  <p class="deck">Greenwave Nation's statistical history</p>
   <hr class="rule">
 </header>
 
-<section class="grid">
+ <h1>Programs</h1>
+    <div class="article">
+      <ul>
+        <li><a href="{{ '/gwbb/' | url }}"><strong>GWBB</strong> - Greenwave Basketball</a></li>
+        <li><a href="{{ '/lwbb/' | url }}"><strong>LWBB</strong> - Lady Wave Basketball</a></li>
+      </ul>
+</div>
+
+<h2>2026 Lady Wave Basketball Playoffs</h2>
+{% set bracket = brackets.lwbb.d2026Districts %}
+{% include "bracket.njk" %}
+
+<h2>2026 Greenwave Basketball Playoffs</h2>
+{% set bracket = brackets.gwbb.d2026Districts %}
+{% include "bracket.njk" %}
+
   <main>
     <p class="kicker">Independence & Affiliation Notice</p>
     <div class="article">
@@ -19,7 +34,7 @@ description: Independent historical and statistical archive of Meade County High
         It is <strong>not affiliated with, endorsed by, or operated in coordination with</strong>
         Meade County High School, Meade County Schools, or any associated athletic department.
       </p>
-    </div>
+
     
     <p class="kicker">Project Scope</p>
 <div class="article">
@@ -47,13 +62,7 @@ description: Independent historical and statistical archive of Meade County High
     
 
 
-    <p class="kicker">Programs</p>
-    <div class="article">
-      <ul>
-        <li><a href="{{ '/gwbb/' | url }}"><strong>GWBB</strong> - Greenwave Basketball</a></li>
-        <li><a href="{{ '/lwbb/' | url }}"><strong>LWBB</strong> - Lady Wave Basketball</a></li>
-      </ul>
-    </div>
+   
   </main>
 
   <aside>

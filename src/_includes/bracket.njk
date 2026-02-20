@@ -1,0 +1,49 @@
+{# expects: bracket = some data object #}
+<section class="bracket" aria-label="{{ bracket.title }} bracket">
+  <header class="bracket__hdr">
+    <h2 class="bracket__title">{{ bracket.title }}</h2>
+
+    <p class="bracket__meta">
+      {% if bracket.subtitle %}{{ bracket.subtitle }}{% endif %}
+      {% if bracket.location %} • {{ bracket.location }}{% endif %}
+      {% if bracket.updated %} • Updated {{ bracket.updated }}{% endif %}
+    </p>
+
+    {% if bracket.timezoneNote %}
+      <p class="bracket__meta">{{ bracket.timezoneNote }}</p>
+    {% endif %}
+  </header>
+
+  <div class="bracket__grid" data-bracket>
+    {% for round in bracket.rounds %}
+      <div class="bracket__round" data-round="{{ loop.index0 }}">
+        <h3 class="bracket__roundtitle">{{ round.name }}</h3>
+
+        {% for game in round.games %}
+          {% set w = game.winner %}
+          <article class="game" data-game-id="{{ game.id }}" data-winner="{{ w or '' }}">
+            <div class="game__top">
+              <span class="game__label">{{ game.label }}</span>
+
+              <span class="game__time">
+                {% if game.date %}{{ game.date }}{% endif %}
+                {% if game.date and game.time %} • {% endif %}
+                {% if game.time %}{{ game.time }}{% endif %}
+              </span>
+            </div>
+
+            <div class="team team--a" data-team="A">
+              <span class="team__name">{{ game.teamA.name }}</span>
+              <span class="team__score">{{ game.teamA.score }}</span>
+            </div>
+
+            <div class="team team--b" data-team="B">
+              <span class="team__name">{{ game.teamB.name }}</span>
+              <span class="team__score">{{ game.teamB.score }}</span>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+</section>

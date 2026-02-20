@@ -1,0 +1,141 @@
+/* --- Minimal anti-conflict patch --- */
+.bracket article,
+.bracket section{
+  display: block;
+}
+
+.bracket .game{ position: relative; }
+.bracket .bracket__grid{ display: grid; }
+
+/* --- Bracket container --- */
+.bracket { 
+  margin: 1.5rem 0; 
+  overflow-x: auto;
+}
+
+/* Header */
+.bracket__hdr { margin-bottom: 0.75rem; }
+.bracket__title { margin: 0; }
+.bracket__meta { margin: 0.25rem 0 0; opacity: 0.85; }
+
+/* --- Grid: semis | final --- */
+.bracket__grid{
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3rem;
+  align-items: start;
+  min-width: 760px;
+}
+
+/* Round title */
+.bracket__roundtitle{
+  margin: 0 0 0.75rem;
+  font-size: 1.05rem;
+  opacity: 0.9;
+}
+
+/* --- Game card --- */
+.game{
+  border: 1px solid rgba(0,0,0,0.25);
+  border-radius: 12px;
+  padding: 0.55rem 0.6rem;
+  background: rgba(255,255,255,0.75);
+}
+
+.game__top{
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+  opacity: 0.85;
+  margin-bottom: 0.45rem;
+}
+
+/* Teams */
+.team{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.75rem;
+  padding: 0.35rem 0.45rem;
+  border-radius: 10px;
+}
+
+.team + .team{ margin-top: 0.35rem; }
+.team__score{ font-variant-numeric: tabular-nums; opacity: 0.9; }
+
+/* Winner highlight */
+.game[data-winner="A"] .team--a,
+.game[data-winner="B"] .team--b{
+  font-weight: 700;
+  outline: 2px solid rgba(0,0,0,0.35);
+}
+
+/* --- 4-team bracket layout --- */
+
+/* Semis: two rows with controlled spacing */
+.bracket__round[data-round="0"]{
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 2.75rem;
+}
+
+/* Final: sit between semis (this is the only “tweak knob”) */
+.bracket__round[data-round="1"]{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.bracket__round[data-round="1"] .game{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* Connectors: semi -> gutter */
+.bracket__round[data-round="0"] .game::after{
+  content:"";
+  position:absolute;
+  top:50%;
+  right:-1.5rem;
+  width:1.5rem;
+  border-top:2px solid rgba(0,0,0,0.25);
+}
+
+/* Short stubs (avoid giant vertical pole) */
+.bracket__round[data-round="0"] .game::before{
+  content:"";
+  position:absolute;
+  right:-1.5rem;
+  top:50%;
+  height:1.8rem;
+  border-right:2px solid rgba(0,0,0,0.25);
+  transform: translateY(-50%);
+}
+
+/* Into final */
+.bracket__round[data-round="1"] .game::before{
+  content:"";
+  position:absolute;
+  top:50%;
+  left:-1.5rem;
+  width:1.5rem;
+  border-top:2px solid rgba(0,0,0,0.25);
+}
+
+/* Mobile: stack and remove connectors */
+@media (max-width: 720px){
+  .bracket__grid{
+    min-width: 0;
+    grid-template-columns: 1fr;
+    row-gap: 1.25rem;
+    column-gap: 0;
+  }
+
+  .bracket__round[data-round="0"]{ row-gap: 1rem; }
+  .bracket__round[data-round="1"] .game{ margin-top: 0; }
+
+  .bracket__round[data-round="0"] .game::after,
+  .bracket__round[data-round="0"] .game::before,
+  .bracket__round[data-round="1"] .game::before{
+    display: none;
+  }
+}
