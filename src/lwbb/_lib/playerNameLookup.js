@@ -1,81 +1,36 @@
-// src/gwbb/_lib/playerNameLookup.js
+// src/lwbb/_lib/playerNameLookup.js
 const fs = require("fs");
 const path = require("path");
 
-const DATA_DIR = path.join(process.cwd(), "src", "gwbb", "data");
+const INDEX_PATH = path.join(process.cwd(), "src", "_data", "personIndex.json");
 
-function pickName(p) {
-  // Try common shapes you've used elsewhere
-  if (!p || typeof p !== "object") return null;
+function makeNameFromIndex(v) {
+  const direct =
+    (v?.display || v?.name || v?.fullName || v?.displayName || "").trim();
+  if (direct) return direct;
 
-  // already composed
-  if (p.name) return String(p.name);
-
-  const first = p.first || p.firstName;
-  const last = p.last || p.lastName;
-
-  if (first && last) return `${first} ${last}`;
-  if (last) return String(last);
-  return null;
-}
-function getAny(obj, candidates) {
-  if (!obj || typeof obj !== "object") return undefined;
-
-  // direct hits first
-  for (const k of candidates) {
-    if (obj[k] !== undefined && obj[k] !== null && obj[k] !== "") return obj[k];
-  }
-
-  // case-insensitive fallback
-  const lower = Object.create(null);
-  for (const k of Object.keys(obj)) lower[k.toLowerCase()] = k;
-
-  for (const k of candidates) {
-    const realKey = lower[String(k).toLowerCase()];
-    if (realKey && obj[realKey] !== undefined && obj[realKey] !== null && obj[realKey] !== "")
-      return obj[realKey];
-  }
-
-  return undefined;
-}
-
-function getPlayerID(x) {
-  return getAny(x, ["playerID", "playerId", "PlayerID", "PlayerId"]);
-}
-
-function getName(x) {
-  return getAny(x, ["name", "Name", "playerName", "PlayerName", "fullName", "FullName"]);
+  const first = (v?.first || v?.firstName || "").trim();
+  const last = (v?.last || v?.lastName || "").trim();
+  const combined = `${first} ${last}`.trim();
+  return combined || null;
 }
 
 module.exports = function buildPlayerNameLookup() {
-  const files = fs
-    .readdirSync(DATA_DIR)
-    .filter((f) => f.endsWith(".json"))
-    .map((f) => path.join(DATA_DIR, f));
-
-  const lookup = {}; // playerID -> name
-
-  for (const file of files) {
-    const season = JSON.parse(fs.readFileSync(file, "utf8"));
-
-    // Try the most likely roster keys
-    const roster =
-      (Array.isArray(season.roster) && season.roster) ||
-      (Array.isArray(season.players) && season.players) ||
-      (Array.isArray(season.teamRoster) && season.teamRoster) ||
-      [];
-
-    for (const p of roster) {
-const playerID = getPlayerID(p);
-if (!playerID) continue;
-
-if (!lookup[playerID]) {
-  const nm = getName(p) || pickName(p);
-  if (nm) lookup[playerID] = String(nm);
-}
-
-    }
+  let raw;
+  try {
+    raw = JSON.parse(fs.readFileSync(INDEX_PATH, "utf8"));
+  } catch {
+    return {};
   }
 
-  return lookup;
+  const people = raw?.people && typeof raw.people === "object" ? raw.people : {};
+  const out = {};
+
+  for (const [pid, rec] of Object.entries(people)) {
+    if (!pid.startsWith("p_")) continue;
+    const nm = makeNameFromIndex(rec);
+    if (nm) out[pid] = nm;
+  }
+
+  return out;
 };
