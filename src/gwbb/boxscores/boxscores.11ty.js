@@ -10,6 +10,25 @@ function safeJsonParse(txt, filename) {
     throw new Error(`Invalid JSON in ${filename}: ${e.message}`);
   }
 }
+// Canon opponents taxonomy (Code == Slug)
+const opponents = require("../../meta/opponents.canon.json");
+
+function oppCodeFromBoxscore(b) {
+  return (
+    b.oppCode ||
+    b.opponentCode ||
+    b.opponentSlug ||
+    (b.gameIDBase ? String(b.gameIDBase).split("-").pop() : null) ||
+    (b.gameID ? String(b.gameID).split("-").pop() : null) ||
+    null
+  );
+}
+
+function oppNameFromCode(code) {
+  return (code && opponents.byCode && opponents.byCode[code] && opponents.byCode[code].name)
+    ? opponents.byCode[code].name
+    : "Opponent";
+}
 
 function escapeHtml(str) {
   return String(str)
@@ -129,7 +148,8 @@ module.exports = class BoxscorePages {
       eleventyComputed: {
         title: (data) => {
   const b = data.boxscore || {};
-  const opp = b.opponent || b.Opponent || "Opponent";
+  const oppCode = oppCodeFromBoxscore(b);
+  const opp = oppNameFromCode(oppCode);
 
   const dateRaw =
     b.dateISO || b.gameDate || b.GameDate || b.dateLabel || b.Date || b.date || "";

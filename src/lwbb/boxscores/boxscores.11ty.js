@@ -25,6 +25,23 @@ function pctDecimal(m, a) {
   if (!a || a === 0) return "—";
   return (m / a).toFixed(3).replace(/^0/, "");
 }
+const opponents = require("../../meta/opponents.canon.json");
+function oppCodeFromBoxscore(b) {
+  return (
+    b.oppCode ||
+    b.opponentCode ||
+    b.opponentSlug ||
+    (b.gameIDBase ? String(b.gameIDBase).split("-").pop() : null) ||
+    (b.gameID ? String(b.gameID).split("-").pop() : null) ||
+    null
+  );
+}
+
+function oppNameFromCode(code) {
+  return (code && opponents.byCode && opponents.byCode[code] && opponents.byCode[code].name)
+    ? opponents.byCode[code].name
+    : "Opponent";
+}
 
 // Percent style: 45.1%
 function pctPercent(m, a) {
@@ -72,91 +89,82 @@ function formatUsDate(isoLike) {
 
 module.exports = class BoxscorePages {
   async data() {
-    // Load all season JSON files
-    const seasonFiles = fs
-      .readdirSync(SEASON_DIR)
-      .filter((f) => /^\d{4}\.json$/.test(f))
-      .sort();
+  const seasonFiles = fs
+    .readdirSync(SEASON_DIR)
+    .filter((f) => /^\d{4}\.json$/.test(f))
+    .sort();
 
-    const boxscores = [];
+  const boxscores = [];
 
-    for (const filename of seasonFiles) {
-      const fullPath = path.join(SEASON_DIR, filename);
-      const raw = fs.readFileSync(fullPath, "utf-8");
-      const season = safeJsonParse(raw, filename);
+  for (const filename of seasonFiles) {
+    const fullPath = path.join(SEASON_DIR, filename);
+    const raw = fs.readFileSync(fullPath, "utf-8");
+    const season = safeJsonParse(raw, filename);
 
-      const seasonYearEnd =
-        season.seasonYear || Number(filename.replace(".json", ""));
-      const schedule = season.schedule || [];
-      const gameStats = season.gameStats || [];
+    const seasonYearEnd = season.seasonYear || Number(filename.replace(".json", ""));
+    const schedule = season.schedule || [];
 
-// Build from schedule so we can render "incomplete box score" pages too
-const gameIdsFromSchedule = Array.from(
-  new Set(
-    schedule
-      .map((g) => g.gameId || g.GameID || g.GameID_Base || g.gameIdBase)
-      .filter(Boolean)
-  )
-);
+    // Build from schedule so we can render "incomplete box score" pages too
+    const gameIdsFromSchedule = Array.from(
+      new Set(
+        schedule
+          .map((g) => g.gameId || g.GameID || g.GameID_Base || g.gameIdBase)
+          .filter(Boolean)
+      )
+    );
 
-for (const gameID of gameIdsFromSchedule) {
-  const sched =
-    schedule.find(
-      (g) =>
-        (g.gameId || g.GameID || g.GameID_Base || g.gameIdBase) === gameID
-    ) || {};
+    for (const gameID of gameIdsFromSchedule) {
+      const sched =
+        schedule.find(
+          (g) => (g.gameId || g.GameID || g.GameID_Base || g.gameIdBase) === gameID
+        ) || {};
 
-  boxscores.push({
-    ...sched,
-    gameID,
-    seasonYearEnd,
-    __sourceFile: filename,
-  });
-}
-}
-
-    return {
-      boxscores,
-
-      pagination: { data: "boxscores", size: 1, alias: "boxscore" },
-
-      permalink: (data) =>
-        `/lwbb/boxscores/${data.boxscore.gameID}/index.html`,
-
-      layout: "base.njk",
-
-      eleventyComputed: {
-        title: (data) => {
-  const b = data.boxscore || {};
-  const opp = b.opponent || b.Opponent || "Opponent";
-
-  const dateRaw =
-    b.dateISO || b.gameDate || b.GameDate || b.dateLabel || b.Date || b.date || "";
-  const date = (String(dateRaw).match(/^(\d{4}-\d{2}-\d{2})/) || [null, ""])[1];
-
-  const siteCode = b.siteCode || b.SiteCode || "";
-  const atVs = siteCode === "A" ? "@" : "vs";
-
-  // Prefer full name over acronym for tabs/SEO
-  return `Lady Wave Basketball - ${date || "Date Unknown"} ${atVs} ${opp}`;
-},
-        description: (data) => {
-          const b = data.boxscore;
-          return `LWBB box score: ${b.opponent || b.Opponent || "Opponent"} (${
-            b.dateLabel || b.dateISO || b.Date || ""
-          })`;
-        },
-      },
-    };
+      boxscores.push({
+        ...sched,
+        gameID,
+        seasonYearEnd,
+        __sourceFile: filename,
+      });
+    }
   }
 
+  return {
+    boxscores,
+    pagination: { data: "boxscores", size: 1, alias: "boxscore" },
+    permalink: (data) => `/lwbb/boxscores/${data.boxscore.gameID}/index.html`,
+    layout: "base.njk",
+    eleventyComputed: {
+      title: (data) => {
+        const b = data.boxscore || {};
+        const oppCode = oppCodeFromBoxscore(b);
+        const opp = oppNameFromCode(oppCode);
+
+        const dateRaw =
+          b.dateISO || b.gameDate || b.GameDate || b.dateLabel || b.Date || b.date || "";
+        const date = (String(dateRaw).match(/^(\d{4}-\d{2}-\d{2})/) || [null, ""])[1];
+
+        const siteCode = b.siteCode || b.SiteCode || "";
+        const atVs = siteCode === "A" ? "@" : "vs";
+
+        return `Lady Wave Basketball - ${date || "Date Unknown"} ${atVs} ${opp}`;
+      },
+      description: (data) => {
+        const b2 = data.boxscore || {};
+        const code = oppCodeFromBoxscore(b2);
+        const name = oppNameFromCode(code);
+        return `LWBB box score: ${name}`;
+      },
+    },
+  };
+}
   render(data) {
     const b = data.boxscore;
 
     // -----------------------------
     // HEADER FIELDS (single source)
     // -----------------------------
-    const opponent = b.opponent || b.Opponent || "Opponent";
+    const oppCode2 = oppCodeFromBoxscore(b);
+    const opponent = oppNameFromCode(oppCode2);
 
     const dateRaw =
       b.dateISO ||

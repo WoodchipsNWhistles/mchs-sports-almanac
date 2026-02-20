@@ -350,9 +350,9 @@
       "Notes": null,
       "SiteCode": "H",
       "OppCode": "SOUTHO",
-      "GameID_Base": "LWBB2009-20090205-H-SOUTHO",
+      "GameID_Base": "LWBB2009-20090205-H-SOLDHA",
       "GameSortKey": "SOUTH OLDHAM|home|040|056|",
-      "GameID": "LWBB2009-20090205-H-SOUTHO"
+      "GameID": "LWBB2009-20090205-H-SOLDHA"
     },
     {
       "GameDate": "2009-02-07T00:00:00",
@@ -3235,7 +3235,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "LWBB2009-20090205-H-SOUTHO",
+      "gameId": "LWBB2009-20090205-H-SOLDHA",
       "playerId": "p_0000000027",
       "jersey": 23,
       "playerName": "Alexa Adams",
@@ -3251,7 +3251,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "LWBB2009-20090205-H-SOUTHO",
+      "gameId": "LWBB2009-20090205-H-SOLDHA",
       "playerId": "p_0000000169",
       "jersey": 24,
       "playerName": "Bliss Powers",
@@ -3267,7 +3267,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "LWBB2009-20090205-H-SOUTHO",
+      "gameId": "LWBB2009-20090205-H-SOLDHA",
       "playerId": "p_0000000171",
       "jersey": 22,
       "playerName": "Scarlett Powers",
@@ -3283,7 +3283,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "LWBB2009-20090205-H-SOUTHO",
+      "gameId": "LWBB2009-20090205-H-SOLDHA",
       "playerId": "p_0000000209",
       "jersey": 15,
       "playerName": "Caroline Wilson",
@@ -3299,7 +3299,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "LWBB2009-20090205-H-SOUTHO",
+      "gameId": "LWBB2009-20090205-H-SOLDHA",
       "playerId": "p_0000000204",
       "jersey": 21,
       "playerName": "Mallory Wathen",
@@ -3315,7 +3315,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "LWBB2009-20090205-H-SOUTHO",
+      "gameId": "LWBB2009-20090205-H-SOLDHA",
       "playerId": "p_0000000093",
       "jersey": 25,
       "playerName": "Ashley Funk",
@@ -3331,7 +3331,7 @@
       "doubleDouble": false
     },
     {
-      "gameId": "LWBB2009-20090205-H-SOUTHO",
+      "gameId": "LWBB2009-20090205-H-SOLDHA",
       "playerId": "p_0000000164",
       "jersey": 32,
       "playerName": "Kayla Padgett",
