@@ -97,10 +97,10 @@
       "Standings": -1.0,
       "Notes": "Chopped Lawn Care Holiday Classic @ South Warren",
       "SiteCode": "N",
-      "OppCode": "BEECHS",
-      "GameID_Base": "GWBB2026-20251222-N-BEECHS",
+      "OppCode": "BEECTN",
+      "GameID_Base": "GWBB2026-20251222-N-BEECTN",
       "GameSortKey": "BEECH SENIOR (HENDERSONVILLE), TN|at south warren|070|088|chopped lawn care holiday classic @ south warren",
-      "GameID": "GWBB2026-20251222-N-BEECHS"
+      "GameID": "GWBB2026-20251222-N-BEECTN"
     },
     {
       "GameDate": "2025-12-22T00:00:00",
@@ -129,10 +129,10 @@
       "Standings": 1.0,
       "Notes": "Chopped Lawn Care Holiday Classic @ South Warren",
       "SiteCode": "N",
-      "OppCode": "FAYETT",
-      "GameID_Base": "GWBB2026-20251223-N-FAYETT",
+      "OppCode": "FAYETN",
+      "GameID_Base": "GWBB2026-20251223-N-FAYETN",
       "GameSortKey": "FAYETTE ACADEMY (SOMERVILLE), TN|at south warren|087|039|chopped lawn care holiday classic @ south warren",
-      "GameID": "GWBB2026-20251223-N-FAYETT"
+      "GameID": "GWBB2026-20251223-N-FAYETN"
     },
     {
       "GameDate": "2026-01-02T00:00:00",
@@ -489,11 +489,10 @@
   ],
   "roster": [
     {
-      "jersey": 3,
+      "jersey": null,
       "name": "Devon Blackmon",
       "pos": "SG",
       "grade": "Sr.",
-      "gradeFull": "Senior",
       "gradYear": 2026,
       "firstName": "Devon",
       "lastName": "Blackmon",
@@ -504,11 +503,10 @@
       "p_0000000044": "p_0000000150"
     },
     {
-      "jersey": 4,
+      "jersey": 4.0,
       "name": "Ayden Medley",
       "pos": "PG",
       "grade": "Jr.",
-      "gradeFull": "Junior",
       "gradYear": 2027,
       "firstName": "Ayden",
       "lastName": "Medley",
@@ -519,11 +517,10 @@
       "p_0000000044": "p_0000000114"
     },
     {
-      "jersey": 5,
+      "jersey": 5.0,
       "name": "Jentzen Hayes",
       "pos": "SG",
       "grade": "So.",
-      "gradeFull": "Sophomore",
       "gradYear": 2028,
       "firstName": "Jentzen",
       "lastName": "Hayes",
@@ -534,11 +531,10 @@
       "p_0000000044": "p_0000000056"
     },
     {
-      "jersey": 10,
+      "jersey": 10.0,
       "name": "Collin Carroll",
       "pos": "SG",
       "grade": "So.",
-      "gradeFull": "Sophomore",
       "gradYear": 2028,
       "firstName": "Collin",
       "lastName": "Carroll",
@@ -549,11 +545,10 @@
       "p_0000000044": "p_0000000217"
     },
     {
-      "jersey": 11,
+      "jersey": 11.0,
       "name": "Mason Wiles",
       "pos": "PG",
       "grade": "So.",
-      "gradeFull": "Sophomore",
       "gradYear": 2028,
       "firstName": "Mason",
       "lastName": "Wiles",
@@ -564,11 +559,10 @@
       "p_0000000044": "p_0000000207"
     },
     {
-      "jersey": 13,
+      "jersey": 13.0,
       "name": "Andrew Wellman",
       "pos": "SG",
       "grade": "Sr.",
-      "gradeFull": "Senior",
       "gradYear": 2026,
       "firstName": "Andrew",
       "lastName": "Wellman",
@@ -579,11 +573,10 @@
       "p_0000000044": "p_0000000104"
     },
     {
-      "jersey": 14,
+      "jersey": 14.0,
       "name": "Caleb Greene",
       "pos": "SG",
       "grade": "Jr.",
-      "gradeFull": "Junior",
       "gradYear": 2027,
       "firstName": "Caleb",
       "lastName": "Greene",
@@ -594,11 +587,10 @@
       "p_0000000044": "p_0000000123"
     },
     {
-      "jersey": 15,
+      "jersey": 15.0,
       "name": "Ethan Jolly",
       "pos": "SF",
       "grade": "So.",
-      "gradeFull": "Sophomore",
       "gradYear": 2028,
       "firstName": "Ethan",
       "lastName": "Jolly",
@@ -609,11 +601,10 @@
       "p_0000000044": "p_0000000064"
     },
     {
-      "jersey": 20,
+      "jersey": 20.0,
       "name": "Kyler Clites",
       "pos": "PF",
       "grade": "Jr.",
-      "gradeFull": "Junior",
       "gradYear": 2027,
       "firstName": "Kyler",
       "lastName": "Clites",
@@ -624,11 +615,10 @@
       "p_0000000044": "p_0000000036"
     },
     {
-      "jersey": 21,
+      "jersey": 21.0,
       "name": "Jackson Bahr",
       "pos": "PF",
       "grade": "Sr.",
-      "gradeFull": "Senior",
       "gradYear": 2026,
       "firstName": "Jackson",
       "lastName": "Bahr",
@@ -639,11 +629,10 @@
       "p_0000000044": "p_0000000163"
     },
     {
-      "jersey": 22,
+      "jersey": 22.0,
       "name": "Tresson Ohler",
       "pos": "PG",
       "grade": "So.",
-      "gradeFull": "Sophomore",
       "gradYear": 2028,
       "firstName": "Tresson",
       "lastName": "Ohler",
@@ -654,11 +643,10 @@
       "p_0000000044": "p_0000000188"
     },
     {
-      "jersey": 23,
+      "jersey": 23.0,
       "name": "Hayden Shouse",
       "pos": "SF",
       "grade": "Sr.",
-      "gradeFull": "Senior",
       "gradYear": 2026,
       "firstName": "Hayden",
       "lastName": "Shouse",
@@ -669,11 +657,10 @@
       "p_0000000044": "p_0000000100"
     },
     {
-      "jersey": 24,
+      "jersey": 24.0,
       "name": "Sam Goins",
       "pos": "SF",
       "grade": "Jr.",
-      "gradeFull": "Junior",
       "gradYear": 2027,
       "firstName": "Sam",
       "lastName": "Goins",
@@ -684,11 +671,10 @@
       "p_0000000044": "p_0000000057"
     },
     {
-      "jersey": 30,
+      "jersey": 30.0,
       "name": "Boss Caster",
       "pos": "SG",
       "grade": "So.",
-      "gradeFull": "Sophomore",
       "gradYear": 2028,
       "firstName": "Boss",
       "lastName": "Caster",
@@ -699,11 +685,10 @@
       "p_0000000044": "p_0000000167"
     },
     {
-      "jersey": 31,
+      "jersey": 31.0,
       "name": "Carter Pike",
       "pos": "SG",
       "grade": "Jr.",
-      "gradeFull": "Junior",
       "gradYear": 2027,
       "firstName": "Carter",
       "lastName": "Pike",
@@ -714,11 +699,10 @@
       "p_0000000044": "p_0000000186"
     },
     {
-      "jersey": 34,
+      "jersey": 34.0,
       "name": "Cannon Scott",
       "pos": "PF",
       "grade": "So.",
-      "gradeFull": "Sophomore",
       "gradYear": 2028,
       "firstName": "Cannon",
       "lastName": "Scott",
@@ -729,11 +713,10 @@
       "p_0000000044": "p_0000000178"
     },
     {
-      "jersey": 44,
+      "jersey": 44.0,
       "name": "Rudy Reeder",
       "pos": "C",
       "grade": "Fr.",
-      "gradeFull": "Freshman",
       "gradYear": 2029,
       "firstName": "Rudy",
       "lastName": "Reeder",
@@ -758,7 +741,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -774,7 +757,7 @@
       "ftA": 2,
       "pts": 16,
       "reb": 3,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -790,7 +773,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -806,7 +789,7 @@
       "ftA": 4,
       "pts": 9,
       "reb": 6,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -822,7 +805,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -838,7 +821,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -854,7 +837,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -870,7 +853,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -886,7 +869,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 4,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -902,7 +885,7 @@
       "ftA": 13,
       "pts": 25,
       "reb": 7,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -918,7 +901,7 @@
       "ftA": 0,
       "pts": 12,
       "reb": 2,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -934,7 +917,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -950,7 +933,7 @@
       "ftA": 1,
       "pts": 19,
       "reb": 2,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -966,7 +949,7 @@
       "ftA": 2,
       "pts": 6,
       "reb": 3,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -982,7 +965,7 @@
       "ftA": 0,
       "pts": 3,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -998,7 +981,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1014,7 +997,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1030,7 +1013,7 @@
       "ftA": 0,
       "pts": 3,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1046,7 +1029,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1062,7 +1045,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1078,7 +1061,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1094,7 +1077,7 @@
       "ftA": 2,
       "pts": 9,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1110,7 +1093,7 @@
       "ftA": 1,
       "pts": 27,
       "reb": 8,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -1126,7 +1109,7 @@
       "ftA": 0,
       "pts": 3,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1142,7 +1125,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1158,7 +1141,7 @@
       "ftA": 2,
       "pts": 5,
       "reb": 5,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1174,7 +1157,7 @@
       "ftA": 2,
       "pts": 14,
       "reb": 3,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -1190,7 +1173,7 @@
       "ftA": 2,
       "pts": 6,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1206,7 +1189,7 @@
       "ftA": 0,
       "pts": 3,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1222,7 +1205,7 @@
       "ftA": 2,
       "pts": 4,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1238,7 +1221,7 @@
       "ftA": 0,
       "pts": 4,
       "reb": 7,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1254,7 +1237,7 @@
       "ftA": 0,
       "pts": 13,
       "reb": 3,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -1270,7 +1253,7 @@
       "ftA": 9,
       "pts": 21,
       "reb": 12,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": true
     },
     {
@@ -1286,7 +1269,7 @@
       "ftA": 4,
       "pts": 6,
       "reb": 3,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1302,7 +1285,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1318,7 +1301,7 @@
       "ftA": 5,
       "pts": 24,
       "reb": 2,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -1334,7 +1317,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 3,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1350,7 +1333,7 @@
       "ftA": 0,
       "pts": 3,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1366,7 +1349,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 4,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1382,7 +1365,7 @@
       "ftA": 16,
       "pts": 35,
       "reb": 9,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -1398,7 +1381,7 @@
       "ftA": 0,
       "pts": 14,
       "reb": 3,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -1414,7 +1397,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1430,7 +1413,7 @@
       "ftA": 8,
       "pts": 34,
       "reb": 0,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -1446,7 +1429,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1462,7 +1445,7 @@
       "ftA": 0,
       "pts": 6,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1478,7 +1461,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1494,7 +1477,7 @@
       "ftA": 2,
       "pts": 1,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1510,7 +1493,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1526,7 +1509,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 4,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1542,7 +1525,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1558,7 +1541,7 @@
       "ftA": 1,
       "pts": 22,
       "reb": 13,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": true
     },
     {
@@ -1574,7 +1557,7 @@
       "ftA": 0,
       "pts": 6,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1590,7 +1573,7 @@
       "ftA": 0,
       "pts": 22,
       "reb": 0,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -1606,7 +1589,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1622,7 +1605,7 @@
       "ftA": 4,
       "pts": 20,
       "reb": 3,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -1638,7 +1621,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 5,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1654,7 +1637,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1670,7 +1653,7 @@
       "ftA": 2,
       "pts": 2,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1686,7 +1669,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1702,7 +1685,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1718,7 +1701,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1734,7 +1717,7 @@
       "ftA": 0,
       "pts": 16,
       "reb": 1,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -1750,7 +1733,7 @@
       "ftA": 11,
       "pts": 24,
       "reb": 5,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -1766,7 +1749,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1782,7 +1765,7 @@
       "ftA": 0,
       "pts": 6,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1798,7 +1781,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 5,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1814,7 +1797,7 @@
       "ftA": 4,
       "pts": 24,
       "reb": 2,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -1830,7 +1813,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1846,7 +1829,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1862,7 +1845,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1878,7 +1861,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1894,7 +1877,7 @@
       "ftA": 6,
       "pts": 13,
       "reb": 2,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -1910,7 +1893,7 @@
       "ftA": 4,
       "pts": 21,
       "reb": 7,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -1926,7 +1909,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1942,7 +1925,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 3,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1958,7 +1941,7 @@
       "ftA": 2,
       "pts": 37,
       "reb": 6,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -1974,7 +1957,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 3,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -1990,7 +1973,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2006,7 +1989,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2022,7 +2005,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2038,7 +2021,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2054,7 +2037,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2070,7 +2053,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 4,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2086,7 +2069,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2102,7 +2085,7 @@
       "ftA": 4,
       "pts": 12,
       "reb": 4,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -2118,7 +2101,7 @@
       "ftA": 3,
       "pts": 24,
       "reb": 8,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -2134,7 +2117,7 @@
       "ftA": 0,
       "pts": 3,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2150,7 +2133,7 @@
       "ftA": 0,
       "pts": 5,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2166,7 +2149,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 5,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2182,7 +2165,7 @@
       "ftA": 8,
       "pts": 19,
       "reb": 2,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -2198,7 +2181,7 @@
       "ftA": 2,
       "pts": 6,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2214,7 +2197,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2230,7 +2213,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2246,7 +2229,7 @@
       "ftA": 2,
       "pts": 8,
       "reb": 4,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2262,7 +2245,7 @@
       "ftA": 1,
       "pts": 24,
       "reb": 11,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": true
     },
     {
@@ -2278,7 +2261,7 @@
       "ftA": 0,
       "pts": 3,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2294,7 +2277,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 3,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2310,7 +2293,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2326,7 +2309,7 @@
       "ftA": 0,
       "pts": 4,
       "reb": 3,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2342,7 +2325,7 @@
       "ftA": 0,
       "pts": 3,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2358,7 +2341,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2374,7 +2357,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 3,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2390,7 +2373,7 @@
       "ftA": 1,
       "pts": 3,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2406,7 +2389,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2422,7 +2405,7 @@
       "ftA": 4,
       "pts": 4,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2438,7 +2421,7 @@
       "ftA": 8,
       "pts": 31,
       "reb": 7,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -2454,7 +2437,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2470,7 +2453,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2486,7 +2469,7 @@
       "ftA": 6,
       "pts": 18,
       "reb": 6,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -2502,7 +2485,7 @@
       "ftA": 0,
       "pts": 4,
       "reb": 6,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2518,7 +2501,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2534,7 +2517,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2550,7 +2533,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 3,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2566,7 +2549,7 @@
       "ftA": 0,
       "pts": 4,
       "reb": 8,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2582,7 +2565,7 @@
       "ftA": 5,
       "pts": 22,
       "reb": 5,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -2598,7 +2581,7 @@
       "ftA": 0,
       "pts": 21,
       "reb": 0,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -2614,7 +2597,7 @@
       "ftA": 8,
       "pts": 21,
       "reb": 8,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -2630,7 +2613,7 @@
       "ftA": 3,
       "pts": 12,
       "reb": 5,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -2646,7 +2629,7 @@
       "ftA": 2,
       "pts": 2,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2662,7 +2645,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2678,7 +2661,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2694,7 +2677,7 @@
       "ftA": 2,
       "pts": 10,
       "reb": 6,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -2710,7 +2693,7 @@
       "ftA": 3,
       "pts": 15,
       "reb": 11,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": true
     },
     {
@@ -2726,7 +2709,7 @@
       "ftA": 0,
       "pts": 18,
       "reb": 2,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -2742,7 +2725,7 @@
       "ftA": 4,
       "pts": 21,
       "reb": 4,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -2758,7 +2741,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2774,7 +2757,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2790,7 +2773,7 @@
       "ftA": 0,
       "pts": 4,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2806,7 +2789,7 @@
       "ftA": 0,
       "pts": 3,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2822,7 +2805,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 4,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2838,7 +2821,7 @@
       "ftA": 2,
       "pts": 4,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2854,7 +2837,7 @@
       "ftA": 2,
       "pts": 9,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2870,7 +2853,7 @@
       "ftA": 8,
       "pts": 31,
       "reb": 18,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": true
     },
     {
@@ -2886,7 +2869,7 @@
       "ftA": 2,
       "pts": 9,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2902,7 +2885,7 @@
       "ftA": 0,
       "pts": 6,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2918,7 +2901,7 @@
       "ftA": 0,
       "pts": 4,
       "reb": 6,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2934,7 +2917,7 @@
       "ftA": 0,
       "pts": 6,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2950,7 +2933,7 @@
       "ftA": 2,
       "pts": 17,
       "reb": 5,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -2966,7 +2949,7 @@
       "ftA": 2,
       "pts": 6,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2982,7 +2965,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -2998,7 +2981,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3014,7 +2997,7 @@
       "ftA": 0,
       "pts": 15,
       "reb": 3,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -3030,7 +3013,7 @@
       "ftA": 3,
       "pts": 24,
       "reb": 10,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": true
     },
     {
@@ -3046,7 +3029,7 @@
       "ftA": 0,
       "pts": 9,
       "reb": 4,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3062,7 +3045,7 @@
       "ftA": 5,
       "pts": 17,
       "reb": 3,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -3078,7 +3061,7 @@
       "ftA": 0,
       "pts": 10,
       "reb": 8,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -3094,7 +3077,7 @@
       "ftA": 0,
       "pts": 3,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3110,7 +3093,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3126,7 +3109,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3142,7 +3125,7 @@
       "ftA": 0,
       "pts": 3,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3158,7 +3141,7 @@
       "ftA": 0,
       "pts": 4,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3174,7 +3157,7 @@
       "ftA": 0,
       "pts": 4,
       "reb": 6,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3190,7 +3173,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3206,7 +3189,7 @@
       "ftA": 3,
       "pts": 16,
       "reb": 4,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -3222,7 +3205,7 @@
       "ftA": 6,
       "pts": 17,
       "reb": 10,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": true
     },
     {
@@ -3238,7 +3221,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3254,7 +3237,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3270,7 +3253,7 @@
       "ftA": 2,
       "pts": 13,
       "reb": 6,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -3286,7 +3269,7 @@
       "ftA": 1,
       "pts": 8,
       "reb": 4,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3302,7 +3285,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3318,7 +3301,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3334,7 +3317,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 3,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3350,7 +3333,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 5,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3366,7 +3349,7 @@
       "ftA": 2,
       "pts": 8,
       "reb": 5,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3382,7 +3365,7 @@
       "ftA": 0,
       "pts": 7,
       "reb": 4,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3398,7 +3381,7 @@
       "ftA": 0,
       "pts": 3,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3414,7 +3397,7 @@
       "ftA": 7,
       "pts": 31,
       "reb": 2,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -3430,7 +3413,7 @@
       "ftA": 0,
       "pts": 4,
       "reb": 3,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3446,7 +3429,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3462,7 +3445,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3478,7 +3461,7 @@
       "ftA": 3,
       "pts": 10,
       "reb": 3,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -3494,7 +3477,7 @@
       "ftA": 1,
       "pts": 24,
       "reb": 8,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -3510,7 +3493,7 @@
       "ftA": 4,
       "pts": 3,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3526,7 +3509,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3542,7 +3525,7 @@
       "ftA": 6,
       "pts": 24,
       "reb": 2,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -3558,7 +3541,7 @@
       "ftA": 2,
       "pts": 13,
       "reb": 2,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -3574,7 +3557,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3590,7 +3573,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3606,7 +3589,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3622,7 +3605,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3638,7 +3621,7 @@
       "ftA": 3,
       "pts": 2,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3654,7 +3637,7 @@
       "ftA": 1,
       "pts": 5,
       "reb": 5,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3670,7 +3653,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3686,7 +3669,7 @@
       "ftA": 9,
       "pts": 18,
       "reb": 6,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -3702,7 +3685,7 @@
       "ftA": 4,
       "pts": 22,
       "reb": 9,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -3718,7 +3701,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3734,7 +3717,7 @@
       "ftA": 0,
       "pts": 3,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3750,7 +3733,7 @@
       "ftA": 2,
       "pts": 9,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3766,7 +3749,7 @@
       "ftA": 0,
       "pts": 11,
       "reb": 1,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -3782,7 +3765,7 @@
       "ftA": 0,
       "pts": 4,
       "reb": 4,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3798,7 +3781,7 @@
       "ftA": 0,
       "pts": 8,
       "reb": 4,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3814,7 +3797,7 @@
       "ftA": 2,
       "pts": 1,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3830,7 +3813,7 @@
       "ftA": 0,
       "pts": 14,
       "reb": 1,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -3846,7 +3829,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3862,7 +3845,7 @@
       "ftA": 0,
       "pts": 4,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3878,7 +3861,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3894,7 +3877,7 @@
       "ftA": 0,
       "pts": 10,
       "reb": 1,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -3910,7 +3893,7 @@
       "ftA": 0,
       "pts": 10,
       "reb": 2,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -3926,7 +3909,7 @@
       "ftA": 7,
       "pts": 30,
       "reb": 11,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": true
     },
     {
@@ -3942,7 +3925,7 @@
       "ftA": 2,
       "pts": 2,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3958,7 +3941,7 @@
       "ftA": 0,
       "pts": 7,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3974,7 +3957,7 @@
       "ftA": 2,
       "pts": 2,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -3990,7 +3973,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4006,7 +3989,7 @@
       "ftA": 6,
       "pts": 19,
       "reb": 8,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -4022,7 +4005,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 3,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4038,7 +4021,7 @@
       "ftA": 2,
       "pts": 1,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4054,7 +4037,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4070,7 +4053,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 7,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4086,7 +4069,7 @@
       "ftA": 4,
       "pts": 8,
       "reb": 3,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4102,7 +4085,7 @@
       "ftA": 3,
       "pts": 14,
       "reb": 10,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": true
     },
     {
@@ -4118,7 +4101,7 @@
       "ftA": 0,
       "pts": 6,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4134,7 +4117,7 @@
       "ftA": 7,
       "pts": 14,
       "reb": 4,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -4150,7 +4133,7 @@
       "ftA": 3,
       "pts": 10,
       "reb": 8,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -4166,7 +4149,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4182,7 +4165,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4198,7 +4181,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4214,7 +4197,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4230,7 +4213,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4246,7 +4229,7 @@
       "ftA": 2,
       "pts": 11,
       "reb": 1,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -4262,7 +4245,7 @@
       "ftA": 1,
       "pts": 16,
       "reb": 10,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": true
     },
     {
@@ -4278,7 +4261,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4294,7 +4277,7 @@
       "ftA": 0,
       "pts": 3,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4310,7 +4293,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 4,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4326,7 +4309,7 @@
       "ftA": 11,
       "pts": 25,
       "reb": 6,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -4342,7 +4325,7 @@
       "ftA": 2,
       "pts": 2,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4358,7 +4341,7 @@
       "ftA": 2,
       "pts": 1,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4374,7 +4357,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4390,7 +4373,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4406,7 +4389,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4422,7 +4405,7 @@
       "ftA": 2,
       "pts": 7,
       "reb": 3,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4438,7 +4421,7 @@
       "ftA": 7,
       "pts": 23,
       "reb": 13,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": true
     },
     {
@@ -4454,7 +4437,7 @@
       "ftA": 0,
       "pts": 3,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4470,7 +4453,7 @@
       "ftA": 0,
       "pts": 5,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4486,7 +4469,7 @@
       "ftA": 2,
       "pts": 6,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4502,7 +4485,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4518,7 +4501,7 @@
       "ftA": 0,
       "pts": 6,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4534,7 +4517,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4550,7 +4533,7 @@
       "ftA": 4,
       "pts": 21,
       "reb": 4,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -4566,7 +4549,7 @@
       "ftA": 1,
       "pts": 19,
       "reb": 10,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": true
     },
     {
@@ -4582,7 +4565,7 @@
       "ftA": 0,
       "pts": 3,
       "reb": 5,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4598,7 +4581,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4614,7 +4597,7 @@
       "ftA": 0,
       "pts": 14,
       "reb": 4,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -4630,7 +4613,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 4,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4646,7 +4629,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4662,7 +4645,7 @@
       "ftA": 2,
       "pts": 1,
       "reb": 4,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4678,7 +4661,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4694,7 +4677,7 @@
       "ftA": 0,
       "pts": 8,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4710,7 +4693,7 @@
       "ftA": 0,
       "pts": 22,
       "reb": 6,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -4726,7 +4709,7 @@
       "ftA": 0,
       "pts": 6,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4742,7 +4725,7 @@
       "ftA": 0,
       "pts": 4,
       "reb": 3,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4758,7 +4741,7 @@
       "ftA": 3,
       "pts": 10,
       "reb": 5,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -4774,7 +4757,7 @@
       "ftA": 2,
       "pts": 6,
       "reb": 5,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4790,7 +4773,7 @@
       "ftA": 0,
       "pts": 3,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4806,7 +4789,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 0,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4822,7 +4805,7 @@
       "ftA": 0,
       "pts": 2,
       "reb": 4,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4838,7 +4821,7 @@
       "ftA": 0,
       "pts": 7,
       "reb": 4,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4854,7 +4837,7 @@
       "ftA": 2,
       "pts": 30,
       "reb": 7,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -4870,7 +4853,7 @@
       "ftA": 0,
       "pts": 9,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4886,7 +4869,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4902,7 +4885,7 @@
       "ftA": 6,
       "pts": 22,
       "reb": 3,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -4918,7 +4901,7 @@
       "ftA": 0,
       "pts": 6,
       "reb": 7,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4934,7 +4917,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 2,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4950,7 +4933,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 1,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4966,7 +4949,7 @@
       "ftA": 0,
       "pts": 0,
       "reb": 5,
-      "tenPlus": false,
+      "tenPlus": 0.0,
       "doubleDouble": false
     },
     {
@@ -4982,7 +4965,7 @@
       "ftA": 3,
       "pts": 18,
       "reb": 4,
-      "tenPlus": true,
+      "tenPlus": 1.0,
       "doubleDouble": false
     },
     {
@@ -4998,7 +4981,87 @@
       "ftA": 0,
       "pts": 19,
       "reb": 1,
-      "tenPlus": true,
+      "tenPlus": 1.0,
+      "doubleDouble": false
+    },
+    {
+      "gameId": "GWBB2026-20260219-A-NBULLI",
+      "playerId": "p_0000000056",
+      "jersey": 10,
+      "playerName": "Collin Carroll",
+      "twoPM": 0,
+      "twoPA": 0,
+      "threePM": 0.0,
+      "threePA": 0,
+      "ftM": 0,
+      "ftA": 0,
+      "pts": 0,
+      "reb": 0,
+      "tenPlus": null,
+      "doubleDouble": false
+    },
+    {
+      "gameId": "GWBB2026-20260219-A-NBULLI",
+      "playerId": "p_0000000207",
+      "jersey": 13,
+      "playerName": "Andrew Wellman",
+      "twoPM": 0,
+      "twoPA": 0,
+      "threePM": 0.0,
+      "threePA": 0,
+      "ftM": 0,
+      "ftA": 0,
+      "pts": 0,
+      "reb": 0,
+      "tenPlus": null,
+      "doubleDouble": false
+    },
+    {
+      "gameId": "GWBB2026-20260219-A-NBULLI",
+      "playerId": "p_0000000123",
+      "jersey": 15,
+      "playerName": "Ethan Jolly",
+      "twoPM": 0,
+      "twoPA": 0,
+      "threePM": 0.0,
+      "threePA": 0,
+      "ftM": 0,
+      "ftA": 0,
+      "pts": 0,
+      "reb": 0,
+      "tenPlus": null,
+      "doubleDouble": false
+    },
+    {
+      "gameId": "GWBB2026-20260219-A-NBULLI",
+      "playerId": "p_0000000036",
+      "jersey": 21,
+      "playerName": "Jackson Bahr",
+      "twoPM": 0,
+      "twoPA": 0,
+      "threePM": 0.0,
+      "threePA": 0,
+      "ftM": 0,
+      "ftA": 0,
+      "pts": 0,
+      "reb": 0,
+      "tenPlus": null,
+      "doubleDouble": false
+    },
+    {
+      "gameId": "GWBB2026-20260219-A-NBULLI",
+      "playerId": "p_0000000057",
+      "jersey": 30,
+      "playerName": "Boss Caster",
+      "twoPM": 0,
+      "twoPA": 0,
+      "threePM": 0.0,
+      "threePA": 0,
+      "ftM": 0,
+      "ftA": 0,
+      "pts": 0,
+      "reb": 0,
+      "tenPlus": null,
       "doubleDouble": false
     }
   ]
