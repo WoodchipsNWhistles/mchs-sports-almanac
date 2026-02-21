@@ -2,8 +2,17 @@
 layout: base.njk
 title: Lady Wave Basketball
 ---
+<header>
+  <p class="kicker"><a href="{{ '/' | url }}">← Back to Almanac</a></p>
+  <h1 class="masthead-title" style="font-size:clamp(1.9rem,3.5vw,3rem);">Lady Wave Basketball</h1>
+  <hr class="rule">
+</header>
 
-<h1>Lady Wave Basketball</h1>
+<p>
+  Overall Record ({{ overallRecords.lwbb.firstSeasonYearEnd }}–{{ overallRecords.lwbb.lastSeasonYearEnd }})
+<br>
+  {{ overallRecords.lwbb.w }} Wins – {{ overallRecords.lwbb.l }} Losses
+</p>
 
 {% set metaSeasons = lwbb.meta.seasons if lwbb.meta else [] %}
 
