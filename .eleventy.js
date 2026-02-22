@@ -14,6 +14,7 @@ eleventyConfig.addFilter("readJson", function (relPath) {
   // Copy static assets straight through to /docs/assets
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "src/gwbb/data": "gwbb/data" });
+  eleventyConfig.addPassthroughCopy({ "CNAME": "CNAME" });
 
   // GWBB seasons collection (newest first)
   eleventyConfig.addCollection("gwbbSeasons", (collectionApi) => {
