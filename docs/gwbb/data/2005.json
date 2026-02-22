@@ -1,0 +1,239 @@
+{
+  "SeasonYearEnd": 2005,
+  "Sport": "GWBB",
+  "TeamName": "Green Wave",
+  "Nickname": "Green Wave",
+  "Coach": "Jerry Garris",
+  "Region": 5,
+  "District": 17,
+  "HasBoxscores": false,
+  "Source": "Riherds",
+  "StatLevel": "finalScoreOnly",
+  "schedule": [
+    {
+      "GameDate": "2004-12-02",
+      "Opponent": "Fort Knox",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 70,
+      "Points Against": 60
+    },
+    {
+      "GameDate": "2004-12-04",
+      "Opponent": "Greenwood",
+      "SiteCode": "N",
+      "SiteName": "John Hardin",
+      "Outcome": "Loss",
+      "Points for": 53,
+      "Points Against": 57
+    },
+    {
+      "GameDate": "2004-12-07",
+      "Opponent": "John Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 60,
+      "Points Against": 77
+    },
+    {
+      "GameDate": "2004-12-10",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Notes": "OT",
+      "Points for": 60,
+      "Points Against": 56
+    },
+    {
+      "GameDate": "2004-12-14",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 47,
+      "Points Against": 46
+    },
+    {
+      "GameDate": "2004-12-17",
+      "Opponent": "Simon Kenton",
+      "SiteCode": "N",
+      "SiteName": "Grant County",
+      "Outcome": "Loss",
+      "Points for": 55,
+      "Points Against": 65
+    },
+    {
+      "GameDate": "2004-12-18",
+      "Opponent": "Highlands",
+      "SiteCode": "N",
+      "SiteName": "Grant County",
+      "Outcome": "Win",
+      "Points for": 60,
+      "Points Against": 58
+    },
+    {
+      "GameDate": "2004-12-21",
+      "Opponent": "Dixie Heights",
+      "SiteCode": "N",
+      "SiteName": "Grant County",
+      "Outcome": "Loss",
+      "Points for": 53,
+      "Points Against": 70
+    },
+    {
+      "GameDate": "2004-12-28",
+      "Opponent": "Pike County Central",
+      "SiteCode": "N",
+      "SiteName": "Pikeville",
+      "Outcome": "Loss",
+      "Points for": 69,
+      "Points Against": 78
+    },
+    {
+      "GameDate": "2004-12-29",
+      "Opponent": "Pikeville",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 61,
+      "Points Against": 47
+    },
+    {
+      "GameDate": "2005-01-04",
+      "Opponent": "Perth (Australia)",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 67,
+      "Points Against": 62
+    },
+    {
+      "GameDate": "2005-01-06",
+      "Opponent": "Central Hardin",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 53,
+      "Points Against": 44
+    },
+    {
+      "GameDate": "2005-01-11",
+      "Opponent": "North Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 54,
+      "Points Against": 69
+    },
+    {
+      "GameDate": "2005-01-14",
+      "Opponent": "John Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 52,
+      "Points Against": 56
+    },
+    {
+      "GameDate": "2005-01-15",
+      "Opponent": "Ohio County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 61,
+      "Points Against": 71
+    },
+    {
+      "GameDate": "2005-01-18",
+      "Opponent": "Hart County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 74,
+      "Points Against": 76
+    },
+    {
+      "GameDate": "2005-01-21",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 59,
+      "Points Against": 79
+    },
+    {
+      "GameDate": "2005-02-01",
+      "Opponent": "Central Hardin",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 58,
+      "Points Against": 53
+    },
+    {
+      "GameDate": "2005-02-04",
+      "Opponent": "Fort Knox",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 75,
+      "Points Against": 66
+    },
+    {
+      "GameDate": "2005-02-08",
+      "Opponent": "North Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 64,
+      "Points Against": 68
+    },
+    {
+      "GameDate": "2005-02-11",
+      "Opponent": "Nelson County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 88,
+      "Points Against": 47
+    },
+    {
+      "GameDate": "2005-02-15",
+      "Opponent": "Trinity (Louisville)",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 32,
+      "Points Against": 56
+    },
+    {
+      "GameDate": "2005-02-18",
+      "Opponent": "Bullitt Central",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 76,
+      "Points Against": 63
+    },
+    {
+      "GameDate": "2005-02-22",
+      "Opponent": "LaRue County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 44,
+      "Points Against": 38
+    },
+    {
+      "GameDate": "2005-02-25",
+      "Opponent": "Oldham County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 53,
+      "Points Against": 55
+    },
+    {
+      "GameDate": "2005-02-28",
+      "Opponent": "Central Hardin",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Notes": "17th District",
+      "Points for": 83,
+      "Points Against": 72
+    },
+    {
+      "GameDate": "2005-03-02",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "N",
+      "SiteName": "Central Hardin",
+      "Outcome": "Loss",
+      "Notes": "17th District",
+      "Points for": 65,
+      "Points Against": 71
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "SeasonYearEnd": 2001,
+  "Sport": "GWBB",
+  "TeamName": "Green Wave",
+  "Nickname": "Green Wave",
+  "Coach": "Gary Goode",
+  "Region": 5,
+  "District": 17,
+  "HasBoxscores": false,
+  "Source": "Riherds",
+  "StatLevel": "finalScoreOnly",
+  "schedule": [
+    {
+      "GameDate": "2000-12-01",
+      "Opponent": "Fort Knox",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 65,
+      "Points Against": 70
+    },
+    {
+      "GameDate": "2000-12-05",
+      "Opponent": "LaRue County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 50,
+      "Points Against": 69
+    },
+    {
+      "GameDate": "2000-12-08",
+      "Opponent": "North Bullitt",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 67,
+      "Points Against": 59
+    },
+    {
+      "GameDate": "2000-12-11",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 59,
+      "Points Against": 73
+    },
+    {
+      "GameDate": "2000-12-15",
+      "Opponent": "Bethlehem",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 64,
+      "Points Against": 72
+    },
+    {
+      "GameDate": "2000-12-26",
+      "Opponent": "Spencer County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 82,
+      "Points Against": 56
+    },
+    {
+      "GameDate": "2000-12-28",
+      "Opponent": "Montgomery Central (TN)",
+      "SiteCode": "N",
+      "SiteName": "Campbellsville",
+      "Outcome": "Win",
+      "Notes": "Green River Holiday Classic",
+      "Points for": 64,
+      "Points Against": 56
+    },
+    {
+      "GameDate": "2000-12-29",
+      "Opponent": "Campbellsville",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Notes": "Green River Holiday Classic",
+      "Points for": 63,
+      "Points Against": 68
+    },
+    {
+      "GameDate": "2000-12-30",
+      "Opponent": "Greenup County",
+      "SiteCode": "N",
+      "SiteName": "Campbellsville",
+      "Outcome": "Win",
+      "Notes": "Green River Holiday Classic",
+      "Points for": 46,
+      "Points Against": 42
+    },
+    {
+      "GameDate": "2001-01-02",
+      "Opponent": "Hart County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 58,
+      "Points Against": 60
+    },
+    {
+      "GameDate": "2001-01-05",
+      "Opponent": "Central Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 37,
+      "Points Against": 54
+    },
+    {
+      "GameDate": "2001-01-08",
+      "Opponent": "North Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 51,
+      "Points Against": 81
+    },
+    {
+      "GameDate": "2001-01-13",
+      "Opponent": "Bullitt East",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 45,
+      "Points Against": 66
+    },
+    {
+      "GameDate": "2001-01-19",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 54,
+      "Points Against": 78
+    },
+    {
+      "GameDate": "2001-01-23",
+      "Opponent": "Bardstown",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 62,
+      "Points Against": 53
+    },
+    {
+      "GameDate": "2001-01-26",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 32,
+      "Points Against": 60
+    },
+    {
+      "GameDate": "2001-01-30",
+      "Opponent": "Central Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 50,
+      "Points Against": 58
+    },
+    {
+      "GameDate": "2001-02-02",
+      "Opponent": "Fort Knox",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 49,
+      "Points Against": 55
+    },
+    {
+      "GameDate": "2001-02-06",
+      "Opponent": "North Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 50,
+      "Points Against": 108
+    },
+    {
+      "GameDate": "2001-02-09",
+      "Opponent": "Nelson County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 58,
+      "Points Against": 76
+    },
+    {
+      "GameDate": "2001-02-13",
+      "Opponent": "Oldham County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 31,
+      "Points Against": 60
+    },
+    {
+      "GameDate": "2001-02-16",
+      "Opponent": "Owensboro Catholic",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 47,
+      "Points Against": 58
+    },
+    {
+      "GameDate": "2001-02-17",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 38,
+      "Points Against": 57
+    },
+    {
+      "GameDate": "2001-02-20",
+      "Opponent": "LaRue County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 69,
+      "Points Against": 73
+    },
+    {
+      "GameDate": "2001-02-23",
+      "Opponent": "Southern",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 69,
+      "Points Against": 51
+    },
+    {
+      "GameDate": "2001-02-26",
+      "Opponent": "Fort Knox",
+      "SiteCode": "N",
+      "SiteName": "Elizabethtown",
+      "Outcome": "Loss",
+      "Notes": "17th District Tournament",
+      "Points for": 57,
+      "Points Against": 62
+    }
+  ]
+}

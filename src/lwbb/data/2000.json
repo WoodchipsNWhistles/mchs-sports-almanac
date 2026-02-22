@@ -1,0 +1,214 @@
+{
+  "SeasonYearEnd": 2000,
+  "Sport": "LWBB",
+  "TeamName": "Lady Wave",
+  "Nickname": "Lady Wave",
+  "Coach": "Michael Schwartz",
+  "Region": 5,
+  "District": 17,
+  "HasBoxscores": false,
+  "Source": "Riherds",
+  "StatLevel": "finalScoreOnly",
+  "schedule": [
+    {
+      "GameDate": "1999-11-29",
+      "Opponent": "Oldham County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 49,
+      "Points Against": 67
+    },
+    {
+      "GameDate": "1999-12-02",
+      "Opponent": "LaRue County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 33,
+      "Points Against": 48
+    },
+    {
+      "GameDate": "1999-12-06",
+      "Opponent": "Central Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 47,
+      "Points Against": 66
+    },
+    {
+      "GameDate": "1999-12-09",
+      "Opponent": "UNKNOWN",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Notes": "Opponent missing in Riherds",
+      "Points for": 21,
+      "Points Against": 37
+    },
+    {
+      "GameDate": "1999-12-10",
+      "Opponent": "North Bullitt",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 44,
+      "Points Against": 41
+    },
+    {
+      "GameDate": "1999-12-13",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 25,
+      "Points Against": 39
+    },
+    {
+      "GameDate": "1999-12-29",
+      "Opponent": "Henderson County",
+      "SiteCode": "N",
+      "SiteName": "Franklin-Simpson",
+      "Outcome": "Loss",
+      "Notes": "Dominos Classic Tournament",
+      "Points for": 31,
+      "Points Against": 42
+    },
+    {
+      "GameDate": "1999-12-29",
+      "Opponent": "Monroe County",
+      "SiteCode": "N",
+      "SiteName": "Franklin-Simpson",
+      "Outcome": "Loss",
+      "Notes": "Dominos Classic Tournament",
+      "Points for": 46,
+      "Points Against": 55
+    },
+    {
+      "GameDate": "1999-12-30",
+      "Opponent": "Russellville",
+      "SiteCode": "N",
+      "SiteName": "Franklin-Simpson",
+      "Outcome": "Loss",
+      "Notes": "Dominos Classic Tournament",
+      "Points for": 46,
+      "Points Against": 59
+    },
+    {
+      "GameDate": "2000-01-03",
+      "Opponent": "Hancock County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 50,
+      "Points Against": 49
+    },
+    {
+      "GameDate": "2000-01-06",
+      "Opponent": "South Oldham",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 34,
+      "Points Against": 48
+    },
+    {
+      "GameDate": "2000-01-10",
+      "Opponent": "North Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 44,
+      "Points Against": 62
+    },
+    {
+      "GameDate": "2000-01-15",
+      "Opponent": "Bullitt East",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 57,
+      "Points Against": 38
+    },
+    {
+      "GameDate": "2000-01-17",
+      "Opponent": "Grayson County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 58,
+      "Points Against": 40
+    },
+    {
+      "GameDate": "2000-01-20",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 36,
+      "Points Against": 47
+    },
+    {
+      "GameDate": "2000-01-31",
+      "Opponent": "Central Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 50,
+      "Points Against": 55
+    },
+    {
+      "GameDate": "2000-02-03",
+      "Opponent": "Bullitt Central",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 38,
+      "Points Against": 40
+    },
+    {
+      "GameDate": "2000-02-04",
+      "Opponent": "Fort Knox",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 63,
+      "Points Against": 58
+    },
+    {
+      "GameDate": "2000-02-07",
+      "Opponent": "North Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 38,
+      "Points Against": 50
+    },
+    {
+      "GameDate": "2000-02-11",
+      "Opponent": "Nelson County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 50,
+      "Points Against": 40
+    },
+    {
+      "GameDate": "2000-02-15",
+      "Opponent": "Fort Knox",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 56,
+      "Points Against": 38
+    },
+    {
+      "GameDate": "2000-02-17",
+      "Opponent": "Fern Creek",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 50,
+      "Points Against": 36
+    },
+    {
+      "GameDate": "2000-02-25",
+      "Opponent": "Southern",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 62,
+      "Points Against": 72
+    },
+    {
+      "GameDate": "2000-02-29",
+      "Opponent": "Fort Knox",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Notes": "17th District Tournament",
+      "Points for": 41,
+      "Points Against": 45
+    }
+  ]
+}

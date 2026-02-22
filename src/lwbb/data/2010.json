@@ -1,0 +1,338 @@
+{
+  "SeasonYearEnd": 2010,
+  "Sport": "LWBB",
+  "TeamName": "Lady Wave",
+  "Nickname": "Lady Wave",
+  "Coach": "Josh Hurt",
+  "Region": 3,
+  "District": 11,
+  "HasBoxscores": false,
+  "Source": "Riherds",
+  "StatLevel": "finalScoreOnly",
+  "Roster": [
+    {
+      "Jersey": 23,
+      "Name": "Alexa Adams",
+      "Pos": "F",
+      "Year": "Sr."
+    },
+    {
+      "Jersey": 10,
+      "Name": "Kristin Benton",
+      "Pos": "F",
+      "Year": "Jr."
+    },
+    {
+      "Jersey": 20,
+      "Name": "Tiffany Brown",
+      "Pos": "G",
+      "Year": "Jr."
+    },
+    {
+      "Jersey": 42,
+      "Name": "Carly Evans",
+      "Pos": "F",
+      "Year": "Sr."
+    },
+    {
+      "Jersey": 3,
+      "Name": "Rachel Johnson",
+      "Pos": "G",
+      "Year": "So."
+    },
+    {
+      "Jersey": 25,
+      "Name": "Raley Johnson",
+      "Pos": "G",
+      "Year": "8th"
+    },
+    {
+      "Jersey": 34,
+      "Name": "Leanna Luney",
+      "Pos": "C",
+      "Year": "So."
+    },
+    {
+      "Jersey": 32,
+      "Name": "Kayla Padgett",
+      "Pos": "G",
+      "Year": "Jr."
+    },
+    {
+      "Jersey": 24,
+      "Name": "Bliss Powers",
+      "Pos": "F",
+      "Year": "Sr."
+    },
+    {
+      "Jersey": 22,
+      "Name": "Scarlett Powers",
+      "Pos": "F",
+      "Year": "Jr."
+    },
+    {
+      "Jersey": 44,
+      "Name": "Nicole Smith",
+      "Pos": "C",
+      "Year": "Sr."
+    },
+    {
+      "Jersey": 21,
+      "Name": "Mallory Wathen",
+      "Pos": "G",
+      "Year": "Sr."
+    },
+    {
+      "Jersey": 15,
+      "Name": "Caroline Wilson",
+      "Pos": "G",
+      "Year": "Sr."
+    }
+  ],
+  "schedule": [
+    {
+      "GameDate": "2009-11-30",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 48,
+      "Points Against": 70
+    },
+    {
+      "GameDate": "2009-12-01",
+      "Opponent": "South Central (IN)",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 58,
+      "Points Against": 56
+    },
+    {
+      "GameDate": "2009-12-04",
+      "Opponent": "Taylor County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 63,
+      "Points Against": 66
+    },
+    {
+      "GameDate": "2009-12-05",
+      "Opponent": "Paul Laurence Dunbar",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 54,
+      "Points Against": 58
+    },
+    {
+      "GameDate": "2009-12-05",
+      "Opponent": "Spencer County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 80,
+      "Points Against": 32
+    },
+    {
+      "GameDate": "2009-12-07",
+      "Opponent": "Ohio County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 66,
+      "Points Against": 76
+    },
+    {
+      "GameDate": "2009-12-11",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Notes": "OT",
+      "Points for": 68,
+      "Points Against": 64
+    },
+    {
+      "GameDate": "2009-12-12",
+      "Opponent": "Grayson County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 69,
+      "Points Against": 83
+    },
+    {
+      "GameDate": "2009-12-17",
+      "Opponent": "Hancock County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 38,
+      "Points Against": 54
+    },
+    {
+      "GameDate": "2009-12-21",
+      "Opponent": "Station Camp (TN)",
+      "SiteCode": "N",
+      "SiteName": "Gatlinburg-Pittman, TN",
+      "Outcome": "Loss",
+      "Points for": 46,
+      "Points Against": 61
+    },
+    {
+      "GameDate": "2009-12-22",
+      "Opponent": "Paxton (FL)",
+      "SiteCode": "N",
+      "SiteName": "Gatlinburg-Pittman, TN",
+      "Outcome": "Win",
+      "Points for": 59,
+      "Points Against": 51
+    },
+    {
+      "GameDate": "2009-12-23",
+      "Opponent": "Paintsville",
+      "SiteCode": "N",
+      "SiteName": "Gatlinburg-Pittman, TN",
+      "Outcome": "Win",
+      "Points for": 85,
+      "Points Against": 49
+    },
+    {
+      "GameDate": "2010-01-14",
+      "Opponent": "Hancock County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 55,
+      "Points Against": 49
+    },
+    {
+      "GameDate": "2010-01-15",
+      "Opponent": "Cloverport",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 80,
+      "Points Against": 17
+    },
+    {
+      "GameDate": "2010-01-16",
+      "Opponent": "North Bullitt",
+      "SiteCode": "UNKNOWN",
+      "Outcome": "Win",
+      "Notes": "Site missing in Riherds",
+      "Points for": 79,
+      "Points Against": 34
+    },
+    {
+      "GameDate": "2010-01-18",
+      "Opponent": "Apollo",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 65,
+      "Points Against": 39
+    },
+    {
+      "GameDate": "2010-01-22",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 55,
+      "Points Against": 48
+    },
+    {
+      "GameDate": "2010-01-25",
+      "Opponent": "UNKNOWN",
+      "SiteCode": "N",
+      "SiteName": "Floyd Central, IN",
+      "Outcome": "Loss",
+      "Notes": "Opponent missing in Riherds",
+      "Points for": 45,
+      "Points Against": 74
+    },
+    {
+      "GameDate": "2010-01-28",
+      "Opponent": "Owensboro",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 73,
+      "Points Against": 29
+    },
+    {
+      "GameDate": "2010-02-02",
+      "Opponent": "Daviess County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 57,
+      "Points Against": 70
+    },
+    {
+      "GameDate": "2010-02-04",
+      "Opponent": "South Oldham",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 54,
+      "Points Against": 72
+    },
+    {
+      "GameDate": "2010-02-08",
+      "Opponent": "Anderson County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 52,
+      "Points Against": 65
+    },
+    {
+      "GameDate": "2010-02-11",
+      "Opponent": "Cloverport",
+      "SiteCode": "N",
+      "SiteName": "Frederick Fraize",
+      "Outcome": "Win",
+      "Points for": 66,
+      "Points Against": 12
+    },
+    {
+      "GameDate": "2010-02-13",
+      "Opponent": "Muhlenberg County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 86,
+      "Points Against": 50
+    },
+    {
+      "GameDate": "2010-02-19",
+      "Opponent": "Central Hardin",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 70,
+      "Points Against": 58
+    },
+    {
+      "GameDate": "2010-02-20",
+      "Opponent": "Oldham County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 83,
+      "Points Against": 69
+    },
+    {
+      "GameDate": "2010-02-22",
+      "Opponent": "Cloverport",
+      "SiteCode": "N",
+      "SiteName": "Breckinridge County",
+      "Outcome": "Win",
+      "Notes": "11th District",
+      "Points for": 75,
+      "Points Against": 19
+    },
+    {
+      "GameDate": "2010-02-25",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Notes": "11th District Championship",
+      "Points for": 71,
+      "Points Against": 48
+    },
+    {
+      "GameDate": "2010-03-01",
+      "Opponent": "Owensboro Catholic",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Notes": "3rd Region",
+      "Points for": 66,
+      "Points Against": 73
+    }
+  ]
+}

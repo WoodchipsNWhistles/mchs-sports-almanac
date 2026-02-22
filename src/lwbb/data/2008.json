@@ -1,0 +1,276 @@
+{
+  "SeasonYearEnd": 2008,
+  "Sport": "LWBB",
+  "TeamName": "Lady Wave",
+  "Nickname": "Lady Wave",
+  "Coach": "Josh Hurt",
+  "Region": 3,
+  "District": 11,
+  "HasBoxscores": false,
+  "Source": "Riherds",
+  "StatLevel": "finalScoreOnly",
+  "schedule": [
+    {
+      "GameDate": "2007-11-27",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 27,
+      "Points Against": 88
+    },
+    {
+      "GameDate": "2007-11-30",
+      "Opponent": "Muhlenberg North",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 43,
+      "Points Against": 70
+    },
+    {
+      "GameDate": "2007-12-03",
+      "Opponent": "Grayson County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 45,
+      "Points Against": 38
+    },
+    {
+      "GameDate": "2007-12-07",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 56,
+      "Points Against": 42
+    },
+    {
+      "GameDate": "2007-12-08",
+      "Opponent": "Apollo",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 32,
+      "Points Against": 59
+    },
+    {
+      "GameDate": "2007-12-10",
+      "Opponent": "Ohio County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 54,
+      "Points Against": 56
+    },
+    {
+      "GameDate": "2007-12-14",
+      "Opponent": "John Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 43,
+      "Points Against": 44
+    },
+    {
+      "GameDate": "2007-12-20",
+      "Opponent": "Franklin County",
+      "SiteCode": "N",
+      "SiteName": "Gatlinburg, TN",
+      "Outcome": "Loss",
+      "Points for": 40,
+      "Points Against": 52
+    },
+    {
+      "GameDate": "2007-12-21",
+      "Opponent": "South Doyle (TN)",
+      "SiteCode": "N",
+      "SiteName": "Gatlinburg, TN",
+      "Outcome": "Win",
+      "Points for": 47,
+      "Points Against": 31
+    },
+    {
+      "GameDate": "2007-12-22",
+      "Opponent": "Butler (GA)",
+      "SiteCode": "N",
+      "SiteName": "Gatlinburg, TN",
+      "Outcome": "Loss",
+      "Notes": "OT",
+      "Points for": 43,
+      "Points Against": 47
+    },
+    {
+      "GameDate": "2007-12-26",
+      "Opponent": "Gallatin County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 59,
+      "Points Against": 41
+    },
+    {
+      "GameDate": "2007-12-27",
+      "Opponent": "Carroll County",
+      "SiteCode": "N",
+      "SiteName": "Gallatin County",
+      "Outcome": "Win",
+      "Points for": 48,
+      "Points Against": 37
+    },
+    {
+      "GameDate": "2007-12-28",
+      "Opponent": "Eminence",
+      "SiteCode": "N",
+      "SiteName": "Gallatin County",
+      "Outcome": "Win",
+      "Points for": 47,
+      "Points Against": 15
+    },
+    {
+      "GameDate": "2007-12-29",
+      "Opponent": "Owen County",
+      "SiteCode": "N",
+      "SiteName": "Gallatin County",
+      "Outcome": "Loss",
+      "Notes": "Championship",
+      "Points for": 38,
+      "Points Against": 39
+    },
+    {
+      "GameDate": "2008-01-03",
+      "Opponent": "UNKNOWN",
+      "SiteCode": "N",
+      "SiteName": "Floyd Central, IN",
+      "Outcome": "Loss",
+      "Notes": "Opponent missing in Riherds",
+      "Points for": 28,
+      "Points Against": 50
+    },
+    {
+      "GameDate": "2008-01-10",
+      "Opponent": "Hancock County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 61,
+      "Points Against": 37
+    },
+    {
+      "GameDate": "2008-01-12",
+      "Opponent": "Edmonson County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 47,
+      "Points Against": 42
+    },
+    {
+      "GameDate": "2008-01-17",
+      "Opponent": "Hancock County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 56,
+      "Points Against": 40
+    },
+    {
+      "GameDate": "2008-01-18",
+      "Opponent": "Cloverport",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 76,
+      "Points Against": 15
+    },
+    {
+      "GameDate": "2008-01-24",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 45,
+      "Points Against": 39
+    },
+    {
+      "GameDate": "2008-01-29",
+      "Opponent": "North Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 49,
+      "Points Against": 70
+    },
+    {
+      "GameDate": "2008-02-02",
+      "Opponent": "Fort Knox",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 63,
+      "Points Against": 29
+    },
+    {
+      "GameDate": "2008-02-05",
+      "Opponent": "Owensboro",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 54,
+      "Points Against": 71
+    },
+    {
+      "GameDate": "2008-02-07",
+      "Opponent": "South Oldham",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 47,
+      "Points Against": 58
+    },
+    {
+      "GameDate": "2008-02-09",
+      "Opponent": "Cloverport",
+      "SiteCode": "N",
+      "SiteName": "Frederick Fraize",
+      "Outcome": "Win",
+      "Points for": 67,
+      "Points Against": 8
+    },
+    {
+      "GameDate": "2008-02-16",
+      "Opponent": "Muhlenberg South",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 57,
+      "Points Against": 30
+    },
+    {
+      "GameDate": "2008-02-18",
+      "Opponent": "Owensboro Catholic",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 30,
+      "Points Against": 47
+    },
+    {
+      "GameDate": "2008-02-22",
+      "Opponent": "Central Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 31,
+      "Points Against": 60
+    },
+    {
+      "GameDate": "2008-02-25",
+      "Opponent": "Cloverport",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Notes": "11th District",
+      "Points for": 82,
+      "Points Against": 11
+    },
+    {
+      "GameDate": "2008-02-28",
+      "Opponent": "Hancock County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Notes": "11th District Championship",
+      "Points for": 61,
+      "Points Against": 29
+    },
+    {
+      "GameDate": "2008-03-03",
+      "Opponent": "Muhlenberg North",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Notes": "3rd Region",
+      "Points for": 33,
+      "Points Against": 53
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "SeasonYearEnd": 2004,
+  "Sport": "GWBB",
+  "TeamName": "Green Wave",
+  "Nickname": "Green Wave",
+  "Coach": "Jerry Garris",
+  "Region": 5,
+  "District": 17,
+  "HasBoxscores": false,
+  "Source": "Riherds",
+  "StatLevel": "finalScoreOnly",
+  "schedule": [
+    {
+      "GameDate": "2003-12-04",
+      "Opponent": "Fort Knox",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 43,
+      "Points Against": 34
+    },
+    {
+      "GameDate": "2003-12-06",
+      "Opponent": "Western Hills",
+      "SiteCode": "N",
+      "SiteName": "Central Hardin",
+      "Outcome": "Loss",
+      "Points for": 51,
+      "Points Against": 63
+    },
+    {
+      "GameDate": "2003-12-09",
+      "Opponent": "John Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 36,
+      "Points Against": 37
+    },
+    {
+      "GameDate": "2003-12-16",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 31,
+      "Points Against": 69
+    },
+    {
+      "GameDate": "2003-12-19",
+      "Opponent": "Western Hills",
+      "SiteCode": "N",
+      "SiteName": "North Oldham",
+      "Outcome": "Win",
+      "Points for": 53,
+      "Points Against": 52
+    },
+    {
+      "GameDate": "2003-12-20",
+      "Opponent": "Boone County",
+      "SiteCode": "N",
+      "SiteName": "North Oldham",
+      "Outcome": "Loss",
+      "Points for": 51,
+      "Points Against": 71
+    },
+    {
+      "GameDate": "2003-12-20",
+      "Opponent": "North Oldham",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 70,
+      "Points Against": 49
+    },
+    {
+      "GameDate": "2003-12-27",
+      "Opponent": "Lincoln County",
+      "SiteCode": "N",
+      "SiteName": "South Laurel/North Laurel",
+      "Outcome": "Loss",
+      "Points for": 53,
+      "Points Against": 59
+    },
+    {
+      "GameDate": "2003-12-28",
+      "Opponent": "Chattanooga Baylor (TN)",
+      "SiteCode": "N",
+      "SiteName": "South Laurel/North Laurel",
+      "Outcome": "Loss",
+      "Points for": 42,
+      "Points Against": 61
+    },
+    {
+      "GameDate": "2004-01-02",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Notes": "2OT",
+      "Points for": 64,
+      "Points Against": 68
+    },
+    {
+      "GameDate": "2004-01-03",
+      "Opponent": "Montgomery County",
+      "SiteCode": "N",
+      "SiteName": "George Rogers Clark",
+      "Outcome": "Loss",
+      "Points for": 45,
+      "Points Against": 68
+    },
+    {
+      "GameDate": "2004-01-06",
+      "Opponent": "Bethlehem",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 54,
+      "Points Against": 46
+    },
+    {
+      "GameDate": "2004-01-08",
+      "Opponent": "Central Hardin",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 56,
+      "Points Against": 51
+    },
+    {
+      "GameDate": "2004-01-13",
+      "Opponent": "North Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 44,
+      "Points Against": 57
+    },
+    {
+      "GameDate": "2004-01-16",
+      "Opponent": "John Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 66,
+      "Points Against": 72
+    },
+    {
+      "GameDate": "2004-01-17",
+      "Opponent": "Ohio County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 45,
+      "Points Against": 50
+    },
+    {
+      "GameDate": "2004-01-20",
+      "Opponent": "Hart County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 71,
+      "Points Against": 53
+    },
+    {
+      "GameDate": "2004-01-23",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 54,
+      "Points Against": 70
+    },
+    {
+      "GameDate": "2004-02-03",
+      "Opponent": "Central Hardin",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 65,
+      "Points Against": 43
+    },
+    {
+      "GameDate": "2004-02-06",
+      "Opponent": "Fort Knox",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 60,
+      "Points Against": 47
+    },
+    {
+      "GameDate": "2004-02-10",
+      "Opponent": "North Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 48,
+      "Points Against": 54
+    },
+    {
+      "GameDate": "2004-02-13",
+      "Opponent": "Nelson County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 65,
+      "Points Against": 80
+    },
+    {
+      "GameDate": "2004-02-17",
+      "Opponent": "Trinity (Louisville)",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 59,
+      "Points Against": 72
+    },
+    {
+      "GameDate": "2004-02-24",
+      "Opponent": "LaRue County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 41,
+      "Points Against": 48
+    },
+    {
+      "GameDate": "2004-02-27",
+      "Opponent": "Oldham County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 60,
+      "Points Against": 69
+    },
+    {
+      "GameDate": "2004-03-01",
+      "Opponent": "Central Hardin",
+      "SiteCode": "N",
+      "SiteName": "Elizabethtown",
+      "Outcome": "Win",
+      "Notes": "17th District",
+      "Points for": 66,
+      "Points Against": 51
+    },
+    {
+      "GameDate": "2004-03-03",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Notes": "17th District",
+      "Points for": 44,
+      "Points Against": 68
+    }
+  ]
+}

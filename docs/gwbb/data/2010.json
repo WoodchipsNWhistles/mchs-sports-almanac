@@ -1,0 +1,325 @@
+{
+  "SeasonYearEnd": 2010,
+  "Sport": "GWBB",
+  "TeamName": "Green Wave",
+  "Nickname": "Green Wave",
+  "Coach": "Jerry Garris",
+  "Region": 3,
+  "District": 11,
+  "HasBoxscores": false,
+  "Source": "Riherds",
+  "StatLevel": "finalScoreOnly",
+  "Roster": [
+    {
+      "Jersey": 3,
+      "Name": "Chase Garris",
+      "Pos": "Guard",
+      "Grade": "So."
+    },
+    {
+      "Jersey": 4,
+      "Name": "Bryce Garris",
+      "Pos": "Guard",
+      "Grade": "Fr."
+    },
+    {
+      "Jersey": 10,
+      "Name": "Travis Desrochers",
+      "Pos": "Guard",
+      "Grade": "Fr."
+    },
+    {
+      "Jersey": 11,
+      "Name": "Bo Wilson",
+      "Pos": "Guard",
+      "Grade": "So."
+    },
+    {
+      "Jersey": 12,
+      "Name": "Jacob Waldecker",
+      "Pos": "Guard",
+      "Grade": "Fr."
+    },
+    {
+      "Jersey": 14,
+      "Name": "Jared Raymer",
+      "Pos": "Guard",
+      "Grade": "Fr."
+    },
+    {
+      "Jersey": 15,
+      "Name": "Isaiah Satram",
+      "Pos": "Guard",
+      "Grade": "Sr."
+    },
+    {
+      "Jersey": 21,
+      "Name": "Thomas Wilson",
+      "Pos": "Forward",
+      "Grade": "So."
+    },
+    {
+      "Jersey": 22,
+      "Name": "Cheaney Schwartz",
+      "Pos": "Guard",
+      "Grade": "So."
+    },
+    {
+      "Jersey": 24,
+      "Name": "Connor Williams",
+      "Pos": "Forward",
+      "Grade": "Fr."
+    },
+    {
+      "Jersey": 30,
+      "Name": "Zach Bogard",
+      "Pos": "Forward",
+      "Grade": "Fr."
+    },
+    {
+      "Jersey": 32,
+      "Name": "Stephen Compton",
+      "Pos": "Center",
+      "Grade": "So."
+    },
+    {
+      "Jersey": 33,
+      "Name": "Will Campbell",
+      "Pos": "Forward",
+      "Grade": "Sr."
+    },
+    {
+      "Jersey": 35,
+      "Name": "Wes Dowell",
+      "Pos": "Center",
+      "Grade": "So."
+    },
+    {
+      "Jersey": 40,
+      "Name": "Cody Warman",
+      "Pos": "Center",
+      "Grade": "Fr."
+    }
+  ],
+  "schedule": [
+    {
+      "GameDate": "2009-12-01",
+      "Opponent": "Daviess County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 27,
+      "Points Against": 76
+    },
+    {
+      "GameDate": "2009-12-05",
+      "Opponent": "Todd County Central",
+      "SiteCode": "N",
+      "SiteName": "Breckinridge County",
+      "Outcome": "Loss",
+      "Points for": 46,
+      "Points Against": 53
+    },
+    {
+      "GameDate": "2009-12-08",
+      "Opponent": "Hancock County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 44,
+      "Points Against": 35
+    },
+    {
+      "GameDate": "2009-12-15",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 52,
+      "Points Against": 67
+    },
+    {
+      "GameDate": "2009-12-18",
+      "Opponent": "Campbellsville",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 62,
+      "Points Against": 65
+    },
+    {
+      "GameDate": "2009-12-21",
+      "Opponent": "Allen County-Scottsville",
+      "SiteCode": "N",
+      "SiteName": "Gatlinburg-Pittman, TN",
+      "Outcome": "Loss",
+      "Points for": 51,
+      "Points Against": 57
+    },
+    {
+      "GameDate": "2009-12-22",
+      "Opponent": "Pikeville",
+      "SiteCode": "N",
+      "SiteName": "Gatlinburg-Pittman, TN",
+      "Outcome": "Loss",
+      "Points for": 36,
+      "Points Against": 61
+    },
+    {
+      "GameDate": "2009-12-23",
+      "Opponent": "Loretto (TN)",
+      "SiteCode": "N",
+      "SiteName": "Gatlinburg-Pittman, TN",
+      "Outcome": "Win",
+      "Points for": 60,
+      "Points Against": 50
+    },
+    {
+      "GameDate": "2009-12-28",
+      "Opponent": "Oldham County",
+      "SiteCode": "N",
+      "SiteName": "Shelby County",
+      "Outcome": "Loss",
+      "Points for": 37,
+      "Points Against": 38
+    },
+    {
+      "GameDate": "2009-12-29",
+      "Opponent": "Bullitt East",
+      "SiteCode": "N",
+      "SiteName": "Shelby County",
+      "Outcome": "Loss",
+      "Points for": 52,
+      "Points Against": 72
+    },
+    {
+      "GameDate": "2009-12-30",
+      "Opponent": "Middletown (OH)",
+      "SiteCode": "N",
+      "SiteName": "Shelby County",
+      "Outcome": "Loss",
+      "Points for": 31,
+      "Points Against": 55
+    },
+    {
+      "GameDate": "2010-01-02",
+      "Opponent": "Muhlenberg County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 47,
+      "Points Against": 61
+    },
+    {
+      "GameDate": "2010-01-05",
+      "Opponent": "UNKNOWN",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Notes": "Opponent missing in Riherds",
+      "Points for": 52,
+      "Points Against": 61
+    },
+    {
+      "GameDate": "2010-01-12",
+      "Opponent": "Hancock County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 54,
+      "Points Against": 52
+    },
+    {
+      "GameDate": "2010-01-15",
+      "Opponent": "Cloverport",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 62,
+      "Points Against": 34
+    },
+    {
+      "GameDate": "2010-01-19",
+      "Opponent": "North Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 59,
+      "Points Against": 85
+    },
+    {
+      "GameDate": "2010-01-23",
+      "Opponent": "John Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 26,
+      "Points Against": 41
+    },
+    {
+      "GameDate": "2010-01-26",
+      "Opponent": "South Oldham",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 49,
+      "Points Against": 100
+    },
+    {
+      "GameDate": "2010-01-29",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 53,
+      "Points Against": 54
+    },
+    {
+      "GameDate": "2010-02-02",
+      "Opponent": "LaRue County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 58,
+      "Points Against": 48
+    },
+    {
+      "GameDate": "2010-02-05",
+      "Opponent": "Ohio County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 46,
+      "Points Against": 66
+    },
+    {
+      "GameDate": "2010-02-12",
+      "Opponent": "Apollo",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 35,
+      "Points Against": 49
+    },
+    {
+      "GameDate": "2010-02-13",
+      "Opponent": "Cloverport",
+      "SiteCode": "N",
+      "SiteName": "Frederick Fraize",
+      "Outcome": "Win",
+      "Points for": 68,
+      "Points Against": 34
+    },
+    {
+      "GameDate": "2010-02-19",
+      "Opponent": "Central Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 53,
+      "Points Against": 63
+    },
+    {
+      "GameDate": "2010-02-20",
+      "Opponent": "North Bullitt",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 46,
+      "Points Against": 45
+    },
+    {
+      "GameDate": "2010-02-23",
+      "Opponent": "Hancock County",
+      "SiteCode": "N",
+      "SiteName": "Breckinridge County",
+      "Outcome": "Loss",
+      "Notes": "11th District",
+      "Points for": 59,
+      "Points Against": 72
+    }
+  ]
+}

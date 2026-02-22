@@ -1,0 +1,251 @@
+{
+  "SeasonYearEnd": 2003,
+  "Sport": "GWBB",
+  "TeamName": "Green Wave",
+  "Nickname": "Green Wave",
+  "Coach": "Jerry Garris",
+  "Region": 5,
+  "District": 17,
+  "HasBoxscores": false,
+  "Source": "Riherds",
+  "StatLevel": "finalScoreOnly",
+  "schedule": [
+    {
+      "GameDate": "2002-12-05",
+      "Opponent": "Fort Knox",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 56,
+      "Points Against": 45
+    },
+    {
+      "GameDate": "2002-12-07",
+      "Opponent": "Campbellsville",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 77,
+      "Points Against": 88
+    },
+    {
+      "GameDate": "2002-12-10",
+      "Opponent": "John Hardin",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 63,
+      "Points Against": 55
+    },
+    {
+      "GameDate": "2002-12-17",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 53,
+      "Points Against": 68
+    },
+    {
+      "GameDate": "2002-12-20",
+      "Opponent": "Marshall County",
+      "SiteCode": "N",
+      "SiteName": "Jeffersontown",
+      "Outcome": "Loss",
+      "Points for": 43,
+      "Points Against": 61
+    },
+    {
+      "GameDate": "2002-12-21",
+      "Opponent": "Kentucky Country Day",
+      "SiteCode": "N",
+      "SiteName": "Jeffersontown",
+      "Outcome": "Loss",
+      "Notes": "OT",
+      "Points for": 56,
+      "Points Against": 60
+    },
+    {
+      "GameDate": "2002-12-23",
+      "Opponent": "Washington County",
+      "SiteCode": "N",
+      "SiteName": "Jeffersontown",
+      "Outcome": "Win",
+      "Points for": 65,
+      "Points Against": 42
+    },
+    {
+      "GameDate": "2002-12-26",
+      "Opponent": "Cumberland County",
+      "SiteCode": "N",
+      "SiteName": "Caverna",
+      "Outcome": "Win",
+      "Points for": 68,
+      "Points Against": 46
+    },
+    {
+      "GameDate": "2002-12-27",
+      "Opponent": "Raceland",
+      "SiteCode": "N",
+      "SiteName": "Caverna",
+      "Outcome": "Win",
+      "Points for": 44,
+      "Points Against": 37
+    },
+    {
+      "GameDate": "2002-12-28",
+      "Opponent": "Caverna",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Notes": "Championship",
+      "Points for": 61,
+      "Points Against": 45
+    },
+    {
+      "GameDate": "2003-01-03",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 54,
+      "Points Against": 37
+    },
+    {
+      "GameDate": "2003-01-07",
+      "Opponent": "Bethlehem",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 62,
+      "Points Against": 65
+    },
+    {
+      "GameDate": "2003-01-10",
+      "Opponent": "Central Hardin",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 53,
+      "Points Against": 41
+    },
+    {
+      "GameDate": "2003-01-14",
+      "Opponent": "North Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 48,
+      "Points Against": 57
+    },
+    {
+      "GameDate": "2003-01-21",
+      "Opponent": "Hart County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 60,
+      "Points Against": 64
+    },
+    {
+      "GameDate": "2003-01-24",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 38,
+      "Points Against": 78
+    },
+    {
+      "GameDate": "2003-01-28",
+      "Opponent": "Shawnee",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 87,
+      "Points Against": 53
+    },
+    {
+      "GameDate": "2003-01-31",
+      "Opponent": "Western",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 80,
+      "Points Against": 61
+    },
+    {
+      "GameDate": "2003-02-04",
+      "Opponent": "Central Hardin",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 56,
+      "Points Against": 52
+    },
+    {
+      "GameDate": "2003-02-06",
+      "Opponent": "Whitefield Academy",
+      "SiteCode": "N",
+      "SiteName": "Highview Baptist",
+      "Outcome": "Win",
+      "Notes": "Rescheduled from 2003-01-16",
+      "Points for": 76,
+      "Points Against": 60
+    },
+    {
+      "GameDate": "2003-02-07",
+      "Opponent": "Fort Knox",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 67,
+      "Points Against": 49
+    },
+    {
+      "GameDate": "2003-02-11",
+      "Opponent": "North Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 43,
+      "Points Against": 82
+    },
+    {
+      "GameDate": "2003-02-14",
+      "Opponent": "Nelson County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 56,
+      "Points Against": 61
+    },
+    {
+      "GameDate": "2003-02-21",
+      "Opponent": "John Hardin",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 52,
+      "Points Against": 43
+    },
+    {
+      "GameDate": "2003-02-27",
+      "Opponent": "LaRue County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 43,
+      "Points Against": 44
+    },
+    {
+      "GameDate": "2003-02-28",
+      "Opponent": "Oldham County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 63,
+      "Points Against": 57
+    },
+    {
+      "GameDate": "2003-03-03",
+      "Opponent": "Fort Knox",
+      "SiteCode": "N",
+      "SiteName": "Central Hardin",
+      "Outcome": "Win",
+      "Notes": "17th District",
+      "Points for": 72,
+      "Points Against": 56
+    },
+    {
+      "GameDate": "2003-03-05",
+      "Opponent": "North Hardin",
+      "SiteCode": "N",
+      "SiteName": "Central Hardin",
+      "Outcome": "Loss",
+      "Notes": "17th District",
+      "Points for": 44,
+      "Points Against": 53
+    }
+  ]
+}

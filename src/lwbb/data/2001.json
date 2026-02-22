@@ -1,0 +1,251 @@
+{
+  "SeasonYearEnd": 2001,
+  "Sport": "LWBB",
+  "TeamName": "Lady Wave",
+  "Nickname": "Lady Wave",
+  "Coach": "Michael Schwartz",
+  "Region": 5,
+  "District": 17,
+  "HasBoxscores": false,
+  "Source": "Riherds",
+  "StatLevel": "finalScoreOnly",
+  "schedule": [
+    {
+      "GameDate": "2000-11-27",
+      "Opponent": "Oldham County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 48,
+      "Points Against": 69
+    },
+    {
+      "GameDate": "2000-12-04",
+      "Opponent": "Central Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 44,
+      "Points Against": 51
+    },
+    {
+      "GameDate": "2000-12-07",
+      "Opponent": "Floyd Central, IN",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 47,
+      "Points Against": 63
+    },
+    {
+      "GameDate": "2000-12-08",
+      "Opponent": "North Bullitt",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 42,
+      "Points Against": 28
+    },
+    {
+      "GameDate": "2000-12-12",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 51,
+      "Points Against": 38
+    },
+    {
+      "GameDate": "2000-12-15",
+      "Opponent": "Bullitt Central",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 40,
+      "Points Against": 46
+    },
+    {
+      "GameDate": "2000-12-20",
+      "Opponent": "Bardstown",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 56,
+      "Points Against": 50
+    },
+    {
+      "GameDate": "2000-12-27",
+      "Opponent": "Paducah Tilghman",
+      "SiteCode": "N",
+      "SiteName": "Daviess County",
+      "Outcome": "Win",
+      "Notes": "Lady Panther Invitational",
+      "Points for": 78,
+      "Points Against": 42
+    },
+    {
+      "GameDate": "2000-12-28",
+      "Opponent": "North Laurel",
+      "SiteCode": "N",
+      "SiteName": "Daviess County",
+      "Outcome": "Win",
+      "Notes": "Lady Panther Invitational; overtime",
+      "Points for": 59,
+      "Points Against": 57
+    },
+    {
+      "GameDate": "2001-01-02",
+      "Opponent": "Daviess County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Notes": "Lady Panther Invitational championship",
+      "Points for": 46,
+      "Points Against": 54
+    },
+    {
+      "GameDate": "2001-01-09",
+      "Opponent": "North Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 41,
+      "Points Against": 44
+    },
+    {
+      "GameDate": "2001-01-11",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 48,
+      "Points Against": 33
+    },
+    {
+      "GameDate": "2001-01-13",
+      "Opponent": "Bullitt East",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 65,
+      "Points Against": 43
+    },
+    {
+      "GameDate": "2001-01-15",
+      "Opponent": "Grayson County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 50,
+      "Points Against": 41
+    },
+    {
+      "GameDate": "2001-01-18",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 38,
+      "Points Against": 57
+    },
+    {
+      "GameDate": "2001-01-23",
+      "Opponent": "Hancock County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 59,
+      "Points Against": 32
+    },
+    {
+      "GameDate": "2001-01-25",
+      "Opponent": "LaRue County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 45,
+      "Points Against": 24
+    },
+    {
+      "GameDate": "2001-01-30",
+      "Opponent": "Central Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 40,
+      "Points Against": 54
+    },
+    {
+      "GameDate": "2001-02-02",
+      "Opponent": "Fort Knox",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 60,
+      "Points Against": 50
+    },
+    {
+      "GameDate": "2001-02-06",
+      "Opponent": "North Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 41,
+      "Points Against": 42
+    },
+    {
+      "GameDate": "2001-02-09",
+      "Opponent": "Nelson County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 51,
+      "Points Against": 37
+    },
+    {
+      "GameDate": "2001-02-13",
+      "Opponent": "Fort Knox",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 41,
+      "Points Against": 59
+    },
+    {
+      "GameDate": "2001-02-15",
+      "Opponent": "Fern Creek",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 51,
+      "Points Against": 39
+    },
+    {
+      "GameDate": "2001-02-23",
+      "Opponent": "Southern",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 67,
+      "Points Against": 37
+    },
+    {
+      "GameDate": "2001-02-27",
+      "Opponent": "North Hardin",
+      "SiteCode": "N",
+      "SiteName": "North Hardin",
+      "Outcome": "Win",
+      "Notes": "17th District Tournament",
+      "Points for": 41,
+      "Points Against": 38
+    },
+    {
+      "GameDate": "2001-03-01",
+      "Opponent": "Central Hardin",
+      "SiteCode": "N",
+      "SiteName": "North Hardin",
+      "Outcome": "Win",
+      "Notes": "17th District Tournament",
+      "Points for": 56,
+      "Points Against": 50
+    },
+    {
+      "GameDate": "2001-03-03",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "N",
+      "SiteName": "North Hardin",
+      "Outcome": "Loss",
+      "Notes": "17th District Tournament championship",
+      "Points for": 46,
+      "Points Against": 59
+    },
+    {
+      "GameDate": "2001-03-08",
+      "Opponent": "Hart County",
+      "SiteCode": "N",
+      "SiteName": "Green County",
+      "Outcome": "Loss",
+      "Notes": "5th Region Tournament",
+      "Points for": 38,
+      "Points Against": 56
+    }
+  ]
+}

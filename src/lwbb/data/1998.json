@@ -1,0 +1,33 @@
+{
+  "SeasonYearEnd": 1998,
+  "Sport": "LWBB",
+  "TeamName": "Lady Wave",
+  "Nickname": "Lady Wave",
+  "Region": 5,
+  "District": 17,
+  "HasBoxscores": false,
+  "Source": "Riherds",
+  "StatLevel": "finalScoreOnly",
+  "schedule": [
+    {
+      "GameDate": "1998-02-23",
+      "Opponent": "Fort Knox",
+      "SiteCode": "N",
+      "SiteName": "Central Hardin",
+      "Outcome": "Win",
+      "Notes": "17th District Tournament",
+      "Points for": 46,
+      "Points Against": 39
+    },
+    {
+      "GameDate": "1998-02-25",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "N",
+      "SiteName": "Central Hardin",
+      "Outcome": "Loss",
+      "Notes": "17th District Tournament",
+      "Points for": 39,
+      "Points Against": 64
+    }
+  ]
+}

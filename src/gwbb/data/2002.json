@@ -1,0 +1,243 @@
+{
+  "SeasonYearEnd": 2002,
+  "Sport": "GWBB",
+  "TeamName": "Green Wave",
+  "Nickname": "Green Wave",
+  "Coach": "Jerry Garris",
+  "Region": 5,
+  "District": 17,
+  "HasBoxscores": false,
+  "Source": "Riherds",
+  "StatLevel": "finalScoreOnly",
+  "schedule": [
+    {
+      "GameDate": "2001-11-27",
+      "Opponent": "LaRue County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Notes": "OT",
+      "Points for": 59,
+      "Points Against": 63
+    },
+    {
+      "GameDate": "2001-11-30",
+      "Opponent": "Fort Knox",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 60,
+      "Points Against": 48
+    },
+    {
+      "GameDate": "2001-12-04",
+      "Opponent": "John Hardin",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 66,
+      "Points Against": 28
+    },
+    {
+      "GameDate": "2001-12-07",
+      "Opponent": "South Central (Union Mill) (IN)",
+      "SiteCode": "N",
+      "SiteName": "Bellarmine University",
+      "Outcome": "Loss",
+      "Notes": "Blue-Chip Shootout",
+      "Points for": 38,
+      "Points Against": 81
+    },
+    {
+      "GameDate": "2001-12-11",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 62,
+      "Points Against": 71
+    },
+    {
+      "GameDate": "2001-12-14",
+      "Opponent": "Bethlehem",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 70,
+      "Points Against": 81
+    },
+    {
+      "GameDate": "2001-12-18",
+      "Opponent": "Bardstown",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 89,
+      "Points Against": 81
+    },
+    {
+      "GameDate": "2001-12-20",
+      "Opponent": "Edmonson County",
+      "SiteCode": "N",
+      "SiteName": "Caverna",
+      "Outcome": "Win",
+      "Notes": "Pizza Hut Holiday Classic",
+      "Points for": 72,
+      "Points Against": 57
+    },
+    {
+      "GameDate": "2001-12-21",
+      "Opponent": "Grayson County",
+      "SiteCode": "N",
+      "SiteName": "Caverna",
+      "Outcome": "Loss",
+      "Notes": "Pizza Hut Holiday Classic",
+      "Points for": 61,
+      "Points Against": 64
+    },
+    {
+      "GameDate": "2001-12-22",
+      "Opponent": "Caverna",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Notes": "Pizza Hut Holiday Classic",
+      "Points for": 71,
+      "Points Against": 64
+    },
+    {
+      "GameDate": "2002-01-04",
+      "Opponent": "Central Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 51,
+      "Points Against": 55
+    },
+    {
+      "GameDate": "2002-01-08",
+      "Opponent": "North Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 45,
+      "Points Against": 94
+    },
+    {
+      "GameDate": "2002-01-10",
+      "Opponent": "Whitefield Academy",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 66,
+      "Points Against": 37
+    },
+    {
+      "GameDate": "2002-01-15",
+      "Opponent": "Hart County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 54,
+      "Points Against": 52
+    },
+    {
+      "GameDate": "2002-01-18",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 59,
+      "Points Against": 82
+    },
+    {
+      "GameDate": "2002-01-22",
+      "Opponent": "Shawnee",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 55,
+      "Points Against": 77
+    },
+    {
+      "GameDate": "2002-01-25",
+      "Opponent": "Western",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 57,
+      "Points Against": 91
+    },
+    {
+      "GameDate": "2002-01-29",
+      "Opponent": "Central Hardin",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 67,
+      "Points Against": 59
+    },
+    {
+      "GameDate": "2002-02-01",
+      "Opponent": "Fort Knox",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 67,
+      "Points Against": 60
+    },
+    {
+      "GameDate": "2002-02-05",
+      "Opponent": "North Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 50,
+      "Points Against": 85
+    },
+    {
+      "GameDate": "2002-02-08",
+      "Opponent": "Nelson County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Notes": "OT",
+      "Points for": 77,
+      "Points Against": 70
+    },
+    {
+      "GameDate": "2002-02-15",
+      "Opponent": "John Hardin",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 48,
+      "Points Against": 37
+    },
+    {
+      "GameDate": "2002-02-16",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 66,
+      "Points Against": 53
+    },
+    {
+      "GameDate": "2002-02-19",
+      "Opponent": "LaRue County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 63,
+      "Points Against": 78
+    },
+    {
+      "GameDate": "2002-02-22",
+      "Opponent": "Oldham County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 33,
+      "Points Against": 71
+    },
+    {
+      "GameDate": "2002-02-25",
+      "Opponent": "John Hardin",
+      "SiteCode": "N",
+      "SiteName": "North Hardin",
+      "Outcome": "Win",
+      "Notes": "17th District",
+      "Points for": 71,
+      "Points Against": 46
+    },
+    {
+      "GameDate": "2002-02-27",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "N",
+      "SiteName": "North Hardin",
+      "Outcome": "Loss",
+      "Notes": "17th District",
+      "Points for": 41,
+      "Points Against": 77
+    }
+  ]
+}

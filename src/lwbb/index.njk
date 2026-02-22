@@ -2,6 +2,7 @@
 layout: base.njk
 title: Lady Wave Basketball
 ---
+
 <header>
   <p class="kicker"><a href="{{ '/' | url }}">← Back to Almanac</a></p>
   <h1 class="masthead-title" style="font-size:clamp(1.9rem,3.5vw,3rem);">Lady Wave Basketball</h1>
@@ -9,21 +10,22 @@ title: Lady Wave Basketball
 </header>
 
 <p>
-  Overall Record ({{ overallRecords.lwbb.firstSeasonYearEnd }}–{{ overallRecords.lwbb.lastSeasonYearEnd }})
-<br>
-  {{ overallRecords.lwbb.w }} Wins – {{ overallRecords.lwbb.l }} Losses
+  Overall Record ({{ overallRecords.lwbb.firstSeasonYearEnd }}–{{ overallRecords.lwbb.lastSeasonYearEnd }})<br>
+  {{ overallRecords.lwbb.w }} Wins — {{ overallRecords.lwbb.l }} Losses
 </p>
 
-{% set metaSeasons = lwbb.meta.seasons if lwbb.meta else [] %}
+{% set seasons = lwbbSeasons or [] %}
 
 <h2>Seasons</h2>
 
-<ul>
-{%- for s in metaSeasons | reverse -%}
+{% if seasons and seasons.length %}
+  <ul>
+{%- for s in seasons | reverse -%}
   <li>
-    <a href="{{ ('/lwbb/season/' ~ s.seasonYear ~ '/') | url }}">
-      {{ s.display }}
-    </a>
+    <a href="{{ ('/lwbb/season/' ~ s.yearEnd ~ '/') | url }}"><strong>{{ s.label }}</strong></a>
   </li>
 {%- endfor -%}
-</ul>
+  </ul>
+{% else %}
+  <p>No published seasons.</p>
+{% endif %}

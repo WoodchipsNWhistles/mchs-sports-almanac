@@ -1,0 +1,230 @@
+{
+  "SeasonYearEnd": 1999,
+  "Sport": "LWBB",
+  "TeamName": "Lady Wave",
+  "Nickname": "Lady Wave",
+  "Coach": "Michael Schwartz",
+  "Region": 5,
+  "District": 17,
+  "HasBoxscores": false,
+  "Source": "Riherds",
+  "StatLevel": "finalScoreOnly",
+  "schedule": [
+    {
+      "GameDate": "1998-11-30",
+      "Opponent": "Oldham County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 37,
+      "Points Against": 40
+    },
+    {
+      "GameDate": "1998-12-03",
+      "Opponent": "LaRue County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 53,
+      "Points Against": 40
+    },
+    {
+      "GameDate": "1998-12-07",
+      "Opponent": "Central Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 36,
+      "Points Against": 57
+    },
+    {
+      "GameDate": "1998-12-11",
+      "Opponent": "North Bullitt",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 69,
+      "Points Against": 51
+    },
+    {
+      "GameDate": "1998-12-14",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 33,
+      "Points Against": 54
+    },
+    {
+      "GameDate": "1998-12-19",
+      "Opponent": "Hancock County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 63,
+      "Points Against": 60
+    },
+    {
+      "GameDate": "1998-12-29",
+      "Opponent": "Grayson County",
+      "SiteCode": "N",
+      "SiteName": "Franklin-Simpson",
+      "Outcome": "Win",
+      "Notes": "Dominos Classic Tournament",
+      "Points for": 65,
+      "Points Against": 50
+    },
+    {
+      "GameDate": "1998-12-29",
+      "Opponent": "Christian County",
+      "SiteCode": "N",
+      "SiteName": "Franklin-Simpson",
+      "Outcome": "Loss",
+      "Notes": "Dominos Classic Tournament",
+      "Points for": 50,
+      "Points Against": 52
+    },
+    {
+      "GameDate": "1998-12-30",
+      "Opponent": "Mercy Academy",
+      "SiteCode": "N",
+      "SiteName": "Franklin-Simpson",
+      "Outcome": "Win",
+      "Notes": "Dominos Classic Tournament",
+      "Points for": 51,
+      "Points Against": 34
+    },
+    {
+      "GameDate": "1999-01-11",
+      "Opponent": "North Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 46,
+      "Points Against": 63
+    },
+    {
+      "GameDate": "1999-01-12",
+      "Opponent": "Floyd Central, IN",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 52,
+      "Points Against": 60
+    },
+    {
+      "GameDate": "1999-01-16",
+      "Opponent": "Bullitt East",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 45,
+      "Points Against": 27
+    },
+    {
+      "GameDate": "1999-01-18",
+      "Opponent": "Grayson County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 48,
+      "Points Against": 54
+    },
+    {
+      "GameDate": "1999-01-21",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 38,
+      "Points Against": 46
+    },
+    {
+      "GameDate": "1999-01-25",
+      "Opponent": "Lanesville, IN",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 39,
+      "Points Against": 25
+    },
+    {
+      "GameDate": "1999-01-28",
+      "Opponent": "South Central (Union Mill), IN",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 50,
+      "Points Against": 34
+    },
+    {
+      "GameDate": "1999-01-30",
+      "Opponent": "Mercy Academy",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 41,
+      "Points Against": 35
+    },
+    {
+      "GameDate": "1999-02-01",
+      "Opponent": "Central Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 40,
+      "Points Against": 61
+    },
+    {
+      "GameDate": "1999-02-04",
+      "Opponent": "Bullitt Central",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 53,
+      "Points Against": 44
+    },
+    {
+      "GameDate": "1999-02-05",
+      "Opponent": "Fort Knox",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 37,
+      "Points Against": 34
+    },
+    {
+      "GameDate": "1999-02-08",
+      "Opponent": "North Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 32,
+      "Points Against": 70
+    },
+    {
+      "GameDate": "1999-02-12",
+      "Opponent": "Nelson County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 26,
+      "Points Against": 29
+    },
+    {
+      "GameDate": "1999-02-15",
+      "Opponent": "South Oldham",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 38,
+      "Points Against": 44
+    },
+    {
+      "GameDate": "1999-02-16",
+      "Opponent": "Fort Knox",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 42,
+      "Points Against": 59
+    },
+    {
+      "GameDate": "1999-02-18",
+      "Opponent": "Fern Creek",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 65,
+      "Points Against": 38
+    },
+    {
+      "GameDate": "1999-02-23",
+      "Opponent": "Fort Knox",
+      "SiteCode": "N",
+      "SiteName": "Elizabethtown",
+      "Outcome": "Loss",
+      "Notes": "17th District First Round; winning basket made in last 4 seconds",
+      "Points for": 38,
+      "Points Against": 39
+    }
+  ]
+}

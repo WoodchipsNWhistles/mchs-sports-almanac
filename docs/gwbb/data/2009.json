@@ -1,0 +1,343 @@
+{
+  "SeasonYearEnd": 2009,
+  "Sport": "GWBB",
+  "TeamName": "Green Wave",
+  "Nickname": "Green Wave",
+  "Coach": "Jerry Garris",
+  "Region": 3,
+  "District": 11,
+  "HasBoxscores": false,
+  "Source": "Riherds",
+  "StatLevel": "finalScoreOnly",
+  "Roster": [
+    {
+      "Jersey": 3,
+      "Name": "Chase Garris",
+      "Pos": "Guard",
+      "Grade": "Fr."
+    },
+    {
+      "Jersey": 4,
+      "Name": "Bo Wilson",
+      "Pos": "Guard",
+      "Grade": "Fr."
+    },
+    {
+      "Jersey": 10,
+      "Name": "Thomas Wilson",
+      "Pos": "Forward",
+      "Grade": "Fr."
+    },
+    {
+      "Jersey": 11,
+      "Name": "Braden Pace",
+      "Pos": "Guard",
+      "Grade": "Sr."
+    },
+    {
+      "Jersey": 14,
+      "Name": "Johnathon Ives",
+      "Pos": "Guard",
+      "Grade": "Sr."
+    },
+    {
+      "Jersey": 15,
+      "Name": "Isaiah Satram",
+      "Pos": "Guard",
+      "Grade": "Jr."
+    },
+    {
+      "Jersey": 20,
+      "Name": "Timmy Compton",
+      "Pos": "Guard",
+      "Grade": "Fr."
+    },
+    {
+      "Jersey": 22,
+      "Name": "Cheaney Schwartz",
+      "Pos": "Forward",
+      "Grade": "Fr."
+    },
+    {
+      "Jersey": 23,
+      "Name": "Brady Smith",
+      "Pos": "Guard",
+      "Grade": "Fr."
+    },
+    {
+      "Jersey": 25,
+      "Name": "Ethan Brangers",
+      "Pos": "Forward",
+      "Grade": "Sr."
+    },
+    {
+      "Jersey": 32,
+      "Name": "Stephen Compton",
+      "Pos": "Center",
+      "Grade": "Fr."
+    },
+    {
+      "Jersey": 33,
+      "Name": "Will Campbell",
+      "Pos": "Forward",
+      "Grade": "Jr."
+    },
+    {
+      "Jersey": 35,
+      "Name": "Wes Dowell",
+      "Pos": "Center",
+      "Grade": "Fr."
+    },
+    {
+      "Jersey": 42,
+      "Name": "Jace Blehar",
+      "Pos": "Center",
+      "Grade": "So."
+    },
+    {
+      "Jersey": 44,
+      "Name": "Doug Wells",
+      "Pos": "Forward",
+      "Grade": "Sr."
+    }
+  ],
+  "schedule": [
+    {
+      "GameDate": "2008-12-06",
+      "Opponent": "Daviess County",
+      "SiteCode": "N",
+      "SiteName": "Hancock County",
+      "Outcome": "Win",
+      "Notes": "OT",
+      "Points for": 88,
+      "Points Against": 85
+    },
+    {
+      "GameDate": "2008-12-09",
+      "Opponent": "Hancock County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 58,
+      "Points Against": 43
+    },
+    {
+      "GameDate": "2008-12-18",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 34,
+      "Points Against": 50
+    },
+    {
+      "GameDate": "2008-12-20",
+      "Opponent": "Ludlow",
+      "SiteCode": "N",
+      "SiteName": "Gallatin County",
+      "Outcome": "Win",
+      "Points for": 65,
+      "Points Against": 46
+    },
+    {
+      "GameDate": "2008-12-21",
+      "Opponent": "Eminence",
+      "SiteCode": "N",
+      "SiteName": "Gallatin County",
+      "Outcome": "Win",
+      "Points for": 69,
+      "Points Against": 43
+    },
+    {
+      "GameDate": "2008-12-22",
+      "Opponent": "Gallatin County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 77,
+      "Points Against": 65
+    },
+    {
+      "GameDate": "2008-12-23",
+      "Opponent": "Iroquois",
+      "SiteCode": "N",
+      "SiteName": "Gallatin County",
+      "Outcome": "Loss",
+      "Points for": 47,
+      "Points Against": 67
+    },
+    {
+      "GameDate": "2008-12-27",
+      "Opponent": "North Bullitt",
+      "SiteCode": "N",
+      "SiteName": "LaRue County",
+      "Outcome": "Win",
+      "Points for": 64,
+      "Points Against": 57
+    },
+    {
+      "GameDate": "2008-12-29",
+      "Opponent": "Central Hardin",
+      "SiteCode": "N",
+      "SiteName": "LaRue County",
+      "Outcome": "Loss",
+      "Points for": 46,
+      "Points Against": 58
+    },
+    {
+      "GameDate": "2008-12-30",
+      "Opponent": "Trimble County",
+      "SiteCode": "N",
+      "SiteName": "LaRue County",
+      "Outcome": "Win",
+      "Points for": 55,
+      "Points Against": 51
+    },
+    {
+      "GameDate": "2009-01-03",
+      "Opponent": "Muhlenberg North",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 43,
+      "Points Against": 60
+    },
+    {
+      "GameDate": "2009-01-09",
+      "Opponent": "John Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 39,
+      "Points Against": 54
+    },
+    {
+      "GameDate": "2009-01-10",
+      "Opponent": "Australia Wanneroo",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 51,
+      "Points Against": 41
+    },
+    {
+      "GameDate": "2009-01-13",
+      "Opponent": "Hancock County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 65,
+      "Points Against": 37
+    },
+    {
+      "GameDate": "2009-01-16",
+      "Opponent": "Cloverport",
+      "SiteCode": "N",
+      "SiteName": "Frederick Fraize",
+      "Outcome": "Win",
+      "Points for": 61,
+      "Points Against": 29
+    },
+    {
+      "GameDate": "2009-01-17",
+      "Opponent": "Campbellsville",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 40,
+      "Points Against": 53
+    },
+    {
+      "GameDate": "2009-01-20",
+      "Opponent": "North Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 37,
+      "Points Against": 76
+    },
+    {
+      "GameDate": "2009-02-03",
+      "Opponent": "LaRue County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 51,
+      "Points Against": 63
+    },
+    {
+      "GameDate": "2009-02-06",
+      "Opponent": "Ohio County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 60,
+      "Points Against": 45
+    },
+    {
+      "GameDate": "2009-02-07",
+      "Opponent": "Cloverport",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 50,
+      "Points Against": 9
+    },
+    {
+      "GameDate": "2009-02-08",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 42,
+      "Points Against": 53
+    },
+    {
+      "GameDate": "2009-02-10",
+      "Opponent": "Grayson County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 62,
+      "Points Against": 52
+    },
+    {
+      "GameDate": "2009-02-13",
+      "Opponent": "Apollo",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 47,
+      "Points Against": 57
+    },
+    {
+      "GameDate": "2009-02-17",
+      "Opponent": "North Bullitt",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 46,
+      "Points Against": 44
+    },
+    {
+      "GameDate": "2009-02-20",
+      "Opponent": "Central Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 46,
+      "Points Against": 59
+    },
+    {
+      "GameDate": "2009-02-24",
+      "Opponent": "Hancock County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Notes": "11th District",
+      "Points for": 43,
+      "Points Against": 39
+    },
+    {
+      "GameDate": "2009-02-27",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "N",
+      "SiteName": "Hancock County",
+      "Outcome": "Win",
+      "Notes": "11th District Championship",
+      "Points for": 54,
+      "Points Against": 44
+    },
+    {
+      "GameDate": "2009-03-03",
+      "Opponent": "Ohio County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Notes": "3rd Region",
+      "Points for": 48,
+      "Points Against": 52
+    }
+  ]
+}

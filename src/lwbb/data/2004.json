@@ -1,0 +1,236 @@
+{
+  "seasonYear": 2004,
+  "Sport": "LWBB",
+  "TeamName": "Lady Wave",
+  "Nickname": "Lady Wave",
+  "Coach": "Michael Schwartz",
+  "Region": 5,
+  "District": 17,
+  "HasBoxscores": false,
+  "Source": "Riherds",
+  "StatLevel": "finalScoreOnly",
+  "schedule": [
+    {
+      "GameDate": "2003-12-02",
+      "Opponent": "John Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 55,
+      "Points Against": 56
+    },
+    {
+      "GameDate": "2003-12-08",
+      "Opponent": "Central Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 33,
+      "Points Against": 41
+    },
+    {
+      "GameDate": "2003-12-12",
+      "Opponent": "Ohio County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 44,
+      "Points Against": 69
+    },
+    {
+      "GameDate": "2003-12-13",
+      "Opponent": "Warren East",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 50,
+      "Points Against": 47
+    },
+    {
+      "GameDate": "2003-12-16",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 23,
+      "Points Against": 50
+    },
+    {
+      "GameDate": "2003-12-18",
+      "Opponent": "Male",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 37,
+      "Points Against": 38
+    },
+    {
+      "GameDate": "2003-12-19",
+      "Opponent": "Valley",
+      "SiteCode": "N",
+      "SiteName": "Male",
+      "Outcome": "Win",
+      "Points for": 47,
+      "Points Against": 21
+    },
+    {
+      "GameDate": "2003-12-20",
+      "Opponent": "Holy Cross (Louisville)",
+      "SiteCode": "N",
+      "SiteName": "Male",
+      "Outcome": "Loss",
+      "Points for": 28,
+      "Points Against": 51
+    },
+    {
+      "GameDate": "2003-12-26",
+      "Opponent": "Apollo",
+      "SiteCode": "N",
+      "SiteName": "Owensboro Catholic",
+      "Outcome": "Loss",
+      "Points for": 39,
+      "Points Against": 42
+    },
+    {
+      "GameDate": "2003-12-27",
+      "Opponent": "Bowling Green",
+      "SiteCode": "N",
+      "SiteName": "Owensboro Catholic",
+      "Outcome": "Loss",
+      "Points for": 40,
+      "Points Against": 50
+    },
+    {
+      "GameDate": "2003-12-28",
+      "Opponent": "Southern",
+      "SiteCode": "N",
+      "SiteName": "Owensboro Catholic",
+      "Outcome": "Win",
+      "Points for": 46,
+      "Points Against": 37
+    },
+    {
+      "GameDate": "2004-01-03",
+      "Opponent": "Webster County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 62,
+      "Points Against": 60
+    },
+    {
+      "GameDate": "2004-01-05",
+      "Opponent": "Bryan Station",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 40,
+      "Points Against": 56
+    },
+    {
+      "GameDate": "2004-01-13",
+      "Opponent": "North Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 44,
+      "Points Against": 56
+    },
+    {
+      "GameDate": "2004-01-17",
+      "Opponent": "Fort Knox",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 50,
+      "Points Against": 42
+    },
+    {
+      "GameDate": "2004-01-19",
+      "Opponent": "John Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 40,
+      "Points Against": 45
+    },
+    {
+      "GameDate": "2004-01-20",
+      "Opponent": "LaRue County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 59,
+      "Points Against": 66
+    },
+    {
+      "GameDate": "2004-01-23",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 38,
+      "Points Against": 50
+    },
+    {
+      "GameDate": "2004-01-27",
+      "Opponent": "Bullitt Central",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 42,
+      "Points Against": 38
+    },
+    {
+      "GameDate": "2004-01-29",
+      "Opponent": "South Oldham",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 52,
+      "Points Against": 65
+    },
+    {
+      "GameDate": "2004-02-02",
+      "Opponent": "Central Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 39,
+      "Points Against": 69
+    },
+    {
+      "GameDate": "2004-02-06",
+      "Opponent": "Fort Knox",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 51,
+      "Points Against": 44
+    },
+    {
+      "GameDate": "2004-02-10",
+      "Opponent": "North Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 39,
+      "Points Against": 65
+    },
+    {
+      "GameDate": "2004-02-13",
+      "Opponent": "Nelson County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 42,
+      "Points Against": 48
+    },
+    {
+      "GameDate": "2004-02-20",
+      "Opponent": "Assumption",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 26,
+      "Points Against": 54
+    },
+    {
+      "GameDate": "2004-02-26",
+      "Opponent": "North Oldham",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 51,
+      "Points Against": 41
+    },
+    {
+      "GameDate": "2004-03-02",
+      "Opponent": "John Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Notes": "17th District",
+      "Points for": 31,
+      "Points Against": 40
+    }
+  ]
+}

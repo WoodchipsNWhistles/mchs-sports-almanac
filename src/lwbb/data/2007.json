@@ -1,0 +1,260 @@
+{
+  "SeasonYearEnd": 2007,
+  "Sport": "LWBB",
+  "TeamName": "Lady Wave",
+  "Nickname": "Lady Wave",
+  "Coach": "Josh Hurt",
+  "Region": 3,
+  "District": 11,
+  "HasBoxscores": false,
+  "Source": "Riherds",
+  "StatLevel": "finalScoreOnly",
+  "schedule": [
+    {
+      "GameDate": "2006-11-28",
+      "Opponent": "Bullitt East",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 58,
+      "Points Against": 63
+    },
+    {
+      "GameDate": "2006-12-01",
+      "Opponent": "Muhlenberg North",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 38,
+      "Points Against": 57
+    },
+    {
+      "GameDate": "2006-12-04",
+      "Opponent": "Grayson County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 50,
+      "Points Against": 63
+    },
+    {
+      "GameDate": "2006-12-08",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 61,
+      "Points Against": 22
+    },
+    {
+      "GameDate": "2006-12-11",
+      "Opponent": "Ohio County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 76,
+      "Points Against": 81
+    },
+    {
+      "GameDate": "2006-12-16",
+      "Opponent": "Hancock County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 66,
+      "Points Against": 39
+    },
+    {
+      "GameDate": "2006-12-20",
+      "Opponent": "Ohio County",
+      "SiteCode": "N",
+      "SiteName": "Central Hardin",
+      "Outcome": "Loss",
+      "Points for": 59,
+      "Points Against": 73
+    },
+    {
+      "GameDate": "2006-12-21",
+      "Opponent": "Nelson County",
+      "SiteCode": "N",
+      "SiteName": "Central Hardin",
+      "Outcome": "Loss",
+      "Points for": 50,
+      "Points Against": 66
+    },
+    {
+      "GameDate": "2006-12-22",
+      "Opponent": "Francis Parker",
+      "SiteCode": "N",
+      "SiteName": "Central Hardin",
+      "Outcome": "Win",
+      "Points for": 72,
+      "Points Against": 27
+    },
+    {
+      "GameDate": "2006-12-27",
+      "Opponent": "Monroe County",
+      "SiteCode": "N",
+      "SiteName": "Allen County-Scottsville",
+      "Outcome": "Loss",
+      "Points for": 56,
+      "Points Against": 59
+    },
+    {
+      "GameDate": "2006-12-28",
+      "Opponent": "Iroquois",
+      "SiteCode": "N",
+      "SiteName": "Allen County-Scottsville",
+      "Outcome": "Loss",
+      "Points for": 56,
+      "Points Against": 75
+    },
+    {
+      "GameDate": "2007-01-09",
+      "Opponent": "North Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 49,
+      "Points Against": 83
+    },
+    {
+      "GameDate": "2007-01-12",
+      "Opponent": "John Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 52,
+      "Points Against": 61
+    },
+    {
+      "GameDate": "2007-01-19",
+      "Opponent": "Cloverport",
+      "SiteCode": "N",
+      "SiteName": "Frederick Fraize",
+      "Outcome": "Win",
+      "Points for": 77,
+      "Points Against": 20
+    },
+    {
+      "GameDate": "2007-01-20",
+      "Opponent": "Hancock County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 62,
+      "Points Against": 54
+    },
+    {
+      "GameDate": "2007-01-25",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 53,
+      "Points Against": 34
+    },
+    {
+      "GameDate": "2007-01-26",
+      "Opponent": "UNKNOWN",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Notes": "Opponent missing in Riherds",
+      "Points for": 46,
+      "Points Against": 62
+    },
+    {
+      "GameDate": "2007-01-30",
+      "Opponent": "Bullitt Central",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 39,
+      "Points Against": 35
+    },
+    {
+      "GameDate": "2007-02-01",
+      "Opponent": "Owensboro",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 39,
+      "Points Against": 57
+    },
+    {
+      "GameDate": "2007-02-03",
+      "Opponent": "Fort Knox",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 82,
+      "Points Against": 31
+    },
+    {
+      "GameDate": "2007-02-08",
+      "Opponent": "South Oldham",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 45,
+      "Points Against": 52
+    },
+    {
+      "GameDate": "2007-02-10",
+      "Opponent": "Cloverport",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 68,
+      "Points Against": 11
+    },
+    {
+      "GameDate": "2007-02-15",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 52,
+      "Points Against": 72
+    },
+    {
+      "GameDate": "2007-02-19",
+      "Opponent": "Owensboro Catholic",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 44,
+      "Points Against": 56
+    },
+    {
+      "GameDate": "2007-02-23",
+      "Opponent": "Central Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 53,
+      "Points Against": 54
+    },
+    {
+      "GameDate": "2007-02-26",
+      "Opponent": "Cloverport",
+      "SiteCode": "N",
+      "SiteName": "Cloverport Sports Center",
+      "Outcome": "Win",
+      "Notes": "11th District",
+      "Points for": 81,
+      "Points Against": 10
+    },
+    {
+      "GameDate": "2007-03-01",
+      "Opponent": "Hancock County",
+      "SiteCode": "N",
+      "SiteName": "Cloverport Sports Center",
+      "Outcome": "Win",
+      "Notes": "11th District",
+      "Points for": 53,
+      "Points Against": 40
+    },
+    {
+      "GameDate": "2007-03-05",
+      "Opponent": "Edmonson County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Notes": "3rd Region",
+      "Points for": 52,
+      "Points Against": 40
+    },
+    {
+      "GameDate": "2007-03-07",
+      "Opponent": "Owensboro",
+      "SiteCode": "N",
+      "SiteName": "Muhlenberg South",
+      "Outcome": "Loss",
+      "Notes": "3rd Region",
+      "Points for": 61,
+      "Points Against": 66
+    }
+  ]
+}

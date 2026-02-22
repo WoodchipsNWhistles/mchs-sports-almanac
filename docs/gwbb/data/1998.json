@@ -1,0 +1,218 @@
+{
+  "SeasonYearEnd": 1998,
+  "Sport": "GWBB",
+  "TeamName": "Green Wave",
+  "Nickname": "Green Wave",
+  "Coach": "UNKNOWN",
+  "Region": 5,
+  "District": 17,
+  "HasBoxscores": false,
+  "Source": "Riherds",
+  "StatLevel": "finalScoreOnly",
+  "schedule": [
+    {
+      "GameDate": "1997-12-02",
+      "Opponent": "Bullitt Central",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 49,
+      "Points Against": 68
+    },
+    {
+      "GameDate": "1997-12-05",
+      "Opponent": "Fort Knox",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 59,
+      "Points Against": 47
+    },
+    {
+      "GameDate": "1997-12-09",
+      "Opponent": "Southern",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 61,
+      "Points Against": 72
+    },
+    {
+      "GameDate": "1997-12-12",
+      "Opponent": "North Bullitt",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 67,
+      "Points Against": 77
+    },
+    {
+      "GameDate": "1997-12-16",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 68,
+      "Points Against": 75
+    },
+    {
+      "GameDate": "1997-12-20",
+      "Opponent": "Bethlehem",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Notes": "Papa Johns Classic",
+      "Points for": 51,
+      "Points Against": 40
+    },
+    {
+      "GameDate": "1997-12-22",
+      "Opponent": "Zephyr Hills (FL)",
+      "SiteCode": "N",
+      "SiteName": "Bethlehem",
+      "Outcome": "Win",
+      "Notes": "Papa Johns Classic",
+      "Points for": 72,
+      "Points Against": 60
+    },
+    {
+      "GameDate": "1997-12-23",
+      "Opponent": "Brooksville (FL)",
+      "SiteCode": "N",
+      "SiteName": "Bethlehem",
+      "Outcome": "Loss",
+      "Notes": "Papa Johns Classic",
+      "Points for": 52,
+      "Points Against": 60
+    },
+    {
+      "GameDate": "1998-01-03",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 46,
+      "Points Against": 53
+    },
+    {
+      "GameDate": "1998-01-06",
+      "Opponent": "Hart County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 71,
+      "Points Against": 59
+    },
+    {
+      "GameDate": "1998-01-09",
+      "Opponent": "Central Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 43,
+      "Points Against": 58
+    },
+    {
+      "GameDate": "1998-01-13",
+      "Opponent": "North Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 45,
+      "Points Against": 81
+    },
+    {
+      "GameDate": "1998-01-17",
+      "Opponent": "Bullitt East",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 65,
+      "Points Against": 57
+    },
+    {
+      "GameDate": "1998-01-20",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 47,
+      "Points Against": 56
+    },
+    {
+      "GameDate": "1998-01-23",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 56,
+      "Points Against": 82
+    },
+    {
+      "GameDate": "1998-01-24",
+      "Opponent": "Apollo",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 56,
+      "Points Against": 61
+    },
+    {
+      "GameDate": "1998-01-27",
+      "Opponent": "Bardstown",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 60,
+      "Points Against": 70
+    },
+    {
+      "GameDate": "1998-01-30",
+      "Opponent": "LaRue County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 78,
+      "Points Against": 76
+    },
+    {
+      "GameDate": "1998-02-03",
+      "Opponent": "Central Hardin",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 68,
+      "Points Against": 43
+    },
+    {
+      "GameDate": "1998-02-06",
+      "Opponent": "Fort Knox",
+      "SiteCode": "A",
+      "Notes": "Score missing in Riherds"
+    },
+    {
+      "GameDate": "1998-02-10",
+      "Opponent": "North Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 62,
+      "Points Against": 105
+    },
+    {
+      "GameDate": "1998-02-13",
+      "Opponent": "Nelson County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 71,
+      "Points Against": 79
+    },
+    {
+      "GameDate": "1998-02-17",
+      "Opponent": "Oldham County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 56,
+      "Points Against": 77
+    },
+    {
+      "GameDate": "1998-02-20",
+      "Opponent": "LaRue County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 69,
+      "Points Against": 50
+    },
+    {
+      "GameDate": "1998-02-26",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Notes": "17th District Tournament",
+      "Points for": 49,
+      "Points Against": 64
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "SeasonYearEnd": 2006,
+  "Sport": "GWBB",
+  "TeamName": "Green Wave",
+  "Nickname": "Green Wave",
+  "Coach": "Jerry Garris",
+  "Region": 3,
+  "District": 11,
+  "HasBoxscores": false,
+  "Source": "Riherds",
+  "StatLevel": "finalScoreOnly",
+  "schedule": [
+    {
+      "GameDate": "2005-11-29",
+      "Opponent": "Bullitt Central",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 60,
+      "Points Against": 40
+    },
+    {
+      "GameDate": "2005-12-01",
+      "Opponent": "Fort Knox",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 65,
+      "Points Against": 47
+    },
+    {
+      "GameDate": "2005-12-03",
+      "Opponent": "Greenwood",
+      "SiteCode": "N",
+      "SiteName": "Breckinridge County",
+      "Outcome": "Loss",
+      "Notes": "OT",
+      "Points for": 59,
+      "Points Against": 60
+    },
+    {
+      "GameDate": "2005-12-06",
+      "Opponent": "Hancock County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 82,
+      "Points Against": 61
+    },
+    {
+      "GameDate": "2005-12-09",
+      "Opponent": "Campbellsville",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 64,
+      "Points Against": 41
+    },
+    {
+      "GameDate": "2005-12-15",
+      "Opponent": "Pleasure Ridge Park",
+      "SiteCode": "N",
+      "SiteName": "Fairdale",
+      "Outcome": "Loss",
+      "Points for": 62,
+      "Points Against": 69
+    },
+    {
+      "GameDate": "2005-12-17",
+      "Opponent": "Trinity (Louisville)",
+      "SiteCode": "N",
+      "SiteName": "Fairdale",
+      "Outcome": "Loss",
+      "Points for": 55,
+      "Points Against": 66
+    },
+    {
+      "GameDate": "2005-12-27",
+      "Opponent": "Monsenior Ferrell (NY)",
+      "SiteCode": "N",
+      "SiteName": "Daytona Beach, FL",
+      "Outcome": "Loss",
+      "Points for": 58,
+      "Points Against": 65
+    },
+    {
+      "GameDate": "2005-12-29",
+      "Opponent": "Clinton County",
+      "SiteCode": "N",
+      "SiteName": "Daytona Beach, FL",
+      "Outcome": "Win",
+      "Points for": 54,
+      "Points Against": 37
+    },
+    {
+      "GameDate": "2005-12-30",
+      "Opponent": "Chestatee (GA)",
+      "SiteCode": "N",
+      "SiteName": "Daytona Beach, FL",
+      "Outcome": "Win",
+      "Points for": 73,
+      "Points Against": 61
+    },
+    {
+      "GameDate": "2006-01-03",
+      "Opponent": "Trinity (Louisville)",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 60,
+      "Points Against": 74
+    },
+    {
+      "GameDate": "2006-01-05",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 49,
+      "Points Against": 38
+    },
+    {
+      "GameDate": "2006-01-07",
+      "Opponent": "Cloverport",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 86,
+      "Points Against": 30
+    },
+    {
+      "GameDate": "2006-01-10",
+      "Opponent": "North Hardin",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 59,
+      "Points Against": 52
+    },
+    {
+      "GameDate": "2006-01-13",
+      "Opponent": "John Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 38,
+      "Points Against": 77
+    },
+    {
+      "GameDate": "2006-01-21",
+      "Opponent": "Ohio County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 54,
+      "Points Against": 64
+    },
+    {
+      "GameDate": "2006-01-28",
+      "Opponent": "UNKNOWN",
+      "SiteCode": "N",
+      "SiteName": "Floyd Central, IN",
+      "Outcome": "Win",
+      "Notes": "Opponent missing in Riherds, most likely Floyd Central",
+      "Points for": 68,
+      "Points Against": 48
+    },
+    {
+      "GameDate": "2006-01-31",
+      "Opponent": "Hancock County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 66,
+      "Points Against": 45
+    },
+    {
+      "GameDate": "2006-02-03",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 56,
+      "Points Against": 36
+    },
+    {
+      "GameDate": "2006-02-11",
+      "Opponent": "Cloverport",
+      "SiteCode": "N",
+      "SiteName": "Frederick Fraize",
+      "Outcome": "Win",
+      "Points for": 80,
+      "Points Against": 27
+    },
+    {
+      "GameDate": "2006-02-14",
+      "Opponent": "Grayson County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 56,
+      "Points Against": 29
+    },
+    {
+      "GameDate": "2006-02-17",
+      "Opponent": "Apollo",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 47,
+      "Points Against": 36
+    },
+    {
+      "GameDate": "2006-02-21",
+      "Opponent": "LaRue County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 70,
+      "Points Against": 47
+    },
+    {
+      "GameDate": "2006-02-22",
+      "Opponent": "Marion County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 42,
+      "Points Against": 58
+    },
+    {
+      "GameDate": "2006-02-24",
+      "Opponent": "Central Hardin",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 58,
+      "Points Against": 42
+    },
+    {
+      "GameDate": "2006-02-28",
+      "Opponent": "Cloverport",
+      "SiteCode": "N",
+      "SiteName": "Breckinridge County",
+      "Outcome": "Win",
+      "Notes": "11th District",
+      "Points for": 65,
+      "Points Against": 23
+    },
+    {
+      "GameDate": "2006-03-03",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Notes": "11th District",
+      "Points for": 50,
+      "Points Against": 46
+    },
+    {
+      "GameDate": "2006-03-06",
+      "Opponent": "Butler County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Notes": "3rd Region",
+      "Points for": 66,
+      "Points Against": 39
+    },
+    {
+      "GameDate": "2006-03-09",
+      "Opponent": "Apollo",
+      "SiteCode": "N",
+      "SiteName": "Hancock County",
+      "Outcome": "Loss",
+      "Notes": "3rd Region OT",
+      "Points for": 37,
+      "Points Against": 39
+    }
+  ]
+}

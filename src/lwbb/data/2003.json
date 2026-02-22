@@ -1,0 +1,245 @@
+{
+  "SeasonYearEnd": 2003,
+  "Sport": "LWBB",
+  "TeamName": "Lady Wave",
+  "Nickname": "Lady Wave",
+  "Coach": "Michael Schwartz",
+  "Region": 5,
+  "District": 17,
+  "HasBoxscores": false,
+  "Source": "Riherds",
+  "StatLevel": "finalScoreOnly",
+  "schedule": [
+    {
+      "GameDate": "2002-12-09",
+      "Opponent": "Central Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Notes": "OT",
+      "Points for": 65,
+      "Points Against": 73
+    },
+    {
+      "GameDate": "2002-12-14",
+      "Opponent": "Warren East",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 74,
+      "Points Against": 61
+    },
+    {
+      "GameDate": "2002-12-16",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 37,
+      "Points Against": 76
+    },
+    {
+      "GameDate": "2002-12-19",
+      "Opponent": "Pleasure Ridge Park",
+      "SiteCode": "N",
+      "SiteName": "Male",
+      "Outcome": "Loss",
+      "Points for": 38,
+      "Points Against": 56
+    },
+    {
+      "GameDate": "2002-12-20",
+      "Opponent": "North Hardin",
+      "SiteCode": "N",
+      "SiteName": "Male",
+      "Outcome": "Win",
+      "Points for": 60,
+      "Points Against": 54
+    },
+    {
+      "GameDate": "2002-12-21",
+      "Opponent": "Nelson County",
+      "SiteCode": "N",
+      "SiteName": "Male",
+      "Outcome": "Win",
+      "Points for": 54,
+      "Points Against": 43
+    },
+    {
+      "GameDate": "2002-12-23",
+      "Opponent": "Eastern",
+      "SiteCode": "N",
+      "SiteName": "Male",
+      "Outcome": "Win",
+      "Points for": 54,
+      "Points Against": 53
+    },
+    {
+      "GameDate": "2002-12-26",
+      "Opponent": "Capital (WV)",
+      "SiteCode": "N",
+      "SiteName": "Boyd County",
+      "Outcome": "Win",
+      "Points for": 53,
+      "Points Against": 40
+    },
+    {
+      "GameDate": "2002-12-27",
+      "Opponent": "Boyd County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 67,
+      "Points Against": 60
+    },
+    {
+      "GameDate": "2002-12-28",
+      "Opponent": "Assumption",
+      "SiteCode": "N",
+      "SiteName": "Boyd County",
+      "Outcome": "Loss",
+      "Notes": "championship",
+      "Points for": 45,
+      "Points Against": 52
+    },
+    {
+      "GameDate": "2003-01-04",
+      "Opponent": "Webster County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 63,
+      "Points Against": 56
+    },
+    {
+      "GameDate": "2003-01-10",
+      "Opponent": "John Hardin",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 69,
+      "Points Against": 53
+    },
+    {
+      "GameDate": "2003-01-14",
+      "Opponent": "North Hardin",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 61,
+      "Points Against": 57
+    },
+    {
+      "GameDate": "2003-01-17",
+      "Opponent": "Southern",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 68,
+      "Points Against": 29
+    },
+    {
+      "GameDate": "2003-01-20",
+      "Opponent": "Campbellsville",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 65,
+      "Points Against": 38
+    },
+    {
+      "GameDate": "2003-01-28",
+      "Opponent": "Bullitt Central",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 55,
+      "Points Against": 47
+    },
+    {
+      "GameDate": "2003-02-01",
+      "Opponent": "Dixie Heights",
+      "SiteCode": "N",
+      "SiteName": "Henry County",
+      "Outcome": "Win",
+      "Points for": 55,
+      "Points Against": 48
+    },
+    {
+      "GameDate": "2003-02-03",
+      "Opponent": "Central Hardin",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 61,
+      "Points Against": 54
+    },
+    {
+      "GameDate": "2003-02-07",
+      "Opponent": "Fort Knox",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Notes": "OT",
+      "Points for": 56,
+      "Points Against": 51
+    },
+    {
+      "GameDate": "2003-02-11",
+      "Opponent": "North Hardin",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Notes": "OT",
+      "Points for": 65,
+      "Points Against": 57
+    },
+    {
+      "GameDate": "2003-02-13",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 59,
+      "Points Against": 40
+    },
+    {
+      "GameDate": "2003-02-14",
+      "Opponent": "Nelson County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 61,
+      "Points Against": 53
+    },
+    {
+      "GameDate": "2003-02-18",
+      "Opponent": "Fort Knox",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 63,
+      "Points Against": 62
+    },
+    {
+      "GameDate": "2003-02-22",
+      "Opponent": "Southwestern",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 56,
+      "Points Against": 46
+    },
+    {
+      "GameDate": "2003-02-25",
+      "Opponent": "John Hardin",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 60,
+      "Points Against": 42
+    },
+    {
+      "GameDate": "2003-03-04",
+      "Opponent": "Fort Knox",
+      "SiteCode": "N",
+      "SiteName": "Elizabethtown",
+      "Outcome": "Win",
+      "Notes": "17th District",
+      "Points for": 58,
+      "Points Against": 52
+    },
+    {
+      "GameDate": "2003-03-06",
+      "Opponent": "Central Hardin",
+      "SiteCode": "N",
+      "SiteName": "Elizabethtown",
+      "Outcome": "Loss",
+      "Notes": "17th District",
+      "Points for": 49,
+      "Points Against": 51
+    }
+  ]
+}

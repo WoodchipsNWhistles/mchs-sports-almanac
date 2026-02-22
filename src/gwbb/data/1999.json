@@ -1,0 +1,230 @@
+{
+  "SeasonYearEnd": 1999,
+  "Sport": "GWBB",
+  "TeamName": "Green Wave",
+  "Nickname": "Green Wave",
+  "Coach": "Gary Goode",
+  "Region": 5,
+  "District": 17,
+  "HasBoxscores": false,
+  "Source": "Riherds",
+  "StatLevel": "finalScoreOnly",
+  "schedule": [
+    {
+      "GameDate": "1998-12-02",
+      "Opponent": "Bullitt Central",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 79,
+      "Points Against": 70
+    },
+    {
+      "GameDate": "1998-12-04",
+      "Opponent": "Fort Knox",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 66,
+      "Points Against": 56
+    },
+    {
+      "GameDate": "1998-12-08",
+      "Opponent": "Southern",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Notes": "3OT",
+      "Points for": 113,
+      "Points Against": 116
+    },
+    {
+      "GameDate": "1998-12-11",
+      "Opponent": "North Bullitt",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 93,
+      "Points Against": 72
+    },
+    {
+      "GameDate": "1998-12-12",
+      "Opponent": "South Central (Union Mill) (IN)",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 100,
+      "Points Against": 85
+    },
+    {
+      "GameDate": "1998-12-15",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 62,
+      "Points Against": 84
+    },
+    {
+      "GameDate": "1998-12-26",
+      "Opponent": "Casey County",
+      "SiteCode": "N",
+      "SiteName": "Campbellsville",
+      "Outcome": "Win",
+      "Notes": "Green River Holiday Classic Tournament",
+      "Points for": 69,
+      "Points Against": 67
+    },
+    {
+      "GameDate": "1998-12-27",
+      "Opponent": "Campbellsville",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Notes": "Green River Holiday Classic Tournament",
+      "Points for": 55,
+      "Points Against": 80
+    },
+    {
+      "GameDate": "1998-12-28",
+      "Opponent": "Green County",
+      "SiteCode": "N",
+      "SiteName": "Campbellsville",
+      "Outcome": "Loss",
+      "Notes": "Green River Holiday Classic Tournament",
+      "Points for": 67,
+      "Points Against": 71
+    },
+    {
+      "GameDate": "1999-01-05",
+      "Opponent": "Hart County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 76,
+      "Points Against": 55
+    },
+    {
+      "GameDate": "1999-01-12",
+      "Opponent": "North Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 41,
+      "Points Against": 77
+    },
+    {
+      "GameDate": "1999-01-16",
+      "Opponent": "Bullitt East",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Notes": "OT",
+      "Points for": 60,
+      "Points Against": 62
+    },
+    {
+      "GameDate": "1999-01-19",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Notes": "OT",
+      "Points for": 52,
+      "Points Against": 56
+    },
+    {
+      "GameDate": "1999-01-22",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 63,
+      "Points Against": 81
+    },
+    {
+      "GameDate": "1999-01-23",
+      "Opponent": "Apollo",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 55,
+      "Points Against": 59
+    },
+    {
+      "GameDate": "1999-01-26",
+      "Opponent": "Bardstown",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 72,
+      "Points Against": 73
+    },
+    {
+      "GameDate": "1999-01-29",
+      "Opponent": "LaRue County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 71,
+      "Points Against": 78
+    },
+    {
+      "GameDate": "1999-02-02",
+      "Opponent": "Central Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 52,
+      "Points Against": 56
+    },
+    {
+      "GameDate": "1999-02-05",
+      "Opponent": "Fort Knox",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 67,
+      "Points Against": 55
+    },
+    {
+      "GameDate": "1999-02-06",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 48,
+      "Points Against": 51
+    },
+    {
+      "GameDate": "1999-02-09",
+      "Opponent": "North Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 68,
+      "Points Against": 80
+    },
+    {
+      "GameDate": "1999-02-12",
+      "Opponent": "Nelson County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 64,
+      "Points Against": 83
+    },
+    {
+      "GameDate": "1999-02-13",
+      "Opponent": "Central Hardin",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 58,
+      "Points Against": 53
+    },
+    {
+      "GameDate": "1999-02-16",
+      "Opponent": "Oldham County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 61,
+      "Points Against": 66
+    },
+    {
+      "GameDate": "1999-02-19",
+      "Opponent": "LaRue County",
+      "SiteCode": "A",
+      "Notes": "Score missing in Riherds"
+    },
+    {
+      "GameDate": "1999-02-24",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "N",
+      "SiteName": "North Hardin",
+      "Outcome": "Loss",
+      "Notes": "17th District Semifinal",
+      "Points for": 56,
+      "Points Against": 60
+    }
+  ]
+}

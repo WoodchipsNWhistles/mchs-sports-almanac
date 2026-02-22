@@ -1,23 +1,26 @@
 ---
 layout: base.njk
 pagination:
-  data: lwbb.years
+  data: lwbbSeasons
   size: 1
-  alias: year
-permalink: "/lwbb/season/{{ year }}/index.html"
+  alias: s
+permalink: "/lwbb/season/{{ s.yearEnd }}/index.html"
 eleventyComputed:
-  title: "Lady Wave Basketball - {{ year }}"
+  title: "Lady Wave Basketball - {{ s.yearEnd }}"
 ---
 
-{% set season = lwbb.seasons[year | string] %}
-{% set schedule = season.schedule or [] %}
+{% set year = s.yearEnd %}
+{% set seasonPath = 'src/lwbb/data/' ~ year ~ '.json' %}
+{% set season = seasonPath | readJson %}
+{% set schedule = (season and season.schedule) or [] %}
+
 
 {# Find matching meta row #}
 {% set metaSeason = null %}
 {% if lwbb.meta and lwbb.meta.seasons %}
-  {% for s in lwbb.meta.seasons %}
-    {% if s.seasonYear == year %}
-      {% set metaSeason = s %}
+  {% for ms in lwbb.meta.seasons %}
+    {% if (ms.seasonYearEnd or ms.SeasonYearEnd or ms.seasonYear) == year %}
+      {% set metaSeason = ms %}
     {% endif %}
   {% endfor %}
 {% endif %}
@@ -51,7 +54,7 @@ eleventyComputed:
     <tbody>
     {%- for g in schedule -%}
       {% set gid = g["GameID"] or g["GameID_Base"] or g["gameId"] or g["gameID"] %}
-      {% set date = g["Date"] %}
+      {% set date = g["Date"] or g["GameDate"] %}
       {% set opp = g["Opponent"] %}
       {% set oppCode = g["OppCode"] %}
       {% set siteCode = g["SiteCode"] %}

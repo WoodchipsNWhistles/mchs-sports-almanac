@@ -1,0 +1,405 @@
+{
+  "seasonYear": 2011,
+  "seasonMeta": {
+    "SportCode": "GWBB",
+    "seasonYearEnd": 2011,
+    "personId": "p_0000000004",
+    "TeamName": "Green Wave",
+    "Nickname": "Green Wave",
+    "Coach": "Jerry Garris",
+    "Region": 3,
+    "District": 11,
+    "HasBoxscores": true,
+    "Source": "Riherds",
+    "StatLevel": "finalScoreOnly"
+  },
+  "Roster": [
+    {
+      "Jersey": 2,
+      "Name": "Zeb Wilson",
+      "Pos": "Guard",
+      "Grade": "Fr."
+    },
+    {
+      "Jersey": 3,
+      "Name": "Chase Garris",
+      "Pos": "Guard",
+      "Grade": "Jr."
+    },
+    {
+      "Jersey": 4,
+      "Name": "Bryce Garris",
+      "Pos": "Guard",
+      "Grade": "So."
+    },
+    {
+      "Jersey": 5,
+      "Name": "Luke Wilson",
+      "Pos": "Guard",
+      "Grade": "Fr."
+    },
+    {
+      "Jersey": 10,
+      "Name": "Travis Desrochers",
+      "Pos": "Guard",
+      "Grade": "So."
+    },
+    {
+      "Jersey": 11,
+      "Name": "Bo Wilson",
+      "Pos": "Guard",
+      "Grade": "Jr."
+    },
+    {
+      "Jersey": 12,
+      "Name": "Jacob Waldecker",
+      "Pos": "Guard",
+      "Grade": "So."
+    },
+    {
+      "Jersey": 14,
+      "Name": "Jared Raymer",
+      "Pos": "Guard",
+      "Grade": "So."
+    },
+    {
+      "Jersey": 15,
+      "Name": "Ethan Wright",
+      "Pos": "Guard",
+      "Grade": "Fr."
+    },
+    {
+      "Jersey": 20,
+      "Name": "Joby Embrey",
+      "Pos": "Forward",
+      "Grade": "Fr."
+    },
+    {
+      "Jersey": 21,
+      "Name": "Thomas Wilson",
+      "Pos": "Forward",
+      "Grade": "Jr."
+    },
+    {
+      "Jersey": 22,
+      "Name": "Cheaney Schwartz",
+      "Pos": "Guard",
+      "Grade": "Jr."
+    },
+    {
+      "Jersey": 23,
+      "Name": "Brady Smith",
+      "Pos": "Guard",
+      "Grade": "Jr."
+    },
+    {
+      "Jersey": 24,
+      "Name": "Connor Williams",
+      "Pos": "Forward",
+      "Grade": "So."
+    },
+    {
+      "Jersey": 25,
+      "Name": "Daniel Orr",
+      "Pos": "Center",
+      "Grade": "Fr."
+    },
+    {
+      "Jersey": 32,
+      "Name": "Stephen Compton",
+      "Pos": "Center",
+      "Grade": "Jr."
+    },
+    {
+      "Jersey": 35,
+      "Name": "Wes Dowell",
+      "Pos": "Center",
+      "Grade": "Jr."
+    },
+    {
+      "Jersey": 42,
+      "Name": "Thomas Tynan",
+      "Pos": "Forward",
+      "Grade": "Fr."
+    },
+    {
+      "Jersey": 44,
+      "Name": "Charles Mattingly",
+      "Pos": "Forward",
+      "Grade": "Fr."
+    },
+    {
+      "Jersey": 45,
+      "Name": "Travis Jenkins",
+      "Pos": "Center",
+      "Grade": "Fr."
+    }
+  ],
+  "schedule": [
+    {
+      "GameDate": "2010-11-30",
+      "Opponent": "Daviess County",
+      "SiteCode": "H",
+      "Points for": 53,
+      "Points Against": 68,
+      "Outcome": "Loss"
+    },
+    {
+      "GameDate": "2010-12-04",
+      "Opponent": "Edmonson County",
+      "SiteCode": "N",
+      "SiteName": "Frederick Fraize",
+      "Outcome": "Win",
+      "Points for": 54,
+      "Points Against": 47
+    },
+    {
+      "GameDate": "2010-12-07",
+      "Opponent": "Hancock County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 68,
+      "Points Against": 49
+    },
+    {
+      "GameDate": "2010-12-10",
+      "Opponent": "Campbellsville",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 62,
+      "Points Against": 75
+    },
+    {
+      "GameDate": "2010-12-14",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 63,
+      "Points Against": 73
+    },
+    {
+      "GameDate": "2010-12-18",
+      "Opponent": "South Laurel",
+      "SiteCode": "N",
+      "SiteName": "North Laurel/South Laurel",
+      "Outcome": "Loss",
+      "Points for": 55,
+      "Points Against": 67
+    },
+    {
+      "GameDate": "2010-12-19",
+      "Opponent": "Lee County",
+      "SiteCode": "N",
+      "SiteName": "North Laurel/South Laurel",
+      "Outcome": "Win",
+      "Notes": "OT",
+      "Points for": 78,
+      "Points Against": 77
+    },
+    {
+      "GameDate": "2010-12-20",
+      "Opponent": "Pulaski County",
+      "SiteCode": "N",
+      "SiteName": "North Laurel/South Laurel",
+      "Outcome": "Loss",
+      "Points for": 60,
+      "Points Against": 85
+    },
+    {
+      "GameDate": "2010-12-21",
+      "Opponent": "Letcher County Central",
+      "SiteCode": "N",
+      "SiteName": "North Laurel/South Laurel",
+      "Outcome": "Win",
+      "Points for": 60,
+      "Points Against": 55
+    },
+    {
+      "GameDate": "2010-12-27",
+      "Opponent": "Australian Travel Team",
+      "SiteCode": "N",
+      "SiteName": "Logan County",
+      "Outcome": "Win",
+      "Points for": 63,
+      "Points Against": 44
+    },
+    {
+      "GameDate": "2010-12-28",
+      "Opponent": "Logan County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Notes": "OT",
+      "Points for": 57,
+      "Points Against": 66
+    },
+    {
+      "GameDate": "2010-12-29",
+      "Opponent": "South Warren",
+      "SiteCode": "N",
+      "SiteName": "Logan County",
+      "Outcome": "Loss",
+      "Points for": 40,
+      "Points Against": 58
+    },
+    {
+      "GameDate": "2011-01-04",
+      "Opponent": "Floyd Central (IN)",
+      "SiteCode": "N",
+      "SiteName": "Floyd Central, IN",
+      "Outcome": "Loss",
+      "Points for": 48,
+      "Points Against": 57
+    },
+    {
+      "GameDate": "2011-01-07",
+      "Opponent": "John Hardin",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 41,
+      "Points Against": 67
+    },
+    {
+      "GameDate": "2011-01-08",
+      "Opponent": "Australian Travel Team",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 69,
+      "Points Against": 48
+    },
+    {
+      "GameDate": "2011-01-14",
+      "Opponent": "Cloverport",
+      "SiteCode": "N",
+      "SiteName": "Frederick Fraize",
+      "Outcome": "Win",
+      "Points for": 96,
+      "Points Against": 29
+    },
+    {
+      "GameDate": "2011-01-18",
+      "Opponent": "North Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 74,
+      "Points Against": 79
+    },
+    {
+      "GameDate": "2011-01-22",
+      "Opponent": "Muhlenberg County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 48,
+      "Points Against": 63
+    },
+    {
+      "GameDate": "2011-01-24",
+      "Opponent": "Hancock County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Notes": "OT",
+      "Points for": 67,
+      "Points Against": 57
+    },
+    {
+      "GameDate": "2011-01-25",
+      "Opponent": "South Oldham",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 58,
+      "Points Against": 77
+    },
+    {
+      "GameDate": "2011-01-28",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 50,
+      "Points Against": 51
+    },
+    {
+      "GameDate": "2011-02-01",
+      "Opponent": "LaRue County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 54,
+      "Points Against": 55
+    },
+    {
+      "GameDate": "2011-02-04",
+      "Opponent": "Ohio County",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 49,
+      "Points Against": 60
+    },
+    {
+      "GameDate": "2011-02-05",
+      "Opponent": "Cloverport",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 72,
+      "Points Against": 27
+    },
+    {
+      "GameDate": "2011-02-08",
+      "Opponent": "Grayson County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 64,
+      "Points Against": 69
+    },
+    {
+      "GameDate": "2011-02-11",
+      "Opponent": "Apollo",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 50,
+      "Points Against": 56
+    },
+    {
+      "GameDate": "2011-02-16",
+      "Opponent": "North Bullitt",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 70,
+      "Points Against": 52
+    },
+    {
+      "GameDate": "2011-02-18",
+      "Opponent": "Central Hardin",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 65,
+      "Points Against": 58
+    },
+    {
+      "GameDate": "2011-02-22",
+      "Opponent": "Hancock County",
+      "SiteCode": "N",
+      "SiteName": "Cloverport Sports Center",
+      "Outcome": "Win",
+      "Notes": "11th District Tournament",
+      "Points for": 64,
+      "Points Against": 53
+    },
+    {
+      "GameDate": "2011-02-25",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "N",
+      "SiteName": "Cloverport Sports Center",
+      "Outcome": "Loss",
+      "Notes": "11th District Tournament Championship",
+      "Points for": 57,
+      "Points Against": 63
+    },
+    {
+      "GameDate": "2011-03-01",
+      "Opponent": "Muhlenberg County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Notes": "3rd Region Tournament",
+      "Points for": 60,
+      "Points Against": 82
+    }
+  ]
+}

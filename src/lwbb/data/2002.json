@@ -1,0 +1,223 @@
+{
+  "SeasonYearEnd": 2002,
+  "Sport": "LWBB",
+  "TeamName": "Lady Wave",
+  "Nickname": "Lady Wave",
+  "Coach": "Michael Schwartz",
+  "Region": 5,
+  "District": 17,
+  "HasBoxscores": false,
+  "Source": "Riherds",
+  "StatLevel": "finalScoreOnly",
+  "schedule": [
+    {
+      "GameDate": "2001-11-26",
+      "Opponent": "Holy Rosary",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 50,
+      "Points Against": 39
+    },
+    {
+      "GameDate": "2001-11-30",
+      "Opponent": "Campbellsville",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 62,
+      "Points Against": 54
+    },
+    {
+      "GameDate": "2001-12-03",
+      "Opponent": "Central Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 53,
+      "Points Against": 58
+    },
+    {
+      "GameDate": "2001-12-10",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 47,
+      "Points Against": 60
+    },
+    {
+      "GameDate": "2001-12-18",
+      "Opponent": "Hancock County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 83,
+      "Points Against": 19
+    },
+    {
+      "GameDate": "2001-12-20",
+      "Opponent": "Bardstown",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 60,
+      "Points Against": 65
+    },
+    {
+      "GameDate": "2001-12-26",
+      "Opponent": "Henry Clay",
+      "SiteCode": "N",
+      "SiteName": "East Carter",
+      "Outcome": "Loss",
+      "Notes": "Queen of the Bluegrass",
+      "Points for": 62,
+      "Points Against": 78
+    },
+    {
+      "GameDate": "2001-12-27",
+      "Opponent": "Holy Cross (Covington)",
+      "SiteCode": "N",
+      "SiteName": "East Carter",
+      "Outcome": "Win",
+      "Notes": "Queen of the Bluegrass",
+      "Points for": 56,
+      "Points Against": 52
+    },
+    {
+      "GameDate": "2001-12-28",
+      "Opponent": "Estill County",
+      "SiteCode": "N",
+      "SiteName": "East Carter",
+      "Outcome": "Loss",
+      "Notes": "Queen of the Bluegrass",
+      "Points for": 51,
+      "Points Against": 62
+    },
+    {
+      "GameDate": "2002-01-04",
+      "Opponent": "John Hardin",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 81,
+      "Points Against": 20
+    },
+    {
+      "GameDate": "2002-01-08",
+      "Opponent": "North Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 39,
+      "Points Against": 58
+    },
+    {
+      "GameDate": "2002-01-10",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 44,
+      "Points Against": 52
+    },
+    {
+      "GameDate": "2002-01-11",
+      "Opponent": "Southern",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 76,
+      "Points Against": 25
+    },
+    {
+      "GameDate": "2002-01-14",
+      "Opponent": "Grayson County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 60,
+      "Points Against": 49
+    },
+    {
+      "GameDate": "2002-01-17",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 35,
+      "Points Against": 47
+    },
+    {
+      "GameDate": "2002-01-22",
+      "Opponent": "Bullitt Central",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 44,
+      "Points Against": 40
+    },
+    {
+      "GameDate": "2002-01-24",
+      "Opponent": "LaRue County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 56,
+      "Points Against": 40
+    },
+    {
+      "GameDate": "2002-01-28",
+      "Opponent": "Central Hardin",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 40,
+      "Points Against": 38
+    },
+    {
+      "GameDate": "2002-02-01",
+      "Opponent": "Fort Knox",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 59,
+      "Points Against": 43
+    },
+    {
+      "GameDate": "2002-02-05",
+      "Opponent": "North Hardin",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 51,
+      "Points Against": 47
+    },
+    {
+      "GameDate": "2002-02-08",
+      "Opponent": "Nelson County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 60,
+      "Points Against": 50
+    },
+    {
+      "GameDate": "2002-02-12",
+      "Opponent": "Fort Knox",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 54,
+      "Points Against": 46
+    },
+    {
+      "GameDate": "2002-02-19",
+      "Opponent": "John Hardin",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 67,
+      "Points Against": 29
+    },
+    {
+      "GameDate": "2002-02-26",
+      "Opponent": "John Hardin",
+      "SiteCode": "N",
+      "SiteName": "Central Hardin",
+      "Outcome": "Win",
+      "Notes": "17th District",
+      "Points for": 62,
+      "Points Against": 24
+    },
+    {
+      "GameDate": "2002-02-28",
+      "Opponent": "Central Hardin",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Notes": "17th District",
+      "Points for": 38,
+      "Points Against": 51
+    }
+  ]
+}

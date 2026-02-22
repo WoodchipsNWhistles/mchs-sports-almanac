@@ -1,0 +1,250 @@
+{
+  "SeasonYearEnd": 2000,
+  "Sport": "GWBB",
+  "TeamName": "Green Wave",
+  "Nickname": "Green Wave",
+  "Coach": "Gary Goode",
+  "Region": 5,
+  "District": 17,
+  "HasBoxscores": false,
+  "Source": "Riherds",
+  "StatLevel": "finalScoreOnly",
+  "schedule": [
+    {
+      "GameDate": "1999-12-03",
+      "Opponent": "Fort Knox",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 76,
+      "Points Against": 52
+    },
+    {
+      "GameDate": "1999-12-07",
+      "Opponent": "LaRue County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 62,
+      "Points Against": 51
+    },
+    {
+      "GameDate": "1999-12-10",
+      "Opponent": "North Bullitt",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 49,
+      "Points Against": 46
+    },
+    {
+      "GameDate": "1999-12-11",
+      "Opponent": "South Central",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 55,
+      "Points Against": 64
+    },
+    {
+      "GameDate": "1999-12-14",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 72,
+      "Points Against": 77
+    },
+    {
+      "GameDate": "1999-12-20",
+      "Opponent": "Daviess County",
+      "SiteCode": "N",
+      "SiteName": "Ohio County",
+      "Outcome": "Loss",
+      "Notes": "Ohio County Invitational",
+      "Points for": 72,
+      "Points Against": 84
+    },
+    {
+      "GameDate": "1999-12-21",
+      "Opponent": "Valley",
+      "SiteCode": "N",
+      "SiteName": "Ohio County",
+      "Outcome": "Win",
+      "Notes": "Ohio County Invitational Tournament",
+      "Points for": 78,
+      "Points Against": 72
+    },
+    {
+      "GameDate": "1999-12-22",
+      "Opponent": "Franklin-Simpson",
+      "SiteCode": "N",
+      "SiteName": "Ohio County",
+      "Outcome": "Win",
+      "Notes": "Ohio County Invitational Tournament",
+      "Points for": 68,
+      "Points Against": 46
+    },
+    {
+      "GameDate": "1999-12-28",
+      "Opponent": "Spencer County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 99,
+      "Points Against": 59
+    },
+    {
+      "GameDate": "2000-01-04",
+      "Opponent": "Hart County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 69,
+      "Points Against": 65
+    },
+    {
+      "GameDate": "2000-01-07",
+      "Opponent": "Central Hardin",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 50,
+      "Points Against": 42
+    },
+    {
+      "GameDate": "2000-01-11",
+      "Opponent": "North Hardin",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 71,
+      "Points Against": 50
+    },
+    {
+      "GameDate": "2000-01-15",
+      "Opponent": "Bullitt East",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 60,
+      "Points Against": 65
+    },
+    {
+      "GameDate": "2000-01-21",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 59,
+      "Points Against": 78
+    },
+    {
+      "GameDate": "2000-01-25",
+      "Opponent": "Bardstown",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 84,
+      "Points Against": 63
+    },
+    {
+      "GameDate": "2000-01-28",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 45,
+      "Points Against": 57
+    },
+    {
+      "GameDate": "2000-02-01",
+      "Opponent": "Central Hardin",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 75,
+      "Points Against": 73
+    },
+    {
+      "GameDate": "2000-02-04",
+      "Opponent": "Fort Knox",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 65,
+      "Points Against": 52
+    },
+    {
+      "GameDate": "2000-02-08",
+      "Opponent": "North Hardin",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 85,
+      "Points Against": 73
+    },
+    {
+      "GameDate": "2000-02-11",
+      "Opponent": "Nelson County",
+      "SiteCode": "A",
+      "Outcome": "Win",
+      "Points for": 81,
+      "Points Against": 63
+    },
+    {
+      "GameDate": "2000-02-15",
+      "Opponent": "Oldham County",
+      "SiteCode": "A",
+      "Outcome": "Loss",
+      "Points for": 61,
+      "Points Against": 63
+    },
+    {
+      "GameDate": "2000-02-18",
+      "Opponent": "Owensboro Catholic",
+      "SiteCode": "H",
+      "Outcome": "Loss",
+      "Points for": 38,
+      "Points Against": 56
+    },
+    {
+      "GameDate": "2000-02-19",
+      "Opponent": "Breckinridge County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 78,
+      "Points Against": 62
+    },
+    {
+      "GameDate": "2000-02-22",
+      "Opponent": "LaRue County",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 75,
+      "Points Against": 70
+    },
+    {
+      "GameDate": "2000-02-25",
+      "Opponent": "Southern",
+      "SiteCode": "H",
+      "Outcome": "Win",
+      "Points for": 77,
+      "Points Against": 58
+    },
+    {
+      "GameDate": "2000-03-01",
+      "Opponent": "North Hardin",
+      "SiteCode": "N",
+      "SiteName": "Central Hardin",
+      "Outcome": "Win",
+      "Notes": "17th District Tournament",
+      "Points for": 74,
+      "Points Against": 69
+    },
+    {
+      "GameDate": "2000-03-03",
+      "Opponent": "Elizabethtown",
+      "SiteCode": "N",
+      "SiteName": "Central Hardin",
+      "Outcome": "Loss",
+      "Notes": "17th District Tournament Championship",
+      "Points for": 73,
+      "Points Against": 79
+    },
+    {
+      "GameDate": "2000-03-06",
+      "Opponent": "Hart County",
+      "SiteCode": "N",
+      "SiteName": "Green County",
+      "Outcome": "Loss",
+      "Notes": "5th Region Tournament 2OT",
+      "Points for": 65,
+      "Points Against": 67
+    }
+  ]
+}
