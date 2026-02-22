@@ -1,6 +1,16 @@
 const fs = require("fs");
 const path = require("path");
 
+// Get the player list for proper almanac page production
+function getDerivedPlayerPidList() {
+  const dir = path.join(process.cwd(), "src", "_derived", "players");
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir)
+    .filter((f) => f.startsWith("p_") && f.endsWith(".json"))
+    .map((f) => f.replace(/\.json$/, ""))
+    .sort();
+}
+
 // Canonical global person index (p_ ids + alias crosswalk)
 const personIndex = require("../_data/personIndex.json");
 
@@ -471,11 +481,11 @@ function renderBasketballBlock({
 module.exports = class PlayerPage {
   data() {
     return {
-      pagination: {
-        data: "playerPidList",
-        size: 1,
-        alias: "pid",
-      },
+  	  pagination: {
+      data: "derivedPlayerPidList",
+      size: 1,
+      alias: "pid",
+    },
 
       permalink: (data) => {
         const pid = canonPlayerID(data.pid);

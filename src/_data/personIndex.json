@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema": 1,
-    "updated": "2026-02-19",
+    "updated": "2026-02-22",
     "notes": "Global person index. p_0000000001–p_0000000025 reserved/seeded for coaches.",
     "nextPid": 227
   },
@@ -1224,9 +1224,9 @@
       "roles": [
         "player"
       ],
-      "aliases": [
-        "p_0000000114"
-      ]
+      "aliases": [],
+      "first": "Jentzen",
+      "last": "Hayes"
     },
     "p_0000000115": {
       "display": "Kaitlyn Henley",
@@ -1695,7 +1695,7 @@
         "player"
       ],
       "aliases": [
-        "p_0000000161", 
+        "p_0000000161",
         "Jacelyn Nevitt"
       ]
     },
