@@ -44,3 +44,4 @@ pnpm-debug.log*
 
 # Finder duplicate folders (if they ever appear)
 * 2/
+*.bak

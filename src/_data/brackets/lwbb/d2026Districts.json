@@ -13,8 +13,8 @@
           "label": "Game 1",
           "date": "Monday, February 23, 2026",
           "time": "5:30 PM",
-          "teamA": { "name": "Breckinridge County", "score": 0 },
-          "teamB": { "name": "Cloverport", "score": 0 },
+          "teamA": { "name": "Breckinridge County", "score": 77 },
+          "teamB": { "name": "Cloverport", "score": 15 },
           "winner": null
         },
         {
@@ -22,8 +22,8 @@
           "label": "Game 2",
           "date": "Monday, February 23, 2026",
           "time": "7:00 PM",
-          "teamA": { "name": "Meade County", "score": 0 },
-          "teamB": { "name": "Hancock County", "score": 0 },
+          "teamA": { "name": "Meade County", "score": 78 },
+          "teamB": { "name": "Hancock County", "score": 55 },
           "winner": null
         }
       ]
@@ -36,8 +36,8 @@
           "label": "Final",
           "date": "Thursday, February 26, 2026",
           "time": "6:00 PM",
-          "teamA": { "name": "Winner G1", "score": 0 },
-          "teamB": { "name": "Winner G2", "score": 0 },
+          "teamA": { "name": "Breckinirdge County", "score": 0 },
+          "teamB": { "name": "Meade County", "score": 0 },
           "winner": null
         }
       ]
