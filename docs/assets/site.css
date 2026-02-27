@@ -19,7 +19,7 @@
   margin:0 auto;
   padding:.6rem 1.25rem;
   display:flex;
-  align-items:baseline;
+  align-items:center;
   justify-content:space-between;
   gap:1rem;
   flex-wrap:wrap;
@@ -32,15 +32,70 @@
   letter-spacing: .02em;
 }
 
-.topnav .links a{
-  margin-left: .9rem;
+/* Topnav menu (Retrosheet-ish dropdowns) */
+.topnav .menu{
+  margin:0;
+  padding:0;
+  list-style:none;
+  display:flex;
+  flex-wrap:wrap;
+  gap:.25rem;
+  align-items:baseline;
   font-family: var(--masthead);
+}
+
+.topnav .menu > li{ position:relative; }
+
+.topnav .menu a{
+  display:block;
+  padding:.25rem .45rem;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
-.topnav .links a:first-child{ margin-left: 0; }
+/* Little dropdown indicators */
+.topnav .has-sub > a::after{ content:" ▾"; font-size:.9em; }
+.topnav .sub .has-sub > a::after{ content:" ▸"; float:right; }
 
+/* Dropdown panel */
+.topnav .sub{
+  display:none;
+  position:absolute;
+  top: calc(100% + .35rem);
+  left:0;
+  min-width: 15rem;
+  margin:0;
+  padding:.35rem;
+  list-style:none;
+  border:2px solid var(--rule);
+  background: var(--paper);
+  z-index:1000;
+}
+
+/* Dropdown items */
+.topnav .sub a{
+  text-decoration:none;            /* Retrosheet-ish: dropdown items usually not underlined */
+  padding:.35rem .45rem;
+  border-radius: .25rem;
+}
+
+/* Show on hover AND keyboard focus */
+.topnav .has-sub:hover > .sub,
+.topnav .has-sub:focus-within > .sub{ display:block; }
+
+/* Flyout (2nd level) */
+.topnav .sub .sub{
+  top:0;
+  left: calc(100% + .35rem);
+}
+
+/* Hover/focus affordance */
+.topnav .menu a:hover,
+.topnav .menu a:focus-visible{
+  opacity:1;                       /* override your global hover opacity */
+  background: rgba(0,0,0,.06);
+  outline:none;
+}
 
 *{box-sizing:border-box}
 

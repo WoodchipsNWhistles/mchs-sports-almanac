@@ -10,15 +10,44 @@
 </head>
 <body>
 <nav class="topnav" aria-label="Site">
-  <div class="topnav-inner">
-    <a class="brand" href="{{ '/' | url }}">MCHS Sports Almanac</a>
-    <div class="links">
-      <a href="{{ '/' | url }}">Home</a>
-      <a href="{{ '/project/' | url }}">Project</a>
-      <a href="{{ '/gwbb/' | url }}">GWBB</a>
-      <a href="{{ '/players/' | url }}">Players</a>
-    </div>
-  </div>
+  <ul class="menu" role="list" aria-label="Primary navigation">
+  <li><a href="{{ '/' | url }}">Home</a></li>
+
+  <li class="has-sub">
+    <a href="{{ '/project/' | url }}" aria-haspopup="true">Project</a>
+    <ul class="sub" role="list" aria-label="Project">
+      <li><a href="{{ '/project/' | url }}">Overview</a></li>
+      <li><a href="{{ '/project/most-wanted/' | url }}">Most Wanted</a></li>
+      <li><a href="{{ '/project/codex/' | url }}">Codex</a></li>
+    </ul>
+  </li>
+
+  <li class="has-sub">
+    <a href="#" aria-haspopup="true">Sports</a>
+    <ul class="sub" role="list" aria-label="Sports">
+      <li><a href="{{ '/gwbb/' | url }}">GWBB</a></li>
+      <li><a href="{{ '/lwbb/' | url }}">LWBB</a></li>
+      <li><a href="{{ '/baseball/' | url }}">Baseball</a></li>
+      <li><a href="{{ '/wrestling/' | url }}">Wrestling</a></li>
+
+      <li class="has-sub">
+        <a href="#" aria-haspopup="true">More</a>
+        <ul class="sub" role="list" aria-label="More sports">
+          <li><a href="{{ '/swim/' | url }}">Swim</a></li>
+          <li><a href="{{ '/track/' | url }}">Track</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+  <li class="has-sub">
+    <a href="{{ '/players/' | url }}" aria-haspopup="true">People</a>
+    <ul class="sub" role="list" aria-label="People">
+      <li><a href="{{ '/players/' | url }}">Players</a></li>
+      <li><a href="{{ '/coaches/' | url }}">Coaches</a></li>
+    </ul>
+  </li>
+</ul>
 </nav>
 
   <div class="wrapper">

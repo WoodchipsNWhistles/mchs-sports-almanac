@@ -10,15 +10,44 @@
 </head>
 <body>
 <nav class="topnav" aria-label="Site">
-  <div class="topnav-inner">
-    <a class="brand" href="/">MCHS Sports Almanac</a>
-    <div class="links">
-      <a href="/">Home</a>
-      <a href="/project/">Project</a>
-      <a href="/gwbb/">GWBB</a>
-      <a href="/players/">Players</a>
-    </div>
-  </div>
+  <ul class="menu" role="list" aria-label="Primary navigation">
+  <li><a href="/">Home</a></li>
+
+  <li class="has-sub">
+    <a href="/project/" aria-haspopup="true">Project</a>
+    <ul class="sub" role="list" aria-label="Project">
+      <li><a href="/project/">Overview</a></li>
+      <li><a href="/project/most-wanted/">Most Wanted</a></li>
+      <li><a href="/project/codex/">Codex</a></li>
+    </ul>
+  </li>
+
+  <li class="has-sub">
+    <a href="#" aria-haspopup="true">Sports</a>
+    <ul class="sub" role="list" aria-label="Sports">
+      <li><a href="/gwbb/">GWBB</a></li>
+      <li><a href="/lwbb/">LWBB</a></li>
+      <li><a href="/baseball/">Baseball</a></li>
+      <li><a href="/wrestling/">Wrestling</a></li>
+
+      <li class="has-sub">
+        <a href="#" aria-haspopup="true">More</a>
+        <ul class="sub" role="list" aria-label="More sports">
+          <li><a href="/swim/">Swim</a></li>
+          <li><a href="/track/">Track</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+  <li class="has-sub">
+    <a href="/players/" aria-haspopup="true">People</a>
+    <ul class="sub" role="list" aria-label="People">
+      <li><a href="/players/">Players</a></li>
+      <li><a href="/coaches/">Coaches</a></li>
+    </ul>
+  </li>
+</ul>
 </nav>
 
   <div class="wrapper">
@@ -127,12 +156,12 @@
 
             <div class="team team--a" data-team="A">
               <span class="team__name">Breckinirdge County</span>
-              <span class="team__score">0</span>
+              <span class="team__score">46</span>
             </div>
 
             <div class="team team--b" data-team="B">
               <span class="team__name">Meade County</span>
-              <span class="team__score">0</span>
+              <span class="team__score">31</span>
             </div>
           </article>
         

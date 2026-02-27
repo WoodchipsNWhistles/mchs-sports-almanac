@@ -36,8 +36,8 @@
           "label": "Final",
           "date": "Thursday, February 26, 2026",
           "time": "6:00 PM",
-          "teamA": { "name": "Breckinirdge County", "score": 0 },
-          "teamB": { "name": "Meade County", "score": 0 },
+          "teamA": { "name": "Breckinirdge County", "score": 46 },
+          "teamB": { "name": "Meade County", "score": 31 },
           "winner": null
         }
       ]
