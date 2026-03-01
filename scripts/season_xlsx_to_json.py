@@ -24,99 +24,96 @@ from typing import Any, Dict, List
 
 import pandas as pd
 
+
+# ---------------------------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------------------------
+
 def _json_safe(val):
-    # pandas/Excel missing numeric values often become float NaN
+    """Convert pandas/Excel values to JSON-serializable types."""
     if isinstance(val, float) and math.isnan(val):
         return None
-
-    # timestamps/dates -> ISO strings
     if isinstance(val, (pd.Timestamp, datetime.datetime, datetime.date)):
         return val.isoformat()
-
     return val
 
 
+def _rename_keys(record: Dict[str, Any], mapping: Dict[str, str]) -> Dict[str, Any]:
+    return {mapping.get(k, k): v for k, v in record.items()}
 
-REQUIRED_SHEETS = ["SeasonMeta", "ScheduleResults", "Roster", "GameStats"]
+
+# ---------------------------------------------------------------------------
+# Column rename maps  (Excel header -> canonical JSON key)
+# ---------------------------------------------------------------------------
 
 SCHEDULE_RENAME = {
-    "GameDate": "gameDate",
-    "Date": "dateLabel",
-    "Opponent": "opponent",
-    "Site": "site",
-    "Points for": "pointsFor",
+    "GameDate":       "gameDate",
+    "Date":           "dateLabel",
+    "Opponent":       "opponent",
+    "Site":           "site",
+    "Points for":     "pointsFor",
     "Points Against": "pointsAgainst",
-    "Outcome": "outcome",
-    "Standings": "standings",
-    "SiteCode": "siteCode",
-    "OppCode": "oppCode",
-    "GameID_Base": "gameIdBase",
-    "GameSortKey": "gameSortKey",
-    "GameID": "gameId",
+    "Outcome":        "outcome",
+    "Standings":      "standings",
+    "SiteCode":       "siteCode",
+    "OppCode":        "oppCode",
+    "GameID_Base":    "gameIdBase",
+    "GameSortKey":    "gameSortKey",
+    "GameID":         "gameId",
 }
 
 ROSTER_RENAME = {
-    "Jersey": "jersey",
-    "Name": "name",
-    "Position": "pos",
-    "Grade": "grade",
-    "GradeFull": "gradeFull",
-    "GraduationYear": "gradYear",
-    "FirstName": "firstName",
-    "LastName": "lastName",
-    "PlayerID_Base": "playerIdBase",
+    "Jersey":          "jersey",
+    "Name":            "name",
+    "Position":        "pos",
+    "Grade":           "grade",
+    "GradeFull":       "gradeFull",
+    "GraduationYear":  "gradYear",
+    "FirstName":       "firstName",
+    "LastName":        "lastName",
+    "PlayerID_Base":   "playerIdBase",
     "PlayerID_Suffix": "playerIdSuffix",
-    "PlayerID": "playerId",
+    "PlayerID":        "playerId",
 }
 
 GAMESTATS_RENAME = {
-    "GameID": "gameId",
-    "PlayerID": "playerId",
-    "Jersey": "jersey",
-    "PlayerName": "playerName",
-    "2PM": "twoPM",
-    "2PA": "twoPA",
-    "3PM": "threePM",
-    "3PA": "threePA",
-    "FTM": "ftM",
-    "FTA": "ftA",
-    "Pts": "pts",
-    "Reb": "reb",
-    "TenPlusPoints": "tenPlus",
-    "DoubleDouble": "doubleDouble",
+    "GameID":         "gameId",
+    "PlayerID":       "playerId",
+    "Jersey":         "jersey",
+    "PlayerName":     "playerName",
+    "2PM":            "twoPM",
+    "2PA":            "twoPA",
+    "3PM":            "threePM",
+    "3PA":            "threePA",
+    "FTM":            "ftM",
+    "FTA":            "ftA",
+    "Pts":            "pts",
+    "Reb":            "reb",
+    "TenPlusPoints":  "tenPlus",
+    "DoubleDouble":   "doubleDouble",
 }
 
-    # the rest already match your schema (twoPM, twoPA, etc.)
-# 🔒 Canonicalizer: catches variant keys that sneak in during bulk pastes
-GAMESTATS_CANONICALIZE = {
-    "gameID": "gameId",
-    "GameID": "gameId",
-    "GameID_Base": "gameId",
-    "gameIdBase": "gameId",
-
-    "playerID": "playerID",   # no-op but explicit
-    "PlayerID": "playerID",
+# Maps sheet name -> its rename dict
+SHEET_CONFIG = {
+    "ScheduleResults": SCHEDULE_RENAME,
+    "Roster":          ROSTER_RENAME,
+    "GameStats":       GAMESTATS_RENAME,
+    # SeasonMeta is handled separately; no column renames needed.
 }
 
-SHEET_RENAME_MAP = {
-    "GameStats": GAMESTATS_RENAME,
-    "Roster": ROSTER_RENAME,
-    "GameStats": GAMESTATS_RENAME,
-
-    # SeasonMeta usually stays as-is, unless you want to normalize it too.
-}
+REQUIRED_SHEETS = ["SeasonMeta", "ScheduleResults", "Roster", "GameStats"]
 
 
+# ---------------------------------------------------------------------------
+# Sheet readers
+# ---------------------------------------------------------------------------
 
 def _read_sheet(xlsx: Path, sheet: str) -> pd.DataFrame:
     df = pd.read_excel(xlsx, sheet_name=sheet, engine="openpyxl")
     df = df.dropna(axis=0, how="all").dropna(axis=1, how="all")
-
-    # Strip header whitespace
     df.columns = [str(c).strip() for c in df.columns]
 
-    # Apply canonical renames for this sheet (if defined)
-    rename_map = SHEET_RENAME_MAP.get(sheet, {})
+    rename_map = SHEET_CONFIG.get(sheet, {})
     if rename_map:
         df = df.rename(columns=rename_map)
 
@@ -124,123 +121,89 @@ def _read_sheet(xlsx: Path, sheet: str) -> pd.DataFrame:
 
 
 def _df_to_records(df: pd.DataFrame) -> List[Dict[str, Any]]:
-    df2 = df.copy()
-    df2 = df2.where(pd.notnull(df2), None)
-
+    df2 = df.copy().where(pd.notnull(df), None)
     records = df2.to_dict(orient="records")
     for row in records:
         for k, v in row.items():
             row[k] = _json_safe(v)
-
     return records
 
 
 def _season_meta_to_object(df: pd.DataFrame) -> Dict[str, Any]:
     """
     Accepts either:
-      A) key/value pairs: columns like ["Key","Value"] (case-insensitive), OR
+      A) key/value pairs: columns like ["Key","Value"] (case-insensitive), or
       B) one-row header format where each column is a field.
     """
     cols_lower = [c.lower() for c in df.columns]
+
     if "key" in cols_lower and "value" in cols_lower:
         k_col = df.columns[cols_lower.index("key")]
         v_col = df.columns[cols_lower.index("value")]
         meta: Dict[str, Any] = {}
         for _, row in df.iterrows():
             k = row.get(k_col)
-            v = row.get(v_col)
             if k is None:
                 continue
-            meta[str(k).strip()] = v
+            meta[str(k).strip()] = _json_safe(row.get(v_col))
         return meta
 
-    # Otherwise: treat as single-row object (first row)
-    if len(df.index) < 1:
+    # Single-row object fallback
+    if df.empty:
         return {}
-    row0 = df.iloc[0].to_dict()
-    # NaN->None
-    row0 = {k: (None if pd.isna(v) else v) for k, v in row0.items()}
-    return row0
+    return {k: (None if pd.isna(v) else _json_safe(v)) for k, v in df.iloc[0].to_dict().items()}
 
-def _rename_keys(record: Dict[str, Any], mapping: Dict[str, str]) -> Dict[str, Any]:
-    out = {}
-    for k, v in record.items():
-        out[mapping.get(k, k)] = v
-    return out
 
-GWBB_GAMESTATS_MAP = {
-    "GameID": "gameID",
-    "PlayerID": "playerID",
-    "Jersey": "jersey",
-    "PlayerName": "playerName",
-    "2PM": "twoPM",
-    "2PA": "twoPA",
-    "3PM": "threePM",
-    "3PA": "threePA",
-    "FTM": "ftM",
-    "FTA": "ftA",
-    "Pts": "pts",
-    "Reb": "reb",
-    "TenPlusPoints": "tenPlus",
-    "DoubleDouble": "doubleDouble",
-}
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--xlsx", required=True, help="Path to season workbook (.xlsx)")
-    ap.add_argument("--year", required=True, type=int, help="Season year folder key (e.g., 2024 for 2023-24)")
-    ap.add_argument("--out", required=True, help="Output JSON path (e.g., src/gwbb/data/2024.json)")
+    ap.add_argument("--xlsx", required=True, help="Path to season workbook (.xlsx or .xlsm)")
+    ap.add_argument("--year", required=True, type=int, help="Season year (e.g. 2026 for 2025-26)")
+    ap.add_argument("--out",  required=True, help="Output JSON path (e.g. src/gwbb/data/2026.json)")
     args = ap.parse_args()
 
     xlsx = Path(args.xlsx).expanduser().resolve()
-    out = Path(args.out).expanduser()
+    out  = Path(args.out).expanduser()
 
     if not xlsx.exists():
         raise SystemExit(f"ERROR: xlsx not found: {xlsx}")
 
-    # Validate sheets exist
+    # Validate required sheets
     xl = pd.ExcelFile(xlsx, engine="openpyxl")
     missing = [s for s in REQUIRED_SHEETS if s not in xl.sheet_names]
     if missing:
         raise SystemExit(f"ERROR: Missing required sheets: {missing}\nFound: {xl.sheet_names}")
 
+    # Read sheets
     season_meta_df = _read_sheet(xlsx, "SeasonMeta")
-    schedule_df = _read_sheet(xlsx, "ScheduleResults")
-    roster_df = _read_sheet(xlsx, "Roster")
-    gamestats_df = _read_sheet(xlsx, "GameStats")
+    schedule_df    = _read_sheet(xlsx, "ScheduleResults")
+    roster_df      = _read_sheet(xlsx, "Roster")
+    gamestats_df   = _read_sheet(xlsx, "GameStats")
 
+    # Validate expected columns after renaming
+    def _check_cols(df, expected, sheet):
+        missing_cols = [c for c in expected if c not in df.columns]
+        if missing_cols:
+            print(f"WARNING [{sheet}]: expected columns not found after rename: {missing_cols}")
+            print(f"  Actual columns: {list(df.columns)}")
 
+    _check_cols(schedule_df,  list(SCHEDULE_RENAME.values()),  "ScheduleResults")
+    _check_cols(roster_df,    list(ROSTER_RENAME.values()),    "Roster")
+    _check_cols(gamestats_df, list(GAMESTATS_RENAME.values()), "GameStats")
 
-
+    # Build output
     season = {
         "seasonYear": args.year,
         "seasonMeta": _season_meta_to_object(season_meta_df),
-        "schedule": _df_to_records(schedule_df),
-        "roster": _df_to_records(roster_df),
-        "gameStats": _df_to_records(gamestats_df),
+        "schedule":   _df_to_records(schedule_df),
+        "roster":     _df_to_records(roster_df),
+        "gameStats":  _df_to_records(gamestats_df),
     }
 
-    # 🔒 Canonicalize GameStats keys (belt + suspenders)
-    season["gameStats"] = [
-        _rename_keys(r, GAMESTATS_CANONICALIZE)
-        for r in season.get("gameStats", [])
-    ]
-
-    # Normalize GWBB GameStats keys to codex form (Excel headers -> canonical JSON keys)
-    season["gameStats"] = [
-        _rename_keys(r, GAMESTATS_RENAME)
-        for r in season.get("gameStats", [])
-    ]
-
-    out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(season, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-
-    print(f"OK: wrote {out} ({out.stat().st_size:,} bytes)")
-    print("Next: run 11ty build to publish into docs/ if your pipeline copies data files.")
-
-
-
-
+    # Write
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(season, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
