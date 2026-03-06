@@ -4,9 +4,9 @@ MCHS Almanac — GWBB season ingest (Excel tables -> canonical JSON)
 
 Usage:
   python3 scripts/season_xlsx_to_json.py \
-    --xlsx "_inbox/LW-Basketball-2025-26.xlsm" \
+    --xlsx "_inbox/GW-Basketball-2025-26.xlsm" \
     --year 2026 \
-    --out "src/lwbb/data/2026.json"
+    --out "src/gwbb/data/2026.json"
 
 Notes:
 - Expects sheets: SeasonMeta, ScheduleResults, Roster, GameStats
