@@ -4,9 +4,9 @@ MCHS Almanac — GWBB season ingest (Excel tables -> canonical JSON)
 
 Usage:
   python3 scripts/season_xlsx_to_json.py \
-    --xlsx "_inbox/GW-Basketball-2025-26.xlsm" \
+    --xlsx "_inbox/LW-Basketball-2025-26.xlsm" \
     --year 2026 \
-    --out "src/gwbb/data/2026.json"
+    --out "src/lwbb/data/2026.json"
 
 Notes:
 - Expects sheets: SeasonMeta, ScheduleResults, Roster, GameStats
@@ -47,50 +47,51 @@ def _rename_keys(record: Dict[str, Any], mapping: Dict[str, str]) -> Dict[str, A
 # ---------------------------------------------------------------------------
 
 SCHEDULE_RENAME = {
-    "GameDate":       "gameDate",
-    "Date":           "dateLabel",
-    "Opponent":       "opponent",
-    "Site":           "site",
-    "Points for":     "pointsFor",
-    "Points Against": "pointsAgainst",
-    "Outcome":        "outcome",
-    "Standings":      "standings",
-    "SiteCode":       "siteCode",
-    "OppCode":        "oppCode",
-    "GameID_Base":    "gameIdBase",
-    "GameSortKey":    "gameSortKey",
-    "GameID":         "gameId",
+    "GameDate":       "GameDate",
+    "Date":           "Date",
+    "Opponent":       "Opponent",
+    "Site":           "Site",
+    "Points for":     "Points for",
+    "Points Against": "Points Against",
+    "Outcome":        "Outcome",
+    "Standings":      "Standings",
+    "Notes":          "Notes",
+    "SiteCode":       "SiteCode",
+    "OppCode":        "OppCode",
+    "GameID_Base":    "GameID_Base",
+    "GameSortKey":    "GameSortKey",
+    "GameID":         "GameID",
 }
 
 ROSTER_RENAME = {
-    "Jersey":          "jersey",
-    "Name":            "name",
-    "Position":        "pos",
-    "Grade":           "grade",
-    "GradeFull":       "gradeFull",
-    "GraduationYear":  "gradYear",
-    "FirstName":       "firstName",
-    "LastName":        "lastName",
-    "PlayerID_Base":   "playerIdBase",
-    "PlayerID_Suffix": "playerIdSuffix",
-    "PlayerID":        "playerId",
+    "Jersey":          "Jersey",
+    "Name":            "Name",
+    "Position":        "Position",
+    "Grade":           "Grade",
+    "GradeFull":       "GradeFull",
+    "GraduationYear":  "GraduationYear",
+    "FirstName":       "FirstName",
+    "LastName":        "LastName",
+    "PlayerID_Base":   "PlayerID_Base",
+    "PlayerID_Suffix": "PlayerID_Suffix",
+    "PlayerID":        "PlayerID",
 }
 
 GAMESTATS_RENAME = {
-    "GameID":         "gameId",
-    "PlayerID":       "playerId",
-    "Jersey":         "jersey",
-    "PlayerName":     "playerName",
-    "2PM":            "twoPM",
-    "2PA":            "twoPA",
-    "3PM":            "threePM",
-    "3PA":            "threePA",
-    "FTM":            "ftM",
-    "FTA":            "ftA",
-    "Pts":            "pts",
-    "Reb":            "reb",
-    "TenPlusPoints":  "tenPlus",
-    "DoubleDouble":   "doubleDouble",
+    "GameID":         "GameID",
+    "PlayerID":       "PlayerID",
+    "Jersey":         "Jersey",
+    "PlayerName":     "PlayerName",
+    "2PM":            "2PM",
+    "2PA":            "2PA",
+    "3PM":            "3PM",
+    "3PA":            "3PA",
+    "FTM":            "FTM",
+    "FTA":            "FTA",
+    "Pts":            "Pts",
+    "Reb":            "Reb",
+    "TenPlusPoints":  "TenPlusPoints",
+    "DoubleDouble":   "DoubleDouble",
 }
 
 # Maps sheet name -> its rename dict
