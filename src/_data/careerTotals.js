@@ -36,7 +36,14 @@ module.exports = function () {
     for (const r of rows) {
       rowsScanned++;
 
-      const playerID = r.playerID || r.playerId;
+      const playerID =
+  r.playerID ||
+  r.playerId ||
+  r.PlayerID ||
+  r.PlayerId ||
+  null;
+
+if (!playerID) continue;
       if (!playerID) continue;
 
       const cur = byPlayer.get(playerID) || {

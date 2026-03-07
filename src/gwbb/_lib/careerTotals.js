@@ -33,7 +33,12 @@ module.exports = function buildGwbbCareerTotals() {
 
     const rows = Array.isArray(season.gameStats) ? season.gameStats : [];
     for (const r of rows) {
-      const playerID = r.playerID || r.playerId || r.PlayerID || r.PlayerId;
+      const playerID =
+  r.playerID ||
+  r.playerId ||
+  r.PlayerID ||
+  r.PlayerId ||
+  null;
       if (!playerID) continue;
 
       const cur = byPlayer.get(playerID) || {
