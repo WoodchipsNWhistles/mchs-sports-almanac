@@ -1,8 +1,16 @@
+// PERFORMANCE NOTE:
+// Season JSON is cached/indexed once here on purpose.
+// Do not re-read or re-parse season files inside render().
+
 const fs = require("fs");
 const path = require("path");
 
 const SEASON_DIR = path.join(process.cwd(), "src", "lwbb", "data");
+const opponents = require("../../meta/opponents.canon.json");
 
+// -----------------------------
+// Helpers
+// -----------------------------
 function safeJsonParse(txt, filename) {
   try {
     return JSON.parse(txt);
@@ -20,12 +28,25 @@ function escapeHtml(str) {
     .replaceAll("'", "&#039;");
 }
 
-// Basketball-style decimal: .451 (instead of 45.1%)
 function pctDecimal(m, a) {
   if (!a || a === 0) return "—";
   return (m / a).toFixed(3).replace(/^0/, "");
 }
-const opponents = require("../../meta/opponents.canon.json");
+
+function pctPercent(m, a) {
+  if (!a || a === 0) return "—";
+  return (100 * (m / a)).toFixed(1) + "%";
+}
+
+function sum(rows, key) {
+  return rows.reduce((acc, r) => acc + (Number(r[key]) || 0), 0);
+}
+
+function toNum(v) {
+  const n = Number(v);
+  return Number.isFinite(n) ? n : 0;
+}
+
 function oppCodeFromBoxscore(b) {
   return (
     b.oppCode ||
@@ -38,42 +59,21 @@ function oppCodeFromBoxscore(b) {
 }
 
 function oppNameFromCode(code) {
-  return (code && opponents.byCode && opponents.byCode[code] && opponents.byCode[code].name)
+  return code && opponents.byCode && opponents.byCode[code] && opponents.byCode[code].name
     ? opponents.byCode[code].name
     : "Opponent";
 }
 
-// Percent style: 45.1%
-function pctPercent(m, a) {
-  if (!a || a === 0) return "—";
-  return (100 * (m / a)).toFixed(1) + "%";
-}
-
-function sum(rows, key) {
-  return rows.reduce((acc, r) => acc + (Number(r[key]) || 0), 0);
-}
-
 function getSeasonYearEndFromGameID(gameID) {
-  // GWBB2025-YYYYMMDD-...
-  const token = gameID.slice(4, 8);
+  if (!gameID || String(gameID).length < 8) return null;
+  const token = String(gameID).slice(4, 8);
   const yr = Number(token);
   return Number.isFinite(yr) ? yr : null;
 }
 
-function loadSeason(seasonYearEnd) {
-  if (!seasonYearEnd) return null;
-  const seasonPath = path.join(SEASON_DIR, `${seasonYearEnd}.json`);
-  if (!fs.existsSync(seasonPath)) return null;
-  const raw = fs.readFileSync(seasonPath, "utf-8");
-  return safeJsonParse(raw, `${seasonYearEnd}.json`);
-}
-
-// YYYY-MM-DD or YYYY-MM-DDTHH... -> "Month D, YYYY"
 function formatUsDate(isoLike) {
   if (!isoLike) return "";
   const s = String(isoLike);
-
-  // best-effort: grab leading YYYY-MM-DD if present
   const m = s.match(/^(\d{4}-\d{2}-\d{2})/);
   const ymd = m ? m[1] : s.slice(0, 10);
 
@@ -87,84 +87,151 @@ function formatUsDate(isoLike) {
   });
 }
 
-module.exports = class BoxscorePages {
-  async data() {
-  const seasonFiles = fs
-    .readdirSync(SEASON_DIR)
-    .filter((f) => /^\d{4}\.json$/.test(f))
-    .sort();
+function gameIdFromRow(r) {
+  return r.gameId || r.gameID || r.GameID || r.GameID_Base || null;
+}
 
-  const boxscores = [];
+function playerIdFromRow(r) {
+  return r.playerID || r.PlayerID || r.playerId || r.PlayerId || null;
+}
 
-  for (const filename of seasonFiles) {
-    const fullPath = path.join(SEASON_DIR, filename);
-    const raw = fs.readFileSync(fullPath, "utf-8");
-    const season = safeJsonParse(raw, filename);
+function playerIdFromRoster(p) {
+  return p.playerID || p.PlayerID || p.playerId || p.PlayerId || null;
+}
 
-    const seasonYearEnd = season.seasonYear || Number(filename.replace(".json", ""));
-    const schedule = season.schedule || [];
+// -----------------------------
+// Season cache / index
+// -----------------------------
+const seasonCache = new Map();
 
-    // Build from schedule so we can render "incomplete box score" pages too
-    const gameIdsFromSchedule = Array.from(
-      new Set(
-        schedule
-          .map((g) => g.gameId || g.GameID || g.GameID_Base || g.gameIdBase)
-          .filter(Boolean)
-      )
-    );
+function loadSeasonIndexed(seasonYearEnd) {
+  if (!seasonYearEnd) return null;
 
-    for (const gameID of gameIdsFromSchedule) {
-      const sched =
-        schedule.find(
-          (g) => (g.gameId || g.GameID || g.GameID_Base || g.gameIdBase) === gameID
-        ) || {};
-
-      boxscores.push({
-        ...sched,
-        gameID,
-        seasonYearEnd,
-        __sourceFile: filename,
-      });
-    }
+  if (seasonCache.has(seasonYearEnd)) {
+    return seasonCache.get(seasonYearEnd);
   }
 
-  return {
-    boxscores,
-    pagination: { data: "boxscores", size: 1, alias: "boxscore" },
-    permalink: (data) => `/lwbb/boxscores/${data.boxscore.gameID}/index.html`,
-    layout: "base.njk",
-    eleventyComputed: {
-      title: (data) => {
-        const b = data.boxscore || {};
-        const oppCode = oppCodeFromBoxscore(b);
-        const opp = oppNameFromCode(oppCode);
+  const seasonPath = path.join(SEASON_DIR, `${seasonYearEnd}.json`);
+  if (!fs.existsSync(seasonPath)) {
+    seasonCache.set(seasonYearEnd, null);
+    return null;
+  }
 
-        const dateRaw =
-          b.dateISO || b.gameDate || b.GameDate || b.dateLabel || b.Date || b.date || "";
-        const date = (String(dateRaw).match(/^(\d{4}-\d{2}-\d{2})/) || [null, ""])[1];
+  const raw = fs.readFileSync(seasonPath, "utf-8");
+  const season = safeJsonParse(raw, `${seasonYearEnd}.json`);
 
-        const siteCode = b.siteCode || b.SiteCode || "";
-        const atVs = siteCode === "A" ? "@" : "vs";
+  const roster = season.roster || season.players || [];
+  const gameStats = season.gameStats || season.stats || [];
 
-        return `Lady Wave Basketball - ${date || "Date Unknown"} ${atVs} ${opp}`;
-      },
-      description: (data) => {
-        const b2 = data.boxscore || {};
-        const code = oppCodeFromBoxscore(b2);
-        const name = oppNameFromCode(code);
-        return `LWBB box score: ${name}`;
-      },
-    },
+  const rosterById = {};
+  for (const p of roster) {
+    const pid = playerIdFromRoster(p);
+    if (pid) rosterById[pid] = p;
+  }
+
+  const rowsByGame = new Map();
+  for (const r of gameStats) {
+    const gid = gameIdFromRow(r);
+    if (!gid) continue;
+    if (!rowsByGame.has(gid)) rowsByGame.set(gid, []);
+    rowsByGame.get(gid).push(r);
+  }
+
+  const indexed = {
+    season,
+    roster,
+    gameStats,
+    rosterById,
+    rowsByGame,
   };
+
+  seasonCache.set(seasonYearEnd, indexed);
+  return indexed;
 }
+
+// -----------------------------
+// Template
+// -----------------------------
+module.exports = class BoxscorePages {
+  async data() {
+    const seasonFiles = fs
+      .readdirSync(SEASON_DIR)
+      .filter((f) => /^\d{4}\.json$/.test(f))
+      .sort();
+
+    const boxscores = [];
+
+    for (const filename of seasonFiles) {
+      const seasonYearEnd = Number(filename.replace(".json", ""));
+      const indexed = loadSeasonIndexed(seasonYearEnd);
+      if (!indexed || !indexed.season) continue;
+
+      const season = indexed.season;
+      const schedule = season.schedule || [];
+
+      const gameIdsFromSchedule = Array.from(
+        new Set(
+          schedule
+            .map((g) => g.gameId || g.GameID || g.GameID_Base || g.gameIdBase)
+            .filter(Boolean)
+        )
+      );
+
+      for (const gameID of gameIdsFromSchedule) {
+        const sched =
+          schedule.find(
+            (g) => (g.gameId || g.GameID || g.GameID_Base || g.gameIdBase) === gameID
+          ) || {};
+
+        boxscores.push({
+          ...sched,
+          gameID,
+          seasonYearEnd,
+          __sourceFile: filename,
+          __seasonIndexed: indexed,
+          __rowsAll: indexed.rowsByGame.get(gameID) || [],
+        });
+      }
+    }
+
+    return {
+      boxscores,
+      pagination: { data: "boxscores", size: 1, alias: "boxscore" },
+      permalink: (data) => `/lwbb/boxscores/${data.boxscore.gameID}/index.html`,
+      layout: "base.njk",
+      eleventyComputed: {
+        title: (data) => {
+          const b = data.boxscore || {};
+          const oppCode = oppCodeFromBoxscore(b);
+          const opp = oppNameFromCode(oppCode);
+
+          const dateRaw =
+            b.dateISO || b.gameDate || b.GameDate || b.dateLabel || b.Date || b.date || "";
+          const date = (String(dateRaw).match(/^(\d{4}-\d{2}-\d{2})/) || [null, ""])[1];
+
+          const siteCode = b.siteCode || b.SiteCode || "";
+          const atVs = siteCode === "A" ? "@" : "vs";
+
+          return `Lady Wave Basketball - ${date || "Date Unknown"} ${atVs} ${opp}`;
+        },
+        description: (data) => {
+          const b = data.boxscore || {};
+          const code = oppCodeFromBoxscore(b);
+          const name = oppNameFromCode(code);
+          return `LWBB box score: ${name}`;
+        },
+      },
+    };
+  }
+
   render(data) {
-    const b = data.boxscore;
+    const b = data.boxscore || {};
 
     // -----------------------------
-    // HEADER FIELDS (single source)
+    // HEADER FIELDS
     // -----------------------------
-    const oppCode2 = oppCodeFromBoxscore(b);
-    const opponent = oppNameFromCode(oppCode2);
+    const oppCode = oppCodeFromBoxscore(b);
+    const opponent = oppNameFromCode(oppCode);
 
     const dateRaw =
       b.dateISO ||
@@ -206,43 +273,29 @@ module.exports = class BoxscorePages {
 
     const finalLine =
       pointsFor !== null && pointsAgainst !== null
-        ? `Final: ${pointsFor}–${pointsAgainst}${
-            outcome ? " • " + outcome : ""
-          }`
+        ? `Final: ${pointsFor}–${pointsAgainst}${outcome ? " • " + outcome : ""}`
         : "";
 
     // -----------------------------
-    // LOAD SEASON + GAME STATS
+    // SEASON / ROSTER / GAME ROWS
     // -----------------------------
     const seasonYearEnd = b.seasonYearEnd || getSeasonYearEndFromGameID(b.gameID);
-    const season = loadSeason(seasonYearEnd);
+    const indexed = b.__seasonIndexed || loadSeasonIndexed(seasonYearEnd);
 
-    const roster = (season && (season.roster || season.players)) || [];
-    const gameStats = (season && (season.gameStats || season.stats)) || [];
+    const rosterById = indexed?.rosterById || {};
+    const rowsAll = b.__rowsAll || indexed?.rowsByGame?.get(b.gameID) || [];
 
-    // Roster lookup (support both legacy and codex keys)
-    const rosterById = {};
-    for (const p of roster) {
-      const pid = (p && (p.playerID || p.PlayerID || p.playerId || p.PlayerId)) || null;
-      if (pid) rosterById[pid] = p;
-    }
-
-    // Rows for this game (support both legacy and codex keys)
-    const rowsAll = gameStats.filter((r) => {
-      const rg = r.gameId || r.gameID || r.GameID || r.GameID_Base;
-      return rg === b.gameID;
-    });
-
-    // Only keep rows that map to a roster player (by playerID)
     const rows = rowsAll.filter((r) => {
-      const rp = r.playerID || r.PlayerID || r.playerId || r.PlayerId;
-      return rp && rosterById[rp];
+      const pid = playerIdFromRow(r);
+      return pid && rosterById[pid];
     });
 
     // Aggregate duplicates per player
     const agg = new Map();
     for (const r of rows) {
-      const pid = r.playerID || r.PlayerID || r.playerId || r.PlayerId;
+      const pid = playerIdFromRow(r);
+      if (!pid) continue;
+
       const prev = agg.get(pid) || {
         playerID: pid,
         jersey: r.jersey ?? r.Jersey ?? "",
@@ -260,19 +313,18 @@ module.exports = class BoxscorePages {
       prev.jersey = r.jersey ?? r.Jersey ?? prev.jersey;
       prev.playerName = r.playerName ?? r.PlayerName ?? prev.playerName;
 
-      prev.twoPM += Number(r.twoPM ?? r["2PM"]) || 0;
-      prev.twoPA += Number(r.twoPA ?? r["2PA"]) || 0;
-      prev.threePM += Number(r.threePM ?? r["3PM"]) || 0;
-      prev.threePA += Number(r.threePA ?? r["3PA"]) || 0;
-      prev.ftM += Number(r.ftM ?? r["FTM"]) || 0;
-      prev.ftA += Number(r.ftA ?? r["FTA"]) || 0;
-      prev.pts += Number(r.pts ?? r["Pts"]) || 0;
-      prev.reb += Number(r.reb ?? r["Reb"]) || 0;
+      prev.twoPM += toNum(r.twoPM ?? r["2PM"]);
+      prev.twoPA += toNum(r.twoPA ?? r["2PA"]);
+      prev.threePM += toNum(r.threePM ?? r["3PM"]);
+      prev.threePA += toNum(r.threePA ?? r["3PA"]);
+      prev.ftM += toNum(r.ftM ?? r["FTM"]);
+      prev.ftA += toNum(r.ftA ?? r["FTA"]);
+      prev.pts += toNum(r.pts ?? r["Pts"]);
+      prev.reb += toNum(r.reb ?? r["Reb"]);
 
       agg.set(pid, prev);
     }
 
-    // Enrich player rows for display
     const playerRows = Array.from(agg.values()).map((r) => {
       const p = rosterById[r.playerID] || {};
       const pts = r.pts || 0;
@@ -299,7 +351,6 @@ module.exports = class BoxscorePages {
       };
     });
 
-    // Sort: jersey asc; fallback name
     playerRows.sort((a, c) => {
       const aj = Number(a.jersey);
       const cj = Number(c.jersey);
@@ -321,17 +372,14 @@ module.exports = class BoxscorePages {
     const has3pt = threeA > 0;
     const hasStats = rows.length > 0;
 
-    // Choose one: decimal (.451) is classic; swap to pctPercent if you prefer 45.1%
+    // choose decimal style
     const pct = pctDecimal;
 
-    // Relative links (boxscore pages live at /gwbb/boxscores/<id>/)
+    // Relative links
     const backToLwbbHref = "../../";
     const backToSeasonHref = `../../season/${seasonYearEnd}/`;
     const seasonDataHref = `../../data/${seasonYearEnd}.json`;
 
-    // -----------------------------
-    // RENDER (NO DUPLICATE HEADER)
-    // -----------------------------
     return `
 <header>
   <p class="kicker"><a href="${backToLwbbHref}">← Back to LWBB</a></p>
@@ -386,6 +434,16 @@ module.exports = class BoxscorePages {
               )
               .join("")}
           </tbody>
+          <tfoot>
+            <tr>
+              <th colspan="2">TEAM</th>
+              <th>${twoM}-${twoA} (${pct(twoM, twoA)})</th>
+              <th>${has3pt ? `${threeM}-${threeA} (${pct(threeM, threeA)})` : "—"}</th>
+              <th>${ftMade}-${ftAtt} (${pct(ftMade, ftAtt)})</th>
+              <th>—</th>
+              <th>${fgM * 2 + threeM + ftMade}</th>
+            </tr>
+          </tfoot>
         </table>
       </div>
       `
